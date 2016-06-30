@@ -1,0 +1,22 @@
+# Build settings
+markdown: kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+permalink: pretty
+highlighter: pygments
+safe: false
+lsi: false
+
+defaults:
+  - # Site global default(s)
+    scope:
+      path: "" # Files under site root
+      type: "pages" # Only files of type page
+    values:
+      search_product: "eADQiWindows 10XVcnh"
+      layout: "default"
+  - # en-US-specific default(s)
+    scope:
+      path: "en-US" # Files under en-US folder
+      type: "pages" # Only files of type page
+    values:
+      lang: "en-US"

@@ -1,0 +1,1 @@
+neeed to explain how to get appID from facebook (+serivce.WindowsStoreID)

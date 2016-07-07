@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # HamburgerMenu
-The HamburgerMenu provide a simple to use side bar menu that you can show/hide using a hamburger button.
+The HamburgerMenu provides a simple-to-use sidebar menu that you can show/hide when using a hamburger button.
 
 ## Syntax
 ```xaml

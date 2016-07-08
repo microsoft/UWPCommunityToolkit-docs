@@ -4,7 +4,7 @@ This Windows Application toolkit contains Controls, Services and other features 
 ## Workflow
 // Do we need to document how to install VS2015 and downloading the toolkit?//
 ## Controls 
-Controls are UI elements that can display content or create interaction. This toolkit has 12 controls, which are the building blocks of the application.  
+Controls are UI elements that display content or enable interaction. This toolkit has 12 controls, which are the building blocks of the application.  
 
 ## Services
 //Will add content 

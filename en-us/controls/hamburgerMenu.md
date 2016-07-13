@@ -34,59 +34,69 @@ The HamburgerMenu provides a simple-to-use sidebar menu that you can show or hid
 
 ## Default template
 ```xaml
-<Grid>
-    <SplitView x:Name="MainSplitView" OpenPaneLength="{TemplateBinding OpenPaneLength}" 
-        PanePlacement="{TemplateBinding PanePlacement}" DisplayMode="{TemplateBinding DisplayMode}" 
-        CompactPaneLength="{TemplateBinding CompactPaneLength}" PaneBackground="{TemplateBinding PaneBackground}" 
-        IsPaneOpen="{TemplateBinding IsPaneOpen}">
-        <SplitView.Pane>
-            <Grid x:Name="PaneGrid">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition Height="Auto"></RowDefinition>
-                </Grid.RowDefinitions>
-                <Grid Grid.Row="0" Height="{TemplateBinding HamburgerHeight}"></Grid>
-                <ListView Grid.Row="1" Name="ButtonsListView" ItemsSource="{TemplateBinding ItemsSource}" 
-                ItemTemplate="{TemplateBinding ItemTemplate}" IsItemClickEnabled="True"
-                        Width="{TemplateBinding OpenPaneLength}">
-                    <ListView.ItemContainerStyle>
-                        <Style TargetType="ListViewItem">
-                            <Setter Property="Padding" Value="0" />
-                        </Style>
-                    </ListView.ItemContainerStyle>
-                </ListView>
-
-                <Grid Grid.Row="2" Visibility="{TemplateBinding OptionsVisibility}">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"></RowDefinition>
-                        <RowDefinition></RowDefinition>
-                    </Grid.RowDefinitions>
-                    <Rectangle Height="1" Fill="{TemplateBinding Foreground}" Grid.Row="0"></Rectangle>
-
-                    <ListView Grid.Row="1" Name="OptionsListView" ItemsSource="{TemplateBinding OptionsItemsSource}" 
-                    ItemTemplate="{TemplateBinding OptionsItemTemplate}" IsItemClickEnabled="True"
-                        Width="{TemplateBinding OpenPaneLength}" VerticalAlignment="Bottom">
-                        <ListView.ItemContainerStyle>
-                            <Style TargetType="ListViewItem">
-                                <Setter Property="Padding" Value="0" />
-                            </Style>
-                        </ListView.ItemContainerStyle>
-                    </ListView>
-                </Grid>
-
+<Page
+    x:Class="Microsoft.Windows.Toolkit.SampleApp.SamplePages.HamburgerMenuPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.Windows.Toolkit.UI.Controls"
+    xmlns:data="using:Microsoft.Windows.Toolkit.SampleApp.Data"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <DataTemplate x:Key="ButtonTemplate" x:DataType="data:PhotoDataItem">
+            <Grid Width="240" Height="48">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="48"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Image Source="{x:Bind Thumbnail}" Stretch="UniformToFill" Margin="12,12,11,12"></Image>
+                <TextBlock Grid.Column="1" Text="{x:Bind Title}" Foreground="White" FontSize="16" VerticalAlignment="Center"></TextBlock>
             </Grid>
-        </SplitView.Pane>
-        <ContentPresenter Content="{TemplateBinding Content}" x:Name="ContentPart"></ContentPresenter>
-    </SplitView>
-    <Button Name="HamburgerButton" Padding="0" 
-    Width="{TemplateBinding HamburgerWidth}" Height="{TemplateBinding HamburgerHeight}" 
-    BorderThickness="0" VerticalAlignment="Top" Background="Transparent">
-        <FontIcon Margin="{TemplateBinding HamburgerMargin}" FontFamily="Segoe MDL2 Assets" Glyph="&#xE700;" 
-        Foreground="{TemplateBinding Foreground}" FontSize="{TemplateBinding HamburgerFontSize}"/>
-    </Button>
-</Grid>
+        </DataTemplate>
+
+        <DataTemplate x:Key="OptionTemplate">
+            <Grid Width="240" Height="48">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="48"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <FontIcon Grid.Column="0" Margin="12,12,11,12" FontFamily="Segoe MDL2 Assets" Glyph="{Binding Glyph}" Foreground="White" />
+                <TextBlock Grid.Column="1" Text="{Binding Name}" Foreground="White" FontSize="16" VerticalAlignment="Center"></TextBlock>
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="50" BorderThickness="1" BorderBrush="Black">
+        <controls:HamburgerMenu PaneBackground="Black" x:Name="HamburgerMenu"
+                                Foreground="White"
+                                ItemTemplate="{StaticResource ButtonTemplate}"
+                                OptionsItemTemplate="{StaticResource OptionTemplate}"
+                                ItemClick="HamburgerMenu_OnItemClick"
+                                OptionsItemClick="HamburgerMenu_OnOptionsItemClick"
+								OpenPaneLength="240"
+								DisplayMode="CompactInline"
+								CompactPaneLength="48"
+								HamburgerHeight="48"
+								IsPaneOpen="False"
+                                >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="48"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Border Background="Black" Grid.Row="0">
+                    <TextBlock x:Name="Header" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                </Border>
+                <Image x:Name="Image" Grid.Row="1"></Image>
+            </Grid>
+        </controls:HamburgerMenu>
+    </Grid>
+</Page>
 ```
+
+    
+
 
 ## Platforms
 

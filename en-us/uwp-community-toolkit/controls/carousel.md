@@ -7,7 +7,7 @@ defaultsearch.product:  eADQiWindows 10XVcnh
 ---
 
 # Carousel Menu
-The **Carousel Control** is a slideable application that lets developes add interactive navigation user interface to their applications, both vertically ad horiztonally. You can navigate through a list, add and remove items dynamically, smooth animations and transition.  
+The **Carousel Control** is a slideable application that lets developers add interactive navigation user interface to their applications, both vertically and horizontally. You can navigate through a list, add and remove items dynamically, smooth animations and transition.
  
 
 ## Syntax 
@@ -27,7 +27,7 @@ The **Carousel Control** is a slideable application that lets developes add inte
 
 ## Default Template 
 ```xaml
-/Grid>
+</Grid>
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <controls:Carousel
                 Name="control"

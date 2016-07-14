@@ -12,15 +12,15 @@ The **Carousel Control** is a slideable application that lets developes add inte
 
 ## Syntax 
 ```xaml
-<Page.Resources>
-        <DataTemplate x:Key="PhotosTemplate">
-            <Grid Background="White" BorderBrush="Black" BorderThickness="1">
-                <Image Source="{Binding Thumbnail}"
-                    Stretch="UniformToFill"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center"/>
-         ```
-
+<controls:Carousel
+                Name="control"
+                ContentTemplate="{StaticResource PhotosTemplate}"
+                MaxItems="{Binding MaxItems.Value}"
+                AspectRatio="{Binding AspectRatio.Value}"
+                MaxHeight="{Binding MaxHeight.Value}"
+                AlignmentX="{Binding AlignmentX.Value}"
+                GradientOpacity="{Binding GradientOpacity.Value}"/>
+```          
 
 ## Example
 

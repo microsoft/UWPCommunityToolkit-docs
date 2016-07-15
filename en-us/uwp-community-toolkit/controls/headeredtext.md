@@ -12,13 +12,12 @@ The **HeaderedText Control** is designed to provide a header for read-only text.
 
 ## Syntax
 ```xaml
-<?xml version="1.0" encoding="Windows-1252"?>
-<Grid>
-	<controls:HeaderedText Header="Name" 
-                                Text="UWP Toolkit" 
-                                Orientation="Vertical"
-								Margin="20,10,0,0" />
-</Grid>
+<Grid Background="{StaticResource Brush-Grey-05}">
+        <controls:HeaderedTextBlock Header="{Binding Header.Value, Mode=OneWay}" 
+                                    Text="{Binding Text.Value, Mode=OneWay}" 
+                                    Orientation="{Binding Orientation.Value, Mode=OneWay}"
+                                    Margin="20,10,0,0"/>
+    </Grid>
    ```
  
 ## Example
@@ -26,11 +25,12 @@ The **HeaderedText Control** is designed to provide a header for read-only text.
 
 ## Default Template
 ```xaml
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-        <Controls:HamburgerMenu Content="HamburgerMenu" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <Controls:HamburgerMenu Content="HamburgerMenu" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-
+  <Grid Background="{StaticResource Brush-Grey-05}">
+        <controls:HeaderedTextBlock Header="{Binding Header.Value, Mode=OneWay}" 
+                                    Text="{Binding Text.Value, Mode=OneWay}" 
+                                    Orientation="{Binding Orientation.Value, Mode=OneWay}"
+                                    Margin="20,10,0,0"/>
+        <controls:HeaderedTextBlock HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
     </Grid>
 ```
 

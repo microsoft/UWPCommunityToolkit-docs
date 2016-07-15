@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # ImageEx
-The **ImageEx** Control download images asynchronously showing a load indicator. Source images are then stored in the App local cache to preserve resources and load time. 
+The **ImageEx Control** download images asynchronously showing a load indicator. Source images are then stored in the App local cache to preserve resources and load time. 
 ImageEx also extends the default Image platform control improving performance. News images with text located at the bottom of the Bing page, are an example of ImaageEx.
 
 ## Syntax

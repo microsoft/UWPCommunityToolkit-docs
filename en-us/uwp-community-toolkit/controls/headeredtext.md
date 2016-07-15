@@ -1,21 +1,20 @@
 ---
-permalink: /en-US/controls/ HeaderedTextBlock.html
-title: HeaderedTextBlock
-description: This page describes the HeaderedTextBlock menu control
-keywords: windows, app, toolkit, headeredtextblock, menu
+permalink: /en-US/controls/ HeaderedText.html
+title: HeaderedText
+description: This page describes the HeaderedText menu control
+keywords: windows, app, toolkit, headeredtext, menu
 layout: default
-search.product: 
+search.product: eADQiWindows 10XVcnh
 ---
 
-# HeaderedTextBlock
-The **HeaderedTextBlock Control is designed to provide a header for read-only text. This control is useful for displaying read-only forms. 
-They can display content, or a collection or items depending on the type. 
+# HeaderedText
+The **HeaderedText Control** is designed to provide a header for read-only text. This control is useful for displaying read-only forms. They can display content, or a collection or items depending on the type. 
 
 ## Syntax
 ```xaml
 <?xml version="1.0" encoding="Windows-1252"?>
 <Grid>
-	<controls:HeaderedTextBlock Header="Name" 
+	<controls:HeaderedText Header="Name" 
                                 Text="UWP Toolkit" 
                                 Orientation="Vertical"
 								Margin="20,10,0,0" />
@@ -25,7 +24,7 @@ They can display content, or a collection or items depending on the type.
 ## Example
 
 
-## Default template
+## Default Template
 ```xaml
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
@@ -33,7 +32,7 @@ They can display content, or a collection or items depending on the type.
         <Controls:HamburgerMenu Content="HamburgerMenu" HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
     </Grid>
-```xaml
+```
 
 ## Platforms
 

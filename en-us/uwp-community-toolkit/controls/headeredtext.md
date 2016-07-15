@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # HeaderedText
-The **HeaderedText Control** is designed to provide a header for read-only text. This control is useful for displaying read-only forms. They can display content, or a collection or items depending on the type. 
+The **HeaderedText Control** is designed to provide a header for read-only text. This control is useful for displaying read-only forms, content, or a collection or items depending on the type. 
 
 ## Syntax
 ```xaml

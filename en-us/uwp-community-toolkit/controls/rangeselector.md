@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # RangeSelector
-The **RangeSelector" Control is a double slider used to set values. 
+The **RangeSelector** Control is a double slider used to set values. 
 
 ## Syntax
 ```xaml

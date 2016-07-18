@@ -16,14 +16,12 @@ The **ResponsiveGridView** Control presents content within a GridView to fill th
         Background="{Binding Color}"
         BorderBrush="{Binding Color}"
         BorderThickness="{Binding BorderThickness.Value}"
-				Image Source="{Binding Thumbnail}"
+	Image Source="{Binding Thumbnail}"
         Stretch="UniformToFill"
-            HorizontalAlignment="Center"
-            VerticalAlignment="Center"
-            Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+   	Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         Name="control"
-        ItemHeight="200"
-        DesiredWidth="300"
+        ItemHeight="{Binding Item.Value}"
+        DesiredWidth="{Binding Item.Value}"
         ItemTemplate="{StaticResource PhotosTemplate}"/>
 ```
 

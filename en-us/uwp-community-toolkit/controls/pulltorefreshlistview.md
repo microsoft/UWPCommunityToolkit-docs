@@ -14,7 +14,7 @@ The **PullToRefreshListView** Control, is derived from the built-in List View in
 ```xaml
         <controls:PullToRefreshListView Name="listView"
                                         ItemsSource="{x:Bind _items}"
-                                        OverscrollLimit="0.4"
+                                        OverscrollLimit="{Binding_OverscrollLimit.Value}
                                         PullThreshold="100"
                                         RefreshRequested="ListView_RefreshCommand"
                                         PullProgressChanged="ListView_PullProgressChanged">

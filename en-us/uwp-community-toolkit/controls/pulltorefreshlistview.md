@@ -18,7 +18,6 @@ The **PullToRefreshListView** Control, is derived from the built-in List View in
                                         PullThreshold="100"
                                         RefreshRequested="ListView_RefreshCommand"
                                         PullProgressChanged="ListView_PullProgressChanged">
-                                        
        <controls:PullToRefreshListView>
 ```
 

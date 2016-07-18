@@ -12,17 +12,6 @@ The **PullToRefreshListView** Control, is derived from the built-in List View in
 
 ## Syntax
 ```xaml
-<?xml version="1.0" encoding="Windows-1252"?>
-     x:Class="Microsoft.Windows.Toolkit.SampleApp.SamplePages.PullToRefreshListViewPage"
-     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-     xmlns:local="using:Microsoft.Windows.Toolkit.SampleApp.SamplePages"
-     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-     xmlns:controls="using:Microsoft.Windows.Toolkit.UI.Controls"
-     xmlns:data="using:Microsoft.Windows.Toolkit.SampleApp.Models"
-     mc:Ignorable="d">
-
         <controls:PullToRefreshListView Name="listView"
                                         ItemsSource="{x:Bind _items}"
                                         OverscrollLimit="0.4"

@@ -55,8 +55,7 @@ The **RadialGauge** Control displays a value in a certain range using a needle o
                                   ValueBrush="Black" 
 								  NeedleWidth="5" 
 								  TickLength="18" />
-        </Grid>
-    </Grid>
+      </Grid>
 ```
 
 ## Platforms

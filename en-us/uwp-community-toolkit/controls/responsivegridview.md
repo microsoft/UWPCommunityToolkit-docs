@@ -12,8 +12,7 @@ The **ResponsiveGridView** Control presents content within a GridView to fill th
 
 ## Syntax
 ```xaml
-<controls:ResponsiveGridView 
-      x:Key="PhotosTemplate">
+<controls:ResponsiveGridView  x:Key="PhotosTemplate">
         Background="{Binding Color}"
         BorderBrush="{Binding Color}"
         BorderThickness="{Binding BorderThickness.Value}"

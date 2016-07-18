@@ -1,8 +1,8 @@
 ---
-permalink: /en-US/controls/ScaleBehavior.html
+permalink: /en-US/behaviors/ScaleBehavior.html
 title: ScaleBehavior
 description: This page describes the ScaleBehavior behavior
-keywords: windows, app, toolkit, ScaleBehavior, menu
+keywords: windows, app, toolkit, ScaleBehavior, behavior
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---

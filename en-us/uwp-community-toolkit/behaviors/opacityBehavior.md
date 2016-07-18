@@ -1,8 +1,8 @@
 ---
-permalink: /en-US/controls/OpacityBehavior.html
+permalink: /en-US/behaviors/OpacityBehavior.html
 title: OpacityBehavior
 description: This page describes the OpacityBehavior behavior
-keywords: windows, app, toolkit, OpacityBehavior, menu
+keywords: windows, app, toolkit, OpacityBehavior, behavior
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---

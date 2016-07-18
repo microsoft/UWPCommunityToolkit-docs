@@ -13,13 +13,13 @@ The **RangeSelector** Control is a double slider used to set values.
 ## Syntax
 ```xaml
 </Grid.ColumnDefinitions>
-            <controls:RangeSelector x:Name="RangeSelector" Grid.Column="1"
+            <controls:RangeSelector x:Name="RangeSelector" 
+            	 Grid.Column="1"
                  Minimum="0" 
-                 Maximum="100">
-            </controls:RangeSelector>
-            <TextBlock Grid.Column="2" 
-					Text="{Binding RangeMax, ElementName=RangeSelector, Converter={StaticResource StringFormatConverter}, ConverterParameter='{}{0:0.##}'}"
-                    Foreground="Black"></TextBlock>
+                 Maximum="100"
+        	 Grid.Column="2" 
+		 Text="{Binding RangeMax, ElementName=RangeSelector, Converter={StaticResource StringFormatConverter}, ConverterParameter='{}{0:0.##}'}"
+                 Foreground="Black"></TextBlock>
         </Grid>
 ```
         

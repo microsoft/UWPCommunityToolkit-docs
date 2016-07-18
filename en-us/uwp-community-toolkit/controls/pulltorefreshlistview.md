@@ -1,14 +1,14 @@
 ---
 permalink: /en-US/controls/pulltorefreshlistview.html
-title: PullToRefreshListview
-description: This page describes the PullToRefreshListview menu control
+title: PullToRefreshListView
+description: This page describes the PullToRefreshListView menu control
 keywords: windows, app, toolkit, menu
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# PullToRefreshListview
-
+# PullToRefreshListView
+The **PullToRefreshListView** Control, is derived from the built-in List View in UWP. This action lets the user pull down beyond the top limit on the listview in order to trigger a refresh. 
 
 ## Syntax
 ```xaml
@@ -34,7 +34,7 @@ search.product: eADQiWindows 10XVcnh
 ```
 
 ## Example
-The **PullToRefreshListview** Control, is derived from the built-in List View in UWP. This action lets the user pull down beyond the top limit on the listview to trigger a refresh. 
+
 
 ## Default Template
 ```xaml

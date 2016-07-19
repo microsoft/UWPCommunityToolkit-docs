@@ -8,33 +8,25 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # ImageEx
-The **ImageEx Control** download images asynchronously showing a load indicator. Source images are then stored in the App local cache to preserve resources and load time. 
-ImageEx also extends the default Image platform control improving performance. News images with text located at the bottom of the Bing page, are an example of ImaageEx.
+The **ImageEx Control** download images asynchronously showing a load indicator. Source images are then stored in the Application's local cache to preserve resources and load time. ImageEx also extends the default *Image Platform* control, to improve performance. 
 
 ## Syntax
 ```xaml
-  <DataTemplate x:Key="PhotoTemplate">
-            <Grid BorderBrush="Black" BorderThickness="1" Background="Black">
-                <controls:ImageEx
-                    IsCacheEnabled="True"
-                    Source="{Binding Thumbnail}"
-                    Stretch="UniformToFill"
-                    PlaceholderSource="/Assets/Photos/ImageExPlaceholder.jpg"
-                    PlaceholderStretch="UniformToFill"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center"/>  
-                <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Center"
-                           Text="{Binding Title}" FontSize="16"
-                           TextWrapping="Wrap" Foreground="White" />
-            </Grid>
+ <controls:VariableSizedGridView Name="ImageExControlName"
+            Margin="0"
+            ItemTemplate="{StaticResource PhotoTemplate}"
+            Orientation="Horizontal"
+            MaximumRowsOrColumns="6"
+            AspectRatio="1"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"/>
 ```
 
 ## Example
 
 ## Default Template
 ```xaml
- <Page.Resources>
-        <DataTemplate x:Key="PhotoTemplate">
+<DataTemplate x:Key="PhotoTemplate">
             <Grid BorderBrush="Black" BorderThickness="1">
                 <controls:ImageEx
 					IsCacheEnabled="True"
@@ -49,9 +41,8 @@ ImageEx also extends the default Image platform control improving performance. N
         </DataTemplate>
     </Page.Resources>
 
-    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-        <controls:VariableSizedGridView
-            Name="control"
+    <Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <controls:VariableSizedGridView  Name="ImageExControlName"
             Margin="0"
             ItemTemplate="{StaticResource PhotoTemplate}"
             Orientation="Horizontal"
@@ -59,8 +50,8 @@ ImageEx also extends the default Image platform control improving performance. N
             AspectRatio="1"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"/>
-    </Grid>
-</Page>
+ 
+
 ```
 
 ## Platforms

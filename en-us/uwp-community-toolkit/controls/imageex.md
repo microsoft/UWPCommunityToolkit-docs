@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # ImageEx
-The **ImageEx Control** download images asynchronously showing a load indicator. Source images are then stored in the Application's local cache to preserve resources and load time. ImageEx also extends the default *Image Platform* control, to improve performance. 
+The **ImageEx Control** downloads images asynchronously showing a load indicator. Source images are then stored in the Application's local cache to preserve resources and load time. ImageEx also extends the default *Image Platform* control, to improve performance. 
 
 ## Syntax
 ```xaml
@@ -20,6 +20,7 @@ The **ImageEx Control** download images asynchronously showing a load indicator.
             AspectRatio="1"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"/>
+  </controls:VariableSizedGridView Name="ImageExControlName/>
 ```
 
 ## Example
@@ -27,9 +28,9 @@ The **ImageEx Control** download images asynchronously showing a load indicator.
 ## Default Template
 ```xaml
 <DataTemplate x:Key="PhotoTemplate">
-            <Grid BorderBrush="Black" BorderThickness="1">
+            <BorderBrush="Black" BorderThickness="1">
                 <controls:ImageEx
-					IsCacheEnabled="True"
+		    IsCacheEnabled="True"
                     Source="{Binding Thumbnail}"
                     Stretch="UniformToFill"
                     HorizontalAlignment="Center"
@@ -37,12 +38,11 @@ The **ImageEx Control** download images asynchronously showing a load indicator.
                 <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Center"
                            Text="{Binding Title}" FontSize="16"
                            TextWrapping="Wrap" Foreground="White"></TextBlock>
-            </Grid>
-        </DataTemplate>
-    </Page.Resources>
-
+ </DataTemplate>
+  
     <Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-        <controls:VariableSizedGridView  Name="ImageExControlName"
+    
+  <controls:VariableSizedGridView  Name="ImageExControlName"
             Margin="0"
             ItemTemplate="{StaticResource PhotoTemplate}"
             Orientation="Horizontal"
@@ -50,8 +50,7 @@ The **ImageEx Control** download images asynchronously showing a load indicator.
             AspectRatio="1"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"/>
- 
-
+  </controls:VariableSizedGridView  Name="ImageExControlName"/>
 ```
 
 ## Platforms

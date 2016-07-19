@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # HamburgerMenu
-The **HamburgerMenu Control** provides a user-friently side bar menu that you can show or hide using a hamburger button.
+The **Hamburger Menu Control** provides a user-friently side bar menu that you can show or hide using a hamburger button.
 
 ## Syntax
 ```xaml
@@ -63,8 +63,7 @@ The **HamburgerMenu Control** provides a user-friently side bar menu that you ca
 								DisplayMode="CompactInline"
 								CompactPaneLength="48"
 								HamburgerHeight="48"
-								IsPaneOpen="False"
-                                >
+								IsPaneOpen="False">
         
                 <Grid.RowDefinitions>
                     <RowDefinition Height="48"></RowDefinition>

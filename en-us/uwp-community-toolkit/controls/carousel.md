@@ -26,15 +26,14 @@ The **Carousel Control** is a slideable application that lets developers add int
 
 ## Default Template 
 ```xaml
-    <Page.Resources>
-        <DataTemplate Grid x:Key="PhotosTemplate">
+        <DataTemplate x:Key="PhotosTemplate">
             <Background="White" BorderBrush="Black" BorderThickness="1">
                 <Image Source="{Binding Thumbnail}"
                     Stretch="UniformToFill"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"/>
         </DataTemplate>
-    </Page.Resources>
+
 
     <Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <controls:Carousel  Name="CarouselControlName"

@@ -12,7 +12,7 @@ The **RadialGauge Control** displays a value in a certain range using a needle o
 
 ## Syntax
 ```xaml
-  <controls:RadialGauge x:Name="RadialGauge"
+  <controls:RadialGauge x:Name="RadialGaugeName"
                                   Grid.Column="1"
                                   Value="@[Value:Slider:0:0-180]"
                                   Minimum="0"
@@ -25,7 +25,7 @@ The **RadialGauge Control** displays a value in a certain range using a needle o
                                   UnitBrush="Black"
                                   ValueBrush="Black" 
 					NeedleWidth="@[NeedleWidth:Slider:5:1-10]" 
-				       TickLength="@[TickLength:Slider:18:4-30]" />
+				       TickLength="@[TickLength:Slider:18:4-30]"/>
  </controls:RadialGauge/>
 ```
 ## Example
@@ -53,8 +53,8 @@ The **RadialGauge Control** displays a value in a certain range using a needle o
                                   UnitBrush="Black"
                                   ValueBrush="Black" 
 					NeedleWidth="5" 
-					 TickLength="18" />
-		</controls:RadialGauge/>
+					 TickLength="18"/>
+	   </controls:RadialGauge/>
 ```
 
 ## Platforms

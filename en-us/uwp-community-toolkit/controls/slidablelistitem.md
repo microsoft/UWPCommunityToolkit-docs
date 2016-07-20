@@ -32,7 +32,6 @@ The **SlideableListItem** Control enables actions to be triggled by sliding the 
 
 ## Default Template
 ```xaml
-<DataTemplate x:Key="EmailsItemTemplate" x:DataType="data:Item">
             <controls:SlidableListItem HorizontalAlignment="Stretch"
                                        LeftIcon="Favorite" 
                                        RightIcon="Delete" 
@@ -54,13 +53,12 @@ The **SlideableListItem** Control enables actions to be triggled by sliding the 
                 </Grid>
             </controls:SlidableListItem>
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <ListView x:Name="listView" ItemTemplate="{StaticResource EmailsItemTemplate}" ItemsSource="{x:Bind _items, Mode=OneWay}" SelectionMode="None" IsItemClickEnabled="False">
             <ListView.ItemContainerStyle>
                 <Style TargetType="ListViewItem">
                     <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
                     <Setter Property="Margin" Value="0,1"></Setter>
-                </Style>
             </ListView.ItemContainerStyle>
 ```
 

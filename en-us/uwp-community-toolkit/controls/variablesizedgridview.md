@@ -13,43 +13,32 @@ You can control the number of rows and columns, as well as orientation and aspec
 
 ## Syntax
 ```xaml
-<controls:VariableSizedGridView  x:Key="PhotoTemplate">
-                 BorderBrush="Black"
-                 BorderThickness="{Binding BorderThickness.Value}"
-                 Image Source="{Binding Thumbnail}"
-                 Stretch= "{UniformToFill}"
-                 Grid Background= "{LightGray}"
-                 Name="control"
-                 Margin="0"
-                 ItemTemplate="{StaticResource PhotoTemplate}"
-                 Orientation="{Horizontal or Vertical}"
-                 MaximumRowsOrColumns="{Binding MaximumRowsOrColumns}" 
-```
+      <controls:VariableSizedGridView   Name="VariableSizedGridViewControl"
+            Margin="0"
+            ItemTemplate="{StaticResource PhotoTemplate}"
+            Orientation="@[Orientation:Enum:Orientation.Horizontal]"
+            MaximumRowsOrColumns="@[MaximumRowsOrColumns:Slider:4:1-10]"  
 
 ## Example 
 
 ## Default Template
 ```xaml
-        <DataTemplate x:Key="PhotoTemplate">
-            <Grid
+<DataTemplate x:Key="PhotoTemplate">
                 BorderBrush="Black"
                 BorderThickness="1">
                 <Image Source="{Binding Thumbnail}"
                     Stretch="UniformToFill"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"/>
-            </Grid>
         </DataTemplate>
 
-	<Grid Background="LightGray">
+	< Background="LightGray">
         <controls:VariableSizedGridView
-            Name="control"
+            Name="VariableSizedGridViewControl"
             Margin="0"
             ItemTemplate="{StaticResource PhotoTemplate}"
             Orientation="Horizontal"
-            MaximumRowsOrColumns="4"            
-		/>
-    </Grid>
+            MaximumRowsOrColumns="4"/>           
 ```
 
 ## Platforms 

@@ -1,26 +1,25 @@
 ---
-permalink: /en-US/controls/ImageEx.html
-title: ImageEx
-description: This page describes the ImageEx menu control
-keywords: windows, app, toolkit, ImageEx, menu
+permalink: /en-US/controls/rangeselector.html
+title: RangeSelector
+description: This page describes the RangeSelector menu control
+keywords: windows, app, toolkit, IRangeSelector, menu
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
 # RangeSelector
-The **RangeSelector** Control is a double slider used to set values. 
+The **RangeSelector** Control is a *Double Slider* control that allows the user to select a sub-range of values from a larger range of possible values. 
 
 ## Syntax
 ```xaml
-</Grid.ColumnDefinitions>
-            <controls:RangeSelector x:Name="RangeSelector" 
-            	 Grid.Column="1"
-                 Minimum="0" 
-                 Maximum="100"
-        	 Grid.Column="2" 
-		 Text="{Binding RangeMax, ElementName=RangeSelector, Converter={StaticResource StringFormatConverter}, ConverterParameter='{}{0:0.##}'}"
-                 Foreground="Black"></TextBlock>
-        </Grid>
+<controls:RangeSelector x:Name="RangeSelectorName" Grid.Column="1"
+                 Minimum="@[Minimum:Slider:0:0-100]" 
+                 Maximum="@[Maximum:Slider:100:0-100]">
+            </controls:RangeSelector>
+            <TextBlock Grid.Column="2" 
+					Text="{Binding RangeMax, ElementName=RangeSelector, Converter={StaticResource StringFormatConverter}, ConverterParameter='{}{0:0.##}'}"
+                    Foreground="Black"></TextBlock/>
+        <controls:RangeSelector/>
 ```
         
 
@@ -28,11 +27,7 @@ The **RangeSelector** Control is a double slider used to set values.
 
 ## Default Template
 ```xaml
-<Page.Resources>
-        <converters:StringFormatConverter x:Key="StringFormatConverter"/>
-    </Page.Resources>
-
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+<Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="50"></ColumnDefinition>
@@ -49,10 +44,8 @@ The **RangeSelector** Control is a double slider used to set values.
             <TextBlock Grid.Column="2" 
 					Text="{Binding RangeMax, ElementName=RangeSelector, Converter={StaticResource StringFormatConverter}, ConverterParameter='{}{0:0.##}'}"
                     Foreground="Black"></TextBlock>
-        </Grid>
-        
-    </Grid>
-</Page>
+
+
     
 ```
 

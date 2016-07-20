@@ -23,7 +23,7 @@ You can control the number of rows, columns, orientation and aspect ratios.
 
 ## Default Template
 ```xaml
-<DataTemplate x:Key="PhotoTemplate">
+<DataTemplate x:Key="PhotoTemplate"
                 BorderBrush="Black"
                 BorderThickness="1">
                 <Image Source="{Binding Thumbnail}"

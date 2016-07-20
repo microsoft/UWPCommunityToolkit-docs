@@ -12,19 +12,20 @@ The **SlideableListItem** Control enables actions to be triggled by sliding the 
 
 ## Syntax
 ```xaml
-    <controls:SlidableListItem HorizontalAlignment="Stretch"
-                                       LeftIcon="@[LeftIcon:Enum:Symbol.Favorite]" 
-                                       RightIcon="@[RightIcon:Enum:Symbol.Delete]" 
-                                       LeftLabel="@[LeftLabel:String:Set Favorite]" 
-                                       RightLabel="@[RightLabel:String:Delete]"
-                                       LeftBackground="@[LeftBackground:Brush:Green]" 
-                                       RightBackground="@[RightBackground:Brush:Red]"
-                                       LeftForeground ="@[LeftForeground:Brush:White]" 
-                                       RightForeground ="@[RightForeground:Brush:Black]"
-                                       ActivationWidth="@[ActivationWidth:Slider:100:50-250]"
-                                       MouseSlidingEnabled="@[MouseSlidingEnabled:Bool:true]"
-                                       LeftCommand="{x:Bind ToggleFavorite}"
-                                       RightCommandRequested="SlidableListItem_RightCommandActivated">
+    <controls:SlidableListItem 
+                    HorizontalAlignment="Stretch"
+                    LeftIcon="@[LeftIcon:Enum:Symbol.Favorite]" 
+                    RightIcon="@[RightIcon:Enum:Symbol.Delete]" 
+                    LeftLabel="@[LeftLabel:String:Set Favorite]" 
+                    RightLabel="@[RightLabel:String:Delete]"
+                    LeftBackground="@[LeftBackground:Brush:Green]" 
+                    RightBackground="@[RightBackground:Brush:Red]"
+                    LeftForeground ="@[LeftForeground:Brush:White]" 
+                    RightForeground ="@[RightForeground:Brush:Black]"
+                    ActivationWidth="@[ActivationWidth:Slider:100:50-250]"
+                    MouseSlidingEnabled="@[MouseSlidingEnabled:Bool:true]"
+                    LeftCommand="{x:Bind ToggleFavorite}"
+                    RightCommandRequested="SlidableListItem_RightCommandActivated">
          </controls:SlidableListItem>         
 ```
 

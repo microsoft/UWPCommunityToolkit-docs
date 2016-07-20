@@ -8,21 +8,15 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # ResponsiveGridView
-The **ResponsiveGridView** Control presents content within a GridView to fill the total available display space. It reacts to changes in the layout, as well as content so it can adapt to different form factors automatically.
+The **ResponsiveGridView** Control presents content within a *Grid View* to fill the total available display space. It reacts to changes in both content and the layout, so it can adapt to different form factors automatically.
 
 ## Syntax
 ```xaml
-<controls:ResponsiveGridView  x:Key="PhotosTemplate">
-        Background="{Binding Color}"
-        BorderBrush="{Binding Color}"
-        BorderThickness="{Binding BorderThickness.Value}"
-        Image Source="{Binding Thumbnail}"
-        Stretch="UniformToFill"
-        Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        Name="control"
-        ItemHeight="{Binding Item.Value}"
-        DesiredWidth="{Binding Item.Value}"
-        ItemTemplate="{StaticResource PhotosTemplate}"/>
+<controls:ResponsiveGridView  Name="ResponsiveGridViewControlName"
+          ItemHeight="@[ItemHeight:Slider:200:50-500]"
+          DesiredWidth="@[DesiredWidth:Slider:300:50-500]"
+          ItemTemplate="{StaticResource PhotosTemplate}"/>
+   </controls:ResponsiveGridView>
 ```
 
 ## Example
@@ -30,24 +24,23 @@ The **ResponsiveGridView** Control presents content within a GridView to fill th
 ## Default Template
 ```xaml
 <DataTemplate x:Key="PhotosTemplate">
-			<Grid
-        Background="White"
+	<Background="White"
         BorderBrush="Black"
         BorderThickness="1">
-				<Image
-            Source="{Binding Thumbnail}"
+	<Image Source="{Binding Thumbnail}"
             Stretch="UniformToFill"
             HorizontalAlignment="Center"
             VerticalAlignment="Center"/>
-			</Grid>
-		</DataTemplate>
+</DataTemplate>
+
 	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-		<controls:ResponsiveGridView
-          Name="control"
+	<contrls:ResponsiveGridView   
+	  Name="ResponsiveGridViewcontrolName"
           ItemHeight="200"
           DesiredWidth="300"
           ItemTemplate="{StaticResource PhotosTemplate}"/>
-	</Grid>
+        </controls:ResponsiveGridView>
+         
 	```
 
 ## Platforms

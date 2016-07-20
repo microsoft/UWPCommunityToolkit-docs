@@ -39,7 +39,6 @@ The **ResponsiveGridView** Control presents content within a *Grid View* to fill
           ItemHeight="200"
           DesiredWidth="300"
           ItemTemplate="{StaticResource PhotosTemplate}"/>
-        </controls:ResponsiveGridView>
 ```
 
 ## Platforms

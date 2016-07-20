@@ -9,7 +9,7 @@ search.product: eADQiWindows 10XVcnh
 
 # VariableSizedGridView
 The **VariableSizedGridView** Control displays items that have different width and heighth values. 
-You can control the number of rows and columns, as well as orientation and aspect rations. 
+You can control the number of rows, columns, orientation and aspect ratios. 
 
 ## Syntax
 ```xaml

@@ -12,7 +12,7 @@ The **Hamburger Menu Control** provides an easy-to-use, side-bar menu which user
 
 ## Syntax
 ```xaml
-<controls:HamburgerMenu PaneBackground="@[PaneBackground:Brush:Black]" x:Name="HamburgerMenuControl"
+<controls:HamburgerMenu PaneBackground="@[PaneBackground:Brush:Black]" x:Name="HamburgerMenuName"
                 Foreground="White"
                 ItemTemplate="{StaticResource ButtonTemplate}"
                 OptionsItemTemplate="{StaticResource OptionTemplate}"
@@ -22,7 +22,7 @@ The **Hamburger Menu Control** provides an easy-to-use, side-bar menu which user
 					DisplayMode="@[DisplayMode:Enum:SplitViewDisplayMode.CompactInline]"
 					CompactPaneLength="@[CompactPaneLength:Slider:48:10-80]"
 					HamburgerHeight="@[HamburgerHeight:Slider:48:10-80]"
-					IsPaneOpen="@[IsPaneOpen:Bool:False]"">
+					IsPaneOpen="@[IsPaneOpen:Bool:False]"
 </controls:HamburgerMenu>
 ```
 
@@ -74,7 +74,6 @@ The **Hamburger Menu Control** provides an easy-to-use, side-bar menu which user
                 </Border>
                 <Image x:Name="Image" Grid.Row="1"></Image>
         </controls:HamburgerMenu>
-    
 ```
 
 ## Platforms

@@ -2,7 +2,7 @@
 permalink: /en-US/controls/rangeselector.html
 title: RangeSelector
 description: This page describes the RangeSelector menu control
-keywords: windows, app, toolkit, IRangeSelector, menu
+keywords: windows, app, toolkit, RangeSelector, menu
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
@@ -18,8 +18,8 @@ The **RangeSelector** Control is a *Double Slider* control that allows the user 
             </controls:RangeSelector>
             <TextBlock Grid.Column="2" 
 					Text="{Binding RangeMax, ElementName=RangeSelector, Converter={StaticResource StringFormatConverter}, ConverterParameter='{}{0:0.##}'}"
-                    Foreground="Black"></TextBlock/>
-        <controls:RangeSelector/>
+                    Foreground="Black"></TextBlock>
+        <controls:RangeSelector>
 ```
         
 
@@ -28,7 +28,7 @@ The **RangeSelector** Control is a *Double Slider* control that allows the user 
 ## Default Template
 ```xaml
 <Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+            <VerticalAlignment="Center" HorizontalAlignment="Center">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="50"></ColumnDefinition>
                 <ColumnDefinition Width="250"></ColumnDefinition>
@@ -44,9 +44,6 @@ The **RangeSelector** Control is a *Double Slider* control that allows the user 
             <TextBlock Grid.Column="2" 
 					Text="{Binding RangeMax, ElementName=RangeSelector, Converter={StaticResource StringFormatConverter}, ConverterParameter='{}{0:0.##}'}"
                     Foreground="Black"></TextBlock>
-
-
-    
 ```
 
 ## Platforms 

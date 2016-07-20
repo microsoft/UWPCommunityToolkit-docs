@@ -46,12 +46,11 @@ The **SlideableListItem** Control enables actions to be triggled by sliding the 
                                        MouseSlidingEnabled="True"
                                        LeftCommand="{x:Bind ToggleFavorite}"
                                        RightCommandRequested="SlidableListItem_RightCommandActivated">
-                <Grid Height="110" Background="Gray">
+                <Height="110" Background="Gray">
                     <StackPanel Grid.Column="1" Margin="10,0,0,0">
                         <CheckBox IsChecked="{x:Bind IsFavorite, Mode=OneWay}"></CheckBox>
                         <TextBlock Text="{x:Bind Title}" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="NoWrap"/>
                     </StackPanel>
-                </Grid>
             </controls:SlidableListItem>
 
     <Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">

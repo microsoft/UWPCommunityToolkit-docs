@@ -12,33 +12,31 @@ The **SlideableListItem** Control enables actions to be triggled by sliding the 
 
 ## Syntax
 ```xaml
-  <controls:SlidableListItem HorizontalAlignment="Stretch"
-                                       LeftIcon="Favorite" 
-                                       RightIcon="Delete" 
-                                       LeftLabel="Set Favorite" 
-                                       RightLabel="Delete"
-                                       LeftBackground="Green" 
-                                       RightBackground="Red"
-                                       LeftForeground ="White" 
-                                       RightForeground ="Black"
-                                       ActivationWidth="100"
-                                       MouseSlidingEnabled="True"
+    <controls:SlidableListItem HorizontalAlignment="Stretch"
+                                       LeftIcon="@[LeftIcon:Enum:Symbol.Favorite]" 
+                                       RightIcon="@[RightIcon:Enum:Symbol.Delete]" 
+                                       LeftLabel="@[LeftLabel:String:Set Favorite]" 
+                                       RightLabel="@[RightLabel:String:Delete]"
+                                       LeftBackground="@[LeftBackground:Brush:Green]" 
+                                       RightBackground="@[RightBackground:Brush:Red]"
+                                       LeftForeground ="@[LeftForeground:Brush:White]" 
+                                       RightForeground ="@[RightForeground:Brush:Black]"
+                                       ActivationWidth="@[ActivationWidth:Slider:100:50-250]"
+                                       MouseSlidingEnabled="@[MouseSlidingEnabled:Bool:true]"
                                        LeftCommand="{x:Bind ToggleFavorite}"
                                        RightCommandRequested="SlidableListItem_RightCommandActivated">
-                                       Grid Height="110" Background="Gray"
-                                       StackPanel Grid.Column="1" Margin="10,0,0,0"
-                                       CheckBox IsChecked="{x:Bind IsFavorite, Mode=OneWay}
-
+         </controls:SlidableListItem>         
+```
 
 ## Example
 
 ## Default Template
 ```xaml
-        <DataTemplate x:Key="EmailsItemTemplate" x:DataType="data:Item">
+<DataTemplate x:Key="EmailsItemTemplate" x:DataType="data:Item">
             <controls:SlidableListItem HorizontalAlignment="Stretch"
                                        LeftIcon="Favorite" 
                                        RightIcon="Delete" 
-                                       LeftLabel="Set Favourite" 
+                                       LeftLabel="Set Favorite" 
                                        RightLabel="Delete"
                                        LeftBackground="Green" 
                                        RightBackground="Red"
@@ -55,7 +53,7 @@ The **SlideableListItem** Control enables actions to be triggled by sliding the 
                     </StackPanel>
                 </Grid>
             </controls:SlidableListItem>
-        </DataTemplate>
+
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <ListView x:Name="listView" ItemTemplate="{StaticResource EmailsItemTemplate}" ItemsSource="{x:Bind _items, Mode=OneWay}" SelectionMode="None" IsItemClickEnabled="False">
             <ListView.ItemContainerStyle>
@@ -64,9 +62,7 @@ The **SlideableListItem** Control enables actions to be triggled by sliding the 
                     <Setter Property="Margin" Value="0,1"></Setter>
                 </Style>
             </ListView.ItemContainerStyle>
-        </ListView>
-    </Grid>
-    ```
+```
 
 
 ## Platforms 

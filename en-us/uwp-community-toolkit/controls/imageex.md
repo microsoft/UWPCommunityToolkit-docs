@@ -1,8 +1,8 @@
 ---
 permalink: /en-US/controls/ImageEx.html
 title: ImageEx
-description: This page describes the ImageEx menu control
-keywords: windows, app, toolkit, ImageEx, menu
+description: This page describes the ImageEx control
+keywords: windows, app, toolkit, ImageEx, loading indicator
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
@@ -20,7 +20,7 @@ The **ImageEx Control** downloads images asynchronously showing a load indicator
             AspectRatio="1"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"/>
-  </controls:VariableSizedGridView Name="ImageExControlName/>
+  </controls:VariableSizedGridView/>
 ```
 
 ## Example
@@ -50,7 +50,7 @@ The **ImageEx Control** downloads images asynchronously showing a load indicator
             AspectRatio="1"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"/>
-  </controls:VariableSizedGridView  Name="ImageExControlName"/>
+  </controls:VariableSizedGridView/>
 ```
 
 ## Platforms

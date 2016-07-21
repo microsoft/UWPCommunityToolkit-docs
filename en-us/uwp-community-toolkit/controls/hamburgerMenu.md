@@ -12,7 +12,7 @@ The **Hamburger Menu Control** provides an easy-to-use, side-bar menu which user
 
 ## Syntax
 ```xaml
-<controls:HamburgerMenu PaneBackground="@[PaneBackground:Brush:Black]" x:Name="HamburgerMenuName"
+<controls:HamburgerMenu PaneBackground="@[PaneBackground:Brush:Black]" x:Name="HamburgerMenuControl"
                 Foreground="White"
                 ItemTemplate="{StaticResource ButtonTemplate}"
                 OptionsItemTemplate="{StaticResource OptionTemplate}"

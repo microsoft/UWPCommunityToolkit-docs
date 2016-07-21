@@ -12,7 +12,7 @@ The **Carousel Control** is a slideable application that lets developers add int
 
 ## Syntax 
 ```xaml
- <controls:Carousel Name="CarouselControlName"
+ <controls:Carousel Name="carouselControl.ItemSource="
                 ContentTemplate="{StaticResource PhotosTemplate}"
                 MaxItems="@[MaxItems:Slider:6:1-10]"
                 AspectRatio="@[AspectRatio:DoubleSlider:0.6:0.25-2.0]"
@@ -36,7 +36,7 @@ The **Carousel Control** is a slideable application that lets developers add int
 
 
     <Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <controls:Carousel  Name="CarouselControlName"
+        <controls:Carousel  Name="carouselControl.ItemSource="
                 ContentTemplate="{StaticResource PhotosTemplate}"
                 MaxItems="6"
                 AspectRatio="0.6"

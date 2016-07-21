@@ -2,17 +2,17 @@
 permalink: /en-US/controls/carousel.html
 title: Carousel
 description: This page describes the Carousel control
-Keywords: carousel, menu, control, image, windows, applicaiton
+Keywords: carousel, menu, control, image, windows, application
 defaultsearch.product:  eADQiWindows 10XVcnh 
 ---
 
 # Carousel Menu
-The **Carousel Control** is a slideable application that lets developers add interactive navigation UI to their applications. You can navigate through a list, add and remove items dynamically, smooth animations and create vertical and hortizontal transitions. 
+The **Carousel Control** is a slideable application that lets developers add interactive navigation UI to their applications. You can navigate through a list, add and remove items dynamically, smooth animations and create vertical and horizontal transitions. 
  
 
 ## Syntax 
 ```xaml
- <controls:Carousel Name="carouselControl.ItemSource="
+ <controls:Carousel Name="carouselControl"
                 ContentTemplate="{StaticResource PhotosTemplate}"
                 MaxItems="@[MaxItems:Slider:6:1-10]"
                 AspectRatio="@[AspectRatio:DoubleSlider:0.6:0.25-2.0]"
@@ -36,7 +36,7 @@ The **Carousel Control** is a slideable application that lets developers add int
 
 
     <Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <controls:Carousel  Name="carouselControl.ItemSource="
+        <controls:Carousel  Name="carouselControl"
                 ContentTemplate="{StaticResource PhotosTemplate}"
                 MaxItems="6"
                 AspectRatio="0.6"

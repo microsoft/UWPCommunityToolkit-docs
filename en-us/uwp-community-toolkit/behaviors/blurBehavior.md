@@ -43,6 +43,9 @@ The **Blur Behavior** selectively blurs an image by incfreasing or decreasing pi
                 </interactivity:Interaction.Behaviors>
             </Button>
         </StackPanel>
+ 
+ C#
+ToolkitLogo.Blur(duration: 10, delay: 0, blurAmount: 10);       
 ```
 
 ## Platforms

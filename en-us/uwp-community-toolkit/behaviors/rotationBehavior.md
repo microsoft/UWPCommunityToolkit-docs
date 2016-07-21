@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # ROTATION
-The **Rotation Behanior** analyzes the body axis' oriantation. The user defines what a rotation is by configuring classes. Parameters are: Summed up angel values, time, pause between rotations, duration, and diameter.
+The **Rotation Behanior** analyzes the body axis orientation. The user defines what a rotation is by configuring classes. Parameters are: summed up angle values, time, pause delay, duration, and diameter.
 
 ## Syntax
 ```xaml

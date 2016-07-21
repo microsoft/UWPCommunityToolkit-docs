@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # OPACITY
-
+The **Opacity Behavior** fades objects in and out over time. 
 ## Syntax
 ```xaml
  <behaviors:Opacity x:Name="Opacity" 
@@ -42,7 +42,9 @@ Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
                 </interactivity:Interaction.Behaviors>
             </Button>
         </StackPanel>
-
+        
+C#
+MyRectangle.Opacity(Duration, Delay, (float)Value);
 ```
 
 ## Platforms

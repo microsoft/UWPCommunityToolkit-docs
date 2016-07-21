@@ -49,6 +49,15 @@ The **Offset** Behavior gets the number of pixels that the snapline is offset fr
                 </interactivity:Interaction.Behaviors>
             </Button>
         </StackPanel>
+
+
+C#
+MyRectangle.Offset(
+                duration: Duration,
+                delay: Delay,
+                offsetX: (float)OffsetX,
+                offsetY: (float)OffsetY,
+                offsetZ: (float)OffsetZ);;
 ```
 
 ## Platforms

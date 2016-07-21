@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # ImageEx
-The **ImageEx Control** downloads images asynchronously showing a load indicator. Source images are then stored in the Application's local cache to preserve resources and load time. ImageEx also extends the default *Image Platform* control, to improve performance. 
+The **ImageEx Control** downloads images asynchronously showing a load indicator. Source images are then stored in the Application's local cache to preserve resources and load time. ImageEx also extends the default *Image Platform* control to improve performance. 
 
 ## Syntax
 ```xaml

@@ -7,7 +7,7 @@ layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# OFFSET
+# OFFSET BEHAVIOR
 The **Offset** Behavior gets the number of pixels that the snapline is offset from the origin of the associated control. 
 ## Syntax
 ```xaml

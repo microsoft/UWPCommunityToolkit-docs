@@ -7,8 +7,8 @@ layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# BLURBEHAVIOR
-Shows how you implement **Blur** Behavior which effect selectively blurs an image by incfreasing or decreasing pixel size. 
+# BLUR
+The **Blur Behavior** selectively blurs an image by incfreasing or decreasing pixel size. 
 
 ## Syntax
 ```xaml

@@ -7,7 +7,9 @@ layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# TITLE
+# NOTIFICATIONS OVERVIEW
+Notifications help design apadtive live tiles and interactive toasts for users who are developing Windows Applications. 
+Nofications inlcude: LiveTile, Toast and WeatherLiveTileandToast
 
 ## Syntax
 ```xaml

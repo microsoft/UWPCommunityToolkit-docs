@@ -18,14 +18,14 @@ The **RadialGauge Control** displays a value in a certain range using a needle o
                                   Minimum="0"
                                   Maximum="180"
                                   TickSpacing="@[TickSpacing:Slider:20:10-30]"
-					 ScaleWidth="@[ScaleWidth:Slider:26:5-50]"
+                                  ScaleWidth="@[ScaleWidth:Slider:26:5-50]"
                                   Unit="Units"
                                   TickBrush="Gainsboro"
                                   ScaleTickBrush="{ThemeResource ApplicationPageBackgroundThemeBrush}"
                                   UnitBrush="Black"
                                   ValueBrush="Black" 
-					NeedleWidth="@[NeedleWidth:Slider:5:1-10]" 
-				       TickLength="@[TickLength:Slider:18:4-30]"/>
+				  NeedleWidth="@[NeedleWidth:Slider:5:1-10]" 
+				  TickLength="@[TickLength:Slider:18:4-30]"/>
  </controls:RadialGauge/>
 ```
 ## Example

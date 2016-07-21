@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # BLUR
-The **Blur Behavior** selectively blurs an image by incfreasing or decreasing pixel size. 
+The **Blur Behavior** selectively blurs an image by increasing or decreasing pixel size. 
 
 ## Syntax
 ```xaml

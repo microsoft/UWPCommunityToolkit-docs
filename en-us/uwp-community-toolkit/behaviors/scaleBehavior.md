@@ -51,7 +51,7 @@ Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
             <Button Content="Apply" Margin="10">
                 <interactivity:Interaction.Behaviors>
                     <core:EventTriggerBehavior EventName="Click">
-                        <core:CallMethodAction TargetObject="{Binding ElementName=Scale}" MethodName="StartAnimation"/>
+                    <core:CallMethodAction TargetObject="{Binding ElementName=Scale}" MethodName="StartAnimation"/>
                     </core:EventTriggerBehavior>
                 </interactivity:Interaction.Behaviors>
             </Button>

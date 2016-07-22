@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # ROTATION
-The **Rotation Behavior** allows users to modify the control's rotation, then animate, if needed. Parameters include: angle values, time, pause delay, duration, and diameter.
+The **Rotation Behavior** allows users to modify and animate the control's rotation. Parameters include: angle values, time, pause delay, duration, and diameter.
 
 ## Syntax
 ```xaml
@@ -32,7 +32,7 @@ The **Rotation Behavior** allows users to modify the control's rotation, then an
 
         <Rectangle x:Name="MyRectangle" Fill="red" Height="100" Width="100" >
             <interactivity:Interaction.Behaviors>
-                <behaviors:Rotation x:Name="Rotation" 
+                <behaviors:Rotation x:Name="RotationBehavior" 
 				Value="146.1"
 				CenterX="0" 
 				CenterY="15.97" 

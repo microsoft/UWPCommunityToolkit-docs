@@ -1,21 +1,22 @@
 ---
 permalink: /en-US/behaviors/OpacityBehavior.html
 title: OpacityBehavior
-description: This page describes the OpacityBehavior behavior
+description: This page describes the Opacity Behavior 
 keywords: windows, app, toolkit, OpacityBehavior, behavior
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
 # OPACITY
-The **Opacity Behavior** fades objects in and out over time. 
+The **Opacity Behavior** fades objects, in and out, over time. 
 ## Syntax
 ```xaml
- <behaviors:Opacity x:Name="Opacity" 
+ <behaviors:Opacity x:Name="OpacityBehavior>" 
 				Value="@[Value:DoubleSlider:0.0:0.0-1.0]" 
 				Duration="@[Duration:DoubleSlider:1.0:0.1-5.0]" 
 				Delay="@[Delay:DoubleSlider:0.0:0.0-5.0]" 
 				AutomaticallyStart="@[AutomaticallyStart:Bool:True]"/>
+ </behaviors:Opacity>
 ```
  
 ## Example
@@ -24,6 +25,7 @@ The **Opacity Behavior** fades objects in and out over time.
 ## Default Template
 ```xaml
 Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
         <Rectangle x:Name="MyRectangle" Fill="red" Height="100" Width="100" >
             <interactivity:Interaction.Behaviors>
                 <behaviors:Opacity x:Name="Opacity" 
@@ -33,6 +35,8 @@ Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 				AutomaticallyStart="True"/>
             </interactivity:Interaction.Behaviors>
         </Rectangle>
+        
+        
         <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom">
             <Button Content="Apply" Margin="10">
                 <interactivity:Interaction.Behaviors>

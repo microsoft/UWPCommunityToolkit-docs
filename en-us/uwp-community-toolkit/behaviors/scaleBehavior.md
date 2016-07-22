@@ -8,11 +8,11 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # SCALE
-The **ScaleBehavior** allows you to create a scale increasing or decreasing animation in your control. For example, changing the scale in an Entry field, when the user taps on it. 
+The **Scale Behavior** allows you to create a scale by increasing or decreasing animation in your control. For example, changing the scale in an Entry field, when the user taps on it. 
 ## Syntax
 ```xaml
 <interactivity:Interaction.Behaviors>
-                <behaviors:Scale x:Name="Scale" 
+                <behaviors:Scale x:Name="ScaleBehavior" 
 				ScaleX="@[ScaleX:DoubleSlider:1.0:0.5-5.0]" 
 				ScaleY="@[ScaleY:DoubleSlider:1.0:0.5-5.0]" 
 				ScaleZ="@[ScaleZ:DoubleSlider:1.0:0.5-5.0]" 
@@ -22,7 +22,8 @@ The **ScaleBehavior** allows you to create a scale increasing or decreasing anim
 				Duration="@[Duration:DoubleSlider:1.0:0.1-5.0]" 
 				Delay="@[Delay:DoubleSlider:0.0:0.0-5.0]" 
 				AutomaticallyStart="@[AutomaticallyStart:Bool:True]"/>
-            </interactivity:Interaction.Behaviors>
+</interactivity:Interaction.Behaviors>
+		</behaviors:Scale>
 ```
  
 ## Example
@@ -33,7 +34,7 @@ The **ScaleBehavior** allows you to create a scale increasing or decreasing anim
 Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Rectangle x:Name="MyRectangle" Fill="red" Height="100" Width="100" >
             <interactivity:Interaction.Behaviors>
-                <behaviors:Scale x:Name="Scale" 
+                <behaviors:Scale x:Name="ScaleBeBehavior" 
 				ScaleX="1" 
 				ScaleY="1" 
 				ScaleZ="1" 
@@ -45,6 +46,7 @@ Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 				AutomaticallyStart="True"/>
             </interactivity:Interaction.Behaviors>
         </Rectangle>
+        
         <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom">
             <Button Content="Apply" Margin="10">
                 <interactivity:Interaction.Behaviors>

@@ -1,18 +1,18 @@
 ---
 permalink: /en-US/behaviors/RotationBehavior.html
 title: RotationBehavior
-description: This page describes the RotationBehavior behavior
+description: This page describes the Rotation Behavior 
 keywords: windows, app, toolkit, RotationBehavior, behavior
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
 # ROTATION
-The **Rotation Behavior** allows users to modify the rotation of the controls, and animating them. Parameters are summed up angle values, time, pause delay, duration, and diameter.
+The **Rotation Behavior** allows users to modify the control's rotation, then animate, if needed. Parameters include: angle values, time, pause delay, duration, and diameter.
 
 ## Syntax
 ```xaml
-   <behaviors:Rotation x:Name="Rotation" 
+   <behaviors:Rotation x:Name="RotationBehavior" 
 				Value="@[Value:DoubleSlider:0.0:0.0-360.0]"
 				CenterX="@[CenterX:DoubleSlider:0.0:0.0-100.0]" 
 				CenterY="@[CenterY:DoubleSlider:0.0:0.0-100.0]" 
@@ -20,7 +20,8 @@ The **Rotation Behavior** allows users to modify the rotation of the controls, a
 				Duration="@[Duration:DoubleSlider:1.0:0.1-5.0]" 
 				Delay="@[Delay:DoubleSlider:0.0:0.0-5.0]" 
 				AutomaticallyStart="@[AutomaticallyStart:Bool:True]"/>
-```
+  </behaviors:Rotation>
+``
  
 ## Example
 
@@ -28,6 +29,7 @@ The **Rotation Behavior** allows users to modify the rotation of the controls, a
 ## Default Template
 ```xaml
 <Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
         <Rectangle x:Name="MyRectangle" Fill="red" Height="100" Width="100" >
             <interactivity:Interaction.Behaviors>
                 <behaviors:Rotation x:Name="Rotation" 
@@ -40,6 +42,7 @@ The **Rotation Behavior** allows users to modify the rotation of the controls, a
 				AutomaticallyStart="True"/>
             </interactivity:Interaction.Behaviors>
         </Rectangle>
+        
         <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom">
             <Button Content="Apply" Margin="10">
                 <interactivity:Interaction.Behaviors>

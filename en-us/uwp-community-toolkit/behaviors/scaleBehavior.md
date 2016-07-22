@@ -34,7 +34,7 @@ The **Scale Behavior** allows you to create a scale by increasing or decreasing 
 Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Rectangle x:Name="MyRectangle" Fill="red" Height="100" Width="100" >
             <interactivity:Interaction.Behaviors>
-                <behaviors:Scale x:Name="ScaleBeBehavior" 
+                <behaviors:Scale x:Name="ScaleBehavior" 
 				ScaleX="1" 
 				ScaleY="1" 
 				ScaleZ="1" 

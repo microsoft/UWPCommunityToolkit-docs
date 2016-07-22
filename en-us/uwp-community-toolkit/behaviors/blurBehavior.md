@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/behaviors/BlurBehavior.html
+permalink: /en-US/behaviors/blurbehavior.html
 title: BlurBehavior
 description: This page describes the BlurBehavior behavior
 keywords: windows, app, toolkit, BlurBehavior, behavior
@@ -44,7 +44,7 @@ The **Blur Behavior** selectively blurs an image by increasing or decreasing pix
             </Button>
         </StackPanel>
  
- C#
+C#
 ToolkitLogo.Blur(duration: 10, delay: 0, blurAmount: 10);       
 ```
 

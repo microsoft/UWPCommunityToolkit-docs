@@ -12,7 +12,7 @@ The **Scale Behavior** allows you to create a scale by increasing or decreasing 
 ## Syntax
 ```xaml
 	<interactivity:Interaction.Behaviors>
-                <behaviors:Scale x:Name="ScaleBehavior" 
+			<behaviors:Scale x:Name="ScaleBehavior" 
 				ScaleX="@[ScaleX:DoubleSlider:1.0:0.5-5.0]" 
 				ScaleY="@[ScaleY:DoubleSlider:1.0:0.5-5.0]" 
 				ScaleZ="@[ScaleZ:DoubleSlider:1.0:0.5-5.0]" 
@@ -23,7 +23,7 @@ The **Scale Behavior** allows you to create a scale by increasing or decreasing 
 				Delay="@[Delay:DoubleSlider:0.0:0.0-5.0]" 
 				AutomaticallyStart="@[AutomaticallyStart:Bool:True]"/>
 	</interactivity:Interaction.Behaviors>
-	 	</behaviors:Scale>
+			</behaviors:Scale>
 ```
  
 ## Example

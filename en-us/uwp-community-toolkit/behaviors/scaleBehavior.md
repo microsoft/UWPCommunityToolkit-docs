@@ -11,7 +11,7 @@ search.product: eADQiWindows 10XVcnh
 The **Scale Behavior** allows you to create a scale by increasing or decreasing animation in your control. For example, changing the scale in an *Entry* field, when the user taps it. 
 ## Syntax
 ```xaml
-<interactivity:Interaction.Behaviors>
+	<interactivity:Interaction.Behaviors>
                 <behaviors:Scale x:Name="ScaleBehavior" 
 				ScaleX="@[ScaleX:DoubleSlider:1.0:0.5-5.0]" 
 				ScaleY="@[ScaleY:DoubleSlider:1.0:0.5-5.0]" 
@@ -22,8 +22,8 @@ The **Scale Behavior** allows you to create a scale by increasing or decreasing 
 				Duration="@[Duration:DoubleSlider:1.0:0.1-5.0]" 
 				Delay="@[Delay:DoubleSlider:0.0:0.0-5.0]" 
 				AutomaticallyStart="@[AutomaticallyStart:Bool:True]"/>
-</interactivity:Interaction.Behaviors>
-		</behaviors:Scale>
+	</interactivity:Interaction.Behaviors>
+	 	</behaviors:Scale>
 ```
  
 ## Example

@@ -1,18 +1,18 @@
 ---
 permalink: /en-US/controls/slidablelistitem.html
 title: SlidableListItem
-description: This page describes the SlidableListItem menu control
-keywords: windows, app, toolkit, SlidableListItem, menu
+description: This page describes the SlidableListItem list item control
+keywords: windows, app, toolkit, SlidableListItem, custom list item
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
 # SlidableListItem
-The **SlideableListItem** Control enables actions to be triggled by sliding the content left or right. It can be used as a ListView Data Template root similar to eamail apps, but not required. 
+The **SlideableListItem** Control enables actions to be triggered by sliding the content left or right. It can be used as a ListView Data Template root to create effects similar to those common in mobile email apps.  
 
 ## Syntax
 ```xaml
-    <controls:SlidableListItem 
+<controls:SlidableListItem 
                     HorizontalAlignment="Stretch"
                     LeftIcon="@[LeftIcon:Enum:Symbol.Favorite]" 
                     RightIcon="@[RightIcon:Enum:Symbol.Delete]" 
@@ -26,14 +26,14 @@ The **SlideableListItem** Control enables actions to be triggled by sliding the 
                     MouseSlidingEnabled="@[MouseSlidingEnabled:Bool:true]"
                     LeftCommand="{x:Bind ToggleFavorite}"
                     RightCommandRequested="SlidableListItem_RightCommandActivated">
-         </controls:SlidableListItem>         
+</controls:SlidableListItem>         
 ```
 
 ## Example
 
 ## Default Template
 ```xaml
-            <controls:SlidableListItem HorizontalAlignment="Stretch"
+<controls:SlidableListItem HorizontalAlignment="Stretch"
                                        LeftIcon="Favorite" 
                                        RightIcon="Delete" 
                                        LeftLabel="Set Favorite" 
@@ -45,16 +45,16 @@ The **SlideableListItem** Control enables actions to be triggled by sliding the 
                                        ActivationWidth="100"
                                        MouseSlidingEnabled="True"
                                        LeftCommand="{x:Bind ToggleFavorite}"
-                                       RightCommandRequested="SlidableListItem_RightCommandActivated">
+								RightCommandRequested="SlidableListItem_RightCommandActivated">
                 <Height="110" Background="Gray">
                     <StackPanel Grid.Column="1" Margin="10,0,0,0">
                         <CheckBox IsChecked="{x:Bind IsFavorite, Mode=OneWay}"></CheckBox>
                         <TextBlock Text="{x:Bind Title}" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="NoWrap"/>
                     </StackPanel>
-            </controls:SlidableListItem>
+</controls:SlidableListItem>
 
     <Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <ListView x:Name="listView" ItemTemplate="{StaticResource EmailsItemTemplate}" ItemsSource="{x:Bind _items, Mode=OneWay}" SelectionMode="None" IsItemClickEnabled="False">
+        <ListView x:Name="listViewControl" ItemTemplate="{StaticResource EmailsItemTemplate}" ItemsSource="{x:Bind _items, Mode=OneWay}" SelectionMode="None" IsItemClickEnabled="False">
             <ListView.ItemContainerStyle>
                 <Style TargetType="ListViewItem">
                     <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>

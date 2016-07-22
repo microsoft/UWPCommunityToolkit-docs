@@ -1,24 +1,24 @@
 ---
 permalink: /en-US/controls/pulltorefreshlistview.html
 title: PullToRefreshListView
-description: This page describes the PullToRefreshListView menu control
-keywords: windows, app, PulltoRefresh, ListView, toolkit, menu
+description: This page describes the PullToRefreshListView UI control
+keywords: windows, app, PulltoRefresh, ListView, toolkit, pull to refresh
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
 # PullToRefreshListView
-The **PullToRefreshListView** Control, is derived from the built-in List View in UWP. It lets the user pull down beyond the top limit on the listview to trigger a refresh. 
+The **PullToRefreshListView** Control, is derived from the built-in List View in XAML. It lets the user pull down beyond the top limit on the listview to trigger a refresh of the content.
 
 ## Syntax
 ```xaml
-     <controls:PullToRefreshListView Name="ListViewName"
+<controls:PullToRefreshListView Name="PullToRefreshListViewControl"
                                         ItemsSource="{x:Bind _items}"
                                         OverscrollLimit="@[OverscrollLimit:DoubleSlider:0.4:0-1]"
                                         PullThreshold="@[PullThreshold:Slider:100:50-300]"
                                         RefreshRequested="ListView_RefreshCommand"
                                         PullProgressChanged="ListView_PullProgressChanged">
-    </controls:PullToRefreshListView.ItemTemplate>
+</controls:PullToRefreshListView>
 ```
 
 ## Example
@@ -26,7 +26,7 @@ The **PullToRefreshListView** Control, is derived from the built-in List View in
 
 ## Default Template
 ```xaml
- <controls:PullToRefreshListView Name="ListViewName"
+<controls:PullToRefreshListView Name="PullToRefreshListViewControl"
                                         ItemsSource="{x:Bind _items}"
                                         OverscrollLimit="0.4"
                                         PullThreshold="100"
@@ -40,7 +40,7 @@ The **PullToRefreshListView** Control, is derived from the built-in List View in
             <controls:PullToRefreshListView.RefreshIndicatorContent>
                 <Border HorizontalAlignment="Center" x:Name="refreshindicator" CornerRadius="30" Height="20" Width="20" ></Border>
             </controls:PullToRefreshListView.RefreshIndicatorContent>
-        </controls:PullToRefreshListView>
+</controls:PullToRefreshListView>
 ```
 
 ## Platforms

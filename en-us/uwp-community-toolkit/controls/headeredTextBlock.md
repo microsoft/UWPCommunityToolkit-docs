@@ -1,8 +1,8 @@
 ---
-permalink: /en-US/controls/HeaderedTextBlock.html
+permalink: /en-US/controls/headeredtextblock.html
 title: HeaderedTextBlock
-description: This page describes the HeaderedTextBlock menu control
-keywords: windows, app, toolkit, HeaderedTextBlock, menu
+description: This page describes the HeaderedTextBlock control
+keywords: windows, app, toolkit, HeaderedTextBlock, text block
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---

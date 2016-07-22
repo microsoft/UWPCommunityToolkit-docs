@@ -1,27 +1,23 @@
 ---
 permalink: /en-US/controls/rangeselector.html
 title: RangeSelector
-description: This page describes the RangeSelector menu control
-keywords: windows, app, toolkit, RangeSelector, menu
+description: This page describes the RangeSelector control
+keywords: windows, app, toolkit, RangeSelector, range control
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
 # RangeSelector
-The **RangeSelector** Control is a *Double Slider* control that allows the user to select a sub-range of values from a larger range of possible values. 
+The **RangeSelector** Control is a *Double Slider* control that allows the user to select a sub-range of values from a larger range of possible values.  The user can slide from the left or right of the range.
 
 ## Syntax
 ```xaml
-<controls:RangeSelector x:Name="RangeSelectorName" Grid.Column="1"
+<controls:RangeSelector x:Name="RangeSelectorControl"
                  Minimum="@[Minimum:Slider:0:0-100]" 
                  Maximum="@[Maximum:Slider:100:0-100]">
-            </controls:RangeSelector>
-            <TextBlock Grid.Column="2" 
-					Text="{Binding RangeMax, ElementName=RangeSelector, Converter={StaticResource StringFormatConverter}, ConverterParameter='{}{0:0.##}'}"
-                    Foreground="Black"></TextBlock>
-        <controls:RangeSelector>
+</controls:RangeSelector>
 ```
-        
+
 
 ## Example 
 
@@ -36,14 +32,14 @@ The **RangeSelector** Control is a *Double Slider* control that allows the user 
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Column="0" 
 					Text="{Binding RangeMin, ElementName=RangeSelector, Converter={StaticResource StringFormatConverter}, ConverterParameter='{}{0:0.##}'}" 
-                    Foreground="Black"></TextBlock>
-            <controls:RangeSelector x:Name="RangeSelector" Grid.Column="1"
-                 Minimum="0" 
-                 Maximum="100">
+                    Foreground="Black">
+			</TextBlock>
+            <controls:RangeSelector x:Name="RangeSelectorControl" Grid.Column="1" Minimum="0" Maximum="100">
             </controls:RangeSelector>
             <TextBlock Grid.Column="2" 
 					Text="{Binding RangeMax, ElementName=RangeSelector, Converter={StaticResource StringFormatConverter}, ConverterParameter='{}{0:0.##}'}"
-                    Foreground="Black"></TextBlock>
+                    Foreground="Black">
+			</TextBlock>
 ```
 
 ## Platforms 

@@ -1,8 +1,8 @@
 ---
 permalink: /en-US/controls/responsivegridview.html
 title: ResponsiveGridView
-description: This page describes the ResponsiveGridView menu control
-keywords: windows, app, toolkit, ResponsiveGridView, menu
+description: This page describes the ResponsiveGridView control
+keywords: windows, app, toolkit, ResponsiveGridView, grid layout
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
@@ -12,11 +12,11 @@ The **ResponsiveGridView** Control presents content within a *Grid View* to fill
 
 ## Syntax
 ```xaml
-<controls:ResponsiveGridView  Name="ResponsiveGridViewControlName"
+<controls:ResponsiveGridView  Name="ResponsiveGridViewControl"
           ItemHeight="@[ItemHeight:Slider:200:50-500]"
           DesiredWidth="@[DesiredWidth:Slider:300:50-500]"
-          ItemTemplate="{StaticResource PhotosTemplate}"/>
-   </controls:ResponsiveGridView>
+          ItemTemplate="{StaticResource PhotosTemplate}">
+</controls:ResponsiveGridView>
 ```
 
 ## Example
@@ -24,21 +24,19 @@ The **ResponsiveGridView** Control presents content within a *Grid View* to fill
 ## Default Template
 ```xaml
 <DataTemplate x:Key="PhotosTemplate">
-	<Background="White"
-        BorderBrush="Black"
-        BorderThickness="1">
+	<Background="White" BorderBrush="Black" BorderThickness="1">
 	<Image Source="{Binding Thumbnail}"
             Stretch="UniformToFill"
             HorizontalAlignment="Center"
             VerticalAlignment="Center"/>
 </DataTemplate>
 
-	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-	<contrls:ResponsiveGridView   
-	  Name="ResponsiveGridViewcontrolName"
-          ItemHeight="200"
-          DesiredWidth="300"
-          ItemTemplate="{StaticResource PhotosTemplate}"/>
+<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+<controls:ResponsiveGridView Name="ResponsiveGridViewControl"
+      ItemHeight="200"
+      DesiredWidth="300"
+      ItemTemplate="{StaticResource PhotosTemplate}"/>
+
 ```
 
 ## Platforms

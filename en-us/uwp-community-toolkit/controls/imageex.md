@@ -8,11 +8,11 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # ImageEx
-The **ImageEx Control** downloads images asynchronously showing a load indicator. Source images are then stored in the Application's local cache to preserve resources and load time. ImageEx also extends the default *Image Platform* control to improve performance. 
+The **ImageEx Control** downloads images asynchronously while showing a loading indicator. Source images are then stored in the Application's local cache to preserve resources and load time. ImageEx also extends the default *Image Platform* control to improve performance through the cache. 
 
 ## Syntax
 ```xaml
- <controls:VariableSizedGridView Name="ImageExControlName"
+ <controls:VariableSizedGridView Name="ImageExControl"
             Margin="0"
             ItemTemplate="{StaticResource PhotoTemplate}"
             Orientation="Horizontal"
@@ -37,20 +37,21 @@ The **ImageEx Control** downloads images asynchronously showing a load indicator
                     VerticalAlignment="Center"/>  
                 <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Center"
                            Text="{Binding Title}" FontSize="16"
-                           TextWrapping="Wrap" Foreground="White"></TextBlock>
- </DataTemplate>
+                           TextWrapping="Wrap" Foreground="White">
+				</TextBlock>
+</DataTemplate>
   
-    <Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+<Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
     
-  <controls:VariableSizedGridView  Name="ImageExControlName"
+<controls:VariableSizedGridView  Name="ImageExControl"
             Margin="0"
             ItemTemplate="{StaticResource PhotoTemplate}"
             Orientation="Horizontal"
             MaximumRowsOrColumns="4"
             AspectRatio="1"
             HorizontalAlignment="Left"
-            VerticalAlignment="Top"/>
-  </controls:VariableSizedGridView/>
+            VerticalAlignment="Top">
+</controls:VariableSizedGridView>
 ```
 
 ## Platforms

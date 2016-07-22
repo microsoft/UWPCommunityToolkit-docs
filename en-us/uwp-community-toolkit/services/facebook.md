@@ -1,7 +1,7 @@
 ---
 permalink: /en-US/services/facebookservices.html
 title: FacebookServices 
-description: How to get an AppID in facebook, and examples how to use with this toolkit
+description: How to get an AppID in facebook, and how to apply Windows apps using serivce.WindowsStoreID.
 keywords: windows, app, toolkit, facebook, toast
 layout: default
 search.product: eADQiWindows 10XVcnh

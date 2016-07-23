@@ -2,7 +2,7 @@
 permalink: /en-US/services/facebookservices.html
 title: FacebookServices 
 description: How to get an AppID from facebook, using serivce.WindowsStoreID.
-keywords: windows, app, toolkit, facebook, toast
+keywords: windows, app, toolkit, facebook, service
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
@@ -11,7 +11,7 @@ search.product: eADQiWindows 10XVcnh
 The **Facebook Service** allows you to retrieve or publish data to the Facebook graph. 
 
 ## Facebook APP ID 
-1. To get **Facebook.WindowsStoreID**, go to: https://developers.facebook.com/apps. 
+1. To get a **Facebook.WindowsStoreID**, go to: https://developers.facebook.com/apps. 
 2. Select **Create a New App ID**, to start integration Facebook into your app or website. 
 3. Click, **Create a New AP**, and select a Platform, or choose Basic Setup. 
 

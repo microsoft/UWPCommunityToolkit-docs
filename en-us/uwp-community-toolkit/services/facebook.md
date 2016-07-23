@@ -1,6 +1,6 @@
 ---
 permalink: /en-US/services/facebookservices.html
-title: FacebookServices 
+title: Facebook
 description: How to get an AppID from Facebook, using serivce.WindowsStoreID.
 keywords: windows, app, toolkit, facebook, service
 layout: default

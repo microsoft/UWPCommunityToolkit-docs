@@ -9,6 +9,15 @@ search.product: eADQiWindows 10XVcnh
 # Twitter Service
 The **Twitter Service** allows users to retrieve or publish data to Twitter. 
 
+## IDs for Twitter
+The following sites provide detailed development tools and downloads for Windows developers using Twitter: 
+
+<ol>
+    <l1> * https://devs.twitter.com: Twitter dev site. </li>
+    <l1> * https://www.microsoft.com/en-us/store/p/twitter/9wzdncrfj140: Windows store site to download Twitter app. </li>   
+    <l1> * https://about.twitter.com/products/twitter-for-windows: The Twitter experience, handcrafted for Windows. Give Twitter a quick browse right from the Twitter Live Tile. </li>
+</ol>
+
 ## Syntax
 ```xaml
 
@@ -26,36 +35,40 @@ The **Twitter Service** allows users to retrieve or publish data to Twitter.
                     <ColumnDefinition Width="100"></ColumnDefinition>
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
+                
                 <Grid.RowDefinitions>
                     <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
+                
                 <Image Grid.RowSpan="2" Grid.Column="0" Source="{Binding User.ProfileImageUrl}" Stretch="UniformToFill"/>
                 <TextBlock Text="{x:Bind Text}" Grid.Row="0" Grid.Column="1" Margin="5,0,0,0" VerticalAlignment="Center" FontSize="20" TextWrapping="Wrap" TextTrimming="CharacterEllipsis"></TextBlock>
                 <TextBlock Text="{x:Bind CreationDate}" Grid.Row="1" Grid.Column="1" Margin="5,0,0,0" VerticalAlignment="Center" FontSize="16" TextWrapping="Wrap" TextTrimming="CharacterEllipsis" FontWeight="ExtraLight"></TextBlock>
-            </Grid>
         </DataTemplate>
     </Page.Resources>
 
-    <Grid Background="{StaticResource Brush-Grey-05}">
+    <Background="{StaticResource Brush-Grey-05}">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <Grid>
+  
             <Grid.ColumnDefinitions>
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition Width="Auto"></ColumnDefinition>
             </Grid.ColumnDefinitions>
+            
             <StackPanel Orientation="Vertical" Margin="10">
                 <TextBox Header="Consumer Key:" x:Name="ConsumerKey"></TextBox>
                 <TextBox Header="Consumer Secret:" x:Name="ConsumerSecret"></TextBox>
                 <TextBox Header="Callback URI:" x:Name="CallbackUri"></TextBox>
                 <Button Content="Connect" x:Name="ConnectButton" Click="ConnectButton_OnClick" Margin="0,10,0,0" VerticalAlignment="Bottom"></Button>
             </StackPanel>
-            <Image Grid.Column="1" x:Name="ProfileImage" Source="{Binding ProfileImageUrl}" VerticalAlignment="Top" Margin="5"></Image>
-        </Grid>
+            
+            <Image Grid.Column="1" x:Name="ProfileImage" Source="{Binding ProfileImageUrl}" VerticalAlignment="Top" Margin="5">
+            </Image>
+      
         <Border Margin="10" Grid.Row="1" x:Name="ShareBox" BorderThickness="1" BorderBrush="#555555" Padding="5">
             <StackPanel Orientation="Vertical">
                 <TextBox Header="Tweet:" x:Name="TweetText"></TextBox>
@@ -65,6 +78,7 @@ The **Twitter Service** allows users to retrieve or publish data to Twitter.
                 <Button Content="Search" x:Name="SearchButton" Click="SearchButton_OnClick" Margin="0,10,0,0"></Button>
             </StackPanel>
         </Border>
+        
         <ListView Grid.Row="2" ItemTemplate="{StaticResource TwitterSchemaTemplate}" x:Name="ListView">
             <ListView.ItemContainerStyle>
                 <Style TargetType="ListViewItem">
@@ -72,10 +86,11 @@ The **Twitter Service** allows users to retrieve or publish data to Twitter.
                 </Style>
             </ListView.ItemContainerStyle>
         </ListView>
-    </Grid>
-</Page>
- 
 ```
+
+## Platforms
+
+## API
 
 
 need to explain how to get IDs from twitter

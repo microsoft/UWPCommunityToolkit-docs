@@ -12,10 +12,9 @@ The **Twitter Service** allows users to retrieve or publish data to Twitter.
 ## IDs for Twitter
 The following sites provide detailed development tools and downloads for Windows developers using Twitter: 
 
-<ol>
-    <l1> * https://devs.twitter.com: Twitter dev site. </li>
-    <l1> * https://www.microsoft.com/en-us/store/p/twitter/9wzdncrfj140: Windows store site to download Twitter app. </li>   
-    <l1> * https://about.twitter.com/products/twitter-for-windows: The Twitter experience, handcrafted for Windows. Give Twitter a quick browse right from the Twitter Live Tile. </li>
+    1. https://devs.twitter.com: Twitter dev site. 
+    2. https://www.microsoft.com/en-us/store/p/twitter/9wzdncrfj140: Windows store site to download Twitter app. 
+    3. https://about.twitter.com/products/twitter-for-windows: The Twitter experience, handcrafted for Windows. Give Twitter a quick browse right from the Twitter Live Tile. 
 </ol>
 
 ## Syntax

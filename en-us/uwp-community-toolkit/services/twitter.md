@@ -1,6 +1,6 @@
 ---
 permalink: /en-US/services/twitter.html
-title: TwitterService
+title: Twitter
 description: This page describes the Twitter Service
 keywords: windows, app, toolkit, Twitter, Service, menu
 layout: default

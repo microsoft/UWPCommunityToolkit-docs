@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/serices/bing.html
+permalink: /en-US/services/bing.html
 title: Bing
 description: This page describes the Bing Service
 keywords: windows, app, toolkit, Bing, services, menu

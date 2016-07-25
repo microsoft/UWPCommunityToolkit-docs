@@ -1,14 +1,15 @@
 ---
 permalink: /en-US/behaviors/blurbehavior.html
-title: BlurBehavior
-description: This page describes the BlurBehavior behavior
-keywords: windows, app, toolkit, BlurBehavior, behavior
+title: BlurBehavior XAML behavior
+description: The BlurBehavior behavior is a XAML behavior that blurs an image
+keywords: windows, app, toolkit, BlurBehavior, XAML behavior, image blur
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
 # BLUR
-The **Blur Behavior** selectively blurs an image by increasing or decreasing pixel size. 
+The **Blur Behavior** selectively blurs an image by increasing or decreasing pixel size.
+Sometimes you want an image to appear as slightly out of focus from the same image you have used in other locations within an app.  Rather than having two image assets, you can apply a BlueBehavior to the original image at runtime. 
 
 ## Syntax
 ```xaml

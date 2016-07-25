@@ -1,7 +1,7 @@
 ---
 permalink: /en-US/behaviors/OffsetBehavior.html
 title: OffsetBehavior
-description: This page describes the OffsetBehavior behavior
+description: This page describes the OffsetBehavior 
 keywords: windows, app, toolkit, OffsetBehavior, behavior
 layout: default
 search.product: eADQiWindows 10XVcnh

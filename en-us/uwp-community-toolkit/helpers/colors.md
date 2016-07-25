@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # Colors Helper
-The **Colors Helper** lets users select colors for an app by entering red, green, blue (RGB) values. 
+The **Colors Helper** lets users select colors for an app by entering red, green, and blue (RGB) values. 
 
 ## Syntax
 ```xaml

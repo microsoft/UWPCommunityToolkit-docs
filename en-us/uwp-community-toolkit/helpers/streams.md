@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 
-# STREAMS HELPER
+# STREAMS 
 
 
 ## Syntax

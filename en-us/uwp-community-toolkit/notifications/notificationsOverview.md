@@ -7,7 +7,7 @@ layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# NOTIFICATIONS OVERVIEW
+# Notifications Overview 
 Notifications help design adaptive live tiles and interactive toasts for users who are developing Windows Applications. 
 Notifications include: LiveTile, Toast and WeatherLiveTileandToast
 

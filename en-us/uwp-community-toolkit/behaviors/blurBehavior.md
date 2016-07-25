@@ -1,19 +1,19 @@
 ---
 permalink: /en-US/behaviors/blurbehavior.html
-title: BlurBehavior XAML behavior
+title: BlurBehavior XAML Behavior for UWP Community Toolkit
 description: The BlurBehavior behavior allows for blurring of XAML elements using composition
 keywords: windows, app, toolkit, BlurBehavior, XAML behavior, image blur, XAML blur, XAML composition 
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# BLUR
-The **Blur Behavior** selectively blurs an image by increasing or decreasing pixel size.
-Sometimes you want an element to appear as slightly out of focus,  but to be familiar to the user from other locations within an app.  Rather than having to rasterize the XAML into an image, you can apply a BlurBehavior to the original element at run time. 
+# BlurBehavior XAML Behavior
+The **Blur Behavior** selectively blurs a XAML element by increasing or decreasing pixel size.
+Sometimes you want an element to appear slightly out of focus, but to be familiar to the user from other locations within an app.  Rather than having to rasterize the XAML into an image and apply a blur, you can apply a BlurBehavior to the original element at run time. 
 
 ## Syntax
 ```xaml
- <behaviors:Blur x:Name="BlurBehavior"
+ <behaviors:Blur x:Name="BlurBehaviorControl"
                             BlurAmount="@[BlurAmount:DoubleSlider:10.0:0.0-10.0]"
                             Duration="@[Duration:DoubleSlider:3.0:0.1-10.0]"
                             Delay="@[Delay:DoubleSlider:0.0:0.0-5.0]"
@@ -44,8 +44,9 @@ Sometimes you want an element to appear as slightly out of focus,  but to be fam
                 </interactivity:Interaction.Behaviors>
             </Button>
         </StackPanel>
+```
  
-C#
+```C#
 ToolkitLogo.Blur(duration: 10, delay: 0, blurAmount: 10);       
 ```
 

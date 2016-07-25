@@ -19,12 +19,11 @@ The **Colors Helper** lets users select colors for an app by entering red, green
 		<Color ...>#rgb</Color>
 ```
 ## Example
-
-## Default Template
-```xaml
+```C#
 
 
 ```
+
 ## Platforms 
 
 

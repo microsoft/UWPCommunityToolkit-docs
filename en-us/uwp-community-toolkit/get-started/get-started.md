@@ -12,5 +12,5 @@ This Windows Application toolkit contains Controls, Behaviors, Services, and Hel
 ## Required Tools
 1. Log in or create a GitHub account, and access https://github.com/Microsoft/UWPCommunityToolkit-docs
 2. Download the UWP Toolkit Sample Application 
-//Need to streamline this process 
+//Need to streamline this process - private link - confirm link.  
 

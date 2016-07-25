@@ -7,7 +7,7 @@ layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# Colors Helper
+# COLORS HELPER
 The **Colors Helper** lets users select colors for an app by entering red, green, and blue (RGB) values. 
 
 ## Syntax

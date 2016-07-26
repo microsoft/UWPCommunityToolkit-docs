@@ -11,10 +11,13 @@ search.product: eADQiWindows 10XVcnh
 
 The ConnectionHelper class is used to determine whether the app has Internet, and if it is on a metered Internet connection.
 
-## Syntax
+_What is a metered connection?_
+A metered connection is an Internet connection that has a data limit associated with it. Cellular data connections are set as metered by default. Wi-Fi network connections can be set to metered, but aren't by default. Some apps and features in Windows will behave differently on a metered connection to help reduce your data usage.
+
+## Example
 ```C#
 
-
+	// Metered connections are determined by the OS
     if( ConnectionHelper.IsInternetOnMeteredConnection )
     {
         // Attempt to only use local resources
@@ -24,14 +27,14 @@ The ConnectionHelper class is used to determine whether the app has Internet, an
         // Attempt to refresh from internet
     }
 
-
-    if (ConnectionHelper.IsInternetAvailable() == false)
+	// Test if there is any network available
+    if (ConnectionHelper.IsInternetAvailable == false)
         return;
 ```
 
-## Example 
-
 ## Platforms
+
+Windows 10 SDK 10240 or higher
 
 ## API
 

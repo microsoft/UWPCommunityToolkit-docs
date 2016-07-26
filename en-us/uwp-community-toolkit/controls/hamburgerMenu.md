@@ -7,7 +7,7 @@ layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# HamburgerMenuControl XAML Control##  ##
+# HamburgerMenuControl XAML Control##  
 The **Hamburger Menu Control** provides an easy-to-use, side-bar menu which users can show or hide by using a Hamburger button.
 
 

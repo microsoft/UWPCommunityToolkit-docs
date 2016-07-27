@@ -1,13 +1,13 @@
 ---
 permalink: /en-US/controls/radialgauge.html
-title: RadialGauge Control
-description: This page describes the RadialGauge UI control
-keywords: windows, app, toolkit, RadialGauge, gauge control
+title: RadialGaugeControl XAML Control for UWP Community Toolkit
+description: The RadialGauge Control displays a value in a certain range using a needle on a circular face
+keywords: windows, app, toolkit, RadialGauge, gauge control, XAML, UWP, Radial, circular
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# RadialGauge
+# RadialGaugeControl XAML Control
 The **RadialGauge Control** displays a value in a certain range using a needle on a circular face.
 
 ## Syntax
@@ -24,11 +24,11 @@ The **RadialGauge Control** displays a value in a certain range using a needle o
                                   ScaleTickBrush="{ThemeResource ApplicationPageBackgroundThemeBrush}"
                                   UnitBrush="Black"
                                   ValueBrush="Black" 
-				  				  NeedleWidth="@[NeedleWidth:Slider:5:1-10]" 
-				  				  TickLength="@[TickLength:Slider:18:4-30]">
+				  	NeedleWidth="@[NeedleWidth:Slider:5:1-10]" 
+				  	TickLength="@[TickLength:Slider:18:4-30]">
  </controls:RadialGauge>
 ```
-## Example
+## Example Image
 
 ## Default Template
 ```xaml

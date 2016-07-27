@@ -25,7 +25,7 @@ The **RadialGauge Control** displays a value in a certain range using a needle o
                                   UnitBrush="Black"
                                   ValueBrush="Black" 
 				  	NeedleWidth="@[NeedleWidth:Slider:5:1-10]" 
-				  	TickLength="@[TickLength:Slider:18:4-30]"/>
+				  	TickLength="@[TickLength:Slider:18:4-30]">
  </controls:RadialGauge>
 ```
 ## Example Image

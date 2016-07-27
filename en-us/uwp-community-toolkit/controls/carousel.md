@@ -29,7 +29,7 @@ The Carousel Control displays modern, tile-like items that are visually appealin
 
 
 ## Default Template 
-If you need to override the default template to customize the styling or change the presentation you may do so by overriding the defaults.  The linked file below is the source of the control built in the latest version of the toolkit.  If you need an older version see the git page for versions.
+If you need to override the default template to customize the styling or change the presentation, you may do so by overriding the defaults. The linked file below is the source of the control built in the latest version of the toolkit.  If you need an older version, see the git page for versions.
 
 [Carousel XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Controls/Carousel/Carousel.xaml)
 

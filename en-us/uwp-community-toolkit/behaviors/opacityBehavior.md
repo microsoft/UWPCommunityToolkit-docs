@@ -15,7 +15,7 @@ The **Opacity Behavior** fades objects, in and out, over time.
 				Value="@[Value:DoubleSlider:0.0:0.0-1.0]" 
 				Duration="@[Duration:DoubleSlider:1.0:0.1-5.0]" 
 				Delay="@[Delay:DoubleSlider:0.0:0.0-5.0]" 
-				AutomaticallyStart="@[AutomaticallyStart:Bool:True]"/>
+				AutomaticallyStart="@[AutomaticallyStart:Bool:True]">
  </behaviors:Opacity>
 ```
  

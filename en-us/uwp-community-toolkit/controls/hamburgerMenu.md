@@ -14,16 +14,16 @@ The **Hamburger Menu Control** provides an easy-to-use, side-bar menu which user
 ## Syntax
 ```xaml
 <controls:HamburgerMenu PaneBackground="@[PaneBackground:Brush:Black]" x:Name="HamburgerMenuControl"
-                Foreground="White"
-                ItemTemplate="{StaticResource ButtonTemplate}"
-                OptionsItemTemplate="{StaticResource OptionTemplate}"
-                ItemClick="HamburgerMenu_OnItemClick"
-                OptionsItemClick="HamburgerMenu_OnOptionsItemClick"
-					OpenPaneLength="@[OpenPaneLength:Slider:240:50-400]"
-					DisplayMode="@[DisplayMode:Enum:SplitViewDisplayMode.CompactInline]"
-					CompactPaneLength="@[CompactPaneLength:Slider:48:10-80]"
-					HamburgerHeight="@[HamburgerHeight:Slider:48:10-80]"
-					IsPaneOpen="@[IsPaneOpen:Bool:False]"/>
+	Foreground="White"
+	ItemTemplate="{StaticResource ButtonTemplate}"
+	OptionsItemTemplate="{StaticResource OptionTemplate}"
+	ItemClick="HamburgerMenu_OnItemClick"
+	OptionsItemClick="HamburgerMenu_OnOptionsItemClick"
+	OpenPaneLength="240"
+	DisplayMode="CompactInline"
+	CompactPaneLength="48"
+	HamburgerHeight="48"
+	IsPaneOpen="False"/>
 </controls:HamburgerMenu>
 ```
 
@@ -34,7 +34,7 @@ The **Hamburger Menu Control** provides an easy-to-use, side-bar menu which user
 [HamburgerMenu Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/HamburgerMenu)
 
 ## Default Template 
-[HamburgerMenu XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Controls/HamburgerMenu /HamburgerMenu .xaml) is the XAML template used in the toolkit for the default styling.
+[HamburgerMenu XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Controls/HamburgerMenu/HamburgerMenu.xaml) is the XAML template used in the toolkit for the default styling.
 
 ## Platforms 
 

@@ -8,8 +8,14 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # HamburgerMenu XAML Control  
-The **Hamburger Menu Control** provides an easy-to-use, side-bar menu which users can show or hide by using a Hamburger button.
+The **Hamburger Menu Control** provides an easy-to-use, side-bar menu which users can show or hide by using a Hamburger button. By  tapping the icon, it opens up a side menu with a selection of options or additional pages.
 
+### How it works
+The 3-line menu icon, which resembles a Hamburger, allows developers to pack more features into their apps or navigation. The tiny icon takes up a minimal amount of screen real estate and creates a clean, minimalist look.
+
+Developers can create Menu-specific content, such as add video, graphics, images, text or even a Carousel. An example of the HamburgerMenu is the *Money tile* in Windows 10. When tapped, it displays various markets and currencies to allow users to configure settings to compliment their personal market interests.
+
+<p> **Note:** Refer to the following content for required code that must be used when creating a HamburgerMenu for Windows application development.<p> 
 
 ## Syntax
 ```xaml

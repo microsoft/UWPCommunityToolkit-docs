@@ -12,6 +12,7 @@ The **Blur Behavior** selectively blurs a XAML element by increasing or decreasi
 Sometimes you want an element to appear slightly out of focus, but to be familiar to the user from other locations within an app.  Rather than having to rasterize the XAML into an image and apply a blur, you can apply a BlurBehavior to the original element at run time. 
 
 ## Syntax
+You can either use the blur behavior from your XAML code:
 ```xaml
 
             <interactivity:Interaction.Behaviors>
@@ -23,17 +24,13 @@ Sometimes you want an element to appear slightly out of focus, but to be familia
             </interactivity:Interaction.Behaviors>
 
 ```
- 
-## Example
 
-[Blue Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/BlurBehavior)
-
+or directly from C#/VB code:
 ```C#
-// Code only example
 ToolkitLogo.Blur(duration: 10, delay: 0, blurAmount: 10);       
 ```
 
-## Default Template
+[Blur Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/BlurBehavior)
 
 
 ## Platforms
@@ -45,3 +42,4 @@ This behavior requires the [visual layer](https://msdn.microsoft.com/en-us/windo
 ## API
 
 [Blur Source Code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Animations/Behaviors/Blur.cs)
+[link to class documnetation]

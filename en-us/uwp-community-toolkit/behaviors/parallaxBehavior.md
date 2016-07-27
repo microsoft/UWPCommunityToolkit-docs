@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # ParallaxBehavior XAML Behavior
-Parallax XAML behavior uses composition to move an image behind a list at a different scroll speed.  The multiplier can be adjusted to move 1:1 (scroll at same speed), or 0.0 for the background to never scroll.
+The **Parallax** XAML behavior uses composition to move an image behind a list at a different scroll speed.  The multiplier can be adjusted to move 1:1 (scroll at same speed), or 0.0 for the background to never scroll.
 
 
 ## Syntax

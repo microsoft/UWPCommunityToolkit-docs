@@ -9,56 +9,27 @@ search.product: eADQiWindows 10XVcnh
 
 # ScaleBehavior XAML Behavior 
 The **Scale Behavior** allows you to create a scale by increasing or decreasing animation in your control. For example, the user changes the scale in an *Entry* field, by tapping it.
+
 ## Syntax
 ```xaml
-	<interactivity:Interaction.Behaviors>
-			<behaviors:Scale x:Name="ScaleBehavior" 
-				ScaleX="@[ScaleX:DoubleSlider:1.0:0.5-5.0]" 
-				ScaleY="@[ScaleY:DoubleSlider:1.0:0.5-5.0]" 
-				ScaleZ="@[ScaleZ:DoubleSlider:1.0:0.5-5.0]" 
-				CenterX="@[CenterX:DoubleSlider:0.0:0.0-100.0]" 
-				CenterY="@[CenterY:DoubleSlider:0.0:0.0-100.0]" 
-				CenterZ="@[CenterZ:DoubleSlider:0.0:0.0-100.0]" 
-				Duration="@[Duration:DoubleSlider:1.0:0.1-5.0]" 
-				Delay="@[Delay:DoubleSlider:0.0:0.0-5.0]" 
-				AutomaticallyStart="@[AutomaticallyStart:Bool:True]"/>
-	</interactivity:Interaction.Behaviors>
-</behaviors:Scale>
+
+<interactivity:Interaction.Behaviors>
+    <behaviors:Scale x:Name="Scale" 
+                     ScaleX="2.0"
+                     ScaleY="2.0"
+                     ScaleZ="1.0"
+                     CenterX="0.0"
+                     CenterY="0.0" 
+                     CenterZ="0.0" 
+                     Duration="1.0" 
+                     Delay="0.5" 
+                     AutomaticallyStart="True"/>
+</interactivity:Interaction.Behaviors>
+
 ```
- 
-## Example Image
+or directly from code:
 
-
-## Default Template
-```xaml
-Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Rectangle x:Name="MyRectangle" Fill="red" Height="100" Width="100" >
-            <interactivity:Interaction.Behaviors>
-                <behaviors:Scale x:Name="ScaleBehavior" 
-				ScaleX="1" 
-				ScaleY="1" 
-				ScaleZ="1" 
-				CenterX="0" 
-				CenterY="0" 
-				CenterZ="0" 
-				Duration="1" 
-				Delay="0" 
-				AutomaticallyStart="True"/>
-            </interactivity:Interaction.Behaviors>
-        </Rectangle>
-        
-        <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom">
-            <Button Content="Apply" Margin="10">
-                <interactivity:Interaction.Behaviors>
-                    <core:EventTriggerBehavior EventName="Click">
-                    <core:CallMethodAction TargetObject="{Binding ElementName=Scale}" MethodName="StartAnimation"/>
-                    </core:EventTriggerBehavior>
-                </interactivity:Interaction.Behaviors>
-            </Button>
-        </StackPanel>
-
-
-C#
+```C#
 MyRectangle.Scale(
                 duration: Duration,
                 delay: Delay,
@@ -70,6 +41,11 @@ MyRectangle.Scale(
                 scaleZ: (float)ScaleZ);
 ```
 
+[Scale Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/ScaleBehavior)
+ 
+## Example Image
+
+
 ## Platforms
 
 Windows 10 SDK 10586 or higher
@@ -77,3 +53,5 @@ Windows 10 SDK 10586 or higher
 This behavior requires the [visual layer](https://msdn.microsoft.com/en-us/windows/uwp/graphics/visual-layer) in [Windows.UI.Composition](https://msdn.microsoft.com/library/windows/apps/dn706878) in order to work.  
 
 ## API
+
+Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp) for the UWP Community Toolkit for current samples and example code.

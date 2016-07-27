@@ -25,7 +25,8 @@ You can either use the blur behavior from your XAML code:
 
 ```
 
-or directly from C#/VB code:
+or directly from code:
+
 ```C#
 ToolkitLogo.Blur(duration: 10, delay: 0, blurAmount: 10);       
 ```
@@ -43,3 +44,5 @@ This behavior requires the [visual layer](https://msdn.microsoft.com/en-us/windo
 
 [Blur Source Code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Animations/Behaviors/Blur.cs)
 [link to class documnetation]
+
+Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp) for the UWP Community Toolkit for current samples and example code.

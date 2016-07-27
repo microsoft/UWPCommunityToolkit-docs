@@ -32,8 +32,6 @@ The Carousel Control displays modern, tile-like items that are visually appealin
 
 ## Example Code
 
-Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp) for the UWP Community Toolkit for samples of all the controls.
-
 [Carousel Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/Carousel)
 
 ## Default Template 
@@ -44,3 +42,5 @@ Please view the [toolkit sample application](https://github.com/Microsoft/UWPCom
 Windows 10 SDK 10240 or higher
 
 ## API 
+
+Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp) for the UWP Community Toolkit for current samples and example code.

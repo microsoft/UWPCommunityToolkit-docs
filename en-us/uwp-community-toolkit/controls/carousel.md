@@ -7,10 +7,11 @@ defaultsearch.product:  eADQiWindows 10XVcnh
 ---
 
 # Carousel XAML Control
-The **Carousel Control** is a slideable application that lets developers add interactive navigation UI to their application. This Windows forms control, displays tile-like and visually appealing items along a pre-defined path. 
+The **Carousel Control** is a slideable application that lets developers add interactive navigation UI to their application. Developers can navigate through a list, add and remove items dynamically, smooth animations create vertical and horizontal transitions, and customize item paths. The Carousel forms control displays modern, tile-like items that are visually appealing.
 
-The Carousel Control lets users activate, navigate and animate from one item to another. You can navigate through a list, add and remove items dynamically, smooth animations create vertical and horizontal transitions, and customize item paths.
-Examples include *iTunes*, and *Windows 10* UI. 
+### How it Works
+Carousel items can be styled as either *Normal*, *Active* or *HotTracked*, and can be programmed to automatically scroll along customized paths. This controls gives users the power to activate and navigate from one item to another through a path. Examples include *Windows 10 Start* and *iTunes*. 
+
  
 ## Syntax 
 ```xaml

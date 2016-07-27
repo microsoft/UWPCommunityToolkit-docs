@@ -1,12 +1,12 @@
 ---
 permalink: /en-US/controls/carousel.html
-title: CarouselControl XAML Control for UWP Community Toolkit
+title: Carousel XAML Control for UWP Community Toolkit
 description: The Carousel Control is slideable application that lets users add interactive navigation XAML UI to applications. 
 Keywords: carousel, menu, CarouselControl, Carousel, control, image, windows, application, XAML, UI, slideable, UWP, toolkit 
 defaultsearch.product:  eADQiWindows 10XVcnh 
 ---
 
-# CarouselControl XAML Control
+# Carousel XAML Control
 The **Carousel Control** is a slideable application that lets developers add interactive navigation UI to their applications. You can navigate through a list, add and remove items dynamically, smooth animations and create vertical and horizontal transitions. 
  
  

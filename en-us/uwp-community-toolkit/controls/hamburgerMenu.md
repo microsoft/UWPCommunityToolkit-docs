@@ -1,13 +1,13 @@
 ---
 permalink: /en-US/controls/hamburgermenu.html
-title: HamburgerMenucontrol XAML Control for UWP Community Toolkit
-description:  The Hamburger Menu control displays a sidebar that is displayed by the Hamburger button       
+title: HamburgerMenuControl XAML Control for UWP Community Toolkit
+description:  The Hamburger Menu Control displays a sidebar that is displayed by the Hamburger button       
 keywords: windows, app, toolkit, hamburger, menu, hamburgermenu, XAML, control, sidebar
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# HamburgerMenuControl XAML Control##  
+# HamburgerMenuControl XAML Control  
 The **Hamburger Menu Control** provides an easy-to-use, side-bar menu which users can show or hide by using a Hamburger button.
 
 

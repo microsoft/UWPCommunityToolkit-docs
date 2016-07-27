@@ -40,7 +40,5 @@ The **Hamburger Menu Control** provides an easy-to-use, side-bar menu which user
 
 Windows 10 SDK 10240 or higher
 
-## Platforms
-
 ## API
 Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp) for the UWP Community Toolkit for samples of all the controls.

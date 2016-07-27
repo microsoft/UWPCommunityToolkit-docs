@@ -23,7 +23,7 @@ The **Hamburger Menu Control** provides an easy-to-use, side-bar menu which user
 					DisplayMode="@[DisplayMode:Enum:SplitViewDisplayMode.CompactInline]"
 					CompactPaneLength="@[CompactPaneLength:Slider:48:10-80]"
 					HamburgerHeight="@[HamburgerHeight:Slider:48:10-80]"
-					IsPaneOpen="@[IsPaneOpen:Bool:False]"
+					IsPaneOpen="@[IsPaneOpen:Bool:False]"/>
 </controls:HamburgerMenu>
 ```
 

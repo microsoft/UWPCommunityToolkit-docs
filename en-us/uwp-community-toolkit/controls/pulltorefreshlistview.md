@@ -2,7 +2,7 @@
 permalink: /en-US/controls/pulltorefreshlistview.html
 title: PullToRefreshListViewControl XAML Controlfor UWP Community Toolkit
 description: The PullToRefreshListView Control pulls the listview to trigger a content refresh
-keywords: windows, app, PulltoRefresh, ListView, toolkit, pull to refresh, XAML, UWP, 
+keywords: windows, app, PulltoRefresh, ListView, toolkit, pull to refresh, XAML, UWP 
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---

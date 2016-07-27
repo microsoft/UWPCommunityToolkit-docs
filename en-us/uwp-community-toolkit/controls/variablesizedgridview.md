@@ -1,14 +1,14 @@
 ---
 permalink: /en-US/controls/variablesizedgridview.html
-title: VariableSizedGridView
-description: This page describes the VariableSizedGridView grid control
-keywords: windows, app, toolkit , grid view, VariableSizedGridView
+title: VariableSizedGridViewControl XAML Control
+description: The VariableSizedGridView Control displays items that have different width and height values
+keywords: windows, app, toolkit, Variable Sized, gridview control, grid view, VariableSizedGridView, XAML, UWP, ratio
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# VariableSizedGridView
-The **VariableSizedGridView** Control displays items that have different width and height values. 
+#  VariableSizedGridViewControl XAML Control
+The **VariableSizedGridView Control** displays items that have different width and height values. 
 You can control the number of rows, columns, orientation and aspect ratio. 
 
 ## Syntax
@@ -19,7 +19,7 @@ You can control the number of rows, columns, orientation and aspect ratio.
             Orientation="@[Orientation:Enum:Orientation.Horizontal]"
             MaximumRowsOrColumns="@[MaximumRowsOrColumns:Slider:4:1-10]"/> 
 
-## Example 
+## Example Image
 
 ## Default Template
 ```xaml

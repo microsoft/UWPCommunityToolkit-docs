@@ -40,5 +40,5 @@ Windows 10 SDK 10240 or higher
 
 ## API
 
-(Stream Helper Source)[https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit/Helpers/StreamHelper.cs]
+[Stream Helper Source](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit/Helpers/StreamHelper.cs)
 

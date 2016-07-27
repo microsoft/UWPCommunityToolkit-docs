@@ -36,5 +36,5 @@ Windows 10 SDK 10240 or higher
 
 ## API
 
-(Color Helper Source)[https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit/Helpers/ColorHelper.cs]
+[Color Helper Source](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit/Helpers/ColorHelper.cs)
 

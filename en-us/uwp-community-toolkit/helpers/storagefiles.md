@@ -39,4 +39,4 @@ Windows 10 SDK 10240 or higher
 
 ## API
 
-(Storage File Helper Source)[https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit/Helpers/StorageFileHelper.cs]
+[Storage File Helper Source](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit/Helpers/StorageFileHelper.cs)

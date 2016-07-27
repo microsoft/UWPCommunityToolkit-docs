@@ -1,13 +1,13 @@
 ---
 permalink: /en-US/controls/rangeselector.html
-title: RangeSelector
-description: This page describes the RangeSelector control
-keywords: windows, app, toolkit, RangeSelector, range control
+title: RangeSelectorControl XAML Control for UWP Community Toolkit
+description: The RangeSelector Control is a Double Slider control used to select a sub-range of values from a larger range of possible values. 
+keywords: windows, app, toolkit, RangeSelector, range control, UWP, XAML, double slider, sub range
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# RangeSelector
+# RangeSelectorControl XAML Control
 The **RangeSelector** Control is a *Double Slider* control that allows the user to select a sub-range of values from a larger range of possible values.  The user can slide from the left or right of the range.
 
 ## Syntax
@@ -19,7 +19,7 @@ The **RangeSelector** Control is a *Double Slider* control that allows the user 
 ```
 
 
-## Example 
+## Example Image
 
 ## Default Template
 ```xaml

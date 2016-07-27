@@ -31,7 +31,7 @@ The **Hamburger Menu Control** provides an easy-to-use, side-bar menu which user
 ![hamburger menu animation](/resources/images/hamburgermenu.gif "Hamburger menu")
 
 ## Example Code
-[HamnurgerMenu Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/HamburgerMenu)
+[HamburgerMenu Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/HamburgerMenu)
 
 ## Default Template 
 [HamnurberMenu XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Controls/HamburgerMenu /HamburgerMenu .xaml) is the XAML template used in the toolkit for the default styling.

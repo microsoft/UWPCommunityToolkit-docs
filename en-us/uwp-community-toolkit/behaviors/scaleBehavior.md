@@ -23,7 +23,7 @@ The **Scale Behavior** allows you to create a scale by increasing or decreasing 
 				Delay="@[Delay:DoubleSlider:0.0:0.0-5.0]" 
 				AutomaticallyStart="@[AutomaticallyStart:Bool:True]"/>
 	</interactivity:Interaction.Behaviors>
-			</behaviors:Scale>
+</behaviors:Scale>
 ```
  
 ## Example Image

@@ -16,7 +16,7 @@ A metered connection is an Internet connection that has a data limit associated 
 
 ## Example
 
-**NOTE** There is no UI for this helper.  It is a C# helper without a visual component.
+**NOTE:** There is no UI for this helper.  It is a C# helper without a visual component.
 
 ```C#
 
@@ -40,4 +40,7 @@ A metered connection is an Internet connection that has a data limit associated 
 Windows 10 SDK 10240 or higher
 
 ## API
+
+(Connection Helper Source)[https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit/Helpers/ConnectionHelper.cs]
+
 

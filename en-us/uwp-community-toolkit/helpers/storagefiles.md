@@ -14,7 +14,7 @@ The StorageFileHelper is a static utility class that provides functions to help 
 
 ## Example
 
-**NOTE** There is no UI for this helper.  It is a C# helper without a visual component.
+**NOTE:** There is no UI for this helper.  It is a C# helper without a visual component.
 
 ```C#
 
@@ -39,3 +39,4 @@ Windows 10 SDK 10240 or higher
 
 ## API
 
+(Storage File Helper Source)[https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit/Helpers/StorageFileHelper.cs]

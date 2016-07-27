@@ -21,7 +21,7 @@ Read text from a file using ASCII or specified encoding.
 
 ## Example
 
-**NOTE** There is no UI for this helper.  It is a C# helper without a visual component.
+**NOTE:** There is no UI for this helper.  It is a C# helper without a visual component.
 
 ```C#
 
@@ -39,3 +39,6 @@ Read text from a file using ASCII or specified encoding.
 Windows 10 SDK 10240 or higher
 
 ## API
+
+(Stream Helper Source)[https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit/Helpers/StreamHelper.cs]
+

@@ -10,8 +10,8 @@ defaultsearch.product:  eADQiWindows 10XVcnh
 The **Carousel Control** is a slideable application that lets developers add interactive navigation UI to their application. Developers can navigate through a list, add and remove items dynamically, smooth animations create vertical and horizontal transitions, and customize item paths. 
 
 ### How it Works
-Carousel Control items can be styled as either *Normal*, *Active* or *HotTracked*, or programmed to automatically scroll along customized paths. The Carousel forms control displays modern, tile-like items that are visually appealing. Examples include *Windows 10 Start* and *iTunes*. 
-The following section provides code that is used to create Carousels when developing a Windows application.  
+The Carousel Control displays modern, tile-like items that are visually appealing. Carousel items can be styled as either *Normal*, *Active* or *HotTracked*, or programmed to automatically scroll along customized paths.  Examples include *Windows 10 Start* and *iTunes*. 
+<p> **Note:** The following section provides required code that must be used when creating a Carousel Control for Windows application development.<p> 
 
  
 ## Syntax 

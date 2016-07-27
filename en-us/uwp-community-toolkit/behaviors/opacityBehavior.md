@@ -1,13 +1,13 @@
 ---
 permalink: /en-US/behaviors/OpacityBehavior.html
-title: OpacityBehavior
-description: This page describes the Opacity Behavior 
-keywords: windows, app, toolkit, OpacityBehavior, behavior
+title: OpacityBehavior XAML Behavior for UWP Community Toolkit
+description: The Opacity Behavior fades objects, in and out, over time 
+keywords: windows, app, toolkit, OpacityBehavior, Opacity, fades, XAML, UWP
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# OPACITY
+# OpacityBehavior XAML Behavior
 The **Opacity Behavior** fades objects, in and out, over time. 
 ## Syntax
 ```xaml
@@ -19,7 +19,7 @@ The **Opacity Behavior** fades objects, in and out, over time.
  </behaviors:Opacity>
 ```
  
-## Example
+## Example Image
 
 
 ## Default Template

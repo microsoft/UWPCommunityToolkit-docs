@@ -9,9 +9,11 @@ search.product: eADQiWindows 10XVcnh
 # Getting Started  
 This document provides an overview of the  Universal Windows Application (UWP) Toolkit and the Controls required for developers to create and build Windows applications for desktop or mobile devices. The Toolkit contains the building blocks essential for optimal application development, including .md, XAML and C# code samples for each control type. 
 
-## Requirements 
-1. Visual Studio 2015 Update 3 or greater.
-2. Download the UWP Toolkit Sample Application. 
+## Requirements
+1. Visual Studio (Community or greater) 2015 Update 3
+2. Windows 10 Anniversary Edition with SDK
+3. Universal Windows SDK installed ( it is an optional component during install )
+4. UWP Community Toolkit Nuget packages (we need to get the links from David)     
 
 
 **Note:** If you want to contribute, create a GitHub account, and access https://github.com/Microsoft/UWPCommunityToolkit-docs.

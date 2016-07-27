@@ -17,7 +17,7 @@ You can control the number of rows, columns, orientation and aspect ratio.
             Margin="0"
             ItemTemplate="{StaticResource PhotoTemplate}"
             Orientation="@[Orientation:Enum:Orientation.Horizontal]"
-            MaximumRowsOrColumns="@[MaximumRowsOrColumns:Slider:4:1-10]"/>
+            MaximumRowsOrColumns="@[MaximumRowsOrColumns:Slider:4:1-10]">
 ```
 
 ## Example Image

@@ -21,7 +21,7 @@ The **Rotation Behavior** allows users to modify and animate the control's rotat
 				Delay="@[Delay:DoubleSlider:0.0:0.0-5.0]" 
 				AutomaticallyStart="@[AutomaticallyStart:Bool:True]"/>
   </behaviors:Rotation>
-``
+```
  
 ## Example Image
 

@@ -1,13 +1,13 @@
 ---
 permalink: /en-US/controls/headeredtextblock.html
-title: HeaderedTextBlockControl XAML Control for UWP Community Toolkit
+title: HeaderedTextBlock XAML Control for UWP Community Toolkit
 description: The HeaderedTextBlock Control provides a header for read-only text, displays forms, content and various item collections
 keywords: windows, app, toolkit, HeaderedTextBlock, text block, headered, XAML, XAML Control, HeaderedText, UWP
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# HeaderedTextBlockControl XAML Control
+# HeaderedTextBlock XAML Control
 The **HeaderedTextBlock Control** provides a header for read-only text. This control is useful for displaying read-only forms, content, or a collection of items depending on the type. 
 ## Syntax
 ```xaml

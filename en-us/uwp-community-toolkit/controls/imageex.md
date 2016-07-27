@@ -1,7 +1,7 @@
 ---
 permalink: /en-US/controls/ImageEx.html
 title: ImageExControl XAML Control for UWP Community Toolkit
-description:The ImageEx Controldownloads images asynchronously while showing a loading indicator.
+description: The ImageEx Controldownloads images asynchronously while showing a loading indicator.
 keywords: windows, app, toolkit, ImageEx, loading indicator, ImageExControl, UWP
 layout: default
 search.product: eADQiWindows 10XVcnh

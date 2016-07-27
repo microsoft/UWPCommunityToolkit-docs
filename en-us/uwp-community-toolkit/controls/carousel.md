@@ -18,13 +18,11 @@ The Carousel Control displays modern, tile-like items that are visually appealin
 ```xaml
 	<controls:Carousel
 	        Name="CarouselControl"
-	        ContentTemplate="{StaticResource PhotosTemplate}"
-	        MaxItems="{Binding MaxItems.Value}"
-	        AspectRatio="{Binding AspectRatio.Value}"
-	        MaxHeight="{Binding MaxHeight.Value}"
-	        AlignmentX="{Binding AlignmentX.Value}"
-	        GradientOpacity="{Binding GradientOpacity.Value}"/>
-
+	        MaxItems="10"
+	        AspectRatio="1.5"
+	        MaxHeight="200"
+	        AlignmentX="Left"
+	        GradientOpacity="0.1"/>
 ```          
 
 ## Example Image

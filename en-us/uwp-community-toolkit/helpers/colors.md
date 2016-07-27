@@ -12,7 +12,7 @@ The **Colors Helper** lets users convert colors from text names, html hex, hsv, 
 
 ## Example
 
-**NOTE** There is no UI for this helper.  It is a C# helper without a visual component.
+**NOTE:** There is no UI for this helper. It is a C# helper without a visual component.
 
 ```C#
 

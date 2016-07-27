@@ -25,27 +25,8 @@ The **Carousel Control** is a slideable application that lets developers add int
 
 
 ## Default Template 
-```xaml
-        <DataTemplate x:Key="PhotosTemplate">
-            <Background="White" BorderBrush="Black" BorderThickness="1">
-                <Image Source="{Binding Thumbnail}"
-                    Stretch="UniformToFill"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center"/>
-        </DataTemplate>
 
-
-    <Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <controls:Carousel  Name="carouselControl"
-                ContentTemplate="{StaticResource PhotosTemplate}"
-                MaxItems="6"
-                AspectRatio="0.6"
-                MaxHeight="500"
-                AlignmentX="Center"
-                GradientOpacity="0.3"/>
-   
-C#                
-```
+(Carousel XAML File)[https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Controls/Carousel/Carousel.xaml]
 
 ## Platforms 
 

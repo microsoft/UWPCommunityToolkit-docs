@@ -25,9 +25,12 @@ The **Carousel Control** is a slideable application that lets developers add int
 
 
 ## Default Template 
+If you need to override the default template to customize the styling or change the presentation you may do so by overriding the defaults.  The linked file below is the source of the control built in the latest version of the toolkit.  If you need an older version see the git page for versions.
 
-(Carousel XAML File)[https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Controls/Carousel/Carousel.xaml]
+[Carousel XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Controls/Carousel/Carousel.xaml)
 
 ## Platforms 
+
+Windows 10 SDK 10240 or higher
 
 ## API 

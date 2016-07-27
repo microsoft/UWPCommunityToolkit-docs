@@ -15,6 +15,9 @@ _What is a metered connection?_
 A metered connection is an Internet connection that has a data limit associated with it. Cellular data connections are set as metered by default. Wi-Fi network connections can be set to metered, but aren't by default. Some apps and features in Windows will behave differently on a metered connection to help reduce your data usage.
 
 ## Example
+
+**NOTE** There is no UI for this helper.  It is a C# helper without a visual component.
+
 ```C#
 
 	// Metered connections are determined by the OS

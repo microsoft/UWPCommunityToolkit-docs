@@ -1,15 +1,14 @@
 ---
 permalink: /en-US/controls/headeredtextblock.html
-title: HeaderedTextBlock
-description: This page describes the HeaderedTextBlock control
-keywords: windows, app, toolkit, HeaderedTextBlock, text block
+title: HeaderedTextBlockControl XAML Control
+description: The HeaderedTextBlock Control provides a header for read-only text, and displays forms, content and item collections
+keywords: windows, app, toolkit, HeaderedTextBlock, text block, headered, XAML, XAML Control, read-only
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# HeaderedTextBlock
+# HeaderedTextBlockControl XAML Control
 The **HeaderedTextBlock Control** provides a header for read-only text. This control is useful for displaying read-only forms, content, or a collection of items depending on the type. 
-
 ## Syntax
 ```xaml
  <controls:HeaderedTextBlock Header="{Binding Header.Value, Mode=OneWay}" 
@@ -19,7 +18,7 @@ The **HeaderedTextBlock Control** provides a header for read-only text. This con
 
    ```
  
-## Example
+## Example Image
 
 
 ## Default Template

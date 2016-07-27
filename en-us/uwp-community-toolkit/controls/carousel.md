@@ -16,22 +16,28 @@ The Carousel Control displays modern, tile-like items that are visually appealin
  
 ## Syntax 
 ```xaml
- <controls:Carousel Name="carouselControl"
-                ContentTemplate="{StaticResource PhotosTemplate}"
-                MaxItems="@[MaxItems:Slider:6:1-10]"
-                AspectRatio="@[AspectRatio:DoubleSlider:0.6:0.25-2.0]"
-                MaxHeight="@[MaxHeight:Slider:500:200-800]"
-                AlignmentX="@[AlignmentX:Enum:AlignmentX.Center]"
-                GradientOpacity="@[GradientOpacity:DoubleSlider:0.3:0.0-1.0]"/>
+	<controls:Carousel
+	        Name="CarouselControl"
+	        ContentTemplate="{StaticResource PhotosTemplate}"
+	        MaxItems="{Binding MaxItems.Value}"
+	        AspectRatio="{Binding AspectRatio.Value}"
+	        MaxHeight="{Binding MaxHeight.Value}"
+	        AlignmentX="{Binding AlignmentX.Value}"
+	        GradientOpacity="{Binding GradientOpacity.Value}"/>
+
 ```          
 
 ## Example Image
 
 
-## Default Template 
-If you need to override the default template to customize the styling or change the presentation, you may do so by overriding the defaults. The linked file below is the source of the control built in the latest version of the toolkit.  If you need an older version, see the git page for versions.
+## Example Code
 
-[Carousel XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Controls/Carousel/Carousel.xaml)
+Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp) for the UWP Community Toolkit for samples of all the controls.
+
+[Carousel Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/Carousel)
+
+## Default Template 
+[Carousel XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Controls/Carousel/Carousel.xaml) is the XAML template used in the toolkit for the default styling.
 
 ## Platforms 
 

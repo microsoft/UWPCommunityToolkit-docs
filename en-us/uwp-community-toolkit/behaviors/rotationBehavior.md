@@ -1,13 +1,13 @@
 ---
 permalink: /en-US/behaviors/RotationBehavior.html
-title: RotationBehavior
-description: This page describes the Rotation Behavior 
-keywords: windows, app, toolkit, RotationBehavior, behavior
+title: RotationBehavior XAML Behavior for UWP Community Toolkit
+description: The Rotation Behavior allows users to modify and animate the control's rotation 
+keywords: windows, app, toolkit, RotationBehavior,  Rotation, XAML, UWP, animate rotation, behavior
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# ROTATION
+# RotationBehavior XAML Behavior
 The **Rotation Behavior** allows users to modify and animate the control's rotation. Parameters include: angle values, time, pause delay, duration, and diameter.
 
 ## Syntax
@@ -23,7 +23,7 @@ The **Rotation Behavior** allows users to modify and animate the control's rotat
   </behaviors:Rotation>
 ``
  
-## Example
+## Example Image
 
 
 ## Default Template

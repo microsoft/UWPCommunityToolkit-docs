@@ -26,7 +26,7 @@ The Carousel Control displays modern, tile-like items that are visually appealin
 ```          
 
 ## Example Image
-
+![Carousel Control Items](/resources/images/CarouselControl.GIF)
 
 ## Example Code
 

@@ -13,43 +13,35 @@ Sometimes you want an element to appear slightly out of focus, but to be familia
 
 ## Syntax
 ```xaml
- <behaviors:Blur x:Name="BlurBehaviorControl"
-                            BlurAmount="@[BlurAmount:DoubleSlider:10.0:0.0-10.0]"
-                            Duration="@[Duration:DoubleSlider:3.0:0.1-10.0]"
-                            Delay="@[Delay:DoubleSlider:0.0:0.0-5.0]"
-                            AutomaticallyStart="@[AutomaticallyStart:Bool:True]"/>
+
+            <interactivity:Interaction.Behaviors>
+                <behaviors:Blur x:Name="BlurBehavior" 
+                                   BlurAmount="{Binding BlurAmount.Value, Mode=TwoWay}" 
+                                   Duration="{Binding Duration.Value, Mode=TwoWay}" 
+                                   Delay="{Binding Delay.Value, Mode=TwoWay}" 
+                                   AutomaticallyStart="{Binding AutomaticallyStart.Value, Mode=TwoWay}"/>
+            </interactivity:Interaction.Behaviors>
+
 ```
  
 ## Example
 
+[Blue Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/BlurBehavior)
 
-## Default Template
-```xaml
-<Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Rectangle x:Name="MyRectangle" Fill="red" Height="100" Width="100" >
-          <interactivity:Interaction.Behaviors>
-            <behaviors:Blur x:Name="BlurBehavior"
-                            BlurAmount="10"
-                            Duration="3"
-                            Delay="0"
-                            AutomaticallyStart="True"/>
-          </interactivity:Interaction.Behaviors>
-        </Rectangle>
-        <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom">
-            <Button Content="Apply" Margin="10">
-                <interactivity:Interaction.Behaviors>
-                    <core:EventTriggerBehavior EventName="Click">
-                        <core:CallMethodAction TargetObject="{Binding ElementName=Offset}" MethodName="StartAnimation"/>
-                    </core:EventTriggerBehavior>
-                </interactivity:Interaction.Behaviors>
-            </Button>
-        </StackPanel>
-```
- 
 ```C#
+// Code only example
 ToolkitLogo.Blur(duration: 10, delay: 0, blurAmount: 10);       
 ```
 
+## Default Template
+
+
 ## Platforms
 
+Windows 10 SDK 10586 or higher
+
+This behavior requires the [visual layer](https://msdn.microsoft.com/en-us/windows/uwp/graphics/visual-layer) in [Windows.UI.Composition](https://msdn.microsoft.com/library/windows/apps/dn706878) in order to work.  
+
 ## API
+
+[Blur Source Code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Animations/Behaviors/Blur.cs)

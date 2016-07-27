@@ -53,4 +53,8 @@ MyRectangle.Opacity(Duration, Delay, (float)Value);
 
 ## Platforms
 
+Windows 10 SDK 10586 or higher
+
+This behavior requires the [visual layer](https://msdn.microsoft.com/en-us/windows/uwp/graphics/visual-layer) in [Windows.UI.Composition](https://msdn.microsoft.com/library/windows/apps/dn706878) in order to work.  
+
 ## API

@@ -1,13 +1,13 @@
 ---
 permalink: /en-US/controls/ImageEx.html
-title: ImageExControl XAML Control for UWP Community Toolkit
+title: ImageEx XAML Control for UWP Community Toolkit
 description: The ImageEx Controldownloads images asynchronously while showing a loading indicator
 keywords: windows, app, toolkit, ImageEx, loading indicator, ImageExControl, UWP
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# ImageExControl XAML Control
+# ImageEx XAML Control
 The **ImageEx Control** downloads images asynchronously while showing a loading indicator. Source images are then stored in the Application's local cache to preserve resources and load time. ImageEx also extends the default *Image Platform* control to improve performance through the cache. 
 
 ## Syntax

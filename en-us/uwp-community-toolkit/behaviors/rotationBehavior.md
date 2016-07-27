@@ -30,7 +30,7 @@ The **Rotation Behavior** allows users to modify and animate the control's rotat
 ```xaml
 <Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
- <Rectangle x:Name="MyRectangle" Fill="red" Height="100" Width="100" >
+ <Rectangle x:Name="MyRectangle" Fill="red" Height="100" Width="100">
         <interactivity:Interaction.Behaviors>
             <behaviors:Rotation x:Name="RotationBehavior" 
 		Rotation x:Name="Rotation" 

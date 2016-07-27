@@ -43,6 +43,8 @@ The **Carousel Control** is a slideable application that lets developers add int
                 MaxHeight="500"
                 AlignmentX="Center"
                 GradientOpacity="0.3"/>
+   
+C#                
 ```
 
 ## Platforms 

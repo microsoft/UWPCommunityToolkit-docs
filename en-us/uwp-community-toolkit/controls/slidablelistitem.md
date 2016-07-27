@@ -1,13 +1,13 @@
 ---
 permalink: /en-US/controls/slidablelistitem.html
-title: SlidableListItemControl XAML Control
+title: SlidableListItem XAML Control
 description: The SlidableListItem Control is a UI that triggers actions by sliding content left or right
-keywords: windows, app, toolkit, SlidableListItem, custom list item, List View, XAML, UWP, Slideable, List Item Control
+keywords: windows, app, toolkit, SlidableListItem, custom list item, List View, XAML, UWP, Slideable
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# SlidableListItemControl XAML Control
+# SlidableListItem XAML Control
 The **SlideableListItem Control** is a UI control that enables actions to be triggered by sliding the content left or right. It can be used as a ListView Data Template root to create effects similar to those common in mobile email apps.  
 
 ## Syntax

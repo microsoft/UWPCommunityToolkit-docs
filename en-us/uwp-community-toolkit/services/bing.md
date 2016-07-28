@@ -1,17 +1,17 @@
 ---
 permalink: /en-US/services/bing.html
-title: Bing
-description: This page describes the Bing Service
-keywords: windows, app, toolkit, Bing, services, menu
+title: Bing Service from UWP Community Toolkit
+description: Easy add support for Bing within your UWP Applications
+keywords: windows, app, toolkit, Bing, services, UWP
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
 # BING SERVICE
-The **Bing Service** allows you to retrieve Microsoft Bing web serach engine results. 
+The **Bing Service** allows you to retrieve Bing results. Bing can return web results, images, and videos for many countries around the world.
 
-## Syntax
-```xaml
+## Example Syntax
+```C#
 if (string.IsNullOrEmpty(SearchText.Text))
 {
     return;
@@ -27,55 +27,14 @@ ListView.ItemsSource = await BingService.Instance.RequestAsync(searchConfig, 50)
 ```
 
 ## Example 
+<p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
 
-
-## Default Syntax
-```xaml
-<Page.Resources>
-        <DataTemplate x:Key="BingSchemaTemplate" x:DataType="bing:BingResult">
-            <Grid Margin="0,5,10,5">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition Width="Auto"></ColumnDefinition>
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                </Grid.RowDefinitions>
-                <TextBlock Text="{x:Bind Title}" Grid.Row="0" Grid.Column="0" FontWeight="Bold" TextTrimming="CharacterEllipsis"></TextBlock>
-                <TextBlock Text="{x:Bind Published}" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Right"></TextBlock>
-                <TextBlock Text="{x:Bind Summary}" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" TextWrapping="Wrap"></TextBlock>
-                <HyperlinkButton Content="{x:Bind Link}" NavigateUri="{x:Bind Link}" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"></HyperlinkButton>
-            </Grid>
-        </DataTemplate>
-    </Page.Resources>
-
-    <Grid Background="{StaticResource Brush-Grey-05}">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"></RowDefinition>
-            <RowDefinition></RowDefinition>
-        </Grid.RowDefinitions>
-       
-        <StackPanel Orientation="Vertical" Margin="10">
-            <TextBox Header="Request:" x:Name="SearchText" Text="UWP"></TextBox>
-            <Button Content="Search" x:Name="SearchButton" Click="SearchButton_OnClick" Margin="0,10,0,0"></Button>
-        </StackPanel>
-       
-        <ListView Grid.Row="1" ItemTemplate="{StaticResource BingSchemaTemplate}" x:Name="ListView">
-            <ListView.ItemContainerStyle>
-                <Style TargetType="ListViewItem">
-                    <Setter Property="HorizontalContentAlignment" Value="Stretch" />
-                </Style>
-            </ListView.ItemContainerStyle>
-        </ListView>
-  
- 
-
-```
+[Bing Service Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/Bing%20Service)
 
 ## Platforms 
 
+Windows 10 SDK 10240 or higher
 
 ## API
 
+Please refer to the [Bing Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.Services/Services/Bing) for details about the implementation.

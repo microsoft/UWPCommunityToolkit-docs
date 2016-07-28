@@ -8,38 +8,39 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # SlidableListItem XAML Control
-The **SlideableListItem Control** is a UI control that enables actions to be triggered by sliding the content left or right. It can be used as a ListView Data Template root to create effects similar to those common in mobile email apps.  
+The **SlideableListItem Control** is a UI control that enables actions to be triggered by sliding the content left or right. This effect can be forced to ignore the mouse if only touch screen interaction is desired.
 
-<p> **Note:** Refer to the following content for required code that must be used when creating a SlideableListItem for Windows application development.<p>
+This control can be used as a ListView Data Template root to create effects similar to those common in mobile email apps like Outlook.  
+
 ## Syntax
-
-    <controls:SlidableListItem HorizontalAlignment="Stretch"
-              LeftIcon="Favorite" 
-              RightIcon="Delete" 
-              LeftLabel="Set Favorite" 
-              RightLabel="Delete"
-              LeftBackground="Green" 
-              RightBackground="Red"
-              LeftForeground="White" 
-              RightForeground="Black"
-              ActivationWidth="100"
-              MouseSlidingEnabled="True"
-              LeftCommand="ToggleFavorite"
-              RightCommandRequested="SlidableListItem_RightCommandActivated">
-              
-              <Height="110" Background="Gray">
-                    <StackPanel Column="1" Margin="10"
-                        <CheckBox IsChecked="{x:Bind IsFavorite, Mode=OneWay}"></CheckBox>
-                        <TextBlock Text="{x:Bind Title}" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="NoWrap"/>
-                    
-            
-    </controls:SlidableListItem> 
-      
 ```xaml
+<controls:SlidableListItem
+		LeftIcon="Favorite" 
+		RightIcon="Delete" 
+		LeftLabel="Set Favorite" 
+		RightLabel="Delete"
+		LeftBackground="Green" 
+		RightBackground="Red"
+		LeftForeground="White" 
+		RightForeground="Black"
+		ActivationWidth="100"
+		MouseSlidingEnabled="True"
+		LeftCommand="ToggleFavorite"
+		RightCommandRequested="SlidableListItem_RightCommandActivated">
+		
+		<StackPanel Column="1" Margin="10"
+		    <CheckBox IsChecked="False"></CheckBox>
+		    <TextBlock Text="My Great Text" TextWrapping="NoWrap"/>
+                
+</controls:SlidableListItem> 
+  
+```
 
 ## Example Image
 
 ## Example Code
+<p> **Note:** Refer to the following content for required code that must be used when creating a SlideableListItem for Windows application development.<p>
+
 [SlideableListItem Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/SlideableListItem)
 
 ## Default Template 

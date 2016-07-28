@@ -25,7 +25,13 @@ The **SlideableListItem Control** is a UI control that enables actions to be tri
               ActivationWidth="100"
               MouseSlidingEnabled="True"
               LeftCommand="ToggleFavorite"
-              RightCommandRequested="SlidableListItem_RightCommandActivated"/>
+              RightCommandRequested="SlidableListItem_RightCommandActivated">
+              
+              <Height="110" Background="Gray">
+                    <StackPanel Column="1" Margin="10"
+                        <CheckBox IsChecked="{x:Bind IsFavorite, Mode=OneWay}"></CheckBox>
+                        <TextBlock Text="{x:Bind Title}" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="NoWrap"/>
+                    
             
     </controls:SlidableListItem> 
       

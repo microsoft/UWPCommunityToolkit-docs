@@ -14,18 +14,19 @@ The **SlideableListItem Control** is a UI control that enables actions to be tri
 ## Syntax
 
     <controls:SlidableListItem HorizontalAlignment="Stretch"
-            LeftIcon="Favorite" 
-            RightIcon="Delete" 
-            LeftLabel="Set Favorite" 
-            RightLabel="Delete"
-            LeftBackground="Green" 
-             RightBackground="Red"
-             LeftForeground="White" 
-             RightForeground="Black"
-             ActivationWidth="100"
-             MouseSlidingEnabled="True"
-             LeftCommand="ToggleFavorite" 
-             RightCommandRequested="SlidableListItem_RightCommandActivated">
+              LeftIcon="Favorite" 
+              RightIcon="Delete" 
+              LeftLabel="Set Favorite" 
+              RightLabel="Delete"
+              LeftBackground="Green" 
+              RightBackground="Red"
+              LeftForeground="White" 
+              RightForeground="Black"
+              ActivationWidth="100"
+              MouseSlidingEnabled="True"
+              LeftCommand="ToggleFavorite"
+              RightCommandRequested="SlidableListItem_RightCommandActivated"/>
+            
     </controls:SlidableListItem> 
       
 ```xaml

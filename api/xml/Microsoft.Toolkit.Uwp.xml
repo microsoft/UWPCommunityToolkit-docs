@@ -1,0 +1,542 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Toolkit.Uwp</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Toolkit.Uwp.ColorHelper">
+            <summary>
+            This class provides static helper methods for colors.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.ColorHelper.ToColor(System.String)">
+            <summary>
+            Returns a color based on XAML color string.
+            </summary>
+            <param name="colorString">The color string. Any format used in XAML should work.</param>
+            <returns>Parsed color</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.ColorHelper.ToHex(Windows.UI.Color)">
+            <summary>
+            Converts a Color value to a string representation of the value in hexadecimal.
+            </summary>
+            <param name="color">The Color to convert.</param>
+            <returns>Returns a string representing the hex value.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.ColorHelper.ToInt(Windows.UI.Color)">
+            <summary>
+            Returns the color value as a premultiplied Int32 - 4 byte ARGB structure.
+            </summary>
+            <param name="color">the Color to convert</param>
+            <returns>Returns a int representing the color.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.ColorHelper.ToHsl(Windows.UI.Color)">
+            <summary>
+            Converts an RGBA Color the HSL representation.
+            </summary>
+            <param name="color">The Color to convert.</param>
+            <returns>HslColor.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.ColorHelper.ToHsv(Windows.UI.Color)">
+            <summary>
+            Converts an RGBA Color the HSV representation.
+            </summary>
+            <param name="color">Color to convert.</param>
+            <returns>HsvColor</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.ColorHelper.FromHsl(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Returns a Color struct based on HSL model.
+            </summary>
+            <param name="hue">0..360 range hue</param>
+            <param name="saturation">0..1 range saturation</param>
+            <param name="lightness">0..1 range lightness</param>
+            <param name="alpha">0..1 alpha</param>
+            <returns>A Color object</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.ColorHelper.FromHsv(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Returns a Color struct based on HSV model.
+            </summary>
+            <param name="hue">0..360 range hue</param>
+            <param name="saturation">0..1 range saturation</param>
+            <param name="value">0..1 range value</param>
+            <param name="alpha">0..1 alpha</param>
+            <returns>A Color object</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.ConnectionHelper">
+            <summary>
+            This class provides static helper methods for connections.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.ConnectionHelper.IsInternetOnMeteredConnection">
+            <summary>
+            Gets a value indicating whether if the current internet connection is metered.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.ConnectionHelper.IsInternetAvailable">
+            <summary>
+            Gets a value indicating whether internet is available across all connections.
+            </summary>
+            <returns>True if internet can be reached.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.StorageFileHelper">
+            <summary>
+            This class provides static helper methods for <see cref="T:Windows.Storage.StorageFile" />.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.SaveTextToLocalFileAsync(System.String,System.String,Windows.Storage.CreationCollisionOption)">
+            <summary>
+            Saves a string value to a <see cref="T:Windows.Storage.StorageFile"/> in application local folder/>.
+            </summary>
+            <param name="text">
+            The <see cref="T:System.String"/> value to save to the file.
+            </param>
+            <param name="fileName">
+            The <see cref="T:System.String"/> name for the file.
+            </param>
+            <param name="options">
+            The creation collision options. Default is ReplaceExisting.
+            </param>
+            <returns>
+            Returns the saved <see cref="T:Windows.Storage.StorageFile"/> containing the text.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Exception thrown if the file location or file name are null or empty.
+            </exception>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.SaveTextToLocalCacheFileAsync(System.String,System.String,Windows.Storage.CreationCollisionOption)">
+            <summary>
+            Saves a string value to a <see cref="T:Windows.Storage.StorageFile"/> in application local cache folder/>.
+            </summary>
+            <param name="text">
+            The <see cref="T:System.String"/> value to save to the file.
+            </param>
+            <param name="fileName">
+            The <see cref="T:System.String"/> name for the file.
+            </param>
+            <param name="options">
+            The creation collision options. Default is ReplaceExisting.
+            </param>
+            <returns>
+            Returns the saved <see cref="T:Windows.Storage.StorageFile"/> containing the text.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Exception thrown if the file location or file name are null or empty.
+            </exception>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.SaveTextToKnownFolderFileAsync(Windows.Storage.KnownFolderId,System.String,System.String,Windows.Storage.CreationCollisionOption)">
+            <summary>
+            Saves a string value to a <see cref="T:Windows.Storage.StorageFile"/> in well known folder/>.
+            </summary>
+            <param name="knownFolderId">
+            The well known folder ID to use.
+            </param>
+            <param name="text">
+            The <see cref="T:System.String"/> value to save to the file.
+            </param>
+            <param name="fileName">
+            The <see cref="T:System.String"/> name for the file.
+            </param>
+            <param name="options">
+            The creation collision options. Default is ReplaceExisting.
+            </param>
+            <returns>
+            Returns the saved <see cref="T:Windows.Storage.StorageFile"/> containing the text.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Exception thrown if the file location or file name are null or empty.
+            </exception>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.SaveTextToFileAsync(Windows.Storage.StorageFolder,System.String,System.String,Windows.Storage.CreationCollisionOption)">
+            <summary>
+            Saves a string value to a <see cref="T:Windows.Storage.StorageFile"/> in the given <see cref="T:Windows.Storage.StorageFolder"/>.
+            </summary>
+            <param name="fileLocation">
+            The <see cref="T:Windows.Storage.StorageFolder"/> to save the file in.
+            </param>
+            <param name="text">
+            The <see cref="T:System.String"/> value to save to the file.
+            </param>
+            <param name="fileName">
+            The <see cref="T:System.String"/> name for the file.
+            </param>
+            <param name="options">
+            The creation collision options. Default is ReplaceExisting.
+            </param>
+            <returns>
+            Returns the saved <see cref="T:Windows.Storage.StorageFile"/> containing the text.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Exception thrown if the file location or file name are null or empty.
+            </exception>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.SaveBytesToLocalFileAsync(System.Byte[],System.String,Windows.Storage.CreationCollisionOption)">
+            <summary>
+            Saves an array of bytes to a <see cref="T:Windows.Storage.StorageFile"/> to application local folder/>.
+            </summary>
+            <param name="bytes">
+            The <see cref="T:System.Byte"/> array to save to the file.
+            </param>
+            <param name="fileName">
+            The <see cref="T:System.String"/> name for the file.
+            </param>
+            <param name="options">
+            The creation collision options. Default is ReplaceExisting.
+            </param>
+            <returns>
+            Returns the saved <see cref="T:Windows.Storage.StorageFile"/> containing the bytes.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Exception thrown if the file location or file name are null or empty.
+            </exception>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.SaveBytesToLocalCacheFileAsync(System.Byte[],System.String,Windows.Storage.CreationCollisionOption)">
+            <summary>
+            Saves an array of bytes to a <see cref="T:Windows.Storage.StorageFile"/> to application local cache folder/>.
+            </summary>
+            <param name="bytes">
+            The <see cref="T:System.Byte"/> array to save to the file.
+            </param>
+            <param name="fileName">
+            The <see cref="T:System.String"/> name for the file.
+            </param>
+            <param name="options">
+            The creation collision options. Default is ReplaceExisting.
+            </param>
+            <returns>
+            Returns the saved <see cref="T:Windows.Storage.StorageFile"/> containing the bytes.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Exception thrown if the file location or file name are null or empty.
+            </exception>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.SaveBytesToKnownFolderFileAsync(Windows.Storage.KnownFolderId,System.Byte[],System.String,Windows.Storage.CreationCollisionOption)">
+            <summary>
+            Saves an array of bytes to a <see cref="T:Windows.Storage.StorageFile"/> to well known folder/>.
+            </summary>
+            <param name="knownFolderId">
+            The well known folder ID to use.
+            </param>
+            <param name="bytes">
+            The <see cref="T:System.Byte"/> array to save to the file.
+            </param>
+            <param name="fileName">
+            The <see cref="T:System.String"/> name for the file.
+            </param>
+            <param name="options">
+            The creation collision options. Default is ReplaceExisting.
+            </param>
+            <returns>
+            Returns the saved <see cref="T:Windows.Storage.StorageFile"/> containing the bytes.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Exception thrown if the file location or file name are null or empty.
+            </exception>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.SaveBytesToFileAsync(Windows.Storage.StorageFolder,System.Byte[],System.String,Windows.Storage.CreationCollisionOption)">
+            <summary>
+            Saves an array of bytes to a <see cref="T:Windows.Storage.StorageFile"/> in the given <see cref="T:Windows.Storage.StorageFolder"/>.
+            </summary>
+            <param name="fileLocation">
+            The <see cref="T:Windows.Storage.StorageFolder"/> to save the file in.
+            </param>
+            <param name="bytes">
+            The <see cref="T:System.Byte"/> array to save to the file.
+            </param>
+            <param name="fileName">
+            The <see cref="T:System.String"/> name for the file.
+            </param>
+            <param name="options">
+            The creation collision options. Default is ReplaceExisting.
+            </param>
+            <returns>
+            Returns the saved <see cref="T:Windows.Storage.StorageFile"/> containing the bytes.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Exception thrown if the file location or file name are null or empty.
+            </exception>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.ReadTextFromPackagedFile(System.String)">
+            <summary>
+            Gets a string value from a <see cref="T:Windows.Storage.StorageFile"/> located in the application installation folder.
+            </summary>
+            <param name="relativePath">
+            The relative <see cref="T:System.String"/> file path.
+            </param>
+            <returns>
+            Returns the stored <see cref="T:System.String"/> value.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Exception thrown if the <paramref name="relativePath"/> is null or empty.
+            </exception>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.ReadTextFromLocalCacheFile(System.String)">
+            <summary>
+            Gets a string value from a <see cref="T:Windows.Storage.StorageFile"/> located in the application local cache folder.
+            </summary>
+            <param name="relativePath">
+            The relative <see cref="T:System.String"/> file path.
+            </param>
+            <returns>
+            Returns the stored <see cref="T:System.String"/> value.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Exception thrown if the <paramref name="relativePath"/> is null or empty.
+            </exception>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.ReadTextFromLocalFile(System.String)">
+            <summary>
+            Gets a string value from a <see cref="T:Windows.Storage.StorageFile"/> located in the application local folder.
+            </summary>
+            <param name="relativePath">
+            The relative <see cref="T:System.String"/> file path.
+            </param>
+            <returns>
+            Returns the stored <see cref="T:System.String"/> value.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Exception thrown if the <paramref name="relativePath"/> is null or empty.
+            </exception>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.ReadTextFromKnownFoldersFile(Windows.Storage.KnownFolderId,System.String)">
+            <summary>
+            Gets a string value from a <see cref="T:Windows.Storage.StorageFile"/> located in a well known folder.
+            </summary>
+            <param name="knownFolderId">
+            The well known folder ID to use.
+            </param>
+            <param name="relativePath">
+            The relative <see cref="T:System.String"/> file path.
+            </param>
+            <returns>
+            Returns the stored <see cref="T:System.String"/> value.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Exception thrown if the <paramref name="relativePath"/> is null or empty.
+            </exception>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.GetBytesFromFilePathAsync(System.String)">
+            <summary>
+            Gets a byte array from a <see cref="T:Windows.Storage.StorageFile"/> based on a file path string.
+            </summary>
+            <param name="filePath">
+            The <see cref="T:System.String"/> file path.
+            </param>
+            <returns>
+            Returns the stored <see cref="T:System.Byte"/> array.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Exception thrown if the <paramref name="filePath"/> is null or empty.
+            </exception>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.GetBytesFromFileAsync(Windows.Storage.StorageFile)">
+            <summary>
+            Gets a byte array from a <see cref="T:Windows.Storage.StorageFile"/>.
+            </summary>
+            <param name="file">
+            The <see cref="T:Windows.Storage.StorageFile"/>.
+            </param>
+            <returns>
+            Returns the stored <see cref="T:System.Byte"/> array.
+            </returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.GetFolderFromKnownFolderId(Windows.Storage.KnownFolderId)">
+            <summary>
+            Returns a <see cref="T:Windows.Storage.StorageFolder"/> from a <see cref="T:Windows.Storage.KnownFolderId"/>
+            </summary>
+            <param name="knownFolderId">Folder Id</param>
+            <returns><see cref="T:Windows.Storage.StorageFolder"/></returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.WeakEventListener`3">
+            <summary>
+            Implements a weak event listener that allows the owner to be garbage
+            collected if its only remaining link is an event handler.
+            </summary>
+            <typeparam name="TInstance">Type of instance listening for the event.</typeparam>
+            <typeparam name="TSource">Type of source for the event.</typeparam>
+            <typeparam name="TEventArgs">Type of event arguments for the event.</typeparam>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.WeakEventListener`3.weakInstance">
+            <summary>
+            WeakReference to the instance listening for the event.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.WeakEventListener`3.#ctor(`0)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.WeakEventListener`3"/> class.
+            </summary>
+            <param name="instance">Instance subscribing to the event.</param>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.WeakEventListener`3.OnEventAction">
+            <summary>
+            Gets or sets the method to call when the event fires.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.WeakEventListener`3.OnDetachAction">
+            <summary>
+            Gets or sets the method to call when detaching from the event.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.WeakEventListener`3.OnEvent(`1,`2)">
+            <summary>
+            Handler for the subscribed event calls OnEventAction to handle it.
+            </summary>
+            <param name="source">Event source.</param>
+            <param name="eventArgs">Event arguments.</param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.WeakEventListener`3.Detach">
+            <summary>
+            Detaches from the subscribed event.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.StreamHelper">
+            <summary>
+            This class provides static helper methods for streams.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.GetHTTPStreamAsync(System.Uri)">
+            <summary>
+            Get the response stream returned by a HTTP get request.
+            </summary>
+            <param name="uri">Uri to request.</param>
+            <returns>Response stream</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.GetHTTPStreamToStorageFileAsync(System.Uri,Windows.Storage.StorageFile)">
+            <summary>
+            Get the response stream returned by a HTTP get request and save it to a local file.
+            </summary>
+            <param name="uri">Uri to request.</param>
+            <param name="targetFile">StorageFile to save the stream to.</param>
+            <returns>True if success.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.GetPackagedFileStreamAsync(System.String,Windows.Storage.FileAccessMode)">
+            <summary>
+            Return a stream to a specified file from the installation folder.
+            </summary>
+            <param name="relativeFileName">Relative name of the file to open. Can contains subfolders.</param>
+            <param name="accessMode">File access mode. Default is read.</param>
+            <returns>File stream</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.GetLocalFileStreamAsync(System.String,Windows.Storage.FileAccessMode)">
+            <summary>
+            Return a stream to a specified file from the application local folder.
+            </summary>
+            <param name="relativeFileName">Relative name of the file to open. Can contains subfolders.</param>
+            <param name="accessMode">File access mode. Default is read.</param>
+            <returns>File stream</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.GetLocalCacheFileStreamAsync(System.String,Windows.Storage.FileAccessMode)">
+            <summary>
+            Return a stream to a specified file from the application local cache folder.
+            </summary>
+            <param name="relativeFileName">Relative name of the file to open. Can contains subfolders.</param>
+            <param name="accessMode">File access mode. Default is read.</param>
+            <returns>File stream</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.GetKnowFoldersFileStreamAsync(Windows.Storage.KnownFolderId,System.String,Windows.Storage.FileAccessMode)">
+            <summary>
+            Return a stream to a specified file from the application local cache folder.
+            </summary>
+            <param name="knownFolderId">The well known folder ID to use</param>
+            <param name="relativeFileName">Relative name of the file to open. Can contains subfolders.</param>
+            <param name="accessMode">File access mode. Default is read.</param>
+            <returns>File stream</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.IsPackagedFileExistsAsync(System.String)">
+            <summary>
+            Test if a file exists in the application installation folder.
+            </summary>
+            <param name="relativeFileName">Relative name of the file to open. Can contains subfolders.</param>
+            <returns>True if file exists.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.IsLocalFileExistsAsync(System.String)">
+            <summary>
+            Test if a file exists in the application local folder.
+            </summary>
+            <param name="relativeFileName">Relative name of the file to open. Can contains subfolders.</param>
+            <returns>True if file exists.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.IsLocalCacheFileExistsAsync(System.String)">
+            <summary>
+            Test if a file exists in the application local cache folder.
+            </summary>
+            <param name="relativeFileName">Relative name of the file to open. Can contains subfolders.</param>
+            <returns>True if file exists.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.IsKnownFolderFileExistsAsync(Windows.Storage.KnownFolderId,System.String)">
+            <summary>
+            Test if a file exists in the application local cache folder.
+            </summary>
+            <param name="knownFolderId">The well known folder ID to use</param>
+            <param name="relativeFileName">Relative name of the file to open. Can contains subfolders.</param>
+            <returns>True if file exists.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.IsFileExistsAsync(Windows.Storage.StorageFolder,System.String)">
+            <summary>
+            Test if a file exists in the application local folder.
+            </summary>
+            <param name="workingFolder">Folder to use.</param>
+            <param name="relativeFileName">Relative name of the file to open. Can contains subfolders.</param>
+            <returns>True if file exists.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.ReadTextAsync(Windows.Storage.Streams.IRandomAccessStream,System.Text.Encoding)">
+            <summary>
+            Read stream content as a string.
+            </summary>
+            <param name="stream">Stream to read from.</param>
+            <param name="encoding">Encoding to use. Can be set to null (ASCII will be used in this case).</param>
+            <returns>Stream content.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.HslColor">
+            <summary>
+            Defines a color in Hue/Saturation/Lightness (HSL) space.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.HslColor.H">
+            <summary>
+            The Hue in 0..360 range.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.HslColor.S">
+            <summary>
+            The Saturation in 0..1 range.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.HslColor.L">
+            <summary>
+            The Lightness in 0..1 range.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.HslColor.A">
+            <summary>
+            The Alpha/opacity in 0..1 range.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.HsvColor">
+            <summary>
+            Defines a color in Hue/Saturation/Value (HSV) space.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.HsvColor.H">
+            <summary>
+            The Hue in 0..360 range.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.HsvColor.S">
+            <summary>
+            The Saturation in 0..1 range.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.HsvColor.V">
+            <summary>
+            The Value in 0..1 range.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.HsvColor.A">
+            <summary>
+            The Alpha/opacity in 0..1 range.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,480 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Toolkit.Uwp.UI.Animations</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Blur">
+            <summary>
+            Performs an blur animation using composition.
+            </summary>
+            <remarks>
+            <para>
+            Blurs are only supported on Build 1607 and up. Assigning the blur behavior on an older
+            version of Windows will not add any effect. You can use the <see cref="P:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.IsBlurSupported"/>
+            property to check for whether blurs are supported on the device at runtime.
+            </para>
+            </remarks>
+            <seealso>
+                <cref>Microsoft.Xaml.Interactivity.Behavior{Windows.UI.Xaml.UIElement}</cref>
+            </seealso>
+            <seealso cref="P:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.IsBlurSupported"/>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Blur._frameworkElement">
+            <summary>
+            The _framework element
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Blur.OnAttached">
+            <summary>
+            Called after the behavior is attached to the <see cref="P:Microsoft.Xaml.Interactivity.Behavior.AssociatedObject" />.
+            </summary>
+            <remarks>
+            Override this to hook up functionality to the <see cref="P:Microsoft.Xaml.Interactivity.Behavior.AssociatedObject" />
+            </remarks>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Blur.BlurAmountProperty">
+            <summary>
+            The Blur value of the associated object
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Blur.BlurAmount">
+            <summary>
+            Gets or sets the Blur.
+            </summary>
+            <value>
+            The Blur.
+            </value>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Blur.StartAnimation">
+            <summary>
+            Starts the animation.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.CompositionBehaviorBase">
+            <summary>
+            A base class for all behaviors using composition.It contains some of the common propeties to set on a visual.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.CompositionBehaviorBase.OnAttached">
+            <summary>
+            Called after the behavior is attached to the <see cref="P:Microsoft.Xaml.Interactivity.Behavior.AssociatedObject" />.
+            </summary>
+            <remarks>
+            Override this to hook up functionality to the <see cref="P:Microsoft.Xaml.Interactivity.Behavior.AssociatedObject" />
+            </remarks>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.CompositionBehaviorBase.DurationProperty">
+            <summary>
+            The duration of the animation.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.CompositionBehaviorBase.DelayProperty">
+            <summary>
+            The delay of the animation.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.CompositionBehaviorBase.AutomaticallyStartProperty">
+            <summary>
+            The property sets if the animation should automatically start.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.CompositionBehaviorBase.AutomaticallyStart">
+            <summary>
+            Gets or sets a value indicating whether [automatically start] on the animation is set.
+            </summary>
+            <value>
+              <c>true</c> if [automatically start]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.CompositionBehaviorBase.Delay">
+            <summary>
+            Gets or sets the delay.
+            </summary>
+            <value>
+            The delay.
+            </value>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.CompositionBehaviorBase.Duration">
+            <summary>
+            Gets or sets the duration.
+            </summary>
+            <value>
+            The duration.
+            </value>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.CompositionBehaviorBase.StartAnimation">
+            <summary>
+            Starts the animation.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.CompositionBehaviorBase.PropertyChangedCallback(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            If any of the properties are changed then the animation is automatically started depending on the AutomaticallyStart property.
+            </summary>
+            <param name="dependencyObject">The dependency object.</param>
+            <param name="dependencyPropertyChangedEventArgs">The <see cref="T:Windows.UI.Xaml.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset">
+            <summary>
+            Performs an offset animation using composition.
+            </summary>
+            <seealso cref="T:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.CompositionBehaviorBase" />
+            <seealso>
+              <cref>Microsoft.Xaml.Interactivity.Behavior{Windows.UI.Xaml.UIElement}</cref>
+            </seealso>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset.OffsetXProperty">
+            <summary>
+            The Offset on the x axis of the associated object
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset.OffsetYProperty">
+            <summary>
+            The Offset on the y axis of the associated object
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset.OffsetZProperty">
+            <summary>
+            The Offset on the z axis of the associated object
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset.OffsetX">
+            <summary>
+            Gets or sets the Offset x.
+            </summary>
+            <value>
+            The Offset x.
+            </value>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset.OffsetY">
+            <summary>
+            Gets or sets the Offset y.
+            </summary>
+            <value>
+            The Offset y.
+            </value>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset.OffsetZ">
+            <summary>
+            Gets or sets the Offset z.
+            </summary>
+            <value>
+            The Offset z.
+            </value>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset.StartAnimation">
+            <summary>
+            Starts the animation.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Opacity">
+            <summary>
+            Performs an opacity animation using composition.
+            </summary>
+            <seealso>
+                <cref>Microsoft.Xaml.Interactivity.Behavior{Windows.UI.Xaml.UIElement}</cref>
+            </seealso>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Opacity.ValueProperty">
+            <summary>
+            The Opacity value of the associated object
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Opacity.Value">
+            <summary>
+            Gets or sets the Opacity.
+            </summary>
+            <value>
+            The Opacity.
+            </value>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Opacity.StartAnimation">
+            <summary>
+            Starts the animation.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Parallax">
+            <summary>
+            Behavior to give a parallax effect when scrolling
+            </summary>
+            <seealso>
+                <cref>Microsoft.Xaml.Interactivity.Behavior{Windows.UI.Xaml.UIElement}</cref>
+            </seealso>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Parallax.ScrollerProperty">
+            <summary>
+            The scroller property
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Parallax.Scroller">
+            <summary>
+            Gets or sets the scroller.
+            </summary>
+            <value>
+            The scroller.
+            </value>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Parallax.MultiplierProperty">
+            <summary>
+            The multiplier property
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Parallax.Multiplier">
+            <summary>
+            Gets or sets the multiplier.
+            </summary>
+            <value>
+            The multiplier.
+            </value>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Parallax.IsHorizontalEffectProperty">
+            <summary>
+            The is horizontal effect property
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Parallax.IsHorizontalEffect">
+            <summary>
+            Gets or sets a value indicating whether this instance is horizontal effect.
+            </summary>
+            <value>
+            <c>true</c> if this instance is horizontal effect; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation">
+            <summary>
+            Performs a rotation animation using composition.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation.ValueProperty">
+            <summary>
+            The rotation of the associated object in degrees
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation.CenterXProperty">
+            <summary>
+            The center (x axis) of rotation for associated object
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation.CenterYProperty">
+            <summary>
+            The center (y axis) of rotation for associated object
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation.CenterZProperty">
+            <summary>
+            The center (z axis) of rotation for associated object
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation.CenterX">
+            <summary>
+            Gets or sets the center point (x axis) of the associated object.
+            </summary>
+            <value>
+            The center point (x axis) of the associated object.
+            </value>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation.CenterY">
+            <summary>
+            Gets or sets the center point (y axis) of the associated object.
+            </summary>
+            <value>
+            The center point (y axis) of the associated object.
+            </value>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation.CenterZ">
+            <summary>
+            Gets or sets the center point (z axis) of the associated object.
+            </summary>
+            <value>
+            The center point (z axis) of the associated object.
+            </value>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation.Value">
+            <summary>
+            Gets or sets the Rotation in degrees.
+            </summary>
+            <value>
+            The Rotation of the associated object in degrees.
+            </value>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation.StartAnimation">
+            <summary>
+            Starts the animation.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale">
+            <summary>
+            Performs a scale animation using composition.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.ScaleXProperty">
+            <summary>
+            The scale (x axis) of the associated object
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.ScaleYProperty">
+            <summary>
+            The scale (y axis) of the associated object
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.ScaleZProperty">
+            <summary>
+            The scale (z axis) of the associated object
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.CenterXProperty">
+            <summary>
+            The center (x axis) of scale for associated object
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.CenterYProperty">
+            <summary>
+            The center (y axis) of scale for associated object
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.CenterZProperty">
+            <summary>
+            The center (z axis) of scale for associated object
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.ScaleX">
+            <summary>
+            Gets or sets the scale on the x axis.
+            </summary>
+            <value>
+            The scale on the x axis.
+            </value>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.ScaleY">
+            <summary>
+            Gets or sets the scale on the y axis.
+            </summary>
+            <value>
+            The scale on the y axis.
+            </value>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.ScaleZ">
+            <summary>
+            Gets or sets the scale on the z axis.
+            </summary>
+            <value>
+            The scale on the z axis.
+            </value>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.CenterX">
+            <summary>
+            Gets or sets the scale (x axis) of the associated object.
+            </summary>
+            <value>
+            The scale (x axis) of the associated object.
+            </value>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.CenterY">
+            <summary>
+            Gets or sets the scale (y axis) of the associated object.
+            </summary>
+            <value>
+            The scale (y axis) of the associated object.
+            </value>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.CenterZ">
+            <summary>
+            Gets or sets the scale (z axis) of the associated object.
+            </summary>
+            <value>
+            The scale (z axis) of the associated object.
+            </value>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.StartAnimation">
+            <summary>
+            Starts the animation.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition">
+            <summary>
+            These extension methods use composition to perform animation on visuals.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Scale(Windows.UI.Xaml.UIElement,System.Double,System.Double,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Scales the specified UI Element.
+            </summary>
+            <param name="associatedObject">The associated object.</param>
+            <param name="duration">The duration.</param>
+            <param name="delay">The delay in milliseconds.</param>
+            <param name="centerX">The center x in pixels.</param>
+            <param name="centerY">The center y in pixels.</param>
+            <param name="centerZ">The center z in pixels.</param>
+            <param name="scaleX">The scale x.</param>
+            <param name="scaleY">The scale y.</param>
+            <param name="scaleZ">The scale z.</param>
+            <returns>The visual of the UIElement.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Rotate(Windows.UI.Xaml.UIElement,System.Double,System.Double,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Rotates the specified UI Element.
+            </summary>
+            <param name="associatedObject">The UI Element to rotate.</param>
+            <param name="duration">The duration.</param>
+            <param name="delay">The delay in milliseconds.</param>
+            <param name="value">The value in degrees to rotate.</param>
+            <param name="centerX">The center x in pixels.</param>
+            <param name="centerY">The center y in pixels.</param>
+            <param name="centerZ">The center z in pixels.</param>
+            <returns>The visual of the UIElement.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Opacity(Windows.UI.Xaml.UIElement,System.Double,System.Double,System.Single)">
+            <summary>
+            Changes the Opacity of the specified UI Element.
+            </summary>
+            <param name="associatedObject">The UI Element to change the opacity of.</param>
+            <param name="duration">The duration.</param>
+            <param name="delay">The delay.</param>
+            <param name="value">The value.</param>
+            <returns>The visual of the UIElement.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Offset(Windows.UI.Xaml.UIElement,System.Double,System.Double,System.Single,System.Single,System.Single)">
+            <summary>
+            Changes the Offset of the specified UI Element.
+            </summary>
+            <param name="associatedObject">The specified UI Element.</param>
+            <param name="duration">The duration.</param>
+            <param name="delay">The delay.</param>
+            <param name="offsetX">The offset x.</param>
+            <param name="offsetY">The offset y.</param>
+            <param name="offsetZ">The offset z.</param>
+            <returns>The visual of the UIElement.</returns>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.IsBlurSupported">
+            <summary>
+            Gets a value indicating whether the platform supports blur.
+            </summary>
+            <remarks>
+            A check should always be made to IsBlurSupported prior to calling <seealso cref="M:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Blur(Windows.UI.Xaml.FrameworkElement,System.Double,System.Double,System.Double)"/>,
+            since older operating systems will not support blurs.
+            </remarks>
+            <seealso cref="M:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Blur(Windows.UI.Xaml.FrameworkElement,System.Double,System.Double,System.Double)"/>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Blur(Windows.UI.Xaml.FrameworkElement,System.Double,System.Double,System.Double)">
+            <summary>
+            Blurs the specified framework element.
+            </summary>
+            <param name="associatedObject">The associated object.</param>
+            <param name="duration">The duration.</param>
+            <param name="delay">The delay.</param>
+            <param name="blurAmount">The blur amount.</param>
+            <returns>The Composition Effect Brush of the blur so you can control animations manually.</returns>
+            <seealso cref="P:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.IsBlurSupported" />
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Parallax(Windows.UI.Xaml.UIElement,Windows.UI.Xaml.FrameworkElement,System.Boolean,System.Single)">
+            <summary>
+            Creates a Parallax effect on the specified element based on the supplied scroller element.
+            </summary>
+            <param name="element">The element.</param>
+            <param name="scrollerElement">The scroller element.</param>
+            <param name="isHorizontalEffect">if set to <c>true</c> [is horizontal effect].</param>
+            <param name="multiplier">The multiplier (how fast it scrolls).</param>
+        </member>
+    </members>
+</doc>

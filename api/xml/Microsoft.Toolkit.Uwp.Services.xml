@@ -1,0 +1,2708 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Toolkit.Uwp.Services</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1">
+            <summary>
+            Represents a generic command that can perform a given action.
+            </summary>
+            <typeparam name="T">Type associated with the DelegateCommand</typeparam>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1.commandExecuteAction">
+            <summary>
+            Field for commandExecuteAction.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1.commandCanExecute">
+            <summary>
+            Field for whether the command can execute.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1.#ctor(System.Action{`0},System.Func{`0,System.Boolean})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1"/> class.
+            </summary>
+            <param name="executeAction">
+            The action to execute when called.
+            </param>
+            <param name="canExecute">
+            The function to call to determine if the command can execute the action.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown if the execute action is null.
+            </exception>
+        </member>
+        <member name="E:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1.CanExecuteChanged">
+            <summary>
+            Occurs when changes occur that affect whether or not the command should execute.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1.CanExecute(System.Object)">
+            <summary>
+            Defines the method that determines whether the command can execute in its current state.
+            </summary>
+            <param name="parameter">
+            The parameter used by the command.
+            </param>
+            <returns>
+            Returns a value indicating whether this command can be executed.
+            </returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1.Execute(System.Object)">
+            <summary>
+            Defines the method to be called when the command is invoked.
+            </summary>
+            <param name="parameter">
+            The parameter used by the command.
+            </param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1.RaiseCanExecuteChanged">
+            <summary>
+            Fires notification event when the CanExecute property has changed.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1.ConvertParameterValue(System.Object)">
+            <summary>
+            Converts a paramter value to given type.
+            </summary>
+            <param name="parameter">Value of the command parameter.</param>
+            <returns>Strong typed parameter value.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Core.IDataService`3">
+            <summary>
+            Generic interface that all deployed service providers implement.
+            </summary>
+            <typeparam name="T">Reference to underlying data service provider.</typeparam>
+            <typeparam name="U">Strongly-typed schema for data returned in list query.</typeparam>
+            <typeparam name="V">Configuration type specifying query parameters.</typeparam>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Core.IDataService`3.Provider">
+            <summary>
+            Gets the underlying data service provider.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.IDataService`3.RequestAsync(`2,System.Int32)">
+            <summary>
+            Makes a request for a list of data from the given service provider.
+            </summary>
+            <param name="config">Describes the query on the list data request.</param>
+            <param name="maxRecords">Specifies an upper limit to the number of records returned.</param>
+            <returns>Returns a strongly typed list of results from the service.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Core.IOAuthDataService`4">
+            <summary>
+            Generic interface that all deployed service providers implement.
+            </summary>
+            <typeparam name="T">Reference to underlying data service provider.</typeparam>
+            <typeparam name="U">Strongly-typed schema for data returned in list query.</typeparam>
+            <typeparam name="V">Configuration type specifying query parameters.</typeparam>
+            <typeparam name="W">OAuth Token information.</typeparam>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.IOAuthDataService`4.Initialize(`3)">
+            <summary>
+            Initialize the provider with relevant oAuthTokens.
+            </summary>
+            <param name="oAuthTokens">Instantiated oAuthTokens.</param>
+            <returns>Success or failure.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.IOAuthDataService`4.LoginAsync">
+            <summary>
+            Log in to the underlying data service provider.
+            </summary>
+            <returns>Returns success or failure indicator.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand">
+            <summary>
+            Represents a command that can perform a given action.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.commandExecuteAction">
+            <summary>
+            Field for commandExecuteAction.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.commandCanExecute">
+            <summary>
+            Field for whether the command can execute.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.#ctor(System.Action,System.Func{System.Boolean})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand"/> class.
+            </summary>
+            <param name="execute">
+            The action to execute when called.
+            </param>
+            <param name="canExecute">
+            The function to call to determine if the command can execute the action.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown if the execute action is null.
+            </exception>
+        </member>
+        <member name="E:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.CanExecuteChanged">
+            <summary>
+            Occurs when changes occur that affect whether or not the command should execute.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.CanExecute(System.Object)">
+            <summary>
+            Defines the method that determines whether the command can execute in its current state.
+            </summary>
+            <param name="parameter">
+            The parameter used by the command.
+            </param>
+            <returns>
+            Returns a value indicating whether this command can be executed.
+            </returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.Execute(System.Object)">
+            <summary>
+            Defines the method to be called when the command is invoked.
+            </summary>
+            <param name="parameter">
+            The parameter used by the command.
+            </param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.RaiseCanExecuteChanged">
+            <summary>
+            Fires notification event when the CanExecute property has changed.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Core.InternalExtensionMethods">
+            <summary>
+            This class offers general purpose methods.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Core.InternalExtensionMethods.RemoveCommentsRegex">
+            <summary>
+            Regular expression for removing comments.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Core.InternalExtensionMethods.RemoveScriptsRegex">
+            <summary>
+            Regular expression for removing scripts.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Core.InternalExtensionMethods.RemoveStylesRegex">
+            <summary>
+            Regular expression for removing styles.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.InternalExtensionMethods.Truncate(System.String,System.Int32)">
+            <summary>
+            Truncates the specified string to the specified length.
+            </summary>
+            <param name="value">The string to be truncated.</param>
+            <param name="length">The maximum length.</param>
+            <returns>Truncated string.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.InternalExtensionMethods.Truncate(System.String,System.Int32,System.Boolean)">
+            <summary>
+            Truncates the specified string to the specified length.
+            </summary>
+            <param name="value">The string to be truncated.</param>
+            <param name="length">The maximum length.</param>
+            <param name="ellipsis">if set to <c>true</c> add a text ellipsis.</param>
+            <returns>Truncated string.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.InternalExtensionMethods.FixHtml(System.String)">
+            <summary>
+            Applies regular expressions to string of HTML to remove comments, scripts, styles.
+            </summary>
+            <param name="html">HTML string to fix</param>
+            <returns>Fixed HTML string</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Core.JsonParser`1">
+            <summary>
+            JsonParser type.
+            </summary>
+            <typeparam name="T">Data type to parse</typeparam>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.JsonParser`1.Parse(System.String)">
+            <summary>
+            Takes string data and parses to strong type.
+            </summary>
+            <param name="data">String data.</param>
+            <returns>Strong type deserialized from string data.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Core.StringValueAttribute">
+            <summary>
+            StringValue attribute.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.StringValueAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Core.StringValueAttribute"/> class.
+            Constructor accepting string value.
+            </summary>
+            <param name="value">String value</param>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Core.StringValueAttribute.Value">
+            <summary>
+            Gets property for string value.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods">
+            <summary>
+            This class offers general purpose methods.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods.RemoveHtmlTagsRegex">
+            <summary>
+            Regular expression of HTML tags to remove.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods.ToSafeString(System.Object)">
+            <summary>
+            Converts object into string.
+            </summary>
+            <param name="value">Object value.</param>
+            <returns>Returns string value.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods.DecodeHtml(System.String)">
+            <summary>
+            Decode HTML string.
+            </summary>
+            <param name="htmlText">HTML string.</param>
+            <returns>Returns decoded HTML string.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods.GetStringValue(Microsoft.Toolkit.Uwp.Services.Bing.BingCountry)">
+            <summary>
+            Converts between country code and country name.
+            </summary>
+            <param name="value">BingCountry enumeration.</param>
+            <returns>Returns country code.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Core.HttpRequestResult">
+            <summary>
+            HttpRequestResult type for hold request results.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.HttpRequestResult.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Core.HttpRequestResult"/> class.
+            Default constructor.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Core.HttpRequestResult.StatusCode">
+            <summary>
+            Gets or sets holds request StatusCode.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Core.HttpRequestResult.Result">
+            <summary>
+            Gets or sets holds request Result.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Core.HttpRequestResult.Success">
+            <summary>
+            Gets a value indicating whether holds request Success boolean.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings">
+            <summary>
+            HttpRequestSettings for holding request settings.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings"/> class.
+            Default constructor.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings.RequestedUri">
+            <summary>
+            Gets or sets request Uri.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings.UserAgent">
+            <summary>
+            Gets or sets user Agent to pass to request.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings.Headers">
+            <summary>
+            Gets collection of headers to pass with request.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Core.HttpRequest">
+            <summary>
+            Core HttpRequest class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.HttpRequest.DownloadAsync(Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings)">
+            <summary>
+            Downloads data with specified settings.
+            </summary>
+            <param name="settings">HttpRequestSettings instance.</param>
+            <returns>Returns HttpRequestResult instance.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.HttpRequest.AddRequestHeaders(Windows.Web.Http.HttpClient,Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings)">
+            <summary>
+            Add default request headers to HttpClient object.
+            </summary>
+            <param name="httpClient">HttpClient instance.</param>
+            <param name="settings">HttpRequestSettings instance.</param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.HttpRequest.FixInvalidCharset(Windows.Web.Http.HttpResponseMessage)">
+            <summary>
+            Fix invalid charset returned by some web sites.
+            </summary>
+            <param name="response">HttpResponseMessage instance.</param>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.DataProviderBase`2">
+            <summary>
+            Base class for data providers in this library.
+            </summary>
+            <typeparam name="TConfig">Strong typed query configuration object.</typeparam>
+            <typeparam name="TSchema">Strong typed object to parse the response items into.</typeparam>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.DataProviderBase`2.LoadDataAsync(`0,System.Int32)">
+            <summary>
+            Load data from provider endpoint.
+            </summary>
+            <param name="config">Query configuration.</param>
+            <param name="maxRecords">Upper record limit.</param>
+            <returns>List of strong typed objects.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.DataProviderBase`2.GetDefaultParser(`0)">
+            <summary>
+            Default parser abstract method.
+            </summary>
+            <param name="config">Query configuration object.</param>
+            <returns>Strong typed default parser.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry">
+            <summary>
+            Country filter for search query.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.None">
+            <summary>
+            None
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.UnitedArabEmirates">
+            <summary>
+            United Arab Emirates
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Albania">
+            <summary>
+            Albania
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Armenia">
+            <summary>
+            Armenia
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Argentina">
+            <summary>
+            Argentina
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Austria">
+            <summary>
+            Austria
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Australia">
+            <summary>
+            Australia
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Azerbaijan">
+            <summary>
+            Azerbaijan
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.BosniaHerzegovina">
+            <summary>
+            Bosnia Herzegovina
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Belgium">
+            <summary>
+            Belgium
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Bulgaria">
+            <summary>
+            Bulgaria
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Bahrain">
+            <summary>
+            Bahrain
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Bolivia">
+            <summary>
+            Bolivia
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Brazil">
+            <summary>
+            Brazil
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Canada">
+            <summary>
+            Canada
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Switzerland">
+            <summary>
+            Switzerland
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Chile">
+            <summary>
+            Chile
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.China">
+            <summary>
+            China
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.CostaRica">
+            <summary>
+            Costa Rica
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Germany">
+            <summary>
+            Germany
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.DominicanRepublic">
+            <summary>
+            Dominican Republic
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Ecuador">
+            <summary>
+            Ecuador
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.France">
+            <summary>
+            France
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.UnitedKingdom">
+            <summary>
+            United Kingdom
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Georgia">
+            <summary>
+            Georgia
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Greece">
+            <summary>
+            Greece
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Guatemala">
+            <summary>
+            Guatemala
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.HongKong">
+            <summary>
+            Hong Kong
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Honduras">
+            <summary>
+            Honduras
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Croatia">
+            <summary>
+            Croatia
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Hungary">
+            <summary>
+            Hungary
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Indonesia">
+            <summary>
+            Indonesia
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Ireland">
+            <summary>
+            Ireland
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Israel">
+            <summary>
+            Israel
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.India">
+            <summary>
+            India
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Iraq">
+            <summary>
+            Iraq
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Iran">
+            <summary>
+            Iran
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Iceland">
+            <summary>
+            Iceland
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Italy">
+            <summary>
+            Italy
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Jordan">
+            <summary>
+            Jordan
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Japan">
+            <summary>
+            Japan
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Kenya">
+            <summary>
+            Kenya
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Korea">
+            <summary>
+            Korea
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Kuwait">
+            <summary>
+            Kuwait
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Lebanon">
+            <summary>
+            Lebanon
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Lithuania">
+            <summary>
+            Lithuania
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Latvia">
+            <summary>
+            Latvia
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Luxembourg">
+            <summary>
+            Luxembourg
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Libya">
+            <summary>
+            Libya
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Morocco">
+            <summary>
+            Morocco
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Macedonia">
+            <summary>
+            Macedonia
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Malta">
+            <summary>
+            Malta
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Malaysia">
+            <summary>
+            Malaysia
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Mexico">
+            <summary>
+            Mexico
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Nicaragua">
+            <summary>
+            Nicaragua
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Netherlands">
+            <summary>
+            Netherlands
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.NewZealand">
+            <summary>
+            New Zealand
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Norway">
+            <summary>
+            Norway
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Oman">
+            <summary>
+            Oman
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Panama">
+            <summary>
+            Panama
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Peru">
+            <summary>
+            Peru
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Philippines">
+            <summary>
+            Philippines
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Poland">
+            <summary>
+            Poland
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Pakistan">
+            <summary>
+            Pakistan
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.PuertoRico">
+            <summary>
+            PuertoRico
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Portugal">
+            <summary>
+            Portugal
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Paraguay">
+            <summary>
+            Paraguay
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Qatar">
+            <summary>
+            Qatar
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Romania">
+            <summary>
+            Romania
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Russia">
+            <summary>
+            Russia
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Sweden">
+            <summary>
+            Sweden
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.SaudiArabia">
+            <summary>
+            Saudi Arabia
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Singapore">
+            <summary>
+            Singapore
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Slovakia">
+            <summary>
+            Slovakia
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Slovenia">
+            <summary>
+            Slovenia
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Spain">
+            <summary>
+            Spain
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Serbia">
+            <summary>
+            Serbia
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.ElSalvador">
+            <summary>
+            El Salvador
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Syria">
+            <summary>
+            Syria
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Taiwan">
+            <summary>
+            Taiwan
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Thailand">
+            <summary>
+            Thailand
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Tunisia">
+            <summary>
+            Tunisia
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Turkey">
+            <summary>
+            Turkey
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Ukraine">
+            <summary>
+            Ukraine
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.UnitedStates">
+            <summary>
+            United States
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Vietnam">
+            <summary>
+            Vietnam
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Yemen">
+            <summary>
+            Yemen
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.SouthAfrica">
+            <summary>
+            South Africa
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Bing.BingResult">
+            <summary>
+            Implementation of the Bing result class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Bing.BingResult.Title">
+            <summary>
+            Gets or sets title of the search result.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Bing.BingResult.Summary">
+            <summary>
+            Gets or sets summary of the search result.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Bing.BingResult.Link">
+            <summary>
+            Gets or sets link to the Search result.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Bing.BingResult.Published">
+            <summary>
+            Gets or sets date of publication.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig">
+            <summary>
+            Search query configuration.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig.Country">
+            <summary>
+            Gets or sets search query country.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig.Query">
+            <summary>
+            Gets or sets search query.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Bing.BingDataProvider">
+            <summary>
+            Data Provider for connecting to Bing service.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingDataProvider.BaseUrl">
+            <summary>
+            Base Url for service.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Bing.BingDataProvider.GetDataAsync``1(Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig,System.Int32,Microsoft.Toolkit.Uwp.Services.IParser{``0})">
+            <summary>
+            Wrapper around REST API for making data request.
+            </summary>
+            <typeparam name="TSchema">Schema to use</typeparam>
+            <param name="config">Query configuration.</param>
+            <param name="maxRecords">Upper limit for records returned.</param>
+            <param name="parser">IParser implementation for interpreting results.</param>
+            <returns>Strongly typed list of results.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Bing.BingDataProvider.GetDefaultParser(Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig)">
+            <summary>
+            Returns parser implementation for specified configuration.
+            </summary>
+            <param name="config">Query configuration.</param>
+            <returns>Strongly typed parser.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Bing.BingDataProvider.ValidateConfig(Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig)">
+            <summary>
+            Check validity of configuration.
+            </summary>
+            <param name="config">Query configuration.</param>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Bing.BingParser">
+            <summary>
+            Parse Bing results into strong type.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Bing.BingParser.Parse(System.String)">
+            <summary>
+            Take string data and parse into strong data type.
+            </summary>
+            <param name="data">String data.</param>
+            <returns>Returns strong type.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Bing.BingService">
+            <summary>
+            Class for connecting to Bing.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingService.bingDataProvider">
+            <summary>
+            Private singleton field for BingDataProvider.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Bing.BingService.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Bing.BingService"/> class.
+            Default private constructor.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Bing.BingService.instance">
+            <summary>
+            Private singleton field.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Bing.BingService.Instance">
+            <summary>
+            Gets public singleton property.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Bing.BingService.Provider">
+            <summary>
+            Gets a reference to an instance of the underlying data provider.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Bing.BingService.RequestAsync(Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig,System.Int32)">
+            <summary>
+            Request list data from service provider based upon a given config / query.
+            </summary>
+            <param name="config">TwitterDataConfig instance.</param>
+            <param name="maxRecords">Upper limit of records to return.</param>
+            <returns>Strongly typed list of data returned from the service.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookOAuthTokens">
+            <summary>
+            Facebook OAuth tokens.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookOAuthTokens.AppId">
+            <summary>
+            Gets or sets facebook AppId.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookOAuthTokens.WindowsStoreId">
+            <summary>
+            Gets or sets Windows Store ID.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions">
+            <summary>
+            List of user related data permissions
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.PublicProfile">
+            <summary>
+            Public profile
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.Email">
+            <summary>
+            Email
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.PublishActions">
+            <summary>
+            Publish actions
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserAboutMe">
+            <summary>
+            About me
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserBirthday">
+            <summary>
+            Birthday
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserEducationHistory">
+            <summary>
+            Education history
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserFriends">
+            <summary>
+            Friends
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserGamesActivity">
+            <summary>
+            Games activity
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserHometown">
+            <summary>
+            Hometown
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserLikes">
+            <summary>
+            Likes
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserLocation">
+            <summary>
+            Location
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserPhotos">
+            <summary>
+            Photos
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserPosts">
+            <summary>
+            Posts
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserRelationshipDetails">
+            <summary>
+            Relationship details
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserRelationships">
+            <summary>
+            Relationships
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserReligionPolitics">
+            <summary>
+            Religion and politics
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserStatus">
+            <summary>
+            Status
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserTaggedPlaces">
+            <summary>
+            Tagged places
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserVideos">
+            <summary>
+            Videos
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserWebsite">
+            <summary>
+            Website
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserWorkHistory">
+            <summary>
+            WorkHistory
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookDataHost`1">
+            <summary>
+            Class used to store JSON data response from Facebook
+            </summary>
+            <typeparam name="T">Type of the inner data</typeparam>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookDataHost`1.Data">
+            <summary>
+            Gets or sets internal data.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPicture">
+            <summary>
+            Strongly typed object for presenting picture data returned from service provider.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPicture.Is_Silhouette">
+            <summary>
+            Gets or sets a value indicating whether the picture is a silhouette or not.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPicture.Url">
+            <summary>
+            Gets or sets an url to the picture.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPicture.Id">
+            <summary>
+            Gets or sets the ID of the picture.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPicture.Link">
+            <summary>
+            Gets or sets the url of the page with the picture.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPost">
+            <summary>
+            Strongly typed object for presenting post data returned from service provider.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPost.Id">
+            <summary>
+            Gets or sets id property.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPost.Message">
+            <summary>
+            Gets or sets message or post text.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPost.Created_Time">
+            <summary>
+            Gets or sets time the entity instance was created.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPost.Link">
+            <summary>
+            Gets or sets a link to the entity instance.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPost.Full_Picture">
+            <summary>
+            Gets or sets a link to the accompanying image.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService">
+            <summary>
+            Class for connecting to Facebook.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.isInitialized">
+            <summary>
+            Field for tracking initialization status.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.paginatedArray">
+            <summary>
+            Reference to paginated array object for handling multiple pages of returned service list data.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.queryResults">
+            <summary>
+            Strongly typed list of service query data.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.permissions">
+            <summary>
+            List of permissions required by the app.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.WindowsStoreId">
+            <summary>
+            Gets a Windows Store ID associated with the current app
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService"/> class.
+            Default private constructor.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.Initialize(Microsoft.Toolkit.Uwp.Services.Facebook.FacebookOAuthTokens)">
+            <summary>
+            Initialize underlying provider with relevent token information.
+            </summary>
+            <param name="oAuthTokens">Token instance.</param>
+            <returns>Success or failure.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.Initialize(System.String,Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions,System.String)">
+            <summary>
+            Initialize underlying provider with relevent token information.
+            </summary>
+            <param name="appId">Application ID (Provided by Facebook developer site)</param>
+            <param name="requiredPermissions">List of required required permissions. public_profile and user_posts permissions will be used by default.</param>
+            <param name="windowsStoreId">Windows Store SID</param>
+            <returns>Success or failure.</returns>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.instance">
+            <summary>
+            Private singleton field.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.Instance">
+            <summary>
+            Gets public singleton property.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.Provider">
+            <summary>
+            Gets a reference to an instance of the underlying data provider.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.LoggedUser">
+            <summary>
+            Gets the current logged user name.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.LoginAsync">
+            <summary>
+            Login with set of required requiredPermissions.
+            </summary>
+            <returns>Success or failure.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.LogoutAsync">
+            <summary>
+            Log out of the underlying service instance.
+            </summary>
+            <returns>Task to support await of async call.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.RequestAsync(Microsoft.Toolkit.Uwp.Services.Facebook.FacebookDataConfig,System.Int32)">
+            <summary>
+            Request list data from service provider based upon a given config / query.
+            </summary>
+            <param name="config">TwitterDataConfig instance.</param>
+            <param name="maxRecords">Upper limit of records to return.</param>
+            <returns>Strongly typed list of data returned from the service.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.GetUserPictureInfoAsync">
+            <summary>
+            Returns the <see cref="T:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPicture"/> object associated with the logged user
+            </summary>
+            <returns>A <see cref="T:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPicture"/> object</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PostToFeedAsync(System.String,System.String,System.String,System.String)">
+            <summary>
+            Enables posting data to the timeline of the underlying service provider instance.
+            </summary>
+            <param name="title">Title of the post.</param>
+            <param name="description">Description of the post.</param>
+            <param name="link">Link contained as part of the post. Cannot be null</param>
+            <param name="pictureUrl">URL of a picture attached to this post. Can be null</param>
+            <returns>Task to support await of async call.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PostToFeedAsync(System.String,System.String,System.String,Windows.Storage.Streams.IRandomAccessStreamWithContentType)">
+            <summary>
+            Enables posting a picture to the timeline using the Facebook dialog.
+            </summary>
+            <param name="title">Title of the post.</param>
+            <param name="description">Description of the post.</param>
+            <param name="pictureName">Picture name.</param>
+            <param name="pictureStream">Picture stream to upload.</param>
+            <returns>Success or failure.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PostPictureToFeedAsync(System.String,System.String,Windows.Storage.Streams.IRandomAccessStreamWithContentType,System.Boolean)">
+            <summary>
+            Enables posting a picture to the timeline
+            </summary>
+            <param name="title">Title of the post.</param>
+            <param name="pictureName">Picture name.</param>
+            <param name="pictureStream">Picture stream to upload.</param>
+            <param name="published">Define if picture will be hidden or public.</param>
+            <returns>Return ID of the picture</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.ProcessResultsAsync(System.Collections.Generic.IReadOnlyList{System.Object},System.Int32)">
+            <summary>
+            Helper method to process pages of results from underlying service instance.
+            </summary>
+            <param name="results">List of results to process.</param>
+            <param name="maxRecords">Total upper limit of records to process.</param>
+            <returns>Task to support await of async call.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PublishPictureAsync(System.String)">
+            <summary>
+            Publish a picture previously posted as hidden.
+            </summary>
+            <param name="pictureId">Id of the picture.</param>
+            <returns>Success or failure</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.DeletePictureAsync(System.String)">
+            <summary>
+            Delete a picture previously posted.
+            </summary>
+            <param name="pictureId">Id of the picture.</param>
+            <returns>Success or failure</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.GetPictureLinkAsync(System.String)">
+            <summary>
+            Get link to the page where the picture was posted
+            </summary>
+            <param name="pictureId">Id of the picture.</param>
+            <returns>Link of the page where the picture was posted</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookDataConfig">
+            <summary>
+            Configuration object for specifying richer query information.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookDataConfig.MyFeed">
+            <summary>
+            Gets a predefined config to get user feed. The feed of posts (including status updates) and links published by this person, or by others on this person's profile
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookDataConfig.MyPosts">
+            <summary>
+            Gets a predefined config to show only the posts that were published by this person
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookDataConfig.MyTagged">
+            <summary>
+            Gets a predefined config to show only the posts that this person was tagged in
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookDataConfig.Query">
+            <summary>
+            Gets or sets the query string for filtering service results.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokenType">
+            <summary>
+            OAuth token types
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokenType.OAuthRequestOrAccessToken">
+            <summary>
+            Request or access token
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokenType.OAuthRequestOrAccessTokenSecret">
+            <summary>
+            Request or access token secret
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokenType.OAuthVerifier">
+            <summary>
+            Verifier
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokenType.OAuthCallbackConfirmed">
+            <summary>
+            Callback confirmed
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokenType.ScreenName">
+            <summary>
+            Screen name
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Twitter.TweetParser">
+            <summary>
+            Twitter Timeline Parser.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TweetParser.Parse(System.String)">
+            <summary>
+            Parse string data into strongly typed list.
+            </summary>
+            <param name="data">Input string.</param>
+            <returns>List of strongly typed objects.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService">
+            <summary>
+            Class for connecting to Twitter.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.twitterDataProvider">
+            <summary>
+            Private singleton field for TwitterDataProvider.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.tokens">
+            <summary>
+            Field for tracking oAuthTokens.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.isInitialized">
+            <summary>
+            Field for tracking initialization status.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService"/> class.
+            Default private constructor.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.instance">
+            <summary>
+            Private singleton field.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.Instance">
+            <summary>
+            Gets public singleton property.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.UserScreenName">
+            <summary>
+            Gets the current logged in user screen name.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.Initialize(System.String,System.String,System.String)">
+            <summary>
+            Initialize underlying provider with relevent token information.
+            </summary>
+            <param name="consumerKey">Consumer key.</param>
+            <param name="consumerSecret">Consumer secret.</param>
+            <param name="callbackUri">Callback URI.</param>
+            <returns>Success or failure.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.Initialize(Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens)">
+            <summary>
+            Initialize underlying provider with relevent token information.
+            </summary>
+            <param name="oAuthTokens">Token instance.</param>
+            <returns>Success or failure.</returns>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.Provider">
+            <summary>
+            Gets a reference to an instance of the underlying data provider.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.SearchAsync(System.String,System.Int32)">
+            <summary>
+            Search for specific hash tag.
+            </summary>
+            <param name="hashTag">Hash tag.</param>
+            <param name="maxRecords">Upper record limit.</param>
+            <returns>Returns strongly typed list of results.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.GetUserAsync(System.String)">
+            <summary>
+            Retrieve user data.
+            </summary>
+            <param name="screenName">User screen name or null for current logged user.</param>
+            <returns>Returns user data.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.GetUserTimeLineAsync(System.String,System.Int32)">
+            <summary>
+            Retrieve user timeline data.
+            </summary>
+            <param name="screenName">User screen name.</param>
+            <param name="maxRecords">Upper record limit.</param>
+            <returns>Returns strongly typed list of results.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.RequestAsync(Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig,System.Int32)">
+            <summary>
+            Request list data from service provider based upon a given config / query.
+            </summary>
+            <param name="config">TwitterDataConfig instance.</param>
+            <param name="maxRecords">Upper limit of records to return.</param>
+            <returns>Strongly typed list of data returned from the service.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.LoginAsync">
+            <summary>
+            Log user in to Twitter.
+            </summary>
+            <returns>Returns success or failure of login attempt.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.Logout">
+            <summary>
+            Log user out of Twitter.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.TweetStatusAsync(System.String,Windows.Storage.Streams.IRandomAccessStream[])">
+            <summary>
+            Post a Tweet with associated pictures.
+            </summary>
+            <param name="message">Tweet message.</param>
+            <param name="pictures">Pictures to attach to the tweet (up to 4).</param>
+            <returns>Returns success or failure of post request.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequest">
+            <summary>
+            OAuth request.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequest.ExecuteGetAsync(System.Uri,Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens)">
+            <summary>
+            HTTP Get request to specified Uri.
+            </summary>
+            <param name="requestUri">Uri to make OAuth request.</param>
+            <param name="tokens">Tokens to pass in request.</param>
+            <returns>String result.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequest.ExecutePostAsync(System.Uri,Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens)">
+            <summary>
+            HTTP Post request to specified Uri.
+            </summary>
+            <param name="requestUri">Uri to make OAuth request.</param>
+            <param name="tokens">Tokens to pass in request.</param>
+            <returns>String result.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequest.ExecutePostMultipartAsync(System.Uri,Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens,System.String,System.Byte[])">
+            <summary>
+            HTTP Post request to specified Uri.
+            </summary>
+            <param name="requestUri">Uri to make OAuth request.</param>
+            <param name="tokens">Tokens to pass in request.</param>
+            <param name="boundary">Boundary used to separate data.</param>
+            <param name="content">Data to post to server.</param>
+            <returns>String result.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder">
+            <summary>
+            OAuth request builder.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.Realm">
+            <summary>
+            Realm for request.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.Verb">
+            <summary>
+            Gets or sets HTTP verb for request.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.EncodedRequestUri">
+            <summary>
+            Gets encoded Request Uri.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.RequestUriWithoutQuery">
+            <summary>
+            Gets request Uri without query.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.QueryParams">
+            <summary>
+            Gets list of query parameters.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.Version">
+            <summary>
+            Gets version.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.Nonce">
+            <summary>
+            Gets nonce.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.Timestamp">
+            <summary>
+            Gets timestamp.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.SignatureMethod">
+            <summary>
+            Gets signature method.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.ConsumerKey">
+            <summary>
+            Gets consumer key.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.ConsumerSecret">
+            <summary>
+            Gets consumer secret.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.Token">
+            <summary>
+            Gets access token.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.TokenSecret">
+            <summary>
+            Gets access token secret.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.Signature">
+            <summary>
+            Gets signature getter.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.AuthorizationHeader">
+            <summary>
+            Gets authorization header getter.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.#ctor(System.Uri,Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder"/> class.
+            Authorization request builder.
+            </summary>
+            <param name="requestUri">Request Uri.</param>
+            <param name="tokens">Tokens to form request.</param>
+            <param name="method">Method to use with request.</param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.GetEncodedUri(System.Uri,System.Collections.Generic.IEnumerable{Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter})">
+            <summary>
+            Get encoded Uri.
+            </summary>
+            <param name="requestUri">Request uri.</param>
+            <param name="parameters">List of parameters.</param>
+            <returns>Encoded Uri.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.GenerateNonce">
+            <summary>
+            Generate nonce.
+            </summary>
+            <returns>String nonce.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.GenerateTimeStamp">
+            <summary>
+            Generate timestamp string.
+            </summary>
+            <returns>Timestamp string.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.GenerateSignature">
+            <summary>
+            Generate signature.
+            </summary>
+            <returns>Generated signature string.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.GenerateAuthorizationHeader">
+            <summary>
+            Generate authorization header.
+            </summary>
+            <returns>Generated authorizatin header string.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.GetSignParameters">
+            <summary>
+            Get list of sign parameters.
+            </summary>
+            <returns>List of sign parameters.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.GetAuthHeaderParameters">
+            <summary>
+            Get list of auth header parameters.
+            </summary>
+            <returns>List of auth header paramters.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens">
+            <summary>
+            Twitter OAuth tokens.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens.ConsumerKey">
+            <summary>
+            Gets or sets consumer Key.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens.ConsumerSecret">
+            <summary>
+            Gets or sets consumer Secret.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens.AccessToken">
+            <summary>
+            Gets or sets access Token.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens.AccessTokenSecret">
+            <summary>
+            Gets or sets access Token Secret.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens.RequestToken">
+            <summary>
+            Gets or sets access Request Token.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens.RequestTokenSecret">
+            <summary>
+            Gets or sets access Request Token Secret.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens.CallbackUri">
+            <summary>
+            Gets or sets callback Uri.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig">
+            <summary>
+            Query string configuration.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig.QueryType">
+            <summary>
+            Gets or sets twitter query type.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig.Query">
+            <summary>
+            Gets or sets query parameters.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider">
+            <summary>
+            Data Provider for connecting to Twitter service.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.BaseUrl">
+            <summary>
+            Base Url for service.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.tokens">
+            <summary>
+            Base Url for service.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.vault">
+            <summary>
+            Password vault used to store access tokens
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.UserScreenName">
+            <summary>
+            Gets or sets logged in user information.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.LoggedIn">
+            <summary>
+            Gets a value indicating whether the provider is already logged in
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.#ctor(Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider"/> class.
+            Constructor.
+            </summary>
+            <param name="tokens">OAuth tokens for request.</param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.GetUserAsync(System.String)">
+            <summary>
+            Retrieve user data.
+            </summary>
+            <param name="screenName">User screen name or null for current logged user</param>
+            <returns>Returns user data.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.GetUserTimeLineAsync``1(System.String,System.Int32,Microsoft.Toolkit.Uwp.Services.IParser{``0})">
+            <summary>
+            Retrieve user timeline data with specific parser.
+            </summary>
+            <typeparam name="TSchema">Strong type for results.</typeparam>
+            <param name="screenName">User screen name.</param>
+            <param name="maxRecords">Upper record limit.</param>
+            <param name="parser">Specific results parser.</param>
+            <returns>Returns strongly typed list of results.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.SearchAsync``1(System.String,System.Int32,Microsoft.Toolkit.Uwp.Services.IParser{``0})">
+            <summary>
+            Search for specific hash tag with specific parser.
+            </summary>
+            <typeparam name="TSchema">Strong type for results.</typeparam>
+            <param name="hashTag">Hash tag.</param>
+            <param name="maxRecords">Upper record limit.</param>
+            <param name="parser">Specific results parser.</param>
+            <returns>Returns strongly typed list of results.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.LoginAsync">
+            <summary>
+            Log user in to Twitter.
+            </summary>
+            <returns>Boolean indicating login success.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.Logout">
+            <summary>
+            Log user out of Twitter.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.TweetStatus(System.String,Windows.Storage.Streams.IRandomAccessStream[])">
+            <summary>
+            Tweets a status update.
+            </summary>
+            <param name="tweet">Tweet text.</param>
+            <param name="pictures">Pictures to attach to the tweet (up to 4).</param>
+            <returns>Success or failure.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.UploadPicture(Windows.Storage.Streams.IRandomAccessStream)">
+            <summary>
+            Publish a picture to Twitter user's medias.
+            </summary>
+            <param name="stream">Picture stream.</param>
+            <returns>Media ID</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.GetDefaultParser(Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig)">
+            <summary>
+            Returns parser implementation for specified configuration.
+            </summary>
+            <param name="config">Query configuration.</param>
+            <returns>Strongly typed parser.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.GetDataAsync``1(Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig,System.Int32,Microsoft.Toolkit.Uwp.Services.IParser{``0})">
+            <summary>
+            Wrapper around REST API for making data request.
+            </summary>
+            <typeparam name="TSchema">Schema to use</typeparam>
+            <param name="config">Query configuration.</param>
+            <param name="maxRecords">Upper limit for records returned.</param>
+            <param name="parser">IParser implementation for interpreting results.</param>
+            <returns>Strongly typed list of results.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.ValidateConfig(Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig)">
+            <summary>
+            Check validity of configuration.
+            </summary>
+            <param name="config">Query configuration.</param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.ExtractTokenFromResponse(System.String,Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokenType)">
+            <summary>
+            Extract requested token from the REST API response string.
+            </summary>
+            <param name="getResponse">REST API response string.</param>
+            <param name="tokenType">Token type to retrieve.</param>
+            <returns>Required token.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.GetHomeTimeLineAsync``1(System.Int32,Microsoft.Toolkit.Uwp.Services.IParser{``0})">
+            <summary>
+            Get home time line data.
+            </summary>
+            <typeparam name="TSchema">Strong typed result.</typeparam>
+            <param name="maxRecords">Upper record limit.</param>
+            <param name="parser">Specific result parser.</param>
+            <returns>Return strong typed list of results.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.InitializeRequestAccessTokens(System.String)">
+            <summary>
+            Package up token request.
+            </summary>
+            <param name="twitterCallbackUrl">Callback Uri.</param>
+            <returns>Success or failure.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.GetSignatureBaseStringParams(System.String,System.String,System.String,System.String)">
+            <summary>
+            Build signature base string.
+            </summary>
+            <param name="consumerKey">Consumer Key.</param>
+            <param name="nonce">Nonce.</param>
+            <param name="timeStamp">Timestamp.</param>
+            <param name="additionalParameters">Any additional parameter name/values that need appending to base string.</param>
+            <returns>Signature base string.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.ExchangeRequestTokenForAccessToken(System.String)">
+            <summary>
+            Extract and initialize access tokens.
+            </summary>
+            <param name="webAuthResultResponseData">WAB data containing appropriate tokens.</param>
+            <returns>Success or failure.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.GetNonce">
+            <summary>
+            Generate nonce.
+            </summary>
+            <returns>Nonce.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.GetTimeStamp">
+            <summary>
+            Generate timestamp.
+            </summary>
+            <returns>Timestamp.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider.GetSignature(System.String,System.String)">
+            <summary>
+            Generate request signature.
+            </summary>
+            <param name="sigBaseString">Base string.</param>
+            <param name="consumerSecretKey">Consumer secret key.</param>
+            <returns>Signature.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterQueryType">
+            <summary>
+            Type of Twitter Query.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterQueryType.Home">
+            <summary>
+            Home
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterQueryType.User">
+            <summary>
+            User
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterQueryType.Search">
+            <summary>
+            Searc
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterSearchParser">
+            <summary>
+            Twitter Search Parser.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterSearchParser.Parse(System.String)">
+            <summary>
+            Parse string into strong typed list.
+            </summary>
+            <param name="data">Input string.</param>
+            <returns>Strong typed list.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterSearchResult">
+            <summary>
+            Twitter Search Results.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterSearchResult.Statuses">
+            <summary>
+            Gets or sets array of timeline statuses.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Twitter.Tweet">
+            <summary>
+            Twitter Timeline item.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.Tweet.CreatedAt">
+            <summary>
+            Gets or sets time item was created.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.Tweet.Id">
+            <summary>
+            Gets or sets item Id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.Tweet.Text">
+            <summary>
+            Gets or sets text of the status.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.Tweet.User">
+            <summary>
+            Gets or sets user who posted the status.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.Tweet.CreationDate">
+            <summary>
+            Gets the creation date
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterUser">
+            <summary>
+            Twitter User type.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterUser.Id">
+            <summary>
+            Gets or sets user Id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterUser.Name">
+            <summary>
+            Gets or sets user name.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterUser.ScreenName">
+            <summary>
+            Gets or sets user screen name.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterUser.ProfileImageUrl">
+            <summary>
+            Gets or sets user profile image Url.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.DataProviderBase`1">
+            <summary>
+            Base class for data providers in this library.
+            </summary>
+            <typeparam name="TConfig">Query configuration type for given provider.</typeparam>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.DataProviderBase`1.LoadDataAsync``1(`0,System.Int32,Microsoft.Toolkit.Uwp.Services.IParser{``0})">
+            <summary>
+            Load data from provider endpoint.
+            </summary>
+            <typeparam name="TSchema">Strong typed object to parse the response items into.</typeparam>
+            <param name="config">Query configuration.</param>
+            <param name="maxRecords">Upper record limit.</param>
+            <param name="parser">Parser to use for results.</param>
+            <returns>Strong typed list of results.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.DataProviderBase`1.GetDataAsync``1(`0,System.Int32,Microsoft.Toolkit.Uwp.Services.IParser{``0})">
+            <summary>
+            Derived classes will have to implement this method to return provider data
+            </summary>
+            <param name="config">Configuration to use</param>
+            <param name="maxRecords">Maximum number of records to return</param>
+            <param name="parser">Parser to use</param>
+            <typeparam name="TSchema">Schema defining data returned</typeparam>
+            <returns>List of data</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.DataProviderBase`1.ValidateConfig(`0)">
+            <summary>
+            Method provided by derived class to validate specified configuration
+            </summary>
+            <param name="config">Configuration to validate</param>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Exceptions.ParserNullException">
+            <summary>
+            Exception for null Parser.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.ParserNullException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.ParserNullException"/> class.
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.ParserNullException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.ParserNullException"/> class.
+            Constructor with additional message.
+            </summary>
+            <param name="message">Additional message</param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.ParserNullException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.ParserNullException"/> class.
+            Constructor with additional message and inner exception.
+            </summary>
+            <param name="message">Additonal message.</param>
+            <param name="innerException">Reference to inner exception.</param>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigNullException">
+            <summary>
+            Exception for null Config.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigNullException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigNullException"/> class.
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigNullException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigNullException"/> class.
+            Constructor accepting additional message string.
+            </summary>
+            <param name="message">Additional error information.</param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigNullException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigNullException"/> class.
+            Constructor accepting additonal message string and inner exception
+            </summary>
+            <param name="message">Additional error information.</param>
+            <param name="innerException">Reference to inner exception.</param>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysRevokedException">
+            <summary>
+            Exception for revoked OAuth keys.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysRevokedException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysRevokedException"/> class.
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysRevokedException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysRevokedException"/> class.
+            Constructor with additional message.
+            </summary>
+            <param name="message">Additional message</param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysRevokedException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysRevokedException"/> class.
+            Constructor with additional message and inner exception.
+            </summary>
+            <param name="message">Additionnal message.</param>
+            <param name="innerException">Reference to inner exception.</param>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Exceptions.RequestFailedException">
+            <summary>
+            Exception for failed requests.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.RequestFailedException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.RequestFailedException"/> class.
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.RequestFailedException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.RequestFailedException"/> class.
+            Constructor with additional message.
+            </summary>
+            <param name="message">Additional messsage.</param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.RequestFailedException.#ctor(Windows.Web.Http.HttpStatusCode,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.RequestFailedException"/> class.
+            Constructor with status code and reason for request failure.
+            </summary>
+            <param name="statusCode">Failure status code.</param>
+            <param name="reason">Failure reason.</param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.RequestFailedException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.RequestFailedException"/> class.
+            Constructor with additional message and inner exception.
+            </summary>
+            <param name="message">Additional message.</param>
+            <param name="innerException">Reference to inner exception.</param>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Exceptions.TooManyRequestsException">
+            <summary>
+            Exception for too many requests.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.TooManyRequestsException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.TooManyRequestsException"/> class.
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.TooManyRequestsException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.TooManyRequestsException"/> class.
+            Constructor with additional message.
+            </summary>
+            <param name="message">Additional message.</param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.TooManyRequestsException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.TooManyRequestsException"/> class.
+            Constructor with additional message and reference to inner exception.
+            </summary>
+            <param name="message">Additional message.</param>
+            <param name="innerException">Reference to inner exception.</param>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Exceptions.UserNotFoundException">
+            <summary>
+            Exception for user not found.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.UserNotFoundException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.UserNotFoundException"/> class.
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.UserNotFoundException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.UserNotFoundException"/> class.
+            Constructor with screen/user name information.
+            </summary>
+            <param name="screenName">Name of user not found.</param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.UserNotFoundException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.UserNotFoundException"/> class.
+            Constructor with screen/user name information and inner exception.
+            </summary>
+            <param name="screenName">Name of user not found.</param>
+            <param name="innerException">Reference to inner exception.</param>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysNotPresentException">
+            <summary>
+            Exception for no OAuth keys being present.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysNotPresentException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysNotPresentException"/> class.
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysNotPresentException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysNotPresentException"/> class.
+            Constructor with information on missing key.
+            </summary>
+            <param name="key">Name of the missing key.</param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysNotPresentException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysNotPresentException"/> class.
+            Constructor with additional message and inner exception.
+            </summary>
+            <param name="message">Additional exception message.</param>
+            <param name="innerException">Reference to inner exception.</param>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigParameterNullException">
+            <summary>
+            Exception for config parameter being null.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigParameterNullException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigParameterNullException"/> class.
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigParameterNullException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigParameterNullException"/> class.
+            Accepts parameter name.
+            </summary>
+            <param name="parameter">Name of the parameter.</param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigParameterNullException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigParameterNullException"/> class.
+            Accepts parameter name and inner exception.
+            </summary>
+            <param name="message">Name of the parameter.</param>
+            <param name="innerException">Reference to the inner exception.</param>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.IParser`1">
+            <summary>
+            Parser interface.
+            </summary>
+            <typeparam name="T">Type to parse into.</typeparam>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.IParser`1.Parse(System.String)">
+            <summary>
+            Parse method which all classes must implement.
+            </summary>
+            <param name="data">Data to parse.</param>
+            <returns>Strong typed parsed data.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Rss.AtomParser">
+            <summary>
+            Parser for Atom endpoints.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.AtomParser.LoadFeed(System.Xml.Linq.XDocument)">
+            <summary>
+            Atom reader implementation to parse Atom content.
+            </summary>
+            <param name="doc">XDocument to parse.</param>
+            <returns>Strong typed response.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.AtomParser.GetRssSchema(System.Xml.Linq.XElement)">
+            <summary>
+            Retieves strong type for passed item.
+            </summary>
+            <param name="item">XElement to parse.</param>
+            <returns>Strong typed object.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.AtomParser.GetItemAuthor(System.Xml.Linq.XElement)">
+            <summary>
+            Retrieves item author from XElement.
+            </summary>
+            <param name="item">XElement item.</param>
+            <returns>String of Item Author.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.AtomParser.GetItemImage(System.Xml.Linq.XElement)">
+            <summary>
+            Returns item image from XElement item.
+            </summary>
+            <param name="item">XElement item.</param>
+            <returns>String pointing to item image.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.AtomParser.GetItemContent(System.Xml.Linq.XElement)">
+            <summary>
+            Returns item content from XElement item.
+            </summary>
+            <param name="item">XElement item.</param>
+            <returns>String of item content.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Rss.BaseRssParser">
+            <summary>
+            Base class for Rss Parser(s).
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.BaseRssParser.GetFeedType(System.Xml.Linq.XDocument)">
+            <summary>
+            Retrieve feed type from XDocument.
+            </summary>
+            <param name="doc">XDocument doc.</param>
+            <returns>Return feed type.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.BaseRssParser.LoadFeed(System.Xml.Linq.XDocument)">
+            <summary>
+            Abstract method to be override by specific implementations of the reader.
+            </summary>
+            <param name="doc">XDocument doc.</param>
+            <returns>Returns list of strongly typed results.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.BaseRssParser.ProcessHtmlContent(System.String)">
+            <summary>
+            Fix up the HTML content.
+            </summary>
+            <param name="htmlContent">Content to be fixed up.</param>
+            <returns>Fixed up content.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.BaseRssParser.ProcessHtmlSummary(System.String)">
+            <summary>
+            Create a summary of the HTML content.
+            </summary>
+            <param name="htmlContent">Content to be processed.</param>
+            <returns>Summary of the content.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Rss.Rss2Parser">
+            <summary>
+            Rss reader implementation to parse Rss content.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Rss.Rss2Parser.NsRdfNamespaceUri">
+            <summary>
+            RDF Namespace Uri.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Rss.Rss2Parser.NsRdfElementsNamespaceUri">
+            <summary>
+            RDF Elements Namespace Uri.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Rss.Rss2Parser.NsRdfContentNamespaceUri">
+            <summary>
+            RDF Content Namespace Uri.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.Rss2Parser.LoadFeed(System.Xml.Linq.XDocument)">
+            <summary>
+            This override load and parses the document and return a list of RssSchema values.
+            </summary>
+            <param name="doc">XDocument to be loaded.</param>
+            <returns>Strongly typed list of feeds.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.Rss2Parser.ParseItem(System.Xml.Linq.XElement)">
+            <summary>
+            Parses XElement item into strong typed object.
+            </summary>
+            <param name="item">XElement item to parse.</param>
+            <returns>Strong typed object.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.Rss2Parser.ParseRDFItem(System.Xml.Linq.XElement)">
+            <summary>
+            Parses RSS version 1.0 objects.
+            </summary>
+            <param name="item">XElement item.</param>
+            <returns>Strong typed object.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.Rss2Parser.ParseRssItem(System.Xml.Linq.XElement)">
+            <summary>
+            Parses RSS version 2.0 objects.
+            </summary>
+            <param name="item">XElement item.</param>
+            <returns>Strong typed object.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.Rss2Parser.GetItemAuthor(System.Xml.Linq.XElement)">
+            <summary>
+            Retrieve item author from item.
+            </summary>
+            <param name="item">XElement item.</param>
+            <returns>String of item author.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Rss.RssDataConfig">
+            <summary>
+            Query configuration data.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Rss.RssDataConfig.Url">
+            <summary>
+            Gets or sets uri to query.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Rss.RssDataProvider">
+            <summary>
+            Data Provider for connecting to RSS feed.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.RssDataProvider.GetDataAsync``1(Microsoft.Toolkit.Uwp.Services.Rss.RssDataConfig,System.Int32,Microsoft.Toolkit.Uwp.Services.IParser{``0})">
+            <summary>
+            Wrapper around RSS endpoint for making data request.
+            </summary>
+            <typeparam name="TSchema">Schema to use</typeparam>
+            <param name="config">Query configuration.</param>
+            <param name="maxRecords">Upper limit for records returned.</param>
+            <param name="parser">IParser implementation for interpreting results.</param>
+            <returns>Strongly typed list of results.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.RssDataProvider.GetDefaultParser(Microsoft.Toolkit.Uwp.Services.Rss.RssDataConfig)">
+            <summary>
+            Returns parser implementation for specified configuration.
+            </summary>
+            <param name="config">Query configuration.</param>
+            <returns>Strongly typed parser.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.RssDataProvider.ValidateConfig(Microsoft.Toolkit.Uwp.Services.Rss.RssDataConfig)">
+            <summary>
+            Check validity of configuration.
+            </summary>
+            <param name="config">Query configuration.</param>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper">
+            <summary>
+            Class with utilities for Rss related works.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.ImagePattern">
+            <summary>
+            String for regular expression for image pattern.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.HiperlinkPattern">
+            <summary>
+            String for regular xpression for hyperlink pattern.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.HeightPattern">
+            <summary>
+            String for regular expression for height pattern.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.WidthPattern">
+            <summary>
+            String for regular expression for width pattern.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.RegexImages">
+            <summary>
+            Regular expression for image pattern.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.RegexLinks">
+            <summary>
+            Regular expression for hyperlink pattern.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.RegexHeight">
+            <summary>
+            Regular expression for height pattern.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.RegexWidth">
+            <summary>
+            Regular expression for width pattern.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.SanitizeString(System.String)">
+            <summary>
+            Removes \t characters in the string and trim additional space and carriage returns.
+            </summary>
+            <param name="text">Text string.</param>
+            <returns>Sanitized string.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.GetSafeElementDate(System.Xml.Linq.XElement,System.String)">
+            <summary>
+            Get item date from xelement and element name.
+            </summary>
+            <param name="item">XElement item.</param>
+            <param name="elementName">Name of element.</param>
+            <returns>Item date.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.GetSafeElementDate(System.Xml.Linq.XElement,System.String,System.Xml.Linq.XNamespace)">
+            <summary>
+            Get item date from xelement, element name and namespace.
+            </summary>
+            <param name="item">XElement item.</param>
+            <param name="elementName">Name of element.</param>
+            <param name="xNamespace">XNamespace namespace.</param>
+            <returns>Item date.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.GetSafeElementString(System.Xml.Linq.XElement,System.String)">
+            <summary>
+            Get item string value for xelement and element name.
+            </summary>
+            <param name="item">XElement item.</param>
+            <param name="elementName">Name of eleement.</param>
+            <returns>Safe string.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.GetSafeElementString(System.Xml.Linq.XElement,System.String,System.Xml.Linq.XNamespace)">
+            <summary>
+            Get item string value for xelement, element name and namespace.
+            </summary>
+            <param name="item">XElement item.</param>
+            <param name="elementName">Name of element.</param>
+            <param name="xNamespace">XNamespace namespace.</param>
+            <returns>Safe string.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.GetLink(System.Xml.Linq.XElement,System.String)">
+            <summary>
+            Get feed url to see full original information.
+            </summary>
+            <param name="item">XElement item.</param>
+            <param name="rel">rel attribute value.</param>
+            <returns>String link.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.GetImage(System.Xml.Linq.XElement)">
+            <summary>
+            Get feed image.
+            </summary>
+            <param name="item">XElement item.</param>
+            <returns>Feed data image.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.GetImageFromEnclosure(System.Xml.Linq.XElement)">
+            <summary>
+            Get the item image from the enclosure element http://www.w3schools.com/rss/rss_tag_enclosure.asp
+            </summary>
+            <param name="item">XElement item.</param>
+            <returns>Feed data image.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.TryParseDateTime(System.String,System.DateTime@)">
+            <summary>
+            Tries to parse the original string to a datetime format.
+            </summary>
+            <param name="s">Input string.</param>
+            <param name="result">Parsed datetime.</param>
+            <returns>True if success</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.TimeZoneToOffset(System.String)">
+            <summary>
+            Calculate and return timezone.
+            </summary>
+            <param name="tz">Input string.</param>
+            <returns>Parsed timezone.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.GetImagesInHTMLString(System.String)">
+            <summary>
+            Retrieve images from HTML string.
+            </summary>
+            <param name="htmlString">String of HTML.</param>
+            <returns>List of images.</returns>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.timeZones">
+            <summary>
+            Dictionary of timezones.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Rss.RssParser">
+            <summary>
+            RssParser.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.RssParser.Parse(System.String)">
+            <summary>
+            Parse string to strong type.
+            </summary>
+            <param name="data">Input string.</param>
+            <returns>Strong type.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Rss.RssSchema">
+            <summary>
+            Implementation of the RssSchema class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Rss.RssSchema.Title">
+            <summary>
+            Gets or sets title.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Rss.RssSchema.Summary">
+            <summary>
+            Gets or sets summary.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Rss.RssSchema.Content">
+            <summary>
+            Gets or sets content.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Rss.RssSchema.ImageUrl">
+            <summary>
+            Gets or sets image Url.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Rss.RssSchema.ExtraImageUrl">
+            <summary>
+            Gets or sets extra Image Url.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Rss.RssSchema.MediaUrl">
+            <summary>
+            Gets or sets media Url.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Rss.RssSchema.FeedUrl">
+            <summary>
+            Gets or sets feed Url.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Rss.RssSchema.Author">
+            <summary>
+            Gets or sets author.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Rss.RssSchema.PublishDate">
+            <summary>
+            Gets or sets publish Date.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Rss.RssType">
+            <summary>
+            Type of Rss.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Rss.RssType.Atom">
+            <summary>
+            Atom
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Rss.RssType.Rss">
+            <summary>
+            RSS
+            </summary>
+        </member>
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Rss.RssType.Unknown">
+            <summary>
+            Unknown
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.OAuth.OAuthEncoder">
+            <summary>
+            OAuth Encoder.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.OAuth.OAuthEncoder.UrlEncode(System.String)">
+            <summary>
+            Url encode input string.
+            </summary>
+            <param name="value">Input string.</param>
+            <returns>Encoded string.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.OAuth.OAuthEncoder.UrlEncode(System.Collections.Generic.IEnumerable{Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter})">
+            <summary>
+            Encode list of parameters.
+            </summary>
+            <param name="parameters">List of parameters.</param>
+            <returns>Encoded string of parameters.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.OAuth.OAuthEncoder.GenerateHash(System.String,System.String)">
+            <summary>
+            Generate hash from input string and key.
+            </summary>
+            <param name="input">Input string.</param>
+            <param name="key">Key string.</param>
+            <returns>Hash string.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter">
+            <summary>
+            OAuth parameter.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter.Key">
+            <summary>
+            Gets or sets key property.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter.Value">
+            <summary>
+            Gets or sets value property.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter"/> class.
+            Constructor accepting key and value.
+            </summary>
+            <param name="key">Key.</param>
+            <param name="value">Value.</param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter.ToString">
+            <summary>
+            ToString override.
+            </summary>
+            <returns>String representation</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter.ToString(System.Boolean)">
+            <summary>
+            Format key / value into string.
+            </summary>
+            <param name="withQuotes">Whether to create quotes in string.</param>
+            <returns>Formatted string of key / value.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.OAuth.OAuthUriExtensions">
+            <summary>
+            OAuth Uri extensions.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.OAuth.OAuthUriExtensions.GetQueryParams(System.Uri)">
+            <summary>
+            Get query parameters from Uri.
+            </summary>
+            <param name="uri">Uri to process.</param>
+            <returns>Dictionary of query parameters.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.OAuth.OAuthUriExtensions.AbsoluteWithoutQuery(System.Uri)">
+            <summary>
+            Get absolute Uri.
+            </summary>
+            <param name="uri">Uri to process.</param>
+            <returns>Uri without query string.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.OAuth.OAuthUriExtensions.Normalize(System.Uri)">
+            <summary>
+            Normalize the Uri into string.
+            </summary>
+            <param name="uri">Uri to process.</param>
+            <returns>Normalized string.</returns>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.SchemaBase">
+            <summary>
+            Strong typed schema base class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.SchemaBase.InternalID">
+            <summary>
+            Gets or sets identifier for strong typed record.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -22,7 +22,7 @@ This Control is very common on mobile devices, where the user can pull from the 
                             ItemsSource="{x:Bind _items}"
                             OverscrollLimit="0.4"
                             PullThreshold="100"
-							RefreshRequested="ListView_RefreshCommand"                                                              PullProgressChanged="ListView_PullProgressChanged">
+				RefreshRequested="ListView_RefreshCommand"                                                            PullProgressChanged="ListView_PullProgressChanged">
 </controls:PullToRefreshListView.ItemTemplate>
 ```
 

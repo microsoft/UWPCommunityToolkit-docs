@@ -9,7 +9,11 @@ search.product: eADQiWindows 10XVcnh
 # Twitter Service
 The **Twitter Service** allows users to retrieve or publish data to Twitter. 
 
-[Twitter Developer Site](https://devs.twitter.com) is the main site for all twitter development.
+[Twitter Developer Site](https://dev.twitter.com) is the main content site for all twitter developers.  
+
+[Twitter Developer App List](https://apps.twitter.com/) is used once you have an app to manage them.
+
+[Create new Twitter App](https://apps.twitter.com/app/new) can be used to create a new app within the Twitter portal.
 
 ## Syntax
 ```C#

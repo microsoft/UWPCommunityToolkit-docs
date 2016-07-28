@@ -8,15 +8,13 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # ImageEx XAML Control
-The **ImageEx Control** downloads images asynchronously, while showing a loading indicator. Source images are then stored in the application's local cache to preserve resources and load time. ImageEx also extends the default *Image Platform* control to improve performance through the cache. 
-
-An example of ImageEx is the bottom of the *Bing* website, which shows several photo tiles with embedded image-related content. 
-
+The **ImageEx Control** downloads images asynchronously, while showing a loading indicator. Source images are then stored in the application's local cache to preserve resources and load time. ImageEx also extends the default *Image* Platform control to improve performance through caching. 
+ 
 ## Syntax
 ```xaml
 <controls:ImageEx Name="ImageExControl"
 			IsCacheEnabled="True"
-            Source="{Binding Thumbnail}"
+            Source="/assets/thumbnails/mythumbnail.png"
             Stretch="UniformToFill"
             HorizontalAlignment="Center"
             VerticalAlignment="Center"/>  

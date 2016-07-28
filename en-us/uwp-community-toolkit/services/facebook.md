@@ -13,9 +13,8 @@ The **Facebook Service** allows you to retrieve or publish data to the Facebook 
 ## Facebook APP ID 
 1. To get a **Facebook.WindowsStoreID**, go to: https://developers.facebook.com/apps. 
 2. Select **Create a New App ID**, to start integration Facebook into your app or website. 
-3. Click, **Create a New AP**, and select a Platform, or choose Basic Setup. 
+3. Click, **Create a New App**, and select a Platform, or choose Basic Setup. 
 
-For additional information, visit:  https://www.microsoft.com/en-us/store/p/facebook/9wzdncrfj2wl. 
 
 
 ## Syntax

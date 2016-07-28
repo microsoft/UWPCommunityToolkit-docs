@@ -13,17 +13,19 @@ You can control the number of rows, columns, orientation and aspect ratio.
 
 ## Syntax
 ```xaml
-      <controls:VariableSizedGridView   Name="VariableSizedGridViewControl"
-            Margin="0"
-            ItemTemplate="{StaticResource PhotoTemplate}"
-            Orientation="Horizontal"
-            MaximumRowsOrColumns="4">
-   </controls:VariableSizedGridView
+<controls:VariableSizedGridView   
+	Name="VariableSizedGridViewControl"
+	Margin="0"
+	ItemTemplate="{StaticResource PhotoTemplate}"
+	Orientation="Horizontal"
+	MaximumRowsOrColumns="4">
+</controls:VariableSizedGridView
 ```
-
 ## Example Image
 
 ## Example Code
+<p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
+
 [VariableSizedGridView Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/VariableSizedGridView)
 
 ## Default Template 

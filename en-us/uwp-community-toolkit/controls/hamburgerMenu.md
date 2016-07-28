@@ -15,8 +15,6 @@ The 3-line menu icon, which resembles a Hamburger, allows developers to pack mor
 
 Developers can create Menu-specific content, such as add video, graphics, images, text or even a Carousel. An example of the HamburgerMenu is the *Money tile* in Windows 10. When tapped, it displays various market stats and currencies, which lets users configure settings to tailor their monetary interests.
 
-<p> **Note:** Refer to the following content for required code that must be used when creating a HamburgerMenu for Windows application development.<p> 
-
 ## Syntax
 ```xaml
 <controls:HamburgerMenu PaneBackground="@[PaneBackground:Brush:Black]" x:Name="HamburgerMenuControl"
@@ -37,6 +35,8 @@ Developers can create Menu-specific content, such as add video, graphics, images
 ![hamburger menu animation](/resources/images/hamburgermenu.gif "Hamburger menu")
 
 ## Example Code
+<p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
+
 [HamburgerMenu Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/HamburgerMenu)
 
 ## Default Template 

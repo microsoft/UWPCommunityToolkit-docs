@@ -16,11 +16,11 @@ This Control is very common on mobile devices, where the user can pull from the 
 ## Syntax
 ```xaml
 <controls:PullToRefreshListView Name="PullToRefreshListViewControl"
-                ItemsSource="{x:Bind _items}"
-                OverscrollLimit="0.4"
-                PullThreshold="100"
-		RefreshRequested="ListView_RefreshCommand" 
-		PullProgressChanged="ListView_PullProgressChanged">
+	ItemsSource="{x:Bind _items}"	
+	OverscrollLimit="0.4"
+	PullThreshold="100"
+	RefreshRequested="ListView_RefreshCommand" 
+	PullProgressChanged="ListView_PullProgressChanged">
 </controls:PullToRefreshListView.ItemTemplate>
 ```
 
@@ -29,8 +29,7 @@ This Control is very common on mobile devices, where the user can pull from the 
 
 
 ## Example Code
-
-<p> **Note:** Refer to the following content for required code that must be used when creating a *PullToRefreshListView XAML Control* for Windows application development.<p> 
+<p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
 
 [PullToRefreshListView Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/PullToRefreshListView)
 

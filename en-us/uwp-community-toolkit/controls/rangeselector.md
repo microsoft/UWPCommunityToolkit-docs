@@ -10,23 +10,19 @@ search.product: eADQiWindows 10XVcnh
 # RangeSelector XAML Control
 The **RangeSelector Control** is a *Double Slider* control that allows the user to select a sub-range of values from a larger range of possible values.  The user can slide from the left or right of the range.
 
-<p> **Note:** Refer to the following content for required code that must be used when creating a RangeSelector for Windows application development.<p> 
-
-
 ## Syntax
 ```xaml
 <controls:RangeSelector x:Name="RangeSelectorControl" 
-		 Column="1"
-                 Minimum="10" 
-                 Maximum="100">
-
-  </controls:RangeSelector>       
+	Minimum="10" 
+	Maximum="100">
+</controls:RangeSelector>       
 ```
-
 
 ## Example Image
 
 ## Example Code
+<p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
+
 [RangeSelector Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/RangeSelector)
 
 ## Default Template 

@@ -14,30 +14,29 @@ The round gauges are powerful, easy to use, and highly configurable to present d
 ## How it works
 The Radial Gauge supports animated transitions between configuration states. The control gradually animates as it redraws changes to the needle, needle position, scale range, color range, and more. 
 
-<p> **Note:** Refer to the following content for required code that must be used when creating a *RadialGauge Control* for Windows application development.<p> 
-
-
 ## Syntax
 ```xaml
 <controls:RadialGauge x:Name="RadialGaugeControl"
-                                  Column="1"
-                                  Value="70"
-                                  Minimum="0"
-                                  Maximum="180"
-                                  TickSpacing="20"
-                                  ScaleWidth="26"
-                                  Unit="Units"
-                                  TickBrush="Gainsboro"
-                                  ScaleTickBrush="{ThemeResource ApplicationPageBackgroundThemeBrush}"
-                                  UnitBrush="Black"
-                                  ValueBrush="Black" 
-				  	NeedleWidth="5" 
-				  	TickLength="18">
- </controls:RadialGauge>
+	Column="1"
+	Value="70"
+	Minimum="0"
+	Maximum="180"
+	TickSpacing="20"
+	ScaleWidth="26"
+	Unit="Units"
+	TickBrush="Gainsboro"
+	ScaleTickBrush="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+	UnitBrush="Black"
+	ValueBrush="Black" 
+	NeedleWidth="5" 
+	TickLength="18">
+</controls:RadialGauge>
 ```
 ## Example Image
 
 ## Example Code
+<p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
+
 [RadialGauge Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/RadialGauge)
 
 ## Default Template 
@@ -48,5 +47,3 @@ Windows 10 SDK 10240 or greater
 
 ## API
 Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp) for the UWP Community Toolkit for samples of all the controls.
-
-         

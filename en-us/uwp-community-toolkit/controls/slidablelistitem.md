@@ -15,23 +15,22 @@ This control can be used as a ListView Data Template root to create effects simi
 ## Syntax
 ```xaml
 <controls:SlidableListItem
-		LeftIcon="Favorite" 
-		RightIcon="Delete" 
-		LeftLabel="Set Favorite" 
-		RightLabel="Delete"
-		LeftBackground="Green" 
-		RightBackground="Red"
-		LeftForeground="White" 
-		RightForeground="Black"
-		ActivationWidth="100"
-		MouseSlidingEnabled="True"
-		LeftCommand="ToggleFavorite"
-		RightCommandRequested="SlidableListItem_RightCommandActivated">
-		
-		<StackPanel Column="1" Margin="10"
-		    <CheckBox IsChecked="False"></CheckBox>
-		    <TextBlock Text="My Great Text" TextWrapping="NoWrap"/>
-                
+	LeftIcon="Favorite" 
+	RightIcon="Delete" 
+	LeftLabel="Set Favorite" 
+	RightLabel="Delete"
+	LeftBackground="Green" 
+	RightBackground="Red"
+	LeftForeground="White" 
+	RightForeground="Black"
+	ActivationWidth="100"
+	MouseSlidingEnabled="True"
+	LeftCommand="ToggleFavorite"
+	RightCommandRequested="SlidableListItem_RightCommandActivated">
+	
+	<StackPanel Column="1" Margin="10"
+		<CheckBox IsChecked="False"></CheckBox>
+		<TextBlock Text="My Great Text" TextWrapping="NoWrap"/>            
 </controls:SlidableListItem> 
   
 ```
@@ -39,7 +38,7 @@ This control can be used as a ListView Data Template root to create effects simi
 ## Example Image
 
 ## Example Code
-<p> **Note:** Refer to the following content for required code that must be used when creating a SlideableListItem for Windows application development.<p>
+<p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
 
 [SlideableListItem Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/SlideableListItem)
 

@@ -17,7 +17,7 @@ You can control the number of rows, columns, orientation and aspect ratio.
             Margin="0"
             ItemTemplate="{StaticResource PhotoTemplate}"
             Orientation="Horizontal"
-            MaximumRowsOrColumns="4"
+            MaximumRowsOrColumns="4">
    </controls:VariableSizedGridView
 ```
 

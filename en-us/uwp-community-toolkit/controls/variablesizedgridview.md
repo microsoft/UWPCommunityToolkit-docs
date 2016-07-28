@@ -16,34 +16,21 @@ You can control the number of rows, columns, orientation and aspect ratio.
       <controls:VariableSizedGridView   Name="VariableSizedGridViewControl"
             Margin="0"
             ItemTemplate="{StaticResource PhotoTemplate}"
-            Orientation="@[Orientation:Enum:Orientation.Horizontal]"
-            MaximumRowsOrColumns="@[MaximumRowsOrColumns:Slider:4:1-10]">
+            Orientation="Horizontal"
+            MaximumRowsOrColumns="4"
+   </controls:VariableSizedGridView
 ```
 
 ## Example Image
 
-## Default Template
-```xaml
+## Example Code
+[VariableSizedGridView Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/VariableSizedGridView)
 
-<DataTemplate x:Key="PhotoTemplate"
-                BorderBrush="Black"
-                BorderThickness="1">
-                <Image Source="{Binding Thumbnail}"
-                    Stretch="UniformToFill"
-                    HorizontalAlignment="Center"
-            		VerticalAlignment="Center"/>
-</DataTemplate>
-
-<controls:VariableSizedGridView
-    Name="VariableSizedGridViewControl"
-    Margin="0"
-    ItemTemplate="{StaticResource PhotoTemplate}"
-    Orientation="Horizontal"
-    MaximumRowsOrColumns="4"/>          
-
-```
+## Default Template 
+[HamburgerMenu XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Controls/VariableSizedGridView/VariableSizedGridView.xaml) is the XAML template used in the toolkit for the default styling.
 
 ## Platforms 
-
+Windows 10 SDK 10240 or greater
 
 ## API
+Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp) for the UWP Community Toolkit for samples of all the controls.

@@ -28,7 +28,6 @@ An example of ImageEx is the bottom of the *Bing* website, which shows several p
 ## Example Image
 
 ## Example Code
-
 [ImageExControl Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/ImageEx)
 
 ## Default Template 

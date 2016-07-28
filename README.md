@@ -1,4 +1,4 @@
-UWP Toolkit Documentation
+UWP Community Toolkit Documentation
 =========================
 
 Getting started? ...

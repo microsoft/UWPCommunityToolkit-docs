@@ -13,7 +13,7 @@ The **PullToRefreshListView** Control, is derived from the built-in List View in
 
 This Control is very common on mobile devices, where the user can pull from the top or button and an clockwise arrow (from the top) and upward-facing arrow, from the bottom are common icons. Another example of the PulltoRefreshListView is located in the [Comet Mail Sample](https://github.com/nmetulev/comet/tree/master/Samples/Mail).
 
-<p> **Note:** Refer to sections below, which include code and additional information to create a PulltoRefreshListView Control for Windows application development.<p> 
+<p> **Note:** Refer to the following content for required code that must be used when creating a *PullToRefreshListView XAML Control* for Windows application development.<p> 
 
 
 ## Syntax

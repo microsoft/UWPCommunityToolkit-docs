@@ -9,7 +9,10 @@ search.product: eADQiWindows 10XVcnh
 
 # RadialGauge XAML Control
 The **RadialGauge Control** displays a value in a certain range using a needle on a circular face. This control will make data visualizations and dashboards more engaging with rich style and interactivity. 
-The round gauges are powerful, easy to use, and highly configurable to present dashboards capable of displaying clocks, industrial panels, automotive dashboards, and even aircraft cockpits.
+<p>The round gauges are powerful, easy to use, and highly configurable to present dashboards capable of displaying clocks, industrial panels, automotive dashboards, and even aircraft cockpits.<P>
+
+<p> **Note:** Refer to the following content for required code that must be used when creating a *RadialGauge Control* for Windows application development.<p> 
+
 
 ## Syntax
 ```xaml

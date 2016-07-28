@@ -1,49 +1,42 @@
 ---
 permalink: /en-US/controls/pulltorefreshlistview.html
 title: PullToRefreshListView XAML Control for UWP Community Toolkit
-description: The PullToRefreshListView Control pulls the listview to trigger a content refresh
+description:PullToRefreshListView Control pulls the listview to to trigger a refresh in content
 keywords: windows, app, PulltoRefresh, ListView, toolkit, pull to refresh, XAML, UWP 
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
 # PullToRefreshListView XAML Control
-The **PullToRefreshListView** Control, is derived from the built-in List View in XAML. It lets the user pull down beyond the top limit on the listview to trigger a refresh of the content.
+The **PullToRefreshListView** Control, is derived from the built-in List View in XAML. It lets the user pull down beyond the top limit on the listview to trigger a refresh of the content. This control can create rich, animations, and is easy to use. 
+
+This Control is very common on mobile devices, where the user can pull from the top or button and an clockwise arrow (from the top) and upward-facing arrow, from the bottom are common icons. Another example of the PulltoRefreshListView is located in the [Comet Mail Sample](https://github.com/nmetulev/comet/tree/master/Samples/Mail).
+
+<p> **Note:** Refer to sections below, which include code and additional information to create a PulltoRefreshListView Control for Windows application development.<p> 
+
 
 ## Syntax
 ```xaml
 <controls:PullToRefreshListView Name="PullToRefreshListViewControl"
-                                        ItemsSource="{x:Bind _items}"
-                                        OverscrollLimit="@[OverscrollLimit:DoubleSlider:0.4:0-1]"
-                                        PullThreshold="@[PullThreshold:Slider:100:50-300]"
-                                        RefreshRequested="ListView_RefreshCommand"
-                                        PullProgressChanged="ListView_PullProgressChanged">
-</controls:PullToRefreshListView>
+                            ItemsSource="{x:Bind _items}"
+                            OverscrollLimit="0.4"
+                            PullThreshold="100"
+							RefreshRequested="ListView_RefreshCommand"                                                              PullProgressChanged="ListView_PullProgressChanged">
+</controls:PullToRefreshListView.ItemTemplate>
 ```
 
 ## Example Image
 
 
-## Default Template
-```xaml
-<controls:PullToRefreshListView Name="PullToRefreshListViewControl"
-                                        ItemsSource="{x:Bind _items}"
-                                        OverscrollLimit="0.4"
-                                        PullThreshold="100"
-                                        RefreshRequested="ListView_RefreshCommand"
-                                        PullProgressChanged="ListView_PullProgressChanged">
-            <controls:PullToRefreshListView.ItemTemplate>
-                <DataTemplate  x:DataType="data:Item">
-                    <TextBlock Text="{x:Bind Title}" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="NoWrap"/>
-                </DataTemplate>
-            </controls:PullToRefreshListView.ItemTemplate>
-            <controls:PullToRefreshListView.RefreshIndicatorContent>
-                <Border HorizontalAlignment="Center" x:Name="refreshindicator" CornerRadius="30" Height="20" Width="20" ></Border>
-            </controls:PullToRefreshListView.RefreshIndicatorContent>
-</controls:PullToRefreshListView>
-```
 
-## Platforms
+## Example Code
+[PullToRefreshListView Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/PullToRefreshListView)
 
-## API 
+## Default Template 
+[PullToRefreshListView XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Controls/PullToRefreshListView/PullToRefreshListView.xaml) is the XAML template used in the toolkit for the default styling.
 
+## Platforms 
+Windows 10 SDK 10240 or greater
+
+## API
+Please access the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp), to view control samples located in the UWP Community Toolkit.

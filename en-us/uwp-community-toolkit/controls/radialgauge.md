@@ -20,7 +20,7 @@ The Radial Gauge supports animated transitions between configuration states. The
 ## Syntax
 ```xaml
 <controls:RadialGauge x:Name="RadialGaugeControl"
-                                  Grid.Column="1"
+                                  Column="1"
                                   Value="70"
                                   Minimum="0"
                                   Maximum="180"

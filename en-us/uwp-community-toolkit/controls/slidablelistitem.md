@@ -10,31 +10,10 @@ search.product: eADQiWindows 10XVcnh
 # SlidableListItem XAML Control
 The **SlideableListItem Control** is a UI control that enables actions to be triggered by sliding the content left or right. It can be used as a ListView Data Template root to create effects similar to those common in mobile email apps.  
 
+<p> **Note:** Refer to the following content for required code that must be used when creating a SlideableListItem for Windows application development.<p>
 ## Syntax
-```xaml
-<controls:SlidableListItem 
-                    HorizontalAlignment="Stretch"
-                    LeftIcon="@[LeftIcon:Enum:Symbol.Favorite]" 
-                    RightIcon="@[RightIcon:Enum:Symbol.Delete]" 
-                    LeftLabel="@[LeftLabel:String:Set Favorite]" 
-                    RightLabel="@[RightLabel:String:Delete]"
-                    LeftBackground="@[LeftBackground:Brush:Green]" 
-                    RightBackground="@[RightBackground:Brush:Red]"
-                    LeftForeground="@[LeftForeground:Brush:White]" 
-                    RightForeground="@[RightForeground:Brush:Black]"
-                    ActivationWidth="@[ActivationWidth:Slider:100:50-250]"
-                    MouseSlidingEnabled="@[MouseSlidingEnabled:Bool:true]"
-                    LeftCommand="{x:Bind ToggleFavorite}"
-                    RightCommandRequested="SlidableListItem_RightCommandActivated">
-</controls:SlidableListItem>         
-```
 
-## Example
-
-
-## Default Template
-```xaml
-<controls:SlidableListItem HorizontalAlignment="Stretch"
+    <controls:SlidableListItem HorizontalAlignment="Stretch"
                                        LeftIcon="Favorite" 
                                        RightIcon="Delete" 
                                        LeftLabel="Set Favorite" 
@@ -45,26 +24,21 @@ The **SlideableListItem Control** is a UI control that enables actions to be tri
                                        RightForeground="Black"
                                        ActivationWidth="100"
                                        MouseSlidingEnabled="True"
-                                       LeftCommand="{x:Bind ToggleFavorite}"
-								RightCommandRequested="SlidableListItem_RightCommandActivated">
-                <Height="110" Background="Gray">
-                    <StackPanel Grid.Column="1" Margin="10,0,0,0">
-                        <CheckBox IsChecked="{x:Bind IsFavorite, Mode=OneWay}"></CheckBox>
-                        <TextBlock Text="{x:Bind Title}" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="NoWrap"/>
-                    </StackPanel>
-</controls:SlidableListItem>
+                                       LeftCommand="ToggleFavorite"                    RightCommandRequested="SlidableListItem_RightCommandActivated">
+    </controls:SlidableListItem> 
+      
+```xaml
 
-    <Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <ListView x:Name="listViewControl" ItemTemplate="{StaticResource EmailsItemTemplate}" ItemsSource="{x:Bind _items, Mode=OneWay}" SelectionMode="None" IsItemClickEnabled="False">
-            <ListView.ItemContainerStyle>
-                <Style TargetType="ListViewItem">
-                    <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
-                    <Setter Property="Margin" Value="0,1"></Setter>
-            </ListView.ItemContainerStyle>
-```
+## Example Image
 
+## Example Code
+[SlideableListItem Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/SlideableListItem)
+
+## Default Template 
+[SlideableListItem XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Controls/SlideableListItem/SlideableListItem.xaml) is the XAML template used in the toolkit for the default styling.
 
 ## Platforms 
-
+Windows 10 SDK 10240 or greater
 
 ## API
+Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp) for the UWP Community Toolkit for samples of all the controls.

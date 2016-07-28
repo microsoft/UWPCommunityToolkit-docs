@@ -10,35 +10,27 @@ search.product: eADQiWindows 10XVcnh
 # ResponsiveGridView XAML Control 
 The **ResponsiveGridView Control** presents content within a *Grid View* to fill the total available display space. It reacts to changes in both content and the layout, so it can adapt to different form factors automatically.
 
+<p> **Note:** Refer to the following content for required code that must be used when creating a *ResponsiveGridView Control* for Windows application development.<p> 
+
 ## Syntax
 ```xaml
 <controls:ResponsiveGridView  Name="ResponsiveGridViewControl"
-          ItemHeight="@[ItemHeight:Slider:200:50-500]"
-          DesiredWidth="@[DesiredWidth:Slider:300:50-500]"
+          ItemHeight="200"
+          DesiredWidth="300"
           ItemTemplate="{StaticResource PhotosTemplate}">
 </controls:ResponsiveGridView>
 ```
 
 ## Example Image
 
-## Default Template
-```xaml
-<DataTemplate x:Key="PhotosTemplate">
-	<Background="White" BorderBrush="Black" BorderThickness="1">
-	<Image Source="{Binding Thumbnail}"
-            Stretch="UniformToFill"
-            HorizontalAlignment="Center"
-            VerticalAlignment="Center"/>
-</DataTemplate>
+## Example Code
+[ResponsiveGridView Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/ResponsiveGridView)
 
-<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-<controls:ResponsiveGridView Name="ResponsiveGridViewControl"
-      ItemHeight="200"
-      DesiredWidth="300"
-      ItemTemplate="{StaticResource PhotosTemplate}"/>
+## Default Template 
+[ResponsiveGridView XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Controls/ResponsiveGridView/ResponsiveGridView.xaml) is the XAML template used in the toolkit for the default styling.
 
-```
-
-## Platforms
+## Platforms 
+Windows 10 SDK 10240 or greater
 
 ## API
+Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp) for the UWP Community Toolkit for samples of all the controls.

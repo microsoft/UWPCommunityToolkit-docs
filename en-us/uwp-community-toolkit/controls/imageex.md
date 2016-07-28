@@ -28,11 +28,11 @@ An example of ImageEx is the bottom of the *Bing* website, which shows several p
 ## Example Image
 
 ## Example Code
-[ImageExControl Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/ImageExControl)
+
+[ImageExControl Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/ImageEx)
 
 ## Default Template 
-[ImageExControl XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Controls/ImageExControl/ImageExControl.xaml) is the XAML template used in the toolkit for the default styling.
-
+[ImageExControl XAML File](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.UI.Controls/ImageEx) is the XAML template used in the toolkit for the default styling.
 ## Platforms 
 Windows 10 SDK 10240 or greater
 

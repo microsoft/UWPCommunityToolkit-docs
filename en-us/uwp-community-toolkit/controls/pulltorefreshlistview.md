@@ -11,10 +11,7 @@ search.product: eADQiWindows 10XVcnh
 # PullToRefreshListView XAML Control
 The **PullToRefreshListView** Control, is derived from the built-in List View in XAML. It lets the user pull down beyond the top limit on the listview to trigger a refresh of the content. This control can create rich, animations, and is easy to use. 
 
-This Control is very common on mobile devices, where the user can pull from the top or button and an clockwise arrow (from the top) and upward-facing arrow, from the bottom are common icons. Another example of the PulltoRefreshListView is located in the [Comet Mail Sample](https://github.com/nmetulev/comet/tree/master/Samples/Mail).
-
-<p> **Note:** Refer to the following content for required code that must be used when creating a *PullToRefreshListView XAML Control* for Windows application development.<p> 
-
+This Control is very common on mobile devices, where the user can pull from the top to force a content refresh in applications like Twitter. 
 
 ## Syntax
 ```xaml
@@ -32,6 +29,9 @@ This Control is very common on mobile devices, where the user can pull from the 
 
 
 ## Example Code
+
+<p> **Note:** Refer to the following content for required code that must be used when creating a *PullToRefreshListView XAML Control* for Windows application development.<p> 
+
 [PullToRefreshListView Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/PullToRefreshListView)
 
 ## Default Template 

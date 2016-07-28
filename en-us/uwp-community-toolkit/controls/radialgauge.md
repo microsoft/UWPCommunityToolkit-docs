@@ -8,55 +8,39 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # RadialGauge XAML Control
-The **RadialGauge Control** displays a value in a certain range using a needle on a circular face.
+The **RadialGauge Control** displays a value in a certain range using a needle on a circular face. This control will make data visualizations and dashboards more engaging with rich style and interactivity. 
+The round gauges are powerful, easy to use, and highly configurable to present dashboards capable of displaying clocks, industrial panels, automotive dashboards, and even aircraft cockpits.
 
 ## Syntax
 ```xaml
 <controls:RadialGauge x:Name="RadialGaugeControl"
                                   Grid.Column="1"
-                                  Value="@[Value:Slider:0:0-180]"
+                                  Value="70"
                                   Minimum="0"
                                   Maximum="180"
-                                  TickSpacing="@[TickSpacing:Slider:20:10-30]"
-                                  ScaleWidth="@[ScaleWidth:Slider:26:5-50]"
+                                  TickSpacing="20"
+                                  ScaleWidth="26"
                                   Unit="Units"
                                   TickBrush="Gainsboro"
                                   ScaleTickBrush="{ThemeResource ApplicationPageBackgroundThemeBrush}"
                                   UnitBrush="Black"
                                   ValueBrush="Black" 
-				  	NeedleWidth="@[NeedleWidth:Slider:5:1-10]" 
-				  	TickLength="@[TickLength:Slider:18:4-30]">
+				  	NeedleWidth="5" 
+				  	TickLength="18">
  </controls:RadialGauge>
 ```
 ## Example Image
 
-## Default Template
-```xaml
-<Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-<VerticalAlignment="Center" HorizontalAlignment="Center">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="50"></ColumnDefinition>
-                <ColumnDefinition Width="250"></ColumnDefinition>
-                <ColumnDefinition Width="50"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
+## Example Code
+[RadialGauge Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/RadialGauge)
 
-<controls:RadialGauge x:Name="RadialGaugeControl"
-              Grid.Column="1"
-              Value="0"
-              Minimum="0"
-              Maximum="180"
-              TickSpacing="20"
-			  ScaleWidth="26"
-              Unit="Units"
-              TickBrush="Gainsboro"
-              ScaleTickBrush="{ThemeResource ApplicationPageBackgroundThemeBrush}"
-              UnitBrush="Black"
-              ValueBrush="Black" 
-			  NeedleWidth="5" 
- 			  TickLength="18">
-</controls:RadialGauge>
-```
+## Default Template 
+[RadialGauge XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Controls/RadialGauge/RadialGauge.xaml) is the XAML template used in the toolkit for the default styling.
 
-## Platforms
+## Platforms 
+Windows 10 SDK 10240 or greater
 
-## API 
+## API
+Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp) for the UWP Community Toolkit for samples of all the controls.
+
+         

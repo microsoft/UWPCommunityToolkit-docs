@@ -10,7 +10,15 @@ search.product: eADQiWindows 10XVcnh
 # Facebook Service 
 The **Facebook Service** allows you to retrieve or publish data to the Facebook graph. Examples of the types of objects you can work with are Posts, Tagged Objects, and the primary user feed.
 
+## Install Windows SDK for Facebook
 This project builds on the existing [Windows SDK for Facebook](https://github.com/Microsoft/winsdkfb). 
+
+Install the SDK
+1. Go to **Tools** | **Nuget Package Manager** | **Manage Nuget Packages for Solution...** (this opens a new pane in Visual Studio). 
+![Manage Nuget Packages](/resources/images/ManageNugetPackages.png)
+2. Choose nuget.org as the Package source and enter **winsdkfb** in the search field.
+3. Check your projects on the right side and choose **Install**.
+![Facebook SDK Install](/resources/images/WinSDKFBInstall.png)
 
 ## Getting Windows Store SID
 The Windows Store SID is a unique value per application generated, and it not tied to the actual store publication.  Creating a local application will give you a valid SID that you can use for debugging against Facebook.  
@@ -32,7 +40,7 @@ The above code will output something like this:
 
 ```text
 // EXAMPLE ONLY DO NOT USE THIS!
-Windows Store SID = ms-app://s-1-15-2-69261451-1486691014-2395677208-255521631-1892998043-4017490472-675352499/
+Windows Store SID = ms-app://s-1-15-2-69261451-1486691014-2395677208-255521631-1892998043-4997490472-675352499/
 ```
 
 When entering the value into the Facebook Developer site you must strip the ms-app:// and the trailing / off the string.

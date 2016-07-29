@@ -17,7 +17,7 @@ The **Colors Helper** lets users convert colors from text names, html hex, hsv, 
 ```C#
 
 	// Be sure to include the using at the top of the file:
-	//using Microsoft.Windows.Toolkit;
+	//using Microsoft.Toolkit.Uwp;
 
 	// Given an HTML color, lets convert it to a Windows Color
 	Windows.UI.Color color = ColorHelper.ToColor("#3a4ab0");

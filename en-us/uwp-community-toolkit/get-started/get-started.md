@@ -11,8 +11,8 @@ search.product: eADQiWindows 10XVcnh
 This document provides an overview of the **Universal Windows Application Toolkit** (UWP). The content describes the resources, requirements and specific controls need to develop functional and visually appealing Windows Applications. The UWP Toolkit Documentation provides Code syntax and samples for each control type for efficient navigation. 
 
 ## Resources 
-- [The Installation Guide](/get-started/installguide.md)
-- [Learn More](/get-started/learn-more.md ) 
+- [The Installation Guide](get-started/installguide.md)
+- [Learn More](get-started/learn-more.md ) 
 - [Quick Start](get-started/quickstart.md) 
 
 ## Requirements

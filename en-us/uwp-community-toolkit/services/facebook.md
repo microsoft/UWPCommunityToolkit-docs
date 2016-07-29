@@ -10,16 +10,6 @@ search.product: eADQiWindows 10XVcnh
 # Facebook Service 
 The **Facebook Service** allows you to retrieve or publish data to the Facebook graph. Examples of the types of objects you can work with are Posts, Tagged Objects, and the primary user feed.
 
-## Install Windows SDK for Facebook
-This project builds on the existing [Windows SDK for Facebook](https://github.com/Microsoft/winsdkfb). 
-
-Install the SDK
-1. Go to **Tools** | **Nuget Package Manager** | **Manage Nuget Packages for Solution...** (this opens a new pane in Visual Studio). 
-![Manage Nuget Packages](/resources/images/ManageNugetPackages.png)
-2. Choose nuget.org as the Package source and enter **winsdkfb** in the search field.
-3. Check your projects on the right side and choose **Install**.
-![Facebook SDK Install](/resources/images/WinSDKFBInstall.png)
-
 ## Getting Windows Store SID
 The Windows Store SID is a unique value per application generated, and it not tied to the actual store publication.  Creating a local application will give you a valid SID that you can use for debugging against Facebook.  
 
@@ -28,8 +18,7 @@ The Windows Store SID is a unique value per application generated, and it not ti
 	// Put the following code in your mainform loaded event
 	// Note that this will not work in the App.xaml.cs Loaded
 #if DEBUG
-    System.Diagnostics.Debug.WriteLine("Windows Store SID = " +
-	Microsoft.Windows.Toolkit.Services.Facebook.FacebookService.Instance.WindowsStoreId);
+	System.Diagnostics.Debug.WriteLine("Windows Store SID = " + Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.Instance.WindowsStoreId);
 #endif
 
 ```
@@ -51,7 +40,7 @@ When entering the value into the Facebook Developer site you must strip the ms-a
 3. Click, **Create a New App**
 4. From the app Dashboard choose the **Settings** item on the left.  It should select the *Basic* item under it by default.
 5. **+Add Platform** choose Windows App
-6. Enter the **Windows Store SID** from within your app (see *Getting Windows Store SID* section above)
+6. Enter the **Windows Store SID** from within your app (see *Getting Windows Store SID* section)
 
 ## Syntax
 

@@ -21,7 +21,7 @@ The **Parallax** XAML behavior uses composition to move an image behind a list a
 </interactivity:Interaction.Behaviors>
 ```
 
-[Parallax Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/ParallaxBehavior)
+[Parallax Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/ParallaxBehavior)
 
 ## Example Image
 
@@ -34,4 +34,4 @@ This behavior requires the [visual layer](https://msdn.microsoft.com/en-us/windo
 
 ## API
 
-Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp) for the UWP Community Toolkit for current samples and example code.
+Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for current samples and example code.

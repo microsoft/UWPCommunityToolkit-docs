@@ -79,11 +79,11 @@ When entering the value into the Facebook Developer site you must strip the ms-a
 ## Example
 <p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
 
-[Facebook Service Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/Facebook%20Service)
+[Facebook Service Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Facebook%20Service)
 
 ## Platforms
 
-Windows 10 SDK 10240 or higher
+Windows 10 SDK 10586 or higher
 
 ## API
 
@@ -91,4 +91,4 @@ Windows 10 SDK 10240 or higher
 
 **NOTE:** To use this service ensure you have a reference to the *Microsoft.Toolkit.Uwp.Services* assembly.
 
-Please refer to the [Facebook Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.Services/Services/Facebook) for details about the implementation.
+Please refer to the [Facebook Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.Services/Services/Facebook) for details about the implementation.

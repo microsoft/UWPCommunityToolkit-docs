@@ -35,8 +35,23 @@ MyRectangle.Rotate(
                 centerZ: (float)CenterZ);
     
 ```
- 
-[Rotation Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/RotationBehavior)
+
+Behaviors can also be chained and awaited.
+
+```C#
+    Element.Rotate(duration: 0.3, value: 30f).StartAsync();
+
+    await Element.Rotate(duration: 0.3, value: 30f).StartAsync();
+
+    var anim = element.Rotate(value: 30f).Opacity(value: 0.5).Blur(blurAmount:5);
+    anim.SetDurationForAll(2);
+    anim.Completed += animation_completed;
+    anim.StartAsync();
+
+    anim.Stop();
+```
+
+[Rotation Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/RotationBehavior)
 ## Example Image
 
 ## Platforms
@@ -47,4 +62,4 @@ This behavior requires the [visual layer](https://msdn.microsoft.com/en-us/windo
 
 ## API
 
-Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp) for the UWP Community Toolkit for current samples and example code.
+Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for current samples and example code.

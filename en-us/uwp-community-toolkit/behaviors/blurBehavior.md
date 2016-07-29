@@ -31,7 +31,22 @@ or directly from code:
 ToolkitLogo.Blur(duration: 10, delay: 0, blurAmount: 10);       
 ```
 
-[Blur Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/BlurBehavior)
+Behaviors can also be chained and awaited.
+
+```C#
+    Element.Rotate(duration: 0.3, value: 30f).StartAsync();
+
+    await Element.Rotate(duration: 0.3, value: 30f).StartAsync();
+
+    var anim = element.Rotate(value: 30f).Opacity(value: 0.5).Blur(blurAmount:5);
+    anim.SetDurationForAll(2);
+    anim.Completed += animation_completed;
+    anim.StartAsync();
+
+    anim.Stop();
+```
+
+[Blur Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/BlurBehavior)
 
 
 ## Platforms
@@ -42,7 +57,7 @@ This behavior requires the [visual layer](https://msdn.microsoft.com/en-us/windo
 
 ## API
 
-[Blur Source Code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Animations/Behaviors/Blur.cs)
+[Blur Source Code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/Blur.cs)
 [link to class documnetation]
 
-Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp) for the UWP Community Toolkit for current samples and example code.
+Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for current samples and example code.

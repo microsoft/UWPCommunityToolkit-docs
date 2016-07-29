@@ -16,7 +16,6 @@
 - [SlideableListItem](controls/SlideableListItem.md)
 - [VariableSizeGridView](controls/VariableSizeGridView.md)
 
-----------
 
 # [Behaviors](behaviors/behaviors.md)
 
@@ -27,7 +26,7 @@
 - [RotationBehavior](controls/RotoationBehavior.md)
 - [ScaleBehavior](controls/ScaleBehavior.md)
 
-----------
+
 
 # [Helpers](helpers/helpers.md)
 
@@ -36,18 +35,18 @@
 - [StorageFiles](helpers/storagefiles.md)
 - [Streams](helpers/streams.md)
 
-----------
 
-#[Notifications](notifications/notifications.md) 
 
-----------
+# [Notifications](notifications/notifications.md) 
 
-#[Services](services/services.md)
+
+
+# [Services](services/services.md)
 - [Bing](services/bing.md)
 - [Facebook](services/facebook.md)
 - [Twitter](services/twitter.com)
 
-----------
+# [Index](index/index.md)
 
 
 

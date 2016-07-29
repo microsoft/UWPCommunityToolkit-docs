@@ -36,7 +36,7 @@ ToolkitLogo.Blur(duration: 10, delay: 0, blurAmount: 10);
 
 ## Platforms
 
-[Windows 10 Anniversary SDK 14393](https://blogs.windows.com/buildingapps/2016/07/12/windows-10-anniversary-sdk-preview-build-14388-released/) or higher
+[Windows 10 Anniversary SDK 14393](https://blogs.windows.com/windowsexperience/2016/07/18/build14393/) or higher
 
 This behavior requires the [visual layer](https://msdn.microsoft.com/en-us/windows/uwp/graphics/visual-layer) in [Windows.UI.Composition](https://msdn.microsoft.com/library/windows/apps/dn706878) in order to work.  
 

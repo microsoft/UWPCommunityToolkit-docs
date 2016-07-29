@@ -87,8 +87,8 @@ Windows 10 SDK 10240 or higher
 
 ## API
 
-**NOTE:** Ensure you have a reference to the *Microsoft.Windows.Toolkit.Services* assembly.
+[Facebook Service API Reference](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/api/Microsoft_Toolkit_Uwp_Services_Facebook_FacebookService.md)
 
-**TODO:** Need to explain how to get appID from facebook (+serivce.WindowsStoreID)
+**NOTE:** To use this service ensure you have a reference to the *Microsoft.Toolkit.Uwp.Services* assembly.
 
 Please refer to the [Facebook Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.Services/Services/Facebook) for details about the implementation.

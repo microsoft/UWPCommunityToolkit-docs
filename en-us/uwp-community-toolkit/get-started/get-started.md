@@ -6,16 +6,7 @@ keywords: windows, app, toolkit, get started, menu
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
- 
 
-permalink: /en-US/getstarted.html
-title: GetStarted
-description: The Get Started section provides an introduction and overview of the UwP Toolkit and its documentation
-keywords: windows, app, toolkit, get started, menu
-layout: default
-search.product: eADQiWindows 10XVcnh
----
- 
 # Get Started  
 This document provides an overview of the **Universal Windows Application Toolkit** (UWP). The content describes the resources, requirements and specific controls need to develop functional and visually appealing Windows Applications. The UWP Toolkit Documentation provides Code syntax and samples for each control type for efficient navigation. 
 

@@ -41,6 +41,7 @@ module.exports = function (grunt) {
 		Promise.all(promises).then(function () {
 			done();
 		}).catch(function (err) {
+			grunt.verbose.writeln(err);
 			grunt.fail.warn(err);
 			//done(false);
 		});

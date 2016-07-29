@@ -1,5 +1,5 @@
 var fs = require('fs');
-var libxmljs;
+var xml2js;
 var grunt;
 
 var readFile = function (path) {
@@ -69,29 +69,40 @@ var replaceReferences = function (content) {
 	});
 };
 
+var getText = function (node, prop) {
+	node = node || [];
+	var item = node.length ? node[0] : node;
+	if (typeof item === 'string') {
+		return item ? item.replace('\n', '').trim() : '';
+	} else if (prop) {
+		return item[prop] ? item[prop].replace('\n', '').trim() : '';
+	}
+
+	return '';
+};
+
 var parseMember = function (node) {
-	var nameParts = node.attr('name').value().split(':');
+	var nameParts = node.$['name'].split(':');
 	var type = nameParts[0];
 	var name = nameParts[1];
-	var summary = node.get('summary').text().replace('\n', '').trim();
+	var summary = getText(node.summary);
 
-
-	var params = (node.find('param')).map(function (paramNode) {
+	var params = (node['param'] || []).map(function (paramNode) {
 		return {
-			name: paramNode.attr('name').value(),
-			text: paramNode.text().replace('\n', '').trim()
+			name: paramNode.$['name'],
+			text: getText(paramNode, '_')
 		};
 	});
 
-	var returns = node.find('returns').map(function (returnNode) {
+	var returns = (node['returns'] || []).map(function (returnNode) {
 		return {
-			text: returnNode.text().replace('\n', '').trim()
+			text: getText(returnNode)
 		};
 	});
 
-	var exceptions = node.find('exception').map(function (exceptionNode) {
+	var exceptions = (node['exception'] || []).map(function (exceptionNode) {
 		return {
-			text: exceptionNode.text().replace('\n', '').trim()
+			text: getText(exceptionNode)
 		};
 	});
 
@@ -104,47 +115,54 @@ var parseMember = function (node) {
 		exceptions: exceptions
 	};
 
-
 	return member;
 };
 
 var parseXml = function (xml) {
 	xml = replaceReferences(xml); // eslint-disable-line no-param-reassign
-	return new Promise(function (resolve) {
-		var xmlDoc = libxmljs.parseXml(xml, {noblanks: true});
-		var assemblyNode = xmlDoc.get('//assembly');
-
-		var name = assemblyNode.get('//name').text();
-		var summary = assemblyNode.get('//summary').text().replace('\n', '').trim();
-
-		var namespace = {name: name, summary: summary};
-
-		var membersNode = xmlDoc.get('//members');
-
-		var currentClass;
-		namespace.classes = [];
-
-		namespace.members = membersNode.childNodes().forEach(function (memberNode) {
-			var member = parseMember(memberNode);
-			if (member.type.name === 'class') {
-				currentClass = member;
-				currentClass.members = [];
-				namespace.classes.push(currentClass);
-			} else {
-				currentClass.members.push(member);
+	return new Promise(function (resolve, reject) {
+		var parserOptions = {
+			trim: true
+		};
+		var parser = new xml2js.Parser(parserOptions);
+		parser.parseString(xml, function (err, result) {
+			if (err) {
+				reject(err);
+				return;
 			}
-		});
 
-		resolve(namespace);
+			var xmlDoc = result.doc;
+			var assembly = xmlDoc.assembly ? xmlDoc.assembly[0] : {};
+			var name = assembly.name ? assembly.name[0] : '';
+			var members = xmlDoc.members ? xmlDoc.members[0].member : [];
+
+			var namespace = {name: name};
+
+			var currentClass;
+			namespace.classes = [];
+
+			members.forEach(function (memberNode) {
+				var member = parseMember(memberNode);
+				if (member.type.name === 'class') {
+					currentClass = member;
+					currentClass.members = [];
+					namespace.classes.push(currentClass);
+				} else {
+					currentClass.members.push(member);
+				}
+			});
+
+			resolve(namespace);
+		});
 	});
 };
 
 module.exports = function (context) {
 	grunt = context;
 	try {
-		libxmljs = require('libxmljs');
+		xml2js = require('xml2js');
 	} catch (e) {
-		grunt.fail.fatal('libxmljs not found');
+		grunt.fail.fatal('xml2js not found');
 	}
 
 	return {

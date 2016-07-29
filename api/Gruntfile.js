@@ -6,7 +6,7 @@ module.exports = function (grunt) {
 			all: {
 				files: [{
 					src: ['xml/*.xml'],
-					dest: 'dist/'
+					dest: '../en-us/uwp-community-toolkit/api/'
 				}]
 			}
 		},

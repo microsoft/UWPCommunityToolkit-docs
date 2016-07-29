@@ -1,5 +1,5 @@
 #Read Me
-Use this tool to generate API .md files from xmldoc files.
+
 
 ## Installation
 

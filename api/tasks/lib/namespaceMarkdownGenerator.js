@@ -9,7 +9,6 @@ module.exports = function (context) {
 			var generator = new common.Generator();
 
 			generator.addLine('# ' + model.name + ' namespace');
-			generator.addLine(generator.treatText(model.summary));
 			generator.addLine('## Classes');
 			generator.addLine('The **' + model.name + '** namespace has these types');
 

@@ -1,7 +1,7 @@
 # [Get started with UWP Toolkit](get-started/get-started.md)
 ### [Installation Guide](get-started/installguide.md)
-### [What's next?](get-started/learn-more.md)
 ### [Quick Start](get-started/quickstart.md)
+### [What's next?](get-started/learn-more.md)
 
 # [Behaviors](behaviors/behaviors.md)
 

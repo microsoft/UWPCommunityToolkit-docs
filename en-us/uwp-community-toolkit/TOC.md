@@ -1,7 +1,16 @@
 # [Get started with UWP Toolkit](get-started/get-started.md)
-## [What's next?](get-started/learn-more.md)
-## [Installation Guide](get-started/installguide.md)
-## [Quick Start](get-started/quickstart.md)
+### [Installation Guide](get-started/installguide.md)
+### [What's next?](get-started/learn-more.md)
+### [Quick Start](get-started/quickstart.md)
+
+# [Behaviors](behaviors/behaviors.md)
+
+- [BlurBehavior](controls/BlurBehavior.md)
+- [OffsetBevaior](controls/OffsetBehavior.md)
+- [OpacityBehavior](controls/OpacityBehavior.md)
+- [ParallelBehavoir](controls/ParallelBehavior.md)
+- [RotationBehavior](controls/RotoationBehavior.md)
+- [ScaleBehavior](controls/ScaleBehavior.md)
 
 # [Controls](controls/controls.md)
 
@@ -17,14 +26,6 @@
 - [VariableSizeGridView](controls/VariableSizeGridView.md)
 
 
-# [Behaviors](behaviors/behaviors.md)
-
-- [BlurBehavior](controls/BlurBehavior.md)
-- [OffsetBevaior](controls/OffsetBehavior.md)
-- [OpacityBehavior](controls/OpacityBehavior.md)
-- [ParallelBehavoir](controls/ParallelBehavior.md)
-- [RotationBehavior](controls/RotoationBehavior.md)
-- [ScaleBehavior](controls/ScaleBehavior.md)
 
 
 

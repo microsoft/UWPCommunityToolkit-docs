@@ -3,14 +3,14 @@
 ### [Quick Start](get-started/quickstart.md)
 ### [What's next?](get-started/learn-more.md)
 
-# [Behaviors](behaviors/behaviors.md)
+# [Behaviors](uwp-community-toolkit/behaviors)
 
-- [BlurBehavior](controls/BlurBehavior.md)
-- [OffsetBevaior](controls/OffsetBehavior.md)
-- [OpacityBehavior](controls/OpacityBehavior.md)
-- [ParallelBehavoir](controls/ParallelBehavior.md)
-- [RotationBehavior](controls/RotoationBehavior.md)
-- [ScaleBehavior](controls/ScaleBehavior.md)
+- [BlurBehavior](behaviors/BlurBehavior.md)
+- [OffsetBevaior](behaviors/OffsetBehavior.md)
+- [OpacityBehavior](behaviors/OpacityBehavior.md)
+- [ParallelBehavoir](behaviors/ParallelBehavior.md)
+- [RotationBehavior](behaviors/RotoationBehavior.md)
+- [ScaleBehavior](behaviors/ScaleBehavior.md)
 
 # [Controls](controls/controls.md)
 

@@ -19,4 +19,4 @@ This document provides an overview of the **Universal Windows Platform (UWP) Too
 1. [Visual Studio (Community or greater) 2015 Update 3](https://developer.microsoft.com/en-us/windows/downloads)
 2. [Windows 10 Anniversary Edition with SDK](https://developer.microsoft.com/en-US/windows/downloads/) 
 3. [Universal Windows Standalone SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk) - If you are using Visual Studio 2015, this is optional, as it is already installed. 
-4. [GitHub](https://github.com/Microsoft/UWPCommunityToolkit-docs) 
+4. [GitHub](https://github.com/Microsoft/UWPCommunityToolkit-docs)  

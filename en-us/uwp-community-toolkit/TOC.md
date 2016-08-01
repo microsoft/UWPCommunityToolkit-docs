@@ -3,7 +3,7 @@
 ### [Quick Start](get-started/quickstart.md)
 ### [What's next?](get-started/learn-more.md)
 
-# [Behaviors](/uwp-community-toolkit/behaviors)
+# [Behaviors](/behaviors)
 
 - [BlurBehavior](behaviors/BlurBehavior.md)
 - [OffsetBevaior](behaviors/OffsetBehavior.md)

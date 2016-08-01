@@ -64,7 +64,7 @@ Behaviors can also be chained and awaited.
 
 ## Platforms
 
-Windows 10 SDK 10586 or higher
+[Windows 10 Anniversary SDK 14393](https://blogs.windows.com/windowsexperience/2016/07/18/build14393/) or higher.
 
 This behavior requires the [visual layer](https://msdn.microsoft.com/en-us/windows/uwp/graphics/visual-layer) in [Windows.UI.Composition](https://msdn.microsoft.com/library/windows/apps/dn706878) in order to work.  
 

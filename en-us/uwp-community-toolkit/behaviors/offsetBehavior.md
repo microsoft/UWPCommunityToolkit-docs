@@ -45,6 +45,7 @@ Behaviors can also be chained and awaited.
 
     anim.Stop();
 ```
+[Offset Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/OffsetBehavior)
  
 ## Example Image
 

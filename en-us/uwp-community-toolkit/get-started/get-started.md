@@ -11,9 +11,10 @@ search.product: eADQiWindows 10XVcnh
 This document provides an overview of the **Universal Windows Platform (UWP) Toolkit**. This documentation describes the software, tools, installation instructions, and controls that are required to develop functional and visually appealing Windows Applications. The UWP Toolkit Documentation provides code syntax and samples to create applications on PC and mobile platforms and for services such as Bing, Twitter, and Facebook. 
 
 ## Resources 
-- [The Installation Guide](UWPCommunityToolkit-docs/en-us/uwp-community-toolkit/get-started/installguide.md)
-- [Learn More: What's Next?](UWPCommunityToolkit-docs/en-us/uwp-community-toolkit/get-started/learn-more.md) 
-- [Quick Start: Build a Sample Project](UWPCommunityToolkit-docs/en-us/uwp-community-toolkit/get-started/quickstart.md) 
+- [The Installation Guide](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/get-started/installguide.md)
+- [Learn More: What's Next?](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/get-started/learn-more.mdd) 
+- [Nuget Packages](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/get-started/nugetpackages.md)
+- [Quick Start: Build a Sample Project](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/get-started/quickstart.md) 
 
 ## Requirements
 1. [Visual Studio (Community or greater) 2015 Update 3](https://developer.microsoft.com/en-us/windows/downloads)

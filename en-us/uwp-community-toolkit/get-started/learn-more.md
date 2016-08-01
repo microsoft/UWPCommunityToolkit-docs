@@ -7,6 +7,7 @@ layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 # Learn More
+This UWP Toolkit provides the content required to build dynamic Windows applications. However, in order to help optimize your application development, refer to the resources provided. 
 
 ## What's Next? 
 You can register as an app developer, download tools and templates, learn about design and UI, and even port existing applications.  

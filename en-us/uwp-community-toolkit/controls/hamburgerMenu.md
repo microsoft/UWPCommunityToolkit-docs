@@ -13,7 +13,7 @@ The **Hamburger Menu Control** provides an easy-to-use, side-bar menu which user
 ### How it works
 The 3-line menu icon, which resembles a Hamburger, allows developers to pack more features into their apps or navigation. The tiny icon takes up a minimal amount of screen real estate and creates a clean, minimalist look.
 
-Developers can create Menu-specific content, such as add video, graphics, images, text or even a Carousel. An example of the HamburgerMenu is the *Money tile* in Windows 10. When tapped, it displays various market stats and currencies, which lets users configure settings to tailor their monetary interests.
+Developers can place menu specific content, navigation, images, text or custom controls. An example of the HamburgerMenu is the *MSN Money App* included in Windows 10. When tapped, it displays additional feature pages, and user settings.
 
 ## Syntax
 ```xaml

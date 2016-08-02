@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/behaviors/ParallaxBehavior.html
+permalink: /en-US/behaviors/ParallaxBehavior.htm
 title: ParallaxBehavior XAML behavior for UWP Community Toolkit
 description: ParallaxBehavior is the scrolling of a background image behind a scrollview at a different speed than the list scrolls
 keywords: windows, app, toolkit, ParallaxBehavior, XAML behavior, background image, custom scrolling behavior

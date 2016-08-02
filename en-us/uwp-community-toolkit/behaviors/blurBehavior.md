@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/behaviors/blurbehavior.html
+permalink: /en-US/behaviors/blurbehavior.htm
 title: BlurBehavior XAML Behavior for UWP Community Toolkit
 description: The BlurBehavior behavior allows for blurring of XAML elements using composition
 keywords: windows, app, toolkit, BlurBehavior, XAML behavior, image blur, XAML blur, XAML composition 

@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/getstarted.html
+permalink: /en-US/getstarted.htm
 title: GetStarted
 description: The Get Started section provides an introduction and overview of the UwP Toolkit and its documentation
 keywords: windows, app, toolkit, get started, menu

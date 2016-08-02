@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/controls/variablesizedgridview.html
+permalink: /en-US/controls/variablesizedgridview.htm
 title: VariableSizedGridView XAML Control
 description: The VariableSizedGridView Control displays items that have different width and height values
 keywords: windows, app, toolkit, Variable Sized, gridview control, grid view, VariableSizedGridView, XAML, UWP, ratio

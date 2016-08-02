@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/controls/radialgauge.html
+permalink: /en-US/controls/radialgauge.htm
 title: RadialGauge XAML Control for UWP Community Toolkit
 description: The RadialGauge Control displays a value in a certain range using a needle on a circular face
 keywords: windows, app, toolkit, RadialGauge, gauge control, XAML, UWP, Radial, circular

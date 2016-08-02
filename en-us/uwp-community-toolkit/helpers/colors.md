@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/helpers/colors.html
+permalink: /en-US/helpers/colors.htm
 title: ColorsHelper utility from UWP Community Toolkit
 description: Colors helper does commonly needed conversions of color formats
 keywords: windows, app, toolkit, UWP, helpers, color, html color, hex color, hsv, hsl

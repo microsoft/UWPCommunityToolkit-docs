@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/quickstart.html
+permalink: /en-US/quickstart.htm
 title: Quick Start guide for UWP Community Toolkit
 description: Quick Start guide for UWP Community Toolkit shows how to create your first project in Visual Studio 2015
 keywords: windows, app, toolkit, quick start, quickstart, getting started

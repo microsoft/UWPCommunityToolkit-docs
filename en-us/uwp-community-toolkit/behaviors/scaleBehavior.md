@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/behaviors/ScaleBehavior.html
+permalink: /en-US/behaviors/ScaleBehavior.htm
 title: ScaleBehavior XAML Behavior for UWP Community Toolkit
 description: The Scale Behavior lets users create a scale by increasing or decreasing the control's animation 
 keywords: windows, app, toolkit, ScaleBehavior, scale behavior, scale, XAML, UWP, animation

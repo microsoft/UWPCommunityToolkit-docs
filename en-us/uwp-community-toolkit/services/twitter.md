@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/services/twitter.html
+permalink: /en-US/services/twitter.htm
 title: Twitter Service from UWP Community Toolkit
 description: Easy add support for Twitter within your UWP Applications
 keywords: windows, app, toolkit, Twitter, Service, UWP

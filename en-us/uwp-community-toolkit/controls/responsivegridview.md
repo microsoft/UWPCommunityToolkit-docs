@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/controls/responsivegridview.html
+permalink: /en-US/controls/responsivegridview.htm
 title: ResponsiveGridView XAML Control for UWP Community Toolkit
 description: The ResponsiveGridView Control presents content in a Grid View to fill available display space 
 keywords: windows, app, toolkit, ResponsiveGridView, grid layout, UWP, XAML, Responsive Grid View, Control, grid control, form factors 

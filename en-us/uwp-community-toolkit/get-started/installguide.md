@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/installationguide.html
+permalink: /en-US/installationguide.htm
 title: Installation Guide
 description: The Installation Guide provides the tools and links required to install the UWP Toolkit and develop Windows applications
 keywords: windows, app, toolkit, installation guide, menu

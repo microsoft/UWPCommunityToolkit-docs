@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/helpers/connectionHelper.html
+permalink: /en-US/helpers/connectionHelper.htm
 title: ConnectionHelper utility from UWP Community Toolkit
 description: Connection Helper for determining if app is on a metered Internet connection
 keywords: windows, app, toolkit, UWP, helpers, connection, internet, metered

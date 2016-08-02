@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/behaviors/RotationBehavior.html
+permalink: /en-US/behaviors/RotationBehavior.htm
 title: RotationBehavior XAML Behavior for UWP Community Toolkit
 description: The Rotation Behavior allows users to modify and animate the control's rotation 
 keywords: windows, app, toolkit, RotationBehavior,  Rotation, XAML, UWP, animate rotation, behavior

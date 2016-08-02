@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/notifications/notificationsoverview.html
+permalink: /en-US/notifications/notificationsoverview.htm
 title: Overview of Notifications within the UWP Community Toolkit
 description: Links and samples to notifications within Universal Windows Platform
 keywords: windows, app, toolkit, notifications, toast, UWP, tiles

@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/behaviors/OffsetBehavior.html
+permalink: /en-US/behaviors/OffsetBehavior.htm
 title: OffsetBehavior XAML Behavior for UWP Community Toolkit
 description: The OffsetBehavior  gets the number of pixels, from the origin of the associated control, that offsets the snapline 
 keywords: windows, app, toolkit, OffsetBehavior, behavior, offset, XAML, UWP, snapline

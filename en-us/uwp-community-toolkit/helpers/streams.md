@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/helpers/streams.html
+permalink: /en-US/helpers/streams.htm
 title: StreamsHelper utility from UWP Community Toolkit
 description: Utility class to help with common stream operations needed by UWP applications
 keywords: windows, app, toolkit, UWP, helpers, stream, content file, sandbox file, download uri

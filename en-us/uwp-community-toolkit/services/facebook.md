@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/services/facebookservices.html
+permalink: /en-US/services/facebookservices.htm
 title: Facebook Service from UWP Community Toolkit
 description: Easy add support for Facebook within your UWP Applications
 keywords: windows, app, toolkit, facebook, service, UWP

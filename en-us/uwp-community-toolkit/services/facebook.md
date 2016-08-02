@@ -51,7 +51,6 @@ When entering the value into the Facebook Developer site you must strip the ms-a
 |Force Web OAuth Redirection|No|
 |Login from Devices|No|
 |Valid OAuth redirect URIs|Blank|
-| --- | --- |
 
 ## Syntax
 

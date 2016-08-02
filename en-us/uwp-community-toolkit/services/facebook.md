@@ -90,6 +90,10 @@ Windows 10 SDK 10586 or higher
 
 [Facebook Service API Reference](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/api/Microsoft_Toolkit_Uwp_Services_Facebook_FacebookService.md)
 
-**NOTE:** To use this service ensure you have a reference to the *Microsoft.Toolkit.Uwp.Services* assembly.
-
 Please refer to the [Facebook Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.Services/Services/Facebook) for details about the implementation.
+
+## NuGet Packages Required
+
+Microsoft.Toolkit.Uwp.Services
+
+See the [NuGet Packages page](../get-started/nugetpackages.md) for complete list.

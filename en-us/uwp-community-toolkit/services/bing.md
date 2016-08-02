@@ -38,3 +38,9 @@ Windows 10 SDK 10586 or higher
 ## API
 
 Please refer to the [Bing Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.Services/Services/Bing) for details about the implementation.
+
+## NuGet Packages Required
+
+Microsoft.Toolkit.Uwp.Services
+
+See the [NuGet Packages page](../get-started/nugetpackages.md) for complete list.

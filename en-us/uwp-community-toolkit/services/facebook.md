@@ -43,7 +43,8 @@ When entering the value into the Facebook Developer site you must strip the ms-a
 6. Enter the **Windows Store SID** from within your app (see *Getting Windows Store SID* section)
 7. From left side menu choose **+Add Product** Click to add *Facebook Login*.  Ensure you set the following options in the UI: 
 
-| --- | --- |
+|Setting|Value|
+|----------|:-------------:|------:|
 |Client OAuth Login|Yes|
 |Web OAuth Login|No|
 |Embedded Browser OAuth Login|Yes|

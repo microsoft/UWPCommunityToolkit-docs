@@ -18,7 +18,7 @@
 - [HamburgerMenu](controls/hamburgerMenu.md)
 - [HeaderedTextBlock](controls/headeredTextBlock.md)
 - [ImageEX](controls/ImageEx.md)
-- [PullToRefreshListView](controls/PullToRefreshListView.md)
+- [PullToRefreshListView](controlsPullToRefreshListView.md)
 - [RadialGauge](controls/RadialGauge.md)
 - [RangeSelecter](controls/RangeSelector.md)
 - [ResponsiveGridView](controls/ResponsiveGridView.md)
@@ -29,9 +29,9 @@
 
 
 
-# [Helpers](helpers/helpers.md)
+# [Helpers](https://github.com/Microsoft/UWPCommunityToolkit-docs/tree/master/en-us/uwp-community-toolkit/helpers)
 
-- [Colors](helpers.colors.md)
+- [Colors](/helpers/colors.md)
 - [Helpers](helpers/connectionHelper.md)
 - [StorageFiles](helpers/storagefiles.md)
 - [Streams](helpers/streams.md)

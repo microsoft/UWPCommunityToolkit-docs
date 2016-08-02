@@ -39,8 +39,9 @@ When entering the value into the Facebook Developer site you must strip the ms-a
 2. Select **Create a New App ID**, to start integration Facebook into your app or website. 
 3. Click, **Create a New App**
 4. From the app Dashboard choose the **Settings** item on the left.  It should select the *Basic* item under it by default.
-5. **+Add Platform** choose Windows App
+5. **+Add Platform** choose Windows App.  Leave the *Namespace* and *App Domains* entries blank.
 6. Enter the **Windows Store SID** from within your app (see *Getting Windows Store SID* section)
+7. From left side menu choose **+Add Product** Click to add Facebook Login.  Ensure you set the following options to Yes in the UI: Client OAuth Login, Web OAuth Login, Embedded Browser OAuth Login.  Set these options to no: Force Web OAuth Redirection, Login from Devices.  Valid OAuth redirect URIs should be blank.
 
 ## Syntax
 

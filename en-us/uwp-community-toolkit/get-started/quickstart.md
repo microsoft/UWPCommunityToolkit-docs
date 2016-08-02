@@ -22,10 +22,9 @@ This page will provides guidance for developers to build a sample project. In th
 
 ## Add a reference to Nuget packages
 
-Adding a reference to one of the Nuget packages (Microsoft.Toolkit.Uwp.Services is the example in the screenshot below) will show a preview of the changes that will be applied to your project.  In the screen shot below a reference to two dependent packages will also be added when you reference this package.
+Adding a reference to each of the desired [Nuget packages](nugetpackages.md) (Microsoft.Toolkit.Uwp.Services is the example in the screenshot below) will show a preview of the changes that will be applied to your project. 
 
 ![Manage Nuget Packages](/resources/images/AddNugetServices.png)
-
 
 
 Building a sample project (new page)

@@ -15,5 +15,8 @@ search.product: eADQiWindows 10XVcnh
 4. Register as an app developer and set up on the [sign-up page](https://msdn.microsoft.com/windows/uwp/get-started/sign-up). 
 5. Create a GitHub account, if you don't have one, then request access to the [UWP Toolkit](https://github.com/Microsoft/UWPCommunityToolkit-docs).  
 
+#Reference the Nuget packages within your Universal Windows Project
+Read the [Nuget Package list](nugetpackages.md) and include the packages you need for the controls you want to use.
+
 //will insert image after legal review
 

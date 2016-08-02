@@ -3,14 +3,14 @@
 ### [Quick Start](get-started/quickstart.md)
 ### [What's next?](get-started/learn-more.md)
 
-# [Behaviors](/behaviors)
+# [Behaviors](https://github.com/Microsoft/UWPCommunityToolkit-docs/tree/master/en-us/uwp-community-toolkit/behaviors)
 
-- [BlurBehavior](behaviors/BlurBehavior.md)
-- [OffsetBevaior](behaviors/OffsetBehavior.md)
-- [OpacityBehavior](behaviors/OpacityBehavior.md)
-- [ParallelBehavoir](behaviors/ParallelBehavior.md)
-- [RotationBehavior](behaviors/RotoationBehavior.md)
-- [ScaleBehavior](behaviors/ScaleBehavior.md)
+- [BlurBehavior](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/behaviors/blurBehavior.md)
+- [OffsetBevaior](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/behaviors/offsetBehavior.md)
+- [OpacityBehavior](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/behaviors/opacityBehavior.md)
+- [ParallelBehavoir](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/behaviors/parallaxBehavior.md)
+- [RotationBehavior](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/behaviors/rotationBehavior.md)
+- [ScaleBehavior](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/behaviors/scaleBehavior.md)
 
 # [Controls](controls/controls.md)
 

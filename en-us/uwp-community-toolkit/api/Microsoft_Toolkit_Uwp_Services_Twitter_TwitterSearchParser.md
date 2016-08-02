@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.Services.Twitter.TwitterSearchParser class
+# TwitterSearchParser class
 
 Twitter Search Parser.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Twitter.TwitterSearchParser** namespace has these types of members
+The **TwitterSearchParser** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterSearchParser.Parse(System.String)
+#### Parse(System.String data)
 
 Parse string into strong typed list.
 
@@ -19,11 +19,7 @@ Parse string into strong typed list.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| data | Input string. |
-
-| return |S |
+| name | description | type |
+| --- | --- | --- |
+| data | Input string. | System.String |
+| return |Strong typed list. |

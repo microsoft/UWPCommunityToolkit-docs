@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Blur class
+# Blur class
 
 Performs an blur animation using composition.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Blur** namespace has these types of members
+The **Blur** class has this types of members
 
 * [methods](#methods)
 
@@ -15,26 +15,26 @@ The **Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Blur** namespace has these t
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Blur.OnAttached
+#### OnAttached()
 
-Called after the behavior is attached to the [AssociatedObject](P_Microsoft_Xaml_Interactivity_Behavior_AssociatedObject).
+Called after the behavior is attached to the AssociatedObject.
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Blur.StartAnimation
+#### StartAnimation()
 
 Starts the animation.
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Blur.BlurAmount
+#### BlurAmount
 
 Gets or sets the Blur.
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Blur._frameworkElement
+#### _frameworkElement
 
 The _framework element
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Blur.BlurAmountProperty
+#### BlurAmountProperty
 
 The Blur value of the associated object

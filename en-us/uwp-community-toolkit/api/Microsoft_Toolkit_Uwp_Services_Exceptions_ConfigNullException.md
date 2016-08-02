@@ -1,48 +1,41 @@
 
-# Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigNullException class
+# ConfigNullException class
 
 Exception for null Config.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigNullException** namespace has these types of members
+The **ConfigNullException** class has this types of members
 
 * [constructors](#constructors)
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigNullException.#ctor
+#### contructor
 
-Initializes a new instance of the [ConfigNullException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigNullException) class.            Default constructor.
+Initializes a new instance of the [ConfigNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigNullException.md) class.            Default constructor.
 
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigNullException.#ctor(System.String)
+#### contructor
 
-Initializes a new instance of the [ConfigNullException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigNullException) class.            Constructor accepting additional message string.
-
-##### parameters
-
-
-
-
-| name | description |
-
-| --- | --- |
-
-| message | Additional error information. |
-
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigNullException.#ctor(System.String,System.Exception)
-
-Initializes a new instance of the [ConfigNullException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigNullException) class.            Constructor accepting additonal message string and inner exception
+Initializes a new instance of the [ConfigNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigNullException.md) class.            Constructor accepting additional message string.
 
 ##### parameters
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| message | Additional error information. | System.String |
 
-| name | description |
+#### contructor
 
-| --- | --- |
+Initializes a new instance of the [ConfigNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigNullException.md) class.            Constructor accepting additonal message string and inner exception
 
-| message | Additional error information. |
+##### parameters
 
-| innerException | Reference to inner exception. |
+
+
+| name | description | type |
+| --- | --- | --- |
+| message | Additional error information. | System.String |
+| innerException | Reference to inner exception. | System.Exception |

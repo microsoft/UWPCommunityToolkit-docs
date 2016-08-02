@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.Services.Rss.RssHelper class
+# RssHelper class
 
 Class with utilities for Rss related works.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Rss.RssHelper** namespace has these types of members
+The **RssHelper** class has this types of members
 
 * [methods](#methods)
 
@@ -13,7 +13,7 @@ The **Microsoft.Toolkit.Uwp.Services.Rss.RssHelper** namespace has these types o
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.GetLink(System.Xml.Linq.XElement,System.String)
+#### GetLink(System.Xml.Linq.XElement item,System.String rel)
 
 Get feed url to see full original information.
 
@@ -21,18 +21,13 @@ Get feed url to see full original information.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| item | XElement item. | System.Xml.Linq.XElement |
+| rel | rel attribute value. | System.String |
+| return |String link. |
 
-| name | description |
-
-| --- | --- |
-
-| item | XElement item. |
-
-| rel | rel attribute value. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.GetSafeElementDate(System.Xml.Linq.XElement,System.String,System.Xml.Linq.XNamespace)
+#### GetSafeElementDate(System.Xml.Linq.XElement item,System.String elementName,System.Xml.Linq.XNamespace xNamespace)
 
 Get item date from xelement, element name and namespace.
 
@@ -40,20 +35,14 @@ Get item date from xelement, element name and namespace.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| item | XElement item. | System.Xml.Linq.XElement |
+| elementName | Name of element. | System.String |
+| xNamespace | XNamespace namespace. | System.Xml.Linq.XNamespace |
+| return |Item date. |
 
-| name | description |
-
-| --- | --- |
-
-| item | XElement item. |
-
-| elementName | Name of element. |
-
-| xNamespace | XNamespace namespace. |
-
-| return |I |
-
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.GetSafeElementDate(System.Xml.Linq.XElement,System.String)
+#### GetSafeElementDate(System.Xml.Linq.XElement item,System.String elementName)
 
 Get item date from xelement and element name.
 
@@ -61,18 +50,13 @@ Get item date from xelement and element name.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| item | XElement item. | System.Xml.Linq.XElement |
+| elementName | Name of element. | System.String |
+| return |Item date. |
 
-| name | description |
-
-| --- | --- |
-
-| item | XElement item. |
-
-| elementName | Name of element. |
-
-| return |I |
-
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.GetSafeElementString(System.Xml.Linq.XElement,System.String)
+#### GetSafeElementString(System.Xml.Linq.XElement item,System.String elementName)
 
 Get item string value for xelement and element name.
 
@@ -80,18 +64,13 @@ Get item string value for xelement and element name.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| item | XElement item. | System.Xml.Linq.XElement |
+| elementName | Name of eleement. | System.String |
+| return |Safe string. |
 
-| name | description |
-
-| --- | --- |
-
-| item | XElement item. |
-
-| elementName | Name of eleement. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.GetSafeElementString(System.Xml.Linq.XElement,System.String,System.Xml.Linq.XNamespace)
+#### GetSafeElementString(System.Xml.Linq.XElement item,System.String elementName,System.Xml.Linq.XNamespace xNamespace)
 
 Get item string value for xelement, element name and namespace.
 
@@ -99,20 +78,14 @@ Get item string value for xelement, element name and namespace.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| item | XElement item. | System.Xml.Linq.XElement |
+| elementName | Name of element. | System.String |
+| xNamespace | XNamespace namespace. | System.Xml.Linq.XNamespace |
+| return |Safe string. |
 
-| name | description |
-
-| --- | --- |
-
-| item | XElement item. |
-
-| elementName | Name of element. |
-
-| xNamespace | XNamespace namespace. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.SanitizeString(System.String)
+#### SanitizeString(System.String text)
 
 Removes \t characters in the string and trim additional space and carriage returns.
 
@@ -120,16 +93,12 @@ Removes \t characters in the string and trim additional space and carriage retur
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| text | Text string. | System.String |
+| return |Sanitized string. |
 
-| name | description |
-
-| --- | --- |
-
-| text | Text string. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.GetImage(System.Xml.Linq.XElement)
+#### GetImage(System.Xml.Linq.XElement item)
 
 Get feed image.
 
@@ -137,16 +106,12 @@ Get feed image.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| item | XElement item. | System.Xml.Linq.XElement |
+| return |Feed data image. |
 
-| name | description |
-
-| --- | --- |
-
-| item | XElement item. |
-
-| return |F |
-
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.GetImageFromEnclosure(System.Xml.Linq.XElement)
+#### GetImageFromEnclosure(System.Xml.Linq.XElement item)
 
 Get the item image from the enclosure element http://www.w3schools.com/rss/rss_tag_enclosure.asp
 
@@ -154,16 +119,12 @@ Get the item image from the enclosure element http://www.w3schools.com/rss/rss_t
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| item | XElement item. | System.Xml.Linq.XElement |
+| return |Feed data image. |
 
-| name | description |
-
-| --- | --- |
-
-| item | XElement item. |
-
-| return |F |
-
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.TryParseDateTime(System.String,System.DateTime@)
+#### TryParseDateTime(System.String s,System.DateTime@ result)
 
 Tries to parse the original string to a datetime format.
 
@@ -171,18 +132,13 @@ Tries to parse the original string to a datetime format.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| s | Input string. | System.String |
+| result | Parsed datetime. | System.DateTime@ |
+| return |True if success |
 
-| name | description |
-
-| --- | --- |
-
-| s | Input string. |
-
-| result | Parsed datetime. |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.TimeZoneToOffset(System.String)
+#### TimeZoneToOffset(System.String tz)
 
 Calculate and return timezone.
 
@@ -190,16 +146,12 @@ Calculate and return timezone.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| tz | Input string. | System.String |
+| return |Parsed timezone. |
 
-| name | description |
-
-| --- | --- |
-
-| tz | Input string. |
-
-| return |P |
-
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.GetImagesInHTMLString(System.String)
+#### GetImagesInHTMLString(System.String htmlString)
 
 Retrieve images from HTML string.
 
@@ -207,49 +159,45 @@ Retrieve images from HTML string.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| htmlString | String of HTML. |
-
-| return |L |
+| name | description | type |
+| --- | --- | --- |
+| htmlString | String of HTML. | System.String |
+| return |List of images. |
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.WidthPattern
+#### WidthPattern
 
 String for regular expression for width pattern.
 
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.RegexImages
+#### RegexImages
 
 Regular expression for image pattern.
 
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.RegexLinks
+#### RegexLinks
 
 Regular expression for hyperlink pattern.
 
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.RegexHeight
+#### RegexHeight
 
 Regular expression for height pattern.
 
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.RegexWidth
+#### RegexWidth
 
 Regular expression for width pattern.
 
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.ImagePattern
+#### ImagePattern
 
 String for regular expression for image pattern.
 
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.HeightPattern
+#### HeightPattern
 
 String for regular expression for height pattern.
 
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.HiperlinkPattern
+#### HiperlinkPattern
 
 String for regular xpression for hyperlink pattern.
 
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssHelper.timeZones
+#### timeZones
 
 Dictionary of timezones.

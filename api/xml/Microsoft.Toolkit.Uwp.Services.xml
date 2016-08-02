@@ -1233,9 +1233,20 @@
             </summary>
             <returns>A <see cref="T:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPicture"/> object</returns>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PostToFeedAsync(System.String,System.String,System.String,System.String)">
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PostToFeedAsync(System.String,System.String,System.String,System.String,System.String)">
             <summary>
-            Enables posting data to the timeline of the underlying service provider instance.
+            Enables direct posting data to the timeline.
+            </summary>
+            <param name="title">Title of the post.</param>
+            <param name="message">Message of the post.</param>
+            <param name="description">Description of the post.</param>
+            <param name="link">Link contained as part of the post. Cannot be null</param>
+            <param name="pictureUrl">URL of a picture attached to this post. Can be null</param>
+            <returns>Task to support await of async call.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PostToFeedWithDialogAsync(System.String,System.String,System.String,System.String)">
+            <summary>
+            Enables posting data to the timeline using Facebook dialog.
             </summary>
             <param name="title">Title of the post.</param>
             <param name="description">Description of the post.</param>
@@ -1243,7 +1254,18 @@
             <param name="pictureUrl">URL of a picture attached to this post. Can be null</param>
             <returns>Task to support await of async call.</returns>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PostToFeedAsync(System.String,System.String,System.String,Windows.Storage.Streams.IRandomAccessStreamWithContentType)">
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PostToFeedAsync(System.String,System.String,System.String,System.String,Windows.Storage.Streams.IRandomAccessStreamWithContentType)">
+            <summary>
+            Enables posting a picture to the timeline.
+            </summary>
+            <param name="title">Title of the post.</param>
+            <param name="message">Message of the post.</param>
+            <param name="description">Description of the post.</param>
+            <param name="pictureName">Picture name.</param>
+            <param name="pictureStream">Picture stream to upload.</param>
+            <returns>Success or failure.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PostToFeedWithDialogAsync(System.String,System.String,System.String,Windows.Storage.Streams.IRandomAccessStreamWithContentType)">
             <summary>
             Enables posting a picture to the timeline using the Facebook dialog.
             </summary>

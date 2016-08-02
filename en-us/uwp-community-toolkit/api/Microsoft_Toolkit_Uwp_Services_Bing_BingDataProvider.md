@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.Services.Bing.BingDataProvider class
+# BingDataProvider class
 
 Data Provider for connecting to Bing service.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Bing.BingDataProvider** namespace has these types of members
+The **BingDataProvider** class has this types of members
 
 * [methods](#methods)
 
@@ -13,7 +13,7 @@ The **Microsoft.Toolkit.Uwp.Services.Bing.BingDataProvider** namespace has these
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingDataProvider.GetDataAsync``1(Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig,System.Int32,Microsoft.Toolkit.Uwp.Services.IParser{``0})
+#### GetDataAsync``1(Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig config,System.Int32 maxRecords,Microsoft.Toolkit.Uwp.Services.IParser(TT0) parser)
 
 Wrapper around REST API for making data request.
 
@@ -21,20 +21,14 @@ Wrapper around REST API for making data request.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| config | Query configuration. | Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig |
+| maxRecords | Upper limit for records returned. | System.Int32 |
+| parser | IParser implementation for interpreting results. | Microsoft.Toolkit.Uwp.Services.IParser(TT0) |
+| return |Strongly typed list of results. |
 
-| name | description |
-
-| --- | --- |
-
-| config | Query configuration. |
-
-| maxRecords | Upper limit for records returned. |
-
-| parser | IParser implementation for interpreting results. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingDataProvider.GetDefaultParser(Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig)
+#### GetDefaultParser(Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig config)
 
 Returns parser implementation for specified configuration.
 
@@ -42,16 +36,12 @@ Returns parser implementation for specified configuration.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| config | Query configuration. | Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig |
+| return |Strongly typed parser. |
 
-| name | description |
-
-| --- | --- |
-
-| config | Query configuration. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingDataProvider.ValidateConfig(Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig)
+#### ValidateConfig(Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig config)
 
 Check validity of configuration.
 
@@ -59,15 +49,12 @@ Check validity of configuration.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| config | Query configuration. |
+| name | description | type |
+| --- | --- | --- |
+| config | Query configuration. | Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig |
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingDataProvider.BaseUrl
+#### BaseUrl
 
 Base Url for service.

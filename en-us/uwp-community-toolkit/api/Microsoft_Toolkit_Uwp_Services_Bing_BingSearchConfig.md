@@ -1,20 +1,20 @@
 
-# Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig class
+# BingSearchConfig class
 
 Search query configuration.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig** namespace has these types of members
+The **BingSearchConfig** class has this types of members
 
 * [properties](#properties)
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig.Country
+#### Country
 
 Gets or sets search query country.
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig.Query
+#### Query
 
 Gets or sets search query.

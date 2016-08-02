@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition class
+# Composition class
 
 These extension methods use composition to perform animation on visuals.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition** namespace has these types of members
+The **Composition** class has this types of members
 
 * [methods](#methods)
 
@@ -13,92 +13,7 @@ The **Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition** namespace has
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Scale(Windows.UI.Xaml.UIElement,System.Double,System.Double,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
-
-Scales the specified UI Element.
-
-##### parameters
-
-
-
-
-| name | description |
-
-| --- | --- |
-
-| associatedObject | The associated object. |
-
-| duration | The duration. |
-
-| delay | The delay in milliseconds. |
-
-| centerX | The center x in pixels. |
-
-| centerY | The center y in pixels. |
-
-| centerZ | The center z in pixels. |
-
-| scaleX | The scale x. |
-
-| scaleY | The scale y. |
-
-| scaleZ | The scale z. |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Rotate(Windows.UI.Xaml.UIElement,System.Double,System.Double,System.Single,System.Single,System.Single,System.Single)
-
-Rotates the specified UI Element.
-
-##### parameters
-
-
-
-
-| name | description |
-
-| --- | --- |
-
-| associatedObject | The UI Element to rotate. |
-
-| duration | The duration. |
-
-| delay | The delay in milliseconds. |
-
-| value | The value in degrees to rotate. |
-
-| centerX | The center x in pixels. |
-
-| centerY | The center y in pixels. |
-
-| centerZ | The center z in pixels. |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Opacity(Windows.UI.Xaml.UIElement,System.Double,System.Double,System.Single)
-
-Changes the Opacity of the specified UI Element.
-
-##### parameters
-
-
-
-
-| name | description |
-
-| --- | --- |
-
-| associatedObject | The UI Element to change the opacity of. |
-
-| duration | The duration. |
-
-| delay | The delay. |
-
-| value | The value. |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Offset(Windows.UI.Xaml.UIElement,System.Double,System.Double,System.Single,System.Single,System.Single)
+#### Offset(Windows.UI.Xaml.UIElement associatedObject,System.Double duration,System.Double delay,System.Single offsetX,System.Single offsetY,System.Single offsetZ)
 
 Changes the Offset of the specified UI Element.
 
@@ -106,26 +21,147 @@ Changes the Offset of the specified UI Element.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| associatedObject | The specified UI Element. | Windows.UI.Xaml.UIElement |
+| duration | The duration. | System.Double |
+| delay | The delay. | System.Double |
+| offsetX | The offset x. | System.Single |
+| offsetY | The offset y. | System.Single |
+| offsetZ | The offset z. | System.Single |
+| return |The visual of the UIElement. |
 
-| name | description |
+#### Scale(Windows.UI.Xaml.UIElement associatedObject,System.Double duration,System.Double delay,System.Single centerX,System.Single centerY,System.Single centerZ,System.Single scaleX,System.Single scaleY,System.Single scaleZ)
 
-| --- | --- |
+Scales the specified UI Element.
 
-| associatedObject | The specified UI Element. |
+##### parameters
 
-| duration | The duration. |
 
-| delay | The delay. |
 
-| offsetX | The offset x. |
+| name | description | type |
+| --- | --- | --- |
+| associatedObject | The associated object. | Windows.UI.Xaml.UIElement |
+| duration | The duration. | System.Double |
+| delay | The delay in milliseconds. | System.Double |
+| centerX | The center x in pixels. | System.Single |
+| centerY | The center y in pixels. | System.Single |
+| centerZ | The center z in pixels. | System.Single |
+| scaleX | The scale x. | System.Single |
+| scaleY | The scale y. | System.Single |
+| scaleZ | The scale z. | System.Single |
+| return |The visual of the UIElement. |
 
-| offsetY | The offset y. |
+#### Rotate(Windows.UI.Xaml.UIElement associatedObject,System.Double duration,System.Double delay,System.Single value,System.Single centerX,System.Single centerY,System.Single centerZ)
 
-| offsetZ | The offset z. |
+Rotates the specified UI Element.
 
-| return |T |
+##### parameters
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Blur(Windows.UI.Xaml.FrameworkElement,System.Double,System.Double,System.Double)
+
+
+| name | description | type |
+| --- | --- | --- |
+| associatedObject | The UI Element to rotate. | Windows.UI.Xaml.UIElement |
+| duration | The duration. | System.Double |
+| delay | The delay in milliseconds. | System.Double |
+| value | The value in degrees to rotate. | System.Single |
+| centerX | The center x in pixels. | System.Single |
+| centerY | The center y in pixels. | System.Single |
+| centerZ | The center z in pixels. | System.Single |
+| return |The visual of the UIElement. |
+
+#### Rotate(Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet animationSet,System.Double duration,System.Double delay,System.Single value,System.Single centerX,System.Single centerY,System.Single centerZ)
+
+Rotates the specified UI Element.
+
+##### parameters
+
+
+
+| name | description | type |
+| --- | --- | --- |
+| animationSet | The animationSet object. | Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet |
+| duration | The duration. | System.Double |
+| delay | The delay in milliseconds. | System.Double |
+| value | The value in degrees to rotate. | System.Single |
+| centerX | The center x in pixels. | System.Single |
+| centerY | The center y in pixels. | System.Single |
+| centerZ | The center z in pixels. | System.Single |
+| return |The visual of the UIElement. |
+
+#### Opacity(Windows.UI.Xaml.UIElement associatedObject,System.Double duration,System.Double delay,System.Single value)
+
+Changes the Opacity of the specified UI Element.
+
+##### parameters
+
+
+
+| name | description | type |
+| --- | --- | --- |
+| associatedObject | The UI Element to change the opacity of. | Windows.UI.Xaml.UIElement |
+| duration | The duration. | System.Double |
+| delay | The delay. | System.Double |
+| value | The value. | System.Single |
+| return |The visual of the UIElement. |
+
+#### Opacity(Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet animationSet,System.Double duration,System.Double delay,System.Single value)
+
+Changes the Opacity of the specified UI Element.
+
+##### parameters
+
+
+
+| name | description | type |
+| --- | --- | --- |
+| animationSet | The animationSet object. | Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet |
+| duration | The duration. | System.Double |
+| delay | The delay. | System.Double |
+| value | The value. | System.Single |
+| return |The visual of the UIElement. |
+
+#### Scale(Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet animationSet,System.Double duration,System.Double delay,System.Single centerX,System.Single centerY,System.Single centerZ,System.Single scaleX,System.Single scaleY,System.Single scaleZ)
+
+Scales the specified UI Element.
+
+##### parameters
+
+
+
+| name | description | type |
+| --- | --- | --- |
+| animationSet | The animationSet object. | Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet |
+| duration | The duration. | System.Double |
+| delay | The delay in milliseconds. | System.Double |
+| centerX | The center x in pixels. | System.Single |
+| centerY | The center y in pixels. | System.Single |
+| centerZ | The center z in pixels. | System.Single |
+| scaleX | The scale x. | System.Single |
+| scaleY | The scale y. | System.Single |
+| scaleZ | The scale z. | System.Single |
+| return |The visual of the UIElement. |
+
+#### Offset(Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet animationSet,System.Double duration,System.Double delay,System.Single offsetX,System.Single offsetY,System.Single offsetZ)
+
+Changes the Offset of the specified UI Element.
+
+##### parameters
+
+
+
+| name | description | type |
+| --- | --- | --- |
+| animationSet | The animationSet object. | Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet |
+| duration | The duration. | System.Double |
+| delay | The delay. | System.Double |
+| offsetX | The offset x. | System.Single |
+| offsetY | The offset y. | System.Single |
+| offsetZ | The offset z. | System.Single |
+| return |The visual of the UIElement. |
+
+#### Blur(Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet animationSet,System.Double duration,System.Double delay,System.Double blurAmount)
 
 Blurs the specified framework element.
 
@@ -133,22 +169,31 @@ Blurs the specified framework element.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| animationSet | The animationSet object. | Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet |
+| duration | The duration. | System.Double |
+| delay | The delay. | System.Double |
+| blurAmount | The blur amount. | System.Double |
+| return |The Composition Effect Brush of the blur so you can control animations manually. |
 
-| name | description |
+#### Blur(Windows.UI.Xaml.FrameworkElement associatedObject,System.Double duration,System.Double delay,System.Double blurAmount)
 
-| --- | --- |
+Blurs the specified framework element.
 
-| associatedObject | The associated object. |
+##### parameters
 
-| duration | The duration. |
 
-| delay | The delay. |
 
-| blurAmount | The blur amount. |
+| name | description | type |
+| --- | --- | --- |
+| associatedObject | The associated object. | Windows.UI.Xaml.FrameworkElement |
+| duration | The duration. | System.Double |
+| delay | The delay. | System.Double |
+| blurAmount | The blur amount. | System.Double |
+| return |The Composition Effect Brush of the blur so you can control animations manually. |
 
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Parallax(Windows.UI.Xaml.UIElement,Windows.UI.Xaml.FrameworkElement,System.Boolean,System.Single)
+#### Parallax(Windows.UI.Xaml.UIElement element,Windows.UI.Xaml.FrameworkElement scrollerElement,System.Boolean isHorizontalEffect,System.Single multiplier)
 
 Creates a Parallax effect on the specified element based on the supplied scroller element.
 
@@ -156,21 +201,15 @@ Creates a Parallax effect on the specified element based on the supplied scrolle
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| element | The element. |
-
-| scrollerElement | The scroller element. |
-
-| isHorizontalEffect | if set to  [is horizontal effect]. |
-
-| multiplier | The multiplier (how fast it scrolls). |
+| name | description | type |
+| --- | --- | --- |
+| element | The element. | Windows.UI.Xaml.UIElement |
+| scrollerElement | The scroller element. | Windows.UI.Xaml.FrameworkElement |
+| isHorizontalEffect | if set to  [is horizontal effect]. | System.Boolean |
+| multiplier | The multiplier (how fast it scrolls). | System.Single |
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.IsBlurSupported
+#### IsBlurSupported
 
 Gets a value indicating whether the platform supports blur.

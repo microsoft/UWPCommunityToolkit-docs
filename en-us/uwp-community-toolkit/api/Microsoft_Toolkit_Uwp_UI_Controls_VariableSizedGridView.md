@@ -1,5 +1,5 @@
 
-# Microsoft.Toolkit.Uwp.UI.Controls.VariableSizedGridView class
+# VariableSizedGridView class
 
 The VariableSizedGrid control allows to display items from a list using different values            for Width and Height item properties. You can control the number of rows and columns to be
             displayed as well as the items orientation in the panel. Finally, the AspectRatio property
@@ -7,7 +7,7 @@ The VariableSizedGrid control allows to display items from a list using differen
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Controls.VariableSizedGridView** namespace has these types of members
+The **VariableSizedGridView** class has this types of members
 
 * [constructors](#constructors)
 
@@ -19,19 +19,19 @@ The **Microsoft.Toolkit.Uwp.UI.Controls.VariableSizedGridView** namespace has th
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.VariableSizedGridView.#ctor
+#### contructor
 
-Initializes a new instance of the [VariableSizedGridView](T_Microsoft_Toolkit_Uwp_UI_Controls_VariableSizedGridView) class.
+Initializes a new instance of the [VariableSizedGridView](Microsoft_Toolkit_Uwp_UI_Controls_VariableSizedGridView.md) class.
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.VariableSizedGridView.OnApplyTemplate
+#### OnApplyTemplate()
 
 Invoked whenever application code or internal processes (such as a rebuilding layout pass)            call ApplyTemplate. In simplest terms, this means the method is called just before a UI
             element displays in your app. Override this method to influence the default post-template
             logic of a class.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.VariableSizedGridView.PrepareContainerForItemOverride(Windows.UI.Xaml.DependencyObject,System.Object)
+#### PrepareContainerForItemOverride(Windows.UI.Xaml.DependencyObject element,System.Object item)
 
 Prepares the specified element to display the specified item.
 
@@ -39,16 +39,12 @@ Prepares the specified element to display the specified item.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| element | The element that's used to display the specified item. | Windows.UI.Xaml.DependencyObject |
+| item | The item to display. | System.Object |
 
-| name | description |
-
-| --- | --- |
-
-| element | The element that's used to display the specified item. |
-
-| item | The item to display. |
-
-#### Microsoft.Toolkit.Uwp.UI.Controls.VariableSizedGridView.GetContainerForItemOverride
+#### GetContainerForItemOverride()
 
 Creates or identifies the element that is used to display the given item.
 
@@ -56,53 +52,50 @@ Creates or identifies the element that is used to display the given item.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| return |T |
+| name | description | type |
+| --- | --- | --- |
+| return |The element that is used to display the given item. |
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.VariableSizedGridView.MaximumRowsOrColumns
+#### MaximumRowsOrColumns
 
 Gets or sets the maximum number of rows or columns.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.VariableSizedGridView.ItemMargin
+#### ItemMargin
 
 Gets or sets the margin for each item.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.VariableSizedGridView.ItemPadding
+#### ItemPadding
 
 Gets or sets the padding applied to each item.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.VariableSizedGridView.Orientation
+#### Orientation
 
 Gets or sets the dimension by which child elements are stacked.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.VariableSizedGridView.AspectRatio
+#### AspectRatio
 
 Gets or sets the height-to-width aspect ratio for each tile.
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.VariableSizedGridView.ItemPaddingProperty
+#### ItemPaddingProperty
 
-Identifies the [ItemPadding](P_Microsoft_Toolkit_Uwp_UI_Controls_VariableSizedGridView_ItemPadding) dependency property.
+Identifies the ItemPadding dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.VariableSizedGridView.OrientationProperty
+#### OrientationProperty
 
-Identifies the [Orientation](P_Microsoft_Toolkit_Uwp_UI_Controls_VariableSizedGridView_Orientation) dependency property.
+Identifies the Orientation dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.VariableSizedGridView.AspectRatioProperty
+#### AspectRatioProperty
 
-Identifies the [AspectRatio](P_Microsoft_Toolkit_Uwp_UI_Controls_VariableSizedGridView_AspectRatio) dependency property.
+Identifies the AspectRatio dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.VariableSizedGridView.MaximumRowsOrColumnsProperty
+#### MaximumRowsOrColumnsProperty
 
-Identifies the [MaximumRowsOrColumns](P_Microsoft_Toolkit_Uwp_UI_Controls_VariableSizedGridView_MaximumRowsOrColumns) dependency property.
+Identifies the MaximumRowsOrColumns dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.VariableSizedGridView.ItemMarginProperty
+#### ItemMarginProperty
 
-Identifies the [ItemMargin](P_Microsoft_Toolkit_Uwp_UI_Controls_VariableSizedGridView_ItemMargin) dependency property.
+Identifies the ItemMargin dependency property.

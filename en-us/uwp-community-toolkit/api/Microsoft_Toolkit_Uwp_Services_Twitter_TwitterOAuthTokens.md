@@ -1,40 +1,40 @@
 
-# Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens class
+# TwitterOAuthTokens class
 
 Twitter OAuth tokens.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens** namespace has these types of members
+The **TwitterOAuthTokens** class has this types of members
 
 * [properties](#properties)
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens.ConsumerKey
+#### ConsumerKey
 
 Gets or sets consumer Key.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens.ConsumerSecret
+#### ConsumerSecret
 
 Gets or sets consumer Secret.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens.AccessToken
+#### AccessToken
 
 Gets or sets access Token.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens.AccessTokenSecret
+#### AccessTokenSecret
 
 Gets or sets access Token Secret.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens.RequestToken
+#### RequestToken
 
 Gets or sets access Request Token.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens.RequestTokenSecret
+#### RequestTokenSecret
 
 Gets or sets access Request Token Secret.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens.CallbackUri
+#### CallbackUri
 
 Gets or sets callback Uri.

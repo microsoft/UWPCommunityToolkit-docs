@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder class
+# TwitterOAuthRequestBuilder class
 
 OAuth request builder.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder** namespace has these types of members
+The **TwitterOAuthRequestBuilder** class has this types of members
 
 * [constructors](#constructors)
 
@@ -17,28 +17,23 @@ The **Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder** namesp
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.#ctor(System.Uri,Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens,System.String)
+#### contructor
 
-Initializes a new instance of the [TwitterOAuthRequestBuilder](T_Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthRequestBuilder) class.            Authorization request builder.
+Initializes a new instance of the [TwitterOAuthRequestBuilder](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthRequestBuilder.md) class.            Authorization request builder.
 
 ##### parameters
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| requestUri | Request Uri. |
-
-| tokens | Tokens to form request. |
-
-| method | Method to use with request. |
+| name | description | type |
+| --- | --- | --- |
+| requestUri | Request Uri. | System.Uri |
+| tokens | Tokens to form request. | Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens |
+| method | Method to use with request. | System.String |
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.GetAuthHeaderParameters
+#### GetAuthHeaderParameters()
 
 Get list of auth header parameters.
 
@@ -46,14 +41,11 @@ Get list of auth header parameters.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| return |List of auth header paramters. |
 
-| name | description |
-
-| --- | --- |
-
-| return |L |
-
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.GetEncodedUri(System.Uri,System.Collections.Generic.IEnumerable{Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter})
+#### GetEncodedUri(System.Uri requestUri,System.Collections.Generic.IEnumerable(Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter) parameters)
 
 Get encoded Uri.
 
@@ -61,18 +53,13 @@ Get encoded Uri.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| requestUri | Request uri. | System.Uri |
+| parameters | List of parameters. | System.Collections.Generic.IEnumerable(Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter) |
+| return |Encoded Uri. |
 
-| name | description |
-
-| --- | --- |
-
-| requestUri | Request uri. |
-
-| parameters | List of parameters. |
-
-| return |E |
-
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.GenerateNonce
+#### GenerateNonce()
 
 Generate nonce.
 
@@ -80,14 +67,11 @@ Generate nonce.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| return |String nonce. |
 
-| name | description |
-
-| --- | --- |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.GenerateTimeStamp
+#### GenerateTimeStamp()
 
 Generate timestamp string.
 
@@ -95,14 +79,11 @@ Generate timestamp string.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| return |Timestamp string. |
 
-| name | description |
-
-| --- | --- |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.GenerateSignature
+#### GenerateSignature()
 
 Generate signature.
 
@@ -110,14 +91,11 @@ Generate signature.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| return |Generated signature string. |
 
-| name | description |
-
-| --- | --- |
-
-| return |G |
-
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.GenerateAuthorizationHeader
+#### GenerateAuthorizationHeader()
 
 Generate authorization header.
 
@@ -125,14 +103,11 @@ Generate authorization header.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| return |Generated authorizatin header string. |
 
-| name | description |
-
-| --- | --- |
-
-| return |G |
-
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.GetSignParameters
+#### GetSignParameters()
 
 Get list of sign parameters.
 
@@ -140,73 +115,70 @@ Get list of sign parameters.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| return |L |
+| name | description | type |
+| --- | --- | --- |
+| return |List of sign parameters. |
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.SignatureMethod
+#### SignatureMethod
 
 Gets signature method.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.ConsumerKey
+#### ConsumerKey
 
 Gets consumer key.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.ConsumerSecret
+#### ConsumerSecret
 
 Gets consumer secret.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.Verb
+#### Verb
 
 Gets or sets HTTP verb for request.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.TokenSecret
+#### TokenSecret
 
 Gets access token secret.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.Signature
+#### Signature
 
 Gets signature getter.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.AuthorizationHeader
+#### AuthorizationHeader
 
 Gets authorization header getter.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.Token
+#### Token
 
 Gets access token.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.EncodedRequestUri
+#### EncodedRequestUri
 
 Gets encoded Request Uri.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.RequestUriWithoutQuery
+#### RequestUriWithoutQuery
 
 Gets request Uri without query.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.QueryParams
+#### QueryParams
 
 Gets list of query parameters.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.Version
+#### Version
 
 Gets version.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.Nonce
+#### Nonce
 
 Gets nonce.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.Timestamp
+#### Timestamp
 
 Gets timestamp.
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder.Realm
+#### Realm
 
 Realm for request.

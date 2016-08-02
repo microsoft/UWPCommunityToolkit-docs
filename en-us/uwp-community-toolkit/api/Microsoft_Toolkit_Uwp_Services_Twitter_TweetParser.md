@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.Services.Twitter.TweetParser class
+# TweetParser class
 
 Twitter Timeline Parser.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Twitter.TweetParser** namespace has these types of members
+The **TweetParser** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TweetParser.Parse(System.String)
+#### Parse(System.String data)
 
 Parse string data into strongly typed list.
 
@@ -19,11 +19,7 @@ Parse string data into strongly typed list.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| data | Input string. |
-
-| return |L |
+| name | description | type |
+| --- | --- | --- |
+| data | Input string. | System.String |
+| return |List of strongly typed objects. |

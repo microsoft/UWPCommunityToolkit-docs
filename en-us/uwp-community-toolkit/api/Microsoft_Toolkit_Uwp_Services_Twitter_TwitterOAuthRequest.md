@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequest class
+# TwitterOAuthRequest class
 
 OAuth request.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequest** namespace has these types of members
+The **TwitterOAuthRequest** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequest.ExecuteGetAsync(System.Uri,Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens)
+#### ExecuteGetAsync(System.Uri requestUri,Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens tokens)
 
 HTTP Get request to specified Uri.
 
@@ -19,18 +19,13 @@ HTTP Get request to specified Uri.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| requestUri | Uri to make OAuth request. | System.Uri |
+| tokens | Tokens to pass in request. | Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens |
+| return |String result. |
 
-| name | description |
-
-| --- | --- |
-
-| requestUri | Uri to make OAuth request. |
-
-| tokens | Tokens to pass in request. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequest.ExecutePostAsync(System.Uri,Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens)
+#### ExecutePostAsync(System.Uri requestUri,Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens tokens)
 
 HTTP Post request to specified Uri.
 
@@ -38,18 +33,13 @@ HTTP Post request to specified Uri.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| requestUri | Uri to make OAuth request. | System.Uri |
+| tokens | Tokens to pass in request. | Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens |
+| return |String result. |
 
-| name | description |
-
-| --- | --- |
-
-| requestUri | Uri to make OAuth request. |
-
-| tokens | Tokens to pass in request. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequest.ExecutePostMultipartAsync(System.Uri,Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens,System.String,System.Byte[])
+#### ExecutePostMultipartAsync(System.Uri requestUri,Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens tokens,System.String boundary,System.Byte[] content)
 
 HTTP Post request to specified Uri.
 
@@ -57,17 +47,10 @@ HTTP Post request to specified Uri.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| requestUri | Uri to make OAuth request. |
-
-| tokens | Tokens to pass in request. |
-
-| boundary | Boundary used to separate data. |
-
-| content | Data to post to server. |
-
-| return |S |
+| name | description | type |
+| --- | --- | --- |
+| requestUri | Uri to make OAuth request. | System.Uri |
+| tokens | Tokens to pass in request. | Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens |
+| boundary | Boundary used to separate data. | System.String |
+| content | Data to post to server. | System.Byte[] |
+| return |String result. |

@@ -1,24 +1,24 @@
 
-# Microsoft.Toolkit.Uwp.Services.Twitter.TwitterQueryType class
+# TwitterQueryType class
 
 Type of Twitter Query.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Twitter.TwitterQueryType** namespace has these types of members
+The **TwitterQueryType** class has this types of members
 
 * [fields](#fields)
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterQueryType.Home
+#### Home
 
 Home
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterQueryType.User
+#### User
 
 User
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterQueryType.Search
+#### Search
 
 Searc

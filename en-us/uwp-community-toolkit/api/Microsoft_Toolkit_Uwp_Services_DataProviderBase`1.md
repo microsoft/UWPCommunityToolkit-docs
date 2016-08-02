@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.Services.DataProviderBase`1 class
+# DataProviderBase<T1> class
 
 Base class for data providers in this library.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.DataProviderBase`1** namespace has these types of members
+The **DataProviderBase<T1>** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.DataProviderBase`1.LoadDataAsync``1(`0,System.Int32,Microsoft.Toolkit.Uwp.Services.IParser{``0})
+#### LoadDataAsync``1(T0 config,System.Int32 maxRecords,Microsoft.Toolkit.Uwp.Services.IParser(TT0) parser)
 
 Load data from provider endpoint.
 
@@ -19,20 +19,14 @@ Load data from provider endpoint.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| config | Query configuration. | T0 |
+| maxRecords | Upper record limit. | System.Int32 |
+| parser | Parser to use for results. | Microsoft.Toolkit.Uwp.Services.IParser(TT0) |
+| return |Strong typed list of results. |
 
-| name | description |
-
-| --- | --- |
-
-| config | Query configuration. |
-
-| maxRecords | Upper record limit. |
-
-| parser | Parser to use for results. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.DataProviderBase`1.GetDataAsync``1(`0,System.Int32,Microsoft.Toolkit.Uwp.Services.IParser{``0})
+#### GetDataAsync``1(T0 config,System.Int32 maxRecords,Microsoft.Toolkit.Uwp.Services.IParser(TT0) parser)
 
 Derived classes will have to implement this method to return provider data
 
@@ -40,20 +34,14 @@ Derived classes will have to implement this method to return provider data
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| config | Configuration to use | T0 |
+| maxRecords | Maximum number of records to return | System.Int32 |
+| parser | Parser to use | Microsoft.Toolkit.Uwp.Services.IParser(TT0) |
+| return |List of data |
 
-| name | description |
-
-| --- | --- |
-
-| config | Configuration to use |
-
-| maxRecords | Maximum number of records to return |
-
-| parser | Parser to use |
-
-| return |L |
-
-#### Microsoft.Toolkit.Uwp.Services.DataProviderBase`1.ValidateConfig(`0)
+#### ValidateConfig(T0 config)
 
 Method provided by derived class to validate specified configuration
 
@@ -61,9 +49,6 @@ Method provided by derived class to validate specified configuration
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| config | Configuration to validate |
+| name | description | type |
+| --- | --- | --- |
+| config | Configuration to validate | T0 |

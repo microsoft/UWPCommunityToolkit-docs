@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.Services.Core.InternalExtensionMethods class
+# InternalExtensionMethods class
 
 This class offers general purpose methods.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Core.InternalExtensionMethods** namespace has these types of members
+The **InternalExtensionMethods** class has this types of members
 
 * [methods](#methods)
 
@@ -13,7 +13,7 @@ The **Microsoft.Toolkit.Uwp.Services.Core.InternalExtensionMethods** namespace h
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.Core.InternalExtensionMethods.Truncate(System.String,System.Int32)
+#### Truncate(System.String value,System.Int32 length)
 
 Truncates the specified string to the specified length.
 
@@ -21,18 +21,13 @@ Truncates the specified string to the specified length.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| value | The string to be truncated. | System.String |
+| length | The maximum length. | System.Int32 |
+| return |Truncated string. |
 
-| name | description |
-
-| --- | --- |
-
-| value | The string to be truncated. |
-
-| length | The maximum length. |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.Services.Core.InternalExtensionMethods.Truncate(System.String,System.Int32,System.Boolean)
+#### Truncate(System.String value,System.Int32 length,System.Boolean ellipsis)
 
 Truncates the specified string to the specified length.
 
@@ -40,20 +35,14 @@ Truncates the specified string to the specified length.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| value | The string to be truncated. | System.String |
+| length | The maximum length. | System.Int32 |
+| ellipsis | if set to  add a text ellipsis. | System.Boolean |
+| return |Truncated string. |
 
-| name | description |
-
-| --- | --- |
-
-| value | The string to be truncated. |
-
-| length | The maximum length. |
-
-| ellipsis | if set to  add a text ellipsis. |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.Services.Core.InternalExtensionMethods.FixHtml(System.String)
+#### FixHtml(System.String html)
 
 Applies regular expressions to string of HTML to remove comments, scripts, styles.
 
@@ -61,25 +50,21 @@ Applies regular expressions to string of HTML to remove comments, scripts, style
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| html | HTML string to fix |
-
-| return |F |
+| name | description | type |
+| --- | --- | --- |
+| html | HTML string to fix | System.String |
+| return |Fixed HTML string |
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.Services.Core.InternalExtensionMethods.RemoveCommentsRegex
+#### RemoveCommentsRegex
 
 Regular expression for removing comments.
 
-#### Microsoft.Toolkit.Uwp.Services.Core.InternalExtensionMethods.RemoveScriptsRegex
+#### RemoveScriptsRegex
 
 Regular expression for removing scripts.
 
-#### Microsoft.Toolkit.Uwp.Services.Core.InternalExtensionMethods.RemoveStylesRegex
+#### RemoveStylesRegex
 
 Regular expression for removing styles.

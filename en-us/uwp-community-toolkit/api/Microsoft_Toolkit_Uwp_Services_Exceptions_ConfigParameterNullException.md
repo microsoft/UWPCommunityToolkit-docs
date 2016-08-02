@@ -1,48 +1,41 @@
 
-# Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigParameterNullException class
+# ConfigParameterNullException class
 
 Exception for config parameter being null.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigParameterNullException** namespace has these types of members
+The **ConfigParameterNullException** class has this types of members
 
 * [constructors](#constructors)
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigParameterNullException.#ctor
+#### contructor
 
-Initializes a new instance of the [ConfigParameterNullException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigParameterNullException) class.            Default constructor.
+Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigParameterNullException.md) class.            Default constructor.
 
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigParameterNullException.#ctor(System.String)
+#### contructor
 
-Initializes a new instance of the [ConfigParameterNullException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigParameterNullException) class.            Accepts parameter name.
-
-##### parameters
-
-
-
-
-| name | description |
-
-| --- | --- |
-
-| parameter | Name of the parameter. |
-
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigParameterNullException.#ctor(System.String,System.Exception)
-
-Initializes a new instance of the [ConfigParameterNullException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigParameterNullException) class.            Accepts parameter name and inner exception.
+Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigParameterNullException.md) class.            Accepts parameter name.
 
 ##### parameters
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| parameter | Name of the parameter. | System.String |
 
-| name | description |
+#### contructor
 
-| --- | --- |
+Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigParameterNullException.md) class.            Accepts parameter name and inner exception.
 
-| message | Name of the parameter. |
+##### parameters
 
-| innerException | Reference to the inner exception. |
+
+
+| name | description | type |
+| --- | --- | --- |
+| message | Name of the parameter. | System.String |
+| innerException | Reference to the inner exception. | System.Exception |

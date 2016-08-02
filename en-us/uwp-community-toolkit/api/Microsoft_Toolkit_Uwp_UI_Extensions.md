@@ -1,131 +1,103 @@
 
-# Microsoft.Toolkit.Uwp.UI.Extensions class
+# Extensions class
 
 Defines a collection of extensions methods for UI.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Extensions** namespace has these types of members
+The **Extensions** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.UI.Extensions.GetTranslateX(Windows.UI.Xaml.FrameworkElement)
+#### GetTranslateX(Windows.UI.Xaml.FrameworkElement frameworkElement)
 
-Gets the current X translation of a [FrameworkElement](T_Windows_UI_Xaml_FrameworkElement).
-
-##### parameters
-
-
-
-
-| name | description |
-
-| --- | --- |
-
-| frameworkElement | The [FrameworkElement](T_Windows_UI_Xaml_FrameworkElement). |
-
-| return |R |
-
-#### Microsoft.Toolkit.Uwp.UI.Extensions.GetTranslateY(Windows.UI.Xaml.FrameworkElement)
-
-Gets the current Y translation of a [FrameworkElement](T_Windows_UI_Xaml_FrameworkElement).
+Gets the current X translation of a [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement).
 
 ##### parameters
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | Windows.UI.Xaml.FrameworkElement |
+| return |Returns the X translation. |
 
-| name | description |
+#### GetTranslateY(Windows.UI.Xaml.FrameworkElement frameworkElement)
 
-| --- | --- |
-
-| frameworkElement | The [FrameworkElement](T_Windows_UI_Xaml_FrameworkElement). |
-
-| return |R |
-
-#### Microsoft.Toolkit.Uwp.UI.Extensions.TranslateX(Windows.UI.Xaml.FrameworkElement,System.Double)
-
-Translates a [FrameworkElement](T_Windows_UI_Xaml_FrameworkElement) on the X axis to the provided X value.
+Gets the current Y translation of a [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement).
 
 ##### parameters
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | Windows.UI.Xaml.FrameworkElement |
+| return |Returns the Y translation. |
 
-| name | description |
+#### TranslateX(Windows.UI.Xaml.FrameworkElement frameworkElement,System.Double x)
 
-| --- | --- |
-
-| frameworkElement | The [FrameworkElement](T_Windows_UI_Xaml_FrameworkElement). |
-
-| x | The value to translate to on the X axis. |
-
-#### Microsoft.Toolkit.Uwp.UI.Extensions.TranslateY(Windows.UI.Xaml.FrameworkElement,System.Double)
-
-Translates a [FrameworkElement](T_Windows_UI_Xaml_FrameworkElement) on the Y axis to the provided Y value.
+Translates a [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) on the X axis to the provided X value.
 
 ##### parameters
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | Windows.UI.Xaml.FrameworkElement |
+| x | The value to translate to on the X axis. | System.Double |
 
-| name | description |
+#### TranslateY(Windows.UI.Xaml.FrameworkElement frameworkElement,System.Double y)
 
-| --- | --- |
-
-| frameworkElement | The [FrameworkElement](T_Windows_UI_Xaml_FrameworkElement). |
-
-| y | The value to translate to on the Y axis. |
-
-#### Microsoft.Toolkit.Uwp.UI.Extensions.TranslateDeltaX(Windows.UI.Xaml.FrameworkElement,System.Double)
-
-Translates a [FrameworkElement](T_Windows_UI_Xaml_FrameworkElement) on the X axis by the provided X value.
+Translates a [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) on the Y axis to the provided Y value.
 
 ##### parameters
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | Windows.UI.Xaml.FrameworkElement |
+| y | The value to translate to on the Y axis. | System.Double |
 
-| name | description |
+#### TranslateDeltaX(Windows.UI.Xaml.FrameworkElement frameworkElement,System.Double x)
 
-| --- | --- |
-
-| frameworkElement | The [FrameworkElement](T_Windows_UI_Xaml_FrameworkElement). |
-
-| x | The value to translate by on the X axis. |
-
-#### Microsoft.Toolkit.Uwp.UI.Extensions.TranslateDeltaY(Windows.UI.Xaml.FrameworkElement,System.Double)
-
-Translates a [FrameworkElement](T_Windows_UI_Xaml_FrameworkElement) on the Y axis by the provided Y value.
+Translates a [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) on the X axis by the provided X value.
 
 ##### parameters
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | Windows.UI.Xaml.FrameworkElement |
+| x | The value to translate by on the X axis. | System.Double |
 
-| name | description |
+#### TranslateDeltaY(Windows.UI.Xaml.FrameworkElement frameworkElement,System.Double y)
 
-| --- | --- |
-
-| frameworkElement | The [FrameworkElement](T_Windows_UI_Xaml_FrameworkElement). |
-
-| y | The value to translate by on the Y axis. |
-
-#### Microsoft.Toolkit.Uwp.UI.Extensions.GetCompositeTransform(Windows.UI.Xaml.FrameworkElement)
-
-Gets the composite transform for a [FrameworkElement](T_Windows_UI_Xaml_FrameworkElement).
+Translates a [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) on the Y axis by the provided Y value.
 
 ##### parameters
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | Windows.UI.Xaml.FrameworkElement |
+| y | The value to translate by on the Y axis. | System.Double |
 
-| name | description |
+#### GetCompositeTransform(Windows.UI.Xaml.FrameworkElement frameworkElement)
 
-| --- | --- |
+Gets the composite transform for a [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement).
 
-| frameworkElement | The [FrameworkElement](T_Windows_UI_Xaml_FrameworkElement). |
+##### parameters
 
-| return |R |
+
+
+| name | description | type |
+| --- | --- | --- |
+| frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | Windows.UI.Xaml.FrameworkElement |
+| return |Returns a [CompositeTransform](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.Media.CompositeTransform) representation for the given element. |

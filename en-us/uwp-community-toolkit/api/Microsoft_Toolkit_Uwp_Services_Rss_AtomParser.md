@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.Services.Rss.AtomParser class
+# AtomParser class
 
 Parser for Atom endpoints.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Rss.AtomParser** namespace has these types of members
+The **AtomParser** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.Rss.AtomParser.LoadFeed(System.Xml.Linq.XDocument)
+#### LoadFeed(System.Xml.Linq.XDocument doc)
 
 Atom reader implementation to parse Atom content.
 
@@ -19,16 +19,12 @@ Atom reader implementation to parse Atom content.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| doc | XDocument to parse. | System.Xml.Linq.XDocument |
+| return |Strong typed response. |
 
-| name | description |
-
-| --- | --- |
-
-| doc | XDocument to parse. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Rss.AtomParser.GetRssSchema(System.Xml.Linq.XElement)
+#### GetRssSchema(System.Xml.Linq.XElement item)
 
 Retieves strong type for passed item.
 
@@ -36,16 +32,12 @@ Retieves strong type for passed item.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| item | XElement to parse. | System.Xml.Linq.XElement |
+| return |Strong typed object. |
 
-| name | description |
-
-| --- | --- |
-
-| item | XElement to parse. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Rss.AtomParser.GetItemAuthor(System.Xml.Linq.XElement)
+#### GetItemAuthor(System.Xml.Linq.XElement item)
 
 Retrieves item author from XElement.
 
@@ -53,16 +45,12 @@ Retrieves item author from XElement.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| item | XElement item. | System.Xml.Linq.XElement |
+| return |String of Item Author. |
 
-| name | description |
-
-| --- | --- |
-
-| item | XElement item. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Rss.AtomParser.GetItemImage(System.Xml.Linq.XElement)
+#### GetItemImage(System.Xml.Linq.XElement item)
 
 Returns item image from XElement item.
 
@@ -70,16 +58,12 @@ Returns item image from XElement item.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| item | XElement item. | System.Xml.Linq.XElement |
+| return |String pointing to item image. |
 
-| name | description |
-
-| --- | --- |
-
-| item | XElement item. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Rss.AtomParser.GetItemContent(System.Xml.Linq.XElement)
+#### GetItemContent(System.Xml.Linq.XElement item)
 
 Returns item content from XElement item.
 
@@ -87,11 +71,7 @@ Returns item content from XElement item.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| item | XElement item. |
-
-| return |S |
+| name | description | type |
+| --- | --- | --- |
+| item | XElement item. | System.Xml.Linq.XElement |
+| return |String of item content. |

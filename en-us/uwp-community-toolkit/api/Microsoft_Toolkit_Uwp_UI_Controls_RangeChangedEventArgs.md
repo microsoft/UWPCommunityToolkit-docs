@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.UI.Controls.RangeChangedEventArgs class
+# RangeChangedEventArgs class
 
 Event args for a value changing event
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Controls.RangeChangedEventArgs** namespace has these types of members
+The **RangeChangedEventArgs** class has this types of members
 
 * [constructors](#constructors)
 
@@ -13,35 +13,30 @@ The **Microsoft.Toolkit.Uwp.UI.Controls.RangeChangedEventArgs** namespace has th
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RangeChangedEventArgs.#ctor(System.Double,System.Double,Microsoft.Toolkit.Uwp.UI.Controls.RangeSelectorProperty)
+#### contructor
 
-Initializes a new instance of the [RangeChangedEventArgs](T_Microsoft_Toolkit_Uwp_UI_Controls_RangeChangedEventArgs) class.
+Initializes a new instance of the [RangeChangedEventArgs](Microsoft_Toolkit_Uwp_UI_Controls_RangeChangedEventArgs.md) class.
 
 ##### parameters
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| oldValue | The old value |
-
-| newValue | The new value |
-
-| changedRangeProperty | The changed range property |
+| name | description | type |
+| --- | --- | --- |
+| oldValue | The old value | System.Double |
+| newValue | The new value | System.Double |
+| changedRangeProperty | The changed range property | Microsoft.Toolkit.Uwp.UI.Controls.RangeSelectorProperty |
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RangeChangedEventArgs.OldValue
+#### OldValue
 
 Gets the old value.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RangeChangedEventArgs.NewValue
+#### NewValue
 
 Gets the new value.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RangeChangedEventArgs.ChangedRangeProperty
+#### ChangedRangeProperty
 
 Gets the range property that triggered the event

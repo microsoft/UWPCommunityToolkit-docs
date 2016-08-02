@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.Services.Rss.BaseRssParser class
+# BaseRssParser class
 
 Base class for Rss Parser(s).
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Rss.BaseRssParser** namespace has these types of members
+The **BaseRssParser** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.Rss.BaseRssParser.GetFeedType(System.Xml.Linq.XDocument)
+#### GetFeedType(System.Xml.Linq.XDocument doc)
 
 Retrieve feed type from XDocument.
 
@@ -19,16 +19,12 @@ Retrieve feed type from XDocument.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| doc | XDocument doc. | System.Xml.Linq.XDocument |
+| return |Return feed type. |
 
-| name | description |
-
-| --- | --- |
-
-| doc | XDocument doc. |
-
-| return |R |
-
-#### Microsoft.Toolkit.Uwp.Services.Rss.BaseRssParser.LoadFeed(System.Xml.Linq.XDocument)
+#### LoadFeed(System.Xml.Linq.XDocument doc)
 
 Abstract method to be override by specific implementations of the reader.
 
@@ -36,16 +32,12 @@ Abstract method to be override by specific implementations of the reader.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| doc | XDocument doc. | System.Xml.Linq.XDocument |
+| return |Returns list of strongly typed results. |
 
-| name | description |
-
-| --- | --- |
-
-| doc | XDocument doc. |
-
-| return |R |
-
-#### Microsoft.Toolkit.Uwp.Services.Rss.BaseRssParser.ProcessHtmlContent(System.String)
+#### ProcessHtmlContent(System.String htmlContent)
 
 Fix up the HTML content.
 
@@ -53,16 +45,12 @@ Fix up the HTML content.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| htmlContent | Content to be fixed up. | System.String |
+| return |Fixed up content. |
 
-| name | description |
-
-| --- | --- |
-
-| htmlContent | Content to be fixed up. |
-
-| return |F |
-
-#### Microsoft.Toolkit.Uwp.Services.Rss.BaseRssParser.ProcessHtmlSummary(System.String)
+#### ProcessHtmlSummary(System.String htmlContent)
 
 Create a summary of the HTML content.
 
@@ -70,11 +58,7 @@ Create a summary of the HTML content.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| htmlContent | Content to be processed. |
-
-| return |S |
+| name | description | type |
+| --- | --- | --- |
+| htmlContent | Content to be processed. | System.String |
+| return |Summary of the content. |

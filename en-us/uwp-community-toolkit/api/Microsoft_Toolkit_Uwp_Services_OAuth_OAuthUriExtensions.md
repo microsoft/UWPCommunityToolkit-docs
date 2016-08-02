@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.Services.OAuth.OAuthUriExtensions class
+# OAuthUriExtensions class
 
 OAuth Uri extensions.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.OAuth.OAuthUriExtensions** namespace has these types of members
+The **OAuthUriExtensions** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.OAuth.OAuthUriExtensions.GetQueryParams(System.Uri)
+#### GetQueryParams(System.Uri uri)
 
 Get query parameters from Uri.
 
@@ -19,16 +19,12 @@ Get query parameters from Uri.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| uri | Uri to process. | System.Uri |
+| return |Dictionary of query parameters. |
 
-| name | description |
-
-| --- | --- |
-
-| uri | Uri to process. |
-
-| return |D |
-
-#### Microsoft.Toolkit.Uwp.Services.OAuth.OAuthUriExtensions.AbsoluteWithoutQuery(System.Uri)
+#### AbsoluteWithoutQuery(System.Uri uri)
 
 Get absolute Uri.
 
@@ -36,16 +32,12 @@ Get absolute Uri.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| uri | Uri to process. | System.Uri |
+| return |Uri without query string. |
 
-| name | description |
-
-| --- | --- |
-
-| uri | Uri to process. |
-
-| return |U |
-
-#### Microsoft.Toolkit.Uwp.Services.OAuth.OAuthUriExtensions.Normalize(System.Uri)
+#### Normalize(System.Uri uri)
 
 Normalize the Uri into string.
 
@@ -53,11 +45,7 @@ Normalize the Uri into string.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| uri | Uri to process. |
-
-| return |N |
+| name | description | type |
+| --- | --- | --- |
+| uri | Uri to process. | System.Uri |
+| return |Normalized string. |

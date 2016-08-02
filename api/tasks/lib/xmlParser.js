@@ -70,45 +70,93 @@ var replaceReferences = function (content) {
 };
 
 var getText = function (node, prop) {
-	node = node || [];
-	var item = node.length ? node[0] : node;
-	if (typeof item === 'string') {
-		return item ? item.replace('\n', '').trim() : '';
+	if (typeof node === 'string') {
+		return node ? node.replace('\n', '').trim() : '';
 	} else if (prop) {
-		return item[prop] ? item[prop].replace('\n', '').trim() : '';
+		return node[prop] ? node[prop].replace('\n', '').trim() : '';
 	}
 
 	return '';
 };
 
-var parseMember = function (node) {
-	var nameParts = node.$['name'].split(':');
-	var type = nameParts[0];
-	var name = nameParts[1];
-	var summary = getText(node.summary);
+var getTypesFromName = function (name) {
+	var contexts = 0;
+	var result = '';
+	var i;
 
-	var params = (node['param'] || []).map(function (paramNode) {
+	name = name.replace(/`[0-9]*/g, function ($1, $2) {
+		var type = $1.substring(1);
+		return 'T' + type;
+	});
+
+	for (i = 0; i < name.length; i++) {
+		var c = name[i];
+		if(c === '{')
+		{
+			result += '(';
+			contexts++;
+		}
+		else if(c === '}')
+		{
+			result += ')';
+			contexts--;
+		}
+
+		else if(contexts === 0 && c === ','){
+			result += '###SEPARATOR###';
+		}else{
+			result += c;
+		}
+	}
+
+	var types = result.split('###SEPARATOR###');
+	return types;
+};
+
+var parseMember = function (node) {
+	var nameParts = node.$.name.split(':');
+	var type = nameParts[0];
+	var originalName = nameParts[1];
+	var fullName = originalName;
+	var paramsTypes = [];
+	var paranthesisPosition = fullName.indexOf('(');
+	var hasParenthesis = paranthesisPosition !== -1;
+
+	if (hasParenthesis){
+		var parametersString = fullName.substring(paranthesisPosition + 1, fullName.length - 1);
+		paramsTypes = getTypesFromName(parametersString);
+		fullName = fullName.substring(0, paranthesisPosition);
+	}
+
+	var name = fullName.substring(fullName.lastIndexOf('.') + 1);
+
+	var sumamryValue = node.summary || [];
+	var summary = getText(sumamryValue.shift());
+
+	var params = (node.param || []).map(function (paramNode, index) {
 		return {
-			name: paramNode.$['name'],
-			text: getText(paramNode, '_')
+			name: paramNode.$.name,
+			text: getText(paramNode, '_'),
+			type: paramsTypes[index]
 		};
 	});
 
-	var returns = (node['returns'] || []).map(function (returnNode) {
+	var returns = (node.returns || []).map(function (returnNode) {
 		return {
 			text: getText(returnNode)
 		};
 	});
 
-	var exceptions = (node['exception'] || []).map(function (exceptionNode) {
+	var exceptions = (node.exception || []).map(function (exceptionNode) {
 		return {
-			text: getText(exceptionNode)
+			text: getText(exceptionNode, '-')
 		};
 	});
 
 	var member = {
 		type: resolveType(type, name),
 		name: name,
+		fullName: originalName,
 		summary: summary,
 		params: params,
 		returns: returns,
@@ -142,7 +190,7 @@ var parseXml = function (xml) {
 			namespace.classes = [];
 
 			members.forEach(function (memberNode) {
-				var member = parseMember(memberNode);
+				var member = parseMember(memberNode, namespace);
 				if (member.type.name === 'class') {
 					currentClass = member;
 					currentClass.members = [];

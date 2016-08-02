@@ -7,7 +7,12 @@ module.exports = function (grunt) {
 				files: [{
 					src: ['xml/*.xml'],
 					dest: '../en-us/uwp-community-toolkit/api/'
-				}]
+				}],
+				linkExtension: '.md',
+				localNamespaces: [
+					'Microsoft.Toolkit.Uwp'
+				],
+				externalLinksBase: 'https://msdn.microsoft.com/library/windows/apps/'
 			}
 		},
 		eslint: {

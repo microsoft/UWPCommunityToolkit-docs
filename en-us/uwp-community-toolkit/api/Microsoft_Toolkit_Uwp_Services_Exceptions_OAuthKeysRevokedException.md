@@ -1,48 +1,41 @@
 
-# Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysRevokedException class
+# OAuthKeysRevokedException class
 
 Exception for revoked OAuth keys.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysRevokedException** namespace has these types of members
+The **OAuthKeysRevokedException** class has this types of members
 
 * [constructors](#constructors)
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysRevokedException.#ctor
+#### contructor
 
-Initializes a new instance of the [OAuthKeysRevokedException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysRevokedException) class.            Default constructor.
+Initializes a new instance of the [OAuthKeysRevokedException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysRevokedException.md) class.            Default constructor.
 
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysRevokedException.#ctor(System.String)
+#### contructor
 
-Initializes a new instance of the [OAuthKeysRevokedException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysRevokedException) class.            Constructor with additional message.
-
-##### parameters
-
-
-
-
-| name | description |
-
-| --- | --- |
-
-| message | Additional message |
-
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysRevokedException.#ctor(System.String,System.Exception)
-
-Initializes a new instance of the [OAuthKeysRevokedException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysRevokedException) class.            Constructor with additional message and inner exception.
+Initializes a new instance of the [OAuthKeysRevokedException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysRevokedException.md) class.            Constructor with additional message.
 
 ##### parameters
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| message | Additional message | System.String |
 
-| name | description |
+#### contructor
 
-| --- | --- |
+Initializes a new instance of the [OAuthKeysRevokedException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysRevokedException.md) class.            Constructor with additional message and inner exception.
 
-| message | Additionnal message. |
+##### parameters
 
-| innerException | Reference to inner exception. |
+
+
+| name | description | type |
+| --- | --- | --- |
+| message | Additionnal message. | System.String |
+| innerException | Reference to inner exception. | System.Exception |

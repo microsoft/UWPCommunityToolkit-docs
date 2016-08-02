@@ -1,48 +1,41 @@
 
-# Microsoft.Toolkit.Uwp.Services.Exceptions.ParserNullException class
+# ParserNullException class
 
 Exception for null Parser.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Exceptions.ParserNullException** namespace has these types of members
+The **ParserNullException** class has this types of members
 
 * [constructors](#constructors)
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.ParserNullException.#ctor
+#### contructor
 
-Initializes a new instance of the [ParserNullException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_ParserNullException) class.            Default constructor.
+Initializes a new instance of the [ParserNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ParserNullException.md) class.            Default constructor.
 
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.ParserNullException.#ctor(System.String)
+#### contructor
 
-Initializes a new instance of the [ParserNullException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_ParserNullException) class.            Constructor with additional message.
-
-##### parameters
-
-
-
-
-| name | description |
-
-| --- | --- |
-
-| message | Additional message |
-
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.ParserNullException.#ctor(System.String,System.Exception)
-
-Initializes a new instance of the [ParserNullException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_ParserNullException) class.            Constructor with additional message and inner exception.
+Initializes a new instance of the [ParserNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ParserNullException.md) class.            Constructor with additional message.
 
 ##### parameters
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| message | Additional message | System.String |
 
-| name | description |
+#### contructor
 
-| --- | --- |
+Initializes a new instance of the [ParserNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ParserNullException.md) class.            Constructor with additional message and inner exception.
 
-| message | Additonal message. |
+##### parameters
 
-| innerException | Reference to inner exception. |
+
+
+| name | description | type |
+| --- | --- | --- |
+| message | Additonal message. | System.String |
+| innerException | Reference to inner exception. | System.Exception |

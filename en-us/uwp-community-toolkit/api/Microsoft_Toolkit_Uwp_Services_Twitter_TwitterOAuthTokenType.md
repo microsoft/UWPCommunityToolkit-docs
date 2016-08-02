@@ -1,32 +1,32 @@
 
-# Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokenType class
+# TwitterOAuthTokenType class
 
 OAuth token types
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokenType** namespace has these types of members
+The **TwitterOAuthTokenType** class has this types of members
 
 * [fields](#fields)
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokenType.OAuthRequestOrAccessToken
+#### OAuthRequestOrAccessToken
 
 Request or access token
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokenType.OAuthRequestOrAccessTokenSecret
+#### OAuthRequestOrAccessTokenSecret
 
 Request or access token secret
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokenType.OAuthVerifier
+#### OAuthVerifier
 
 Verifier
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokenType.OAuthCallbackConfirmed
+#### OAuthCallbackConfirmed
 
 Callback confirmed
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokenType.ScreenName
+#### ScreenName
 
 Screen name

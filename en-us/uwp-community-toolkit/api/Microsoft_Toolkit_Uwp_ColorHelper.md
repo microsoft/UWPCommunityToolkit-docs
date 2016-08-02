@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.ColorHelper class
+# ColorHelper class
 
 This class provides static helper methods for colors.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.ColorHelper** namespace has these types of members
+The **ColorHelper** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.ColorHelper.ToColor(System.String)
+#### ToColor(System.String colorString)
 
 Returns a color based on XAML color string.
 
@@ -19,16 +19,12 @@ Returns a color based on XAML color string.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| colorString | The color string. Any format used in XAML should work. | System.String |
+| return |Parsed color |
 
-| name | description |
-
-| --- | --- |
-
-| colorString | The color string. Any format used in XAML should work. |
-
-| return |P |
-
-#### Microsoft.Toolkit.Uwp.ColorHelper.ToHex(Windows.UI.Color)
+#### ToHex(Windows.UI.Color color)
 
 Converts a Color value to a string representation of the value in hexadecimal.
 
@@ -36,16 +32,12 @@ Converts a Color value to a string representation of the value in hexadecimal.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| color | The Color to convert. | Windows.UI.Color |
+| return |Returns a string representing the hex value. |
 
-| name | description |
-
-| --- | --- |
-
-| color | The Color to convert. |
-
-| return |R |
-
-#### Microsoft.Toolkit.Uwp.ColorHelper.ToInt(Windows.UI.Color)
+#### ToInt(Windows.UI.Color color)
 
 Returns the color value as a premultiplied Int32 - 4 byte ARGB structure.
 
@@ -53,16 +45,12 @@ Returns the color value as a premultiplied Int32 - 4 byte ARGB structure.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| color | the Color to convert | Windows.UI.Color |
+| return |Returns a int representing the color. |
 
-| name | description |
-
-| --- | --- |
-
-| color | the Color to convert |
-
-| return |R |
-
-#### Microsoft.Toolkit.Uwp.ColorHelper.ToHsl(Windows.UI.Color)
+#### ToHsl(Windows.UI.Color color)
 
 Converts an RGBA Color the HSL representation.
 
@@ -70,16 +58,12 @@ Converts an RGBA Color the HSL representation.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| color | The Color to convert. | Windows.UI.Color |
+| return |HslColor. |
 
-| name | description |
-
-| --- | --- |
-
-| color | The Color to convert. |
-
-| return |H |
-
-#### Microsoft.Toolkit.Uwp.ColorHelper.ToHsv(Windows.UI.Color)
+#### ToHsv(Windows.UI.Color color)
 
 Converts an RGBA Color the HSV representation.
 
@@ -87,16 +71,12 @@ Converts an RGBA Color the HSV representation.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| color | Color to convert. | Windows.UI.Color |
+| return |HsvColor |
 
-| name | description |
-
-| --- | --- |
-
-| color | Color to convert. |
-
-| return |H |
-
-#### Microsoft.Toolkit.Uwp.ColorHelper.FromHsl(System.Double,System.Double,System.Double,System.Double)
+#### FromHsl(System.Double hue,System.Double saturation,System.Double lightness,System.Double alpha)
 
 Returns a Color struct based on HSL model.
 
@@ -104,22 +84,15 @@ Returns a Color struct based on HSL model.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| hue | 0..360 range hue | System.Double |
+| saturation | 0..1 range saturation | System.Double |
+| lightness | 0..1 range lightness | System.Double |
+| alpha | 0..1 alpha | System.Double |
+| return |A Color object |
 
-| name | description |
-
-| --- | --- |
-
-| hue | 0..360 range hue |
-
-| saturation | 0..1 range saturation |
-
-| lightness | 0..1 range lightness |
-
-| alpha | 0..1 alpha |
-
-| return |A |
-
-#### Microsoft.Toolkit.Uwp.ColorHelper.FromHsv(System.Double,System.Double,System.Double,System.Double)
+#### FromHsv(System.Double hue,System.Double saturation,System.Double value,System.Double alpha)
 
 Returns a Color struct based on HSV model.
 
@@ -127,17 +100,10 @@ Returns a Color struct based on HSV model.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| hue | 0..360 range hue |
-
-| saturation | 0..1 range saturation |
-
-| value | 0..1 range value |
-
-| alpha | 0..1 alpha |
-
-| return |A |
+| name | description | type |
+| --- | --- | --- |
+| hue | 0..360 range hue | System.Double |
+| saturation | 0..1 range saturation | System.Double |
+| value | 0..1 range value | System.Double |
+| alpha | 0..1 alpha | System.Double |
+| return |A Color object |

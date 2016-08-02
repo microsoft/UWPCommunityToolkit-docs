@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.Services.Core.HttpRequest class
+# HttpRequest class
 
 Core HttpRequest class.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Core.HttpRequest** namespace has these types of members
+The **HttpRequest** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.Core.HttpRequest.DownloadAsync(Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings)
+#### DownloadAsync(Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings settings)
 
 Downloads data with specified settings.
 
@@ -19,16 +19,12 @@ Downloads data with specified settings.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| settings | HttpRequestSettings instance. | Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings |
+| return |Returns HttpRequestResult instance. |
 
-| name | description |
-
-| --- | --- |
-
-| settings | HttpRequestSettings instance. |
-
-| return |R |
-
-#### Microsoft.Toolkit.Uwp.Services.Core.HttpRequest.AddRequestHeaders(Windows.Web.Http.HttpClient,Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings)
+#### AddRequestHeaders(Windows.Web.Http.HttpClient httpClient,Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings settings)
 
 Add default request headers to HttpClient object.
 
@@ -36,16 +32,12 @@ Add default request headers to HttpClient object.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| httpClient | HttpClient instance. | Windows.Web.Http.HttpClient |
+| settings | HttpRequestSettings instance. | Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings |
 
-| name | description |
-
-| --- | --- |
-
-| httpClient | HttpClient instance. |
-
-| settings | HttpRequestSettings instance. |
-
-#### Microsoft.Toolkit.Uwp.Services.Core.HttpRequest.FixInvalidCharset(Windows.Web.Http.HttpResponseMessage)
+#### FixInvalidCharset(Windows.Web.Http.HttpResponseMessage response)
 
 Fix invalid charset returned by some web sites.
 
@@ -53,9 +45,6 @@ Fix invalid charset returned by some web sites.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| response | HttpResponseMessage instance. |
+| name | description | type |
+| --- | --- | --- |
+| response | HttpResponseMessage instance. | Windows.Web.Http.HttpResponseMessage |

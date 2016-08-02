@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.Services.IParser`1 class
+# IParser<T1> class
 
 Parser interface.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.IParser`1** namespace has these types of members
+The **IParser<T1>** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.IParser`1.Parse(System.String)
+#### Parse(System.String data)
 
 Parse method which all classes must implement.
 
@@ -19,11 +19,7 @@ Parse method which all classes must implement.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| data | Data to parse. |
-
-| return |S |
+| name | description | type |
+| --- | --- | --- |
+| data | Data to parse. | System.String |
+| return |Strong typed parsed data. |

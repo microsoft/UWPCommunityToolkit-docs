@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService class
+# TwitterService class
 
 Class for connecting to Twitter.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService** namespace has these types of members
+The **TwitterService** class has this types of members
 
 * [constructors](#constructors)
 
@@ -17,13 +17,13 @@ The **Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService** namespace has thes
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.#ctor
+#### contructor
 
-Initializes a new instance of the [TwitterService](T_Microsoft_Toolkit_Uwp_Services_Twitter_TwitterService) class.            Default private constructor.
+Initializes a new instance of the [TwitterService](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterService.md) class.            Default private constructor.
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.Initialize(Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens)
+#### Initialize(Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens oAuthTokens)
 
 Initialize underlying provider with relevent token information.
 
@@ -31,20 +31,16 @@ Initialize underlying provider with relevent token information.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| oAuthTokens | Token instance. | Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens |
+| return |Success or failure. |
 
-| name | description |
-
-| --- | --- |
-
-| oAuthTokens | Token instance. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.Logout
+#### Logout()
 
 Log user out of Twitter.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.TweetStatusAsync(System.String,Windows.Storage.Streams.IRandomAccessStream[])
+#### TweetStatusAsync(System.String message,Windows.Storage.Streams.IRandomAccessStream[] pictures)
 
 Post a Tweet with associated pictures.
 
@@ -52,18 +48,13 @@ Post a Tweet with associated pictures.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| message | Tweet message. | System.String |
+| pictures | Pictures to attach to the tweet (up to 4). | Windows.Storage.Streams.IRandomAccessStream[] |
+| return |Returns success or failure of post request. |
 
-| name | description |
-
-| --- | --- |
-
-| message | Tweet message. |
-
-| pictures | Pictures to attach to the tweet (up to 4). |
-
-| return |R |
-
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.LoginAsync
+#### LoginAsync()
 
 Log user in to Twitter.
 
@@ -71,14 +62,11 @@ Log user in to Twitter.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| return |Returns success or failure of login attempt. |
 
-| name | description |
-
-| --- | --- |
-
-| return |R |
-
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.RequestAsync(Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig,System.Int32)
+#### RequestAsync(Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig config,System.Int32 maxRecords)
 
 Request list data from service provider based upon a given config / query.
 
@@ -86,18 +74,13 @@ Request list data from service provider based upon a given config / query.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| config | TwitterDataConfig instance. | Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig |
+| maxRecords | Upper limit of records to return. | System.Int32 |
+| return |Strongly typed list of data returned from the service. |
 
-| name | description |
-
-| --- | --- |
-
-| config | TwitterDataConfig instance. |
-
-| maxRecords | Upper limit of records to return. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.GetUserTimeLineAsync(System.String,System.Int32)
+#### GetUserTimeLineAsync(System.String screenName,System.Int32 maxRecords)
 
 Retrieve user timeline data.
 
@@ -105,18 +88,13 @@ Retrieve user timeline data.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| screenName | User screen name. | System.String |
+| maxRecords | Upper record limit. | System.Int32 |
+| return |Returns strongly typed list of results. |
 
-| name | description |
-
-| --- | --- |
-
-| screenName | User screen name. |
-
-| maxRecords | Upper record limit. |
-
-| return |R |
-
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.Initialize(System.String,System.String,System.String)
+#### Initialize(System.String consumerKey,System.String consumerSecret,System.String callbackUri)
 
 Initialize underlying provider with relevent token information.
 
@@ -124,20 +102,14 @@ Initialize underlying provider with relevent token information.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| consumerKey | Consumer key. | System.String |
+| consumerSecret | Consumer secret. | System.String |
+| callbackUri | Callback URI. | System.String |
+| return |Success or failure. |
 
-| name | description |
-
-| --- | --- |
-
-| consumerKey | Consumer key. |
-
-| consumerSecret | Consumer secret. |
-
-| callbackUri | Callback URI. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.GetUserAsync(System.String)
+#### GetUserAsync(System.String screenName)
 
 Retrieve user data.
 
@@ -145,16 +117,12 @@ Retrieve user data.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| screenName | User screen name or null for current logged user. | System.String |
+| return |Returns user data. |
 
-| name | description |
-
-| --- | --- |
-
-| screenName | User screen name or null for current logged user. |
-
-| return |R |
-
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.SearchAsync(System.String,System.Int32)
+#### SearchAsync(System.String hashTag,System.Int32 maxRecords)
 
 Search for specific hash tag.
 
@@ -162,45 +130,40 @@ Search for specific hash tag.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| hashTag | Hash tag. |
-
-| maxRecords | Upper record limit. |
-
-| return |R |
+| name | description | type |
+| --- | --- | --- |
+| hashTag | Hash tag. | System.String |
+| maxRecords | Upper record limit. | System.Int32 |
+| return |Returns strongly typed list of results. |
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.Provider
+#### Provider
 
 Gets a reference to an instance of the underlying data provider.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.UserScreenName
+#### UserScreenName
 
 Gets the current logged in user screen name.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.Instance
+#### Instance
 
 Gets public singleton property.
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.tokens
+#### tokens
 
 Field for tracking oAuthTokens.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.instance
+#### instance
 
 Private singleton field.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.isInitialized
+#### isInitialized
 
 Field for tracking initialization status.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.twitterDataProvider
+#### twitterDataProvider
 
 Private singleton field for TwitterDataProvider.

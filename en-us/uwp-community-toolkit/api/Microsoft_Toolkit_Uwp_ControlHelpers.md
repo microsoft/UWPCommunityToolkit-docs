@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.ControlHelpers class
+# ControlHelpers class
 
 Internal class used to provide helpers for controls
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.ControlHelpers** namespace has these types of members
+The **ControlHelpers** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.ControlHelpers.GetVisual(Windows.UI.Xaml.UIElement)
+#### GetVisual(Windows.UI.Xaml.UIElement element)
 
 Get the visual associated with an UIElement
 
@@ -19,16 +19,12 @@ Get the visual associated with an UIElement
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| element | Source UIElement | Windows.UI.Xaml.UIElement |
+| return |ContainerVisual associated with the element |
 
-| name | description |
-
-| --- | --- |
-
-| element | Source UIElement |
-
-| return |C |
-
-#### Microsoft.Toolkit.Uwp.ControlHelpers.Mod(System.Int32,System.Int32)
+#### Mod(System.Int32 value,System.Int32 module)
 
 Gets the positive modulo of an integer
 
@@ -36,18 +32,13 @@ Gets the positive modulo of an integer
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| value | Value to use | System.Int32 |
+| module | Module to use | System.Int32 |
+| return |Positive modulo |
 
-| name | description |
-
-| --- | --- |
-
-| value | Value to use |
-
-| module | Module to use |
-
-| return |P |
-
-#### Microsoft.Toolkit.Uwp.ControlHelpers.IncMod(System.Int32,System.Int32)
+#### IncMod(System.Int32 value,System.Int32 module)
 
 Gets modulo of value + 1
 
@@ -55,18 +46,13 @@ Gets modulo of value + 1
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| value | Value to use | System.Int32 |
+| module | Module to use | System.Int32 |
+| return |Modulo of value + 1 |
 
-| name | description |
-
-| --- | --- |
-
-| value | Value to use |
-
-| module | Module to use |
-
-| return |M |
-
-#### Microsoft.Toolkit.Uwp.ControlHelpers.DecMod(System.Int32,System.Int32)
+#### DecMod(System.Int32 value,System.Int32 module)
 
 Gets modulo of value - 1
 
@@ -74,18 +60,13 @@ Gets modulo of value - 1
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| value | Value to use | System.Int32 |
+| module | Module to use | System.Int32 |
+| return |Modulo of value - 1 |
 
-| name | description |
-
-| --- | --- |
-
-| value | Value to use |
-
-| module | Module to use |
-
-| return |M |
-
-#### Microsoft.Toolkit.Uwp.ControlHelpers.Mod(System.Double,System.Double)
+#### Mod(System.Double value,System.Double module)
 
 Gets the positive modulo of a double
 
@@ -93,13 +74,8 @@ Gets the positive modulo of a double
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| value | Value to use |
-
-| module | Module to use |
-
-| return |P |
+| name | description | type |
+| --- | --- | --- |
+| value | Value to use | System.Double |
+| module | Module to use | System.Double |
+| return |Positive modulo |

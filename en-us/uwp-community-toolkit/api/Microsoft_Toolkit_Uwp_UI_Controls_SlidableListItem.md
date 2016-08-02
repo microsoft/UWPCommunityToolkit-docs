@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem class
+# SlidableListItem class
 
 ContentControl providing functionality for sliding left or right to expose functions
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem** namespace has these types of members
+The **SlidableListItem** class has this types of members
 
 * [constructors](#constructors)
 
@@ -19,132 +19,132 @@ The **Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem** namespace has these t
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.#ctor
+#### contructor
 
-Initializes a new instance of the [SlidableListItem](T_Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem) class.            Creates a new instance of [SlidableListItem](T_Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem)
+Initializes a new instance of the [SlidableListItem](Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.md) class.            Creates a new instance of [SlidableListItem](Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.md)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.OnApplyTemplate
+#### OnApplyTemplate()
 
-Invoked whenever application code or internal processes (such as a rebuilding            layout pass) call [OnApplyTemplate](M_Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem_OnApplyTemplate). In simplest terms, this means the method
+Invoked whenever application code or internal processes (such as a rebuilding            layout pass) call OnApplyTemplate. In simplest terms, this means the method
             is called just before a UI element displays in an application. Override this
             method to influence the default post-template logic of a class.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.ContentGrid_ManipulationDelta(System.Object,Windows.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs)
+#### ContentGrid_ManipulationDelta()
 
 Handler for when slide manipulation is underway
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.ContentGrid_ManipulationCompleted(System.Object,Windows.UI.Xaml.Input.ManipulationCompletedRoutedEventArgs)
+#### ContentGrid_ManipulationCompleted()
 
 Handler for when slide manipulation is complete
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.RightBackground
+#### RightBackground
 
 Gets or sets the right background color
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.LeftBackground
+#### LeftBackground
 
 Gets or sets the left background color
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.RightForeground
+#### RightForeground
 
 Gets or sets the right foreground color
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.LeftForeground
+#### LeftForeground
 
 Gets or sets the left foreground color
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.RightLabel
+#### RightLabel
 
 Gets or sets the right label
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.LeftLabel
+#### LeftLabel
 
 Gets or sets the left label
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.RightIcon
+#### RightIcon
 
 Gets or sets the right icon symbol
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.LeftIcon
+#### LeftIcon
 
 Gets or sets the left icon symbol
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.RightCommand
+#### RightCommand
 
 Gets or sets the ICommand for right command request
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.ActivationWidth
+#### ActivationWidth
 
 Gets or sets the amount of pixels the content needs to be swiped for an            action to be requested
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.LeftCommand
+#### LeftCommand
 
 Gets or sets the ICommand for left command request
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.MouseSlidingEnabled
+#### MouseSlidingEnabled
 
 Gets or sets a value indicating whether it has the ability to slide the control with the mouse. False by default
 
 ### events
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.RightCommandRequested
+#### RightCommandRequested
 
 Occurs when the user swipes to the left to activate the right action
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.LeftCommandRequested
+#### LeftCommandRequested
 
 Occurs when the user swipes to the right to activate the left action
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.LeftBackgroundProperty
+#### LeftBackgroundProperty
 
-Indetifies the [LeftBackground](P_Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem_LeftBackground) property
+Indetifies the LeftBackground property
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.RightCommandProperty
+#### RightCommandProperty
 
-Identifies the [RightCommand](P_Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem_RightCommand) property
+Identifies the RightCommand property
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.LeftCommandProperty
+#### LeftCommandProperty
 
-Identifies the [LeftCommand](P_Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem_LeftCommand) property
+Identifies the LeftCommand property
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.MouseSlidingEnabledProperty
+#### MouseSlidingEnabledProperty
 
-Identifies the [MouseSlidingEnabled](P_Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem_MouseSlidingEnabled) property
+Identifies the MouseSlidingEnabled property
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.RightBackgroundProperty
+#### RightBackgroundProperty
 
-Identifies the [RightBackground](P_Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem_RightBackground) property
+Identifies the RightBackground property
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.LeftIconProperty
+#### LeftIconProperty
 
-Indeifies the [LeftIcon](P_Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem_LeftIcon) property
+Indeifies the LeftIcon property
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.RightForegroundProperty
+#### RightForegroundProperty
 
-Indetifies the [RightForeground](P_Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem_RightForeground) property
+Indetifies the RightForeground property
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.LeftForegroundProperty
+#### LeftForegroundProperty
 
-Indetifies the [LeftForeground](P_Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem_LeftForeground) property
+Indetifies the LeftForeground property
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.RightLabelProperty
+#### RightLabelProperty
 
-Indetifies the [RightLabel](P_Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem_RightLabel) property
+Indetifies the RightLabel property
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.LeftLabelProperty
+#### LeftLabelProperty
 
-Indetifies the [LeftLabel](P_Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem_LeftLabel) property
+Indetifies the LeftLabel property
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.RightIconProperty
+#### RightIconProperty
 
-Indetifies the [RightIcon](P_Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem_RightIcon) property
+Indetifies the RightIcon property
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem.ActivationWidthProperty
+#### ActivationWidthProperty
 
-Indetifies the [ActivationWidth](P_Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem_ActivationWidth) property
+Indetifies the ActivationWidth property

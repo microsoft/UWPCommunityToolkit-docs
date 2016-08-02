@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter class
+# OAuthParameter class
 
 OAuth parameter.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter** namespace has these types of members
+The **OAuthParameter** class has this types of members
 
 * [constructors](#constructors)
 
@@ -15,26 +15,22 @@ The **Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter** namespace has these 
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter.#ctor(System.String,System.String)
+#### contructor
 
-Initializes a new instance of the [OAuthParameter](T_Microsoft_Toolkit_Uwp_Services_OAuth_OAuthParameter) class.            Constructor accepting key and value.
+Initializes a new instance of the [OAuthParameter](Microsoft_Toolkit_Uwp_Services_OAuth_OAuthParameter.md) class.            Constructor accepting key and value.
 
 ##### parameters
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| key | Key. |
-
-| value | Value. |
+| name | description | type |
+| --- | --- | --- |
+| key | Key. | System.String |
+| value | Value. | System.String |
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter.ToString
+#### ToString()
 
 ToString override.
 
@@ -42,14 +38,11 @@ ToString override.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| return |String representation |
 
-| name | description |
-
-| --- | --- |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter.ToString(System.Boolean)
+#### ToString(System.Boolean withQuotes)
 
 Format key / value into string.
 
@@ -57,21 +50,17 @@ Format key / value into string.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| withQuotes | Whether to create quotes in string. |
-
-| return |F |
+| name | description | type |
+| --- | --- | --- |
+| withQuotes | Whether to create quotes in string. | System.Boolean |
+| return |Formatted string of key / value. |
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter.Key
+#### Key
 
 Gets or sets key property.
 
-#### Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter.Value
+#### Value
 
 Gets or sets value property.

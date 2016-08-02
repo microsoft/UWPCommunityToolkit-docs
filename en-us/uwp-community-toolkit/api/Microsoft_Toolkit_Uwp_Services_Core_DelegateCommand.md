@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand class
+# DelegateCommand class
 
 Represents a command that can perform a given action.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand** namespace has these types of members
+The **DelegateCommand** class has this types of members
 
 * [constructors](#constructors)
 
@@ -17,36 +17,29 @@ The **Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand** namespace has these 
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.#ctor(System.Action,System.Func{System.Boolean})
+#### contructor
 
-Initializes a new instance of the [DelegateCommand](T_Microsoft_Toolkit_Uwp_Services_Core_DelegateCommand) class.
+Initializes a new instance of the [DelegateCommand](Microsoft_Toolkit_Uwp_Services_Core_DelegateCommand.md) class.
 
 ##### parameters
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| execute | The action to execute when called. |
-
-| canExecute | The function to call to determine if the command can execute the action. |
+| name | description | type |
+| --- | --- | --- |
+| execute | The action to execute when called. | System.Action |
+| canExecute | The function to call to determine if the command can execute the action. | System.Func(System.Boolean) |
 
 ##### exceptions
 
 
-
 | type | description |
-
 | --- | --- |
-
 | exception type | |
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.CanExecute(System.Object)
+#### CanExecute(System.Object parameter)
 
 Defines the method that determines whether the command can execute in its current state.
 
@@ -54,16 +47,12 @@ Defines the method that determines whether the command can execute in its curren
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| parameter | The parameter used by the command. | System.Object |
+| return |Returns a value indicating whether this command can be executed. |
 
-| name | description |
-
-| --- | --- |
-
-| parameter | The parameter used by the command. |
-
-| return |R |
-
-#### Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.Execute(System.Object)
+#### Execute(System.Object parameter)
 
 Defines the method to be called when the command is invoked.
 
@@ -71,29 +60,26 @@ Defines the method to be called when the command is invoked.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| parameter | The parameter used by the command. | System.Object |
 
-| name | description |
-
-| --- | --- |
-
-| parameter | The parameter used by the command. |
-
-#### Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.RaiseCanExecuteChanged
+#### RaiseCanExecuteChanged()
 
 Fires notification event when the CanExecute property has changed.
 
 ### events
 
-#### Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.CanExecuteChanged
+#### CanExecuteChanged
 
 Occurs when changes occur that affect whether or not the command should execute.
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.commandExecuteAction
+#### commandExecuteAction
 
 Field for commandExecuteAction.
 
-#### Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.commandCanExecute
+#### commandCanExecute
 
 Field for whether the command can execute.

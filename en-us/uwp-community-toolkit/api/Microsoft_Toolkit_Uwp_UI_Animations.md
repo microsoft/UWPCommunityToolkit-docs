@@ -3,24 +3,18 @@
 
 ## Classes
 
-The **Microsoft.Toolkit.Uwp.UI.Animations** namespace has these types
+The **Microsoft.Toolkit.Uwp.UI.Animations** namespace has this types
+
 
 | class | description |
-
 | --- | --- |
-
-| [Blur](Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Blur) | Performs an blur animation using composition. |
-
-| [CompositionBehaviorBase](Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_CompositionBehaviorBase) | A base class for all behaviors using composition.It contains some of the common propeties to set on a visual. |
-
-| [Offset](Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Offset) | Performs an offset animation using composition. |
-
-| [Opacity](Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Opacity) | Performs an opacity animation using composition. |
-
-| [Parallax](Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Parallax) | Behavior to give a parallax effect when scrolling |
-
-| [Rotation](Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Rotation) | Performs a rotation animation using composition. |
-
-| [Scale](Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Scale) | Performs a scale animation using composition. |
-
-| [Composition](Microsoft_Toolkit_Uwp_UI_Animations_Extensions_Composition) | These extension methods use composition to perform animation on visuals. |
+| [Blur](Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Blur.md) | Performs an blur animation using composition. |
+| [CompositionBehaviorBase](Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_CompositionBehaviorBase.md) | A base class for all behaviors using composition.It contains some of the common propeties to set on a visual. |
+| [Offset](Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Offset.md) | Performs an offset animation using composition. |
+| [Opacity](Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Opacity.md) | Performs an opacity animation using composition. |
+| [Parallax](Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Parallax.md) | Behavior to give a parallax effect when scrolling |
+| [Rotation](Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Rotation.md) | Performs a rotation animation using composition. |
+| [Scale](Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Scale.md) | Performs a scale animation using composition. |
+| [AnimationSet](Microsoft_Toolkit_Uwp_UI_Animations_AnimationSet.md) | Defines an object for storing and managing CompositionAnimations for an element |
+| [EffectAnimationDefinition](Microsoft_Toolkit_Uwp_UI_Animations_EffectAnimationDefinition.md) | Defines an [EffectAnimationDefinition](Microsoft_Toolkit_Uwp_UI_Animations_EffectAnimationDefinition.md) which is used by            [AnimationSet](Microsoft_Toolkit_Uwp_UI_Animations_AnimationSet.md) to link effect animations to Visuals |
+| [Composition](Microsoft_Toolkit_Uwp_UI_Animations_Extensions_Composition.md) | These extension methods use composition to perform animation on visuals. |

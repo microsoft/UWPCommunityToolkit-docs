@@ -1,12 +1,12 @@
 
-# Microsoft.Toolkit.Uwp.UI.Controls.ImageEx class
+# ImageEx class
 
 The ImageEx control extends the default Image platform control improving the performance and responsiveness of your Apps.            Source images are downloaded asynchronously showing a load indicator while in progress.
             Once downloaded, the source image is stored in the App local cache to preserve resources and load time next time the image needs to be displayed.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Controls.ImageEx** namespace has these types of members
+The **ImageEx** class has this types of members
 
 * [constructors](#constructors)
 
@@ -20,28 +20,25 @@ The **Microsoft.Toolkit.Uwp.UI.Controls.ImageEx** namespace has these types of m
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.ImageEx.#ctor
+#### contructor
 
-Initializes a new instance of the [ImageEx](T_Microsoft_Toolkit_Uwp_UI_Controls_ImageEx) class.
+Initializes a new instance of the [ImageEx](Microsoft_Toolkit_Uwp_UI_Controls_ImageEx.md) class.
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.ImageEx.GetAsCastingSource
+#### GetAsCastingSource()
 
-Returns the image as a [CastingSource](T_Windows_Media_Casting_CastingSource).
+Returns the image as a [CastingSource](https://msdn.microsoft.com/library/windows/apps/Windows.Media.Casting.CastingSource).
 
 ##### parameters
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| return |The image as a [CastingSource](https://msdn.microsoft.com/library/windows/apps/Windows.Media.Casting.CastingSource). |
 
-| name | description |
-
-| --- | --- |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.UI.Controls.ImageEx.MeasureOverride(Windows.Foundation.Size)
+#### MeasureOverride(Windows.Foundation.Size availableSize)
 
 Measures the size in layout required for child elements and determines a size for the control.
 
@@ -49,81 +46,77 @@ Measures the size in layout required for child elements and determines a size fo
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| availableSize | The available size that this element can give to child elements. Infinity can be specified as a value to indicate that the element will size to whatever content is available. | Windows.Foundation.Size |
+| return |The size that this element determines it needs during layout, based on its calculations of child element sizes. |
 
-| name | description |
-
-| --- | --- |
-
-| availableSize | The available size that this element can give to child elements. Infinity can be specified as a value to indicate that the element will size to whatever content is available. |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.UI.Controls.ImageEx.OnApplyTemplate
+#### OnApplyTemplate()
 
 Update the visual state of the control when its template is changed.
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.ImageEx.Source
+#### Source
 
 Gets or sets get or set the source used by the image
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.ImageEx.Stretch
+#### Stretch
 
 Gets or sets the stretch of the image.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.ImageEx.NineGrid
+#### NineGrid
 
 Gets or sets the nine-grid used by the image.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.ImageEx.IsCacheEnabled
+#### IsCacheEnabled
 
 Gets or sets a value indicating whether gets or sets cache state
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.ImageEx.PlaceholderSource
+#### PlaceholderSource
 
 Gets or sets the placeholder source.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.ImageEx.PlaceholderStretch
+#### PlaceholderStretch
 
 Gets or sets the placeholder stretch.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.ImageEx.PlaceholderAnimationDuration
+#### PlaceholderAnimationDuration
 
 Gets or sets the placeholder animation duration.
 
 ### events
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.ImageEx.ImageOpened
+#### ImageOpened
 
 Event raised when the image is successfully loaded and opened.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.ImageEx.ImageFailed
+#### ImageFailed
 
 Event raised if the image failed loading.
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.ImageEx.PlaceholderAnimationDurationProperty
+#### PlaceholderAnimationDurationProperty
 
-Identifies the [PlaceholderAnimationDuration](P_Microsoft_Toolkit_Uwp_UI_Controls_ImageEx_PlaceholderAnimationDuration) dependency property.
+Identifies the PlaceholderAnimationDuration dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.ImageEx.StretchProperty
+#### StretchProperty
 
-Identifies the [Stretch](P_Microsoft_Toolkit_Uwp_UI_Controls_ImageEx_Stretch) dependency property.
+Identifies the Stretch dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.ImageEx.NineGridProperty
+#### NineGridProperty
 
-Identifies the [NineGrid](P_Microsoft_Toolkit_Uwp_UI_Controls_ImageEx_NineGrid) dependency property.
+Identifies the NineGrid dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.ImageEx.PlaceholderStretchProperty
+#### PlaceholderStretchProperty
 
-Identifies the [PlaceholderStretch](P_Microsoft_Toolkit_Uwp_UI_Controls_ImageEx_PlaceholderStretch) dependency property.
+Identifies the PlaceholderStretch dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.ImageEx.SourceProperty
+#### SourceProperty
 
-Identifies the [Source](P_Microsoft_Toolkit_Uwp_UI_Controls_ImageEx_Source) dependency property.
+Identifies the Source dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.ImageEx.PlaceholderSourceProperty
+#### PlaceholderSourceProperty
 
-Identifies the [PlaceholderSource](P_Microsoft_Toolkit_Uwp_UI_Controls_ImageEx_PlaceholderSource) dependency property.
+Identifies the PlaceholderSource dependency property.

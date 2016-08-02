@@ -1,48 +1,41 @@
 
-# Microsoft.Toolkit.Uwp.Services.Exceptions.UserNotFoundException class
+# UserNotFoundException class
 
 Exception for user not found.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Exceptions.UserNotFoundException** namespace has these types of members
+The **UserNotFoundException** class has this types of members
 
 * [constructors](#constructors)
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.UserNotFoundException.#ctor
+#### contructor
 
-Initializes a new instance of the [UserNotFoundException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_UserNotFoundException) class.            Default constructor.
+Initializes a new instance of the [UserNotFoundException](Microsoft_Toolkit_Uwp_Services_Exceptions_UserNotFoundException.md) class.            Default constructor.
 
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.UserNotFoundException.#ctor(System.String)
+#### contructor
 
-Initializes a new instance of the [UserNotFoundException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_UserNotFoundException) class.            Constructor with screen/user name information.
-
-##### parameters
-
-
-
-
-| name | description |
-
-| --- | --- |
-
-| screenName | Name of user not found. |
-
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.UserNotFoundException.#ctor(System.String,System.Exception)
-
-Initializes a new instance of the [UserNotFoundException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_UserNotFoundException) class.            Constructor with screen/user name information and inner exception.
+Initializes a new instance of the [UserNotFoundException](Microsoft_Toolkit_Uwp_Services_Exceptions_UserNotFoundException.md) class.            Constructor with screen/user name information.
 
 ##### parameters
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| screenName | Name of user not found. | System.String |
 
-| name | description |
+#### contructor
 
-| --- | --- |
+Initializes a new instance of the [UserNotFoundException](Microsoft_Toolkit_Uwp_Services_Exceptions_UserNotFoundException.md) class.            Constructor with screen/user name information and inner exception.
 
-| screenName | Name of user not found. |
+##### parameters
 
-| innerException | Reference to inner exception. |
+
+
+| name | description | type |
+| --- | --- | --- |
+| screenName | Name of user not found. | System.String |
+| innerException | Reference to inner exception. | System.Exception |

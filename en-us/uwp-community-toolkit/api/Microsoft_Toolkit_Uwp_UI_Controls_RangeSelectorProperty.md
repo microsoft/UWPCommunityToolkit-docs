@@ -1,20 +1,20 @@
 
-# Microsoft.Toolkit.Uwp.UI.Controls.RangeSelectorProperty class
+# RangeSelectorProperty class
 
 Enumeration used to determine what value triggered ValueChanged event on the            RangeSelector
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Controls.RangeSelectorProperty** namespace has these types of members
+The **RangeSelectorProperty** class has this types of members
 
 * [fields](#fields)
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RangeSelectorProperty.MinimumValue
+#### MinimumValue
 
 Minimum value was changed
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RangeSelectorProperty.MaximumValue
+#### MaximumValue
 
 Maximum value was changed

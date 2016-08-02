@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector class
+# RangeSelector class
 
 RangeSelector is a "double slider" control for range values.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector** namespace has these types of members
+The **RangeSelector** class has this types of members
 
 * [constructors](#constructors)
 
@@ -19,54 +19,54 @@ The **Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector** namespace has these type
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector.#ctor
+#### contructor
 
-Initializes a new instance of the [RangeSelector](T_Microsoft_Toolkit_Uwp_UI_Controls_RangeSelector) class.            Create a default range selector control.
+Initializes a new instance of the [RangeSelector](Microsoft_Toolkit_Uwp_UI_Controls_RangeSelector.md) class.            Create a default range selector control.
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector.OnApplyTemplate
+#### OnApplyTemplate()
 
 Update the visual state of the control when its template is changed.
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector.RangeMin
+#### RangeMin
 
 Gets or sets the current lower limit value of the range.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector.Maximum
+#### Maximum
 
 Gets or sets the maximum value of the range.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector.Minimum
+#### Minimum
 
 Gets or sets the minimum value of the range.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector.RangeMax
+#### RangeMax
 
 Gets or sets the current upper limit value of the range.
 
 ### events
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector.ValueChanged
+#### ValueChanged
 
 Event raised when lower or upper range values are changed.
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector.MaximumProperty
+#### MaximumProperty
 
 Identifies the Maximum dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector.RangeMaxProperty
+#### RangeMaxProperty
 
 Identifies the RangeMax dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector.RangeMinProperty
+#### RangeMinProperty
 
 Identifies the RangeMin dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector.MinimumProperty
+#### MinimumProperty
 
 Identifies the Minimum dependency property.

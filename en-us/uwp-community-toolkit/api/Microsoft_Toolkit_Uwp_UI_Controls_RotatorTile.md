@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile class
+# RotatorTile class
 
 An items control that presents enumerable content similar to the live tiles on the            start menu.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile** namespace has these types of members
+The **RotatorTile** class has this types of members
 
 * [constructors](#constructors)
 
@@ -17,52 +17,52 @@ The **Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile** namespace has these types 
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.#ctor
+#### contructor
 
-Initializes a new instance of the [RotatorTile](T_Microsoft_Toolkit_Uwp_UI_Controls_RotatorTile) class.
+Initializes a new instance of the [RotatorTile](Microsoft_Toolkit_Uwp_UI_Controls_RotatorTile.md) class.
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.OnApplyTemplate
+#### OnApplyTemplate()
 
 
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.Timer_Tick(System.Object,System.Object)
+#### Timer_Tick()
 
 Triggered when it's time to flip to the next live tile.
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.SelectedItem
+#### SelectedItem
 
 Gets or sets the currently selected visible item
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.Direction
+#### Direction
 
 Gets or sets the direction the tile slides in.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.ItemsSource
+#### ItemsSource
 
 Gets or sets the ItemsSource
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.ItemTemplate
+#### ItemTemplate
 
 Gets or sets the item template
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.ItemTemplateProperty
+#### ItemTemplateProperty
 
-Identifies the [ItemTemplate](P_Microsoft_Toolkit_Uwp_UI_Controls_RotatorTile_ItemTemplate) property.
+Identifies the ItemTemplate property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.SelectedItemProperty
+#### SelectedItemProperty
 
-Identifies the [SelectedItem](P_Microsoft_Toolkit_Uwp_UI_Controls_RotatorTile_SelectedItem) property.
+Identifies the SelectedItem property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.RotateDirectionProperty
+#### RotateDirectionProperty
 
-Identifies the [RotateDirection](T_Microsoft_Toolkit_Uwp_UI_Controls_RotatorTile_RotateDirection) property.
+Identifies the [RotateDirection](Microsoft_Toolkit_Uwp_UI_Controls_RotatorTile_RotateDirection.md) property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.ItemsSourceProperty
+#### ItemsSourceProperty
 
-Identifies the [ItemsSource](P_Microsoft_Toolkit_Uwp_UI_Controls_RotatorTile_ItemsSource) property.
+Identifies the ItemsSource property.

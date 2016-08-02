@@ -1,65 +1,54 @@
 
-# Microsoft.Toolkit.Uwp.Services.Exceptions.RequestFailedException class
+# RequestFailedException class
 
 Exception for failed requests.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Exceptions.RequestFailedException** namespace has these types of members
+The **RequestFailedException** class has this types of members
 
 * [constructors](#constructors)
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.RequestFailedException.#ctor
+#### contructor
 
-Initializes a new instance of the [RequestFailedException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_RequestFailedException) class.            Default constructor.
+Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp_Services_Exceptions_RequestFailedException.md) class.            Default constructor.
 
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.RequestFailedException.#ctor(System.String)
+#### contructor
 
-Initializes a new instance of the [RequestFailedException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_RequestFailedException) class.            Constructor with additional message.
-
-##### parameters
-
-
-
-
-| name | description |
-
-| --- | --- |
-
-| message | Additional messsage. |
-
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.RequestFailedException.#ctor(Windows.Web.Http.HttpStatusCode,System.String)
-
-Initializes a new instance of the [RequestFailedException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_RequestFailedException) class.            Constructor with status code and reason for request failure.
+Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp_Services_Exceptions_RequestFailedException.md) class.            Constructor with additional message.
 
 ##### parameters
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| message | Additional messsage. | System.String |
 
-| name | description |
+#### contructor
 
-| --- | --- |
-
-| statusCode | Failure status code. |
-
-| reason | Failure reason. |
-
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.RequestFailedException.#ctor(System.String,System.Exception)
-
-Initializes a new instance of the [RequestFailedException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_RequestFailedException) class.            Constructor with additional message and inner exception.
+Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp_Services_Exceptions_RequestFailedException.md) class.            Constructor with status code and reason for request failure.
 
 ##### parameters
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| statusCode | Failure status code. | Windows.Web.Http.HttpStatusCode |
+| reason | Failure reason. | System.String |
 
-| name | description |
+#### contructor
 
-| --- | --- |
+Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp_Services_Exceptions_RequestFailedException.md) class.            Constructor with additional message and inner exception.
 
-| message | Additional message. |
+##### parameters
 
-| innerException | Reference to inner exception. |
+
+
+| name | description | type |
+| --- | --- | --- |
+| message | Additional message. | System.String |
+| innerException | Reference to inner exception. | System.Exception |

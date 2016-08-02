@@ -391,6 +391,97 @@
             Starts the animation.
             </summary>
         </member>
+        <member name="T:Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet">
+            <summary>
+            Defines an object for storing and managing CompositionAnimations for an element
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet.Visual">
+            <summary>
+            Gets the <see cref="P:Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet.Visual"/> object that backs the XAML element
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet.Element">
+            <summary>
+            Gets the <see cref="T:Windows.UI.Xaml.UIElement"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet.#ctor(Windows.UI.Xaml.UIElement)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet"/> class.
+            </summary>
+            <param name="element">The associated element</param>
+        </member>
+        <member name="E:Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet.Completed">
+            <summary>
+            Occurs when all animations have completed
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet.StartAsync">
+            <summary>
+            Starts all animations on the backing Visual.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> that can be awaited until all animations have completed</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet.Stop">
+            <summary>
+            Stops all animations on the backing Visual.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet.SetDurationForAll(System.Double)">
+            <summary>
+            Ovewrites the duration on all animations to the specified value
+            </summary>
+            <param name="duration">The duration in seconds</param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet.SetDelayForAll(System.Double)">
+            <summary>
+            Ovewrites the delay time on all animations to the specified value
+            </summary>
+            <param name="delayTime">The delay time in seconds</param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet.AddAnimation(System.String,Windows.UI.Composition.CompositionAnimation)">
+            <summary>
+            Adds an animation to be run on <see cref="M:Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet.StartAsync"/>
+            </summary>
+            <param name="propertyName">The property to be animated on the backing Visual</param>
+            <param name="animation">The animation to be applied</param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet.RemoveAnimation(System.String)">
+            <summary>
+            Removes an animation from being run on <see cref="M:Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet.StartAsync"/>
+            </summary>
+            <param name="propertyName">The property that no longer needs to be animated</param>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet.AddEffectAnimation(Windows.UI.Composition.CompositionEffectBrush,Windows.UI.Composition.CompositionAnimation,System.String)">
+            <summary>
+            Adds an effect animation to be run on <see cref="M:Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet.StartAsync"/>
+            </summary>
+            <param name="effectBrush">The <see cref="T:Windows.UI.Composition.CompositionEffectBrush"/> that will have a property animated</param>
+            <param name="animation">The animation to be applied</param>
+            <param name="propertyName">The property of the effect to be animated</param>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.UI.Animations.EffectAnimationDefinition">
+            <summary>
+            Defines an <see cref="T:Microsoft.Toolkit.Uwp.UI.Animations.EffectAnimationDefinition"/> which is used by
+            <see cref="T:Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet"/> to link effect animations to Visuals
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.EffectAnimationDefinition.EffectBrush">
+            <summary>
+            Gets or sets <see cref="T:Windows.UI.Composition.CompositionEffectBrush"/> that will be animated
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.EffectAnimationDefinition.Animation">
+            <summary>
+            Gets or sets the <see cref="T:Windows.UI.Composition.CompositionAnimation"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.EffectAnimationDefinition.PropertyName">
+            <summary>
+            Gets or sets the property name that will be animated on the <see cref="T:Windows.UI.Composition.CompositionEffectBrush"/>
+            </summary>
+        </member>
         <member name="T:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition">
             <summary>
             These extension methods use composition to perform animation on visuals.
@@ -401,6 +492,21 @@
             Scales the specified UI Element.
             </summary>
             <param name="associatedObject">The associated object.</param>
+            <param name="duration">The duration.</param>
+            <param name="delay">The delay in milliseconds.</param>
+            <param name="centerX">The center x in pixels.</param>
+            <param name="centerY">The center y in pixels.</param>
+            <param name="centerZ">The center z in pixels.</param>
+            <param name="scaleX">The scale x.</param>
+            <param name="scaleY">The scale y.</param>
+            <param name="scaleZ">The scale z.</param>
+            <returns>The visual of the UIElement.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Scale(Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet,System.Double,System.Double,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Scales the specified UI Element.
+            </summary>
+            <param name="animationSet">The animationSet object.</param>
             <param name="duration">The duration.</param>
             <param name="delay">The delay in milliseconds.</param>
             <param name="centerX">The center x in pixels.</param>
@@ -424,11 +530,34 @@
             <param name="centerZ">The center z in pixels.</param>
             <returns>The visual of the UIElement.</returns>
         </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Rotate(Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet,System.Double,System.Double,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Rotates the specified UI Element.
+            </summary>
+            <param name="animationSet">The animationSet object.</param>
+            <param name="duration">The duration.</param>
+            <param name="delay">The delay in milliseconds.</param>
+            <param name="value">The value in degrees to rotate.</param>
+            <param name="centerX">The center x in pixels.</param>
+            <param name="centerY">The center y in pixels.</param>
+            <param name="centerZ">The center z in pixels.</param>
+            <returns>The visual of the UIElement.</returns>
+        </member>
         <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Opacity(Windows.UI.Xaml.UIElement,System.Double,System.Double,System.Single)">
             <summary>
             Changes the Opacity of the specified UI Element.
             </summary>
             <param name="associatedObject">The UI Element to change the opacity of.</param>
+            <param name="duration">The duration.</param>
+            <param name="delay">The delay.</param>
+            <param name="value">The value.</param>
+            <returns>The visual of the UIElement.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Opacity(Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet,System.Double,System.Double,System.Single)">
+            <summary>
+            Changes the Opacity of the specified UI Element.
+            </summary>
+            <param name="animationSet">The animationSet object.</param>
             <param name="duration">The duration.</param>
             <param name="delay">The delay.</param>
             <param name="value">The value.</param>
@@ -446,12 +575,24 @@
             <param name="offsetZ">The offset z.</param>
             <returns>The visual of the UIElement.</returns>
         </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Offset(Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet,System.Double,System.Double,System.Single,System.Single,System.Single)">
+            <summary>
+            Changes the Offset of the specified UI Element.
+            </summary>
+            <param name="animationSet">The animationSet object.</param>
+            <param name="duration">The duration.</param>
+            <param name="delay">The delay.</param>
+            <param name="offsetX">The offset x.</param>
+            <param name="offsetY">The offset y.</param>
+            <param name="offsetZ">The offset z.</param>
+            <returns>The visual of the UIElement.</returns>
+        </member>
         <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.IsBlurSupported">
             <summary>
             Gets a value indicating whether the platform supports blur.
             </summary>
             <remarks>
-            A check should always be made to IsBlurSupported prior to calling <seealso cref="M:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Blur(Windows.UI.Xaml.FrameworkElement,System.Double,System.Double,System.Double)"/>,
+            A check should always be made to IsBlurSupported prior to calling Blur/>,
             since older operating systems will not support blurs.
             </remarks>
             <seealso cref="M:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Blur(Windows.UI.Xaml.FrameworkElement,System.Double,System.Double,System.Double)"/>
@@ -461,6 +602,17 @@
             Blurs the specified framework element.
             </summary>
             <param name="associatedObject">The associated object.</param>
+            <param name="duration">The duration.</param>
+            <param name="delay">The delay.</param>
+            <param name="blurAmount">The blur amount.</param>
+            <returns>The Composition Effect Brush of the blur so you can control animations manually.</returns>
+            <seealso cref="P:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.IsBlurSupported" />
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.UI.Animations.Extensions.Composition.Blur(Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet,System.Double,System.Double,System.Double)">
+            <summary>
+            Blurs the specified framework element.
+            </summary>
+            <param name="animationSet">The animationSet object.</param>
             <param name="duration">The duration.</param>
             <param name="delay">The delay.</param>
             <param name="blurAmount">The blur amount.</param>

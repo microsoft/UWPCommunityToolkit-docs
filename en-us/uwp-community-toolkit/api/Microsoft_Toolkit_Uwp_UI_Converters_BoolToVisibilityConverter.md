@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.UI.Converters.BoolToVisibilityConverter class
+# BoolToVisibilityConverter class
 
 This class converts a boolean value into a Visibility enumeration.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Converters.BoolToVisibilityConverter** namespace has these types of members
+The **BoolToVisibilityConverter** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.UI.Converters.BoolToVisibilityConverter.Convert(System.Object,System.Type,System.Object,System.String)
+#### Convert(System.Object value,System.Type targetType,System.Object parameter,System.String language)
 
 Convert a boolean value to visibility.
 
@@ -19,22 +19,15 @@ Convert a boolean value to visibility.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| value | The source data being passed to the target. | System.Object |
+| targetType | The type of the target property, as a type reference. | System.Type |
+| parameter | An optional parameter to be used to invert the converter logic. | System.Object |
+| language | The language of the conversion. | System.String |
+| return |The value to be passed to the target dependency property. |
 
-| name | description |
-
-| --- | --- |
-
-| value | The source data being passed to the target. |
-
-| targetType | The type of the target property, as a type reference. |
-
-| parameter | An optional parameter to be used to invert the converter logic. |
-
-| language | The language of the conversion. |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.UI.Converters.BoolToVisibilityConverter.ConvertBack(System.Object,System.Type,System.Object,System.String)
+#### ConvertBack(System.Object value,System.Type targetType,System.Object parameter,System.String language)
 
 Modifies the target data before passing it to the source object. This method is called only in TwoWay bindings.
 
@@ -42,17 +35,10 @@ Modifies the target data before passing it to the source object. This method is 
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| value | The target data being passed to the source. |
-
-| targetType | The type of the target property, as a type reference (System.Type for Microsoft .NET, a TypeName helper struct for Visual C++ component extensions (C++/CX)). |
-
-| parameter | An optional parameter to be used to invert the converter logic. |
-
-| language | The language of the conversion. |
-
-| return |T |
+| name | description | type |
+| --- | --- | --- |
+| value | The target data being passed to the source. | System.Object |
+| targetType | The type of the target property, as a type reference (System.Type for Microsoft .NET, a TypeName helper struct for Visual C++ component extensions (C++/CX)). | System.Type |
+| parameter | An optional parameter to be used to invert the converter logic. | System.Object |
+| language | The language of the conversion. | System.String |
+| return |The value to be passed to the source object. |

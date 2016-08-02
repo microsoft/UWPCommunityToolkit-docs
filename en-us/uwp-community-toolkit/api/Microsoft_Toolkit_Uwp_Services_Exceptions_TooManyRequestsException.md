@@ -1,48 +1,41 @@
 
-# Microsoft.Toolkit.Uwp.Services.Exceptions.TooManyRequestsException class
+# TooManyRequestsException class
 
 Exception for too many requests.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Exceptions.TooManyRequestsException** namespace has these types of members
+The **TooManyRequestsException** class has this types of members
 
 * [constructors](#constructors)
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.TooManyRequestsException.#ctor
+#### contructor
 
-Initializes a new instance of the [TooManyRequestsException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException) class.            Default constructor.
+Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException.md) class.            Default constructor.
 
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.TooManyRequestsException.#ctor(System.String)
+#### contructor
 
-Initializes a new instance of the [TooManyRequestsException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException) class.            Constructor with additional message.
-
-##### parameters
-
-
-
-
-| name | description |
-
-| --- | --- |
-
-| message | Additional message. |
-
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.TooManyRequestsException.#ctor(System.String,System.Exception)
-
-Initializes a new instance of the [TooManyRequestsException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException) class.            Constructor with additional message and reference to inner exception.
+Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException.md) class.            Constructor with additional message.
 
 ##### parameters
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| message | Additional message. | System.String |
 
-| name | description |
+#### contructor
 
-| --- | --- |
+Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException.md) class.            Constructor with additional message and reference to inner exception.
 
-| message | Additional message. |
+##### parameters
 
-| innerException | Reference to inner exception. |
+
+
+| name | description | type |
+| --- | --- | --- |
+| message | Additional message. | System.String |
+| innerException | Reference to inner exception. | System.Exception |

@@ -1,48 +1,41 @@
 
-# Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysNotPresentException class
+# OAuthKeysNotPresentException class
 
 Exception for no OAuth keys being present.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysNotPresentException** namespace has these types of members
+The **OAuthKeysNotPresentException** class has this types of members
 
 * [constructors](#constructors)
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysNotPresentException.#ctor
+#### contructor
 
-Initializes a new instance of the [OAuthKeysNotPresentException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysNotPresentException) class.            Default constructor.
+Initializes a new instance of the [OAuthKeysNotPresentException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysNotPresentException.md) class.            Default constructor.
 
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysNotPresentException.#ctor(System.String)
+#### contructor
 
-Initializes a new instance of the [OAuthKeysNotPresentException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysNotPresentException) class.            Constructor with information on missing key.
-
-##### parameters
-
-
-
-
-| name | description |
-
-| --- | --- |
-
-| key | Name of the missing key. |
-
-#### Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysNotPresentException.#ctor(System.String,System.Exception)
-
-Initializes a new instance of the [OAuthKeysNotPresentException](T_Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysNotPresentException) class.            Constructor with additional message and inner exception.
+Initializes a new instance of the [OAuthKeysNotPresentException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysNotPresentException.md) class.            Constructor with information on missing key.
 
 ##### parameters
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| key | Name of the missing key. | System.String |
 
-| name | description |
+#### contructor
 
-| --- | --- |
+Initializes a new instance of the [OAuthKeysNotPresentException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysNotPresentException.md) class.            Constructor with additional message and inner exception.
 
-| message | Additional exception message. |
+##### parameters
 
-| innerException | Reference to inner exception. |
+
+
+| name | description | type |
+| --- | --- | --- |
+| message | Additional exception message. | System.String |
+| innerException | Reference to inner exception. | System.Exception |

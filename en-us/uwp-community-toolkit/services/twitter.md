@@ -22,7 +22,7 @@ Copy this from the *Keys and Access Tokens* tab on your application page.
 Copy this from the *Keys and Access Tokens* tab on your application page. 
 
 **Callback URI** Enter a unique URI for your application.  This must match the *Callback URL* field on the *Application Details* tab in Twitter.
-Example: http://myapp.company.com
+*Example*: http://myapp.company.com - (this does not have to be a working URL)
 
 ## Syntax
 ```C#
@@ -55,7 +55,6 @@ Example: http://myapp.company.com
 Twitter app models allows for read only applications.  If the app is tagged as Readonly, but attempts to post there is *no error returned*.  The post is just eaten by the service.
 
 If you are posting from your app and never seeing them show up in the timeline check the *Permissions* tab on the app page.  You want to ensure that you have *Read and Write* checked on that tab.
-
 
 ## Platforms
 

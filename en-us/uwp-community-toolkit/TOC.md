@@ -18,7 +18,7 @@
 - [HamburgerMenu](controls/hamburgerMenu.md)
 - [HeaderedTextBlock](controls/headeredTextBlock.md)
 - [ImageEX](controls/ImageEx.md)
-- [PullToRefreshListView](controlsPullToRefreshListView.md)
+- [PullToRefreshListView](controls/PullToRefreshListView.md)
 - [RadialGauge](controls/RadialGauge.md)
 - [RangeSelecter](controls/RangeSelector.md)
 - [ResponsiveGridView](controls/ResponsiveGridView.md)
@@ -31,23 +31,23 @@
 
 # [Helpers](https://github.com/Microsoft/UWPCommunityToolkit-docs/tree/master/en-us/uwp-community-toolkit/helpers)
 
-- [Colors](/helpers/colors.md)
-- [Helpers](helpers/connectionHelper.md)
-- [StorageFiles](helpers/storagefiles.md)
-- [Streams](helpers/streams.md)
+- [Colors](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/helpers/colors.md)
+- [Connection](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/helpers/connectionHelper.md)
+- [StorageFiles](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/helpers/storagefiles.md)
+- [Streams](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/helpers/streams.md)
 
 
 
-# [Notifications](notifications/notifications.md) 
+# [Notifications](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/notifications/notificationsOverview.md) 
 
 
 
-# [Services](services/services.md)
-- [Bing](services/bing.md)
-- [Facebook](services/facebook.md)
-- [Twitter](services/twitter.com)
+# [Services](https://github.com/Microsoft/UWPCommunityToolkit-docs/tree/master/en-us/uwp-community-toolkit/services
+- [Bing](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/services/bing.md)
+- [Facebook](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/services/facebook.md)
+- [Twitter](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/services/twitter.md)
 
-# [Index](index/index.md)
+# [Index](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/index.md)
 
 
 

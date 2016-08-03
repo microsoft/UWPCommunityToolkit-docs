@@ -1,14 +1,14 @@
 ---
-permalink: /en-US/animations/blurbehavior.htm
-title: BlurBehavior XAML Behavior for UWP Community Toolkit
-description: The BlurBehavior behavior allows for blurring of XAML elements using composition
-keywords: windows, app, toolkit, BlurBehavior, XAML behavior, image blur, XAML blur, XAML composition 
+permalink: /en-US/animations/blur.htm
+title: Blur XAML and Code Animation for UWP Community Toolkit
+description: The Blur animation behavior allows for blurring of XAML elements using composition
+keywords: windows, app, toolkit, Blur, animation behavior, XAML behavior, image blur, XAML blur, XAML, animation, composition 
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# BlurBehavior XAML Behavior
-The **Blur Behavior** selectively blurs a XAML element by increasing or decreasing pixel size.
+# Blur
+The **Blur animation behavior** selectively blurs a XAML element by increasing or decreasing pixel size.
 Sometimes you want an element to appear slightly out of focus, but to be familiar to the user from other locations within an app.  Rather than having to rasterize the XAML into an image and apply a blur, you can apply a BlurBehavior to the original element at run time. 
 
 ## Syntax

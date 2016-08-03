@@ -1,14 +1,14 @@
 ---
-permalink: /en-US/animations/ScaleBehavior.htm
-title: ScaleBehavior XAML Behavior for UWP Community Toolkit
-description: The Scale Behavior lets users create a scale by increasing or decreasing the control's animation 
-keywords: windows, app, toolkit, ScaleBehavior, scale behavior, scale, XAML, UWP, animation
+permalink: /en-US/animations/scale.htm
+title: Scale XAML and Code Animation for UWP Community Toolkit
+description: The Scale animation behavior lets users change a scale by increasing or decreasing through animation 
+keywords: windows, app, toolkit, Scale, scale behavior, scale, XAML, UWP, animation
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# ScaleBehavior XAML Behavior 
-The **Scale Behavior** allows you to create a scale by increasing or decreasing animation in your control. For example, the user changes the scale in an *Entry* field, by tapping it.
+# Scale
+The **Scale animation behavior** allows you to change a controls' scale by increasing or decreasing the control through animation. For example, perhaps you want an entry field to change size when the user taps it.
 
 ## Syntax
 ```xaml

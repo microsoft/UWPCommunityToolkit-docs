@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/behaviors/blurbehavior.htm
+permalink: /en-US/animations/blurbehavior.htm
 title: BlurBehavior XAML Behavior for UWP Community Toolkit
 description: The BlurBehavior behavior allows for blurring of XAML elements using composition
 keywords: windows, app, toolkit, BlurBehavior, XAML behavior, image blur, XAML blur, XAML composition 
@@ -31,7 +31,7 @@ or directly from code:
 ToolkitLogo.Blur(duration: 10, delay: 0, blurAmount: 10);       
 ```
 
-Behaviors can also be chained and awaited.
+Behavior animations can also be chained and awaited.
 
 ```C#
     Element.Rotate(duration: 0.3, value: 30f).StartAsync();

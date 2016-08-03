@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/behaviors/OpacityBehavior.htm
+permalink: /en-US/animations/OpacityBehavior.htm
 title: OpacityBehavior XAML Behavior for UWP Community Toolkit
 description: The Opacity Behavior fades objects, in and out, over time 
 keywords: windows, app, toolkit, OpacityBehavior, Opacity, fades, XAML, UWP
@@ -25,7 +25,7 @@ or directly from code:
 MyRectangle.Opacity(Duration, Delay, (float)Value);
 ```
 
-Behaviors can also be chained and awaited.
+Behavior animations can also be chained and awaited.
 
 ```C#
     Element.Rotate(duration: 0.3, value: 30f).StartAsync();

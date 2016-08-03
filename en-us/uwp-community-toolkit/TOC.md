@@ -6,15 +6,14 @@
 
 ### [What's next?](get-started/learn-more.md)
 
-# [Behaviors](https://github.com/Microsoft/UWPCommunityToolkit-docs/tree/master/en-us/uwp-community-toolkit/behaviors)
+# [Animations](animations)
 
-- [BlurBehavior](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/behaviors/blurBehavior.md)
-- [OffsetBevaior](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/behaviors/offsetBehavior.md)
-- [OpacityBehavior](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/behaviors/opacityBehavior.md)
-- [ParallelBehavoir](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/behaviors/parallaxBehavior.md)
-- [RotationBehavior](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/behaviors/rotationBehavior.md)
-- [ScaleBehavior](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/behaviors/scaleBehavior.md)
-
+- [BlurBehavior](animations/blurBehavior.md)
+- [OffsetBevaior](animations/offsetBehavior.md)
+- [OpacityBehavior](animations/opacityBehavior.md)
+- [ParallelBehavoir](animations/parallaxBehavior.md)
+- [RotationBehavior](animations/rotationBehavior.md)
+- [ScaleBehavior](animations/scaleBehavior.md)
 
 # [Controls](controls/controls.md)
 
@@ -28,7 +27,6 @@
 - [SlideableListItem](controls/SlideableListItem.md)
 - [VariableSizeGridView](controls/VariableSizeGridView.md)
 
-
 # [Helpers](https://github.com/Microsoft/UWPCommunityToolkit-docs/tree/master/en-us/uwp-community-toolkit/helpers)
 
 - [Colors](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/helpers/colors.md)
@@ -41,6 +39,7 @@
 
 
 # [Services](https://github.com/Microsoft/UWPCommunityToolkit-docs/tree/master/en-us/uwp-community-toolkit/services)
+
 - [Bing](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/services/bing.md)
 - [Facebook](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/services/facebook.md)
 - [Twitter](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/services/twitter.md)

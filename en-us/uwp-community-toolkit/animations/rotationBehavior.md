@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/behaviors/RotationBehavior.htm
+permalink: /en-US/animations/RotationBehavior.htm
 title: RotationBehavior XAML Behavior for UWP Community Toolkit
 description: The Rotation Behavior allows users to modify and animate the control's rotation 
 keywords: windows, app, toolkit, RotationBehavior,  Rotation, XAML, UWP, animate rotation, behavior
@@ -36,7 +36,7 @@ MyRectangle.Rotate(
     
 ```
 
-Behaviors can also be chained and awaited.
+Behavior animations can also be chained and awaited.
 
 ```C#
     Element.Rotate(duration: 0.3, value: 30f).StartAsync();

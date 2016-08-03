@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/behaviors/OffsetBehavior.htm
+permalink: /en-US/animations/OffsetBehavior.htm
 title: OffsetBehavior XAML Behavior for UWP Community Toolkit
 description: The OffsetBehavior  gets the number of pixels, from the origin of the associated control, that offsets the snapline 
 keywords: windows, app, toolkit, OffsetBehavior, behavior, offset, XAML, UWP, snapline
@@ -31,7 +31,7 @@ MyRectangle.Offset(
                 offsetZ: (float)OffsetZ);;
 ```
 
-Behaviors can also be chained and awaited.
+Behavior animations can also be chained and awaited.
 
 ```C#
     Element.Rotate(duration: 0.3, value: 30f).StartAsync();

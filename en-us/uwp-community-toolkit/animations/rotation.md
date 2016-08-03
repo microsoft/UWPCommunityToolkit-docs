@@ -2,17 +2,17 @@
 permalink: /en-US/animations/rotation.htm
 title: Rotation XAML and Code Animation for UWP Community Toolkit
 description: The Rotation animation behavior allows users to modify and animate the control's rotation 
-keywords: windows, app, toolkit, Rotation animation, Rotation, XAML, UWP, animate rotation, behavior
+keywords: windows, app, toolkit, Rotation animation, Rotate, XAML, UWP, animate rotation, behavior
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
 # Rotation
-The **Rotation animation behavior** allows users to modify and animate the control's rotation. Parameters include: angle values, time, pause delay, duration, and diameter.
+The **Rotate animation behavior** allows users to modify and animate the control's rotation. Parameters include: angle values, time, pause delay, duration, and diameter.
 
 ## Syntax
 ```xaml
-   <behaviors:Rotation x:Name="RotationBehavior" 
+   <behaviors:Rotate x:Name="RotateBehavior" 
 				Value="180"
 				CenterX="0.0" 
 				CenterY="0.0" 
@@ -20,7 +20,7 @@ The **Rotation animation behavior** allows users to modify and animate the contr
 				Duration="1.5" 
 				Delay="0.5" 
 				AutomaticallyStart="True"/>
-  </behaviors:Rotation>
+  </behaviors:Rotate>
 ```
 
 or directly from code:
@@ -43,7 +43,7 @@ Behavior animations can also be chained and awaited.
 
     await Element.Rotate(duration: 0.3, value: 30f).StartAsync();
 
-    var anim = element.Rotate(value: 30f).Opacity(value: 0.5).Blur(blurAmount:5);
+    var anim = element.Rotate(value: 30f).Fade(value: 0.5).Blur(blurAmount:5);
     anim.SetDurationForAll(2);
     anim.Completed += animation_completed;
     anim.StartAsync();
@@ -51,7 +51,7 @@ Behavior animations can also be chained and awaited.
     anim.Stop();
 ```
 
-[Rotation Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/RotationBehavior)
+[Rotation Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Rotate)
 ## Example Image
 
 ## Platforms

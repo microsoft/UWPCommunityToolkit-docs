@@ -7,22 +7,30 @@ layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# Get Started  
-This document provides an overview of the **Universal Windows Platform (UWP) Toolkit**. This documentation describes the software, tools, installation instructions, and controls that are required to develop functional and visually appealing Windows Applications. The UWP Toolkit Documentation provides code syntax and samples to create applications on all Windows devices and for services such as Bing, Twitter, and Facebook. 
+#Getting Started
 
-## Resources 
-<p>The following links are provided in the Get-Started section. The links provide useful content to navigate users through the setup, tools needed, and steps to build sample apps.<p>
+The UWP Community Toolkit does not have a local installer.  If you want to see the controls and animations in action before jumping into the code?  We have published the [UWP Toolkit Sample Application](https://www.microsoft.com/store/apps/9nblggh4tlcq) to the Windows store.  Download the app and play with the controls to see what they do before ever writing a line of code. 
 
+##Developer Requirements
 
-- [The Installation Guide](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/get-started/installguide.md)
-- [Learn More: What's Next?](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/get-started/learn-more.mdd) 
-- [Nuget Packages](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/get-started/nugetpackages.md)
-- [Quick Start: Build a Sample Project](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/get-started/quickstart.md) 
+To develop Windows UWP Applications you need the current version of Windows 10. 
 
-## Requirements
-Make sure the following systems and versions are installed on your machine. Additional details are provided in *The Installation Guide*.  
+Download [Visual Studio 2015 Update 3 with Windows developer tools](https://developer.microsoft.com/en-us/windows/downloads). During install, choose custom option to make sure all UWP tools are selected. 
 
-1. [Windows 10 Anniversary Edition with SDK](https://developer.microsoft.com/en-US/windows/downloads/) 
-2. [Visual Studio (Community or greater) 2015 Update 3](https://developer.microsoft.com/en-us/windows/downloads)
-3. [Universal Windows Standalone SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk) - If you are using Visual Studio 2015, this is optional, as it is already installed. 
-4. [GitHub](https://github.com/Microsoft/UWPCommunityToolkit-docs): Create an account if you don't have one yet.   
+Enable your device for development, [here](https://msdn.microsoft.com/windows/uwp/get-started/enable-your-device-for-development). 
+
+This is an _optional step_ that must be completed before submitting to the Windows App Store.  You do not have to do this in order to build and test locally on your machine. Register as an app developer [Windows Dev Center sign up page](https://msdn.microsoft.com/windows/uwp/get-started/sign-up). 
+
+##For each new Windows Application
+
+Create a new *Blank App (Universal Windows)*. The template is located under the Templates -> Visual C# -> Windows -> Universal path.  If you do not have a Universal path under Windows then you need to install the Universal Windows Platform tools for Visual Studio (re-run setup and check the advanced setup option).
+
+_Either_
+
+Add desired [NuGet Packages](nugetpackages.md) to your solution.
+
+_Or_
+
+If you would like to work with the source code rather than the NuGet packages, you can clone the GitHub repository for the [UWP Community Toolkit](https://github.com/Microsoft/UWPCommunityToolkit). 
+
+Add the controls to your pages as you would any other control.

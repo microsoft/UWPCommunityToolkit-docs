@@ -38,14 +38,14 @@ Behavior animations can also be chained and awaited.
 
     await Element.Rotate(duration: 0.3, value: 30f).StartAsync();
 
-    var anim = element.Rotate(value: 30f).Opacity(value: 0.5).Blur(blurAmount:5);
+    var anim = element.Rotate(value: 30f).Fade(value: 0.5).Blur(blurAmount:5);
     anim.SetDurationForAll(2);
     anim.Completed += animation_completed;
     anim.StartAsync();
 
     anim.Stop();
 ```
-[Offset Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/OffsetBehavior)
+[Offset Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Offset)
  
 ## Example Image
 

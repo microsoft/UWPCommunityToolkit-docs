@@ -58,6 +58,6 @@ This behavior requires the [visual layer](https://msdn.microsoft.com/en-us/windo
 ## API
 
 [Blur Source Code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/Blur.cs)
-[link to class documnetation]
+[link to class documentation]
 
 Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for current samples and example code.

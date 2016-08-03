@@ -5,7 +5,7 @@ This class provides static helper methods for colors.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.ColorHelper** namespace has these types of members
+The **Microsoft.Toolkit.Uwp.ColorHelper** namespace has these types of members:
 
 * [methods](#methods)
 
@@ -30,7 +30,7 @@ Returns a color based on XAML color string.
 
 #### Microsoft.Toolkit.Uwp.ColorHelper.ToHex(Windows.UI.Color)
 
-Converts a Color value to a string representation of the value in hexadecimal.
+Converts a color value to a string representation of the value in hexadecimal.
 
 ##### parameters
 
@@ -58,7 +58,7 @@ Returns the color value as a premultiplied Int32 - 4 byte ARGB structure.
 
 | --- | --- |
 
-| color | the Color to convert |
+| color | the color to convert |
 
 | return |R |
 
@@ -75,7 +75,7 @@ Converts an RGBA Color the HSL representation.
 
 | --- | --- |
 
-| color | The Color to convert. |
+| color | The color to convert. |
 
 | return |H |
 
@@ -92,13 +92,13 @@ Converts an RGBA Color the HSV representation.
 
 | --- | --- |
 
-| color | Color to convert. |
+| color | The color to convert. |
 
 | return |H |
 
 #### Microsoft.Toolkit.Uwp.ColorHelper.FromHsl(System.Double,System.Double,System.Double,System.Double)
 
-Returns a Color struct based on HSL model.
+Returns a color struct based on HSL model.
 
 ##### parameters
 
@@ -121,7 +121,7 @@ Returns a Color struct based on HSL model.
 
 #### Microsoft.Toolkit.Uwp.ColorHelper.FromHsv(System.Double,System.Double,System.Double,System.Double)
 
-Returns a Color struct based on HSV model.
+Returns a color struct based on HSV model.
 
 ##### parameters
 

@@ -1,11 +1,11 @@
 
 # Microsoft.Toolkit.Uwp.ConnectionHelper class
 
-This class provides static helper methods for connections.
+This class provides static helper methods for connections:
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.ConnectionHelper** namespace has these types of members
+The **Microsoft.Toolkit.Uwp.ConnectionHelper** namespace has these types of members:
 
 * [properties](#properties)
 

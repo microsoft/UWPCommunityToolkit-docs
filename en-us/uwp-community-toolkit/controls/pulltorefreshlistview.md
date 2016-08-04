@@ -9,7 +9,7 @@ search.product: eADQiWindows 10XVcnh
 
 
 # PullToRefreshListView XAML Control
-The **PullToRefreshListView** Control, is derived from the built-in List View in XAML. It lets the user pull down beyond the top limit on the listview to trigger a refresh of the content. This control can create rich, animations, and is easy to use. 
+The **PullToRefreshListView Control**, is derived from the built-in List View in XAML. It lets the user pull down beyond the top limit on the listview to trigger a refresh of the content. This control can create rich, animations, and is easy to use. 
 
 This Control is very common on mobile devices, where the user can pull from the top to force a content refresh in applications like Twitter. 
 

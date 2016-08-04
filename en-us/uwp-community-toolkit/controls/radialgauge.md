@@ -48,5 +48,6 @@ The Radial Gauge supports animated transitions between configuration states. The
 Windows 10 SDK 10586 or higher
 
 ## API
-[RadialGauge API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_RadialGauge.htm)
+* [RadialGauge source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/RadialGauge)
+* [RadialGauge API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_RadialGauge.htm)
 

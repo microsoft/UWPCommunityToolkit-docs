@@ -7,7 +7,7 @@ layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 # Quick Start
-This page will provides guidance for developers to build a sample project. In the Build the sample section, below, you can use these steps to create *Controls, Behaviors and Notifications.* 
+This page will provides guidance for developers to build a sample project. In the Build the sample section, below, you can use these steps to create *Controls, Animations, and Notifications.* 
 
 ## Build a sample project 
 
@@ -22,4 +22,4 @@ Adding a reference to each of the desired [NuGet packages](nugetpackages.md) (Mi
 
 ![Manage NuGet Packages](/resources/images/AddNugetServices.png)
 
-Building a sample project (new page)
+

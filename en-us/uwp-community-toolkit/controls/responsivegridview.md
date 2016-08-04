@@ -20,6 +20,7 @@ The **ResponsiveGridView Control** presents content within a *Grid View* to fill
 ```
 
 ## Example Image
+![ResponsiveGridView animation](/resources/images/Controls-ResponsiveGridView.gif "ResponsiveGridView")
 
 ## Example Code
 <p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>

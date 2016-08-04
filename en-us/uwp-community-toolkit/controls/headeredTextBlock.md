@@ -17,7 +17,9 @@ The **HeaderedTextBlock Control** provides a header for read-only text. This con
            Orientation="Vertical"
 		   Margin="20,10,0,0" />  
 ```
+
 ## Example Image
+![HeaderedTextBlock animation](/resources/images/Controls-HeaderedTextBlock.png "HeaderedTextBlock")
 
 ## Example Code
 <p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>

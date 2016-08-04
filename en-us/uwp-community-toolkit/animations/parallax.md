@@ -23,7 +23,7 @@ The **Parallax animation behavior** uses composition to move an image behind a l
 [Parallax Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Parallax)
 
 ## Example Image
-
+![Parallax Behavior animation](/resources/images/Animations-Parallax.gif "Parallax Behavior")
 
 ## Platforms
 

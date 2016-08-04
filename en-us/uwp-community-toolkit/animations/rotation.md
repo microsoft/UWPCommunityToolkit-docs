@@ -7,7 +7,7 @@ layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# Rotation
+# Rotate
 The **Rotate animation behavior** allows users to modify and animate the control's rotation. Parameters include: angle values, time, pause delay, duration, and diameter.
 
 ## Syntax
@@ -51,8 +51,10 @@ Behavior animations can also be chained and awaited.
     anim.Stop();
 ```
 
-[Rotation Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Rotate)
+[Rotate Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Rotate)
+
 ## Example Image
+![Rotate Behavior animation](/resources/images/Animations-Rotate.gif "Rotate Behavior")
 
 ## Platforms
 

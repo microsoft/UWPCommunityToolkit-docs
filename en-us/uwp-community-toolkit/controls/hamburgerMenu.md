@@ -32,7 +32,7 @@ Developers can place menu specific content, navigation, images, text or custom c
 ```
 
 ## Example Image
-![hamburger menu animation](/resources/images/hamburgermenu.gif "Hamburger menu")
+![HamburgerMenu animation](/resources/images/Controls-HamburgerMenu.gif "HamburgerMmenu")
 
 ## Example Code
 <p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>

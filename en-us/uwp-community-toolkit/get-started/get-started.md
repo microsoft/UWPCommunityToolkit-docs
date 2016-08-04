@@ -11,7 +11,7 @@ search.product: eADQiWindows 10XVcnh
 
 The UWP Community Toolkit does not have a local installer.  If you want to see the controls and animations in action before jumping into the code?  We have published the [UWP Toolkit Sample Application](https://www.microsoft.com/store/apps/9nblggh4tlcq) to the Windows store.  Download the app and play with the controls to see what they do before ever writing a line of code. 
 
-##Developer Requirements
+#Developer Requirements
 
 To develop Windows UWP Applications you need the current version of Windows 10. 
 
@@ -21,13 +21,13 @@ Enable your device for development, [here](https://msdn.microsoft.com/windows/uw
 
 This is an _optional step_ that must be completed before submitting to the Windows App Store.  You do not have to do this in order to build and test locally on your machine. Register as an app developer [Windows Dev Center sign up page](https://msdn.microsoft.com/windows/uwp/get-started/sign-up). 
 
-##For each new Windows Application
+#For each new Windows Application
 
 Create a new *Blank App (Universal Windows)*. The template is located under the Templates -> Visual C# -> Windows -> Universal path.  If you do not have a Universal path under Windows then you need to install the Universal Windows Platform tools for Visual Studio (re-run setup and check the advanced setup option).
 
 _Either_
 
-Add desired [NuGet Packages](nugetpackages.md) to your solution.
+Add desired [NuGet Packages](nugetpackages.htm) to your solution.
 
 _Or_
 

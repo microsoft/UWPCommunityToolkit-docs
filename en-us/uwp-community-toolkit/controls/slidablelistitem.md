@@ -35,7 +35,7 @@ This control can be used as a ListView Data Template root to create effects simi
 ```
 
 ## Example Image
-![ResponsiveGridView animation](/resources/images/Controls-ResponsiveGridView.gif "ResponsiveGridView")
+![SlidableListItem animation](/resources/images/Controls-SlidableListItem.gif "SlidableListItem")
 
 ## Example Code
 <p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>

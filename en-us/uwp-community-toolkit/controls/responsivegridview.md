@@ -34,4 +34,5 @@ The **ResponsiveGridView Control** presents content within a *Grid View* to fill
 Windows 10 SDK 10586 or higher
 
 ## API
-[ResponsiveGridView API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_ResponsiveGridView.htm)
+* [ResponsiveGridView source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/ResponsiveGridView)
+* [ResponsiveGridView API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_ResponsiveGridView.htm)

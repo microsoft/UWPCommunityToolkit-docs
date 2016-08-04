@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/helpers/storagefiles.html
+permalink: /en-US/helpers/storagefiles.htm
 title: StorageFilesHelper utility from UWP Community Toolkit
 description: Static class of utility functions for reading and writing text of bytes from files within UWP applications
 keywords: windows, app, toolkit, UWP, helpers, file, storage, embedded file, read text, read bytes, write bytes, write text
@@ -35,8 +35,8 @@ The StorageFileHelper is a static utility class that provides functions to help 
 
 ## Platforms
 
-Windows 10 SDK 10240 or higher
+Windows 10 SDK 10586 or higher
 
 ## API
 
-[Storage File Helper Source](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit/Helpers/StorageFileHelper.cs)
+[Storage File Helper Source](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/StorageFileHelper.cs)

@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/controls/imageex.html
+permalink: /en-US/controls/imageex.htm
 title: ImageEx XAML Control for UWP Community Toolkit
 description: The ImageEx Control downloads images asynchronously while showing a loading indicator
 keywords: windows, app, toolkit, ImageEx, loading indicator, ImageExControl, UWP
@@ -24,16 +24,19 @@ The **ImageEx Control** downloads images asynchronously, while showing a loading
 ```
 
 ## Example Image
+![ImageEx animation](/resources/images/Controls-ImageEx.gif "ImageEx")
 
 ## Example Code
 <p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
 
-[ImageExControl Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/ImageEx)
+[ImageExControl Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/ImageEx)
 
 ## Default Template 
-[ImageExControl XAML File](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.UI.Controls/ImageEx) is the XAML template used in the toolkit for the default styling.
+[ImageExControl XAML File](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/ImageEx) is the XAML template used in the toolkit for the default styling.
 ## Platforms 
-Windows 10 SDK 10240 or greater
+Windows 10 SDK 10586 or higher
 
 ## API
-Please access the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp), to view control samples that are available in the UWP Community Toolkit.
+Please access the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp), to view control samples that are available in the UWP Community Toolkit.
+
+[ImageEx API Docs](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/api/Microsoft_Toolkit_Uwp_UI_Controls_ImageEx.md)

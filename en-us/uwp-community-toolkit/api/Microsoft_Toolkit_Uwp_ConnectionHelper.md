@@ -1,21 +1,21 @@
 
-# ConnectionHelper class
+# Microsoft.Toolkit.Uwp.ConnectionHelper class
 
-This class provides static helper methods for connections.
+This class provides static helper methods for connections:
 
 ## Members
 
-The **ConnectionHelper** class has this types of members
+The **Microsoft.Toolkit.Uwp.ConnectionHelper** namespace has these types of members:
 
 * [properties](#properties)
 
 ### properties
 
-#### IsInternetOnMeteredConnection
+#### Microsoft.Toolkit.Uwp.ConnectionHelper.IsInternetOnMeteredConnection
 
 Gets a value indicating whether if the current internet connection is metered.
 
-#### IsInternetAvailable
+#### Microsoft.Toolkit.Uwp.ConnectionHelper.IsInternetAvailable
 
 Gets a value indicating whether internet is available across all connections.
 
@@ -23,6 +23,9 @@ Gets a value indicating whether internet is available across all connections.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| return |True if internet can be reached. |
+
+| name | description |
+
+| --- | --- |
+
+| return |T |

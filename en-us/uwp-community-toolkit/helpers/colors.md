@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/helpers/colors.html
+permalink: /en-US/helpers/colors.htm
 title: ColorsHelper utility from UWP Community Toolkit
 description: Colors helper does commonly needed conversions of color formats
 keywords: windows, app, toolkit, UWP, helpers, color, html color, hex color, hsv, hsl
@@ -32,9 +32,9 @@ The **Colors Helper** lets users convert colors from text names, html hex, hsv, 
 
 ## Platforms
 
-Windows 10 SDK 10240 or higher
+Windows 10 SDK 10586 or higher
 
 ## API
 
-[Color Helper Source](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit/Helpers/ColorHelper.cs)
+[Color Helper Source](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/ColorHelper.cs)
 

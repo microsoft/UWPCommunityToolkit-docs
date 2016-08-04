@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/controls/carousel.html
+permalink: /en-US/controls/carousel.htm
 title: Carousel XAML Control for UWP Community Toolkit
 description: The Carousel Control is slideable application that lets users add interactive navigation XAML UI to applications. 
 Keywords: carousel, menu, CarouselControl, Carousel, control, image, windows, application, XAML, UI, slideable, UWP, toolkit 
@@ -30,15 +30,17 @@ The Carousel Control displays modern and visually appealing, tile-like items. Ca
 
 ## Example Code
 
-[Carousel Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/Carousel)
+[Carousel Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Carousel)
 
 ## Default Template 
-[Carousel XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Controls/Carousel/Carousel.xaml) is the XAML template used in the toolkit for the default styling.
+[Carousel XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Controls/Carousel/Carousel.xaml) is the XAML template used in the toolkit for the default styling.
 
 ## Platforms 
 
-Windows 10 SDK 10240 or higher
+Windows 10 SDK 10586 or higher
 
 ## API 
 
-Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp) for the UWP Community Toolkit for current samples and example code.
+Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for current samples and example code.
+
+[API Docs]()

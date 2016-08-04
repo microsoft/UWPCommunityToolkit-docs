@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/controls/slidablelistitem.html
+permalink: /en-US/controls/slidablelistitem.htm
 title: SlidableListItem XAML Control
 description: The SlidableListItem Control is a UI that triggers actions by sliding content left or right
 keywords: windows, app, toolkit, SlidableListItem, custom list item, List View, XAML, UWP, Slideable
@@ -32,21 +32,23 @@ This control can be used as a ListView Data Template root to create effects simi
 		<CheckBox IsChecked="False"></CheckBox>
 		<TextBlock Text="My Great Text" TextWrapping="NoWrap"/>            
 </controls:SlidableListItem> 
-  
 ```
 
 ## Example Image
+![SlidableListItem animation](/resources/images/Controls-SlidableListItem.gif "SlidableListItem")
 
 ## Example Code
 <p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
 
-[SlideableListItem Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp/SamplePages/SlideableListItem)
+[SlideableListItem Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/SlideableListItem)
 
 ## Default Template 
-[SlideableListItem XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit.UI.Controls/SlideableListItem/SlideableListItem.xaml) is the XAML template used in the toolkit for the default styling.
+[SlideableListItem XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Controls/SlideableListItem/SlideableListItem.xaml) is the XAML template used in the toolkit for the default styling.
 
 ## Platforms 
-Windows 10 SDK 10240 or greater
+Windows 10 SDK 10586 or higher
 
 ## API
-Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Windows.Toolkit.SampleApp) for the UWP Community Toolkit for samples of all the controls.
+Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for samples of all the controls.
+
+[SlidableListItem API Docs](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/api/Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.md)

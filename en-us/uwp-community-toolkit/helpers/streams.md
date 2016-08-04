@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/helpers/streams.html
+permalink: /en-US/helpers/streams.htm
 title: StreamsHelper utility from UWP Community Toolkit
 description: Utility class to help with common stream operations needed by UWP applications
 keywords: windows, app, toolkit, UWP, helpers, stream, content file, sandbox file, download uri
@@ -36,9 +36,9 @@ Read text from a file using ASCII or specified encoding.
 
 ## Platforms
 
-Windows 10 SDK 10240 or higher
+Windows 10 SDK 10586 or higher
 
 ## API
 
-[Stream Helper Source](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Windows.Toolkit/Helpers/StreamHelper.cs)
+[Stream Helper Source](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/StreamHelper.cs)
 

@@ -46,5 +46,6 @@ Developers can place menu specific content, navigation, images, text or custom c
 Windows 10 SDK 10586 or higher
 
 ## API
-[HamburgerMenu API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu.htm)
+* [HamburgerMenu source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/HamburgerMenu)
+* [HamburgerMenu API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu.htm)
 

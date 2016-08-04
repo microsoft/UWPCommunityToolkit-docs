@@ -49,4 +49,5 @@ This control can be used as a ListView Data Template root to create effects simi
 Windows 10 SDK 10586 or higher
 
 ## API
-[SlidableListItem API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.htm)
+* [SlidableListItem source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/SlidableListItem)
+* [SlidableListItem API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.htm)

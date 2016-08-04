@@ -1,11 +1,13 @@
 ---
 permalink: /en-US/nugetpackages.htm
 title: Nuget packages for UWP Community Toolkit
-description: List of NuGet packages included in the toolkit and what controls are in each of them
-keywords: windows, app, toolkit, get started, nuget
+description: List of NuGet packages included in the UWP Community Toolkit and what controls are included in each of them
+keywords: windows, app, toolkit, get started, nuget, uwp
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
+
+{: .thin-header}
 
 # Nuget Packages
 

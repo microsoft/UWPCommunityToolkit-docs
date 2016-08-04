@@ -55,4 +55,4 @@ Windows 10 SDK 10585 or higher
 ## API
 
 * [Behavior API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Fade.htm)
-* [Code API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.md#fadewindowsuixamluielement-associatedobjectsystemdouble-durationsystemdouble-delaysystemsingle-value.htm)
+* [Code API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#fadewindowsuixamluielement-associatedobjectsystemdouble-durationsystemdouble-delaysystemsingle-value)

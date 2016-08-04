@@ -37,6 +37,4 @@ The **ImageEx Control** downloads images asynchronously, while showing a loading
 Windows 10 SDK 10586 or higher
 
 ## API
-Please access the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp), to view control samples that are available in the UWP Community Toolkit.
-
-[ImageEx API Docs](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/api/Microsoft_Toolkit_Uwp_UI_Controls_ImageEx.md)
+[ImageEx API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_ImageEx.htm)

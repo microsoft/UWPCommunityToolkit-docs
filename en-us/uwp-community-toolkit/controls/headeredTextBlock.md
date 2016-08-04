@@ -30,10 +30,7 @@ The **HeaderedTextBlock Control** provides a header for read-only text. This con
 [HeaderedTextBlock XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Controls/HeaderedTextBlock/HeaderedTextBlock.xaml) is the XAML template used in the toolkit for the default styling.
 
 ## Platforms 
-
 Windows 10 SDK 10586 or higher
 
 ## API
-Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for samples of all the controls.
-
 [HeaderedTextBlock API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_HeaderedTextBlock.htm)

@@ -32,7 +32,7 @@ Please view the [toolkit sample application](https://github.com/Microsoft/UWPCom
 Windows 10 SDK 10585 or higher
 
 ## API
-
-* [Behavior API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Parallax.htm)
-* [Code API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#parallaxwindowsuixamluielement-elementwindowsuixamlframeworkelement-scrollerelementsystemboolean-ishorizontaleffectsystemsingle-multipliere)
+* [Parallax source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/Parallax.cs)
+* [Parallax Behavior API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Parallax.htm)
+* [Parallax Code API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#parallaxwindowsuixamluielement-elementwindowsuixamlframeworkelement-scrollerelementsystemboolean-ishorizontaleffectsystemsingle-multipliere)
 

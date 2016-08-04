@@ -58,7 +58,7 @@ Please view the [toolkit sample application](https://github.com/Microsoft/UWPCom
 Windows 10 SDK 10585 or higher
 
 ## API
-
-* [Behavior API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Offset.htm)
-* [Code API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#offsetwindowsuixamluielement-associatedobjectsystemdouble-durationsystemdouble-delaysystemsingle-offsetxsystemsingle-offsetysystemsingle-offsetz)
+* [Offset source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/Offset.cs)
+* [Offset Behavior API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Offset.htm)
+* [Offset Code API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#offsetwindowsuixamluielement-associatedobjectsystemdouble-durationsystemdouble-delaysystemsingle-offsetxsystemsingle-offsetysystemsingle-offsetz)
 

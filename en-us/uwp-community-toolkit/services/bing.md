@@ -10,7 +10,7 @@ search.product: eADQiWindows 10XVcnh
 # Bing Service
 The **Bing Service** allows you to retrieve Bing results. Bing can return web results, images, and videos for many countries around the world.
 
-##Setup Bing API
+##Set up Bing API
 
 **Note:**  The current version does not require the API key and is using the rate limited public access point.  The ability to specify your own key to remove the rate limits is on our backlog for a future release.
 
@@ -46,6 +46,6 @@ Please refer to the [Bing Service source code](https://github.com/Microsoft/UWPC
 
 ## NuGet Packages Required
 
-Microsoft.Toolkit.Uwp.Services
+**Microsoft.Toolkit.Uwp.Services**
 
 See the [NuGet Packages page](../get-started/nugetpackages.md) for complete list.

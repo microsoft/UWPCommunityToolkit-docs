@@ -65,5 +65,5 @@ This behavior requires the [visual layer](https://msdn.microsoft.com/en-us/windo
 [link to class documentation]
 
 * [Behavior API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Blur.htm)
-* [Code API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.md#blurmicrosofttoolkituwpuianimationsanimationset-animationsetsystemdouble-durationsystemdouble-delaysystemdouble-bluramount.htm)
+* [Code API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#blurmicrosofttoolkituwpuianimationsanimationset-animationsetsystemdouble-durationsystemdouble-delaysystemdouble-bluramount.htm)
 

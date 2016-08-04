@@ -37,4 +37,5 @@ You can control the number of rows, columns, orientation and aspect ratio.
 Windows 10 SDK 10586 or higher
 
 ## API
+[VariableSizedGridView source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/VariableSizedGridView)
 [VariableSizedGridView API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_VariableSizedGridView.htm)

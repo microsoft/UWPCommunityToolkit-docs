@@ -19,6 +19,7 @@ The **RangeSelector Control** is a *Double Slider* control that allows the user 
 ```
 
 ## Example Image
+![RangeSelector animation](/resources/images/Controls-RangeSelector.gif "RangeSelector")
 
 ## Example Code
 <p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>

@@ -19,9 +19,11 @@ You can control the number of rows, columns, orientation and aspect ratio.
 	ItemTemplate="{StaticResource PhotoTemplate}"
 	Orientation="Horizontal"
 	MaximumRowsOrColumns="4">
-</controls:VariableSizedGridView
+</controls:VariableSizedGridView>
 ```
+
 ## Example Image
+![VariableSizedGridView animation](/resources/images/Controls-VariableSizedGridView.gif "VariableSizedGridView")
 
 ## Example Code
 <p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>

@@ -32,7 +32,9 @@ The Radial Gauge supports animated transitions between configuration states. The
 	TickLength="18">
 </controls:RadialGauge>
 ```
+
 ## Example Image
+![RadialGauge animation](/resources/images/Controls-RadialGauge.gif "RadialGauge")
 
 ## Example Code
 <p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>

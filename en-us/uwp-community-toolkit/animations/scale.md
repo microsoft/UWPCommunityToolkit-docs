@@ -60,7 +60,7 @@ Behaviors can also be chained and awaited.
 [Scale Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Scale)
  
 ## Example Image
-
+![Scale Behavior animation](/resources/images/Animations-Scale.gif "Scale Behavior")
 
 ## Platforms
 

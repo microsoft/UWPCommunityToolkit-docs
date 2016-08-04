@@ -9,6 +9,7 @@ search.product: eADQiWindows 10XVcnh
 
 # Offset
 The **Offset animation behavior** gets the number of pixels, from the origin of the associated control, then offsets the control. 
+
 ## Syntax
 ```xaml
 <behaviors:Offset x:Name="OffsetBehavior" 
@@ -48,6 +49,7 @@ Behavior animations can also be chained and awaited.
 [Offset Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Offset)
  
 ## Example Image
+![Offset Behavior animation](/resources/images/Animations-Offset.gif "Offset Behavior")
 
 ## Platforms
 

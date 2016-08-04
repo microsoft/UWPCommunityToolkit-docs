@@ -25,8 +25,7 @@ This Control is very common on mobile devices, where the user can pull from the 
 ```
 
 ## Example Image
-
-
+![PullToRefreshListView animation](/resources/images/Controls-PullToRefreshListView.gif "PullToRefreshListView")
 
 ## Example Code
 <p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>

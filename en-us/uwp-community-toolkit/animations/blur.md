@@ -48,6 +48,8 @@ Behavior animations can also be chained and awaited.
 
 [Blur Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Blur)
 
+Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for current samples and example code.
+
 ## Example Image
 ![Blur Behavior animation](/resources/images/Animations-Blur.gif "Blur Behavior")
 
@@ -62,4 +64,6 @@ This behavior requires the [visual layer](https://msdn.microsoft.com/en-us/windo
 [Blur Source Code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/Blur.cs)
 [link to class documentation]
 
-Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for current samples and example code.
+[Behavior API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Blur.htm)
+[Code API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.md#blurmicrosofttoolkituwpuianimationsanimationset-animationsetsystemdouble-durationsystemdouble-delaysystemdouble-bluramount.htm)
+

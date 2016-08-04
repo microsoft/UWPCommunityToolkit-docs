@@ -63,6 +63,6 @@ Please view the [toolkit sample application](https://github.com/Microsoft/UWPCom
 Windows 10 SDK 10585 or higher
 
 ## API
-
-* [Behavior API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Rotate.htm)
-* [Code API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#rotatemicrosofttoolkituwpuianimationsanimationset-animationsetsystemdouble-durationsystemdouble-delaysystemsingle-valuesystemsingle-centerxsystemsingle-centerysystemsingle-centerz)
+* [Rotate source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/Rotate.cs)
+* [Rotate Behavior API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Rotate.htm)
+* [Rotate Code API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#rotatemicrosofttoolkituwpuianimationsanimationset-animationsetsystemdouble-durationsystemdouble-delaysystemsingle-valuesystemsingle-centerxsystemsingle-centerysystemsingle-centerz)

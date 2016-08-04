@@ -21,9 +21,9 @@ The UWP Community Toolkit does not have a local installer.  If you want to see t
  
 ## Videos & Templates 
 
-* [Developers Guide to Windows 10](https://channel9.msdn.com/Events/Windows/Developers-Guide-to-Windows-10-RTM) - In depth series on features in Windows 10 for developers
+* [Developers Guide to Windows 10](https://channel9.msdn.com/Events/Windows/Developers-Guide-to-Windows-10-RTM): In depth series on features in Windows 10 for developers.
 
-* [Windows 10 development for absolute beginners](https://channel9.msdn.com/Series/Windows-10-development-for-absolute-beginners) - Channel 9 series devoted to teaching new developers how to build for Windows 10
+* [Windows 10 development for absolute beginners](https://channel9.msdn.com/Series/Windows-10-development-for-absolute-beginners): Channel 9 series devoted to teaching new developers how to build for Windows 10.
 
-* [Design Guidelines](https://developer.microsoft.com/en-us/windows/design)
+* [Design Guidelines](https://developer.microsoft.com/en-us/windows/design):
 Get templates and design guidance for making great apps for Windows 10.

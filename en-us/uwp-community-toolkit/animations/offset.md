@@ -60,5 +60,5 @@ Windows 10 SDK 10585 or higher
 ## API
 
 * [Behavior API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Offset.htm)
-* [Code API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.md#offsetwindowsuixamluielement-associatedobjectsystemdouble-durationsystemdouble-delaysystemsingle-offsetxsystemsingle-offsetysystemsingle-offsetz.htm)
+* [Code API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#offsetwindowsuixamluielement-associatedobjectsystemdouble-durationsystemdouble-delaysystemsingle-offsetxsystemsingle-offsetysystemsingle-offsetz)
 

@@ -47,6 +47,8 @@ Behavior animations can also be chained and awaited.
     anim.Stop();
 ```
 [Offset Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Offset)
+
+Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for current samples and example code.
  
 ## Example Image
 ![Offset Behavior animation](/resources/images/Animations-Offset.gif "Offset Behavior")
@@ -57,4 +59,6 @@ Windows 10 SDK 10585 or higher
 
 ## API
 
-Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for current samples and example code.
+* [Behavior API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Offset.htm)
+* [Code API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.md#offsetwindowsuixamluielement-associatedobjectsystemdouble-durationsystemdouble-delaysystemsingle-offsetxsystemsingle-offsetysystemsingle-offsetz.htm)
+

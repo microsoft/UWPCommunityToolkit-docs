@@ -19,7 +19,7 @@ The **TwitterService** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [TwitterService](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterService.md) class.            Default private constructor.
+Initializes a new instance of the [TwitterService](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterService.md) class. Default private constructor.
 
 ### methods
 

@@ -1,8 +1,7 @@
 
 # ResponsiveGridView class
 
-The ResponsiveGridView control allows to present information within a Grid View perfectly adjusting the            total display available space. It reacts to changes in the layout as well as the content so it can adapt
-            to different form factors automatically.
+The ResponsiveGridView control allows to present information within a Grid View perfectly adjusting the total display available space. It reacts to changes in the layout as well as the content so it can adapt to different form factors automatically.
 
 ## Members
 
@@ -28,8 +27,7 @@ Initializes a new instance of the [ResponsiveGridView](Microsoft_Toolkit_Uwp_UI_
 
 #### OnApplyTemplate()
 
-Invoked whenever application code or internal processes (such as a rebuilding layout pass) call            ApplyTemplate. In simplest terms, this means the method is called just before a UI element displays
-            in your app. Override this method to influence the default post-template logic of a class.
+Invoked whenever application code or internal processes (such as a rebuilding layout pass) call ApplyTemplate. In simplest terms, this means the method is called just before a UI element displays in your app. Override this method to influence the default post-template logic of a class.
 
 ### properties
 

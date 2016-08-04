@@ -15,7 +15,7 @@ The **HttpRequestResult** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [HttpRequestResult](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestResult.md) class.            Default constructor.
+Initializes a new instance of the [HttpRequestResult](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestResult.md) class. Default constructor.
 
 ### properties
 

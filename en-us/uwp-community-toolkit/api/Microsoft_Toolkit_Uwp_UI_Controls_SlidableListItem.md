@@ -21,15 +21,13 @@ The **SlidableListItem** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [SlidableListItem](Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.md) class.            Creates a new instance of [SlidableListItem](Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.md)
+Initializes a new instance of the [SlidableListItem](Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.md) class. Creates a new instance of [SlidableListItem](Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.md)
 
 ### methods
 
 #### OnApplyTemplate()
 
-Invoked whenever application code or internal processes (such as a rebuilding            layout pass) call OnApplyTemplate. In simplest terms, this means the method
-            is called just before a UI element displays in an application. Override this
-            method to influence the default post-template logic of a class.
+Invoked whenever application code or internal processes (such as a rebuilding layout pass) call OnApplyTemplate. In simplest terms, this means the method is called just before a UI element displays in an application. Override this method to influence the default post-template logic of a class.
 
 #### ContentGrid_ManipulationDelta()
 
@@ -79,7 +77,7 @@ Gets or sets the ICommand for right command request
 
 #### ActivationWidth
 
-Gets or sets the amount of pixels the content needs to be swiped for an            action to be requested
+Gets or sets the amount of pixels the content needs to be swiped for an action to be requested
 
 #### LeftCommand
 

@@ -17,7 +17,7 @@ The **OAuthParameter** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [OAuthParameter](Microsoft_Toolkit_Uwp_Services_OAuth_OAuthParameter.md) class.            Constructor accepting key and value.
+Initializes a new instance of the [OAuthParameter](Microsoft_Toolkit_Uwp_Services_OAuth_OAuthParameter.md) class. Constructor accepting key and value.
 
 ##### parameters
 

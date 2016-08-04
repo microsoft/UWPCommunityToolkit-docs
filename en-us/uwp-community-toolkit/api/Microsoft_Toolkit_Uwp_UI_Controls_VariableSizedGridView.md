@@ -1,9 +1,7 @@
 
 # VariableSizedGridView class
 
-The VariableSizedGrid control allows to display items from a list using different values            for Width and Height item properties. You can control the number of rows and columns to be
-            displayed as well as the items orientation in the panel. Finally, the AspectRatio property
-            allow us to control the relation between Width and Height.
+The VariableSizedGrid control allows to display items from a list using different values for Width and Height item properties. You can control the number of rows and columns to be displayed as well as the items orientation in the panel. Finally, the AspectRatio property allow us to control the relation between Width and Height.
 
 ## Members
 
@@ -27,9 +25,7 @@ Initializes a new instance of the [VariableSizedGridView](Microsoft_Toolkit_Uwp_
 
 #### OnApplyTemplate()
 
-Invoked whenever application code or internal processes (such as a rebuilding layout pass)            call ApplyTemplate. In simplest terms, this means the method is called just before a UI
-            element displays in your app. Override this method to influence the default post-template
-            logic of a class.
+Invoked whenever application code or internal processes (such as a rebuilding layout pass) call ApplyTemplate. In simplest terms, this means the method is called just before a UI element displays in your app. Override this method to influence the default post-template logic of a class.
 
 #### PrepareContainerForItemOverride(Windows.UI.Xaml.DependencyObject element,System.Object item)
 

@@ -13,11 +13,11 @@ The **RequestFailedException** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp_Services_Exceptions_RequestFailedException.md) class.            Default constructor.
+Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp_Services_Exceptions_RequestFailedException.md) class. Default constructor.
 
 #### contructor
 
-Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp_Services_Exceptions_RequestFailedException.md) class.            Constructor with additional message.
+Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp_Services_Exceptions_RequestFailedException.md) class. Constructor with additional message.
 
 ##### parameters
 
@@ -26,7 +26,7 @@ Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp
 | name | description | type || --- | --- | --- || message | Additional messsage. | System.String |
 #### contructor
 
-Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp_Services_Exceptions_RequestFailedException.md) class.            Constructor with status code and reason for request failure.
+Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp_Services_Exceptions_RequestFailedException.md) class. Constructor with status code and reason for request failure.
 
 ##### parameters
 
@@ -35,7 +35,7 @@ Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp
 | name | description | type || --- | --- | --- || statusCode | Failure status code. | Windows.Web.Http.HttpStatusCode || reason | Failure reason. | System.String |
 #### contructor
 
-Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp_Services_Exceptions_RequestFailedException.md) class.            Constructor with additional message and inner exception.
+Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp_Services_Exceptions_RequestFailedException.md) class. Constructor with additional message and inner exception.
 
 ##### parameters
 

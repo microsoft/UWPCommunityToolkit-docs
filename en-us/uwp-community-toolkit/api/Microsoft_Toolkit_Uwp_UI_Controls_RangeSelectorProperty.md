@@ -1,7 +1,7 @@
 
 # RangeSelectorProperty class
 
-Enumeration used to determine what value triggered ValueChanged event on the            RangeSelector
+Enumeration used to determine what value triggered ValueChanged event on the RangeSelector
 
 ## Members
 

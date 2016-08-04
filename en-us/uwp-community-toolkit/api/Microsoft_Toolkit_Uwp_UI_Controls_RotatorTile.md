@@ -1,7 +1,7 @@
 
 # RotatorTile class
 
-An items control that presents enumerable content similar to the live tiles on the            start menu.
+An items control that presents enumerable content similar to the live tiles on the start menu.
 
 ## Members
 

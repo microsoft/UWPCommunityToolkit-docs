@@ -39,12 +39,7 @@ Set to true to allow Windows to append a query string to the image URI supplied 
 
 #### AddImageQuery
 
-Set to true to allow Windows to append a query string to the image URI supplied in the Tile notification. Use this attribute if your server hosts images and can handle query strings, either by retrieving an image variant based on the query strings or by ignoring the query string and returning the image as specified without the query string. This query string specifies scale, contrast setting, and language; for instance, a value of            
-             "www.website.com/images/hello.png"
-            
-             included in the notification becomes
-            
-             "www.website.com/images/hello.png?ms-scale=100&ms-contrast=standard&ms-lang=en-us"
+Set to true to allow Windows to append a query string to the image URI supplied in the Tile notification. Use this attribute if your server hosts images and can handle query strings, either by retrieving an image variant based on the query strings or by ignoring the query string and returning the image as specified without the query string. This query string specifies scale, contrast setting, and language; for instance, a value of  "www.website.com/images/hello.png"  included in the notification becomes  "www.website.com/images/hello.png?ms-scale=100&ms-contrast=standard&ms-lang=en-us"
 
 #### BaseUri
 
@@ -56,8 +51,7 @@ A description of the image, for users of assistive technologies.
 
 #### ContentId
 
-Set to a sender-defined string that uniquely identifies the content of the notification. This prevents duplicates in the situation where a large Tile template is displaying the last three wide Tile notifications.            
-             Required: NO
+Set to a sender-defined string that uniquely identifies the content of the notification. This prevents duplicates in the situation where a large Tile template is displaying the last three wide Tile notifications.  Required: NO
 
 #### DisplayName
 

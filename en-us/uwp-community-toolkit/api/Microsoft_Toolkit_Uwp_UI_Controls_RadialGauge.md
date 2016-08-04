@@ -19,7 +19,7 @@ The **RadialGauge** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [RadialGauge](Microsoft_Toolkit_Uwp_UI_Controls_RadialGauge.md) class.            Create a default radial gauge control.
+Initializes a new instance of the [RadialGauge](Microsoft_Toolkit_Uwp_UI_Controls_RadialGauge.md) class. Create a default radial gauge control.
 
 ### methods
 

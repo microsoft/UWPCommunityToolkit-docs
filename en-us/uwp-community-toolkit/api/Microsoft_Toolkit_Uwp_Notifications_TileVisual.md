@@ -34,12 +34,7 @@ The form that the Tile should use to display the app's brand.
 
 #### AddImageQuery
 
-Defaults to false. Set to true to allow Windows to append a query string to the image URI supplied in the Tile notification. Use this attribute if your server hosts images and can handle query strings, either by retrieving an image variant based on the query strings or by ignoring the query string and returning the image as specified without the query string. This query string specifies scale, contrast setting, and language; for instance, a value of            
-             "www.website.com/images/hello.png"
-            
-             included in the notification becomes
-            
-             "www.website.com/images/hello.png?ms-scale=100&ms-contrast=standard&ms-lang=en-us"
+Defaults to false. Set to true to allow Windows to append a query string to the image URI supplied in the Tile notification. Use this attribute if your server hosts images and can handle query strings, either by retrieving an image variant based on the query strings or by ignoring the query string and returning the image as specified without the query string. This query string specifies scale, contrast setting, and language; for instance, a value of  "www.website.com/images/hello.png"  included in the notification becomes  "www.website.com/images/hello.png?ms-scale=100&ms-contrast=standard&ms-lang=en-us"
 
 #### ContentId
 

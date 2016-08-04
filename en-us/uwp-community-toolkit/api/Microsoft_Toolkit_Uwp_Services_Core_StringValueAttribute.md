@@ -15,7 +15,7 @@ The **StringValueAttribute** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [StringValueAttribute](Microsoft_Toolkit_Uwp_Services_Core_StringValueAttribute.md) class.            Constructor accepting string value.
+Initializes a new instance of the [StringValueAttribute](Microsoft_Toolkit_Uwp_Services_Core_StringValueAttribute.md) class. Constructor accepting string value.
 
 ##### parameters
 

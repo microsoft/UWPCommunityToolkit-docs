@@ -1,7 +1,7 @@
 
 # EffectDirectPropertyChangeDefinition class
 
-Defines an [EffectDirectPropertyChangeDefinition](Microsoft_Toolkit_Uwp_UI_Animations_EffectDirectPropertyChangeDefinition.md) which is used by            [AnimationSet](Microsoft_Toolkit_Uwp_UI_Animations_AnimationSet.md) to link effect property Changes to Visuals
+Defines an [EffectDirectPropertyChangeDefinition](Microsoft_Toolkit_Uwp_UI_Animations_EffectDirectPropertyChangeDefinition.md) which is used by [AnimationSet](Microsoft_Toolkit_Uwp_UI_Animations_AnimationSet.md) to link effect property Changes to Visuals
 
 ## Members
 

@@ -15,7 +15,7 @@ The **HttpRequestSettings** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [HttpRequestSettings](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestSettings.md) class.            Default constructor.
+Initializes a new instance of the [HttpRequestSettings](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestSettings.md) class. Default constructor.
 
 ### properties
 

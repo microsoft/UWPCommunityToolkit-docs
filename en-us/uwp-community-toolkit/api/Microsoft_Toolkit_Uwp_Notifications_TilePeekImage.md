@@ -25,8 +25,8 @@ Set to true to allow Windows to append a query string to the image URI supplied 
 
 #### HintOverlay
 
-New in 1511: A black overlay on the peek image. This value controls the opacity of the black overlay, with 0 being no overlay and 100 being completely black. Defaults to 0.            Previously for RTM: Did not exist, value will be ignored and peek image will be displayed with 0 overlay.
+New in 1511: A black overlay on the peek image. This value controls the opacity of the black overlay, with 0 being no overlay and 100 being completely black. Defaults to 0. Previously for RTM: Did not exist, value will be ignored and peek image will be displayed with 0 overlay.
 
 #### HintCrop
 
-New in 1511: Control the desired cropping of the image.            Previously for RTM: Did not exist, value will be ignored and peek image will be displayed without any cropping.
+New in 1511: Control the desired cropping of the image. Previously for RTM: Did not exist, value will be ignored and peek image will be displayed without any cropping.

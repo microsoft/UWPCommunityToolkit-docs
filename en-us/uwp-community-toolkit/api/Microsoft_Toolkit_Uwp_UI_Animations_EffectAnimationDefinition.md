@@ -1,7 +1,7 @@
 
 # EffectAnimationDefinition class
 
-Defines an [EffectAnimationDefinition](Microsoft_Toolkit_Uwp_UI_Animations_EffectAnimationDefinition.md) which is used by            [AnimationSet](Microsoft_Toolkit_Uwp_UI_Animations_AnimationSet.md) to link effect animations to Visuals
+Defines an [EffectAnimationDefinition](Microsoft_Toolkit_Uwp_UI_Animations_EffectAnimationDefinition.md) which is used by [AnimationSet](Microsoft_Toolkit_Uwp_UI_Animations_AnimationSet.md) to link effect animations to Visuals
 
 ## Members
 

@@ -17,7 +17,7 @@ A glyph representing busy status.
 
 #### None
 
-No glyph.  If there is a numeric badge, or a glyph currently on the badge,            it will be removed.
+No glyph.  If there is a numeric badge, or a glyph currently on the badge, it will be removed.
 
 #### Alert
 

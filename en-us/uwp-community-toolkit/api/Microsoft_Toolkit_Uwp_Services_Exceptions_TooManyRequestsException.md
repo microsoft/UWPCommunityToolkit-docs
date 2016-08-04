@@ -13,11 +13,11 @@ The **TooManyRequestsException** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException.md) class.            Default constructor.
+Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException.md) class. Default constructor.
 
 #### contructor
 
-Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException.md) class.            Constructor with additional message.
+Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException.md) class. Constructor with additional message.
 
 ##### parameters
 
@@ -26,7 +26,7 @@ Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_U
 | name | description | type || --- | --- | --- || message | Additional message. | System.String |
 #### contructor
 
-Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException.md) class.            Constructor with additional message and reference to inner exception.
+Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException.md) class. Constructor with additional message and reference to inner exception.
 
 ##### parameters
 

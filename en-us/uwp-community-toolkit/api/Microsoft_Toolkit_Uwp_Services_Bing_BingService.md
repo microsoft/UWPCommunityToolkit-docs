@@ -19,7 +19,7 @@ The **BingService** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [BingService](Microsoft_Toolkit_Uwp_Services_Bing_BingService.md) class.            Default private constructor.
+Initializes a new instance of the [BingService](Microsoft_Toolkit_Uwp_Services_Bing_BingService.md) class. Default private constructor.
 
 ### methods
 

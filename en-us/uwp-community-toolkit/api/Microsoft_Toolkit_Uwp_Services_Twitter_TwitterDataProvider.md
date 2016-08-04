@@ -19,7 +19,7 @@ The **TwitterDataProvider** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [TwitterDataProvider](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterDataProvider.md) class.            Constructor.
+Initializes a new instance of the [TwitterDataProvider](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterDataProvider.md) class. Constructor.
 
 ##### parameters
 

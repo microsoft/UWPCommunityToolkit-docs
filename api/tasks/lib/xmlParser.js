@@ -70,13 +70,29 @@ var replaceReferences = function (content) {
 };
 
 var getText = function (node, prop) {
+	var text = "";
+
 	if (typeof node === 'string') {
-		return node ? node.replace('\n', '').trim() : '';
+		text = node ? node : '';
 	} else if (prop) {
-		return node[prop] ? node[prop].replace('\n', '').trim() : '';
+		text =  node[prop] ? node[prop] : '';
+	} else {
+		return "";
 	}
 
-	return '';
+	// Splits
+	var split = text.split("\n");
+	var result = "";
+
+	for (var index = 0; index < split.length; index++) {
+		result += split[index].trim();
+
+		if (index < split.length - 1) {
+			result += " ";
+		}		
+	}
+
+	return result;
 };
 
 var getTypesFromName = function (name) {

@@ -27,9 +27,7 @@ Initializes a new instance of the [PullToRefreshListView](Microsoft_Toolkit_Uwp_
 
 #### OnApplyTemplate()
 
-Invoked whenever application code or internal processes (such as a rebuilding            layout pass) call OnApplyTemplate. In simplest terms, this means the method
-            is called just before a UI element displays in an application. Override this
-            method to influence the default post-template logic of a class.
+Invoked whenever application code or internal processes (such as a rebuilding layout pass) call OnApplyTemplate. In simplest terms, this means the method is called just before a UI element displays in an application. Override this method to influence the default post-template logic of a class.
 
 #### RefreshableListView_SizeChanged()
 

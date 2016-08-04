@@ -27,7 +27,7 @@ Constructor to create a numeric badge content object with a number.
 
 
 
-| name | description | type || --- | --- | --- || number | The number that will appear on the badge.  If the number is 0, the badge            will be removed. | System.UInt32 |
+| name | description | type || --- | --- | --- || number | The number that will appear on the badge.  If the number is 0, the badge will be removed. | System.UInt32 |
 ### methods
 
 #### GetContent()
@@ -79,4 +79,4 @@ Retrieves the notification XML content as a WinRT XML document.
 
 #### Number
 
-The number that will appear on the badge.  If the number is 0, the badge            will be removed.
+The number that will appear on the badge.  If the number is 0, the badge will be removed.

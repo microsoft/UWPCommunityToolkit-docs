@@ -1,7 +1,7 @@
 
 # WeakEventListener<T1><T2><T3> class
 
-Implements a weak event listener that allows the owner to be garbage            collected if its only remaining link is an event handler.
+Implements a weak event listener that allows the owner to be garbage collected if its only remaining link is an event handler.
 
 ## Members
 

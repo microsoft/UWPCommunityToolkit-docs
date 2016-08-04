@@ -1,7 +1,7 @@
 
 # TileBindingContentPeople class
 
-New in 1511: Supported on Medium, Wide, and Large (Desktop and Mobile).            Previously for RTM: Phone-only. Supported on Medium and Wide.
+New in 1511: Supported on Medium, Wide, and Large (Desktop and Mobile). Previously for RTM: Phone-only. Supported on Medium and Wide.
 
 ## Members
 

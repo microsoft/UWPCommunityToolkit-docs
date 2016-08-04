@@ -21,7 +21,7 @@ The **RangeSelector** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [RangeSelector](Microsoft_Toolkit_Uwp_UI_Controls_RangeSelector.md) class.            Create a default range selector control.
+Initializes a new instance of the [RangeSelector](Microsoft_Toolkit_Uwp_UI_Controls_RangeSelector.md) class. Create a default range selector control.
 
 ### methods
 

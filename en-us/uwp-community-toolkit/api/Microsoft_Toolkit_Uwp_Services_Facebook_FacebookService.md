@@ -19,7 +19,7 @@ The **FacebookService** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [FacebookService](Microsoft_Toolkit_Uwp_Services_Facebook_FacebookService.md) class.            Default private constructor.
+Initializes a new instance of the [FacebookService](Microsoft_Toolkit_Uwp_Services_Facebook_FacebookService.md) class. Default private constructor.
 
 ### methods
 

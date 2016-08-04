@@ -13,11 +13,11 @@ The **ParserNullException** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [ParserNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ParserNullException.md) class.            Default constructor.
+Initializes a new instance of the [ParserNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ParserNullException.md) class. Default constructor.
 
 #### contructor
 
-Initializes a new instance of the [ParserNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ParserNullException.md) class.            Constructor with additional message.
+Initializes a new instance of the [ParserNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ParserNullException.md) class. Constructor with additional message.
 
 ##### parameters
 
@@ -26,7 +26,7 @@ Initializes a new instance of the [ParserNullException](Microsoft_Toolkit_Uwp_Se
 | name | description | type || --- | --- | --- || message | Additional message | System.String |
 #### contructor
 
-Initializes a new instance of the [ParserNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ParserNullException.md) class.            Constructor with additional message and inner exception.
+Initializes a new instance of the [ParserNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ParserNullException.md) class. Constructor with additional message and inner exception.
 
 ##### parameters
 

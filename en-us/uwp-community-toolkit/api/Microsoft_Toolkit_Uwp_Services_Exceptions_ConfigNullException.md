@@ -13,11 +13,11 @@ The **ConfigNullException** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [ConfigNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigNullException.md) class.            Default constructor.
+Initializes a new instance of the [ConfigNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigNullException.md) class. Default constructor.
 
 #### contructor
 
-Initializes a new instance of the [ConfigNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigNullException.md) class.            Constructor accepting additional message string.
+Initializes a new instance of the [ConfigNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigNullException.md) class. Constructor accepting additional message string.
 
 ##### parameters
 
@@ -26,7 +26,7 @@ Initializes a new instance of the [ConfigNullException](Microsoft_Toolkit_Uwp_Se
 | name | description | type || --- | --- | --- || message | Additional error information. | System.String |
 #### contructor
 
-Initializes a new instance of the [ConfigNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigNullException.md) class.            Constructor accepting additonal message string and inner exception
+Initializes a new instance of the [ConfigNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigNullException.md) class. Constructor accepting additonal message string and inner exception
 
 ##### parameters
 

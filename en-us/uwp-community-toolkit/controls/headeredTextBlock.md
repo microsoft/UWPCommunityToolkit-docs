@@ -33,4 +33,5 @@ The **HeaderedTextBlock Control** provides a header for read-only text. This con
 Windows 10 SDK 10586 or higher
 
 ## API
-[HeaderedTextBlock API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_HeaderedTextBlock.htm)
+* [HeaderedTextBlock source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/HeaderedTextBlock)
+* [HeaderedTextBlock API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_HeaderedTextBlock.htm)

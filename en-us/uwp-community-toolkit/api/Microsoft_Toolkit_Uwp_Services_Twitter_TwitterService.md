@@ -31,11 +31,7 @@ Initialize underlying provider with relevent token information.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| oAuthTokens | Token instance. | Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens |
-| return |Success or failure. |
-
+| name | description | type || --- | --- | --- || oAuthTokens | Token instance. | Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens || return |Success or failure. |
 #### Logout()
 
 Log user out of Twitter.
@@ -48,12 +44,7 @@ Post a Tweet with associated pictures.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| message | Tweet message. | System.String |
-| pictures | Pictures to attach to the tweet (up to 4). | Windows.Storage.Streams.IRandomAccessStream[] |
-| return |Returns success or failure of post request. |
-
+| name | description | type || --- | --- | --- || message | Tweet message. | System.String || pictures | Pictures to attach to the tweet (up to 4). | Windows.Storage.Streams.IRandomAccessStream[] || return |Returns success or failure of post request. |
 #### LoginAsync()
 
 Log user in to Twitter.
@@ -62,10 +53,7 @@ Log user in to Twitter.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| return |Returns success or failure of login attempt. |
-
+| name | description | type || --- | --- | --- || return |Returns success or failure of login attempt. |
 #### RequestAsync(Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig config,System.Int32 maxRecords)
 
 Request list data from service provider based upon a given config / query.
@@ -74,12 +62,7 @@ Request list data from service provider based upon a given config / query.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| config | TwitterDataConfig instance. | Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig |
-| maxRecords | Upper limit of records to return. | System.Int32 |
-| return |Strongly typed list of data returned from the service. |
-
+| name | description | type || --- | --- | --- || config | TwitterDataConfig instance. | Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig || maxRecords | Upper limit of records to return. Up to a maximum of 200 per distinct request. | System.Int32 || return |Strongly typed list of data returned from the service. |
 #### GetUserTimeLineAsync(System.String screenName,System.Int32 maxRecords)
 
 Retrieve user timeline data.
@@ -88,12 +71,7 @@ Retrieve user timeline data.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| screenName | User screen name. | System.String |
-| maxRecords | Upper record limit. | System.Int32 |
-| return |Returns strongly typed list of results. |
-
+| name | description | type || --- | --- | --- || screenName | User screen name. | System.String || maxRecords | Upper record limit. | System.Int32 || return |Returns strongly typed list of results. |
 #### Initialize(System.String consumerKey,System.String consumerSecret,System.String callbackUri)
 
 Initialize underlying provider with relevent token information.
@@ -102,13 +80,7 @@ Initialize underlying provider with relevent token information.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| consumerKey | Consumer key. | System.String |
-| consumerSecret | Consumer secret. | System.String |
-| callbackUri | Callback URI. | System.String |
-| return |Success or failure. |
-
+| name | description | type || --- | --- | --- || consumerKey | Consumer key. | System.String || consumerSecret | Consumer secret. | System.String || callbackUri | Callback URI. Has to match callback URI defined at apps.twitter.com (can be arbitrary). | System.String || return |Success or failure. |
 #### GetUserAsync(System.String screenName)
 
 Retrieve user data.
@@ -117,11 +89,7 @@ Retrieve user data.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| screenName | User screen name or null for current logged user. | System.String |
-| return |Returns user data. |
-
+| name | description | type || --- | --- | --- || screenName | User screen name or null for current logged user. | System.String || return |Returns user data. |
 #### SearchAsync(System.String hashTag,System.Int32 maxRecords)
 
 Search for specific hash tag.
@@ -130,12 +98,7 @@ Search for specific hash tag.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| hashTag | Hash tag. | System.String |
-| maxRecords | Upper record limit. | System.Int32 |
-| return |Returns strongly typed list of results. |
-
+| name | description | type || --- | --- | --- || hashTag | Hash tag. | System.String || maxRecords | Upper record limit. | System.Int32 || return |Returns strongly typed list of results. |
 ### properties
 
 #### Provider

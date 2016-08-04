@@ -25,12 +25,7 @@ Initializes a new instance of the [TwitterOAuthRequestBuilder](Microsoft_Toolkit
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| requestUri | Request Uri. | System.Uri |
-| tokens | Tokens to form request. | Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens |
-| method | Method to use with request. | System.String |
-
+| name | description | type || --- | --- | --- || requestUri | Request Uri. | System.Uri || tokens | Tokens to form request. | Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens || method | Method to use with request. | System.String |
 ### methods
 
 #### GetAuthHeaderParameters()
@@ -41,10 +36,7 @@ Get list of auth header parameters.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| return |List of auth header paramters. |
-
+| name | description | type || --- | --- | --- || return |List of auth header paramters. |
 #### GetEncodedUri(System.Uri requestUri,System.Collections.Generic.IEnumerable(Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter) parameters)
 
 Get encoded Uri.
@@ -53,12 +45,7 @@ Get encoded Uri.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| requestUri | Request uri. | System.Uri |
-| parameters | List of parameters. | System.Collections.Generic.IEnumerable(Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter) |
-| return |Encoded Uri. |
-
+| name | description | type || --- | --- | --- || requestUri | Request uri. | System.Uri || parameters | List of parameters. | System.Collections.Generic.IEnumerable(Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter) || return |Encoded Uri. |
 #### GenerateNonce()
 
 Generate nonce.
@@ -67,10 +54,7 @@ Generate nonce.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| return |String nonce. |
-
+| name | description | type || --- | --- | --- || return |String nonce. |
 #### GenerateTimeStamp()
 
 Generate timestamp string.
@@ -79,10 +63,7 @@ Generate timestamp string.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| return |Timestamp string. |
-
+| name | description | type || --- | --- | --- || return |Timestamp string. |
 #### GenerateSignature()
 
 Generate signature.
@@ -91,10 +72,7 @@ Generate signature.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| return |Generated signature string. |
-
+| name | description | type || --- | --- | --- || return |Generated signature string. |
 #### GenerateAuthorizationHeader()
 
 Generate authorization header.
@@ -103,10 +81,7 @@ Generate authorization header.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| return |Generated authorizatin header string. |
-
+| name | description | type || --- | --- | --- || return |Generated authorizatin header string. |
 #### GetSignParameters()
 
 Get list of sign parameters.
@@ -115,10 +90,7 @@ Get list of sign parameters.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| return |List of sign parameters. |
-
+| name | description | type || --- | --- | --- || return |List of sign parameters. |
 ### properties
 
 #### SignatureMethod

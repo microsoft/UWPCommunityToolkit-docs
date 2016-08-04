@@ -19,11 +19,7 @@ Get query parameters from Uri.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| uri | Uri to process. | System.Uri |
-| return |Dictionary of query parameters. |
-
+| name | description | type || --- | --- | --- || uri | Uri to process. | System.Uri || return |Dictionary of query parameters. |
 #### AbsoluteWithoutQuery(System.Uri uri)
 
 Get absolute Uri.
@@ -32,11 +28,7 @@ Get absolute Uri.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| uri | Uri to process. | System.Uri |
-| return |Uri without query string. |
-
+| name | description | type || --- | --- | --- || uri | Uri to process. | System.Uri || return |Uri without query string. |
 #### Normalize(System.Uri uri)
 
 Normalize the Uri into string.
@@ -45,7 +37,4 @@ Normalize the Uri into string.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| uri | Uri to process. | System.Uri |
-| return |Normalized string. |
+| name | description | type || --- | --- | --- || uri | Uri to process. | System.Uri || return |Normalized string. |

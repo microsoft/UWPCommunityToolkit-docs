@@ -21,11 +21,7 @@ Initializes a Toast button with the required properties.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| content | The text to display on the button. | System.String |
-| arguments | App-defined string of arguments that the app can later retrieve once it is activated when the user clicks the button. | System.String |
-
+| name | description | type || --- | --- | --- || content | The text to display on the button. | System.String || arguments | App-defined string of arguments that the app can later retrieve once it is activated when the user clicks the button. | System.String |
 ### properties
 
 #### Content

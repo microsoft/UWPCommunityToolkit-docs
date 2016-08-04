@@ -21,13 +21,7 @@ Wrapper around REST API for making data request.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| config | Query configuration. | Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig |
-| maxRecords | Upper limit for records returned. | System.Int32 |
-| parser | IParser implementation for interpreting results. | Microsoft.Toolkit.Uwp.Services.IParser(TT0) |
-| return |Strongly typed list of results. |
-
+| name | description | type || --- | --- | --- || config | Query configuration. | Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig || maxRecords | Upper limit for records returned. | System.Int32 || parser | IParser implementation for interpreting results. | Microsoft.Toolkit.Uwp.Services.IParser(TT0) || return |Strongly typed list of results. |
 #### GetDefaultParser(Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig config)
 
 Returns parser implementation for specified configuration.
@@ -36,11 +30,7 @@ Returns parser implementation for specified configuration.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| config | Query configuration. | Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig |
-| return |Strongly typed parser. |
-
+| name | description | type || --- | --- | --- || config | Query configuration. | Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig || return |Strongly typed parser. |
 #### ValidateConfig(Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig config)
 
 Check validity of configuration.
@@ -49,10 +39,7 @@ Check validity of configuration.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| config | Query configuration. | Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig |
-
+| name | description | type || --- | --- | --- || config | Query configuration. | Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig |
 ### fields
 
 #### BaseUrl

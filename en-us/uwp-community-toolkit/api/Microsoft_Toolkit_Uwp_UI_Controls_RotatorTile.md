@@ -33,7 +33,7 @@ Triggered when it's time to flip to the next live tile.
 
 ### properties
 
-#### SelectedItem
+#### CurrentItem
 
 Gets or sets the currently selected visible item
 
@@ -55,9 +55,9 @@ Gets or sets the item template
 
 Identifies the ItemTemplate property.
 
-#### SelectedItemProperty
+#### CurrentItemProperty
 
-Identifies the SelectedItem property.
+Identifies the CurrentItem property.
 
 #### RotateDirectionProperty
 

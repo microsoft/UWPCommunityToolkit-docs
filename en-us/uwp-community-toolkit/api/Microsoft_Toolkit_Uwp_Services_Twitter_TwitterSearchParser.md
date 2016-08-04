@@ -19,7 +19,4 @@ Parse string into strong typed list.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| data | Input string. | System.String |
-| return |Strong typed list. |
+| name | description | type || --- | --- | --- || data | Input string. | System.String || return |Strong typed list. |

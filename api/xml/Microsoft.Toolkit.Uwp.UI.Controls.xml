@@ -409,9 +409,9 @@
             Identifies the <see cref="T:Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.RotateDirection"/> property.
             </summary>
         </member>
-        <member name="F:Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.SelectedItemProperty">
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.CurrentItemProperty">
             <summary>
-            Identifies the <see cref="P:Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.SelectedItem"/> property.
+            Identifies the <see cref="P:Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.CurrentItem"/> property.
             </summary>
         </member>
         <member name="M:Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.#ctor">
@@ -432,7 +432,7 @@
             Gets or sets the ItemsSource
             </summary>
         </member>
-        <member name="P:Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.SelectedItem">
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.CurrentItem">
             <summary>
             Gets or sets the currently selected visible item
             </summary>
@@ -1335,21 +1335,6 @@
             Invoked whenever application code or internal processes (such as a rebuilding layout pass) call
             ApplyTemplate. In simplest terms, this means the method is called just before a UI element displays
             in your app. Override this method to influence the default post-template logic of a class.
-            </summary>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.UI.Controls.Microsoft_Toolkit_Uwp_UI_Controls_XamlTypeInfo.XamlMetaDataProvider.GetXamlType(System.Type)">
-            <summary>
-            GetXamlType(Type)
-            </summary>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.UI.Controls.Microsoft_Toolkit_Uwp_UI_Controls_XamlTypeInfo.XamlMetaDataProvider.GetXamlType(System.String)">
-            <summary>
-            GetXamlType(String)
-            </summary>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.UI.Controls.Microsoft_Toolkit_Uwp_UI_Controls_XamlTypeInfo.XamlMetaDataProvider.GetXmlnsDefinitions">
-            <summary>
-            GetXmlnsDefinitions()
             </summary>
         </member>
         <member name="T:Microsoft.Toolkit.Uwp.ControlHelpers">

@@ -21,13 +21,7 @@ Attempts to find and re-use an existing text element inside the binding. Returns
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| lineNumber | The lock screen line number. | System.Int32 |
-| lockText | The lock screen line text. | System.String |
-| binding | The binding to look in for matches. | Microsoft.Toolkit.Uwp.Notifications.Element_TileBinding |
-| return |True if could re-use existing text element, otherwise false. |
-
+| name | description | type || --- | --- | --- || lineNumber | The lock screen line number. | System.Int32 || lockText | The lock screen line text. | System.String || binding | The binding to look in for matches. | Microsoft.Toolkit.Uwp.Notifications.Element_TileBinding || return |True if could re-use existing text element, otherwise false. |
 ### properties
 
 #### Language

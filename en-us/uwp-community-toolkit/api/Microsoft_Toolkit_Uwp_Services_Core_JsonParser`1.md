@@ -19,7 +19,4 @@ Takes string data and parses to strong type.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| data | String data. | System.String |
-| return |Strong type deserialized from string data. |
+| name | description | type || --- | --- | --- || data | String data. | System.String || return |Strong type deserialized from string data. |

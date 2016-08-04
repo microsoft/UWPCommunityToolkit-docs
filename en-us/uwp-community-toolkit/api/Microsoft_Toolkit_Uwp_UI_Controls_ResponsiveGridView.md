@@ -26,18 +26,6 @@ Initializes a new instance of the [ResponsiveGridView](Microsoft_Toolkit_Uwp_UI_
 
 ### methods
 
-#### GetXmlnsDefinitions()
-
-GetXmlnsDefinitions()
-
-#### GetXamlType()
-
-GetXamlType(String)
-
-#### GetXamlType()
-
-GetXamlType(Type)
-
 #### OnApplyTemplate()
 
 Invoked whenever application code or internal processes (such as a rebuilding layout pass) call            ApplyTemplate. In simplest terms, this means the method is called just before a UI element displays
@@ -45,9 +33,9 @@ Invoked whenever application code or internal processes (such as a rebuilding la
 
 ### properties
 
-#### ItemHeight
+#### DesiredWidth
 
-Gets or sets the height of each item in the grid.
+Gets or sets the desired width of each item
 
 #### OneRowModeEnabled
 
@@ -57,17 +45,17 @@ Gets or sets a value indicating whether only one row should be displayed.
 
 Gets or sets the DataTemplate used to display each item.
 
-#### DesiredWidth
+#### ItemsSource
 
-Gets or sets the desired width of each item
+Gets or sets an object source used to generate the content of the grid.
+
+#### ItemHeight
+
+Gets or sets the height of each item in the grid.
 
 #### ItemClickCommand
 
 Gets or sets the command to execute when an item is clicked.
-
-#### ItemsSource
-
-Gets or sets an object source used to generate the content of the grid.
 
 ### events
 

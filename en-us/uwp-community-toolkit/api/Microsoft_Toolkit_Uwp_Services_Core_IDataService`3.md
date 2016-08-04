@@ -21,12 +21,7 @@ Makes a request for a list of data from the given service provider.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| config | Describes the query on the list data request. | T2 |
-| maxRecords | Specifies an upper limit to the number of records returned. | System.Int32 |
-| return |Returns a strongly typed list of results from the service. |
-
+| name | description | type || --- | --- | --- || config | Describes the query on the list data request. | T2 || maxRecords | Specifies an upper limit to the number of records returned. | System.Int32 || return |Returns a strongly typed list of results from the service. |
 ### properties
 
 #### Provider

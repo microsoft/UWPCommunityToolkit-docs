@@ -21,10 +21,7 @@ Retrieves the notification XML content as a string, so that it can be sent with 
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| return |The notification XML content as a string. |
-
+| name | description | type || --- | --- | --- || return |The notification XML content as a string. |
 #### GetXml()
 
 Retrieves the notification XML content as a WinRT XmlDocument, so that it can be used with a local Toast notification's constructor on either [ToastNotification](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Notifications.ToastNotification) or [ScheduledToastNotification](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Notifications.ScheduledToastNotification).
@@ -33,10 +30,7 @@ Retrieves the notification XML content as a WinRT XmlDocument, so that it can be
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| return |The notification XML content as a WinRT XmlDocument. |
-
+| name | description | type || --- | --- | --- || return |The notification XML content as a WinRT XmlDocument. |
 ### properties
 
 #### Visual

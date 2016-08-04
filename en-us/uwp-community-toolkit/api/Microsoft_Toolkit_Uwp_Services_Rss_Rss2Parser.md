@@ -21,11 +21,7 @@ This override load and parses the document and return a list of RssSchema values
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| doc | XDocument to be loaded. | System.Xml.Linq.XDocument |
-| return |Strongly typed list of feeds. |
-
+| name | description | type || --- | --- | --- || doc | XDocument to be loaded. | System.Xml.Linq.XDocument || return |Strongly typed list of feeds. |
 #### ParseItem(System.Xml.Linq.XElement item)
 
 Parses XElement item into strong typed object.
@@ -34,11 +30,7 @@ Parses XElement item into strong typed object.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| item | XElement item to parse. | System.Xml.Linq.XElement |
-| return |Strong typed object. |
-
+| name | description | type || --- | --- | --- || item | XElement item to parse. | System.Xml.Linq.XElement || return |Strong typed object. |
 #### ParseRDFItem(System.Xml.Linq.XElement item)
 
 Parses RSS version 1.0 objects.
@@ -47,11 +39,7 @@ Parses RSS version 1.0 objects.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| item | XElement item. | System.Xml.Linq.XElement |
-| return |Strong typed object. |
-
+| name | description | type || --- | --- | --- || item | XElement item. | System.Xml.Linq.XElement || return |Strong typed object. |
 #### ParseRssItem(System.Xml.Linq.XElement item)
 
 Parses RSS version 2.0 objects.
@@ -60,11 +48,7 @@ Parses RSS version 2.0 objects.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| item | XElement item. | System.Xml.Linq.XElement |
-| return |Strong typed object. |
-
+| name | description | type || --- | --- | --- || item | XElement item. | System.Xml.Linq.XElement || return |Strong typed object. |
 #### GetItemAuthor(System.Xml.Linq.XElement item)
 
 Retrieve item author from item.
@@ -73,11 +57,7 @@ Retrieve item author from item.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| item | XElement item. | System.Xml.Linq.XElement |
-| return |String of item author. |
-
+| name | description | type || --- | --- | --- || item | XElement item. | System.Xml.Linq.XElement || return |String of item author. |
 ### fields
 
 #### NsRdfNamespaceUri

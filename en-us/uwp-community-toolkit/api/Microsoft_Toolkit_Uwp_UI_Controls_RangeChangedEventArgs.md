@@ -21,12 +21,7 @@ Initializes a new instance of the [RangeChangedEventArgs](Microsoft_Toolkit_Uwp_
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| oldValue | The old value | System.Double |
-| newValue | The new value | System.Double |
-| changedRangeProperty | The changed range property | Microsoft.Toolkit.Uwp.UI.Controls.RangeSelectorProperty |
-
+| name | description | type || --- | --- | --- || oldValue | The old value | System.Double || newValue | The new value | System.Double || changedRangeProperty | The changed range property | Microsoft.Toolkit.Uwp.UI.Controls.RangeSelectorProperty |
 ### properties
 
 #### OldValue

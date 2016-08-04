@@ -19,7 +19,4 @@ Take string data and parse into strong data type.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| data | String data. | System.String |
-| return |Returns strong type. |
+| name | description | type || --- | --- | --- || data | String data. | System.String || return |Returns strong type. |

@@ -23,11 +23,7 @@ Provides the behavior for the Measure pass of the layout cycle. Classes can over
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| availableSize | The available size that this object can give to child objects. Infinity can be specified as a value to indicate that the object will size to whatever content is available. | Windows.Foundation.Size |
-| return |The size that this object determines it needs during layout, based on its calculations of the allocated sizes for child objects or based on other considerations such as a fixed container size. |
-
+| name | description | type || --- | --- | --- || availableSize | The available size that this object can give to child objects. Infinity can be specified as a value to indicate that the object will size to whatever content is available. | Windows.Foundation.Size || return |The size that this object determines it needs during layout, based on its calculations of the allocated sizes for child objects or based on other considerations such as a fixed container size. |
 #### ArrangeOverride(Windows.Foundation.Size finalSize)
 
 Provides the behavior for the Arrange pass of layout. Classes can override this method to define their own Arrange pass behavior.
@@ -36,11 +32,7 @@ Provides the behavior for the Arrange pass of layout. Classes can override this 
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| finalSize | The final area within the parent that this object should use to arrange itself and its children. | Windows.Foundation.Size |
-| return |The actual size that is used after the element is arranged in layout. |
-
+| name | description | type || --- | --- | --- || finalSize | The final area within the parent that this object should use to arrange itself and its children. | Windows.Foundation.Size || return |The actual size that is used after the element is arranged in layout. |
 #### PrepareItem(System.Int32 index,Windows.UI.Xaml.UIElement element,System.Int32@ colSpan,System.Int32@ rowSpan)
 
 Assigned the row and column span for a given item.
@@ -49,13 +41,7 @@ Assigned the row and column span for a given item.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| index | The index of the element. | System.Int32 |
-| element | The element. | Windows.UI.Xaml.UIElement |
-| colSpan | The col span to use for the item. | System.Int32@ |
-| rowSpan | The row span to use for the item. | System.Int32@ |
-
+| name | description | type || --- | --- | --- || index | The index of the element. | System.Int32 || element | The element. | Windows.UI.Xaml.UIElement || colSpan | The col span to use for the item. | System.Int32@ || rowSpan | The row span to use for the item. | System.Int32@ |
 ### properties
 
 #### Orientation

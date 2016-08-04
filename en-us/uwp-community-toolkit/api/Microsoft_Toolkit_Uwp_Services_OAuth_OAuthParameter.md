@@ -23,11 +23,7 @@ Initializes a new instance of the [OAuthParameter](Microsoft_Toolkit_Uwp_Service
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| key | Key. | System.String |
-| value | Value. | System.String |
-
+| name | description | type || --- | --- | --- || key | Key. | System.String || value | Value. | System.String |
 ### methods
 
 #### ToString()
@@ -38,10 +34,7 @@ ToString override.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| return |String representation |
-
+| name | description | type || --- | --- | --- || return |String representation |
 #### ToString(System.Boolean withQuotes)
 
 Format key / value into string.
@@ -50,11 +43,7 @@ Format key / value into string.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| withQuotes | Whether to create quotes in string. | System.Boolean |
-| return |Formatted string of key / value. |
-
+| name | description | type || --- | --- | --- || withQuotes | Whether to create quotes in string. | System.Boolean || return |Formatted string of key / value. |
 ### properties
 
 #### Key

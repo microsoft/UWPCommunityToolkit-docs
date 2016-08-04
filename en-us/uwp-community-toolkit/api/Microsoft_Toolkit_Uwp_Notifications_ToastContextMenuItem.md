@@ -21,11 +21,7 @@ Initializes a Toast context menu item with the required properties.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| content | The text to display on the menu item. | System.String |
-| arguments | App-defined string of arguments that the app can later retrieve once it is activated when the user clicks the menu item. | System.String |
-
+| name | description | type || --- | --- | --- || content | The text to display on the menu item. | System.String || arguments | App-defined string of arguments that the app can later retrieve once it is activated when the user clicks the menu item. | System.String |
 ### properties
 
 #### Content

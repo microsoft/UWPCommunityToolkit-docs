@@ -21,10 +21,7 @@ Returns the image's source string.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| return |The image's source string. |
-
+| name | description | type || --- | --- | --- || return |The image's source string. |
 ### properties
 
 #### HintCrop

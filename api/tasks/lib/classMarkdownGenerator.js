@@ -85,27 +85,27 @@ module.exports = function (context) {
 					if (member.params.length || member.returns.length) {
 						generator.addLine('##### parameters');
 						generator.addContent('\n\n\n');
-						generator.addContent('| name | description | type |\n');
-						generator.addContent('| --- | --- | --- |\n');
+						generator.addContent('| name | description | type |\r');
+						generator.addContent('| --- | --- | --- |\r');
 					}
 
 					member.params.forEach(function (param) {
-						generator.addContent('| ' + param.name + ' | ' + generator.treatText(param.text) + ' | ' + param.type + ' |\n');
+						generator.addContent('| ' + param.name + ' | ' + generator.treatText(param.text) + ' | ' + param.type + ' |\r');
 					});
 
 					member.returns.forEach(function (ret) {
-						generator.addContent('| return |' + generator.treatText(ret.text) + ' |\n');
+						generator.addContent('| return |' + generator.treatText(ret.text) + ' |\r');
 					});
 
 					if (member.exceptions.length) {
 						generator.addLine('##### exceptions');
 						generator.addLine('');
-						generator.addContent('| type | description |\n');
-						generator.addContent('| --- | --- |\n');
+						generator.addContent('| type | description |\r');
+						generator.addContent('| --- | --- |\r');
 					}
 
 					member.exceptions.forEach(function (exc) {
-						generator.addContent('| exception type |' + exc.text + ' |\n');
+						generator.addContent('| exception type |' + exc.text + ' |\r');
 					});
 				});
 			});

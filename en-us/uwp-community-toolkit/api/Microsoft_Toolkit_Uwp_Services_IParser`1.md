@@ -19,7 +19,4 @@ Parse method which all classes must implement.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| data | Data to parse. | System.String |
-| return |Strong typed parsed data. |
+| name | description | type || --- | --- | --- || data | Data to parse. | System.String || return |Strong typed parsed data. |

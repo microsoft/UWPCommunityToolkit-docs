@@ -21,10 +21,7 @@ Returns the Text property's value.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| return |The Text property's value. |
-
+| name | description | type || --- | --- | --- || return |The Text property's value. |
 ### properties
 
 #### Text

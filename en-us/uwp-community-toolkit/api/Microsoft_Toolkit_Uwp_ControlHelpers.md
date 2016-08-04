@@ -19,11 +19,7 @@ Get the visual associated with an UIElement
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| element | Source UIElement | Windows.UI.Xaml.UIElement |
-| return |ContainerVisual associated with the element |
-
+| name | description | type || --- | --- | --- || element | Source UIElement | Windows.UI.Xaml.UIElement || return |ContainerVisual associated with the element |
 #### Mod(System.Int32 value,System.Int32 module)
 
 Gets the positive modulo of an integer
@@ -32,12 +28,7 @@ Gets the positive modulo of an integer
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| value | Value to use | System.Int32 |
-| module | Module to use | System.Int32 |
-| return |Positive modulo |
-
+| name | description | type || --- | --- | --- || value | Value to use | System.Int32 || module | Module to use | System.Int32 || return |Positive modulo |
 #### IncMod(System.Int32 value,System.Int32 module)
 
 Gets modulo of value + 1
@@ -46,12 +37,7 @@ Gets modulo of value + 1
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| value | Value to use | System.Int32 |
-| module | Module to use | System.Int32 |
-| return |Modulo of value + 1 |
-
+| name | description | type || --- | --- | --- || value | Value to use | System.Int32 || module | Module to use | System.Int32 || return |Modulo of value + 1 |
 #### DecMod(System.Int32 value,System.Int32 module)
 
 Gets modulo of value - 1
@@ -60,12 +46,7 @@ Gets modulo of value - 1
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| value | Value to use | System.Int32 |
-| module | Module to use | System.Int32 |
-| return |Modulo of value - 1 |
-
+| name | description | type || --- | --- | --- || value | Value to use | System.Int32 || module | Module to use | System.Int32 || return |Modulo of value - 1 |
 #### Mod(System.Double value,System.Double module)
 
 Gets the positive modulo of a double
@@ -74,8 +55,4 @@ Gets the positive modulo of a double
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| value | Value to use | System.Double |
-| module | Module to use | System.Double |
-| return |Positive modulo |
+| name | description | type || --- | --- | --- || value | Value to use | System.Double || module | Module to use | System.Double || return |Positive modulo |

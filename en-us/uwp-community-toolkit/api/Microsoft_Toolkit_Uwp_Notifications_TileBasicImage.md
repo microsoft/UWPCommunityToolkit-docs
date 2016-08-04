@@ -21,10 +21,7 @@ Generates an enumerable collection of children and all those children's children
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| return |Enumerable collection of children and all those children's children. |
-
+| name | description | type || --- | --- | --- || return |Enumerable collection of children and all those children's children. |
 #### CheckOverlayValue(System.Int32 value)
 
 Throws exception if value is invalid
@@ -33,10 +30,7 @@ Throws exception if value is invalid
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| value | Overlay value (0-100) | System.Int32 |
-
+| name | description | type || --- | --- | --- || value | Overlay value (0-100) | System.Int32 |
 ### properties
 
 #### AddImageQuery

@@ -19,12 +19,7 @@ Load data from provider endpoint.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| config | Query configuration. | T0 |
-| maxRecords | Upper record limit. | System.Int32 |
-| return |List of strong typed objects. |
-
+| name | description | type || --- | --- | --- || config | Query configuration. | T0 || maxRecords | Upper record limit. | System.Int32 || return |List of strong typed objects. |
 #### GetDefaultParser(T0 config)
 
 Default parser abstract method.
@@ -33,7 +28,4 @@ Default parser abstract method.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| config | Query configuration object. | T0 |
-| return |Strong typed default parser. |
+| name | description | type || --- | --- | --- || config | Query configuration object. | T0 || return |Strong typed default parser. |

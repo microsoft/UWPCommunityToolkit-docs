@@ -23,10 +23,7 @@ Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolk
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| parameter | Name of the parameter. | System.String |
-
+| name | description | type || --- | --- | --- || parameter | Name of the parameter. | System.String |
 #### contructor
 
 Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigParameterNullException.md) class.            Accepts parameter name and inner exception.
@@ -35,7 +32,4 @@ Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolk
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| message | Name of the parameter. | System.String |
-| innerException | Reference to the inner exception. | System.Exception |
+| name | description | type || --- | --- | --- || message | Name of the parameter. | System.String || innerException | Reference to the inner exception. | System.Exception |

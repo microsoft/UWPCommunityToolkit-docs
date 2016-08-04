@@ -25,10 +25,7 @@ Initializes a system-handled snooze button that displays your text on the button
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| customContent | The text you want displayed on the button. | System.String |
-
+| name | description | type || --- | --- | --- || customContent | The text you want displayed on the button. | System.String |
 ### properties
 
 #### CustomContent

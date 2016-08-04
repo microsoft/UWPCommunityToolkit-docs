@@ -21,10 +21,7 @@ Initializes a new Toast SelectionBox input control with the required elements.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| id | Developer-provided ID that the developer uses later to retrieve input when the Toast is interacted with. | System.String |
-
+| name | description | type || --- | --- | --- || id | Developer-provided ID that the developer uses later to retrieve input when the Toast is interacted with. | System.String |
 ### properties
 
 #### Id

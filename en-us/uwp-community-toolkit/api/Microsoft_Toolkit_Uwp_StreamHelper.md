@@ -11,7 +11,7 @@ The **StreamHelper** class has this types of members
 
 ### methods
 
-#### IsPackagedFileExistsAsync(System.String relativeFileName)
+#### IsPackagedFileExistsAsync(System.String fileName)
 
 Test if a file exists in the application installation folder.
 
@@ -19,12 +19,8 @@ Test if a file exists in the application installation folder.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| relativeFileName | Relative name of the file to open. Can contains subfolders. | System.String |
-| return |True if file exists. |
-
-#### GetHTTPStreamAsync(System.Uri uri)
+| name | description | type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | System.String || return |True if file exists. |
+#### GetHttpStreamAsync(System.Uri uri)
 
 Get the response stream returned by a HTTP get request.
 
@@ -32,12 +28,8 @@ Get the response stream returned by a HTTP get request.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| uri | Uri to request. | System.Uri |
-| return |Response stream |
-
-#### GetPackagedFileStreamAsync(System.String relativeFileName,Windows.Storage.FileAccessMode accessMode)
+| name | description | type || --- | --- | --- || uri | Uri to request. | System.Uri || return |Response stream |
+#### GetPackagedFileStreamAsync(System.String fileName,Windows.Storage.FileAccessMode accessMode)
 
 Return a stream to a specified file from the installation folder.
 
@@ -45,13 +37,8 @@ Return a stream to a specified file from the installation folder.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| relativeFileName | Relative name of the file to open. Can contains subfolders. | System.String |
-| accessMode | File access mode. Default is read. | Windows.Storage.FileAccessMode |
-| return |File stream |
-
-#### GetLocalFileStreamAsync(System.String relativeFileName,Windows.Storage.FileAccessMode accessMode)
+| name | description | type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | System.String || accessMode | File access mode. Default is read. | Windows.Storage.FileAccessMode || return |File stream |
+#### GetLocalFileStreamAsync(System.String fileName,Windows.Storage.FileAccessMode accessMode)
 
 Return a stream to a specified file from the application local folder.
 
@@ -59,13 +46,8 @@ Return a stream to a specified file from the application local folder.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| relativeFileName | Relative name of the file to open. Can contains subfolders. | System.String |
-| accessMode | File access mode. Default is read. | Windows.Storage.FileAccessMode |
-| return |File stream |
-
-#### GetLocalCacheFileStreamAsync(System.String relativeFileName,Windows.Storage.FileAccessMode accessMode)
+| name | description | type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | System.String || accessMode | File access mode. Default is read. | Windows.Storage.FileAccessMode || return |File stream |
+#### GetLocalCacheFileStreamAsync(System.String fileName,Windows.Storage.FileAccessMode accessMode)
 
 Return a stream to a specified file from the application local cache folder.
 
@@ -73,13 +55,8 @@ Return a stream to a specified file from the application local cache folder.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| relativeFileName | Relative name of the file to open. Can contains subfolders. | System.String |
-| accessMode | File access mode. Default is read. | Windows.Storage.FileAccessMode |
-| return |File stream |
-
-#### GetKnowFoldersFileStreamAsync(Windows.Storage.KnownFolderId knownFolderId,System.String relativeFileName,Windows.Storage.FileAccessMode accessMode)
+| name | description | type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | System.String || accessMode | File access mode. Default is read. | Windows.Storage.FileAccessMode || return |File stream |
+#### GetKnowFoldersFileStreamAsync(Windows.Storage.KnownFolderId knownFolderId,System.String fileName,Windows.Storage.FileAccessMode accessMode)
 
 Return a stream to a specified file from the application local cache folder.
 
@@ -87,14 +64,8 @@ Return a stream to a specified file from the application local cache folder.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| knownFolderId | The well known folder ID to use | Windows.Storage.KnownFolderId |
-| relativeFileName | Relative name of the file to open. Can contains subfolders. | System.String |
-| accessMode | File access mode. Default is read. | Windows.Storage.FileAccessMode |
-| return |File stream |
-
-#### GetHTTPStreamToStorageFileAsync(System.Uri uri,Windows.Storage.StorageFile targetFile)
+| name | description | type || --- | --- | --- || knownFolderId | The well known folder ID to use | Windows.Storage.KnownFolderId || fileName | Relative name of the file to open. Can contains subfolders. | System.String || accessMode | File access mode. Default is read. | Windows.Storage.FileAccessMode || return |File stream |
+#### GetHttpStreamToStorageFileAsync(System.Uri uri,Windows.Storage.StorageFile targetFile)
 
 Get the response stream returned by a HTTP get request and save it to a local file.
 
@@ -102,13 +73,8 @@ Get the response stream returned by a HTTP get request and save it to a local fi
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| uri | Uri to request. | System.Uri |
-| targetFile | StorageFile to save the stream to. | Windows.Storage.StorageFile |
-| return |True if success. |
-
-#### IsLocalFileExistsAsync(System.String relativeFileName)
+| name | description | type || --- | --- | --- || uri | Uri to request. | System.Uri || targetFile | StorageFile to save the stream to. | Windows.Storage.StorageFile || return |True if success. |
+#### IsLocalFileExistsAsync(System.String fileName)
 
 Test if a file exists in the application local folder.
 
@@ -116,12 +82,8 @@ Test if a file exists in the application local folder.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| relativeFileName | Relative name of the file to open. Can contains subfolders. | System.String |
-| return |True if file exists. |
-
-#### IsLocalCacheFileExistsAsync(System.String relativeFileName)
+| name | description | type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | System.String || return |True if file exists. |
+#### IsLocalCacheFileExistsAsync(System.String fileName)
 
 Test if a file exists in the application local cache folder.
 
@@ -129,12 +91,8 @@ Test if a file exists in the application local cache folder.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| relativeFileName | Relative name of the file to open. Can contains subfolders. | System.String |
-| return |True if file exists. |
-
-#### IsKnownFolderFileExistsAsync(Windows.Storage.KnownFolderId knownFolderId,System.String relativeFileName)
+| name | description | type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | System.String || return |True if file exists. |
+#### IsKnownFolderFileExistsAsync(Windows.Storage.KnownFolderId knownFolderId,System.String fileName)
 
 Test if a file exists in the application local cache folder.
 
@@ -142,13 +100,8 @@ Test if a file exists in the application local cache folder.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| knownFolderId | The well known folder ID to use | Windows.Storage.KnownFolderId |
-| relativeFileName | Relative name of the file to open. Can contains subfolders. | System.String |
-| return |True if file exists. |
-
-#### IsFileExistsAsync(Windows.Storage.StorageFolder workingFolder,System.String relativeFileName)
+| name | description | type || --- | --- | --- || knownFolderId | The well known folder ID to use | Windows.Storage.KnownFolderId || fileName | Relative name of the file to open. Can contains subfolders. | System.String || return |True if file exists. |
+#### IsFileExistsAsync(Windows.Storage.StorageFolder workingFolder,System.String fileName)
 
 Test if a file exists in the application local folder.
 
@@ -156,12 +109,7 @@ Test if a file exists in the application local folder.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| workingFolder | Folder to use. | Windows.Storage.StorageFolder |
-| relativeFileName | Relative name of the file to open. Can contains subfolders. | System.String |
-| return |True if file exists. |
-
+| name | description | type || --- | --- | --- || workingFolder | Folder to use. | Windows.Storage.StorageFolder || fileName | Relative name of the file to open. Can contains subfolders. | System.String || return |True if file exists. |
 #### ReadTextAsync(Windows.Storage.Streams.IRandomAccessStream stream,System.Text.Encoding encoding)
 
 Read stream content as a string.
@@ -170,8 +118,4 @@ Read stream content as a string.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| stream | Stream to read from. | Windows.Storage.Streams.IRandomAccessStream |
-| encoding | Encoding to use. Can be set to null (ASCII will be used in this case). | System.Text.Encoding |
-| return |Stream content. |
+| name | description | type || --- | --- | --- || stream | Stream to read from. | Windows.Storage.Streams.IRandomAccessStream || encoding | Encoding to use. Can be set to null (ASCII will be used in this case). | System.Text.Encoding || return |Stream content. |

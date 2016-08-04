@@ -14,13 +14,13 @@ module.exports = function (context) {
 
 			if (model.classes.length) {
 				generator.addLine('');
-				generator.addContent('| class | description |\n');
-				generator.addContent('| --- | --- |\n');
+				generator.addContent('| class | description |\r');
+				generator.addContent('| --- | --- |\r');
 
 				model.classes.forEach(function (c) {
 					var name = generator.generateLink(c.fullName);
 					var summary = generator.treatText(c.summary);
-					generator.addContent('| ' + name + ' | ' + summary + ' |\n');
+					generator.addContent('| ' + name + ' | ' + summary + ' |\r');
 				});
 			}
 

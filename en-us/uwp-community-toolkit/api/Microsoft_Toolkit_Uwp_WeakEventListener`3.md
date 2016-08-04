@@ -25,10 +25,7 @@ Initializes a new instance of the [WeakEventListener<T1><T2><T3>](Microsoft_Tool
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| instance | Instance subscribing to the event. | T0 |
-
+| name | description | type || --- | --- | --- || instance | Instance subscribing to the event. | T0 |
 ### methods
 
 #### OnEvent(T1 source,T2 eventArgs)
@@ -39,11 +36,7 @@ Handler for the subscribed event calls OnEventAction to handle it.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| source | Event source. | T1 |
-| eventArgs | Event arguments. | T2 |
-
+| name | description | type || --- | --- | --- || source | Event source. | T1 || eventArgs | Event arguments. | T2 |
 #### Detach()
 
 Detaches from the subscribed event.

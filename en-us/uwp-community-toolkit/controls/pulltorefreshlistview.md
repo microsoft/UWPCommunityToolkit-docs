@@ -39,4 +39,5 @@ This Control is very common on mobile devices, where the user can pull from the 
 Windows 10 SDK 10586 or higher
 
 ## API
-[PullToRefreshListView API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_PullToRefreshListView.htm)
+* [PullToRefreshListView source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/PullToRefreshListView)
+* [PullToRefreshListView API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_PullToRefreshListView.htm)

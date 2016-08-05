@@ -15,10 +15,6 @@ Commonly used **converters** that allow the data to be modified as it passes thr
 * **StringFormatConverter** : Converts a source object to the formatted string version.
 * **StringVisibilityConverter** : Converts a string value into a Visibility enumeration (if the value is null or empty returns a collapsed value).
 
-## Example
-
-**NOTE:** There is no UI for this helper. It is a C# helper without a visual component.
-
 ## Platforms
 Windows 10 SDK 10586 or higher
 

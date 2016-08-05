@@ -23,8 +23,6 @@ The **ResponsiveGridView Control** presents content within a *Grid View* to fill
 ![ResponsiveGridView animation](/resources/images/Controls-ResponsiveGridView.gif "ResponsiveGridView")
 
 ## Example Code
-<p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
-
 [ResponsiveGridView Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/ResponsiveGridView)
 
 ## Default Template 

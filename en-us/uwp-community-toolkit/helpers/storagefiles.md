@@ -35,6 +35,8 @@ The StorageFileHelper is a static utility class that provides functions to help 
 
 ```
 
+You can find more examples in our [unit tests](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/UnitTests/Helpers/Test_StorageFileHelper.cs)
+
 ## Platforms
 
 Windows 10 SDK 10586 or higher

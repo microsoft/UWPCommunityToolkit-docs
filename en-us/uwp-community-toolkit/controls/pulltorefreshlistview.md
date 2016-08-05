@@ -28,8 +28,6 @@ This Control is very common on mobile devices, where the user can pull from the 
 ![PullToRefreshListView animation](/resources/images/Controls-PullToRefreshListView.gif "PullToRefreshListView")
 
 ## Example Code
-<p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
-
 [PullToRefreshListView Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/PullToRefreshListView)
 
 ## Default Template 

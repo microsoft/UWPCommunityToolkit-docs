@@ -50,4 +50,4 @@ Windows 10 SDK 10586 or higher
 
 ## API
 * [SlidableListItem source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/SlidableListItem)
-* [SlidableListItem API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.htm)
+* [SlidableListItem API documentation](../api/Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.htm)

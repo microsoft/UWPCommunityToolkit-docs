@@ -35,6 +35,8 @@ A metered connection is an Internet connection that has a data limit associated 
         return;
 ```
 
+You can see more examples in our [unit tests](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/UnitTests/Helpers/Test_ConnectionHelper.cs)
+
 ## Platforms
 Windows 10 SDK 10586 or higher
 

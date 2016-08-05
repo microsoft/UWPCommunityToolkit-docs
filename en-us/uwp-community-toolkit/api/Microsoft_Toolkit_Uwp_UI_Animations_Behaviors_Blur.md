@@ -25,9 +25,9 @@ Starts the animation.
 
 ### properties
 
-#### BlurAmount
+#### Value
 
-Gets or sets the Blur.
+Gets or sets the Blur amount.
 
 ### fields
 

@@ -21,12 +21,17 @@ The StorageFileHelper is a static utility class that provides functions to help 
 	// NOTE This must be used from an async function
 	string myText = "Great information that the users wants to keep";
 	
-	// Save some text to a file named appFilename (in the local cache folder)
+	// Save some text to a file named appFilename.txt (in the local cache folder)
 	var storageFile = await StorageFileHelper.WriteTextToLocalCacheFileAsync(myText, "appFilename.txt");
 	
-
 	// Load some text from a file named appFilename.txt in the local cache folder	
 	string loadedText = await StorageFileHelper.ReadTextFromLocalCacheFileAsync("appFilename.txt");
+	
+	// Save some text to a file named appFilename.txt (in the local folder)
+	storageFile = await StorageFileHelper.WriteTextToLocalFileAsync(myText, "appFilename.txt");
+	
+	// Load some text from a file named appFilename.txt in the local folder	
+	loadedText = await StorageFileHelper.ReadTextFromLocalFileAsync("appFilename.txt");
 
 ```
 

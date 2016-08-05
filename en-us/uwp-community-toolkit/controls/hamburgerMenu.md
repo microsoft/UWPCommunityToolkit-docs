@@ -37,6 +37,7 @@ Developers can place menu specific content, navigation, images, text or custom c
 ## Example Code
 [HamburgerMenu Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/HamburgerMenu)
 
+The following sample demonstrates how to add menu items to the HamburgerMenu control.
 If you want to enable navigation to specific pages from the hamburger menu, we recommend to declare a Frame in the Xaml content of the HamburgerMenu control.
 
 ```xaml
@@ -86,9 +87,6 @@ using Windows.UI.Xaml.Controls;
 
 namespace HamburgerSample
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
     public sealed partial class MainPage : Page
     {
         public MainPage()

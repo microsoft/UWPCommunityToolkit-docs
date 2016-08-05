@@ -41,8 +41,8 @@ ListView.ItemsSource = await BingService.Instance.RequestAsync(searchConfig, 50)
 Windows 10 SDK 10586 or higher
 
 ## API
-
-Please refer to the [Bing Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.Services/Services/Bing) for details about the implementation.
+*[Bing Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.Services/Services/Bing)
+*[Bing Service API documentation](../api/Microsoft_Toolkit_Uwp_Services_Bing_BingService.htm)
 
 ## NuGet Packages Required
 

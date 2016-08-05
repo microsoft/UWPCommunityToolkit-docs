@@ -8,12 +8,12 @@
 
 # [Animations](animations)
 
-- [BlurBehavior](animations/blurBehavior.md)
-- [OffsetBevaior](animations/offsetBehavior.md)
-- [OpacityBehavior](animations/opacityBehavior.md)
-- [ParallelBehavoir](animations/parallaxBehavior.md)
-- [RotationBehavior](animations/rotationBehavior.md)
-- [ScaleBehavior](animations/scaleBehavior.md)
+- [Blur](animations/blur.md)
+- [Offset](animations/offset.md)
+- [Fade](animations/fade.md)
+- [Parallel](animations/parallax.md)
+- [Rotate](animations/rotate.md)
+- [Scale](animations/scale.md)
 
 # [Controls](controls/controls.md)
 

@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # Colors Helper
-The **Colors Helper** lets users convert colors from text names, html hex, hsv, or hsl to Windows UI Colors (and back again of course).
+The **Colors Helper** lets users convert colors from text names, HTML hex, HSV, or HSL to Windows UI Colors (and back again of course).
 
 ## Example
 

@@ -35,4 +35,4 @@ Windows 10 SDK 10586 or higher
 
 ## API
 * [ResponsiveGridView source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/ResponsiveGridView)
-* [ResponsiveGridView API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_ResponsiveGridView.htm)
+* [ResponsiveGridView API documentation](../api/Microsoft_Toolkit_Uwp_UI_Controls_ResponsiveGridView.htm)

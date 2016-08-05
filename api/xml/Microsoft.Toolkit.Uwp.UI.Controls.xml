@@ -409,9 +409,9 @@
             Identifies the <see cref="T:Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.RotateDirection"/> property.
             </summary>
         </member>
-        <member name="F:Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.SelectedItemProperty">
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.CurrentItemProperty">
             <summary>
-            Identifies the <see cref="P:Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.SelectedItem"/> property.
+            Identifies the <see cref="P:Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.CurrentItem"/> property.
             </summary>
         </member>
         <member name="M:Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.#ctor">
@@ -432,7 +432,7 @@
             Gets or sets the ItemsSource
             </summary>
         </member>
-        <member name="P:Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.SelectedItem">
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile.CurrentItem">
             <summary>
             Gets or sets the currently selected visible item
             </summary>

@@ -32,10 +32,10 @@ This control can be used as a ListView Data Template root to create effects simi
 		<CheckBox IsChecked="False"></CheckBox>
 		<TextBlock Text="My Great Text" TextWrapping="NoWrap"/>            
 </controls:SlidableListItem> 
-  
 ```
 
 ## Example Image
+![SlidableListItem animation](/resources/images/Controls-SlidableListItem.gif "SlidableListItem")
 
 ## Example Code
 <p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
@@ -49,6 +49,5 @@ This control can be used as a ListView Data Template root to create effects simi
 Windows 10 SDK 10586 or higher
 
 ## API
-Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for samples of all the controls.
-
-[SlidableListItem API Docs](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/api/Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.md)
+* [SlidableListItem source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/SlidableListItem)
+* [SlidableListItem API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.htm)

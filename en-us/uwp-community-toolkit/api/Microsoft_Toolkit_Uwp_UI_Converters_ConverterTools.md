@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.UI.Converters.ConverterTools class
+# ConverterTools class
 
 Static class used to provide internal tools
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Converters.ConverterTools** namespace has these types of members
+The **ConverterTools** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.UI.Converters.ConverterTools.TryParseBool(System.Object)
+#### TryParseBool(System.Object parameter)
 
 Helper method to safely cast an object to a boolean
 
@@ -19,11 +19,4 @@ Helper method to safely cast an object to a boolean
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| parameter | Parameter to cast to a boolean |
-
-| return |B |
+| name | description | type || --- | --- | --- || parameter | Parameter to cast to a boolean | System.Object || return |Bool value or false if cast failed |

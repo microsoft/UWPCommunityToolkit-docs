@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods class
+# ExtensionMethods class
 
 This class offers general purpose methods.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods** namespace has these types of members
+The **ExtensionMethods** class has this types of members
 
 * [methods](#methods)
 
@@ -13,7 +13,7 @@ The **Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods** namespace has these
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods.ToSafeString(System.Object)
+#### ToSafeString(System.Object value)
 
 Converts object into string.
 
@@ -21,16 +21,8 @@ Converts object into string.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| value | Object value. |
-
-| return |R |
-
-#### Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods.DecodeHtml(System.String)
+| name | description | type || --- | --- | --- || value | Object value. | System.Object || return |Returns string value. |
+#### DecodeHtml(System.String htmlText)
 
 Decode HTML string.
 
@@ -38,16 +30,8 @@ Decode HTML string.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| htmlText | HTML string. |
-
-| return |R |
-
-#### Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods.GetStringValue(Microsoft.Toolkit.Uwp.Services.Bing.BingCountry)
+| name | description | type || --- | --- | --- || htmlText | HTML string. | System.String || return |Returns decoded HTML string. |
+#### GetStringValue(Microsoft.Toolkit.Uwp.Services.Bing.BingCountry value)
 
 Converts between country code and country name.
 
@@ -55,17 +39,9 @@ Converts between country code and country name.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| value | BingCountry enumeration. |
-
-| return |R |
-
+| name | description | type || --- | --- | --- || value | BingCountry enumeration. | Microsoft.Toolkit.Uwp.Services.Bing.BingCountry || return |Returns country code. |
 ### fields
 
-#### Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods.RemoveHtmlTagsRegex
+#### RemoveHtmlTagsRegex
 
 Regular expression of HTML tags to remove.

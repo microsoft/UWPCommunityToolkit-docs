@@ -1,28 +1,28 @@
 
-# Microsoft.Toolkit.Uwp.HslColor class
+# HslColor class
 
 Defines a color in Hue/Saturation/Lightness (HSL) space.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.HslColor** namespace has these types of members
+The **HslColor** class has this types of members
 
 * [fields](#fields)
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.HslColor.H
+#### H
 
 The Hue in 0..360 range.
 
-#### Microsoft.Toolkit.Uwp.HslColor.S
+#### S
 
 The Saturation in 0..1 range.
 
-#### Microsoft.Toolkit.Uwp.HslColor.L
+#### L
 
 The Lightness in 0..1 range.
 
-#### Microsoft.Toolkit.Uwp.HslColor.A
+#### A
 
 The Alpha/opacity in 0..1 range.

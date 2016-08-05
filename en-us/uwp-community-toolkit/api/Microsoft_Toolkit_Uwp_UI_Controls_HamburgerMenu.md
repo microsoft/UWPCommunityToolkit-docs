@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu class
+# HamburgerMenu class
 
 The HamburgerMenu is based on a SplitView control. By default it contains a HamburgerButton and a ListView to display menu items.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu** namespace has these types of members
+The **HamburgerMenu** class has this types of members
 
 * [constructors](#constructors)
 
@@ -19,146 +19,146 @@ The **Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu** namespace has these type
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.#ctor
+#### contructor
 
-Initializes a new instance of the [HamburgerMenu](T_Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu) class.
+Initializes a new instance of the [HamburgerMenu](Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu.md) class.
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.OnApplyTemplate
+#### OnApplyTemplate()
 
 Override default OnApplyTemplate to capture children controls
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.DisplayMode
+#### DisplayMode
 
 Gets or sets gets of sets a value that specifies how the pane and content areas are shown.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.OptionsItemTemplate
+#### OptionsItemTemplate
 
 Gets or sets the DataTemplate used to display each item in the options.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.HamburgerMenuTemplate
+#### HamburgerMenuTemplate
 
 Gets or sets the hamburger icon.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.HamburgerWidth
+#### HamburgerWidth
 
 Gets or sets main button's width
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.HamburgerHeight
+#### HamburgerHeight
 
 Gets or sets main button's height
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.HamburgerMargin
+#### HamburgerMargin
 
 Gets or sets main button's margin
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.OpenPaneLength
+#### OpenPaneLength
 
 Gets or sets the width of the pane when it's fully expanded.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.OptionsItemsSource
+#### OptionsItemsSource
 
 Gets or sets an object source used to generate the content of the options.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.OptionsVisibility
+#### OptionsVisibility
 
 Gets or sets options' visibility.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.CompactPaneLength
+#### CompactPaneLength
 
 Gets or sets the width of the pane in its compact display mode.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.PaneBackground
+#### PaneBackground
 
 Gets or sets the Brush to apply to the background of the Pane area of the control.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.IsPaneOpen
+#### IsPaneOpen
 
 Gets or sets a value indicating whether gets or sets a value that specifies whether the pane is expanded to its full width.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.ItemsSource
+#### ItemsSource
 
 Gets or sets an object source used to generate the content of the menu.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.ItemTemplate
+#### ItemTemplate
 
 Gets or sets the DataTemplate used to display each item.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.PanePlacement
+#### PanePlacement
 
 Gets or sets a value that specifies whether the pane is shown on the right or left side of the control.
 
 ### events
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.ItemClick
+#### ItemClick
 
 Event raised when an item is clicked
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.OptionsItemClick
+#### OptionsItemClick
 
 Event raised when an options' item is clicked
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.IsPaneOpenProperty
+#### IsPaneOpenProperty
 
-Identifies the [IsPaneOpen](P_Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu_IsPaneOpen) dependency property.
+Identifies the IsPaneOpen dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.ItemsSourceProperty
+#### ItemsSourceProperty
 
-Identifies the [ItemsSource](P_Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu_ItemsSource) dependency property.
+Identifies the ItemsSource dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.ItemTemplateProperty
+#### ItemTemplateProperty
 
-Identifies the [ItemTemplate](P_Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu_ItemTemplate) dependency property.
+Identifies the ItemTemplate dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.HamburgerMarginProperty
+#### HamburgerMarginProperty
 
-Identifies the [HamburgerMargin](P_Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu_HamburgerMargin) dependency property.
+Identifies the HamburgerMargin dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.HamburgerMenuTemplateProperty
+#### HamburgerMenuTemplateProperty
 
-Identifies the [HamburgerMenuTemplate](P_Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu_HamburgerMenuTemplate) dependency property.
+Identifies the HamburgerMenuTemplate dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.OptionsVisibilityProperty
+#### OptionsVisibilityProperty
 
-Identifies the [OptionsVisibility](P_Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu_OptionsVisibility) dependency property.
+Identifies the OptionsVisibility dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.OptionsItemsSourceProperty
+#### OptionsItemsSourceProperty
 
-Identifies the [OptionsItemsSource](P_Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu_OptionsItemsSource) dependency property.
+Identifies the OptionsItemsSource dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.HamburgerWidthProperty
+#### HamburgerWidthProperty
 
-Identifies the [HamburgerWidth](P_Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu_HamburgerWidth) dependency property.
+Identifies the HamburgerWidth dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.HamburgerHeightProperty
+#### HamburgerHeightProperty
 
-Identifies the [HamburgerHeight](P_Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu_HamburgerHeight) dependency property.
+Identifies the HamburgerHeight dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.OpenPaneLengthProperty
+#### OpenPaneLengthProperty
 
-Identifies the [OpenPaneLength](P_Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu_OpenPaneLength) dependency property.
+Identifies the OpenPaneLength dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.PanePlacementProperty
+#### PanePlacementProperty
 
-Identifies the [PanePlacement](P_Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu_PanePlacement) dependency property.
+Identifies the PanePlacement dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.DisplayModeProperty
+#### DisplayModeProperty
 
-Identifies the [DisplayMode](P_Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu_DisplayMode) dependency property.
+Identifies the DisplayMode dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.OptionsItemTemplateProperty
+#### OptionsItemTemplateProperty
 
-Identifies the [OptionsItemTemplate](P_Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu_OptionsItemTemplate) dependency property.
+Identifies the OptionsItemTemplate dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.PaneBackgroundProperty
+#### PaneBackgroundProperty
 
-Identifies the [PaneBackground](P_Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu_PaneBackground) dependency property.
+Identifies the PaneBackground dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu.CompactPaneLengthProperty
+#### CompactPaneLengthProperty
 
-Identifies the [CompactPaneLength](P_Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu_CompactPaneLength) dependency property.
+Identifies the CompactPaneLength dependency property.

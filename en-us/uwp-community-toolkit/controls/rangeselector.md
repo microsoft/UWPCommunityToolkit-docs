@@ -19,6 +19,7 @@ The **RangeSelector Control** is a *Double Slider* control that allows the user 
 ```
 
 ## Example Image
+![RangeSelector animation](/resources/images/Controls-RangeSelector.gif "RangeSelector")
 
 ## Example Code
 <p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
@@ -32,6 +33,5 @@ The **RangeSelector Control** is a *Double Slider* control that allows the user 
 Windows 10 SDK 10586 or higher
 
 ## API
-Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for samples of all the controls.
-
-[RangeSelector API Docs](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/api/Microsoft_Toolkit_Uwp_UI_Controls_RangeSelector.md)
+* [RangeSelector source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/RangeSelector)
+* [RangeSelector API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_RangeSelector.htm)

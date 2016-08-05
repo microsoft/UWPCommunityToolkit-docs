@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.UI.VisualTreeExtensions class
+# VisualTreeExtensions class
 
 Defines a collection of extensions methods for UI.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.VisualTreeExtensions** namespace has these types of members
+The **VisualTreeExtensions** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.UI.VisualTreeExtensions.FindDescendantByName(Windows.UI.Xaml.FrameworkElement,System.String)
+#### FindDescendantByName(Windows.UI.Xaml.FrameworkElement element,System.String name)
 
 Find descendant control using its name.
 
@@ -19,18 +19,8 @@ Find descendant control using its name.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| element | Parent element. |
-
-| name | Name of the control to find |
-
-| return |D |
-
-#### Microsoft.Toolkit.Uwp.UI.VisualTreeExtensions.FindDescendant``1(Windows.UI.Xaml.DependencyObject)
+| name | description | type || --- | --- | --- || element | Parent element. | Windows.UI.Xaml.FrameworkElement || name | Name of the control to find | System.String || return |Descendant control or null if not found. |
+#### FindDescendant``1(Windows.UI.Xaml.DependencyObject element)
 
 Find first descendant control of a specified type.
 
@@ -38,16 +28,8 @@ Find first descendant control of a specified type.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| element | Parent element. |
-
-| return |D |
-
-#### Microsoft.Toolkit.Uwp.UI.VisualTreeExtensions.FindAscendant``1(Windows.UI.Xaml.FrameworkElement)
+| name | description | type || --- | --- | --- || element | Parent element. | Windows.UI.Xaml.DependencyObject || return |Descendant control or null if not found. |
+#### FindAscendant``1(Windows.UI.Xaml.FrameworkElement element)
 
 Find first ascendant control of a specified type.
 
@@ -55,16 +37,8 @@ Find first ascendant control of a specified type.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| element | Child element. |
-
-| return |A |
-
-#### Microsoft.Toolkit.Uwp.UI.VisualTreeExtensions.FindVisualAscendant``1(Windows.UI.Xaml.FrameworkElement)
+| name | description | type || --- | --- | --- || element | Child element. | Windows.UI.Xaml.FrameworkElement || return |Ascendant control or null if not found. |
+#### FindVisualAscendant``1(Windows.UI.Xaml.FrameworkElement element)
 
 Find first visual ascendant control of a specified type.
 
@@ -72,11 +46,4 @@ Find first visual ascendant control of a specified type.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| element | Child element. |
-
-| return |A |
+| name | description | type || --- | --- | --- || element | Child element. | Windows.UI.Xaml.FrameworkElement || return |Ascendant control or null if not found. |

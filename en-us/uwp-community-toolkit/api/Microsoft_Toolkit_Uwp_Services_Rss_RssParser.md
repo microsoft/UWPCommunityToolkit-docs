@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.Services.Rss.RssParser class
+# RssParser class
 
 RssParser.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Rss.RssParser** namespace has these types of members
+The **RssParser** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssParser.Parse(System.String)
+#### Parse(System.String data)
 
 Parse string to strong type.
 
@@ -19,11 +19,4 @@ Parse string to strong type.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| data | Input string. |
-
-| return |S |
+| name | description | type || --- | --- | --- || data | Input string. | System.String || return |Strong type. |

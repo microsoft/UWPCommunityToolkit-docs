@@ -22,13 +22,17 @@ The **Parallax animation behavior** uses composition to move an image behind a l
 
 [Parallax Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Parallax)
 
-## Example Image
+Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for current samples and example code.
 
+## Example Image
+![Parallax Behavior animation](/resources/images/Animations-Parallax.gif "Parallax Behavior")
 
 ## Platforms
 
 Windows 10 SDK 10585 or higher
 
 ## API
+* [Parallax source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/Parallax.cs)
+* [Parallax Behavior API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Parallax.htm)
+* [Parallax Code API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#parallaxwindowsuixamluielement-elementwindowsuixamlframeworkelement-scrollerelementsystemboolean-ishorizontaleffectsystemsingle-multipliere)
 
-Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for current samples and example code.

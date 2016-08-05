@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation class
+# Rotation class
 
 Performs a rotation animation using composition.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation** namespace has these types of members
+The **Rotation** class has this types of members
 
 * [methods](#methods)
 
@@ -15,42 +15,42 @@ The **Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation** namespace has the
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation.StartAnimation
+#### StartAnimation()
 
 Starts the animation.
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation.CenterX
+#### CenterX
 
 Gets or sets the center point (x axis) of the associated object.
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation.CenterY
+#### CenterY
 
 Gets or sets the center point (y axis) of the associated object.
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation.CenterZ
+#### CenterZ
 
 Gets or sets the center point (z axis) of the associated object.
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation.Value
+#### Value
 
 Gets or sets the Rotation in degrees.
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation.ValueProperty
+#### ValueProperty
 
 The rotation of the associated object in degrees
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation.CenterXProperty
+#### CenterXProperty
 
 The center (x axis) of rotation for associated object
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation.CenterYProperty
+#### CenterYProperty
 
 The center (y axis) of rotation for associated object
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotation.CenterZProperty
+#### CenterZProperty
 
 The center (z axis) of rotation for associated object

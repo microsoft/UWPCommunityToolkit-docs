@@ -1,16 +1,16 @@
 
-# Microsoft.Toolkit.Uwp.Services.SchemaBase class
+# SchemaBase class
 
 Strong typed schema base class.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.SchemaBase** namespace has these types of members
+The **SchemaBase** class has this types of members
 
 * [properties](#properties)
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.Services.SchemaBase.InternalID
+#### InternalID
 
 Gets or sets identifier for strong typed record.

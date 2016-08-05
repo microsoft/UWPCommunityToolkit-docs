@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.Services.Bing.BingParser class
+# BingParser class
 
 Parse Bing results into strong type.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Bing.BingParser** namespace has these types of members
+The **BingParser** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingParser.Parse(System.String)
+#### Parse(System.String data)
 
 Take string data and parse into strong data type.
 
@@ -19,11 +19,4 @@ Take string data and parse into strong data type.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| data | String data. |
-
-| return |R |
+| name | description | type || --- | --- | --- || data | String data. | System.String || return |Returns strong type. |

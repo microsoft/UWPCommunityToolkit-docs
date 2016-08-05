@@ -1,20 +1,20 @@
 
-# Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig class
+# TwitterDataConfig class
 
 Query string configuration.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig** namespace has these types of members
+The **TwitterDataConfig** class has this types of members
 
 * [properties](#properties)
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig.QueryType
+#### QueryType
 
 Gets or sets twitter query type.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig.Query
+#### Query
 
 Gets or sets query parameters.

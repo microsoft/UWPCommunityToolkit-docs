@@ -1,16 +1,16 @@
 
-# Microsoft.Toolkit.Uwp.Services.Twitter.TwitterSearchResult class
+# TwitterSearchResult class
 
 Twitter Search Results.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Twitter.TwitterSearchResult** namespace has these types of members
+The **TwitterSearchResult** class has this types of members
 
 * [properties](#properties)
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterSearchResult.Statuses
+#### Statuses
 
 Gets or sets array of timeline statuses.

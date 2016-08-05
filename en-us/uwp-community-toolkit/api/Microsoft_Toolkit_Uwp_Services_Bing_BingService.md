@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.Services.Bing.BingService class
+# BingService class
 
 Class for connecting to Bing.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Bing.BingService** namespace has these types of members
+The **BingService** class has this types of members
 
 * [constructors](#constructors)
 
@@ -17,13 +17,13 @@ The **Microsoft.Toolkit.Uwp.Services.Bing.BingService** namespace has these type
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingService.#ctor
+#### contructor
 
-Initializes a new instance of the [BingService](T_Microsoft_Toolkit_Uwp_Services_Bing_BingService) class.            Default private constructor.
+Initializes a new instance of the [BingService](Microsoft_Toolkit_Uwp_Services_Bing_BingService.md) class. Default private constructor.
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingService.RequestAsync(Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig,System.Int32)
+#### RequestAsync(Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig config,System.Int32 maxRecords)
 
 Request list data from service provider based upon a given config / query.
 
@@ -31,33 +31,23 @@ Request list data from service provider based upon a given config / query.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| config | TwitterDataConfig instance. |
-
-| maxRecords | Upper limit of records to return. |
-
-| return |S |
-
+| name | description | type || --- | --- | --- || config | TwitterDataConfig instance. | Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig || maxRecords | Upper limit of records to return. | System.Int32 || return |Strongly typed list of data returned from the service. |
 ### properties
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingService.Instance
+#### Instance
 
 Gets public singleton property.
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingService.Provider
+#### Provider
 
 Gets a reference to an instance of the underlying data provider.
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingService.bingDataProvider
+#### bingDataProvider
 
 Private singleton field for BingDataProvider.
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingService.instance
+#### instance
 
 Private singleton field.

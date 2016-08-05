@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Parallax class
+# Parallax class
 
 Behavior to give a parallax effect when scrolling
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Parallax** namespace has these types of members
+The **Parallax** class has this types of members
 
 * [properties](#properties)
 
@@ -13,28 +13,28 @@ The **Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Parallax** namespace has the
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Parallax.Scroller
+#### Scroller
 
 Gets or sets the scroller.
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Parallax.Multiplier
+#### Multiplier
 
 Gets or sets the multiplier.
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Parallax.IsHorizontalEffect
+#### IsHorizontalEffect
 
 Gets or sets a value indicating whether this instance is horizontal effect.
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Parallax.ScrollerProperty
+#### ScrollerProperty
 
 The scroller property
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Parallax.MultiplierProperty
+#### MultiplierProperty
 
 The multiplier property
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Parallax.IsHorizontalEffectProperty
+#### IsHorizontalEffectProperty
 
 The is horizontal effect property

@@ -59,13 +59,17 @@ Behaviors can also be chained and awaited.
 
 [Scale Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Scale)
  
-## Example Image
+Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for current samples and example code.
 
+## Example Image
+![Scale Behavior animation](/resources/images/Animations-Scale.gif "Scale Behavior")
 
 ## Platforms
 
 Windows 10 SDK 10585 or higher
 
 ## API
+* [Scale source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/Scale.cs)
+* [Scale API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Scale.htm)
+* [Scale API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.md#scalemicrosofttoolkituwpuianimationsanimationset-animationsetsystemdouble-durationsystemdouble-delaysystemsingle-centerxsystemsingle-centerysystemsingle-centerzsystemsingle-scalexsystemsingle-scaleysystemsingle-scalez)
 
-Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for current samples and example code.

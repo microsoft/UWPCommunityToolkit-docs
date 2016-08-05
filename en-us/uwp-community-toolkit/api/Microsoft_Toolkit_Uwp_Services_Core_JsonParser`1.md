@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.Services.Core.JsonParser`1 class
+# JsonParser<T1> class
 
 JsonParser type.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Core.JsonParser`1** namespace has these types of members
+The **JsonParser<T1>** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.Core.JsonParser`1.Parse(System.String)
+#### Parse(System.String data)
 
 Takes string data and parses to strong type.
 
@@ -19,11 +19,4 @@ Takes string data and parses to strong type.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| data | String data. |
-
-| return |S |
+| name | description | type || --- | --- | --- || data | String data. | System.String || return |Strong type deserialized from string data. |

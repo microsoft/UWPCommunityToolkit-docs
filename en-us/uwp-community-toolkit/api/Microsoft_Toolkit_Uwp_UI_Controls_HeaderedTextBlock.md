@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.UI.Controls.HeaderedTextBlock class
+# HeaderedTextBlock class
 
 Defines a control for providing a header for read-only text.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Controls.HeaderedTextBlock** namespace has these types of members
+The **HeaderedTextBlock** class has this types of members
 
 * [constructors](#constructors)
 
@@ -17,56 +17,56 @@ The **Microsoft.Toolkit.Uwp.UI.Controls.HeaderedTextBlock** namespace has these 
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HeaderedTextBlock.#ctor
+#### contructor
 
-Initializes a new instance of the [HeaderedTextBlock](T_Microsoft_Toolkit_Uwp_UI_Controls_HeaderedTextBlock) class.
+Initializes a new instance of the [HeaderedTextBlock](Microsoft_Toolkit_Uwp_UI_Controls_HeaderedTextBlock.md) class.
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HeaderedTextBlock.OnApplyTemplate
+#### OnApplyTemplate()
 
 Called when applying the control template.
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HeaderedTextBlock.Text
+#### Text
 
 Gets or sets the text.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HeaderedTextBlock.Header
+#### Header
 
 Gets or sets the header.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HeaderedTextBlock.TextStyle
+#### TextStyle
 
 Gets or sets the text style.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HeaderedTextBlock.HeaderStyle
+#### HeaderStyle
 
 Gets or sets the header style.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HeaderedTextBlock.Orientation
+#### Orientation
 
 Gets or sets the orientation.
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HeaderedTextBlock.TextProperty
+#### TextProperty
 
-Defines the [Text](P_Microsoft_Toolkit_Uwp_UI_Controls_HeaderedTextBlock_Text) dependency property.
+Defines the Text dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HeaderedTextBlock.HeaderProperty
+#### HeaderProperty
 
-Defines the [Header](P_Microsoft_Toolkit_Uwp_UI_Controls_HeaderedTextBlock_Header) dependency property.
+Defines the Header dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HeaderedTextBlock.TextStyleProperty
+#### TextStyleProperty
 
-Defines the [TextStyle](P_Microsoft_Toolkit_Uwp_UI_Controls_HeaderedTextBlock_TextStyle) dependency property.
+Defines the TextStyle dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HeaderedTextBlock.HeaderStyleProperty
+#### HeaderStyleProperty
 
-Defines the [HeaderStyle](P_Microsoft_Toolkit_Uwp_UI_Controls_HeaderedTextBlock_HeaderStyle) dependency property.
+Defines the HeaderStyle dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.HeaderedTextBlock.OrientationProperty
+#### OrientationProperty
 
-Defines the [Orientation](P_Microsoft_Toolkit_Uwp_UI_Controls_HeaderedTextBlock_Orientation) dependency property.
+Defines the Orientation dependency property.

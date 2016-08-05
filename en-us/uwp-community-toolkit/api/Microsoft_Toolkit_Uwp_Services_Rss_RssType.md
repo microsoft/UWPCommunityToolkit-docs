@@ -1,24 +1,24 @@
 
-# Microsoft.Toolkit.Uwp.Services.Rss.RssType class
+# RssType class
 
 Type of Rss.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Rss.RssType** namespace has these types of members
+The **RssType** class has this types of members
 
 * [fields](#fields)
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssType.Atom
+#### Atom
 
 Atom
 
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssType.Rss
+#### Rss
 
 RSS
 
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssType.Unknown
+#### Unknown
 
 Unknown

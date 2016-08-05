@@ -25,8 +25,7 @@ This Control is very common on mobile devices, where the user can pull from the 
 ```
 
 ## Example Image
-
-
+![PullToRefreshListView animation](/resources/images/Controls-PullToRefreshListView.gif "PullToRefreshListView")
 
 ## Example Code
 <p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
@@ -40,6 +39,5 @@ This Control is very common on mobile devices, where the user can pull from the 
 Windows 10 SDK 10586 or higher
 
 ## API
-Please access the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp), to view control samples located in the UWP Community Toolkit.
-
-[PullToRefreshListView API Docs](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/api/Microsoft_Toolkit_Uwp_UI_Controls_PullToRefreshListView.md)
+* [PullToRefreshListView source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/PullToRefreshListView)
+* [PullToRefreshListView API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_PullToRefreshListView.htm)

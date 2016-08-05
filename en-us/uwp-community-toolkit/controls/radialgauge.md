@@ -32,7 +32,9 @@ The Radial Gauge supports animated transitions between configuration states. The
 	TickLength="18">
 </controls:RadialGauge>
 ```
+
 ## Example Image
+![RadialGauge animation](/resources/images/Controls-RadialGauge.gif "RadialGauge")
 
 ## Example Code
 <p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
@@ -46,7 +48,6 @@ The Radial Gauge supports animated transitions between configuration states. The
 Windows 10 SDK 10586 or higher
 
 ## API
-Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for samples of all the controls.
-
-[RadialGauge API Docs](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/api/Microsoft_Toolkit_Uwp_UI_Controls_RadialGauge.md)
+* [RadialGauge source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/RadialGauge)
+* [RadialGauge API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_RadialGauge.htm)
 

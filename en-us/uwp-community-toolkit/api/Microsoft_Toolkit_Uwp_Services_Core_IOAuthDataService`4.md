@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.Services.Core.IOAuthDataService`4 class
+# IOAuthDataService<T1><T2><T3><T4> class
 
 Generic interface that all deployed service providers implement.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Core.IOAuthDataService`4** namespace has these types of members
+The **IOAuthDataService<T1><T2><T3><T4>** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.Core.IOAuthDataService`4.Initialize(`3)
+#### Initialize(T3 oAuthTokens)
 
 Initialize the provider with relevant oAuthTokens.
 
@@ -19,16 +19,12 @@ Initialize the provider with relevant oAuthTokens.
 
 
 
+| name | description | type |
+| --- | --- | --- |
+| oAuthTokens | Instantiated oAuthTokens. | T3 |
+| return |Success or failure. |
 
-| name | description |
-
-| --- | --- |
-
-| oAuthTokens | Instantiated oAuthTokens. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Core.IOAuthDataService`4.LoginAsync
+#### LoginAsync()
 
 Log in to the underlying data service provider.
 
@@ -36,9 +32,6 @@ Log in to the underlying data service provider.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| return |R |
+| name | description | type |
+| --- | --- | --- |
+| return |Returns success or failure indicator. |

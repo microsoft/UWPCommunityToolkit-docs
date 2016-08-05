@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.Services.Core.HttpRequestResult class
+# HttpRequestResult class
 
 HttpRequestResult type for hold request results.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Core.HttpRequestResult** namespace has these types of members
+The **HttpRequestResult** class has this types of members
 
 * [constructors](#constructors)
 
@@ -13,20 +13,20 @@ The **Microsoft.Toolkit.Uwp.Services.Core.HttpRequestResult** namespace has thes
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.Services.Core.HttpRequestResult.#ctor
+#### contructor
 
-Initializes a new instance of the [HttpRequestResult](T_Microsoft_Toolkit_Uwp_Services_Core_HttpRequestResult) class.            Default constructor.
+Initializes a new instance of the [HttpRequestResult](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestResult.md) class. Default constructor.
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.Services.Core.HttpRequestResult.StatusCode
+#### StatusCode
 
 Gets or sets holds request StatusCode.
 
-#### Microsoft.Toolkit.Uwp.Services.Core.HttpRequestResult.Result
+#### Result
 
 Gets or sets holds request Result.
 
-#### Microsoft.Toolkit.Uwp.Services.Core.HttpRequestResult.Success
+#### Success
 
 Gets a value indicating whether holds request Success boolean.

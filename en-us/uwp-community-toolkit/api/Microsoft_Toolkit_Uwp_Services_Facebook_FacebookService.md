@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService class
+# FacebookService class
 
 Class for connecting to Facebook.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService** namespace has these types of members
+The **FacebookService** class has this types of members
 
 * [constructors](#constructors)
 
@@ -17,70 +17,13 @@ The **Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService** namespace has th
 
 ### constructors
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.#ctor
+#### contructor
 
-Initializes a new instance of the [FacebookService](T_Microsoft_Toolkit_Uwp_Services_Facebook_FacebookService) class.            Default private constructor.
+Initializes a new instance of the [FacebookService](Microsoft_Toolkit_Uwp_Services_Facebook_FacebookService.md) class. Default private constructor.
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PostPictureToFeedAsync(System.String,System.String,Windows.Storage.Streams.IRandomAccessStreamWithContentType,System.Boolean)
-
-Enables posting a picture to the timeline
-
-##### parameters
-
-
-
-
-| name | description |
-
-| --- | --- |
-
-| title | Title of the post. |
-
-| pictureName | Picture name. |
-
-| pictureStream | Picture stream to upload. |
-
-| published | Define if picture will be hidden or public. |
-
-| return |R |
-
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PublishPictureAsync(System.String)
-
-Publish a picture previously posted as hidden.
-
-##### parameters
-
-
-
-
-| name | description |
-
-| --- | --- |
-
-| pictureId | Id of the picture. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.GetPictureLinkAsync(System.String)
-
-Get link to the page where the picture was posted
-
-##### parameters
-
-
-
-
-| name | description |
-
-| --- | --- |
-
-| pictureId | Id of the picture. |
-
-| return |L |
-
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.Initialize(Microsoft.Toolkit.Uwp.Services.Facebook.FacebookOAuthTokens)
+#### Initialize(System.String appId,Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions requiredPermissions,System.String windowsStoreId)
 
 Initialize underlying provider with relevent token information.
 
@@ -88,37 +31,17 @@ Initialize underlying provider with relevent token information.
 
 
 
+| name | description | type || --- | --- | --- || appId | Application ID (Provided by Facebook developer site) | System.String || requiredPermissions | List of required required permissions. public_profile and user_posts permissions will be used by default. | Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions || windowsStoreId | Windows Store SID | System.String || return |Success or failure. |
+#### PostToFeedWithDialogAsync(System.String title,System.String description,System.String link,System.String pictureUrl)
 
-| name | description |
-
-| --- | --- |
-
-| oAuthTokens | Token instance. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.Initialize(System.String,Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions,System.String)
-
-Initialize underlying provider with relevent token information.
+Enables posting data to the timeline using Facebook dialog.
 
 ##### parameters
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| appId | Application ID (Provided by Facebook developer site) |
-
-| requiredPermissions | List of required required permissions. public_profile and user_posts permissions will be used by default. |
-
-| windowsStoreId | Windows Store SID |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.ProcessResultsAsync(System.Collections.Generic.IReadOnlyList{System.Object},System.Int32)
+| name | description | type || --- | --- | --- || title | Title of the post. | System.String || description | Description of the post. | System.String || link | Link contained as part of the post. Cannot be null | System.String || pictureUrl | URL of a picture attached to this post. Can be null | System.String || return |Task to support await of async call. |
+#### ProcessResultsAsync(System.Collections.Generic.IReadOnlyList(System.Object) results,System.Int32 maxRecords)
 
 Helper method to process pages of results from underlying service instance.
 
@@ -126,35 +49,44 @@ Helper method to process pages of results from underlying service instance.
 
 
 
+| name | description | type || --- | --- | --- || results | List of results to process. | System.Collections.Generic.IReadOnlyList(System.Object) || maxRecords | Total upper limit of records to process. | System.Int32 || return |Task to support await of async call. |
+#### Initialize(Microsoft.Toolkit.Uwp.Services.Facebook.FacebookOAuthTokens oAuthTokens,Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions requiredPermissions)
 
-| name | description |
-
-| --- | --- |
-
-| results | List of results to process. |
-
-| maxRecords | Total upper limit of records to process. |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.DeletePictureAsync(System.String)
-
-Delete a picture previously posted.
+Initialize underlying provider with relevent token information.
 
 ##### parameters
 
 
 
+| name | description | type || --- | --- | --- || oAuthTokens | Token instance. | Microsoft.Toolkit.Uwp.Services.Facebook.FacebookOAuthTokens || requiredPermissions | List of required required permissions. public_profile and user_posts permissions will be used by default. | Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions || return |Success or failure. |
+#### PostPictureToFeedAsync(System.String title,System.String pictureName,Windows.Storage.Streams.IRandomAccessStreamWithContentType pictureStream)
 
-| name | description |
+Enables posting a picture to the timeline
 
-| --- | --- |
+##### parameters
 
-| pictureId | Id of the picture. |
 
-| return |S |
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.LoginAsync
+| name | description | type || --- | --- | --- || title | Title of the post. | System.String || pictureName | Picture name. | System.String || pictureStream | Picture stream to upload. | Windows.Storage.Streams.IRandomAccessStreamWithContentType || return |Return ID of the picture |
+#### PostToFeedAsync(System.String title,System.String message,System.String description,System.String link,System.String pictureUrl)
+
+Enables direct posting data to the timeline.
+
+##### parameters
+
+
+
+| name | description | type || --- | --- | --- || title | Title of the post. | System.String || message | Message of the post. | System.String || description | Description of the post. | System.String || link | Link contained as part of the post. Cannot be null | System.String || pictureUrl | URL of a picture attached to this post. Can be null | System.String || return |Task to support await of async call. |
+#### GetUserPictureInfoAsync()
+
+Returns the [FacebookPicture](Microsoft_Toolkit_Uwp_Services_Facebook_FacebookPicture.md) object associated with the logged user
+
+##### parameters
+
+
+
+| name | description | type || --- | --- | --- || return |A [FacebookPicture](Microsoft_Toolkit_Uwp_Services_Facebook_FacebookPicture.md) object |
+#### LoginAsync()
 
 Login with set of required requiredPermissions.
 
@@ -162,14 +94,8 @@ Login with set of required requiredPermissions.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.LogoutAsync
+| name | description | type || --- | --- | --- || return |Success or failure. |
+#### LogoutAsync()
 
 Log out of the underlying service instance.
 
@@ -177,14 +103,8 @@ Log out of the underlying service instance.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.RequestAsync(Microsoft.Toolkit.Uwp.Services.Facebook.FacebookDataConfig,System.Int32)
+| name | description | type || --- | --- | --- || return |Task to support await of async call. |
+#### RequestAsync(Microsoft.Toolkit.Uwp.Services.Facebook.FacebookDataConfig config,System.Int32 maxRecords)
 
 Request list data from service provider based upon a given config / query.
 
@@ -192,114 +112,43 @@ Request list data from service provider based upon a given config / query.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| config | TwitterDataConfig instance. |
-
-| maxRecords | Upper limit of records to return. |
-
-| return |S |
-
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.GetUserPictureInfoAsync
-
-Returns the [FacebookPicture](T_Microsoft_Toolkit_Uwp_Services_Facebook_FacebookPicture) object associated with the logged user
-
-##### parameters
-
-
-
-
-| name | description |
-
-| --- | --- |
-
-| return |A |
-
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PostToFeedAsync(System.String,System.String,System.String,System.String)
-
-Enables posting data to the timeline of the underlying service provider instance.
-
-##### parameters
-
-
-
-
-| name | description |
-
-| --- | --- |
-
-| title | Title of the post. |
-
-| description | Description of the post. |
-
-| link | Link contained as part of the post. Cannot be null |
-
-| pictureUrl | URL of a picture attached to this post. Can be null |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PostToFeedAsync(System.String,System.String,System.String,Windows.Storage.Streams.IRandomAccessStreamWithContentType)
-
-Enables posting a picture to the timeline using the Facebook dialog.
-
-##### parameters
-
-
-
-
-| name | description |
-
-| --- | --- |
-
-| title | Title of the post. |
-
-| description | Description of the post. |
-
-| pictureName | Picture name. |
-
-| pictureStream | Picture stream to upload. |
-
-| return |S |
-
+| name | description | type || --- | --- | --- || config | TwitterDataConfig instance. | Microsoft.Toolkit.Uwp.Services.Facebook.FacebookDataConfig || maxRecords | Upper limit of records to return. | System.Int32 || return |Strongly typed list of data returned from the service. |
 ### properties
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.Provider
-
-Gets a reference to an instance of the underlying data provider.
-
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.LoggedUser
+#### LoggedUser
 
 Gets the current logged user name.
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.WindowsStoreId
+#### WindowsStoreId
 
 Gets a Windows Store ID associated with the current app
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.Instance
+#### Instance
 
 Gets public singleton property.
 
+#### Provider
+
+Gets a reference to an instance of the underlying data provider.
+
 ### fields
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.paginatedArray
+#### paginatedArray
 
 Reference to paginated array object for handling multiple pages of returned service list data.
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.instance
+#### instance
 
 Private singleton field.
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.permissions
+#### permissions
 
 List of permissions required by the app.
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.queryResults
+#### queryResults
 
 Strongly typed list of service query data.
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.isInitialized
+#### isInitialized
 
 Field for tracking initialization status.

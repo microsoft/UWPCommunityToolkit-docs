@@ -1,28 +1,28 @@
 
-# Microsoft.Toolkit.Uwp.Services.Twitter.TwitterUser class
+# TwitterUser class
 
 Twitter User type.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Twitter.TwitterUser** namespace has these types of members
+The **TwitterUser** class has this types of members
 
 * [properties](#properties)
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterUser.Id
+#### Id
 
 Gets or sets user Id.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterUser.Name
+#### Name
 
 Gets or sets user name.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterUser.ScreenName
+#### ScreenName
 
 Gets or sets user screen name.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.TwitterUser.ProfileImageUrl
+#### ProfileImageUrl
 
 Gets or sets user profile image Url.

@@ -1,364 +1,364 @@
 
-# Microsoft.Toolkit.Uwp.Services.Bing.BingCountry class
+# BingCountry class
 
 Country filter for search query.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Bing.BingCountry** namespace has these types of members
+The **BingCountry** class has this types of members
 
 * [fields](#fields)
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Lebanon
+#### Lebanon
 
 Lebanon
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.None
+#### None
 
 None
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Albania
+#### Albania
 
 Albania
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Armenia
+#### Armenia
 
 Armenia
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Argentina
+#### Argentina
 
 Argentina
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Austria
+#### Austria
 
 Austria
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Australia
+#### Australia
 
 Australia
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Azerbaijan
+#### Azerbaijan
 
 Azerbaijan
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.BosniaHerzegovina
+#### BosniaHerzegovina
 
 Bosnia Herzegovina
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Belgium
+#### Belgium
 
 Belgium
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Bulgaria
+#### Bulgaria
 
 Bulgaria
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Bahrain
+#### Bahrain
 
 Bahrain
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Bolivia
+#### Bolivia
 
 Bolivia
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Brazil
+#### Brazil
 
 Brazil
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Canada
+#### Canada
 
 Canada
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Switzerland
+#### Switzerland
 
 Switzerland
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Chile
+#### Chile
 
 Chile
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.China
+#### China
 
 China
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.CostaRica
+#### CostaRica
 
 Costa Rica
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Germany
+#### Germany
 
 Germany
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.DominicanRepublic
+#### DominicanRepublic
 
 Dominican Republic
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Ecuador
+#### Ecuador
 
 Ecuador
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.France
+#### France
 
 France
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.UnitedKingdom
+#### UnitedKingdom
 
 United Kingdom
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Georgia
+#### Georgia
 
 Georgia
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Greece
+#### Greece
 
 Greece
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Guatemala
+#### Guatemala
 
 Guatemala
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.HongKong
+#### HongKong
 
 Hong Kong
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Honduras
+#### Honduras
 
 Honduras
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Croatia
+#### Croatia
 
 Croatia
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Hungary
+#### Hungary
 
 Hungary
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Indonesia
+#### Indonesia
 
 Indonesia
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Ireland
+#### Ireland
 
 Ireland
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Israel
+#### Israel
 
 Israel
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.India
+#### India
 
 India
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Iraq
+#### Iraq
 
 Iraq
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Iran
+#### Iran
 
 Iran
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Iceland
+#### Iceland
 
 Iceland
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Italy
+#### Italy
 
 Italy
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Jordan
+#### Jordan
 
 Jordan
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Japan
+#### Japan
 
 Japan
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Kenya
+#### Kenya
 
 Kenya
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Korea
+#### Korea
 
 Korea
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Kuwait
+#### Kuwait
 
 Kuwait
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.UnitedArabEmirates
+#### UnitedArabEmirates
 
 United Arab Emirates
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Lithuania
+#### Lithuania
 
 Lithuania
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Latvia
+#### Latvia
 
 Latvia
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Luxembourg
+#### Luxembourg
 
 Luxembourg
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Libya
+#### Libya
 
 Libya
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Morocco
+#### Morocco
 
 Morocco
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Macedonia
+#### Macedonia
 
 Macedonia
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Malta
+#### Malta
 
 Malta
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Malaysia
+#### Malaysia
 
 Malaysia
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Mexico
+#### Mexico
 
 Mexico
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Nicaragua
+#### Nicaragua
 
 Nicaragua
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Netherlands
+#### Netherlands
 
 Netherlands
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.NewZealand
+#### NewZealand
 
 New Zealand
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Norway
+#### Norway
 
 Norway
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Oman
+#### Oman
 
 Oman
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Panama
+#### Panama
 
 Panama
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Peru
+#### Peru
 
 Peru
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Philippines
+#### Philippines
 
 Philippines
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Poland
+#### Poland
 
 Poland
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Pakistan
+#### Pakistan
 
 Pakistan
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.PuertoRico
+#### PuertoRico
 
 PuertoRico
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Portugal
+#### Portugal
 
 Portugal
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Paraguay
+#### Paraguay
 
 Paraguay
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Qatar
+#### Qatar
 
 Qatar
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Romania
+#### Romania
 
 Romania
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Russia
+#### Russia
 
 Russia
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Sweden
+#### Sweden
 
 Sweden
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.SaudiArabia
+#### SaudiArabia
 
 Saudi Arabia
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Singapore
+#### Singapore
 
 Singapore
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Slovakia
+#### Slovakia
 
 Slovakia
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Slovenia
+#### Slovenia
 
 Slovenia
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Spain
+#### Spain
 
 Spain
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Serbia
+#### Serbia
 
 Serbia
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.ElSalvador
+#### ElSalvador
 
 El Salvador
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Syria
+#### Syria
 
 Syria
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Taiwan
+#### Taiwan
 
 Taiwan
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Thailand
+#### Thailand
 
 Thailand
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Tunisia
+#### Tunisia
 
 Tunisia
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Turkey
+#### Turkey
 
 Turkey
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Ukraine
+#### Ukraine
 
 Ukraine
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.UnitedStates
+#### UnitedStates
 
 United States
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Vietnam
+#### Vietnam
 
 Vietnam
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.Yemen
+#### Yemen
 
 Yemen
 
-#### Microsoft.Toolkit.Uwp.Services.Bing.BingCountry.SouthAfrica
+#### SouthAfrica
 
 South Africa

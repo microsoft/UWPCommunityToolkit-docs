@@ -1,16 +1,16 @@
 
-# Microsoft.Toolkit.Uwp.Services.Facebook.FacebookDataHost`1 class
+# FacebookDataHost<T1> class
 
 Class used to store JSON data response from Facebook
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Facebook.FacebookDataHost`1** namespace has these types of members
+The **FacebookDataHost<T1>** class has this types of members
 
 * [properties](#properties)
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookDataHost`1.Data
+#### Data
 
 Gets or sets internal data.

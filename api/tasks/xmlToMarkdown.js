@@ -10,6 +10,11 @@ module.exports = function (grunt) {
 	grunt.registerMultiTask('xmlToMarkdown', function () {
 		var done = this.async();
 		var promises = [];
+		var options = {
+			linkExtension: this.data.linkExtension,
+			localNamespaces: this.data.localNamespaces,
+			externalLinksBase: this.data.externalLinksBase
+		};
 
 		this.files.forEach(function (file) {
 			var sources = file.src.filter(function (path) {
@@ -25,13 +30,13 @@ module.exports = function (grunt) {
 				var namespacePromise = xmlParser.getModel(path)
 					.then(function (model) {
 						model.classes.forEach(function (c) {
-							var classDestPath = file.dest + scapeFileName(c.name) + '.md';
-							var classPromise = classMarkdownGenerator.generate(classDestPath, c);
+							var classDestPath = file.dest + scapeFileName(c.fullName) + '.md';
+							var classPromise = classMarkdownGenerator.generate(classDestPath, c, options);
 							promises.push(classPromise);
 						});
 
 						var destPath = file.dest + scapeFileName(model.name) + '.md';
-						return namespaceMarkdownGenerator.generate(destPath, model);
+						return namespaceMarkdownGenerator.generate(destPath, model, options);
 					});
 
 				promises.push(namespacePromise);

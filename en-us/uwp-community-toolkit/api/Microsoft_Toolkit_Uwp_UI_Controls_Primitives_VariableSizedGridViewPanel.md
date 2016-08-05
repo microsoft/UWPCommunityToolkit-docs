@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.UI.Controls.Primitives.VariableSizedGridViewPanel class
+# VariableSizedGridViewPanel class
 
-The VariableSizedGridPanel is used to support the [VariableSizedGridView](T_Microsoft_Toolkit_Uwp_UI_Controls_VariableSizedGridView) control.
+The VariableSizedGridPanel is used to support the [VariableSizedGridView](Microsoft_Toolkit_Uwp_UI_Controls_VariableSizedGridView.md) control.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Controls.Primitives.VariableSizedGridViewPanel** namespace has these types of members
+The **VariableSizedGridViewPanel** class has this types of members
 
 * [methods](#methods)
 
@@ -15,7 +15,7 @@ The **Microsoft.Toolkit.Uwp.UI.Controls.Primitives.VariableSizedGridViewPanel** 
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.Primitives.VariableSizedGridViewPanel.MeasureOverride(Windows.Foundation.Size)
+#### MeasureOverride(Windows.Foundation.Size availableSize)
 
 Provides the behavior for the Measure pass of the layout cycle. Classes can override this method to define their own Measure pass behavior.
 
@@ -23,16 +23,8 @@ Provides the behavior for the Measure pass of the layout cycle. Classes can over
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| availableSize | The available size that this object can give to child objects. Infinity can be specified as a value to indicate that the object will size to whatever content is available. |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.UI.Controls.Primitives.VariableSizedGridViewPanel.ArrangeOverride(Windows.Foundation.Size)
+| name | description | type || --- | --- | --- || availableSize | The available size that this object can give to child objects. Infinity can be specified as a value to indicate that the object will size to whatever content is available. | Windows.Foundation.Size || return |The size that this object determines it needs during layout, based on its calculations of the allocated sizes for child objects or based on other considerations such as a fixed container size. |
+#### ArrangeOverride(Windows.Foundation.Size finalSize)
 
 Provides the behavior for the Arrange pass of layout. Classes can override this method to define their own Arrange pass behavior.
 
@@ -40,16 +32,8 @@ Provides the behavior for the Arrange pass of layout. Classes can override this 
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| finalSize | The final area within the parent that this object should use to arrange itself and its children. |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.UI.Controls.Primitives.VariableSizedGridViewPanel.PrepareItem(System.Int32,Windows.UI.Xaml.UIElement,System.Int32@,System.Int32@)
+| name | description | type || --- | --- | --- || finalSize | The final area within the parent that this object should use to arrange itself and its children. | Windows.Foundation.Size || return |The actual size that is used after the element is arranged in layout. |
+#### PrepareItem(System.Int32 index,Windows.UI.Xaml.UIElement element,System.Int32@ colSpan,System.Int32@ rowSpan)
 
 Assigned the row and column span for a given item.
 
@@ -57,43 +41,31 @@ Assigned the row and column span for a given item.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| index | The index of the element. |
-
-| element | The element. |
-
-| colSpan | The col span to use for the item. |
-
-| rowSpan | The row span to use for the item. |
-
+| name | description | type || --- | --- | --- || index | The index of the element. | System.Int32 || element | The element. | Windows.UI.Xaml.UIElement || colSpan | The col span to use for the item. | System.Int32@ || rowSpan | The row span to use for the item. | System.Int32@ |
 ### properties
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.Primitives.VariableSizedGridViewPanel.Orientation
+#### Orientation
 
 Gets or sets the dimension by which child elements are stacked.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.Primitives.VariableSizedGridViewPanel.MaximumRowsOrColumns
+#### MaximumRowsOrColumns
 
 Gets or sets the maximum number of rows or columns.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.Primitives.VariableSizedGridViewPanel.AspectRatio
+#### AspectRatio
 
 Gets or sets the height-to-width aspect ratio for each tile.
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.Primitives.VariableSizedGridViewPanel.OrientationProperty
+#### OrientationProperty
 
-Identifies the [Orientation](P_Microsoft_Toolkit_Uwp_UI_Controls_Primitives_VariableSizedGridViewPanel_Orientation) dependency property.
+Identifies the Orientation dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.Primitives.VariableSizedGridViewPanel.MaximumRowsOrColumnsProperty
+#### MaximumRowsOrColumnsProperty
 
-Identifies the [MaximumRowsOrColumns](P_Microsoft_Toolkit_Uwp_UI_Controls_Primitives_VariableSizedGridViewPanel_MaximumRowsOrColumns) dependency property.
+Identifies the MaximumRowsOrColumns dependency property.
 
-#### Microsoft.Toolkit.Uwp.UI.Controls.Primitives.VariableSizedGridViewPanel.AspectRatioProperty
+#### AspectRatioProperty
 
-Identifies the [AspectRatio](P_Microsoft_Toolkit_Uwp_UI_Controls_Primitives_VariableSizedGridViewPanel_AspectRatio) dependency property.
+Identifies the AspectRatio dependency property.

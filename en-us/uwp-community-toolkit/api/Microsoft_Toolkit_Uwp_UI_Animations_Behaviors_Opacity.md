@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Opacity class
+# Opacity class
 
 Performs an opacity animation using composition.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Opacity** namespace has these types of members
+The **Opacity** class has this types of members
 
 * [methods](#methods)
 
@@ -15,18 +15,18 @@ The **Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Opacity** namespace has thes
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Opacity.StartAnimation
+#### StartAnimation()
 
 Starts the animation.
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Opacity.Value
+#### Value
 
 Gets or sets the Opacity.
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Opacity.ValueProperty
+#### ValueProperty
 
 The Opacity value of the associated object

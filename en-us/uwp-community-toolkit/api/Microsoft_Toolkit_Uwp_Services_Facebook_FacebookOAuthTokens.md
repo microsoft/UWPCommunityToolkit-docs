@@ -1,20 +1,20 @@
 
-# Microsoft.Toolkit.Uwp.Services.Facebook.FacebookOAuthTokens class
+# FacebookOAuthTokens class
 
 Facebook OAuth tokens.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Facebook.FacebookOAuthTokens** namespace has these types of members
+The **FacebookOAuthTokens** class has this types of members
 
 * [properties](#properties)
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookOAuthTokens.AppId
+#### AppId
 
 Gets or sets facebook AppId.
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookOAuthTokens.WindowsStoreId
+#### WindowsStoreId
 
 Gets or sets Windows Store ID.

@@ -1,439 +1,265 @@
 
-# Microsoft.Toolkit.Uwp.StorageFileHelper class
+# StorageFileHelper class
 
-This class provides static helper methods for [StorageFile](T_Windows_Storage_StorageFile).
+This class provides static helper methods for [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile).
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.StorageFileHelper** namespace has these types of members
+The **StorageFileHelper** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.StorageFileHelper.SaveBytesToFileAsync(Windows.Storage.StorageFolder,System.Byte[],System.String,Windows.Storage.CreationCollisionOption)
+#### ReadTextFromLocalFileAsync(System.String fileName)
 
-Saves an array of bytes to a [StorageFile](T_Windows_Storage_StorageFile) in the given [StorageFolder](T_Windows_Storage_StorageFolder).
+Gets a string value from a [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) located in the application local folder.
 
 ##### parameters
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| fileLocation | The [StorageFolder](T_Windows_Storage_StorageFolder) to save the file in. |
-
-| bytes | The [Byte](T_System_Byte) array to save to the file. |
-
-| fileName | The [String](T_System_String) name for the file. |
-
-| options | The creation collision options. Default is ReplaceExisting. |
-
-| return |R |
-
+| name | description | type || --- | --- | --- || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [String](https://msdn.microsoft.com/library/windows/apps/System.String) value. |
 ##### exceptions
 
 
+| type | description || --- | --- || exception type | |
+#### WriteTextToLocalFileAsync(System.String text,System.String fileName,Windows.Storage.CreationCollisionOption options)
 
-| type | description |
-
-| --- | --- |
-
-| exception type | |
-
-#### Microsoft.Toolkit.Uwp.StorageFileHelper.SaveTextToLocalFileAsync(System.String,System.String,Windows.Storage.CreationCollisionOption)
-
-Saves a string value to a [StorageFile](T_Windows_Storage_StorageFile) in application local folder/>.
+Saves a string value to a [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) in application local folder/>.
 
 ##### parameters
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| text | The [String](T_System_String) value to save to the file. |
-
-| fileName | The [String](T_System_String) name for the file. |
-
-| options | The creation collision options. Default is ReplaceExisting. |
-
-| return |R |
-
+| name | description | type || --- | --- | --- || text | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) value to save to the file. | System.String || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | System.String || options | The creation collision options. Default is ReplaceExisting. | Windows.Storage.CreationCollisionOption || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the text. |
 ##### exceptions
 
 
+| type | description || --- | --- || exception type | |
+#### WriteTextToKnownFolderFileAsync(Windows.Storage.KnownFolderId knownFolderId,System.String text,System.String fileName,Windows.Storage.CreationCollisionOption options)
 
-| type | description |
-
-| --- | --- |
-
-| exception type | |
-
-#### Microsoft.Toolkit.Uwp.StorageFileHelper.SaveTextToKnownFolderFileAsync(Windows.Storage.KnownFolderId,System.String,System.String,Windows.Storage.CreationCollisionOption)
-
-Saves a string value to a [StorageFile](T_Windows_Storage_StorageFile) in well known folder/>.
+Saves a string value to a [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) in well known folder/>.
 
 ##### parameters
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| knownFolderId | The well known folder ID to use. |
-
-| text | The [String](T_System_String) value to save to the file. |
-
-| fileName | The [String](T_System_String) name for the file. |
-
-| options | The creation collision options. Default is ReplaceExisting. |
-
-| return |R |
-
+| name | description | type || --- | --- | --- || knownFolderId | The well known folder ID to use. | Windows.Storage.KnownFolderId || text | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) value to save to the file. | System.String || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | System.String || options | The creation collision options. Default is ReplaceExisting. | Windows.Storage.CreationCollisionOption || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the text. |
 ##### exceptions
 
 
+| type | description || --- | --- || exception type | |
+#### WriteTextToFileAsync(Windows.Storage.StorageFolder fileLocation,System.String text,System.String fileName,Windows.Storage.CreationCollisionOption options)
 
-| type | description |
-
-| --- | --- |
-
-| exception type | |
-
-#### Microsoft.Toolkit.Uwp.StorageFileHelper.SaveTextToFileAsync(Windows.Storage.StorageFolder,System.String,System.String,Windows.Storage.CreationCollisionOption)
-
-Saves a string value to a [StorageFile](T_Windows_Storage_StorageFile) in the given [StorageFolder](T_Windows_Storage_StorageFolder).
+Saves a string value to a [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) in the given [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder).
 
 ##### parameters
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| fileLocation | The [StorageFolder](T_Windows_Storage_StorageFolder) to save the file in. |
-
-| text | The [String](T_System_String) value to save to the file. |
-
-| fileName | The [String](T_System_String) name for the file. |
-
-| options | The creation collision options. Default is ReplaceExisting. |
-
-| return |R |
-
+| name | description | type || --- | --- | --- || fileLocation | The [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) to save the file in. | Windows.Storage.StorageFolder || text | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) value to save to the file. | System.String || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | System.String || options | The creation collision options. Default is ReplaceExisting. | Windows.Storage.CreationCollisionOption || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the text. |
 ##### exceptions
 
 
+| type | description || --- | --- || exception type | |
+#### WriteBytesToLocalFileAsync(System.Byte[] bytes,System.String fileName,Windows.Storage.CreationCollisionOption options)
 
-| type | description |
-
-| --- | --- |
-
-| exception type | |
-
-#### Microsoft.Toolkit.Uwp.StorageFileHelper.SaveBytesToLocalFileAsync(System.Byte[],System.String,Windows.Storage.CreationCollisionOption)
-
-Saves an array of bytes to a [StorageFile](T_Windows_Storage_StorageFile) to application local folder/>.
+Saves an array of bytes to a [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) to application local folder/>.
 
 ##### parameters
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| bytes | The [Byte](T_System_Byte) array to save to the file. |
-
-| fileName | The [String](T_System_String) name for the file. |
-
-| options | The creation collision options. Default is ReplaceExisting. |
-
-| return |R |
-
+| name | description | type || --- | --- | --- || bytes | The [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array to save to the file. | System.Byte[] || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | System.String || options | The creation collision options. Default is ReplaceExisting. | Windows.Storage.CreationCollisionOption || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the bytes. |
 ##### exceptions
 
 
+| type | description || --- | --- || exception type | |
+#### WriteBytesToLocalCacheFileAsync(System.Byte[] bytes,System.String fileName,Windows.Storage.CreationCollisionOption options)
 
-| type | description |
-
-| --- | --- |
-
-| exception type | |
-
-#### Microsoft.Toolkit.Uwp.StorageFileHelper.SaveBytesToLocalCacheFileAsync(System.Byte[],System.String,Windows.Storage.CreationCollisionOption)
-
-Saves an array of bytes to a [StorageFile](T_Windows_Storage_StorageFile) to application local cache folder/>.
+Saves an array of bytes to a [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) to application local cache folder/>.
 
 ##### parameters
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| bytes | The [Byte](T_System_Byte) array to save to the file. |
-
-| fileName | The [String](T_System_String) name for the file. |
-
-| options | The creation collision options. Default is ReplaceExisting. |
-
-| return |R |
-
+| name | description | type || --- | --- | --- || bytes | The [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array to save to the file. | System.Byte[] || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | System.String || options | The creation collision options. Default is ReplaceExisting. | Windows.Storage.CreationCollisionOption || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the bytes. |
 ##### exceptions
 
 
+| type | description || --- | --- || exception type | |
+#### WriteBytesToKnownFolderFileAsync(Windows.Storage.KnownFolderId knownFolderId,System.Byte[] bytes,System.String fileName,Windows.Storage.CreationCollisionOption options)
 
-| type | description |
-
-| --- | --- |
-
-| exception type | |
-
-#### Microsoft.Toolkit.Uwp.StorageFileHelper.SaveBytesToKnownFolderFileAsync(Windows.Storage.KnownFolderId,System.Byte[],System.String,Windows.Storage.CreationCollisionOption)
-
-Saves an array of bytes to a [StorageFile](T_Windows_Storage_StorageFile) to well known folder/>.
+Saves an array of bytes to a [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) to well known folder/>.
 
 ##### parameters
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| knownFolderId | The well known folder ID to use. |
-
-| bytes | The [Byte](T_System_Byte) array to save to the file. |
-
-| fileName | The [String](T_System_String) name for the file. |
-
-| options | The creation collision options. Default is ReplaceExisting. |
-
-| return |R |
-
+| name | description | type || --- | --- | --- || knownFolderId | The well known folder ID to use. | Windows.Storage.KnownFolderId || bytes | The [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array to save to the file. | System.Byte[] || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | System.String || options | The creation collision options. Default is ReplaceExisting. | Windows.Storage.CreationCollisionOption || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the bytes. |
 ##### exceptions
 
 
+| type | description || --- | --- || exception type | |
+#### WriteBytesToFileAsync(Windows.Storage.StorageFolder fileLocation,System.Byte[] bytes,System.String fileName,Windows.Storage.CreationCollisionOption options)
 
-| type | description |
-
-| --- | --- |
-
-| exception type | |
-
-#### Microsoft.Toolkit.Uwp.StorageFileHelper.SaveTextToLocalCacheFileAsync(System.String,System.String,Windows.Storage.CreationCollisionOption)
-
-Saves a string value to a [StorageFile](T_Windows_Storage_StorageFile) in application local cache folder/>.
+Saves an array of bytes to a [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) in the given [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder).
 
 ##### parameters
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| text | The [String](T_System_String) value to save to the file. |
-
-| fileName | The [String](T_System_String) name for the file. |
-
-| options | The creation collision options. Default is ReplaceExisting. |
-
-| return |R |
-
+| name | description | type || --- | --- | --- || fileLocation | The [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) to save the file in. | Windows.Storage.StorageFolder || bytes | The [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array to save to the file. | System.Byte[] || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | System.String || options | The creation collision options. Default is ReplaceExisting. | Windows.Storage.CreationCollisionOption || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the bytes. |
 ##### exceptions
 
 
+| type | description || --- | --- || exception type | |
+#### ReadTextFromPackagedFileAsync(System.String fileName)
 
-| type | description |
-
-| --- | --- |
-
-| exception type | |
-
-#### Microsoft.Toolkit.Uwp.StorageFileHelper.ReadTextFromPackagedFile(System.String)
-
-Gets a string value from a [StorageFile](T_Windows_Storage_StorageFile) located in the application installation folder.
+Gets a string value from a [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) located in the application installation folder.
 
 ##### parameters
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| relativePath | The relative [String](T_System_String) file path. |
-
-| return |R |
-
+| name | description | type || --- | --- | --- || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [String](https://msdn.microsoft.com/library/windows/apps/System.String) value. |
 ##### exceptions
 
 
+| type | description || --- | --- || exception type | |
+#### ReadTextFromLocalCacheFileAsync(System.String fileName)
 
-| type | description |
-
-| --- | --- |
-
-| exception type | |
-
-#### Microsoft.Toolkit.Uwp.StorageFileHelper.ReadTextFromLocalCacheFile(System.String)
-
-Gets a string value from a [StorageFile](T_Windows_Storage_StorageFile) located in the application local cache folder.
+Gets a string value from a [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) located in the application local cache folder.
 
 ##### parameters
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| relativePath | The relative [String](T_System_String) file path. |
-
-| return |R |
-
+| name | description | type || --- | --- | --- || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [String](https://msdn.microsoft.com/library/windows/apps/System.String) value. |
 ##### exceptions
 
 
+| type | description || --- | --- || exception type | |
+#### WriteTextToLocalCacheFileAsync(System.String text,System.String fileName,Windows.Storage.CreationCollisionOption options)
 
-| type | description |
-
-| --- | --- |
-
-| exception type | |
-
-#### Microsoft.Toolkit.Uwp.StorageFileHelper.ReadTextFromLocalFile(System.String)
-
-Gets a string value from a [StorageFile](T_Windows_Storage_StorageFile) located in the application local folder.
+Saves a string value to a [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) in application local cache folder/>.
 
 ##### parameters
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| relativePath | The relative [String](T_System_String) file path. |
-
-| return |R |
-
+| name | description | type || --- | --- | --- || text | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) value to save to the file. | System.String || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | System.String || options | The creation collision options. Default is ReplaceExisting. | Windows.Storage.CreationCollisionOption || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the text. |
 ##### exceptions
 
 
+| type | description || --- | --- || exception type | |
+#### ReadTextFromKnownFoldersFileAsync(Windows.Storage.KnownFolderId knownFolderId,System.String fileName)
 
-| type | description |
-
-| --- | --- |
-
-| exception type | |
-
-#### Microsoft.Toolkit.Uwp.StorageFileHelper.ReadTextFromKnownFoldersFile(Windows.Storage.KnownFolderId,System.String)
-
-Gets a string value from a [StorageFile](T_Windows_Storage_StorageFile) located in a well known folder.
+Gets a string value from a [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) located in a well known folder.
 
 ##### parameters
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| knownFolderId | The well known folder ID to use. |
-
-| relativePath | The relative [String](T_System_String) file path. |
-
-| return |R |
-
+| name | description | type || --- | --- | --- || knownFolderId | The well known folder ID to use. | Windows.Storage.KnownFolderId || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [String](https://msdn.microsoft.com/library/windows/apps/System.String) value. |
 ##### exceptions
 
 
+| type | description || --- | --- || exception type | |
+#### ReadTextFromFileAsync(Windows.Storage.StorageFolder fileLocation,System.String fileName)
 
-| type | description |
-
-| --- | --- |
-
-| exception type | |
-
-#### Microsoft.Toolkit.Uwp.StorageFileHelper.GetBytesFromFilePathAsync(System.String)
-
-Gets a byte array from a [StorageFile](T_Windows_Storage_StorageFile) based on a file path string.
+Gets a string value from a [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) located in the given [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder).
 
 ##### parameters
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| filePath | The [String](T_System_String) file path. |
-
-| return |R |
-
+| name | description | type || --- | --- | --- || fileLocation | The [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) to save the file in. | Windows.Storage.StorageFolder || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [String](https://msdn.microsoft.com/library/windows/apps/System.String) value. |
 ##### exceptions
 
 
+| type | description || --- | --- || exception type | |
+#### ReadBytesFromPackagedFileAsync(System.String fileName)
 
-| type | description |
-
-| --- | --- |
-
-| exception type | |
-
-#### Microsoft.Toolkit.Uwp.StorageFileHelper.GetBytesFromFileAsync(Windows.Storage.StorageFile)
-
-Gets a byte array from a [StorageFile](T_Windows_Storage_StorageFile).
+Gets an array of bytes from a [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) located in the application installation folder.
 
 ##### parameters
 
 
 
+| name | description | type || --- | --- | --- || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array. |
+##### exceptions
 
-| name | description |
 
-| --- | --- |
+| type | description || --- | --- || exception type | |
+#### ReadBytesFromLocalCacheFileAsync(System.String fileName)
 
-| file | The [StorageFile](T_Windows_Storage_StorageFile). |
-
-| return |R |
-
-#### Microsoft.Toolkit.Uwp.StorageFileHelper.GetFolderFromKnownFolderId(Windows.Storage.KnownFolderId)
-
-Returns a [StorageFolder](T_Windows_Storage_StorageFolder) from a [KnownFolderId](T_Windows_Storage_KnownFolderId)
+Gets an array of bytes from a [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) located in the application local cache folder.
 
 ##### parameters
 
 
 
+| name | description | type || --- | --- | --- || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array. |
+##### exceptions
 
-| name | description |
 
-| --- | --- |
+| type | description || --- | --- || exception type | |
+#### ReadBytesFromLocalFileAsync(System.String fileName)
 
-| knownFolderId | Folder Id |
+Gets an array of bytes from a [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) located in the application local folder.
 
-| return |¿ |
+##### parameters
+
+
+
+| name | description | type || --- | --- | --- || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array. |
+##### exceptions
+
+
+| type | description || --- | --- || exception type | |
+#### ReadBytesFromKnownFoldersFileAsync(Windows.Storage.KnownFolderId knownFolderId,System.String fileName)
+
+Gets an array of bytes from a [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) located in a well known folder.
+
+##### parameters
+
+
+
+| name | description | type || --- | --- | --- || knownFolderId | The well known folder ID to use. | Windows.Storage.KnownFolderId || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array. |
+##### exceptions
+
+
+| type | description || --- | --- || exception type | |
+#### ReadBytesFromFileAsync(Windows.Storage.StorageFolder fileLocation,System.String fileName)
+
+Gets an array of bytes from a [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) located in the given [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder).
+
+##### parameters
+
+
+
+| name | description | type || --- | --- | --- || fileLocation | The [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) to save the file in. | Windows.Storage.StorageFolder || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array. |
+##### exceptions
+
+
+| type | description || --- | --- || exception type | |
+#### ReadBytesAsync(Windows.Storage.StorageFile file)
+
+Gets an array of bytes from a [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile).
+
+##### parameters
+
+
+
+| name | description | type || --- | --- | --- || file | The [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile). | Windows.Storage.StorageFile || return |Returns the stored [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array. |
+#### GetFolderFromKnownFolderId(Windows.Storage.KnownFolderId knownFolderId)
+
+Returns a [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) from a [KnownFolderId](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.KnownFolderId)
+
+##### parameters
+
+
+
+| name | description | type || --- | --- | --- || knownFolderId | Folder Id | Windows.Storage.KnownFolderId || return |[StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) |

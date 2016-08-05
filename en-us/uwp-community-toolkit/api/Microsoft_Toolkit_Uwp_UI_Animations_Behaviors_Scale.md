@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale class
+# Scale class
 
 Performs a scale animation using composition.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale** namespace has these types of members
+The **Scale** class has this types of members
 
 * [methods](#methods)
 
@@ -15,58 +15,58 @@ The **Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale** namespace has these 
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.StartAnimation
+#### StartAnimation()
 
 Starts the animation.
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.ScaleX
+#### ScaleX
 
 Gets or sets the scale on the x axis.
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.CenterZ
+#### CenterZ
 
 Gets or sets the scale (z axis) of the associated object.
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.CenterY
+#### CenterY
 
 Gets or sets the scale (y axis) of the associated object.
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.CenterX
+#### CenterX
 
 Gets or sets the scale (x axis) of the associated object.
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.ScaleZ
+#### ScaleZ
 
 Gets or sets the scale on the z axis.
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.ScaleY
+#### ScaleY
 
 Gets or sets the scale on the y axis.
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.ScaleYProperty
+#### ScaleYProperty
 
 The scale (y axis) of the associated object
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.CenterZProperty
+#### CenterZProperty
 
 The center (z axis) of scale for associated object
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.CenterYProperty
+#### CenterYProperty
 
 The center (y axis) of scale for associated object
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.CenterXProperty
+#### CenterXProperty
 
 The center (x axis) of scale for associated object
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.ScaleZProperty
+#### ScaleZProperty
 
 The scale (z axis) of the associated object
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale.ScaleXProperty
+#### ScaleXProperty
 
 The scale (x axis) of the associated object

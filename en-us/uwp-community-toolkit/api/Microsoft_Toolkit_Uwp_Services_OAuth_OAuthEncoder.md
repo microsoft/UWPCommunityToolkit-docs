@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.Services.OAuth.OAuthEncoder class
+# OAuthEncoder class
 
 OAuth Encoder.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.OAuth.OAuthEncoder** namespace has these types of members
+The **OAuthEncoder** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.OAuth.OAuthEncoder.UrlEncode(System.String)
+#### UrlEncode(System.String value)
 
 Url encode input string.
 
@@ -19,16 +19,8 @@ Url encode input string.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| value | Input string. |
-
-| return |E |
-
-#### Microsoft.Toolkit.Uwp.Services.OAuth.OAuthEncoder.UrlEncode(System.Collections.Generic.IEnumerable{Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter})
+| name | description | type || --- | --- | --- || value | Input string. | System.String || return |Encoded string. |
+#### UrlEncode(System.Collections.Generic.IEnumerable(Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter) parameters)
 
 Encode list of parameters.
 
@@ -36,16 +28,8 @@ Encode list of parameters.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| parameters | List of parameters. |
-
-| return |E |
-
-#### Microsoft.Toolkit.Uwp.Services.OAuth.OAuthEncoder.GenerateHash(System.String,System.String)
+| name | description | type || --- | --- | --- || parameters | List of parameters. | System.Collections.Generic.IEnumerable(Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter) || return |Encoded string of parameters. |
+#### GenerateHash(System.String input,System.String key)
 
 Generate hash from input string and key.
 
@@ -53,13 +37,4 @@ Generate hash from input string and key.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| input | Input string. |
-
-| key | Key string. |
-
-| return |H |
+| name | description | type || --- | --- | --- || input | Input string. | System.String || key | Key string. | System.String || return |Hash string. |

@@ -20,6 +20,7 @@ The **ResponsiveGridView Control** presents content within a *Grid View* to fill
 ```
 
 ## Example Image
+![ResponsiveGridView animation](/resources/images/Controls-ResponsiveGridView.gif "ResponsiveGridView")
 
 ## Example Code
 <p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
@@ -33,6 +34,5 @@ The **ResponsiveGridView Control** presents content within a *Grid View* to fill
 Windows 10 SDK 10586 or higher
 
 ## API
-Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for samples of all the controls.
-
-[ResponsiveGridView API Docs](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/api/Microsoft_Toolkit_Uwp_UI_Controls_ResponsiveGridView.md)
+* [ResponsiveGridView source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/ResponsiveGridView)
+* [ResponsiveGridView API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_ResponsiveGridView.htm)

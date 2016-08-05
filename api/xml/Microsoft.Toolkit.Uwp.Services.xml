@@ -4,71 +4,58 @@
         <name>Microsoft.Toolkit.Uwp.Services</name>
     </assembly>
     <members>
-        <member name="T:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1">
+        <member name="T:Microsoft.Toolkit.Uwp.Services.DataProviderBase`2">
             <summary>
-            Represents a generic command that can perform a given action.
+            Base class for data providers in this library.
             </summary>
-            <typeparam name="T">Type associated with the DelegateCommand</typeparam>
+            <typeparam name="TConfig">Strong typed query configuration object.</typeparam>
+            <typeparam name="TSchema">Strong typed object to parse the response items into.</typeparam>
         </member>
-        <member name="F:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1.commandExecuteAction">
+        <member name="M:Microsoft.Toolkit.Uwp.Services.DataProviderBase`2.LoadDataAsync(`0,System.Int32)">
             <summary>
-            Field for commandExecuteAction.
+            Load data from provider endpoint.
             </summary>
+            <param name="config">Query configuration.</param>
+            <param name="maxRecords">Upper record limit.</param>
+            <returns>List of strong typed objects.</returns>
         </member>
-        <member name="F:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1.commandCanExecute">
+        <member name="M:Microsoft.Toolkit.Uwp.Services.DataProviderBase`2.GetDefaultParser(`0)">
             <summary>
-            Field for whether the command can execute.
+            Default parser abstract method.
             </summary>
+            <param name="config">Query configuration object.</param>
+            <returns>Strong typed default parser.</returns>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1.#ctor(System.Action{`0},System.Func{`0,System.Boolean})">
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods">
             <summary>
-            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1"/> class.
-            </summary>
-            <param name="executeAction">
-            The action to execute when called.
-            </param>
-            <param name="canExecute">
-            The function to call to determine if the command can execute the action.
-            </param>
-            <exception cref="T:System.ArgumentNullException">
-            Thrown if the execute action is null.
-            </exception>
-        </member>
-        <member name="E:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1.CanExecuteChanged">
-            <summary>
-            Occurs when changes occur that affect whether or not the command should execute.
+            This class offers general purpose methods.
             </summary>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1.CanExecute(System.Object)">
+        <member name="F:Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods.RemoveHtmlTagsRegex">
             <summary>
-            Defines the method that determines whether the command can execute in its current state.
-            </summary>
-            <param name="parameter">
-            The parameter used by the command.
-            </param>
-            <returns>
-            Returns a value indicating whether this command can be executed.
-            </returns>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1.Execute(System.Object)">
-            <summary>
-            Defines the method to be called when the command is invoked.
-            </summary>
-            <param name="parameter">
-            The parameter used by the command.
-            </param>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1.RaiseCanExecuteChanged">
-            <summary>
-            Fires notification event when the CanExecute property has changed.
+            Regular expression of HTML tags to remove.
             </summary>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand`1.ConvertParameterValue(System.Object)">
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods.ToSafeString(System.Object)">
             <summary>
-            Converts a paramter value to given type.
+            Converts object into string.
             </summary>
-            <param name="parameter">Value of the command parameter.</param>
-            <returns>Strong typed parameter value.</returns>
+            <param name="value">Object value.</param>
+            <returns>Returns string value.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods.DecodeHtml(System.String)">
+            <summary>
+            Decode HTML string.
+            </summary>
+            <param name="htmlText">HTML string.</param>
+            <returns>Returns decoded HTML string.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods.GetStringValue(Microsoft.Toolkit.Uwp.Services.Bing.BingCountry)">
+            <summary>
+            Converts between country code and country name.
+            </summary>
+            <param name="value">BingCountry enumeration.</param>
+            <returns>Returns country code.</returns>
         </member>
         <member name="T:Microsoft.Toolkit.Uwp.Services.Core.IDataService`3">
             <summary>
@@ -90,86 +77,6 @@
             <param name="config">Describes the query on the list data request.</param>
             <param name="maxRecords">Specifies an upper limit to the number of records returned.</param>
             <returns>Returns a strongly typed list of results from the service.</returns>
-        </member>
-        <member name="T:Microsoft.Toolkit.Uwp.Services.Core.IOAuthDataService`4">
-            <summary>
-            Generic interface that all deployed service providers implement.
-            </summary>
-            <typeparam name="T">Reference to underlying data service provider.</typeparam>
-            <typeparam name="U">Strongly-typed schema for data returned in list query.</typeparam>
-            <typeparam name="V">Configuration type specifying query parameters.</typeparam>
-            <typeparam name="W">OAuth Token information.</typeparam>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.IOAuthDataService`4.Initialize(`3)">
-            <summary>
-            Initialize the provider with relevant oAuthTokens.
-            </summary>
-            <param name="oAuthTokens">Instantiated oAuthTokens.</param>
-            <returns>Success or failure.</returns>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.IOAuthDataService`4.LoginAsync">
-            <summary>
-            Log in to the underlying data service provider.
-            </summary>
-            <returns>Returns success or failure indicator.</returns>
-        </member>
-        <member name="T:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand">
-            <summary>
-            Represents a command that can perform a given action.
-            </summary>
-        </member>
-        <member name="F:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.commandExecuteAction">
-            <summary>
-            Field for commandExecuteAction.
-            </summary>
-        </member>
-        <member name="F:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.commandCanExecute">
-            <summary>
-            Field for whether the command can execute.
-            </summary>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.#ctor(System.Action,System.Func{System.Boolean})">
-            <summary>
-            Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand"/> class.
-            </summary>
-            <param name="execute">
-            The action to execute when called.
-            </param>
-            <param name="canExecute">
-            The function to call to determine if the command can execute the action.
-            </param>
-            <exception cref="T:System.ArgumentNullException">
-            Thrown if the execute action is null.
-            </exception>
-        </member>
-        <member name="E:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.CanExecuteChanged">
-            <summary>
-            Occurs when changes occur that affect whether or not the command should execute.
-            </summary>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.CanExecute(System.Object)">
-            <summary>
-            Defines the method that determines whether the command can execute in its current state.
-            </summary>
-            <param name="parameter">
-            The parameter used by the command.
-            </param>
-            <returns>
-            Returns a value indicating whether this command can be executed.
-            </returns>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.Execute(System.Object)">
-            <summary>
-            Defines the method to be called when the command is invoked.
-            </summary>
-            <param name="parameter">
-            The parameter used by the command.
-            </param>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.DelegateCommand.RaiseCanExecuteChanged">
-            <summary>
-            Fires notification event when the CanExecute property has changed.
-            </summary>
         </member>
         <member name="T:Microsoft.Toolkit.Uwp.Services.Core.InternalExtensionMethods">
             <summary>
@@ -244,37 +151,6 @@
             <summary>
             Gets property for string value.
             </summary>
-        </member>
-        <member name="T:Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods">
-            <summary>
-            This class offers general purpose methods.
-            </summary>
-        </member>
-        <member name="F:Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods.RemoveHtmlTagsRegex">
-            <summary>
-            Regular expression of HTML tags to remove.
-            </summary>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods.ToSafeString(System.Object)">
-            <summary>
-            Converts object into string.
-            </summary>
-            <param name="value">Object value.</param>
-            <returns>Returns string value.</returns>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods.DecodeHtml(System.String)">
-            <summary>
-            Decode HTML string.
-            </summary>
-            <param name="htmlText">HTML string.</param>
-            <returns>Returns decoded HTML string.</returns>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods.GetStringValue(Microsoft.Toolkit.Uwp.Services.Bing.BingCountry)">
-            <summary>
-            Converts between country code and country name.
-            </summary>
-            <param name="value">BingCountry enumeration.</param>
-            <returns>Returns country code.</returns>
         </member>
         <member name="T:Microsoft.Toolkit.Uwp.Services.Core.HttpRequestResult">
             <summary>
@@ -352,28 +228,6 @@
             Fix invalid charset returned by some web sites.
             </summary>
             <param name="response">HttpResponseMessage instance.</param>
-        </member>
-        <member name="T:Microsoft.Toolkit.Uwp.Services.DataProviderBase`2">
-            <summary>
-            Base class for data providers in this library.
-            </summary>
-            <typeparam name="TConfig">Strong typed query configuration object.</typeparam>
-            <typeparam name="TSchema">Strong typed object to parse the response items into.</typeparam>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.DataProviderBase`2.LoadDataAsync(`0,System.Int32)">
-            <summary>
-            Load data from provider endpoint.
-            </summary>
-            <param name="config">Query configuration.</param>
-            <param name="maxRecords">Upper record limit.</param>
-            <returns>List of strong typed objects.</returns>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.DataProviderBase`2.GetDefaultParser(`0)">
-            <summary>
-            Default parser abstract method.
-            </summary>
-            <param name="config">Query configuration object.</param>
-            <returns>Strong typed default parser.</returns>
         </member>
         <member name="T:Microsoft.Toolkit.Uwp.Services.Bing.BingCountry">
             <summary>
@@ -1171,11 +1025,12 @@
             Default private constructor.
             </summary>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.Initialize(Microsoft.Toolkit.Uwp.Services.Facebook.FacebookOAuthTokens)">
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.Initialize(Microsoft.Toolkit.Uwp.Services.Facebook.FacebookOAuthTokens,Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions)">
             <summary>
             Initialize underlying provider with relevent token information.
             </summary>
             <param name="oAuthTokens">Token instance.</param>
+            <param name="requiredPermissions">List of required required permissions. public_profile and user_posts permissions will be used by default.</param>
             <returns>Success or failure.</returns>
         </member>
         <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.Initialize(System.String,Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions,System.String)">
@@ -1233,9 +1088,20 @@
             </summary>
             <returns>A <see cref="T:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPicture"/> object</returns>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PostToFeedAsync(System.String,System.String,System.String,System.String)">
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PostToFeedAsync(System.String,System.String,System.String,System.String,System.String)">
             <summary>
-            Enables posting data to the timeline of the underlying service provider instance.
+            Enables direct posting data to the timeline.
+            </summary>
+            <param name="title">Title of the post.</param>
+            <param name="message">Message of the post.</param>
+            <param name="description">Description of the post.</param>
+            <param name="link">Link contained as part of the post. Cannot be null</param>
+            <param name="pictureUrl">URL of a picture attached to this post. Can be null</param>
+            <returns>Task to support await of async call.</returns>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PostToFeedWithDialogAsync(System.String,System.String,System.String,System.String)">
+            <summary>
+            Enables posting data to the timeline using Facebook dialog.
             </summary>
             <param name="title">Title of the post.</param>
             <param name="description">Description of the post.</param>
@@ -1243,24 +1109,13 @@
             <param name="pictureUrl">URL of a picture attached to this post. Can be null</param>
             <returns>Task to support await of async call.</returns>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PostToFeedAsync(System.String,System.String,System.String,Windows.Storage.Streams.IRandomAccessStreamWithContentType)">
-            <summary>
-            Enables posting a picture to the timeline using the Facebook dialog.
-            </summary>
-            <param name="title">Title of the post.</param>
-            <param name="description">Description of the post.</param>
-            <param name="pictureName">Picture name.</param>
-            <param name="pictureStream">Picture stream to upload.</param>
-            <returns>Success or failure.</returns>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PostPictureToFeedAsync(System.String,System.String,Windows.Storage.Streams.IRandomAccessStreamWithContentType,System.Boolean)">
+        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PostPictureToFeedAsync(System.String,System.String,Windows.Storage.Streams.IRandomAccessStreamWithContentType)">
             <summary>
             Enables posting a picture to the timeline
             </summary>
             <param name="title">Title of the post.</param>
             <param name="pictureName">Picture name.</param>
             <param name="pictureStream">Picture stream to upload.</param>
-            <param name="published">Define if picture will be hidden or public.</param>
             <returns>Return ID of the picture</returns>
         </member>
         <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.ProcessResultsAsync(System.Collections.Generic.IReadOnlyList{System.Object},System.Int32)">
@@ -1270,27 +1125,6 @@
             <param name="results">List of results to process.</param>
             <param name="maxRecords">Total upper limit of records to process.</param>
             <returns>Task to support await of async call.</returns>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.PublishPictureAsync(System.String)">
-            <summary>
-            Publish a picture previously posted as hidden.
-            </summary>
-            <param name="pictureId">Id of the picture.</param>
-            <returns>Success or failure</returns>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.DeletePictureAsync(System.String)">
-            <summary>
-            Delete a picture previously posted.
-            </summary>
-            <param name="pictureId">Id of the picture.</param>
-            <returns>Success or failure</returns>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.GetPictureLinkAsync(System.String)">
-            <summary>
-            Get link to the page where the picture was posted
-            </summary>
-            <param name="pictureId">Id of the picture.</param>
-            <returns>Link of the page where the picture was posted</returns>
         </member>
         <member name="T:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookDataConfig">
             <summary>
@@ -1315,6 +1149,26 @@
         <member name="P:Microsoft.Toolkit.Uwp.Services.Facebook.FacebookDataConfig.Query">
             <summary>
             Gets or sets the query string for filtering service results.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterErrors">
+            <summary>
+            Twitter errors type.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterErrors.Errors">
+            <summary>
+            Gets or sets the list of errors
+            </summary>
+        </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterException">
+            <summary>
+            Twitter specific exception.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterException.Errors">
+            <summary>
+            Gets or sets the errors returned by Twitter
             </summary>
         </member>
         <member name="T:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokenType">
@@ -1406,7 +1260,7 @@
             </summary>
             <param name="consumerKey">Consumer key.</param>
             <param name="consumerSecret">Consumer secret.</param>
-            <param name="callbackUri">Callback URI.</param>
+            <param name="callbackUri">Callback URI. Has to match callback URI defined at apps.twitter.com (can be arbitrary).</param>
             <returns>Success or failure.</returns>
         </member>
         <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.Initialize(Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens)">
@@ -1449,7 +1303,7 @@
             Request list data from service provider based upon a given config / query.
             </summary>
             <param name="config">TwitterDataConfig instance.</param>
-            <param name="maxRecords">Upper limit of records to return.</param>
+            <param name="maxRecords">Upper limit of records to return. Up to a maximum of 200 per distinct request.</param>
             <returns>Strongly typed list of data returned from the service.</returns>
         </member>
         <member name="M:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService.LoginAsync">
@@ -1936,6 +1790,21 @@
             Gets the creation date
             </summary>
         </member>
+        <member name="T:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterError">
+            <summary>
+            Twitter error type
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterError.Code">
+            <summary>
+            Gets or sets error code
+            </summary>
+        </member>
+        <member name="P:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterError.Message">
+            <summary>
+            Gets or sets error message
+            </summary>
+        </member>
         <member name="T:Microsoft.Toolkit.Uwp.Services.Twitter.TwitterUser">
             <summary>
             Twitter User type.
@@ -2349,44 +2218,6 @@
             </summary>
             <param name="item">XElement item.</param>
             <returns>String of item author.</returns>
-        </member>
-        <member name="T:Microsoft.Toolkit.Uwp.Services.Rss.RssDataConfig">
-            <summary>
-            Query configuration data.
-            </summary>
-        </member>
-        <member name="P:Microsoft.Toolkit.Uwp.Services.Rss.RssDataConfig.Url">
-            <summary>
-            Gets or sets uri to query.
-            </summary>
-        </member>
-        <member name="T:Microsoft.Toolkit.Uwp.Services.Rss.RssDataProvider">
-            <summary>
-            Data Provider for connecting to RSS feed.
-            </summary>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.RssDataProvider.GetDataAsync``1(Microsoft.Toolkit.Uwp.Services.Rss.RssDataConfig,System.Int32,Microsoft.Toolkit.Uwp.Services.IParser{``0})">
-            <summary>
-            Wrapper around RSS endpoint for making data request.
-            </summary>
-            <typeparam name="TSchema">Schema to use</typeparam>
-            <param name="config">Query configuration.</param>
-            <param name="maxRecords">Upper limit for records returned.</param>
-            <param name="parser">IParser implementation for interpreting results.</param>
-            <returns>Strongly typed list of results.</returns>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.RssDataProvider.GetDefaultParser(Microsoft.Toolkit.Uwp.Services.Rss.RssDataConfig)">
-            <summary>
-            Returns parser implementation for specified configuration.
-            </summary>
-            <param name="config">Query configuration.</param>
-            <returns>Strongly typed parser.</returns>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.Services.Rss.RssDataProvider.ValidateConfig(Microsoft.Toolkit.Uwp.Services.Rss.RssDataConfig)">
-            <summary>
-            Check validity of configuration.
-            </summary>
-            <param name="config">Query configuration.</param>
         </member>
         <member name="T:Microsoft.Toolkit.Uwp.Services.Rss.RssHelper">
             <summary>

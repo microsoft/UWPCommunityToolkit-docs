@@ -1,16 +1,16 @@
 
-# Microsoft.Toolkit.Uwp.Services.Rss.RssDataConfig class
+# RssDataConfig class
 
 Query configuration data.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Rss.RssDataConfig** namespace has these types of members
+The **RssDataConfig** class has this types of members
 
 * [properties](#properties)
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.Services.Rss.RssDataConfig.Url
+#### Url
 
 Gets or sets uri to query.

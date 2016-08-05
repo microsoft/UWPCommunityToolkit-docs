@@ -85,7 +85,7 @@
             This class provides static helper methods for <see cref="T:Windows.Storage.StorageFile" />.
             </summary>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.SaveTextToLocalFileAsync(System.String,System.String,Windows.Storage.CreationCollisionOption)">
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.WriteTextToLocalFileAsync(System.String,System.String,Windows.Storage.CreationCollisionOption)">
             <summary>
             Saves a string value to a <see cref="T:Windows.Storage.StorageFile"/> in application local folder/>.
             </summary>
@@ -105,7 +105,7 @@
             Exception thrown if the file location or file name are null or empty.
             </exception>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.SaveTextToLocalCacheFileAsync(System.String,System.String,Windows.Storage.CreationCollisionOption)">
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.WriteTextToLocalCacheFileAsync(System.String,System.String,Windows.Storage.CreationCollisionOption)">
             <summary>
             Saves a string value to a <see cref="T:Windows.Storage.StorageFile"/> in application local cache folder/>.
             </summary>
@@ -125,7 +125,7 @@
             Exception thrown if the file location or file name are null or empty.
             </exception>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.SaveTextToKnownFolderFileAsync(Windows.Storage.KnownFolderId,System.String,System.String,Windows.Storage.CreationCollisionOption)">
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.WriteTextToKnownFolderFileAsync(Windows.Storage.KnownFolderId,System.String,System.String,Windows.Storage.CreationCollisionOption)">
             <summary>
             Saves a string value to a <see cref="T:Windows.Storage.StorageFile"/> in well known folder/>.
             </summary>
@@ -148,7 +148,7 @@
             Exception thrown if the file location or file name are null or empty.
             </exception>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.SaveTextToFileAsync(Windows.Storage.StorageFolder,System.String,System.String,Windows.Storage.CreationCollisionOption)">
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.WriteTextToFileAsync(Windows.Storage.StorageFolder,System.String,System.String,Windows.Storage.CreationCollisionOption)">
             <summary>
             Saves a string value to a <see cref="T:Windows.Storage.StorageFile"/> in the given <see cref="T:Windows.Storage.StorageFolder"/>.
             </summary>
@@ -171,7 +171,7 @@
             Exception thrown if the file location or file name are null or empty.
             </exception>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.SaveBytesToLocalFileAsync(System.Byte[],System.String,Windows.Storage.CreationCollisionOption)">
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.WriteBytesToLocalFileAsync(System.Byte[],System.String,Windows.Storage.CreationCollisionOption)">
             <summary>
             Saves an array of bytes to a <see cref="T:Windows.Storage.StorageFile"/> to application local folder/>.
             </summary>
@@ -191,7 +191,7 @@
             Exception thrown if the file location or file name are null or empty.
             </exception>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.SaveBytesToLocalCacheFileAsync(System.Byte[],System.String,Windows.Storage.CreationCollisionOption)">
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.WriteBytesToLocalCacheFileAsync(System.Byte[],System.String,Windows.Storage.CreationCollisionOption)">
             <summary>
             Saves an array of bytes to a <see cref="T:Windows.Storage.StorageFile"/> to application local cache folder/>.
             </summary>
@@ -211,7 +211,7 @@
             Exception thrown if the file location or file name are null or empty.
             </exception>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.SaveBytesToKnownFolderFileAsync(Windows.Storage.KnownFolderId,System.Byte[],System.String,Windows.Storage.CreationCollisionOption)">
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.WriteBytesToKnownFolderFileAsync(Windows.Storage.KnownFolderId,System.Byte[],System.String,Windows.Storage.CreationCollisionOption)">
             <summary>
             Saves an array of bytes to a <see cref="T:Windows.Storage.StorageFile"/> to well known folder/>.
             </summary>
@@ -234,7 +234,7 @@
             Exception thrown if the file location or file name are null or empty.
             </exception>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.SaveBytesToFileAsync(Windows.Storage.StorageFolder,System.Byte[],System.String,Windows.Storage.CreationCollisionOption)">
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.WriteBytesToFileAsync(Windows.Storage.StorageFolder,System.Byte[],System.String,Windows.Storage.CreationCollisionOption)">
             <summary>
             Saves an array of bytes to a <see cref="T:Windows.Storage.StorageFile"/> in the given <see cref="T:Windows.Storage.StorageFolder"/>.
             </summary>
@@ -257,82 +257,161 @@
             Exception thrown if the file location or file name are null or empty.
             </exception>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.ReadTextFromPackagedFile(System.String)">
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.ReadTextFromPackagedFileAsync(System.String)">
             <summary>
             Gets a string value from a <see cref="T:Windows.Storage.StorageFile"/> located in the application installation folder.
             </summary>
-            <param name="relativePath">
+            <param name="fileName">
             The relative <see cref="T:System.String"/> file path.
             </param>
             <returns>
             Returns the stored <see cref="T:System.String"/> value.
             </returns>
             <exception cref="T:System.ArgumentNullException">
-            Exception thrown if the <paramref name="relativePath"/> is null or empty.
+            Exception thrown if the <paramref name="fileName"/> is null or empty.
             </exception>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.ReadTextFromLocalCacheFile(System.String)">
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.ReadTextFromLocalCacheFileAsync(System.String)">
             <summary>
             Gets a string value from a <see cref="T:Windows.Storage.StorageFile"/> located in the application local cache folder.
             </summary>
-            <param name="relativePath">
+            <param name="fileName">
             The relative <see cref="T:System.String"/> file path.
             </param>
             <returns>
             Returns the stored <see cref="T:System.String"/> value.
             </returns>
             <exception cref="T:System.ArgumentNullException">
-            Exception thrown if the <paramref name="relativePath"/> is null or empty.
+            Exception thrown if the <paramref name="fileName"/> is null or empty.
             </exception>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.ReadTextFromLocalFile(System.String)">
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.ReadTextFromLocalFileAsync(System.String)">
             <summary>
             Gets a string value from a <see cref="T:Windows.Storage.StorageFile"/> located in the application local folder.
             </summary>
-            <param name="relativePath">
+            <param name="fileName">
             The relative <see cref="T:System.String"/> file path.
             </param>
             <returns>
             Returns the stored <see cref="T:System.String"/> value.
             </returns>
             <exception cref="T:System.ArgumentNullException">
-            Exception thrown if the <paramref name="relativePath"/> is null or empty.
+            Exception thrown if the <paramref name="fileName"/> is null or empty.
             </exception>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.ReadTextFromKnownFoldersFile(Windows.Storage.KnownFolderId,System.String)">
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.ReadTextFromKnownFoldersFileAsync(Windows.Storage.KnownFolderId,System.String)">
             <summary>
             Gets a string value from a <see cref="T:Windows.Storage.StorageFile"/> located in a well known folder.
             </summary>
             <param name="knownFolderId">
             The well known folder ID to use.
             </param>
-            <param name="relativePath">
+            <param name="fileName">
             The relative <see cref="T:System.String"/> file path.
             </param>
             <returns>
             Returns the stored <see cref="T:System.String"/> value.
             </returns>
             <exception cref="T:System.ArgumentNullException">
-            Exception thrown if the <paramref name="relativePath"/> is null or empty.
+            Exception thrown if the <paramref name="fileName"/> is null or empty.
             </exception>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.GetBytesFromFilePathAsync(System.String)">
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.ReadTextFromFileAsync(Windows.Storage.StorageFolder,System.String)">
             <summary>
-            Gets a byte array from a <see cref="T:Windows.Storage.StorageFile"/> based on a file path string.
+            Gets a string value from a <see cref="T:Windows.Storage.StorageFile"/> located in the given <see cref="T:Windows.Storage.StorageFolder"/>.
             </summary>
-            <param name="filePath">
-            The <see cref="T:System.String"/> file path.
+            <param name="fileLocation">
+            The <see cref="T:Windows.Storage.StorageFolder"/> to save the file in.
+            </param>
+            <param name="fileName">
+            The relative <see cref="T:System.String"/> file path.
+            </param>
+            <returns>
+            Returns the stored <see cref="T:System.String"/> value.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Exception thrown if the <paramref name="fileName"/> is null or empty.
+            </exception>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.ReadBytesFromPackagedFileAsync(System.String)">
+            <summary>
+            Gets an array of bytes from a <see cref="T:Windows.Storage.StorageFile"/> located in the application installation folder.
+            </summary>
+            <param name="fileName">
+            The relative <see cref="T:System.String"/> file path.
             </param>
             <returns>
             Returns the stored <see cref="T:System.Byte"/> array.
             </returns>
             <exception cref="T:System.ArgumentNullException">
-            Exception thrown if the <paramref name="filePath"/> is null or empty.
+            Exception thrown if the <paramref name="fileName"/> is null or empty.
             </exception>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.GetBytesFromFileAsync(Windows.Storage.StorageFile)">
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.ReadBytesFromLocalCacheFileAsync(System.String)">
             <summary>
-            Gets a byte array from a <see cref="T:Windows.Storage.StorageFile"/>.
+            Gets an array of bytes from a <see cref="T:Windows.Storage.StorageFile"/> located in the application local cache folder.
+            </summary>
+            <param name="fileName">
+            The relative <see cref="T:System.String"/> file path.
+            </param>
+            <returns>
+            Returns the stored <see cref="T:System.Byte"/> array.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Exception thrown if the <paramref name="fileName"/> is null or empty.
+            </exception>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.ReadBytesFromLocalFileAsync(System.String)">
+            <summary>
+            Gets an array of bytes from a <see cref="T:Windows.Storage.StorageFile"/> located in the application local folder.
+            </summary>
+            <param name="fileName">
+            The relative <see cref="T:System.String"/> file path.
+            </param>
+            <returns>
+            Returns the stored <see cref="T:System.Byte"/> array.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Exception thrown if the <paramref name="fileName"/> is null or empty.
+            </exception>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.ReadBytesFromKnownFoldersFileAsync(Windows.Storage.KnownFolderId,System.String)">
+            <summary>
+            Gets an array of bytes from a <see cref="T:Windows.Storage.StorageFile"/> located in a well known folder.
+            </summary>
+            <param name="knownFolderId">
+            The well known folder ID to use.
+            </param>
+            <param name="fileName">
+            The relative <see cref="T:System.String"/> file path.
+            </param>
+            <returns>
+            Returns the stored <see cref="T:System.Byte"/> array.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Exception thrown if the <paramref name="fileName"/> is null or empty.
+            </exception>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.ReadBytesFromFileAsync(Windows.Storage.StorageFolder,System.String)">
+            <summary>
+            Gets an array of bytes from a <see cref="T:Windows.Storage.StorageFile"/> located in the given <see cref="T:Windows.Storage.StorageFolder"/>.
+            </summary>
+            <param name="fileLocation">
+            The <see cref="T:Windows.Storage.StorageFolder"/> to save the file in.
+            </param>
+            <param name="fileName">
+            The relative <see cref="T:System.String"/> file path.
+            </param>
+            <returns>
+            Returns the stored <see cref="T:System.Byte"/> array.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Exception thrown if the <paramref name="fileName"/> is null or empty.
+            </exception>
+        </member>
+        <member name="M:Microsoft.Toolkit.Uwp.StorageFileHelper.ReadBytesAsync(Windows.Storage.StorageFile)">
+            <summary>
+            Gets an array of bytes from a <see cref="T:Windows.Storage.StorageFile"/>.
             </summary>
             <param name="file">
             The <see cref="T:Windows.Storage.StorageFile"/>.
@@ -395,14 +474,14 @@
             This class provides static helper methods for streams.
             </summary>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.GetHTTPStreamAsync(System.Uri)">
+        <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.GetHttpStreamAsync(System.Uri)">
             <summary>
             Get the response stream returned by a HTTP get request.
             </summary>
             <param name="uri">Uri to request.</param>
             <returns>Response stream</returns>
         </member>
-        <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.GetHTTPStreamToStorageFileAsync(System.Uri,Windows.Storage.StorageFile)">
+        <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.GetHttpStreamToStorageFileAsync(System.Uri,Windows.Storage.StorageFile)">
             <summary>
             Get the response stream returned by a HTTP get request and save it to a local file.
             </summary>
@@ -414,7 +493,7 @@
             <summary>
             Return a stream to a specified file from the installation folder.
             </summary>
-            <param name="relativeFileName">Relative name of the file to open. Can contains subfolders.</param>
+            <param name="fileName">Relative name of the file to open. Can contains subfolders.</param>
             <param name="accessMode">File access mode. Default is read.</param>
             <returns>File stream</returns>
         </member>
@@ -422,7 +501,7 @@
             <summary>
             Return a stream to a specified file from the application local folder.
             </summary>
-            <param name="relativeFileName">Relative name of the file to open. Can contains subfolders.</param>
+            <param name="fileName">Relative name of the file to open. Can contains subfolders.</param>
             <param name="accessMode">File access mode. Default is read.</param>
             <returns>File stream</returns>
         </member>
@@ -430,7 +509,7 @@
             <summary>
             Return a stream to a specified file from the application local cache folder.
             </summary>
-            <param name="relativeFileName">Relative name of the file to open. Can contains subfolders.</param>
+            <param name="fileName">Relative name of the file to open. Can contains subfolders.</param>
             <param name="accessMode">File access mode. Default is read.</param>
             <returns>File stream</returns>
         </member>
@@ -439,7 +518,7 @@
             Return a stream to a specified file from the application local cache folder.
             </summary>
             <param name="knownFolderId">The well known folder ID to use</param>
-            <param name="relativeFileName">Relative name of the file to open. Can contains subfolders.</param>
+            <param name="fileName">Relative name of the file to open. Can contains subfolders.</param>
             <param name="accessMode">File access mode. Default is read.</param>
             <returns>File stream</returns>
         </member>
@@ -447,21 +526,21 @@
             <summary>
             Test if a file exists in the application installation folder.
             </summary>
-            <param name="relativeFileName">Relative name of the file to open. Can contains subfolders.</param>
+            <param name="fileName">Relative name of the file to open. Can contains subfolders.</param>
             <returns>True if file exists.</returns>
         </member>
         <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.IsLocalFileExistsAsync(System.String)">
             <summary>
             Test if a file exists in the application local folder.
             </summary>
-            <param name="relativeFileName">Relative name of the file to open. Can contains subfolders.</param>
+            <param name="fileName">Relative name of the file to open. Can contains subfolders.</param>
             <returns>True if file exists.</returns>
         </member>
         <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.IsLocalCacheFileExistsAsync(System.String)">
             <summary>
             Test if a file exists in the application local cache folder.
             </summary>
-            <param name="relativeFileName">Relative name of the file to open. Can contains subfolders.</param>
+            <param name="fileName">Relative name of the file to open. Can contains subfolders.</param>
             <returns>True if file exists.</returns>
         </member>
         <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.IsKnownFolderFileExistsAsync(Windows.Storage.KnownFolderId,System.String)">
@@ -469,7 +548,7 @@
             Test if a file exists in the application local cache folder.
             </summary>
             <param name="knownFolderId">The well known folder ID to use</param>
-            <param name="relativeFileName">Relative name of the file to open. Can contains subfolders.</param>
+            <param name="fileName">Relative name of the file to open. Can contains subfolders.</param>
             <returns>True if file exists.</returns>
         </member>
         <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.IsFileExistsAsync(Windows.Storage.StorageFolder,System.String)">
@@ -477,7 +556,7 @@
             Test if a file exists in the application local folder.
             </summary>
             <param name="workingFolder">Folder to use.</param>
-            <param name="relativeFileName">Relative name of the file to open. Can contains subfolders.</param>
+            <param name="fileName">Relative name of the file to open. Can contains subfolders.</param>
             <returns>True if file exists.</returns>
         </member>
         <member name="M:Microsoft.Toolkit.Uwp.StreamHelper.ReadTextAsync(Windows.Storage.Streams.IRandomAccessStream,System.Text.Encoding)">

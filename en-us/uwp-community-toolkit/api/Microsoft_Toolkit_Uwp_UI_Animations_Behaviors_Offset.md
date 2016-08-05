@@ -1,11 +1,11 @@
 
-# Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset class
+# Offset class
 
 Performs an offset animation using composition.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset** namespace has these types of members
+The **Offset** class has this types of members
 
 * [methods](#methods)
 
@@ -15,34 +15,34 @@ The **Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset** namespace has these
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset.StartAnimation
+#### StartAnimation()
 
 Starts the animation.
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset.OffsetX
+#### OffsetX
 
 Gets or sets the Offset x.
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset.OffsetY
+#### OffsetY
 
 Gets or sets the Offset y.
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset.OffsetZ
+#### OffsetZ
 
 Gets or sets the Offset z.
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset.OffsetXProperty
+#### OffsetXProperty
 
 The Offset on the x axis of the associated object
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset.OffsetYProperty
+#### OffsetYProperty
 
 The Offset on the y axis of the associated object
 
-#### Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset.OffsetZProperty
+#### OffsetZProperty
 
 The Offset on the z axis of the associated object

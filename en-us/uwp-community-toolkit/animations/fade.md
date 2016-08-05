@@ -8,7 +8,8 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # Fade
-The **Fade animation behavior** fades objects, in and out, over time. 
+The **Fade animation behavior** fades objects, in and out, over time.
+
 ## Syntax
 ```xaml
  <behaviors:Fade x:Name="FadeBehavior>" 
@@ -41,13 +42,17 @@ Behavior animations can also be chained and awaited.
 ```
 
 [Fade Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Fade)
+
+Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for current samples and example code.
  
 ## Example Image
+![Fade Behavior animation](/resources/images/Animations-Fade.gif "Fade Behavior")
 
 ## Platforms
 
 Windows 10 SDK 10585 or higher
 
 ## API
-
-Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for current samples and example code.
+* [Fade source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/Fade.cs)
+* [Fade Behavior API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Fade.htm)
+* [Fade Code API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#fadewindowsuixamluielement-associatedobjectsystemdouble-durationsystemdouble-delaysystemsingle-value)

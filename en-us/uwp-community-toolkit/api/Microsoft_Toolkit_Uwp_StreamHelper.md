@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.StreamHelper class
+# StreamHelper class
 
 This class provides static helper methods for streams.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.StreamHelper** namespace has these types of members
+The **StreamHelper** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.StreamHelper.IsPackagedFileExistsAsync(System.String)
+#### IsPackagedFileExistsAsync(System.String fileName)
 
 Test if a file exists in the application installation folder.
 
@@ -19,16 +19,8 @@ Test if a file exists in the application installation folder.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| relativeFileName | Relative name of the file to open. Can contains subfolders. |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.StreamHelper.GetHTTPStreamAsync(System.Uri)
+| name | description | type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | System.String || return |True if file exists. |
+#### GetHttpStreamAsync(System.Uri uri)
 
 Get the response stream returned by a HTTP get request.
 
@@ -36,16 +28,8 @@ Get the response stream returned by a HTTP get request.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| uri | Uri to request. |
-
-| return |R |
-
-#### Microsoft.Toolkit.Uwp.StreamHelper.GetPackagedFileStreamAsync(System.String,Windows.Storage.FileAccessMode)
+| name | description | type || --- | --- | --- || uri | Uri to request. | System.Uri || return |Response stream |
+#### GetPackagedFileStreamAsync(System.String fileName,Windows.Storage.FileAccessMode accessMode)
 
 Return a stream to a specified file from the installation folder.
 
@@ -53,18 +37,8 @@ Return a stream to a specified file from the installation folder.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| relativeFileName | Relative name of the file to open. Can contains subfolders. |
-
-| accessMode | File access mode. Default is read. |
-
-| return |F |
-
-#### Microsoft.Toolkit.Uwp.StreamHelper.GetLocalFileStreamAsync(System.String,Windows.Storage.FileAccessMode)
+| name | description | type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | System.String || accessMode | File access mode. Default is read. | Windows.Storage.FileAccessMode || return |File stream |
+#### GetLocalFileStreamAsync(System.String fileName,Windows.Storage.FileAccessMode accessMode)
 
 Return a stream to a specified file from the application local folder.
 
@@ -72,18 +46,8 @@ Return a stream to a specified file from the application local folder.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| relativeFileName | Relative name of the file to open. Can contains subfolders. |
-
-| accessMode | File access mode. Default is read. |
-
-| return |F |
-
-#### Microsoft.Toolkit.Uwp.StreamHelper.GetLocalCacheFileStreamAsync(System.String,Windows.Storage.FileAccessMode)
+| name | description | type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | System.String || accessMode | File access mode. Default is read. | Windows.Storage.FileAccessMode || return |File stream |
+#### GetLocalCacheFileStreamAsync(System.String fileName,Windows.Storage.FileAccessMode accessMode)
 
 Return a stream to a specified file from the application local cache folder.
 
@@ -91,18 +55,8 @@ Return a stream to a specified file from the application local cache folder.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| relativeFileName | Relative name of the file to open. Can contains subfolders. |
-
-| accessMode | File access mode. Default is read. |
-
-| return |F |
-
-#### Microsoft.Toolkit.Uwp.StreamHelper.GetKnowFoldersFileStreamAsync(Windows.Storage.KnownFolderId,System.String,Windows.Storage.FileAccessMode)
+| name | description | type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | System.String || accessMode | File access mode. Default is read. | Windows.Storage.FileAccessMode || return |File stream |
+#### GetKnowFoldersFileStreamAsync(Windows.Storage.KnownFolderId knownFolderId,System.String fileName,Windows.Storage.FileAccessMode accessMode)
 
 Return a stream to a specified file from the application local cache folder.
 
@@ -110,20 +64,8 @@ Return a stream to a specified file from the application local cache folder.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| knownFolderId | The well known folder ID to use |
-
-| relativeFileName | Relative name of the file to open. Can contains subfolders. |
-
-| accessMode | File access mode. Default is read. |
-
-| return |F |
-
-#### Microsoft.Toolkit.Uwp.StreamHelper.GetHTTPStreamToStorageFileAsync(System.Uri,Windows.Storage.StorageFile)
+| name | description | type || --- | --- | --- || knownFolderId | The well known folder ID to use | Windows.Storage.KnownFolderId || fileName | Relative name of the file to open. Can contains subfolders. | System.String || accessMode | File access mode. Default is read. | Windows.Storage.FileAccessMode || return |File stream |
+#### GetHttpStreamToStorageFileAsync(System.Uri uri,Windows.Storage.StorageFile targetFile)
 
 Get the response stream returned by a HTTP get request and save it to a local file.
 
@@ -131,18 +73,8 @@ Get the response stream returned by a HTTP get request and save it to a local fi
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| uri | Uri to request. |
-
-| targetFile | StorageFile to save the stream to. |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.StreamHelper.IsLocalFileExistsAsync(System.String)
+| name | description | type || --- | --- | --- || uri | Uri to request. | System.Uri || targetFile | StorageFile to save the stream to. | Windows.Storage.StorageFile || return |True if success. |
+#### IsLocalFileExistsAsync(System.String fileName)
 
 Test if a file exists in the application local folder.
 
@@ -150,16 +82,8 @@ Test if a file exists in the application local folder.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| relativeFileName | Relative name of the file to open. Can contains subfolders. |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.StreamHelper.IsLocalCacheFileExistsAsync(System.String)
+| name | description | type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | System.String || return |True if file exists. |
+#### IsLocalCacheFileExistsAsync(System.String fileName)
 
 Test if a file exists in the application local cache folder.
 
@@ -167,16 +91,8 @@ Test if a file exists in the application local cache folder.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| relativeFileName | Relative name of the file to open. Can contains subfolders. |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.StreamHelper.IsKnownFolderFileExistsAsync(Windows.Storage.KnownFolderId,System.String)
+| name | description | type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | System.String || return |True if file exists. |
+#### IsKnownFolderFileExistsAsync(Windows.Storage.KnownFolderId knownFolderId,System.String fileName)
 
 Test if a file exists in the application local cache folder.
 
@@ -184,18 +100,8 @@ Test if a file exists in the application local cache folder.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| knownFolderId | The well known folder ID to use |
-
-| relativeFileName | Relative name of the file to open. Can contains subfolders. |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.StreamHelper.IsFileExistsAsync(Windows.Storage.StorageFolder,System.String)
+| name | description | type || --- | --- | --- || knownFolderId | The well known folder ID to use | Windows.Storage.KnownFolderId || fileName | Relative name of the file to open. Can contains subfolders. | System.String || return |True if file exists. |
+#### IsFileExistsAsync(Windows.Storage.StorageFolder workingFolder,System.String fileName)
 
 Test if a file exists in the application local folder.
 
@@ -203,18 +109,8 @@ Test if a file exists in the application local folder.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| workingFolder | Folder to use. |
-
-| relativeFileName | Relative name of the file to open. Can contains subfolders. |
-
-| return |T |
-
-#### Microsoft.Toolkit.Uwp.StreamHelper.ReadTextAsync(Windows.Storage.Streams.IRandomAccessStream,System.Text.Encoding)
+| name | description | type || --- | --- | --- || workingFolder | Folder to use. | Windows.Storage.StorageFolder || fileName | Relative name of the file to open. Can contains subfolders. | System.String || return |True if file exists. |
+#### ReadTextAsync(Windows.Storage.Streams.IRandomAccessStream stream,System.Text.Encoding encoding)
 
 Read stream content as a string.
 
@@ -222,13 +118,4 @@ Read stream content as a string.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| stream | Stream to read from. |
-
-| encoding | Encoding to use. Can be set to null (ASCII will be used in this case). |
-
-| return |S |
+| name | description | type || --- | --- | --- || stream | Stream to read from. | Windows.Storage.Streams.IRandomAccessStream || encoding | Encoding to use. Can be set to null (ASCII will be used in this case). | System.Text.Encoding || return |Stream content. |

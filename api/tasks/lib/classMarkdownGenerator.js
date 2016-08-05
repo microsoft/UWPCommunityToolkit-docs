@@ -14,21 +14,39 @@ var getMembersGroupedByTpe = function (members) {
 	return groupedMembers;
 };
 
+var getMemberTitle = function (member) {
+	var paramNames = member.params.map(function (param) {
+		return param.type + ' ' + param.name;
+	});
+
+	var memberTitle = member.name;
+
+	if (member.type.name === 'method'){
+		memberTitle = memberTitle + '(' + paramNames.join(',') + ')';
+	}
+
+	if (member.type.name === 'constructor'){
+		memberTitle = 'contructor';
+	}
+
+	return memberTitle;
+};
+
 module.exports = function (context) {
 	grunt = context;
 	common = require('./commonGenerator.js')(grunt);
 
 	return {
-		generate: function (path, model) {
-			var generator = new common.Generator();
+		generate: function (path, model, options) {
+			var generator = new common.Generator(options);
 
 			//header
-			generator.addLine('# ' + model.name + ' class');
+			generator.addLine('# ' + generator.replaceGenericTypes(model.name) + ' class');
 			generator.addLine(generator.treatText(model.summary));
 
 			//members index
 			generator.addLine('## Members');
-			generator.addLine('The **' + model.name + '** namespace has these types of members');
+			generator.addLine('The **' + generator.replaceGenericTypes(model.name) + '** class has this types of members');
 
 			var members = model.members.sort(function (a, b) {
 				if (a.type.id > b.type.id) {
@@ -50,7 +68,6 @@ module.exports = function (context) {
 			}
 
 			types.forEach(function (type) {
-				// result += '* [' + type.plural + ']' + '(#' + type.plural + ')\n';
 				generator.addLine('* [' + type.plural + ']' + '(#' + type.plural + ')');
 			});
 
@@ -60,36 +77,35 @@ module.exports = function (context) {
 				generator.addLine('### ' + type.plural);
 
 				typeMembers.forEach(function (member) {
-					generator.addLine('#### ' + member.name);
+					var memberTitle = getMemberTitle(member);
+
+					generator.addLine('#### ' + memberTitle);
 					generator.addLine(generator.treatText(member.summary));
 
 					if (member.params.length || member.returns.length) {
 						generator.addLine('##### parameters');
 						generator.addContent('\n\n\n');
-						generator.addLine('| name | description |');
-						generator.addLine('| --- | --- |');
+						generator.addContent('| name | description | type |\r');
+						generator.addContent('| --- | --- | --- |\r');
 					}
 
 					member.params.forEach(function (param) {
-						//result += '| '
-                        // + param.name + ' | ' + param.text + ' |\n';
-						generator.addLine('| ' + param.name + ' | ' + generator.treatText(param.text) + ' |');
+						generator.addContent('| ' + param.name + ' | ' + generator.treatText(param.text) + ' | ' + param.type + ' |\r');
 					});
 
 					member.returns.forEach(function (ret) {
-						//result += '| return |' + ret.text + ' |\n';
-						generator.addLine('| return |' + generator.treatText(ret.text) + ' |');
+						generator.addContent('| return |' + generator.treatText(ret.text) + ' |\r');
 					});
 
 					if (member.exceptions.length) {
 						generator.addLine('##### exceptions');
 						generator.addLine('');
-						generator.addLine('| type | description |');
-						generator.addLine('| --- | --- |');
+						generator.addContent('| type | description |\r');
+						generator.addContent('| --- | --- |\r');
 					}
 
 					member.exceptions.forEach(function (exc) {
-						generator.addLine('| exception type |' + exc.text + ' |');
+						generator.addContent('| exception type |' + exc.text + ' |\r');
 					});
 				});
 			});

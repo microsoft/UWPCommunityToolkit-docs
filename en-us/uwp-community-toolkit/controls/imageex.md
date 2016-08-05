@@ -24,6 +24,7 @@ The **ImageEx Control** downloads images asynchronously, while showing a loading
 ```
 
 ## Example Image
+![ImageEx animation](/resources/images/Controls-ImageEx.gif "ImageEx")
 
 ## Example Code
 <p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
@@ -36,6 +37,5 @@ The **ImageEx Control** downloads images asynchronously, while showing a loading
 Windows 10 SDK 10586 or higher
 
 ## API
-Please access the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp), to view control samples that are available in the UWP Community Toolkit.
-
-[ImageEx API Docs](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/api/Microsoft_Toolkit_Uwp_UI_Controls_ImageEx.md)
+* [ImageEx source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/ImageEx)
+* [ImageEx API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_ImageEx.htm)

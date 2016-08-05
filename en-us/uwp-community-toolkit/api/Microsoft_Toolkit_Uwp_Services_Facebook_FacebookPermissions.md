@@ -1,96 +1,96 @@
 
-# Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions class
+# FacebookPermissions class
 
 List of user related data permissions
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions** namespace has these types of members
+The **FacebookPermissions** class has this types of members
 
 * [fields](#fields)
 
 ### fields
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserLocation
+#### UserLocation
 
 Location
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.PublicProfile
+#### PublicProfile
 
 Public profile
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.PublishActions
+#### PublishActions
 
 Publish actions
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserAboutMe
+#### UserAboutMe
 
 About me
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserBirthday
+#### UserBirthday
 
 Birthday
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserEducationHistory
+#### UserEducationHistory
 
 Education history
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserFriends
+#### UserFriends
 
 Friends
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserGamesActivity
+#### UserGamesActivity
 
 Games activity
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserHometown
+#### UserHometown
 
 Hometown
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserLikes
+#### UserLikes
 
 Likes
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.Email
+#### Email
 
 Email
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserPhotos
+#### UserPhotos
 
 Photos
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserPosts
+#### UserPosts
 
 Posts
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserRelationshipDetails
+#### UserRelationshipDetails
 
 Relationship details
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserRelationships
+#### UserRelationships
 
 Relationships
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserReligionPolitics
+#### UserReligionPolitics
 
 Religion and politics
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserStatus
+#### UserStatus
 
 Status
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserTaggedPlaces
+#### UserTaggedPlaces
 
 Tagged places
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserVideos
+#### UserVideos
 
 Videos
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserWebsite
+#### UserWebsite
 
 Website
 
-#### Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions.UserWorkHistory
+#### UserWorkHistory
 
 WorkHistory

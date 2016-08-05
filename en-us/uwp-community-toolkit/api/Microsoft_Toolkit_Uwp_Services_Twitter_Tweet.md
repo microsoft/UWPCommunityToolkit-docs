@@ -1,32 +1,32 @@
 
-# Microsoft.Toolkit.Uwp.Services.Twitter.Tweet class
+# Tweet class
 
 Twitter Timeline item.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.Twitter.Tweet** namespace has these types of members
+The **Tweet** class has this types of members
 
 * [properties](#properties)
 
 ### properties
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.Tweet.CreatedAt
+#### CreatedAt
 
 Gets or sets time item was created.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.Tweet.Id
+#### Id
 
 Gets or sets item Id.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.Tweet.Text
+#### Text
 
 Gets or sets text of the status.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.Tweet.User
+#### User
 
 Gets or sets user who posted the status.
 
-#### Microsoft.Toolkit.Uwp.Services.Twitter.Tweet.CreationDate
+#### CreationDate
 
 Gets the creation date

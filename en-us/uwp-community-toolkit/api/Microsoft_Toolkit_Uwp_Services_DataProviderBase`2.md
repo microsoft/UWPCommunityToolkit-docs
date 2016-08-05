@@ -1,17 +1,17 @@
 
-# Microsoft.Toolkit.Uwp.Services.DataProviderBase`2 class
+# DataProviderBase<T1><T2> class
 
 Base class for data providers in this library.
 
 ## Members
 
-The **Microsoft.Toolkit.Uwp.Services.DataProviderBase`2** namespace has these types of members
+The **DataProviderBase<T1><T2>** class has this types of members
 
 * [methods](#methods)
 
 ### methods
 
-#### Microsoft.Toolkit.Uwp.Services.DataProviderBase`2.LoadDataAsync(`0,System.Int32)
+#### LoadDataAsync(T0 config,System.Int32 maxRecords)
 
 Load data from provider endpoint.
 
@@ -19,18 +19,8 @@ Load data from provider endpoint.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| config | Query configuration. |
-
-| maxRecords | Upper record limit. |
-
-| return |L |
-
-#### Microsoft.Toolkit.Uwp.Services.DataProviderBase`2.GetDefaultParser(`0)
+| name | description | type || --- | --- | --- || config | Query configuration. | T0 || maxRecords | Upper record limit. | System.Int32 || return |List of strong typed objects. |
+#### GetDefaultParser(T0 config)
 
 Default parser abstract method.
 
@@ -38,11 +28,4 @@ Default parser abstract method.
 
 
 
-
-| name | description |
-
-| --- | --- |
-
-| config | Query configuration object. |
-
-| return |S |
+| name | description | type || --- | --- | --- || config | Query configuration object. | T0 || return |Strong typed default parser. |

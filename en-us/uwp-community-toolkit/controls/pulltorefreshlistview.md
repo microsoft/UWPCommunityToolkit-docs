@@ -40,4 +40,4 @@ Windows 10 SDK 10586 or higher
 
 ## API
 * [PullToRefreshListView source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/PullToRefreshListView)
-* [PullToRefreshListView API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_PullToRefreshListView.htm)
+* [PullToRefreshListView API documentation](../api/Microsoft_Toolkit_Uwp_UI_Controls_PullToRefreshListView.htm)

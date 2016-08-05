@@ -39,5 +39,5 @@ A metered connection is an Internet connection that has a data limit associated 
 Windows 10 SDK 10586 or higher
 
 ## API
-* [Connection Helper Source](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/ConnectionHelper.cs)
+* [Connection Helper source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/ConnectionHelper.cs)
 * [Connection Helper API docs](../api/Microsoft_Toolkit_Uwp_ConnectionHelper.htm)

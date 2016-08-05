@@ -23,7 +23,7 @@ The **Colors Helper** lets users convert colors from text names, html hex, hsv, 
 	Windows.UI.Color color = ColorHelper.ToColor("#3a4ab0");
 
 	// Also works with an Alpha code
-    Windows.UI.Color myColor = ColorHelper.ToColor("#ff3a4ab0");
+	Windows.UI.Color myColor = ColorHelper.ToColor("#ff3a4ab0");
 
 	// Given a color name, lets convert it to a Windows Color
 	Windows.UI.Color redColor = "Red".ToColor();
@@ -31,10 +31,9 @@ The **Colors Helper** lets users convert colors from text names, html hex, hsv, 
 ```
 
 ## Platforms
-
 Windows 10 SDK 10586 or higher
 
 ## API
-
-[Color Helper Source](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/ColorHelper.cs)
+* [Color Helper source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/ColorHelper.cs)
+* [Color Helper API docs](../api/Microsoft_Toolkit_Uwp_ColorHelper.htm)
 

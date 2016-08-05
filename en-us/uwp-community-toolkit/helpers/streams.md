@@ -44,6 +44,6 @@ Read text from a file using ASCII or specified encoding.
 Windows 10 SDK 10586 or higher
 
 ## API
-* [Stream Helper Source](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/StreamHelper.cs)
+* [Stream Helper source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/StreamHelper.cs)
 * [Stream File Helper API docs](../api/Microsoft_Toolkit_Uwp_StreamHelper.htm)
 

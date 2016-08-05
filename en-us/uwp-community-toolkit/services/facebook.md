@@ -55,54 +55,47 @@ When entering the value into the Facebook Developer site you must strip the ms-a
 ## Syntax
 
 ```C#
-	FacebookService.Instance.Initialize(AppIDText.Text);
-	if (!await FacebookService.Instance.LoginAsync())
-	{
-	    ShareBox.Visibility = Visibility.Collapsed;
-	    Shell.Current.DisplayWaitRing = false;
-	    var error = new MessageDialog("Unable to log to Facebook");
-	    await error.ShowAsync();
-	    return;
-	}
-	
-	FacebookDataConfig config;
-	switch (QueryType.SelectedIndex)
-	{
-	    case 1:
-	        config = FacebookDataConfig.MyPosts;
-	        break;
-	    case 2:
-	        config = FacebookDataConfig.MyTagged;
-	        break;
-	    default:
-	        config = FacebookDataConfig.MyFeed;
-	        break;
-	}
-	
-	ListView.ItemsSource = await FacebookService.Instance.RequestAsync(config, 50);
-	
-	ShareBox.Visibility = Visibility.Visible;
-	
-	ProfileImage.DataContext = await FacebookService.Instance.GetUserPictureInfoAsync();
+// Initialize service
+FacebookService.Instance.Initialize(AppIDText.Text);
+
+// Login to Facebook
+if (!await FacebookService.Instance.LoginAsync())
+{
+    return;
+}
+
+// Get user's feed
+ListView.ItemsSource = await FacebookService.Instance.RequestAsync(FacebookDataConfig.MyFeed, 50);
+
+// Get current user profile picture
+ProfileImage.DataContext = await FacebookService.Instance.GetUserPictureInfoAsync();
+
+// Post a message on your wall
+await FacebookService.Instance.PostToFeedAsync(TitleText.Text, MessageText.Text, DescriptionText.Text, UrlText.Text);
+
+// Post a message on your wall using Facebook Dialog
+await FacebookService.Instance.PostToFeedWithDialogAsync(TitleText.Text, DescriptionText.Text, UrlText.Text);
+
+// Post a message with a picture on your wall
+await FacebookService.Instance.PostToFeedAsync(TitleText.Text, MessageText.Text, DescriptionText.Text, picture.Name, stream);
+
+// Post a message with a picture on your wall using Facebook Dialog
+await FacebookService.Instance.PostToFeedWithDialogAsync(TitleText.Text, DescriptionText.Text, picture.Name, stream);
 ```
  
 ## Example
-<p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
-
 [Facebook Service Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Facebook%20Service)
 
 ## Platforms
-
 Windows 10 SDK 10586 or higher
 
 ## API
+* [Facebook Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.Services/Services/Facebook)
+* [Facebook Service API documentation](../api/Microsoft_Toolkit_Uwp_Services_Facebook_FacebookService.htm)
 
-[Facebook Service API Reference](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/api/Microsoft_Toolkit_Uwp_Services_Facebook_FacebookService.md)
-
-Please refer to the [Facebook Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.Services/Services/Facebook) for details about the implementation.
 
 ## NuGet Packages Required
 
 Microsoft.Toolkit.Uwp.Services
 
-See the [NuGet Packages page](../get-started/nugetpackages.md) for complete list.
+See the [NuGet Packages page](../get-started/nugetpackages.htm) for complete list.

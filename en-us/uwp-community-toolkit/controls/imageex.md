@@ -13,22 +13,16 @@ The **ImageEx Control** downloads images asynchronously, while showing a loading
 ## Syntax
 ```xaml
 <controls:ImageEx Name="ImageExControl"
-			IsCacheEnabled="True"
-            Source="/assets/thumbnails/mythumbnail.png"
-            Stretch="UniformToFill"
-            HorizontalAlignment="Center"
-            VerticalAlignment="Center"/>  
-                <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Center"
-                      Text="{Binding Title}" FontSize="16"
-                      TextWrapping="Wrap" Foreground="White"></TextBlock>
+	IsCacheEnabled="True"
+	PlaceholderSource="/assets/thumbnails/thumbnails.png"
+	Source="/assets/bigPicture.png"
+/> 
 ```
 
 ## Example Image
 ![ImageEx animation](/resources/images/Controls-ImageEx.gif "ImageEx")
 
 ## Example Code
-<p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
-
 [ImageExControl Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/ImageEx)
 
 ## Default Template 

@@ -26,8 +26,6 @@ You can control the number of rows, columns, orientation and aspect ratio.
 ![VariableSizedGridView animation](/resources/images/Controls-VariableSizedGridView.gif "VariableSizedGridView")
 
 ## Example Code
-<p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
-
 [VariableSizedGridView Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/VariableSizedGridView)
 
 ## Default Template 

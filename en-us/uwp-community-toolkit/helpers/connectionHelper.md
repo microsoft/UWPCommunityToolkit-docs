@@ -40,4 +40,4 @@ Windows 10 SDK 10586 or higher
 
 ## API
 * [Connection Helper source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/ConnectionHelper.cs)
-* [Connection Helper API docs](../api/Microsoft_Toolkit_Uwp_ConnectionHelper.htm)
+* [Connection Helper API documentation](../api/Microsoft_Toolkit_Uwp_ConnectionHelper.htm)

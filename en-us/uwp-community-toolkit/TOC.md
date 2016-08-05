@@ -24,25 +24,26 @@
 - [RadialGauge](controls/RadialGauge.md)
 - [RangeSelecter](controls/RangeSelector.md)
 - [ResponsiveGridView](controls/ResponsiveGridView.md)
+- [RotatorTile](controls/RotatorTile.md)
 - [SlideableListItem](controls/SlideableListItem.md)
 - [VariableSizeGridView](controls/VariableSizeGridView.md)
 
-# [Helpers](https://github.com/Microsoft/UWPCommunityToolkit-docs/tree/master/en-us/uwp-community-toolkit/helpers)
+# [Helpers](helpers/)
 
-- [Colors](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/helpers/colors.md)
-- [Connection](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/helpers/connectionHelper.md)
-- [StorageFiles](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/helpers/storagefiles.md)
-- [Streams](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/helpers/streams.md)
-
-
-# [Notifications](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/notifications/notificationsOverview.md) 
+- [Colors](helpers/colors.md)
+- [Connection](helpers/connectionHelper.md)
+- [StorageFiles](helpers/storagefiles.md)
+- [Streams](helpers/streams.md)
 
 
-# [Services](https://github.com/Microsoft/UWPCommunityToolkit-docs/tree/master/en-us/uwp-community-toolkit/services)
+# [Notifications](notifications/notificationsOverview.md) 
 
-- [Bing](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/services/bing.md)
-- [Facebook](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/services/facebook.md)
-- [Twitter](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/services/twitter.md)
 
-# [Index](https://github.com/Microsoft/UWPCommunityToolkit-docs/blob/master/en-us/uwp-community-toolkit/index.md)
+# [Services](services/)
+
+- [Bing](services/bing.md)
+- [Facebook](services/facebook.md)
+- [Twitter](services/twitter.md)
+
+# [Index](index.md)
 

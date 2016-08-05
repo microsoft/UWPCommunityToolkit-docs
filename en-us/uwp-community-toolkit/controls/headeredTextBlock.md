@@ -34,4 +34,4 @@ Windows 10 SDK 10586 or higher
 
 ## API
 * [HeaderedTextBlock source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/HeaderedTextBlock)
-* [HeaderedTextBlock API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_HeaderedTextBlock.htm)
+* [HeaderedTextBlock API documentation](../api/Microsoft_Toolkit_Uwp_UI_Controls_HeaderedTextBlock.htm)

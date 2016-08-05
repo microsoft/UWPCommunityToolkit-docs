@@ -26,29 +26,33 @@ Copy this from the *Keys and Access Tokens* tab on your application page.
 
 ## Syntax
 ```C#
-	TwitterService.Instance.Initialize(ConsumerKey.Text, ConsumerSecret.Text, CallbackUri.Text);
-	TwitterService.Instance.Logout();
-	
-	if (!await TwitterService.Instance.LoginAsync())
-	{
-	    ShareBox.Visibility = Visibility.Collapsed;
-	    Shell.Current.DisplayWaitRing = false;
-	    var error = new MessageDialog("Unable to log to Twitter");
-	    await error.ShowAsync();
-	    return;
-	}
-	
-	ShareBox.Visibility = Visibility.Visible;
-	
-	var user = await TwitterService.Instance.GetUserAsync();
-	ProfileImage.DataContext = user;
-	
-	ListView.ItemsSource = await TwitterService.Instance.GetUserTimeLineAsync(user.ScreenName, 50);
+// Initialize service
+TwitterService.Instance.Initialize(ConsumerKey.Text, ConsumerSecret.Text, CallbackUri.Text);
+
+// Login to Twitter
+if (!await TwitterService.Instance.LoginAsync())
+{
+    return;
+}
+
+// Get current user info
+var user = await TwitterService.Instance.GetUserAsync();
+ProfileImage.DataContext = user;
+
+// Get user timeline
+ListView.ItemsSource = await TwitterService.Instance.GetUserTimeLineAsync(user.ScreenName, 50);
+
+// Post a tweet
+await TwitterService.Instance.TweetStatusAsync(TweetText.Text);
+
+// Post a tweet with a picture
+await TwitterService.Instance.TweetStatusAsync(TweetText.Text, stream);
+
+// Search for a specific tag
+ListView.ItemsSource = await TwitterService.Instance.SearchAsync(TagText.Text, 50);
 ```
 
 ## Example
-<p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
-
 [Twitter Service Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Twitter%20Service)
 
 ## Posting to timeline fails to appear
@@ -61,8 +65,8 @@ If you are posting from your app and never seeing them show up in the timeline c
 Windows 10 SDK 10586 or higher
 
 ## API
-
-Please refer to the [Twitter Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.Services/Services/Twitter) for details about the implementation.
+* [Twitter Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.Services/Services/Twitter)
+* [Twitter Service API documentation](../api/Microsoft_Toolkit_Uwp_Services_Twitter_TwitterService.htm)
 
 ## NuGet Packages Required
 

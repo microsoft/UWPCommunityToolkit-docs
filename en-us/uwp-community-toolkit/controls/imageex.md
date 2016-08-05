@@ -14,8 +14,8 @@ The **ImageEx Control** downloads images asynchronously, while showing a loading
 ```xaml
 <controls:ImageEx Name="ImageExControl"
 	IsCacheEnabled="True"
-        PlaceholderSource="/assets/thumbnails/thumbnails.png"
-        Source="/assets/bigPicture.png"
+	PlaceholderSource="/assets/thumbnails/thumbnails.png"
+	Source="/assets/bigPicture.png"
 /> 
 ```
 

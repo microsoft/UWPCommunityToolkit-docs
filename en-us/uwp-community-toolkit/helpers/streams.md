@@ -25,20 +25,25 @@ Read text from a file using ASCII or specified encoding.
 
 ```C#
 
-	// Get access to a text file that was included in solution as Content | do not copy local
+    // Get access to a text file that was included in solution as Content | do not copy local
     using (var stream = await StreamHelper.GetPackagedFileStreamAsync("Assets/Sub/test.txt"))
     {
-		// Read the contents as ASCII text
+	// Read the contents as ASCII text
         var readText = await stream.ReadTextAsync();
+    }
+    
+    // Get access to a HTTP ressource
+    using (var stream = await StreamHelper.GetHttpStreamAsync(new Uri("http://dev.windows.com")))
+    {
+        ...
     }
 
 ```
 
 ## Platforms
-
 Windows 10 SDK 10586 or higher
 
 ## API
-
-[Stream Helper Source](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/StreamHelper.cs)
+* [Stream Helper Source](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/StreamHelper.cs)
+* [Stream File Helper API docs](../api/Microsoft_Toolkit_Uwp_StreamHelper.htm)
 

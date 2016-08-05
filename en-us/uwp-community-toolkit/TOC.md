@@ -32,6 +32,7 @@
 
 - [Colors](helpers/colors.md)
 - [Connection](helpers/connectionHelper.md)
+- [ImageCache] (helpers/imagecache.md)
 - [StorageFiles](helpers/storagefiles.md)
 - [Streams](helpers/streams.md)
 - [WeakEventListener](helpers/weakeventlistener.md)

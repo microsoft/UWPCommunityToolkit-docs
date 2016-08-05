@@ -34,6 +34,7 @@
 - [Connection](helpers/connectionHelper.md)
 - [StorageFiles](helpers/storagefiles.md)
 - [Streams](helpers/streams.md)
+- [WeakEventListener](helpers/weakeventlistener.md)
 
 
 # [Notifications](notifications/notificationsOverview.md) 

@@ -30,7 +30,7 @@ The **Colors Helper** lets users convert colors from text names, HTML hex, HSV, 
 
 ```
 
-You can see more examples in our [unit tests](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/UnitTests/Helpers/Test_ColorHelper.cs)
+You can find more examples in our [unit tests](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/UnitTests/Helpers/Test_ColorHelper.cs)
 
 ## Platforms
 Windows 10 SDK 10586 or higher

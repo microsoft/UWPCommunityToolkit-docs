@@ -34,4 +34,4 @@ Windows 10 SDK 10586 or higher
 
 ## API
 * [RangeSelector source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/RangeSelector)
-* [RangeSelector API Docs](../api/Microsoft_Toolkit_Uwp_UI_Controls_RangeSelector.htm)
+* [RangeSelector API documentation](../api/Microsoft_Toolkit_Uwp_UI_Controls_RangeSelector.htm)

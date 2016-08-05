@@ -17,7 +17,7 @@ You can either use the blur behavior from your XAML code:
 
  <interactivity:Interaction.Behaviors>
     <behaviors:Blur x:Name="BlurBehavior" 
-           BlurAmount="10" 
+           Value="10" 
            Duration="10" 
            Delay="0" 
            AutomaticallyStart="True"/>
@@ -28,7 +28,7 @@ You can either use the blur behavior from your XAML code:
 or directly from code:
 
 ```C#
-ToolkitLogo.Blur(duration: 10, delay: 0, blurAmount: 10);       
+ToolkitLogo.Blur(duration: 10, delay: 0, value: 10);       
 ```
 
 Behavior animations can also be chained and awaited.
@@ -38,7 +38,7 @@ Behavior animations can also be chained and awaited.
 
     await Element.Rotate(duration: 0.3, value: 30f).StartAsync();
 
-    var anim = element.Rotate(value: 30f).Fade(value: 0.5).Blur(blurAmount:5);
+    var anim = element.Rotate(value: 30f).Fade(value: 0.5).Blur(value: 5);
     anim.SetDurationForAll(2);
     anim.Completed += animation_completed;
     anim.StartAsync();

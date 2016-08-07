@@ -9,13 +9,13 @@ search.product: eADQiWindows 10XVcnh
 
 # Getting Started
 
-The UWP Community Toolkit does not have a local installer.  If you want to see the controls and animations in action before jumping into the code?  We have published the [UWP Toolkit Sample Application](https://www.microsoft.com/store/apps/9nblggh4tlcq) to the Windows store.  Download the app and play with the controls to see what they do before ever writing a line of code. 
+If you want to see the controls and animations in an actual app, download the [UWP Toolkit Sample Application](https://www.microsoft.com/store/apps/9nblggh4tlcq) from the Windows store.  
 
 # Developer Requirements
 
-To develop Windows UWP Applications you need the current version of Windows 10. 
+To develop Windows UWP Applications you need the current version of Windows 10, along with Visual Studio 2015 with Update 3 (Any Edition).
 
-Download [Visual Studio 2015 Update 3 with Windows developer tools](https://developer.microsoft.com/en-us/windows/downloads). During install, choose custom option to make sure all UWP tools are selected. 
+Download [Visual Studio 2015 Update 3 with Windows developer tools](https://developer.microsoft.com/en-us/windows/downloads). During install, choose custom option to make sure UWP tools are selected. 
 
 Enable developer mode for your device, [here](https://msdn.microsoft.com/windows/uwp/get-started/enable-your-device-for-development). 
 

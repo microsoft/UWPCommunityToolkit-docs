@@ -17,31 +17,31 @@ search.product: eADQiWindows 10XVcnh
 
 # Animations
 
-- [Blur]({{site.baseurl}}/animations/blur.htm)
-- [Offset]({{site.baseurl}}/animations/offset.htm)
-- [Fade]({{site.baseurl}}/animations/fade.htm)
-- [Parallel]({{site.baseurl}}/animations/parallax.htm)
-- [Rotate]({{site.baseurl}}/animations/rotate.htm)
-- [Scale]({{site.baseurl}}/animations/scale.htm)
+- [Blur]({{site.baseurl}}animations/blur.htm)
+- [Offset]({{site.baseurl}}animations/offset.htm)
+- [Fade]({{site.baseurl}}animations/fade.htm)
+- [Parallel]({{site.baseurl}}animations/parallax.htm)
+- [Rotate]({{site.baseurl}}animations/rotate.htm)
+- [Scale]({{site.baseurl}}animations/scale.htm)
 
 # Controls
 
-- [HamburgerMenu]({{site.baseurl}}/controls/hamburgerMenu.htm)
-- [HeaderedTextBlock]({{site.baseurl}}/controls/headeredTextBlock.htm)
-- [ImageEX]({{site.baseurl}}/controls/ImageEx.htm)
-- [PullToRefreshListView]({{site.baseurl}}/controls/PullToRefreshListView.htm)
-- [RadialGauge]({{site.baseurl}}/controls/RadialGauge.htm)
-- [RangeSelecter]({{site.baseurl}}/ontrols/RangeSelector.htm)
-- [AdaptiveGridView]({{site.baseurl}}/controls/AdaptiveGridView.htm)
-- [RotatorTile]({{site.baseurl}}/controls/RotatorTile.htm)
-- [SlideableListItem]({{site.baseurl}}/controls/SlideableListItem.htm)
+- [HamburgerMenu]({{site.baseurl}}controls/hamburgerMenu.htm)
+- [HeaderedTextBlock]({{site.baseurl}}controls/headeredTextBlock.htm)
+- [ImageEX]({{site.baseurl}}controls/ImageEx.htm)
+- [PullToRefreshListView]({{site.baseurl}}controls/PullToRefreshListView.htm)
+- [RadialGauge]({{site.baseurl}}controls/RadialGauge.htm)
+- [RangeSelecter]({{site.baseurl}}controls/RangeSelector.htm)
+- [AdaptiveGridView]({{site.baseurl}}controls/AdaptiveGridView.htm)
+- [RotatorTile]({{site.baseurl}}controls/RotatorTile.htm)
+- [SlideableListItem]({{site.baseurl}}controls/SlideableListItem.htm)
 
 # Helpers
 
 - [Colors]({{site.baseurl}}/helpers/colors.htm)
 - [Connection]({{site.baseurl}}/helpers/connectionHelper.htm)
 - [Converters]({{site.baseurl}}/helpers/converters.htm)
-- [ImageCache] ({{site.baseurl}}/helpers/imagecache.htm)
+- [ImageCache]({{site.baseurl}}/helpers/imagecache.htm)
 - [StorageFiles]({{site.baseurl}}/helpers/storagefiles.htm)
 - [Streams]({{site.baseurl}}/helpers/streams.htm)
 - [VisualTreeExtensions]({{site.baseurl}}/helpers/visualtreeextensions.htm)

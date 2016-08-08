@@ -1,52 +1,52 @@
-# [Get started with the UWP Community Toolkit]({{site.baseurl}}/{{page.lang}}/get-started/get-started.md)
+# [Get started with the UWP Community Toolkit]({{site.baseurl}}/get-started/get-started.md)
 
-### [Installation Guide]({{site.baseurl}}/{{page.lang}}/get-started/installguide.htm)
+### [Installation Guide]({{site.baseurl}}/get-started/installguide.htm)
 
-### [Quick Start]({{site.baseurl}}/{{page.lang}}/get-started/quickstart.htm)
+### [Quick Start]({{site.baseurl}}/get-started/quickstart.htm)
 
-### [What's next?]({{site.baseurl}}/{{page.lang}}/get-started/learn-more.htm)
+### [What's next?]({{site.baseurl}}/get-started/learn-more.htm)
 
 # Animations
 
-- [Blur]({{site.baseurl}}/{{page.lang}}/animations/blur.htm)
-- [Offset]({{site.baseurl}}/{{page.lang}}/animations/offset.htm)
-- [Fade]({{site.baseurl}}/{{page.lang}}/animations/fade.htm)
-- [Parallel]({{site.baseurl}}/{{page.lang}}/animations/parallax.htm)
-- [Rotate]({{site.baseurl}}/{{page.lang}}/animations/rotate.htm)
-- [Scale]({{site.baseurl}}/{{page.lang}}/animations/scale.htm)
+- [Blur]({{site.baseurl}}/animations/blur.htm)
+- [Offset]({{site.baseurl}}/animations/offset.htm)
+- [Fade]({{site.baseurl}}/animations/fade.htm)
+- [Parallel]({{site.baseurl}}/animations/parallax.htm)
+- [Rotate]({{site.baseurl}}/animations/rotate.htm)
+- [Scale]({{site.baseurl}}/animations/scale.htm)
 
-# [Controls](controls/controls.htm)
+# Controls
 
-- [HamburgerMenu]({{site.baseurl}}/{{page.lang}}/controls/hamburgerMenu.htm)
-- [HeaderedTextBlock]({{site.baseurl}}/{{page.lang}}/controls/headeredTextBlock.htm)
-- [ImageEX]({{site.baseurl}}/{{page.lang}}/controls/ImageEx.htm)
-- [PullToRefreshListView]({{site.baseurl}}/{{page.lang}}/controls/PullToRefreshListView.htm)
-- [RadialGauge]({{site.baseurl}}/{{page.lang}}/controls/RadialGauge.htm)
-- [RangeSelecter]({{site.baseurl}}/{{page.lang}}/ontrols/RangeSelector.htm)
-- [AdaptiveGridView]({{site.baseurl}}/{{page.lang}}/controls/AdaptiveGridView.htm)
-- [RotatorTile]({{site.baseurl}}/{{page.lang}}/controls/RotatorTile.htm)
-- [SlideableListItem]({{site.baseurl}}/{{page.lang}}/controls/SlideableListItem.htm)
+- [HamburgerMenu]({{site.baseurl}}/controls/hamburgerMenu.htm)
+- [HeaderedTextBlock]({{site.baseurl}}/controls/headeredTextBlock.htm)
+- [ImageEX]({{site.baseurl}}/controls/ImageEx.htm)
+- [PullToRefreshListView]({{site.baseurl}}/controls/PullToRefreshListView.htm)
+- [RadialGauge]({{site.baseurl}}/controls/RadialGauge.htm)
+- [RangeSelecter]({{site.baseurl}}/ontrols/RangeSelector.htm)
+- [AdaptiveGridView]({{site.baseurl}}/controls/AdaptiveGridView.htm)
+- [RotatorTile]({{site.baseurl}}/controls/RotatorTile.htm)
+- [SlideableListItem]({{site.baseurl}}/controls/SlideableListItem.htm)
 
 # Helpers
 
-- [Colors]({{site.baseurl}}/{{page.lang}}/helpers/colors.htm)
-- [Connection]({{site.baseurl}}/{{page.lang}}/helpers/connectionHelper.htm)
-- [Converters]({{site.baseurl}}/{{page.lang}}/helpers/converters.htm)
-- [ImageCache] ({{site.baseurl}}/{{page.lang}}/helpers/imagecache.htm)
-- [StorageFiles]({{site.baseurl}}/{{page.lang}}/helpers/storagefiles.htm)
-- [Streams]({{site.baseurl}}/{{page.lang}}/helpers/streams.htm)
-- [VisualTreeExtensions]({{site.baseurl}}/{{page.lang}}/helpers/visualtreeextensions.htm)
-- [WeakEventListener]({{site.baseurl}}/{{page.lang}}/helpers/weakeventlistener.htm)
+- [Colors]({{site.baseurl}}/helpers/colors.htm)
+- [Connection]({{site.baseurl}}/helpers/connectionHelper.htm)
+- [Converters]({{site.baseurl}}/helpers/converters.htm)
+- [ImageCache] ({{site.baseurl}}/helpers/imagecache.htm)
+- [StorageFiles]({{site.baseurl}}/helpers/storagefiles.htm)
+- [Streams]({{site.baseurl}}/helpers/streams.htm)
+- [VisualTreeExtensions]({{site.baseurl}}/helpers/visualtreeextensions.htm)
+- [WeakEventListener]({{site.baseurl}}/helpers/weakeventlistener.htm)
 
 
-# [Notifications]({{site.baseurl}}/{{page.lang}}/notifications/notificationsOverview.htm) 
+# [Notifications]({{site.baseurl}}/notifications/notificationsOverview.htm) 
 
 
 # Services
 
-- [Bing]({{site.baseurl}}/{{page.lang}}/services/bing.htm)
-- [Facebook]({{site.baseurl}}/{{page.lang}}/services/facebook.htm)
-- [Twitter]({{site.baseurl}}/{{page.lang}}/services/twitter.htm)
+- [Bing]({{site.baseurl}}/services/bing.htm)
+- [Facebook]({{site.baseurl}}/services/facebook.htm)
+- [Twitter]({{site.baseurl}}/services/twitter.htm)
 
-# [Index]({{site.baseurl}}/{{page.lang}}/index.htm)
+# [Index]({{site.baseurl}}/index.htm)
 

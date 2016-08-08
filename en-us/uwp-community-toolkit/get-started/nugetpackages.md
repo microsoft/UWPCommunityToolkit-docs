@@ -41,4 +41,4 @@ Helpers and services that are built on top of Windows Composition layer to provi
 
 ## NuGet Packages List
 Once you search you should see a list similar to the one below (versions may be different, but names should be the same).
-![nuget packages]({{site.baseurl}}/{{page.lang}}/resources/images/NugetPackages.png "Nuget Packages")
+![nuget packages]({{site.baseurl}}/resources/images/NugetPackages.png "Nuget Packages")

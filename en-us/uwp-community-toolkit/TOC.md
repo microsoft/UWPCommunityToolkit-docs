@@ -10,10 +10,8 @@ search.product: eADQiWindows 10XVcnh
 # Getting started 
 
 - [Get started with the UWP Community Toolkit]({{site.baseurl}}/get-started/get-started.htm)
-
-### [Quick Start]({{site.baseurl}}/get-started/quickstart.htm)
-
-### [What's next?]({{site.baseurl}}/get-started/learn-more.htm)
+- [Quick Start]({{site.baseurl}}/get-started/quickstart.htm)
+- [What's next?]({{site.baseurl}}/get-started/learn-more.htm)
 
 # Animations
 

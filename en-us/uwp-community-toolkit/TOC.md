@@ -1,52 +1,52 @@
-# [Get started with the UWP Community Toolkit](get-started/get-started.md)
+# [Get started with the UWP Community Toolkit]({{site.baseurl}}/{{page.lang}}/get-started/get-started.md)
 
-### [Installation Guide](get-started/installguide.md)
+### [Installation Guide]({{site.baseurl}}/{{page.lang}}/get-started/installguide.htm)
 
-### [Quick Start](get-started/quickstart.md)
+### [Quick Start]({{site.baseurl}}/{{page.lang}}/get-started/quickstart.htm)
 
-### [What's next?](get-started/learn-more.md)
+### [What's next?]({{site.baseurl}}/{{page.lang}}/get-started/learn-more.htm)
 
 # [Animations](animations)
 
-- [Blur](animations/blur.md)
-- [Offset](animations/offset.md)
-- [Fade](animations/fade.md)
-- [Parallel](animations/parallax.md)
-- [Rotate](animations/rotate.md)
-- [Scale](animations/scale.md)
+- [Blur]({{site.baseurl}}/{{page.lang}}/animations/blur.htm)
+- [Offset]({{site.baseurl}}/{{page.lang}}/animations/offset.htm)
+- [Fade]({{site.baseurl}}/{{page.lang}}/animations/fade.htm)
+- [Parallel]({{site.baseurl}}/{{page.lang}}/animations/parallax.htm)
+- [Rotate]({{site.baseurl}}/{{page.lang}}/animations/rotate.htm)
+- [Scale]({{site.baseurl}}/{{page.lang}}/animations/scale.htm)
 
-# [Controls](controls/controls.md)
+# [Controls](controls/controls.htm)
 
-- [HamburgerMenu](controls/hamburgerMenu.md)
-- [HeaderedTextBlock](controls/headeredTextBlock.md)
-- [ImageEX](controls/ImageEx.md)
-- [PullToRefreshListView](controls/PullToRefreshListView.md)
-- [RadialGauge](controls/RadialGauge.md)
-- [RangeSelecter](controls/RangeSelector.md)
-- [AdaptiveGridView](controls/AdaptiveGridView.md)
-- [RotatorTile](controls/RotatorTile.md)
-- [SlideableListItem](controls/SlideableListItem.md)
+- [HamburgerMenu]({{site.baseurl}}/{{page.lang}}/controls/hamburgerMenu.htm)
+- [HeaderedTextBlock]({{site.baseurl}}/{{page.lang}}/controls/headeredTextBlock.htm)
+- [ImageEX]({{site.baseurl}}/{{page.lang}}/controls/ImageEx.htm)
+- [PullToRefreshListView]({{site.baseurl}}/{{page.lang}}/controls/PullToRefreshListView.htm)
+- [RadialGauge]({{site.baseurl}}/{{page.lang}}/controls/RadialGauge.htm)
+- [RangeSelecter]({{site.baseurl}}/{{page.lang}}/ontrols/RangeSelector.htm)
+- [AdaptiveGridView]({{site.baseurl}}/{{page.lang}}/controls/AdaptiveGridView.htm)
+- [RotatorTile]({{site.baseurl}}/{{page.lang}}/controls/RotatorTile.htm)
+- [SlideableListItem]({{site.baseurl}}/{{page.lang}}/controls/SlideableListItem.htm)
 
 # [Helpers](helpers/)
 
-- [Colors](helpers/colors.md)
-- [Connection](helpers/connectionHelper.md)
-- [Converters](helpers/converters.md)
-- [ImageCache] (helpers/imagecache.md)
-- [StorageFiles](helpers/storagefiles.md)
-- [Streams](helpers/streams.md)
-- [VisualTreeExtensions](helpers/visualtreeextensions.md)
-- [WeakEventListener](helpers/weakeventlistener.md)
+- [Colors]({{site.baseurl}}/{{page.lang}}/helpers/colors.htm)
+- [Connection]({{site.baseurl}}/{{page.lang}}/helpers/connectionHelper.htm)
+- [Converters]({{site.baseurl}}/{{page.lang}}/helpers/converters.htm)
+- [ImageCache] ({{site.baseurl}}/{{page.lang}}/helpers/imagecache.htm)
+- [StorageFiles]({{site.baseurl}}/{{page.lang}}/helpers/storagefiles.htm)
+- [Streams]({{site.baseurl}}/{{page.lang}}/helpers/streams.htm)
+- [VisualTreeExtensions]({{site.baseurl}}/{{page.lang}}/helpers/visualtreeextensions.htm)
+- [WeakEventListener]({{site.baseurl}}/{{page.lang}}/helpers/weakeventlistener.htm)
 
 
-# [Notifications](notifications/notificationsOverview.md) 
+# [Notifications]({{site.baseurl}}/{{page.lang}}/notifications/notificationsOverview.htm) 
 
 
 # [Services](services/)
 
-- [Bing](services/bing.md)
-- [Facebook](services/facebook.md)
-- [Twitter](services/twitter.md)
+- [Bing]({{site.baseurl}}/{{page.lang}}/services/bing.htm)
+- [Facebook]({{site.baseurl}}/{{page.lang}}/services/facebook.htm)
+- [Twitter]({{site.baseurl}}/{{page.lang}}/services/twitter.htm)
 
-# [Index](index.md)
+# [Index]({{site.baseurl}}/{{page.lang}}/index.htm)
 

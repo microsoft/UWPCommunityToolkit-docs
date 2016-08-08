@@ -1,3 +1,6 @@
+# Site Settings
+baseurl: "/content"
+
 # Build settings
 markdown: kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md

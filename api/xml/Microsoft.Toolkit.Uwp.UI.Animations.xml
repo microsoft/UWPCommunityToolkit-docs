@@ -33,12 +33,12 @@
             Override this to hook up functionality to the <see cref="P:Microsoft.Xaml.Interactivity.Behavior.AssociatedObject" />
             </remarks>
         </member>
-        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Blur.BlurAmountProperty">
+        <member name="F:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Blur.ValueProperty">
             <summary>
             The Blur value of the associated object
             </summary>
         </member>
-        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Blur.BlurAmount">
+        <member name="P:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Blur.Value">
             <summary>
             Gets or sets the Blur.
             </summary>
@@ -170,7 +170,7 @@
         </member>
         <member name="T:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Fade">
             <summary>
-            Performs an opacity animation using composition.
+            Performs an fade animation using composition.
             </summary>
             <seealso>
                 <cref>Microsoft.Xaml.Interactivity.Behavior{Windows.UI.Xaml.UIElement}</cref>
@@ -633,7 +633,7 @@
             <param name="associatedObject">The associated object.</param>
             <param name="duration">The duration.</param>
             <param name="delay">The delay. (ignored if duration == 0)</param>
-            <param name="blurAmount">The blur amount.</param>
+            <param name="value">The blur amount.</param>
             <returns>The Composition Effect Brush of the blur so you can control animations manually.</returns>
             <seealso cref="P:Microsoft.Toolkit.Uwp.UI.Animations.Composition.IsBlurSupported" />
         </member>
@@ -644,7 +644,7 @@
             <param name="animationSet">The animationSet object.</param>
             <param name="duration">The duration.</param>
             <param name="delay">The delay. (ignored if duration == 0)</param>
-            <param name="blurAmount">The blur amount.</param>
+            <param name="value">The blur amount.</param>
             <returns>The Composition Effect Brush of the blur so you can control animations manually.</returns>
             <seealso cref="P:Microsoft.Toolkit.Uwp.UI.Animations.Composition.IsBlurSupported" />
         </member>

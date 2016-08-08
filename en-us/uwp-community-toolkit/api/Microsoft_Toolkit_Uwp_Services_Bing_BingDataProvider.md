@@ -21,7 +21,7 @@ Wrapper around REST API for making data request.
 
 
 
-| name | description | type || --- | --- | --- || config | Query configuration. | [BingSearchConfig](Microsoft_Toolkit_Uwp_Services_Bing_BingSearchConfig.md) || maxRecords | Upper limit for records returned. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || parser | IParser implementation for interpreting results. | [IParser(TT0)](Microsoft_Toolkit_Uwp_Services_IParser_TT0_.md) || return |Strongly typed list of results. |
+| name | description | type || --- | --- | --- || config | Query configuration. | [BingSearchConfig](Microsoft_Toolkit_Uwp_Services_Bing_BingSearchConfig.md) || maxRecords | Upper limit for records returned. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || parser | IParser implementation for interpreting results. | Microsoft.Toolkit.Uwp.Services.IParser(TT0) || return |Strongly typed list of results. |
 #### GetDefaultParser(Microsoft.Toolkit.Uwp.Services.Bing.BingSearchConfig config)
 
 Returns parser implementation for specified configuration.

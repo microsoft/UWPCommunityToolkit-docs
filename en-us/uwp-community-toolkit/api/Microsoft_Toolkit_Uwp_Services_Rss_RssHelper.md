@@ -93,7 +93,7 @@ Tries to parse the original string to a datetime format.
 
 
 
-| name | description | type || --- | --- | --- || s | Input string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || result | Parsed datetime. | [DateTime@](https://msdn.microsoft.com/library/windows/apps/System.DateTime@) || return |True if success |
+| name | description | type || --- | --- | --- || s | Input string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || result | Parsed datetime. | [out DateTime](https://msdn.microsoft.com/library/windows/apps/System.DateTime) || return |True if success |
 #### TimeZoneToOffset(System.String tz)
 
 Calculate and return timezone.

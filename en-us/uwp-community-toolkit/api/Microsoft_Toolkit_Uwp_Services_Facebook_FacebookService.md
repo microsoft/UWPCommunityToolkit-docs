@@ -49,7 +49,7 @@ Helper method to process pages of results from underlying service instance.
 
 
 
-| name | description | type || --- | --- | --- || results | List of results to process. | [Object)](https://msdn.microsoft.com/library/windows/apps/System.Collections.Generic.IReadOnlyList(System.Object)) || maxRecords | Total upper limit of records to process. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || return |Task to support await of async call. |
+| name | description | type || --- | --- | --- || results | List of results to process. | System.Collections.Generic.IReadOnlyList(System.Object) || maxRecords | Total upper limit of records to process. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || return |Task to support await of async call. |
 #### Initialize(Microsoft.Toolkit.Uwp.Services.Facebook.FacebookOAuthTokens oAuthTokens,Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPermissions requiredPermissions)
 
 Initialize underlying provider with relevent token information.

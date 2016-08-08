@@ -90,7 +90,7 @@ Retrieve user timeline data with specific parser.
 
 
 
-| name | description | type || --- | --- | --- || screenName | User screen name. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || maxRecords | Upper record limit. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || parser | Specific results parser. | [IParser(TT0)](Microsoft_Toolkit_Uwp_Services_IParser_TT0_.md) || return |Returns strongly typed list of results. |
+| name | description | type || --- | --- | --- || screenName | User screen name. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || maxRecords | Upper record limit. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || parser | Specific results parser. | Microsoft.Toolkit.Uwp.Services.IParser(TT0) || return |Returns strongly typed list of results. |
 #### SearchAsync``1(System.String hashTag,System.Int32 maxRecords,Microsoft.Toolkit.Uwp.Services.IParser(TT0) parser)
 
 Search for specific hash tag with specific parser.
@@ -99,7 +99,7 @@ Search for specific hash tag with specific parser.
 
 
 
-| name | description | type || --- | --- | --- || hashTag | Hash tag. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || maxRecords | Upper record limit. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || parser | Specific results parser. | [IParser(TT0)](Microsoft_Toolkit_Uwp_Services_IParser_TT0_.md) || return |Returns strongly typed list of results. |
+| name | description | type || --- | --- | --- || hashTag | Hash tag. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || maxRecords | Upper record limit. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || parser | Specific results parser. | Microsoft.Toolkit.Uwp.Services.IParser(TT0) || return |Returns strongly typed list of results. |
 #### LoginAsync()
 
 Log user in to Twitter.
@@ -121,7 +121,7 @@ Tweets a status update.
 
 
 
-| name | description | type || --- | --- | --- || tweet | Tweet text. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || pictures | Pictures to attach to the tweet (up to 4). | [IRandomAccessStream[]](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.Streams.IRandomAccessStream[]) || return |Success or failure. |
+| name | description | type || --- | --- | --- || tweet | Tweet text. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || pictures | Pictures to attach to the tweet (up to 4). | [IRandomAccessStream[]](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.Streams.IRandomAccessStream) || return |Success or failure. |
 #### GetSignatureBaseStringParams(System.String consumerKey,System.String nonce,System.String timeStamp,System.String additionalParameters)
 
 Build signature base string.
@@ -148,7 +148,7 @@ Wrapper around REST API for making data request.
 
 
 
-| name | description | type || --- | --- | --- || config | Query configuration. | [TwitterDataConfig](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterDataConfig.md) || maxRecords | Upper limit for records returned. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || parser | IParser implementation for interpreting results. | [IParser(TT0)](Microsoft_Toolkit_Uwp_Services_IParser_TT0_.md) || return |Strongly typed list of results. |
+| name | description | type || --- | --- | --- || config | Query configuration. | [TwitterDataConfig](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterDataConfig.md) || maxRecords | Upper limit for records returned. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || parser | IParser implementation for interpreting results. | Microsoft.Toolkit.Uwp.Services.IParser(TT0) || return |Strongly typed list of results. |
 #### ValidateConfig(Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig config)
 
 Check validity of configuration.
@@ -175,7 +175,7 @@ Get home time line data.
 
 
 
-| name | description | type || --- | --- | --- || maxRecords | Upper record limit. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || parser | Specific result parser. | [IParser(TT0)](Microsoft_Toolkit_Uwp_Services_IParser_TT0_.md) || return |Return strong typed list of results. |
+| name | description | type || --- | --- | --- || maxRecords | Upper record limit. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || parser | Specific result parser. | Microsoft.Toolkit.Uwp.Services.IParser(TT0) || return |Return strong typed list of results. |
 #### InitializeRequestAccessTokens(System.String twitterCallbackUrl)
 
 Package up token request.

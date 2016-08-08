@@ -21,7 +21,7 @@ call this method to clear the entire cache.
 
 
 
-| name | description | type || --- | --- | --- || duration | Use this parameter to define a timespan from now to select cache entries to delete. | [TimeSpan)](https://msdn.microsoft.com/library/windows/apps/System.Nullable(System.TimeSpan)) || return |Task |
+| name | description | type || --- | --- | --- || duration | Use this parameter to define a timespan from now to select cache entries to delete. | System.Nullable(System.TimeSpan) || return |Task |
 #### GetFromCacheAsync(System.Uri uri)
 
 Load a specific image from the cache. If the image is not in the cache, ImageCache will try to download and store it.
@@ -31,6 +31,15 @@ Load a specific image from the cache. If the image is not in the cache, ImageCac
 
 
 | name | description | type || --- | --- | --- || uri | Uri of the image. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || return |a BitmapImage |
+#### GetCacheFileName(System.Uri uri)
+
+Gets the local cache file name associated with a specified Uri.
+
+##### parameters
+
+
+
+| name | description | type || --- | --- | --- || uri | Uri of the resource. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || return |Filename associated with the Uri. |
 ### properties
 
 #### CacheDuration

@@ -44,7 +44,7 @@ Post a Tweet with associated pictures.
 
 
 
-| name | description | type || --- | --- | --- || message | Tweet message. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || pictures | Pictures to attach to the tweet (up to 4). | [IRandomAccessStream[]](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.Streams.IRandomAccessStream[]) || return |Returns success or failure of post request. |
+| name | description | type || --- | --- | --- || message | Tweet message. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || pictures | Pictures to attach to the tweet (up to 4). | [IRandomAccessStream[]](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.Streams.IRandomAccessStream) || return |Returns success or failure of post request. |
 #### LoginAsync()
 
 Log user in to Twitter.

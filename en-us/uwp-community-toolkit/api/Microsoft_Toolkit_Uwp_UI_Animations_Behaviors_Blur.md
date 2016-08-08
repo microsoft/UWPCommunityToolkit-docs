@@ -25,7 +25,7 @@ Starts the animation.
 
 ### properties
 
-#### BlurAmount
+#### Value
 
 Gets or sets the Blur.
 
@@ -35,6 +35,6 @@ Gets or sets the Blur.
 
 The _framework element
 
-#### BlurAmountProperty
+#### ValueProperty
 
 The Blur value of the associated object

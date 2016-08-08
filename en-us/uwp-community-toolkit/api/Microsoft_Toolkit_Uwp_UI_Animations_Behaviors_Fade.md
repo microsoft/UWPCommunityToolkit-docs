@@ -1,7 +1,7 @@
 
 # Fade class
 
-Performs an opacity animation using composition.
+Performs an fade animation using composition.
 
 ## Members
 

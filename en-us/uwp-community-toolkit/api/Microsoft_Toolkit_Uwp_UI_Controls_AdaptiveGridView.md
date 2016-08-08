@@ -1,11 +1,11 @@
 
-# ResponsiveGridView class
+# AdaptiveGridView class
 
-The ResponsiveGridView control allows to present information within a Grid View perfectly adjusting the total display available space. It reacts to changes in the layout as well as the content so it can adapt to different form factors automatically.
+The AdaptiveGridView control allows to present information within a Grid View perfectly adjusting the total display available space. It reacts to changes in the layout as well as the content so it can adapt to different form factors automatically.
 
 ## Members
 
-The **ResponsiveGridView** class has this types of members
+The **AdaptiveGridView** class has this types of members
 
 * [constructors](#constructors)
 
@@ -21,9 +21,21 @@ The **ResponsiveGridView** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [ResponsiveGridView](Microsoft_Toolkit_Uwp_UI_Controls_ResponsiveGridView.md) class.
+Initializes a new instance of the [AdaptiveGridView](Microsoft_Toolkit_Uwp_UI_Controls_AdaptiveGridView.md) class.
 
 ### methods
+
+#### GetXmlnsDefinitions()
+
+GetXmlnsDefinitions()
+
+#### GetXamlType()
+
+GetXamlType(String)
+
+#### GetXamlType()
+
+GetXamlType(Type)
 
 #### OnApplyTemplate()
 
@@ -31,9 +43,9 @@ Invoked whenever application code or internal processes (such as a rebuilding la
 
 ### properties
 
-#### DesiredWidth
+#### ItemHeight
 
-Gets or sets the desired width of each item
+Gets or sets the height of each item in the grid.
 
 #### OneRowModeEnabled
 
@@ -43,17 +55,17 @@ Gets or sets a value indicating whether only one row should be displayed.
 
 Gets or sets the DataTemplate used to display each item.
 
-#### ItemsSource
+#### DesiredWidth
 
-Gets or sets an object source used to generate the content of the grid.
-
-#### ItemHeight
-
-Gets or sets the height of each item in the grid.
+Gets or sets the desired width of each item
 
 #### ItemClickCommand
 
 Gets or sets the command to execute when an item is clicked.
+
+#### ItemsSource
+
+Gets or sets an object source used to generate the content of the grid.
 
 ### events
 

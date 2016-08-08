@@ -31,7 +31,7 @@ Request list data from service provider based upon a given config / query.
 
 
 
-| name | description | type || --- | --- | --- || config | TwitterDataConfig instance. | [BingSearchConfig](Microsoft_Toolkit_Uwp_Services_Bing_BingSearchConfig.md) || maxRecords | Upper limit of records to return. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || return |Strongly typed list of data returned from the service. |
+| name | description | type || --- | --- | --- || config | BingSearchConfig instance. | [BingSearchConfig](Microsoft_Toolkit_Uwp_Services_Bing_BingSearchConfig.md) || maxRecords | Upper limit of records to return. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || return |Strongly typed list of data returned from the service. |
 ### properties
 
 #### Instance

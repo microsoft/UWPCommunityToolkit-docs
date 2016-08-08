@@ -141,87 +141,12 @@
             <param name="uri">Uri of the image.</param>
             <returns>a BitmapImage</returns>
         </member>
-        <member name="T:Microsoft.Toolkit.Uwp.UI.Extensions">
+        <member name="M:Microsoft.Toolkit.Uwp.UI.ImageCache.GetCacheFileName(System.Uri)">
             <summary>
-            Defines a collection of extensions methods for UI.
+            Gets the local cache file name associated with a specified Uri.
             </summary>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.UI.Extensions.GetTranslateX(Windows.UI.Xaml.FrameworkElement)">
-            <summary>
-            Gets the current X translation of a <see cref="T:Windows.UI.Xaml.FrameworkElement"/>.
-            </summary>
-            <param name="frameworkElement">
-            The <see cref="T:Windows.UI.Xaml.FrameworkElement"/>.
-            </param>
-            <returns>
-            Returns the X translation.
-            </returns>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.UI.Extensions.GetTranslateY(Windows.UI.Xaml.FrameworkElement)">
-            <summary>
-            Gets the current Y translation of a <see cref="T:Windows.UI.Xaml.FrameworkElement"/>.
-            </summary>
-            <param name="frameworkElement">
-            The <see cref="T:Windows.UI.Xaml.FrameworkElement"/>.
-            </param>
-            <returns>
-            Returns the Y translation.
-            </returns>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.UI.Extensions.TranslateX(Windows.UI.Xaml.FrameworkElement,System.Double)">
-            <summary>
-            Translates a <see cref="T:Windows.UI.Xaml.FrameworkElement"/> on the X axis to the provided X value.
-            </summary>
-            <param name="frameworkElement">
-            The <see cref="T:Windows.UI.Xaml.FrameworkElement"/>.
-            </param>
-            <param name="x">
-            The value to translate to on the X axis.
-            </param>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.UI.Extensions.TranslateY(Windows.UI.Xaml.FrameworkElement,System.Double)">
-            <summary>
-            Translates a <see cref="T:Windows.UI.Xaml.FrameworkElement"/> on the Y axis to the provided Y value.
-            </summary>
-            <param name="frameworkElement">
-            The <see cref="T:Windows.UI.Xaml.FrameworkElement"/>.
-            </param>
-            <param name="y">
-            The value to translate to on the Y axis.
-            </param>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.UI.Extensions.TranslateDeltaX(Windows.UI.Xaml.FrameworkElement,System.Double)">
-            <summary>
-            Translates a <see cref="T:Windows.UI.Xaml.FrameworkElement"/> on the X axis by the provided X value.
-            </summary>
-            <param name="frameworkElement">
-            The <see cref="T:Windows.UI.Xaml.FrameworkElement"/>.
-            </param>
-            <param name="x">
-            The value to translate by on the X axis.
-            </param>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.UI.Extensions.TranslateDeltaY(Windows.UI.Xaml.FrameworkElement,System.Double)">
-            <summary>
-            Translates a <see cref="T:Windows.UI.Xaml.FrameworkElement"/> on the Y axis by the provided Y value.
-            </summary>
-            <param name="frameworkElement">
-            The <see cref="T:Windows.UI.Xaml.FrameworkElement"/>.
-            </param>
-            <param name="y">
-            The value to translate by on the Y axis.
-            </param>
-        </member>
-        <member name="M:Microsoft.Toolkit.Uwp.UI.Extensions.GetCompositeTransform(Windows.UI.Xaml.FrameworkElement)">
-            <summary>
-            Gets the composite transform for a <see cref="T:Windows.UI.Xaml.FrameworkElement"/>.
-            </summary>
-            <param name="frameworkElement">
-            The <see cref="T:Windows.UI.Xaml.FrameworkElement"/>.
-            </param>
-            <returns>
-            Returns a <see cref="T:Windows.UI.Xaml.Media.CompositeTransform"/> representation for the given element.
-            </returns>
+            <param name="uri">Uri of the resource.</param>
+            <returns>Filename associated with the Uri.</returns>
         </member>
         <member name="T:Microsoft.Toolkit.Uwp.UI.VisualTreeExtensions">
             <summary>

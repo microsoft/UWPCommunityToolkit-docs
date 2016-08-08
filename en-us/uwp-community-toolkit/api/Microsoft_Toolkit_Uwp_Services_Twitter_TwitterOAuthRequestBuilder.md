@@ -45,7 +45,7 @@ Get encoded Uri.
 
 
 
-| name | description | type || --- | --- | --- || requestUri | Request uri. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || parameters | List of parameters. | [OAuthParameter)](System_Collections_Generic_IEnumerable_Microsoft_Toolkit_Uwp_Services_OAuth_OAuthParameter_.md) || return |Encoded Uri. |
+| name | description | type || --- | --- | --- || requestUri | Request uri. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || parameters | List of parameters. | System.Collections.Generic.IEnumerable(Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter) || return |Encoded Uri. |
 #### GenerateNonce()
 
 Generate nonce.

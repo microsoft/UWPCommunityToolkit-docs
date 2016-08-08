@@ -32,6 +32,7 @@ var getMemberTitle = function (member) {
 	return memberTitle;
 };
 
+
 module.exports = function (context) {
 	grunt = context;
 	common = require('./commonGenerator.js')(grunt);
@@ -90,7 +91,8 @@ module.exports = function (context) {
 					}
 
 					member.params.forEach(function (param) {
-						generator.addContent('| ' + param.name + ' | ' + generator.treatText(param.text) + ' | ' + generator.generateLink(param.type) + ' |\r');
+						var typeLink = generator.generateLinkIfPossible(param.type);
+						generator.addContent('| ' + param.name + ' | ' + generator.treatText(param.text) + ' | ' + typeLink + ' |\r');
 					});
 
 					member.returns.forEach(function (ret) {

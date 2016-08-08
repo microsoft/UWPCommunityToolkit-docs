@@ -26,6 +26,17 @@ var generateLink = function (nodeValue) {
 	if (type !== 'T'){
 		return text;
 	}
+
+	//remove array's for parameters
+	name = name.replace('[]', '');
+	//remove at's for parameters
+	name = name.replace('@', '');
+
+
+	if(text.endsWith('@')){
+		text = 'out ' +  text.replace('@', '');
+	}
+
 	if (isExternal) {
 		return '[' + text + '](' + config.externalLinksBase + name + ')';
 	}
@@ -83,8 +94,31 @@ var Generator = function (options) {
 		});
 	};
 
+
+	this.generateLinkIfPossible = function(text){
+		//we only generate links for simple types
+		//we are not generating links for types like:
+		// - Microsoft.Toolkit.Uwp.Services.IParser(TT0) (has a parenthesi)
+		// - Microsoft.Toolkit.Uwp.Services.IParser(Microsoft.Toolkit.SomeType) (has a parenthesi)
+		// - TT0 (is generic)
+		// - T0 (is generic)
+
+		var containsParenthesi = text.indexOf('(') !== -1;
+		if(containsParenthesi)
+		{
+			return text;
+		}
+
+		var isGeneric = text.match(/TT[0-9]/g) || text.match(/T[0-9]/g);
+		if(isGeneric)
+		{
+			return text;
+		}
+
+		return this.generateLink(text);
+	};
+
 	this.replaceGenericTypes = replaceGenericTypes;
-	//this.replaceGenericParameterTypes = replaceGenericParameterTypes;
 	this.treatText = treatText;
 	this.generateLink = generateLink;
 };

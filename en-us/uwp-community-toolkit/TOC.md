@@ -23,7 +23,7 @@
 - [PullToRefreshListView](controls/PullToRefreshListView.md)
 - [RadialGauge](controls/RadialGauge.md)
 - [RangeSelecter](controls/RangeSelector.md)
-- [ResponsiveGridView](controls/ResponsiveGridView.md)
+- [AdaptiveGridView](controls/AdaptiveGridView.md)
 - [RotatorTile](controls/RotatorTile.md)
 - [SlideableListItem](controls/SlideableListItem.md)
 

@@ -6,7 +6,7 @@
 
 ### [What's next?]({{site.baseurl}}/{{page.lang}}/get-started/learn-more.htm)
 
-# [Animations](animations)
+# Animations
 
 - [Blur]({{site.baseurl}}/{{page.lang}}/animations/blur.htm)
 - [Offset]({{site.baseurl}}/{{page.lang}}/animations/offset.htm)
@@ -27,7 +27,7 @@
 - [RotatorTile]({{site.baseurl}}/{{page.lang}}/controls/RotatorTile.htm)
 - [SlideableListItem]({{site.baseurl}}/{{page.lang}}/controls/SlideableListItem.htm)
 
-# [Helpers](helpers/)
+# Helpers
 
 - [Colors]({{site.baseurl}}/{{page.lang}}/helpers/colors.htm)
 - [Connection]({{site.baseurl}}/{{page.lang}}/helpers/connectionHelper.htm)
@@ -42,7 +42,7 @@
 # [Notifications]({{site.baseurl}}/{{page.lang}}/notifications/notificationsOverview.htm) 
 
 
-# [Services](services/)
+# Services
 
 - [Bing]({{site.baseurl}}/{{page.lang}}/services/bing.htm)
 - [Facebook]({{site.baseurl}}/{{page.lang}}/services/facebook.htm)

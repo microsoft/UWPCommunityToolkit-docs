@@ -19,7 +19,7 @@ Return the formatted string version of the source object.
 
 
 
-| name | description | type || --- | --- | --- || value | Object to transform to string. | System.Object || targetType | The type of the target property, as a type reference | System.Type || parameter | An optional parameter to be used in the string.Format method. | System.Object || language | The language of the conversion (not used). | System.String || return |Formatted string. |
+| name | description | type || --- | --- | --- || value | Object to transform to string. | [Object](https://msdn.microsoft.com/library/windows/apps/System.Object) || targetType | The type of the target property, as a type reference | [Type](https://msdn.microsoft.com/library/windows/apps/System.Type) || parameter | An optional parameter to be used in the string.Format method. | [Object](https://msdn.microsoft.com/library/windows/apps/System.Object) || language | The language of the conversion (not used). | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Formatted string. |
 #### ConvertBack(System.Object value,System.Type targetType,System.Object parameter,System.String language)
 
 Not implemented.
@@ -28,4 +28,4 @@ Not implemented.
 
 
 
-| name | description | type || --- | --- | --- || value | The target data being passed to the source. | System.Object || targetType | The type of the target property, as a type reference (System.Type for Microsoft .NET, a TypeName helper struct for Visual C++ component extensions (C++/CX)). | System.Type || parameter | An optional parameter to be used in the converter logic. | System.Object || language | The language of the conversion. | System.String || return |The value to be passed to the source object. |
+| name | description | type || --- | --- | --- || value | The target data being passed to the source. | [Object](https://msdn.microsoft.com/library/windows/apps/System.Object) || targetType | The type of the target property, as a type reference (System.Type for Microsoft .NET, a TypeName helper struct for Visual C++ component extensions (C++/CX)). | [Type](https://msdn.microsoft.com/library/windows/apps/System.Type) || parameter | An optional parameter to be used in the converter logic. | [Object](https://msdn.microsoft.com/library/windows/apps/System.Object) || language | The language of the conversion. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |The value to be passed to the source object. |

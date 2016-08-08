@@ -35,7 +35,7 @@ Prepares the specified element to display the specified item.
 
 
 
-| name | description | type || --- | --- | --- || element | The element that's used to display the specified item. | Windows.UI.Xaml.DependencyObject || item | The item to display. | System.Object |
+| name | description | type || --- | --- | --- || element | The element that's used to display the specified item. | [DependencyObject](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.DependencyObject) || item | The item to display. | [Object](https://msdn.microsoft.com/library/windows/apps/System.Object) |
 #### GetContainerForItemOverride()
 
 Creates or identifies the element that is used to display the given item.

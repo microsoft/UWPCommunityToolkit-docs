@@ -90,7 +90,7 @@ module.exports = function (context) {
 					}
 
 					member.params.forEach(function (param) {
-						generator.addContent('| ' + param.name + ' | ' + generator.treatText(param.text) + ' | ' + param.type + ' |\r');
+						generator.addContent('| ' + param.name + ' | ' + generator.treatText(param.text) + ' | ' + generator.generateLink(param.type) + ' |\r');
 					});
 
 					member.returns.forEach(function (ret) {

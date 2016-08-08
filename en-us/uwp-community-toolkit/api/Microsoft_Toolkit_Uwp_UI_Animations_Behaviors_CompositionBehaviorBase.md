@@ -31,7 +31,7 @@ If any of the properties are changed then the animation is automatically started
 
 
 
-| name | description | type || --- | --- | --- || dependencyObject | The dependency object. | Windows.UI.Xaml.DependencyObject || dependencyPropertyChangedEventArgs | The [DependencyPropertyChangedEventArgs](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.DependencyPropertyChangedEventArgs) instance containing the event data. | Windows.UI.Xaml.DependencyPropertyChangedEventArgs |
+| name | description | type || --- | --- | --- || dependencyObject | The dependency object. | [DependencyObject](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.DependencyObject) || dependencyPropertyChangedEventArgs | The [DependencyPropertyChangedEventArgs](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.DependencyPropertyChangedEventArgs) instance containing the event data. | [DependencyPropertyChangedEventArgs](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.DependencyPropertyChangedEventArgs) |
 ### properties
 
 #### AutomaticallyStart

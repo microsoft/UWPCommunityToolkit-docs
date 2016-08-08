@@ -30,7 +30,7 @@ Throws exception if value is invalid
 
 
 
-| name | description | type || --- | --- | --- || value | Overlay value (0-100) | System.Int32 |
+| name | description | type || --- | --- | --- || value | Overlay value (0-100) | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) |
 ### properties
 
 #### AddImageQuery

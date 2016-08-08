@@ -21,7 +21,7 @@ Converts object into string.
 
 
 
-| name | description | type || --- | --- | --- || value | Object value. | System.Object || return |Returns string value. |
+| name | description | type || --- | --- | --- || value | Object value. | [Object](https://msdn.microsoft.com/library/windows/apps/System.Object) || return |Returns string value. |
 #### DecodeHtml(System.String htmlText)
 
 Decode HTML string.
@@ -30,7 +30,7 @@ Decode HTML string.
 
 
 
-| name | description | type || --- | --- | --- || htmlText | HTML string. | System.String || return |Returns decoded HTML string. |
+| name | description | type || --- | --- | --- || htmlText | HTML string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Returns decoded HTML string. |
 #### GetStringValue(Microsoft.Toolkit.Uwp.Services.Bing.BingCountry value)
 
 Converts between country code and country name.
@@ -39,7 +39,7 @@ Converts between country code and country name.
 
 
 
-| name | description | type || --- | --- | --- || value | BingCountry enumeration. | Microsoft.Toolkit.Uwp.Services.Bing.BingCountry || return |Returns country code. |
+| name | description | type || --- | --- | --- || value | BingCountry enumeration. | [BingCountry](Microsoft_Toolkit_Uwp_Services_Bing_BingCountry.md) || return |Returns country code. |
 ### fields
 
 #### RemoveHtmlTagsRegex

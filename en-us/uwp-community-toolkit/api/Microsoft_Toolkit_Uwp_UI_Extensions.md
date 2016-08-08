@@ -19,7 +19,7 @@ Gets the current X translation of a [FrameworkElement](https://msdn.microsoft.co
 
 
 
-| name | description | type || --- | --- | --- || frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | Windows.UI.Xaml.FrameworkElement || return |Returns the X translation. |
+| name | description | type || --- | --- | --- || frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) || return |Returns the X translation. |
 #### GetTranslateY(Windows.UI.Xaml.FrameworkElement frameworkElement)
 
 Gets the current Y translation of a [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement).
@@ -28,7 +28,7 @@ Gets the current Y translation of a [FrameworkElement](https://msdn.microsoft.co
 
 
 
-| name | description | type || --- | --- | --- || frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | Windows.UI.Xaml.FrameworkElement || return |Returns the Y translation. |
+| name | description | type || --- | --- | --- || frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) || return |Returns the Y translation. |
 #### TranslateX(Windows.UI.Xaml.FrameworkElement frameworkElement,System.Double x)
 
 Translates a [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) on the X axis to the provided X value.
@@ -37,7 +37,7 @@ Translates a [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/
 
 
 
-| name | description | type || --- | --- | --- || frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | Windows.UI.Xaml.FrameworkElement || x | The value to translate to on the X axis. | System.Double |
+| name | description | type || --- | --- | --- || frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) || x | The value to translate to on the X axis. | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) |
 #### TranslateY(Windows.UI.Xaml.FrameworkElement frameworkElement,System.Double y)
 
 Translates a [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) on the Y axis to the provided Y value.
@@ -46,7 +46,7 @@ Translates a [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/
 
 
 
-| name | description | type || --- | --- | --- || frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | Windows.UI.Xaml.FrameworkElement || y | The value to translate to on the Y axis. | System.Double |
+| name | description | type || --- | --- | --- || frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) || y | The value to translate to on the Y axis. | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) |
 #### TranslateDeltaX(Windows.UI.Xaml.FrameworkElement frameworkElement,System.Double x)
 
 Translates a [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) on the X axis by the provided X value.
@@ -55,7 +55,7 @@ Translates a [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/
 
 
 
-| name | description | type || --- | --- | --- || frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | Windows.UI.Xaml.FrameworkElement || x | The value to translate by on the X axis. | System.Double |
+| name | description | type || --- | --- | --- || frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) || x | The value to translate by on the X axis. | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) |
 #### TranslateDeltaY(Windows.UI.Xaml.FrameworkElement frameworkElement,System.Double y)
 
 Translates a [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) on the Y axis by the provided Y value.
@@ -64,7 +64,7 @@ Translates a [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/
 
 
 
-| name | description | type || --- | --- | --- || frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | Windows.UI.Xaml.FrameworkElement || y | The value to translate by on the Y axis. | System.Double |
+| name | description | type || --- | --- | --- || frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) || y | The value to translate by on the Y axis. | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) |
 #### GetCompositeTransform(Windows.UI.Xaml.FrameworkElement frameworkElement)
 
 Gets the composite transform for a [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement).
@@ -73,4 +73,4 @@ Gets the composite transform for a [FrameworkElement](https://msdn.microsoft.com
 
 
 
-| name | description | type || --- | --- | --- || frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | Windows.UI.Xaml.FrameworkElement || return |Returns a [CompositeTransform](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.Media.CompositeTransform) representation for the given element. |
+| name | description | type || --- | --- | --- || frameworkElement | The [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement). | [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) || return |Returns a [CompositeTransform](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.Media.CompositeTransform) representation for the given element. |

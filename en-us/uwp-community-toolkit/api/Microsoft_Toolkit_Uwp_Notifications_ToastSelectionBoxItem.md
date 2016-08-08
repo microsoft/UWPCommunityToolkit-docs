@@ -21,7 +21,7 @@ Constructs a new Toast SelectionBoxItem with the required elements.
 
 
 
-| name | description | type || --- | --- | --- || id | Developer-provided ID that the developer uses later to retrieve input when the Toast is interacted with. | System.String || content | String that is displayed on the selection item. This is what the user sees. | System.String |
+| name | description | type || --- | --- | --- || id | Developer-provided ID that the developer uses later to retrieve input when the Toast is interacted with. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || content | String that is displayed on the selection item. This is what the user sees. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 ### properties
 
 #### Id

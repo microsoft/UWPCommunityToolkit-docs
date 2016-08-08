@@ -25,7 +25,7 @@ Initializes a new instance of the [TwitterOAuthRequestBuilder](Microsoft_Toolkit
 
 
 
-| name | description | type || --- | --- | --- || requestUri | Request Uri. | System.Uri || tokens | Tokens to form request. | Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens || method | Method to use with request. | System.String |
+| name | description | type || --- | --- | --- || requestUri | Request Uri. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || tokens | Tokens to form request. | [TwitterOAuthTokens](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthTokens.md) || method | Method to use with request. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 ### methods
 
 #### GetAuthHeaderParameters()
@@ -45,7 +45,7 @@ Get encoded Uri.
 
 
 
-| name | description | type || --- | --- | --- || requestUri | Request uri. | System.Uri || parameters | List of parameters. | System.Collections.Generic.IEnumerable(Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter) || return |Encoded Uri. |
+| name | description | type || --- | --- | --- || requestUri | Request uri. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || parameters | List of parameters. | [OAuthParameter)](System_Collections_Generic_IEnumerable_Microsoft_Toolkit_Uwp_Services_OAuth_OAuthParameter_.md) || return |Encoded Uri. |
 #### GenerateNonce()
 
 Generate nonce.

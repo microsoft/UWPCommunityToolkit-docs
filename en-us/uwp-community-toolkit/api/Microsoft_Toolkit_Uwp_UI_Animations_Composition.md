@@ -21,15 +21,7 @@ Changes the Offset of the specified UI Element.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| associatedObject | The specified UI Element. | Windows.UI.Xaml.UIElement |
-| duration | The duration. | System.Double |
-| delay | The delay. (ignored if duration == 0) | System.Double |
-| offsetX | The offset x. | System.Single |
-| offsetY | The offset y. | System.Single |
-| offsetZ | The offset z. | System.Single |
-| return |The visual of the UIElement. |
+| name | description | type || --- | --- | --- || associatedObject | The specified UI Element. | [UIElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.UIElement) || duration | The duration. | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || delay | The delay. (ignored if duration == 0) | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || offsetX | The offset x. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || offsetY | The offset y. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || offsetZ | The offset z. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || return |The visual of the UIElement. |
 #### Scale(Windows.UI.Xaml.UIElement associatedObject,System.Double duration,System.Double delay,System.Single centerX,System.Single centerY,System.Single centerZ,System.Single scaleX,System.Single scaleY,System.Single scaleZ)
 
 Scales the specified UI Element.
@@ -38,18 +30,7 @@ Scales the specified UI Element.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| associatedObject | The associated object. | Windows.UI.Xaml.UIElement |
-| duration | The duration. | System.Double |
-| delay | The delay in milliseconds. (ignored if duration == 0) | System.Double |
-| centerX | The center x in pixels. | System.Single |
-| centerY | The center y in pixels. | System.Single |
-| centerZ | The center z in pixels. | System.Single |
-| scaleX | The scale x. | System.Single |
-| scaleY | The scale y. | System.Single |
-| scaleZ | The scale z. | System.Single |
-| return |The visual of the UIElement. |
+| name | description | type || --- | --- | --- || associatedObject | The associated object. | [UIElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.UIElement) || duration | The duration. | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || delay | The delay in milliseconds. (ignored if duration == 0) | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || centerX | The center x in pixels. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || centerY | The center y in pixels. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || centerZ | The center z in pixels. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || scaleX | The scale x. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || scaleY | The scale y. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || scaleZ | The scale z. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || return |The visual of the UIElement. |
 #### Rotate(Windows.UI.Xaml.UIElement associatedObject,System.Double duration,System.Double delay,System.Single value,System.Single centerX,System.Single centerY,System.Single centerZ)
 
 Rotates the specified UI Element.
@@ -58,16 +39,7 @@ Rotates the specified UI Element.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| associatedObject | The UI Element to rotate. | Windows.UI.Xaml.UIElement |
-| duration | The duration. | System.Double |
-| delay | The delay in milliseconds. (ignored if duration == 0) | System.Double |
-| value | The value in degrees to rotate. | System.Single |
-| centerX | The center x in pixels. | System.Single |
-| centerY | The center y in pixels. | System.Single |
-| centerZ | The center z in pixels. | System.Single |
-| return |The visual of the UIElement. |
+| name | description | type || --- | --- | --- || associatedObject | The UI Element to rotate. | [UIElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.UIElement) || duration | The duration. | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || delay | The delay in milliseconds. (ignored if duration == 0) | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || value | The value in degrees to rotate. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || centerX | The center x in pixels. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || centerY | The center y in pixels. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || centerZ | The center z in pixels. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || return |The visual of the UIElement. |
 #### Rotate(Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet animationSet,System.Double duration,System.Double delay,System.Single value,System.Single centerX,System.Single centerY,System.Single centerZ)
 
 Rotates the specified UI Element.
@@ -76,16 +48,7 @@ Rotates the specified UI Element.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| animationSet | The animationSet object. | Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet |
-| duration | The duration. | System.Double |
-| delay | The delay in milliseconds. (ignored if duration == 0) | System.Double |
-| value | The value in degrees to rotate. | System.Single |
-| centerX | The center x in pixels. | System.Single |
-| centerY | The center y in pixels. | System.Single |
-| centerZ | The center z in pixels. | System.Single |
-| return |The visual of the UIElement. |
+| name | description | type || --- | --- | --- || animationSet | The animationSet object. | [AnimationSet](Microsoft_Toolkit_Uwp_UI_Animations_AnimationSet.md) || duration | The duration. | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || delay | The delay in milliseconds. (ignored if duration == 0) | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || value | The value in degrees to rotate. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || centerX | The center x in pixels. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || centerY | The center y in pixels. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || centerZ | The center z in pixels. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || return |The visual of the UIElement. |
 #### Fade(Windows.UI.Xaml.UIElement associatedObject,System.Double duration,System.Double delay,System.Single value)
 
 Changes the Opacity of the specified UI Element.
@@ -94,13 +57,7 @@ Changes the Opacity of the specified UI Element.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| associatedObject | The UI Element to change the opacity of. | Windows.UI.Xaml.UIElement |
-| duration | The duration. | System.Double |
-| delay | The delay. (ignored if duration == 0) | System.Double |
-| value | The value. | System.Single |
-| return |The visual of the UIElement. |
+| name | description | type || --- | --- | --- || associatedObject | The UI Element to change the opacity of. | [UIElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.UIElement) || duration | The duration. | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || delay | The delay. (ignored if duration == 0) | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || value | The value. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || return |The visual of the UIElement. |
 #### Fade(Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet animationSet,System.Double duration,System.Double delay,System.Single value)
 
 Changes the Opacity of the specified UI Element.
@@ -109,13 +66,7 @@ Changes the Opacity of the specified UI Element.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| animationSet | The animationSet object. | Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet |
-| duration | The duration. | System.Double |
-| delay | The delay. (ignored if duration == 0) | System.Double |
-| value | The value. | System.Single |
-| return |The visual of the UIElement. |
+| name | description | type || --- | --- | --- || animationSet | The animationSet object. | [AnimationSet](Microsoft_Toolkit_Uwp_UI_Animations_AnimationSet.md) || duration | The duration. | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || delay | The delay. (ignored if duration == 0) | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || value | The value. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || return |The visual of the UIElement. |
 #### Scale(Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet animationSet,System.Double duration,System.Double delay,System.Single centerX,System.Single centerY,System.Single centerZ,System.Single scaleX,System.Single scaleY,System.Single scaleZ)
 
 Scales the specified UI Element.
@@ -124,18 +75,7 @@ Scales the specified UI Element.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| animationSet | The animationSet object. | Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet |
-| duration | The duration. | System.Double |
-| delay | The delay in milliseconds. (ignored if duration == 0) | System.Double |
-| centerX | The center x in pixels. | System.Single |
-| centerY | The center y in pixels. | System.Single |
-| centerZ | The center z in pixels. | System.Single |
-| scaleX | The scale x. | System.Single |
-| scaleY | The scale y. | System.Single |
-| scaleZ | The scale z. | System.Single |
-| return |The visual of the UIElement. |
+| name | description | type || --- | --- | --- || animationSet | The animationSet object. | [AnimationSet](Microsoft_Toolkit_Uwp_UI_Animations_AnimationSet.md) || duration | The duration. | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || delay | The delay in milliseconds. (ignored if duration == 0) | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || centerX | The center x in pixels. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || centerY | The center y in pixels. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || centerZ | The center z in pixels. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || scaleX | The scale x. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || scaleY | The scale y. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || scaleZ | The scale z. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || return |The visual of the UIElement. |
 #### Offset(Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet animationSet,System.Double duration,System.Double delay,System.Single offsetX,System.Single offsetY,System.Single offsetZ)
 
 Changes the Offset of the specified UI Element.
@@ -144,15 +84,7 @@ Changes the Offset of the specified UI Element.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| animationSet | The animationSet object. | Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet |
-| duration | The duration. | System.Double |
-| delay | The delay. (ignored if duration == 0) | System.Double |
-| offsetX | The offset x. | System.Single |
-| offsetY | The offset y. | System.Single |
-| offsetZ | The offset z. | System.Single |
-| return |The visual of the UIElement. |
+| name | description | type || --- | --- | --- || animationSet | The animationSet object. | [AnimationSet](Microsoft_Toolkit_Uwp_UI_Animations_AnimationSet.md) || duration | The duration. | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || delay | The delay. (ignored if duration == 0) | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || offsetX | The offset x. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || offsetY | The offset y. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || offsetZ | The offset z. | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || return |The visual of the UIElement. |
 #### Blur(Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet animationSet,System.Double duration,System.Double delay,System.Double blurAmount)
 
 Blurs the specified framework element.
@@ -161,13 +93,7 @@ Blurs the specified framework element.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| animationSet | The animationSet object. | Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet |
-| duration | The duration. | System.Double |
-| delay | The delay. (ignored if duration == 0) | System.Double |
-| blurAmount | The blur amount. | System.Double |
-| return |The Composition Effect Brush of the blur so you can control animations manually. |
+| name | description | type || --- | --- | --- || animationSet | The animationSet object. | [AnimationSet](Microsoft_Toolkit_Uwp_UI_Animations_AnimationSet.md) || duration | The duration. | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || delay | The delay. (ignored if duration == 0) | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || blurAmount | The blur amount. | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || return |The Composition Effect Brush of the blur so you can control animations manually. |
 #### Blur(Windows.UI.Xaml.FrameworkElement associatedObject,System.Double duration,System.Double delay,System.Double blurAmount)
 
 Blurs the specified framework element.
@@ -176,13 +102,7 @@ Blurs the specified framework element.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| associatedObject | The associated object. | Windows.UI.Xaml.FrameworkElement |
-| duration | The duration. | System.Double |
-| delay | The delay. (ignored if duration == 0) | System.Double |
-| value | The blur amount. | System.Double |
-| return |The Composition Effect Brush of the blur so you can control animations manually. |
+| name | description | type || --- | --- | --- || associatedObject | The associated object. | [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) || duration | The duration. | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || delay | The delay. (ignored if duration == 0) | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || blurAmount | The blur amount. | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || return |The Composition Effect Brush of the blur so you can control animations manually. |
 #### Parallax(Windows.UI.Xaml.UIElement element,Windows.UI.Xaml.FrameworkElement scrollerElement,System.Boolean isHorizontalEffect,System.Single multiplier)
 
 Creates a Parallax effect on the specified element based on the supplied scroller element.
@@ -191,12 +111,7 @@ Creates a Parallax effect on the specified element based on the supplied scrolle
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| element | The element. | Windows.UI.Xaml.UIElement |
-| scrollerElement | The scroller element. | Windows.UI.Xaml.FrameworkElement |
-| isHorizontalEffect | if set to  [is horizontal effect]. | System.Boolean |
-| multiplier | The multiplier (how fast it scrolls). | System.Single |
+| name | description | type || --- | --- | --- || element | The element. | [UIElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.UIElement) || scrollerElement | The scroller element. | [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) || isHorizontalEffect | if set to  [is horizontal effect]. | [Boolean](https://msdn.microsoft.com/library/windows/apps/System.Boolean) || multiplier | The multiplier (how fast it scrolls). | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) |
 ### properties
 
 #### IsBlurSupported

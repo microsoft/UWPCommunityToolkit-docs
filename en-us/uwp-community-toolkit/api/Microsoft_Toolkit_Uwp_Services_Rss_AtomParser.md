@@ -19,7 +19,7 @@ Atom reader implementation to parse Atom content.
 
 
 
-| name | description | type || --- | --- | --- || doc | XDocument to parse. | System.Xml.Linq.XDocument || return |Strong typed response. |
+| name | description | type || --- | --- | --- || doc | XDocument to parse. | [XDocument](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XDocument) || return |Strong typed response. |
 #### GetRssSchema(System.Xml.Linq.XElement item)
 
 Retieves strong type for passed item.
@@ -28,7 +28,7 @@ Retieves strong type for passed item.
 
 
 
-| name | description | type || --- | --- | --- || item | XElement to parse. | System.Xml.Linq.XElement || return |Strong typed object. |
+| name | description | type || --- | --- | --- || item | XElement to parse. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || return |Strong typed object. |
 #### GetItemAuthor(System.Xml.Linq.XElement item)
 
 Retrieves item author from XElement.
@@ -37,7 +37,7 @@ Retrieves item author from XElement.
 
 
 
-| name | description | type || --- | --- | --- || item | XElement item. | System.Xml.Linq.XElement || return |String of Item Author. |
+| name | description | type || --- | --- | --- || item | XElement item. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || return |String of Item Author. |
 #### GetItemImage(System.Xml.Linq.XElement item)
 
 Returns item image from XElement item.
@@ -46,7 +46,7 @@ Returns item image from XElement item.
 
 
 
-| name | description | type || --- | --- | --- || item | XElement item. | System.Xml.Linq.XElement || return |String pointing to item image. |
+| name | description | type || --- | --- | --- || item | XElement item. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || return |String pointing to item image. |
 #### GetItemContent(System.Xml.Linq.XElement item)
 
 Returns item content from XElement item.
@@ -55,4 +55,4 @@ Returns item content from XElement item.
 
 
 
-| name | description | type || --- | --- | --- || item | XElement item. | System.Xml.Linq.XElement || return |String of item content. |
+| name | description | type || --- | --- | --- || item | XElement item. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || return |String of item content. |

@@ -19,7 +19,7 @@ Downloads data with specified settings.
 
 
 
-| name | description | type || --- | --- | --- || settings | HttpRequestSettings instance. | Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings || return |Returns HttpRequestResult instance. |
+| name | description | type || --- | --- | --- || settings | HttpRequestSettings instance. | [HttpRequestSettings](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestSettings.md) || return |Returns HttpRequestResult instance. |
 #### AddRequestHeaders(Windows.Web.Http.HttpClient httpClient,Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings settings)
 
 Add default request headers to HttpClient object.
@@ -28,7 +28,7 @@ Add default request headers to HttpClient object.
 
 
 
-| name | description | type || --- | --- | --- || httpClient | HttpClient instance. | Windows.Web.Http.HttpClient || settings | HttpRequestSettings instance. | Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings |
+| name | description | type || --- | --- | --- || httpClient | HttpClient instance. | [HttpClient](https://msdn.microsoft.com/library/windows/apps/Windows.Web.Http.HttpClient) || settings | HttpRequestSettings instance. | [HttpRequestSettings](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestSettings.md) |
 #### FixInvalidCharset(Windows.Web.Http.HttpResponseMessage response)
 
 Fix invalid charset returned by some web sites.
@@ -37,4 +37,4 @@ Fix invalid charset returned by some web sites.
 
 
 
-| name | description | type || --- | --- | --- || response | HttpResponseMessage instance. | Windows.Web.Http.HttpResponseMessage |
+| name | description | type || --- | --- | --- || response | HttpResponseMessage instance. | [HttpResponseMessage](https://msdn.microsoft.com/library/windows/apps/Windows.Web.Http.HttpResponseMessage) |

@@ -19,7 +19,7 @@ Gets a string value from a [StorageFile](https://msdn.microsoft.com/library/wind
 
 
 
-| name | description | type || --- | --- | --- || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [String](https://msdn.microsoft.com/library/windows/apps/System.String) value. |
+| name | description | type || --- | --- | --- || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Returns the stored [String](https://msdn.microsoft.com/library/windows/apps/System.String) value. |
 ##### exceptions
 
 
@@ -32,7 +32,7 @@ Saves a string value to a [StorageFile](https://msdn.microsoft.com/library/windo
 
 
 
-| name | description | type || --- | --- | --- || text | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) value to save to the file. | System.String || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | System.String || options | The creation collision options. Default is ReplaceExisting. | Windows.Storage.CreationCollisionOption || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the text. |
+| name | description | type || --- | --- | --- || text | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) value to save to the file. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || options | The creation collision options. Default is ReplaceExisting. | [CreationCollisionOption](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.CreationCollisionOption) || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the text. |
 ##### exceptions
 
 
@@ -45,7 +45,7 @@ Saves a string value to a [StorageFile](https://msdn.microsoft.com/library/windo
 
 
 
-| name | description | type || --- | --- | --- || knownFolderId | The well known folder ID to use. | Windows.Storage.KnownFolderId || text | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) value to save to the file. | System.String || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | System.String || options | The creation collision options. Default is ReplaceExisting. | Windows.Storage.CreationCollisionOption || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the text. |
+| name | description | type || --- | --- | --- || knownFolderId | The well known folder ID to use. | [KnownFolderId](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.KnownFolderId) || text | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) value to save to the file. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || options | The creation collision options. Default is ReplaceExisting. | [CreationCollisionOption](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.CreationCollisionOption) || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the text. |
 ##### exceptions
 
 
@@ -58,7 +58,7 @@ Saves a string value to a [StorageFile](https://msdn.microsoft.com/library/windo
 
 
 
-| name | description | type || --- | --- | --- || fileLocation | The [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) to save the file in. | Windows.Storage.StorageFolder || text | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) value to save to the file. | System.String || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | System.String || options | The creation collision options. Default is ReplaceExisting. | Windows.Storage.CreationCollisionOption || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the text. |
+| name | description | type || --- | --- | --- || fileLocation | The [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) to save the file in. | [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) || text | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) value to save to the file. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || options | The creation collision options. Default is ReplaceExisting. | [CreationCollisionOption](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.CreationCollisionOption) || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the text. |
 ##### exceptions
 
 
@@ -71,7 +71,7 @@ Saves an array of bytes to a [StorageFile](https://msdn.microsoft.com/library/wi
 
 
 
-| name | description | type || --- | --- | --- || bytes | The [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array to save to the file. | System.Byte[] || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | System.String || options | The creation collision options. Default is ReplaceExisting. | Windows.Storage.CreationCollisionOption || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the bytes. |
+| name | description | type || --- | --- | --- || bytes | The [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array to save to the file. | [Byte[]](https://msdn.microsoft.com/library/windows/apps/System.Byte[]) || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || options | The creation collision options. Default is ReplaceExisting. | [CreationCollisionOption](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.CreationCollisionOption) || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the bytes. |
 ##### exceptions
 
 
@@ -84,7 +84,7 @@ Saves an array of bytes to a [StorageFile](https://msdn.microsoft.com/library/wi
 
 
 
-| name | description | type || --- | --- | --- || bytes | The [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array to save to the file. | System.Byte[] || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | System.String || options | The creation collision options. Default is ReplaceExisting. | Windows.Storage.CreationCollisionOption || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the bytes. |
+| name | description | type || --- | --- | --- || bytes | The [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array to save to the file. | [Byte[]](https://msdn.microsoft.com/library/windows/apps/System.Byte[]) || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || options | The creation collision options. Default is ReplaceExisting. | [CreationCollisionOption](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.CreationCollisionOption) || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the bytes. |
 ##### exceptions
 
 
@@ -97,7 +97,7 @@ Saves an array of bytes to a [StorageFile](https://msdn.microsoft.com/library/wi
 
 
 
-| name | description | type || --- | --- | --- || knownFolderId | The well known folder ID to use. | Windows.Storage.KnownFolderId || bytes | The [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array to save to the file. | System.Byte[] || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | System.String || options | The creation collision options. Default is ReplaceExisting. | Windows.Storage.CreationCollisionOption || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the bytes. |
+| name | description | type || --- | --- | --- || knownFolderId | The well known folder ID to use. | [KnownFolderId](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.KnownFolderId) || bytes | The [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array to save to the file. | [Byte[]](https://msdn.microsoft.com/library/windows/apps/System.Byte[]) || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || options | The creation collision options. Default is ReplaceExisting. | [CreationCollisionOption](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.CreationCollisionOption) || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the bytes. |
 ##### exceptions
 
 
@@ -110,7 +110,7 @@ Saves an array of bytes to a [StorageFile](https://msdn.microsoft.com/library/wi
 
 
 
-| name | description | type || --- | --- | --- || fileLocation | The [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) to save the file in. | Windows.Storage.StorageFolder || bytes | The [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array to save to the file. | System.Byte[] || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | System.String || options | The creation collision options. Default is ReplaceExisting. | Windows.Storage.CreationCollisionOption || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the bytes. |
+| name | description | type || --- | --- | --- || fileLocation | The [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) to save the file in. | [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) || bytes | The [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array to save to the file. | [Byte[]](https://msdn.microsoft.com/library/windows/apps/System.Byte[]) || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || options | The creation collision options. Default is ReplaceExisting. | [CreationCollisionOption](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.CreationCollisionOption) || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the bytes. |
 ##### exceptions
 
 
@@ -123,7 +123,7 @@ Gets a string value from a [StorageFile](https://msdn.microsoft.com/library/wind
 
 
 
-| name | description | type || --- | --- | --- || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [String](https://msdn.microsoft.com/library/windows/apps/System.String) value. |
+| name | description | type || --- | --- | --- || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Returns the stored [String](https://msdn.microsoft.com/library/windows/apps/System.String) value. |
 ##### exceptions
 
 
@@ -136,7 +136,7 @@ Gets a string value from a [StorageFile](https://msdn.microsoft.com/library/wind
 
 
 
-| name | description | type || --- | --- | --- || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [String](https://msdn.microsoft.com/library/windows/apps/System.String) value. |
+| name | description | type || --- | --- | --- || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Returns the stored [String](https://msdn.microsoft.com/library/windows/apps/System.String) value. |
 ##### exceptions
 
 
@@ -149,7 +149,7 @@ Saves a string value to a [StorageFile](https://msdn.microsoft.com/library/windo
 
 
 
-| name | description | type || --- | --- | --- || text | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) value to save to the file. | System.String || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | System.String || options | The creation collision options. Default is ReplaceExisting. | Windows.Storage.CreationCollisionOption || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the text. |
+| name | description | type || --- | --- | --- || text | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) value to save to the file. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || fileName | The [String](https://msdn.microsoft.com/library/windows/apps/System.String) name for the file. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || options | The creation collision options. Default is ReplaceExisting. | [CreationCollisionOption](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.CreationCollisionOption) || return |Returns the saved [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) containing the text. |
 ##### exceptions
 
 
@@ -162,7 +162,7 @@ Gets a string value from a [StorageFile](https://msdn.microsoft.com/library/wind
 
 
 
-| name | description | type || --- | --- | --- || knownFolderId | The well known folder ID to use. | Windows.Storage.KnownFolderId || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [String](https://msdn.microsoft.com/library/windows/apps/System.String) value. |
+| name | description | type || --- | --- | --- || knownFolderId | The well known folder ID to use. | [KnownFolderId](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.KnownFolderId) || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Returns the stored [String](https://msdn.microsoft.com/library/windows/apps/System.String) value. |
 ##### exceptions
 
 
@@ -175,7 +175,7 @@ Gets a string value from a [StorageFile](https://msdn.microsoft.com/library/wind
 
 
 
-| name | description | type || --- | --- | --- || fileLocation | The [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) to save the file in. | Windows.Storage.StorageFolder || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [String](https://msdn.microsoft.com/library/windows/apps/System.String) value. |
+| name | description | type || --- | --- | --- || fileLocation | The [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) to save the file in. | [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Returns the stored [String](https://msdn.microsoft.com/library/windows/apps/System.String) value. |
 ##### exceptions
 
 
@@ -188,7 +188,7 @@ Gets an array of bytes from a [StorageFile](https://msdn.microsoft.com/library/w
 
 
 
-| name | description | type || --- | --- | --- || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array. |
+| name | description | type || --- | --- | --- || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Returns the stored [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array. |
 ##### exceptions
 
 
@@ -201,7 +201,7 @@ Gets an array of bytes from a [StorageFile](https://msdn.microsoft.com/library/w
 
 
 
-| name | description | type || --- | --- | --- || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array. |
+| name | description | type || --- | --- | --- || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Returns the stored [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array. |
 ##### exceptions
 
 
@@ -214,7 +214,7 @@ Gets an array of bytes from a [StorageFile](https://msdn.microsoft.com/library/w
 
 
 
-| name | description | type || --- | --- | --- || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array. |
+| name | description | type || --- | --- | --- || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Returns the stored [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array. |
 ##### exceptions
 
 
@@ -227,7 +227,7 @@ Gets an array of bytes from a [StorageFile](https://msdn.microsoft.com/library/w
 
 
 
-| name | description | type || --- | --- | --- || knownFolderId | The well known folder ID to use. | Windows.Storage.KnownFolderId || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array. |
+| name | description | type || --- | --- | --- || knownFolderId | The well known folder ID to use. | [KnownFolderId](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.KnownFolderId) || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Returns the stored [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array. |
 ##### exceptions
 
 
@@ -240,7 +240,7 @@ Gets an array of bytes from a [StorageFile](https://msdn.microsoft.com/library/w
 
 
 
-| name | description | type || --- | --- | --- || fileLocation | The [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) to save the file in. | Windows.Storage.StorageFolder || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | System.String || return |Returns the stored [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array. |
+| name | description | type || --- | --- | --- || fileLocation | The [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) to save the file in. | [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) || fileName | The relative [String](https://msdn.microsoft.com/library/windows/apps/System.String) file path. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Returns the stored [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array. |
 ##### exceptions
 
 
@@ -253,7 +253,7 @@ Gets an array of bytes from a [StorageFile](https://msdn.microsoft.com/library/w
 
 
 
-| name | description | type || --- | --- | --- || file | The [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile). | Windows.Storage.StorageFile || return |Returns the stored [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array. |
+| name | description | type || --- | --- | --- || file | The [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile). | [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) || return |Returns the stored [Byte](https://msdn.microsoft.com/library/windows/apps/System.Byte) array. |
 #### GetFolderFromKnownFolderId(Windows.Storage.KnownFolderId knownFolderId)
 
 Returns a [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) from a [KnownFolderId](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.KnownFolderId)
@@ -262,4 +262,4 @@ Returns a [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Window
 
 
 
-| name | description | type || --- | --- | --- || knownFolderId | Folder Id | Windows.Storage.KnownFolderId || return |[StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) |
+| name | description | type || --- | --- | --- || knownFolderId | Folder Id | [KnownFolderId](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.KnownFolderId) || return |[StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) |

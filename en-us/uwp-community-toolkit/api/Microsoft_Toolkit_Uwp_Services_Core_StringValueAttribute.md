@@ -21,7 +21,7 @@ Initializes a new instance of the [StringValueAttribute](Microsoft_Toolkit_Uwp_S
 
 
 
-| name | description | type || --- | --- | --- || value | String value | System.String |
+| name | description | type || --- | --- | --- || value | String value | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 ### properties
 
 #### Value

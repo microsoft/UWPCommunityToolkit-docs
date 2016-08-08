@@ -19,4 +19,4 @@ Parse string data into strongly typed list.
 
 
 
-| name | description | type || --- | --- | --- || data | Input string. | System.String || return |List of strongly typed objects. |
+| name | description | type || --- | --- | --- || data | Input string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |List of strongly typed objects. |

@@ -27,7 +27,7 @@ Constructor to create a numeric badge content object with a number.
 
 
 
-| name | description | type || --- | --- | --- || number | The number that will appear on the badge.  If the number is 0, the badge will be removed. | System.UInt32 |
+| name | description | type || --- | --- | --- || number | The number that will appear on the badge.  If the number is 0, the badge will be removed. | [UInt32](https://msdn.microsoft.com/library/windows/apps/System.UInt32) |
 ### methods
 
 #### GetContent()

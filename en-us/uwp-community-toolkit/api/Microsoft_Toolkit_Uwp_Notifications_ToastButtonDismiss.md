@@ -25,7 +25,7 @@ Constructs a system-handled dismiss button that displays your text on the button
 
 
 
-| name | description | type || --- | --- | --- || customContent | The text you want displayed on the button. | System.String |
+| name | description | type || --- | --- | --- || customContent | The text you want displayed on the button. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 ### properties
 
 #### CustomContent

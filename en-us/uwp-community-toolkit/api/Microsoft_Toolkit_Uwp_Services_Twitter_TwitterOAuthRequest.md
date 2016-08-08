@@ -19,7 +19,7 @@ HTTP Get request to specified Uri.
 
 
 
-| name | description | type || --- | --- | --- || requestUri | Uri to make OAuth request. | System.Uri || tokens | Tokens to pass in request. | Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens || return |String result. |
+| name | description | type || --- | --- | --- || requestUri | Uri to make OAuth request. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || tokens | Tokens to pass in request. | [TwitterOAuthTokens](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthTokens.md) || return |String result. |
 #### ExecutePostAsync(System.Uri requestUri,Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens tokens)
 
 HTTP Post request to specified Uri.
@@ -28,7 +28,7 @@ HTTP Post request to specified Uri.
 
 
 
-| name | description | type || --- | --- | --- || requestUri | Uri to make OAuth request. | System.Uri || tokens | Tokens to pass in request. | Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens || return |String result. |
+| name | description | type || --- | --- | --- || requestUri | Uri to make OAuth request. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || tokens | Tokens to pass in request. | [TwitterOAuthTokens](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthTokens.md) || return |String result. |
 #### ExecutePostMultipartAsync(System.Uri requestUri,Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens tokens,System.String boundary,System.Byte[] content)
 
 HTTP Post request to specified Uri.
@@ -37,4 +37,4 @@ HTTP Post request to specified Uri.
 
 
 
-| name | description | type || --- | --- | --- || requestUri | Uri to make OAuth request. | System.Uri || tokens | Tokens to pass in request. | Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokens || boundary | Boundary used to separate data. | System.String || content | Data to post to server. | System.Byte[] || return |String result. |
+| name | description | type || --- | --- | --- || requestUri | Uri to make OAuth request. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || tokens | Tokens to pass in request. | [TwitterOAuthTokens](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthTokens.md) || boundary | Boundary used to separate data. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || content | Data to post to server. | [Byte[]](https://msdn.microsoft.com/library/windows/apps/System.Byte[]) || return |String result. |

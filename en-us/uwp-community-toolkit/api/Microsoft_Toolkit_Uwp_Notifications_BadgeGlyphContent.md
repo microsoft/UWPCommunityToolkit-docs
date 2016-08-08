@@ -27,7 +27,7 @@ Constructor to create a glyph badge content object with a glyph.
 
 
 
-| name | description | type || --- | --- | --- || glyph | The glyph to be displayed on the badge. | Microsoft.Toolkit.Uwp.Notifications.BadgeGlyphValue |
+| name | description | type || --- | --- | --- || glyph | The glyph to be displayed on the badge. | [BadgeGlyphValue](Microsoft_Toolkit_Uwp_Notifications_BadgeGlyphValue.md) |
 ### methods
 
 #### GetContent()

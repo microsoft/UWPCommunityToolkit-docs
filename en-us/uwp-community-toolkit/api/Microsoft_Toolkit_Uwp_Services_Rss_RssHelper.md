@@ -21,7 +21,7 @@ Get feed url to see full original information.
 
 
 
-| name | description | type || --- | --- | --- || item | XElement item. | System.Xml.Linq.XElement || rel | rel attribute value. | System.String || return |String link. |
+| name | description | type || --- | --- | --- || item | XElement item. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || rel | rel attribute value. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |String link. |
 #### GetSafeElementDate(System.Xml.Linq.XElement item,System.String elementName,System.Xml.Linq.XNamespace xNamespace)
 
 Get item date from xelement, element name and namespace.
@@ -30,7 +30,7 @@ Get item date from xelement, element name and namespace.
 
 
 
-| name | description | type || --- | --- | --- || item | XElement item. | System.Xml.Linq.XElement || elementName | Name of element. | System.String || xNamespace | XNamespace namespace. | System.Xml.Linq.XNamespace || return |Item date. |
+| name | description | type || --- | --- | --- || item | XElement item. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || elementName | Name of element. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || xNamespace | XNamespace namespace. | [XNamespace](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XNamespace) || return |Item date. |
 #### GetSafeElementDate(System.Xml.Linq.XElement item,System.String elementName)
 
 Get item date from xelement and element name.
@@ -39,7 +39,7 @@ Get item date from xelement and element name.
 
 
 
-| name | description | type || --- | --- | --- || item | XElement item. | System.Xml.Linq.XElement || elementName | Name of element. | System.String || return |Item date. |
+| name | description | type || --- | --- | --- || item | XElement item. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || elementName | Name of element. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Item date. |
 #### GetSafeElementString(System.Xml.Linq.XElement item,System.String elementName)
 
 Get item string value for xelement and element name.
@@ -48,7 +48,7 @@ Get item string value for xelement and element name.
 
 
 
-| name | description | type || --- | --- | --- || item | XElement item. | System.Xml.Linq.XElement || elementName | Name of eleement. | System.String || return |Safe string. |
+| name | description | type || --- | --- | --- || item | XElement item. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || elementName | Name of eleement. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Safe string. |
 #### GetSafeElementString(System.Xml.Linq.XElement item,System.String elementName,System.Xml.Linq.XNamespace xNamespace)
 
 Get item string value for xelement, element name and namespace.
@@ -57,7 +57,7 @@ Get item string value for xelement, element name and namespace.
 
 
 
-| name | description | type || --- | --- | --- || item | XElement item. | System.Xml.Linq.XElement || elementName | Name of element. | System.String || xNamespace | XNamespace namespace. | System.Xml.Linq.XNamespace || return |Safe string. |
+| name | description | type || --- | --- | --- || item | XElement item. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || elementName | Name of element. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || xNamespace | XNamespace namespace. | [XNamespace](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XNamespace) || return |Safe string. |
 #### SanitizeString(System.String text)
 
 Removes \t characters in the string and trim additional space and carriage returns.
@@ -66,7 +66,7 @@ Removes \t characters in the string and trim additional space and carriage retur
 
 
 
-| name | description | type || --- | --- | --- || text | Text string. | System.String || return |Sanitized string. |
+| name | description | type || --- | --- | --- || text | Text string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Sanitized string. |
 #### GetImage(System.Xml.Linq.XElement item)
 
 Get feed image.
@@ -75,7 +75,7 @@ Get feed image.
 
 
 
-| name | description | type || --- | --- | --- || item | XElement item. | System.Xml.Linq.XElement || return |Feed data image. |
+| name | description | type || --- | --- | --- || item | XElement item. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || return |Feed data image. |
 #### GetImageFromEnclosure(System.Xml.Linq.XElement item)
 
 Get the item image from the enclosure element http://www.w3schools.com/rss/rss_tag_enclosure.asp
@@ -84,7 +84,7 @@ Get the item image from the enclosure element http://www.w3schools.com/rss/rss_t
 
 
 
-| name | description | type || --- | --- | --- || item | XElement item. | System.Xml.Linq.XElement || return |Feed data image. |
+| name | description | type || --- | --- | --- || item | XElement item. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || return |Feed data image. |
 #### TryParseDateTime(System.String s,System.DateTime@ result)
 
 Tries to parse the original string to a datetime format.
@@ -93,7 +93,7 @@ Tries to parse the original string to a datetime format.
 
 
 
-| name | description | type || --- | --- | --- || s | Input string. | System.String || result | Parsed datetime. | System.DateTime@ || return |True if success |
+| name | description | type || --- | --- | --- || s | Input string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || result | Parsed datetime. | [DateTime@](https://msdn.microsoft.com/library/windows/apps/System.DateTime@) || return |True if success |
 #### TimeZoneToOffset(System.String tz)
 
 Calculate and return timezone.
@@ -102,7 +102,7 @@ Calculate and return timezone.
 
 
 
-| name | description | type || --- | --- | --- || tz | Input string. | System.String || return |Parsed timezone. |
+| name | description | type || --- | --- | --- || tz | Input string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Parsed timezone. |
 #### GetImagesInHTMLString(System.String htmlString)
 
 Retrieve images from HTML string.
@@ -111,7 +111,7 @@ Retrieve images from HTML string.
 
 
 
-| name | description | type || --- | --- | --- || htmlString | String of HTML. | System.String || return |List of images. |
+| name | description | type || --- | --- | --- || htmlString | String of HTML. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |List of images. |
 ### fields
 
 #### WidthPattern

@@ -13,6 +13,7 @@ module.exports = function (grunt) {
 					'Microsoft.Toolkit.Uwp'
 				],
 				externalLinksBase: 'https://msdn.microsoft.com/library/windows/apps/'
+				//externalLinksBase: 'https://msdn.microsoft.com/library/windows/apps/'
 			}
 		},
 		eslint: {

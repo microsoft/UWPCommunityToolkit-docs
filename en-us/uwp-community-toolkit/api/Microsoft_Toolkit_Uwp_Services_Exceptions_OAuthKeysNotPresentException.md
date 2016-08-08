@@ -23,7 +23,7 @@ Initializes a new instance of the [OAuthKeysNotPresentException](Microsoft_Toolk
 
 
 
-| name | description | type || --- | --- | --- || key | Name of the missing key. | System.String |
+| name | description | type || --- | --- | --- || key | Name of the missing key. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 #### contructor
 
 Initializes a new instance of the [OAuthKeysNotPresentException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysNotPresentException.md) class. Constructor with additional message and inner exception.
@@ -32,4 +32,4 @@ Initializes a new instance of the [OAuthKeysNotPresentException](Microsoft_Toolk
 
 
 
-| name | description | type || --- | --- | --- || message | Additional exception message. | System.String || innerException | Reference to inner exception. | System.Exception |
+| name | description | type || --- | --- | --- || message | Additional exception message. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || innerException | Reference to inner exception. | [Exception](https://msdn.microsoft.com/library/windows/apps/System.Exception) |

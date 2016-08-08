@@ -1,5 +1,5 @@
 # Site Settings
-baseurl: "/content"
+baseurl: "/"
 
 # Build settings
 markdown: kramdown

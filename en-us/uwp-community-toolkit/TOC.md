@@ -47,8 +47,9 @@ search.product: eADQiWindows 10XVcnh
 - [WeakEventListener]({{site.baseurl}}/helpers/weakeventlistener.htm)
 
 
-# [Notifications]({{site.baseurl}}/notifications/notificationsOverview.htm) 
+# Notifications 
 
+- [Notifications Overview]({{site.baseurl}}/notifications/notificationsOverview.htm)
 
 # Services
 
@@ -57,4 +58,3 @@ search.product: eADQiWindows 10XVcnh
 - [Twitter]({{site.baseurl}}/services/twitter.htm)
 
 # [Index]({{site.baseurl}}/index.htm)
-

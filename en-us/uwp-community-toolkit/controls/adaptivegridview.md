@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # AdaptiveGridView XAML Control 
-The **AdaptiveGridView Control** presents content within a *Grid View* to fill the total available display space. It reacts to changes in both content and the layout, so it can adapt to different form factors automatically.
+The **AdaptiveGridView Control** presents items in a evenly-spaced set of columns to fill the total available display space. It reacts to changes in the layout as well as the content so it can adapt to different form factors automatically.
 
 ## Syntax
 ```xaml

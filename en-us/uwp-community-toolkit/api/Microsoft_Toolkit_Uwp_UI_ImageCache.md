@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_ImageCache.htm
+title: Microsoft.Toolkit.Uwp.UI.ImageCache API 
+description: API page for Microsoft.Toolkit.Uwp.UI.ImageCache
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # ImageCache class
 

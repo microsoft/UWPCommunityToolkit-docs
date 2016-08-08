@@ -83,7 +83,23 @@ var Generator = function (options) {
 	};
 	this.writeFile = function (path) {
 		return new Promise(function (resolve, reject) {
-			fs.writeFile(path, content, function (err) {
+
+			var theFile = path.match(/\/([^/]*)$/)[1];
+			var onlyName = theFile.substr(0, theFile.lastIndexOf('.')) || theFile;
+			var classname = onlyName.replace(/_/g, ".");
+			var header = 
+`---
+permalink: /en-US/api/` + onlyName + `.htm
+title: ` + classname + ` API 
+description: API page for ` + classname + `
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
+`;
+
+			fs.writeFile(path, header + content, function (err) {
 				if (err) {
 					reject(err);
 					return;

@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Scale.htm
+title: Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale API 
+description: API page for Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Scale
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # Scale class
 

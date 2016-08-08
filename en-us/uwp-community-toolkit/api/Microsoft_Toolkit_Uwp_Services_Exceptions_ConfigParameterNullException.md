@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigParameterNullException.htm
+title: Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigParameterNullException API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Exceptions.ConfigParameterNullException
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # ConfigParameterNullException class
 
@@ -13,11 +22,11 @@ The **ConfigParameterNullException** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigParameterNullException.md) class. Default constructor.
+Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigParameterNullException.htm) class. Default constructor.
 
 #### contructor
 
-Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigParameterNullException.md) class. Accepts parameter name.
+Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigParameterNullException.htm) class. Accepts parameter name.
 
 ##### parameters
 
@@ -26,7 +35,7 @@ Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolk
 | name | description | type || --- | --- | --- || parameter | Name of the parameter. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 #### contructor
 
-Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigParameterNullException.md) class. Accepts parameter name and inner exception.
+Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigParameterNullException.htm) class. Accepts parameter name and inner exception.
 
 ##### parameters
 

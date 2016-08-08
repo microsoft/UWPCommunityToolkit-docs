@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Rotate.htm
+title: Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotate API 
+description: API page for Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Rotate
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # Rotate class
 

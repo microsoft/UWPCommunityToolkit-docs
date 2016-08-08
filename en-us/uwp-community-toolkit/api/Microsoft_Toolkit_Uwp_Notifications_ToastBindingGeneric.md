@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Notifications_ToastBindingGeneric.htm
+title: Microsoft.Toolkit.Uwp.Notifications.ToastBindingGeneric API 
+description: API page for Microsoft.Toolkit.Uwp.Notifications.ToastBindingGeneric
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # ToastBindingGeneric class
 
@@ -13,7 +22,7 @@ The **ToastBindingGeneric** class has this types of members
 
 #### Children
 
-The contents of the body of the Toast, which can include [AdaptiveText](Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.md), [AdaptiveImage](Microsoft_Toolkit_Uwp_Notifications_AdaptiveImage.md), and [AdaptiveGroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveGroup.md) (added in Anniversary Update). Also, [AdaptiveText](Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.md) elements must come before any other elements. If an [AdaptiveText](Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.md) element is placed after any other element, an exception will be thrown when you try to retrieve the Toast XML content. And finally, certain [AdaptiveText](Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.md) properties like HintStyle aren't supported on the root children text elements, and only work inside an [AdaptiveGroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveGroup.md). If you use [AdaptiveGroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveGroup.md) on devices without the Anniversary Update, the group content will simply be dropped.
+The contents of the body of the Toast, which can include [AdaptiveText](Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.htm), [AdaptiveImage](Microsoft_Toolkit_Uwp_Notifications_AdaptiveImage.htm), and [AdaptiveGroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveGroup.htm) (added in Anniversary Update). Also, [AdaptiveText](Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.htm) elements must come before any other elements. If an [AdaptiveText](Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.htm) element is placed after any other element, an exception will be thrown when you try to retrieve the Toast XML content. And finally, certain [AdaptiveText](Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.htm) properties like HintStyle aren't supported on the root children text elements, and only work inside an [AdaptiveGroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveGroup.htm). If you use [AdaptiveGroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveGroup.htm) on devices without the Anniversary Update, the group content will simply be dropped.
 
 #### AppLogoOverride
 
@@ -25,7 +34,7 @@ New in Anniversary Update: An optional hero image (a visually impactful image di
 
 #### Attribution
 
-New in Anniversary Update: An optional text element that is displayed as attribution text. On devices without the Anniversary Update, this text will appear as if it's another [AdaptiveText](Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.md) element at the end of your Children list.
+New in Anniversary Update: An optional text element that is displayed as attribution text. On devices without the Anniversary Update, this text will appear as if it's another [AdaptiveText](Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.htm) element at the end of your Children list.
 
 #### Language
 

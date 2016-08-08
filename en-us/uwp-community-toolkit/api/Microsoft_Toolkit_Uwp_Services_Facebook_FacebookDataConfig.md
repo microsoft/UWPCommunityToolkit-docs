@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Facebook_FacebookDataConfig.htm
+title: Microsoft.Toolkit.Uwp.Services.Facebook.FacebookDataConfig API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Facebook.FacebookDataConfig
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # FacebookDataConfig class
 

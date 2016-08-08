@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Notifications_BadgeGlyphValue.htm
+title: Microsoft.Toolkit.Uwp.Notifications.BadgeGlyphValue API 
+description: API page for Microsoft.Toolkit.Uwp.Notifications.BadgeGlyphValue
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # BadgeGlyphValue class
 

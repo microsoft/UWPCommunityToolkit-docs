@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Rss_RssParser.htm
+title: Microsoft.Toolkit.Uwp.Services.Rss.RssParser API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Rss.RssParser
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # RssParser class
 

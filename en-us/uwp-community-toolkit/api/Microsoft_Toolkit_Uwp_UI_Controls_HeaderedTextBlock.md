@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Controls_HeaderedTextBlock.htm
+title: Microsoft.Toolkit.Uwp.UI.Controls.HeaderedTextBlock API 
+description: API page for Microsoft.Toolkit.Uwp.UI.Controls.HeaderedTextBlock
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # HeaderedTextBlock class
 
@@ -19,7 +28,7 @@ The **HeaderedTextBlock** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [HeaderedTextBlock](Microsoft_Toolkit_Uwp_UI_Controls_HeaderedTextBlock.md) class.
+Initializes a new instance of the [HeaderedTextBlock](Microsoft_Toolkit_Uwp_UI_Controls_HeaderedTextBlock.htm) class.
 
 ### methods
 

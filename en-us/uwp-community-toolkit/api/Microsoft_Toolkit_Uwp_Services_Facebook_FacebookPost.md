@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Facebook_FacebookPost.htm
+title: Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPost API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPost
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # FacebookPost class
 

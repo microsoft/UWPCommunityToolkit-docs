@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Notifications_AdaptiveImage.htm
+title: Microsoft.Toolkit.Uwp.Notifications.AdaptiveImage API 
+description: API page for Microsoft.Toolkit.Uwp.Notifications.AdaptiveImage
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # AdaptiveImage class
 
@@ -34,7 +43,7 @@ By default, images have an 8px margin around them. You can remove this margin by
 
 #### HintAlign
 
-The horizontal alignment of the image. For Toast, this is only supported when inside an [AdaptiveSubgroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.md).
+The horizontal alignment of the image. For Toast, this is only supported when inside an [AdaptiveSubgroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.htm).
 
 #### Source
 

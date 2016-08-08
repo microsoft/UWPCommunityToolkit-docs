@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_DataProviderBase`2.htm
+title: Microsoft.Toolkit.Uwp.Services.DataProviderBase`2 API 
+description: API page for Microsoft.Toolkit.Uwp.Services.DataProviderBase`2
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # DataProviderBase<T1><T2> class
 

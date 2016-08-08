@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_ConnectionHelper.htm
+title: Microsoft.Toolkit.Uwp.ConnectionHelper API 
+description: API page for Microsoft.Toolkit.Uwp.ConnectionHelper
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # ConnectionHelper class
 

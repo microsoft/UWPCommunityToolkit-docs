@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Notifications_TileBindingContentAdaptive.htm
+title: Microsoft.Toolkit.Uwp.Notifications.TileBindingContentAdaptive API 
+description: API page for Microsoft.Toolkit.Uwp.Notifications.TileBindingContentAdaptive
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # TileBindingContentAdaptive class
 
@@ -13,7 +22,7 @@ The **TileBindingContentAdaptive** class has this types of members
 
 #### Children
 
-[AdaptiveText](Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.md), [AdaptiveImage](Microsoft_Toolkit_Uwp_Notifications_AdaptiveImage.md), and [AdaptiveGroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveGroup.md) objects can be added as children. The children are displayed in a vertical StackPanel fashion.
+[AdaptiveText](Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.htm), [AdaptiveImage](Microsoft_Toolkit_Uwp_Notifications_AdaptiveImage.htm), and [AdaptiveGroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveGroup.htm) objects can be added as children. The children are displayed in a vertical StackPanel fashion.
 
 #### BackgroundImage
 

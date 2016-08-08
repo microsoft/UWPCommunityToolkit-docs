@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Core_HttpRequestSettings.htm
+title: Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # HttpRequestSettings class
 
@@ -15,7 +24,7 @@ The **HttpRequestSettings** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [HttpRequestSettings](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestSettings.md) class. Default constructor.
+Initializes a new instance of the [HttpRequestSettings](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestSettings.htm) class. Default constructor.
 
 ### properties
 

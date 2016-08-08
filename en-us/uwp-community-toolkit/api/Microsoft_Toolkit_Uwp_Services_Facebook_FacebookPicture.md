@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Facebook_FacebookPicture.htm
+title: Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPicture API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Facebook.FacebookPicture
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # FacebookPicture class
 

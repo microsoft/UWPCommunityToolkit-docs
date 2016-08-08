@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_StorageFileHelper.htm
+title: Microsoft.Toolkit.Uwp.StorageFileHelper API 
+description: API page for Microsoft.Toolkit.Uwp.StorageFileHelper
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # StorageFileHelper class
 

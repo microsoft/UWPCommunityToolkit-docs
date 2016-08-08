@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Core_ExtensionMethods.htm
+title: Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # ExtensionMethods class
 
@@ -39,7 +48,7 @@ Converts between country code and country name.
 
 
 
-| name | description | type || --- | --- | --- || value | BingCountry enumeration. | [BingCountry](Microsoft_Toolkit_Uwp_Services_Bing_BingCountry.md) || return |Returns country code. |
+| name | description | type || --- | --- | --- || value | BingCountry enumeration. | [BingCountry](Microsoft_Toolkit_Uwp_Services_Bing_BingCountry.htm) || return |Returns country code. |
 ### fields
 
 #### RemoveHtmlTagsRegex

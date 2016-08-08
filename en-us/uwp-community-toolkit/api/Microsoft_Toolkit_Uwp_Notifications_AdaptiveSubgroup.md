@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.htm
+title: Microsoft.Toolkit.Uwp.Notifications.AdaptiveSubgroup API 
+description: API page for Microsoft.Toolkit.Uwp.Notifications.AdaptiveSubgroup
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # AdaptiveSubgroup class
 
@@ -13,7 +22,7 @@ The **AdaptiveSubgroup** class has this types of members
 
 #### Children
 
-[AdaptiveText](Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.md) and [AdaptiveImage](Microsoft_Toolkit_Uwp_Notifications_AdaptiveImage.md) are valid children of subgroups.
+[AdaptiveText](Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.htm) and [AdaptiveImage](Microsoft_Toolkit_Uwp_Notifications_AdaptiveImage.htm) are valid children of subgroups.
 
 #### HintWeight
 

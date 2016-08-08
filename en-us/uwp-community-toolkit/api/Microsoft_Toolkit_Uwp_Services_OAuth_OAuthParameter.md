@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_OAuth_OAuthParameter.htm
+title: Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter API 
+description: API page for Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # OAuthParameter class
 
@@ -17,7 +26,7 @@ The **OAuthParameter** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [OAuthParameter](Microsoft_Toolkit_Uwp_Services_OAuth_OAuthParameter.md) class. Constructor accepting key and value.
+Initializes a new instance of the [OAuthParameter](Microsoft_Toolkit_Uwp_Services_OAuth_OAuthParameter.htm) class. Constructor accepting key and value.
 
 ##### parameters
 

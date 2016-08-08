@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Notifications_INotificationContent.htm
+title: Microsoft.Toolkit.Uwp.Notifications.INotificationContent API 
+description: API page for Microsoft.Toolkit.Uwp.Notifications.INotificationContent
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # INotificationContent class
 

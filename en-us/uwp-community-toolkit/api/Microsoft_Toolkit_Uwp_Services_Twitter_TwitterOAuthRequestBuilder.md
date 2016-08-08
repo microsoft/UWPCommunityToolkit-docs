@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthRequestBuilder.htm
+title: Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthRequestBuilder
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # TwitterOAuthRequestBuilder class
 
@@ -19,13 +28,13 @@ The **TwitterOAuthRequestBuilder** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [TwitterOAuthRequestBuilder](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthRequestBuilder.md) class. Authorization request builder.
+Initializes a new instance of the [TwitterOAuthRequestBuilder](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthRequestBuilder.htm) class. Authorization request builder.
 
 ##### parameters
 
 
 
-| name | description | type || --- | --- | --- || requestUri | Request Uri. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || tokens | Tokens to form request. | [TwitterOAuthTokens](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthTokens.md) || method | Method to use with request. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+| name | description | type || --- | --- | --- || requestUri | Request Uri. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || tokens | Tokens to form request. | [TwitterOAuthTokens](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthTokens.htm) || method | Method to use with request. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 ### methods
 
 #### GetAuthHeaderParameters()

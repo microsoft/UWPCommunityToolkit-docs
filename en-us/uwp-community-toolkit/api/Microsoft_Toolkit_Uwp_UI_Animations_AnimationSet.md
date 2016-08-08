@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Animations_AnimationSet.htm
+title: Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet API 
+description: API page for Microsoft.Toolkit.Uwp.UI.Animations.AnimationSet
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # AnimationSet class
 
@@ -19,7 +28,7 @@ The **AnimationSet** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [AnimationSet](Microsoft_Toolkit_Uwp_UI_Animations_AnimationSet.md) class.
+Initializes a new instance of the [AnimationSet](Microsoft_Toolkit_Uwp_UI_Animations_AnimationSet.htm) class.
 
 ##### parameters
 

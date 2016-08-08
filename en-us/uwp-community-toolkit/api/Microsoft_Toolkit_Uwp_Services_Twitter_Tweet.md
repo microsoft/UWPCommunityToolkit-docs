@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Twitter_Tweet.htm
+title: Microsoft.Toolkit.Uwp.Services.Twitter.Tweet API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Twitter.Tweet
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # Tweet class
 

@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_OAuth_OAuthUriExtensions.htm
+title: Microsoft.Toolkit.Uwp.Services.OAuth.OAuthUriExtensions API 
+description: API page for Microsoft.Toolkit.Uwp.Services.OAuth.OAuthUriExtensions
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # OAuthUriExtensions class
 

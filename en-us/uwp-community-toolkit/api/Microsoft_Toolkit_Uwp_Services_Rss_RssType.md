@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Rss_RssType.htm
+title: Microsoft.Toolkit.Uwp.Services.Rss.RssType API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Rss.RssType
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # RssType class
 

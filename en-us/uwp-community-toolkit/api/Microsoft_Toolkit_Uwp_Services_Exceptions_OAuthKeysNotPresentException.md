@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysNotPresentException.htm
+title: Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysNotPresentException API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Exceptions.OAuthKeysNotPresentException
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # OAuthKeysNotPresentException class
 
@@ -13,11 +22,11 @@ The **OAuthKeysNotPresentException** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [OAuthKeysNotPresentException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysNotPresentException.md) class. Default constructor.
+Initializes a new instance of the [OAuthKeysNotPresentException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysNotPresentException.htm) class. Default constructor.
 
 #### contructor
 
-Initializes a new instance of the [OAuthKeysNotPresentException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysNotPresentException.md) class. Constructor with information on missing key.
+Initializes a new instance of the [OAuthKeysNotPresentException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysNotPresentException.htm) class. Constructor with information on missing key.
 
 ##### parameters
 
@@ -26,7 +35,7 @@ Initializes a new instance of the [OAuthKeysNotPresentException](Microsoft_Toolk
 | name | description | type || --- | --- | --- || key | Name of the missing key. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 #### contructor
 
-Initializes a new instance of the [OAuthKeysNotPresentException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysNotPresentException.md) class. Constructor with additional message and inner exception.
+Initializes a new instance of the [OAuthKeysNotPresentException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysNotPresentException.htm) class. Constructor with additional message and inner exception.
 
 ##### parameters
 

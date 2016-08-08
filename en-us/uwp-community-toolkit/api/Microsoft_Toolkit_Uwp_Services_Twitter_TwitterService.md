@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Twitter_TwitterService.htm
+title: Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Twitter.TwitterService
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # TwitterService class
 
@@ -19,7 +28,7 @@ The **TwitterService** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [TwitterService](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterService.md) class. Default private constructor.
+Initializes a new instance of the [TwitterService](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterService.htm) class. Default private constructor.
 
 ### methods
 
@@ -31,7 +40,7 @@ Initialize underlying provider with relevent token information.
 
 
 
-| name | description | type || --- | --- | --- || oAuthTokens | Token instance. | [TwitterOAuthTokens](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthTokens.md) || return |Success or failure. |
+| name | description | type || --- | --- | --- || oAuthTokens | Token instance. | [TwitterOAuthTokens](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthTokens.htm) || return |Success or failure. |
 #### Logout()
 
 Log user out of Twitter.
@@ -62,7 +71,7 @@ Request list data from service provider based upon a given config / query.
 
 
 
-| name | description | type || --- | --- | --- || config | TwitterDataConfig instance. | [TwitterDataConfig](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterDataConfig.md) || maxRecords | Upper limit of records to return. Up to a maximum of 200 per distinct request. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || return |Strongly typed list of data returned from the service. |
+| name | description | type || --- | --- | --- || config | TwitterDataConfig instance. | [TwitterDataConfig](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterDataConfig.htm) || maxRecords | Upper limit of records to return. Up to a maximum of 200 per distinct request. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || return |Strongly typed list of data returned from the service. |
 #### GetUserTimeLineAsync(System.String screenName,System.Int32 maxRecords)
 
 Retrieve user timeline data.

@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Fade.htm
+title: Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Fade API 
+description: API page for Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Fade
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # Fade class
 

@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Twitter_TwitterSearchParser.htm
+title: Microsoft.Toolkit.Uwp.Services.Twitter.TwitterSearchParser API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Twitter.TwitterSearchParser
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # TwitterSearchParser class
 

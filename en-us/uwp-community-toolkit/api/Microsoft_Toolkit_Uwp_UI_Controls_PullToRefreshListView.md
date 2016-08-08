@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Controls_PullToRefreshListView.htm
+title: Microsoft.Toolkit.Uwp.UI.Controls.PullToRefreshListView API 
+description: API page for Microsoft.Toolkit.Uwp.UI.Controls.PullToRefreshListView
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # PullToRefreshListView class
 
@@ -21,7 +30,7 @@ The **PullToRefreshListView** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [PullToRefreshListView](Microsoft_Toolkit_Uwp_UI_Controls_PullToRefreshListView.md) class.
+Initializes a new instance of the [PullToRefreshListView](Microsoft_Toolkit_Uwp_UI_Controls_PullToRefreshListView.htm) class.
 
 ### methods
 

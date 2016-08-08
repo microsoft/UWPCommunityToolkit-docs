@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Controls_RadialGauge.htm
+title: Microsoft.Toolkit.Uwp.UI.Controls.RadialGauge API 
+description: API page for Microsoft.Toolkit.Uwp.UI.Controls.RadialGauge
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # RadialGauge class
 
@@ -19,7 +28,7 @@ The **RadialGauge** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [RadialGauge](Microsoft_Toolkit_Uwp_UI_Controls_RadialGauge.md) class. Create a default radial gauge control.
+Initializes a new instance of the [RadialGauge](Microsoft_Toolkit_Uwp_UI_Controls_RadialGauge.htm) class. Create a default radial gauge control.
 
 ### methods
 

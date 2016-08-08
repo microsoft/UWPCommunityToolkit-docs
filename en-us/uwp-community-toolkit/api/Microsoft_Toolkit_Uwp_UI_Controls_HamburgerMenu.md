@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu.htm
+title: Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu API 
+description: API page for Microsoft.Toolkit.Uwp.UI.Controls.HamburgerMenu
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # HamburgerMenu class
 
@@ -21,7 +30,7 @@ The **HamburgerMenu** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [HamburgerMenu](Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu.md) class.
+Initializes a new instance of the [HamburgerMenu](Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu.htm) class.
 
 ### methods
 

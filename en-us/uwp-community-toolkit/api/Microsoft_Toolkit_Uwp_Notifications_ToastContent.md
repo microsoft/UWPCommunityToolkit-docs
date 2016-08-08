@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Notifications_ToastContent.htm
+title: Microsoft.Toolkit.Uwp.Notifications.ToastContent API 
+description: API page for Microsoft.Toolkit.Uwp.Notifications.ToastContent
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # ToastContent class
 
@@ -43,7 +52,7 @@ Specify custom audio options.
 
 #### Actions
 
-Optionally create custom actions with buttons and inputs (using [ToastActionsCustom](Microsoft_Toolkit_Uwp_Notifications_ToastActionsCustom.md)) or optionally use the system-default snooze/dismiss controls (with [ToastActionsSnoozeAndDismiss](Microsoft_Toolkit_Uwp_Notifications_ToastActionsSnoozeAndDismiss.md)).
+Optionally create custom actions with buttons and inputs (using [ToastActionsCustom](Microsoft_Toolkit_Uwp_Notifications_ToastActionsCustom.htm)) or optionally use the system-default snooze/dismiss controls (with [ToastActionsSnoozeAndDismiss](Microsoft_Toolkit_Uwp_Notifications_ToastActionsSnoozeAndDismiss.htm)).
 
 #### Scenario
 

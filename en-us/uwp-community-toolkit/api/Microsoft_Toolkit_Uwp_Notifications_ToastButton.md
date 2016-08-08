@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Notifications_ToastButton.htm
+title: Microsoft.Toolkit.Uwp.Notifications.ToastButton API 
+description: API page for Microsoft.Toolkit.Uwp.Notifications.ToastButton
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # ToastButton class
 
@@ -42,4 +51,4 @@ An optional image icon for the button to display (required for buttons adjacent 
 
 #### TextBoxId
 
-Specify the ID of an existing [ToastTextBox](Microsoft_Toolkit_Uwp_Notifications_ToastTextBox.md) in order to have this button display to the right of the input, achieving a quick reply scenario.
+Specify the ID of an existing [ToastTextBox](Microsoft_Toolkit_Uwp_Notifications_ToastTextBox.htm) in order to have this button display to the right of the input, achieving a quick reply scenario.

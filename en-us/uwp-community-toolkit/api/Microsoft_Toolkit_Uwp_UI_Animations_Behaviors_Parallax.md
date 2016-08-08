@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Parallax.htm
+title: Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Parallax API 
+description: API page for Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Parallax
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # Parallax class
 

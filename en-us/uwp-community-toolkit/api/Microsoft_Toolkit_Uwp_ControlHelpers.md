@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_ControlHelpers.htm
+title: Microsoft.Toolkit.Uwp.ControlHelpers API 
+description: API page for Microsoft.Toolkit.Uwp.ControlHelpers
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # ControlHelpers class
 

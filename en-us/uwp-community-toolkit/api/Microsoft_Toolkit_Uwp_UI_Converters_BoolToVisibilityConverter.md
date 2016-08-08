@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Converters_BoolToVisibilityConverter.htm
+title: Microsoft.Toolkit.Uwp.UI.Converters.BoolToVisibilityConverter API 
+description: API page for Microsoft.Toolkit.Uwp.UI.Converters.BoolToVisibilityConverter
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # BoolToVisibilityConverter class
 

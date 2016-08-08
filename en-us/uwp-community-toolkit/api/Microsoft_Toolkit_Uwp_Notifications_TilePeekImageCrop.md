@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Notifications_TilePeekImageCrop.htm
+title: Microsoft.Toolkit.Uwp.Notifications.TilePeekImageCrop API 
+description: API page for Microsoft.Toolkit.Uwp.Notifications.TilePeekImageCrop
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # TilePeekImageCrop class
 

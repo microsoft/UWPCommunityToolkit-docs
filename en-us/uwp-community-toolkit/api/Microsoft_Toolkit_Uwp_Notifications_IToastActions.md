@@ -1,7 +1,16 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Notifications_IToastActions.htm
+title: Microsoft.Toolkit.Uwp.Notifications.IToastActions API 
+description: API page for Microsoft.Toolkit.Uwp.Notifications.IToastActions
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # IToastActions class
 
-Actions to display on a Toast notification. One of [ToastActionsCustom](Microsoft_Toolkit_Uwp_Notifications_ToastActionsCustom.md) or [ToastActionsSnoozeAndDismiss](Microsoft_Toolkit_Uwp_Notifications_ToastActionsSnoozeAndDismiss.md).
+Actions to display on a Toast notification. One of [ToastActionsCustom](Microsoft_Toolkit_Uwp_Notifications_ToastActionsCustom.htm) or [ToastActionsSnoozeAndDismiss](Microsoft_Toolkit_Uwp_Notifications_ToastActionsSnoozeAndDismiss.htm).
 
 ## Members
 

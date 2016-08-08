@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Notifications_TileVisual.htm
+title: Microsoft.Toolkit.Uwp.Notifications.TileVisual API 
+description: API page for Microsoft.Toolkit.Uwp.Notifications.TileVisual
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # TileVisual class
 
@@ -21,7 +30,7 @@ Attempts to find and re-use an existing text element inside the binding. Returns
 
 
 
-| name | description | type || --- | --- | --- || lineNumber | The lock screen line number. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || lockText | The lock screen line text. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || binding | The binding to look in for matches. | [Element_TileBinding](Microsoft_Toolkit_Uwp_Notifications_Element_TileBinding.md) || return |True if could re-use existing text element, otherwise false. |
+| name | description | type || --- | --- | --- || lineNumber | The lock screen line number. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || lockText | The lock screen line text. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || binding | The binding to look in for matches. | [Element_TileBinding](Microsoft_Toolkit_Uwp_Notifications_Element_TileBinding.htm) || return |True if could re-use existing text element, otherwise false. |
 ### properties
 
 #### Language

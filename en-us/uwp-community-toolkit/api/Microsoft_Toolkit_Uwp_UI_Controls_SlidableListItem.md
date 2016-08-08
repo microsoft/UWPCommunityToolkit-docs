@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.htm
+title: Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem API 
+description: API page for Microsoft.Toolkit.Uwp.UI.Controls.SlidableListItem
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # SlidableListItem class
 
@@ -21,7 +30,7 @@ The **SlidableListItem** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [SlidableListItem](Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.md) class. Creates a new instance of [SlidableListItem](Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.md)
+Initializes a new instance of the [SlidableListItem](Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.htm) class. Creates a new instance of [SlidableListItem](Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.htm)
 
 ### methods
 

@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Rss_BaseRssParser.htm
+title: Microsoft.Toolkit.Uwp.Services.Rss.BaseRssParser API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Rss.BaseRssParser
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # BaseRssParser class
 

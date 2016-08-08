@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Controls_RotatorTile.htm
+title: Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile API 
+description: API page for Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # RotatorTile class
 
@@ -19,7 +28,7 @@ The **RotatorTile** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [RotatorTile](Microsoft_Toolkit_Uwp_UI_Controls_RotatorTile.md) class.
+Initializes a new instance of the [RotatorTile](Microsoft_Toolkit_Uwp_UI_Controls_RotatorTile.htm) class.
 
 ### methods
 
@@ -61,7 +70,7 @@ Identifies the CurrentItem property.
 
 #### RotateDirectionProperty
 
-Identifies the [RotateDirection](Microsoft_Toolkit_Uwp_UI_Controls_RotatorTile_RotateDirection.md) property.
+Identifies the [RotateDirection](Microsoft_Toolkit_Uwp_UI_Controls_RotatorTile_RotateDirection.htm) property.
 
 #### ItemsSourceProperty
 

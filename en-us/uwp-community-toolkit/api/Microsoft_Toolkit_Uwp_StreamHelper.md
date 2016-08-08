@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_StreamHelper.htm
+title: Microsoft.Toolkit.Uwp.StreamHelper API 
+description: API page for Microsoft.Toolkit.Uwp.StreamHelper
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # StreamHelper class
 

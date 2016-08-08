@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Rss_AtomParser.htm
+title: Microsoft.Toolkit.Uwp.Services.Rss.AtomParser API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Rss.AtomParser
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # AtomParser class
 

@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Core_StringValueAttribute.htm
+title: Microsoft.Toolkit.Uwp.Services.Core.StringValueAttribute API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Core.StringValueAttribute
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # StringValueAttribute class
 
@@ -15,7 +24,7 @@ The **StringValueAttribute** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [StringValueAttribute](Microsoft_Toolkit_Uwp_Services_Core_StringValueAttribute.md) class. Constructor accepting string value.
+Initializes a new instance of the [StringValueAttribute](Microsoft_Toolkit_Uwp_Services_Core_StringValueAttribute.htm) class. Constructor accepting string value.
 
 ##### parameters
 

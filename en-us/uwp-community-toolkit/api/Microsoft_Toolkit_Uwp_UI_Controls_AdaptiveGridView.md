@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Controls_AdaptiveGridView.htm
+title: Microsoft.Toolkit.Uwp.UI.Controls.AdaptiveGridView API 
+description: API page for Microsoft.Toolkit.Uwp.UI.Controls.AdaptiveGridView
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # AdaptiveGridView class
 
@@ -21,7 +30,7 @@ The **AdaptiveGridView** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [AdaptiveGridView](Microsoft_Toolkit_Uwp_UI_Controls_AdaptiveGridView.md) class.
+Initializes a new instance of the [AdaptiveGridView](Microsoft_Toolkit_Uwp_UI_Controls_AdaptiveGridView.htm) class.
 
 ### methods
 

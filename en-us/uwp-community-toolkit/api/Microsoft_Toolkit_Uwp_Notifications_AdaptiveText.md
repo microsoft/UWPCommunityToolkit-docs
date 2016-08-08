@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.htm
+title: Microsoft.Toolkit.Uwp.Notifications.AdaptiveText API 
+description: API page for Microsoft.Toolkit.Uwp.Notifications.AdaptiveText
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # AdaptiveText class
 
@@ -34,20 +43,20 @@ The target locale of the XML payload, specified as a BCP-47 language tags such a
 
 #### HintStyle
 
-The style controls the text's font size, weight, and opacity. Note that for Toast, the style will only take effect if the text is inside an [AdaptiveSubgroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.md).
+The style controls the text's font size, weight, and opacity. Note that for Toast, the style will only take effect if the text is inside an [AdaptiveSubgroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.htm).
 
 #### HintWrap
 
-Set this to true to enable text wrapping. For Tiles, this is false by default. For Toasts, this is true on top-level text elements, and false inside an [AdaptiveSubgroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.md). Note that for Toast, setting wrap will only take effect if the text is inside an [AdaptiveSubgroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.md) (you can use HintMaxLines = 1 to prevent top-level text elements from wrapping).
+Set this to true to enable text wrapping. For Tiles, this is false by default. For Toasts, this is true on top-level text elements, and false inside an [AdaptiveSubgroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.htm). Note that for Toast, setting wrap will only take effect if the text is inside an [AdaptiveSubgroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.htm) (you can use HintMaxLines = 1 to prevent top-level text elements from wrapping).
 
 #### HintMaxLines
 
-The maximum number of lines the text element is allowed to display. For Tiles, this is infinity by default. For Toasts, top-level text elements will have varying max line amounts (and in the Anniversary Update you can change the max lines). Text on a Toast inside an [AdaptiveSubgroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.md) will behave identically to Tiles (default to infinity).
+The maximum number of lines the text element is allowed to display. For Tiles, this is infinity by default. For Toasts, top-level text elements will have varying max line amounts (and in the Anniversary Update you can change the max lines). Text on a Toast inside an [AdaptiveSubgroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.htm) will behave identically to Tiles (default to infinity).
 
 #### HintMinLines
 
-The minimum number of lines the text element must display. Note that for Toast, this property will only take effect if the text is inside an [AdaptiveSubgroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.md).
+The minimum number of lines the text element must display. Note that for Toast, this property will only take effect if the text is inside an [AdaptiveSubgroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.htm).
 
 #### HintAlign
 
-The horizontal alignment of the text. Note that for Toast, this property will only take effect if the text is inside an [AdaptiveSubgroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.md).
+The horizontal alignment of the text. Note that for Toast, this property will only take effect if the text is inside an [AdaptiveSubgroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.htm).

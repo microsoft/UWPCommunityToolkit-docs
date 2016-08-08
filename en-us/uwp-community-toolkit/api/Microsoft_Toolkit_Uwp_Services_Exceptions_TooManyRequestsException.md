@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException.htm
+title: Microsoft.Toolkit.Uwp.Services.Exceptions.TooManyRequestsException API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Exceptions.TooManyRequestsException
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # TooManyRequestsException class
 
@@ -13,11 +22,11 @@ The **TooManyRequestsException** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException.md) class. Default constructor.
+Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException.htm) class. Default constructor.
 
 #### contructor
 
-Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException.md) class. Constructor with additional message.
+Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException.htm) class. Constructor with additional message.
 
 ##### parameters
 
@@ -26,7 +35,7 @@ Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_U
 | name | description | type || --- | --- | --- || message | Additional message. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 #### contructor
 
-Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException.md) class. Constructor with additional message and reference to inner exception.
+Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException.htm) class. Constructor with additional message and reference to inner exception.
 
 ##### parameters
 

@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Offset.htm
+title: Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset API 
+description: API page for Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Offset
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # Offset class
 

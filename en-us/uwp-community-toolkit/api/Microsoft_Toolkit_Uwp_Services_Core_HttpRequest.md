@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Core_HttpRequest.htm
+title: Microsoft.Toolkit.Uwp.Services.Core.HttpRequest API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Core.HttpRequest
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # HttpRequest class
 
@@ -19,7 +28,7 @@ Downloads data with specified settings.
 
 
 
-| name | description | type || --- | --- | --- || settings | HttpRequestSettings instance. | [HttpRequestSettings](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestSettings.md) || return |Returns HttpRequestResult instance. |
+| name | description | type || --- | --- | --- || settings | HttpRequestSettings instance. | [HttpRequestSettings](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestSettings.htm) || return |Returns HttpRequestResult instance. |
 #### AddRequestHeaders(Windows.Web.Http.HttpClient httpClient,Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings settings)
 
 Add default request headers to HttpClient object.
@@ -28,7 +37,7 @@ Add default request headers to HttpClient object.
 
 
 
-| name | description | type || --- | --- | --- || httpClient | HttpClient instance. | [HttpClient](https://msdn.microsoft.com/library/windows/apps/Windows.Web.Http.HttpClient) || settings | HttpRequestSettings instance. | [HttpRequestSettings](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestSettings.md) |
+| name | description | type || --- | --- | --- || httpClient | HttpClient instance. | [HttpClient](https://msdn.microsoft.com/library/windows/apps/Windows.Web.Http.HttpClient) || settings | HttpRequestSettings instance. | [HttpRequestSettings](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestSettings.htm) |
 #### FixInvalidCharset(Windows.Web.Http.HttpResponseMessage response)
 
 Fix invalid charset returned by some web sites.

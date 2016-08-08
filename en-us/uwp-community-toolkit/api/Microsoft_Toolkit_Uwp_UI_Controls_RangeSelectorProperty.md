@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Controls_RangeSelectorProperty.htm
+title: Microsoft.Toolkit.Uwp.UI.Controls.RangeSelectorProperty API 
+description: API page for Microsoft.Toolkit.Uwp.UI.Controls.RangeSelectorProperty
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # RangeSelectorProperty class
 

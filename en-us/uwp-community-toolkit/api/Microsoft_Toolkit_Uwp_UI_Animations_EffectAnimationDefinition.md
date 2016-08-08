@@ -1,7 +1,16 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Animations_EffectAnimationDefinition.htm
+title: Microsoft.Toolkit.Uwp.UI.Animations.EffectAnimationDefinition API 
+description: API page for Microsoft.Toolkit.Uwp.UI.Animations.EffectAnimationDefinition
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # EffectAnimationDefinition class
 
-Defines an [EffectAnimationDefinition](Microsoft_Toolkit_Uwp_UI_Animations_EffectAnimationDefinition.md) which is used by [AnimationSet](Microsoft_Toolkit_Uwp_UI_Animations_AnimationSet.md) to link effect animations to Visuals
+Defines an [EffectAnimationDefinition](Microsoft_Toolkit_Uwp_UI_Animations_EffectAnimationDefinition.htm) which is used by [AnimationSet](Microsoft_Toolkit_Uwp_UI_Animations_AnimationSet.htm) to link effect animations to Visuals
 
 ## Members
 

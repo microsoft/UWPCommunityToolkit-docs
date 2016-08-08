@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Twitter_TwitterDataProvider.htm
+title: Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataProvider
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # TwitterDataProvider class
 
@@ -19,13 +28,13 @@ The **TwitterDataProvider** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [TwitterDataProvider](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterDataProvider.md) class. Constructor.
+Initializes a new instance of the [TwitterDataProvider](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterDataProvider.htm) class. Constructor.
 
 ##### parameters
 
 
 
-| name | description | type || --- | --- | --- || tokens | OAuth tokens for request. | [TwitterOAuthTokens](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthTokens.md) |
+| name | description | type || --- | --- | --- || tokens | OAuth tokens for request. | [TwitterOAuthTokens](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthTokens.htm) |
 ### methods
 
 #### UploadPicture(Windows.Storage.Streams.IRandomAccessStream stream)
@@ -139,7 +148,7 @@ Returns parser implementation for specified configuration.
 
 
 
-| name | description | type || --- | --- | --- || config | Query configuration. | [TwitterDataConfig](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterDataConfig.md) || return |Strongly typed parser. |
+| name | description | type || --- | --- | --- || config | Query configuration. | [TwitterDataConfig](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterDataConfig.htm) || return |Strongly typed parser. |
 #### GetDataAsync``1(Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig config,System.Int32 maxRecords,Microsoft.Toolkit.Uwp.Services.IParser(TT0) parser)
 
 Wrapper around REST API for making data request.
@@ -148,7 +157,7 @@ Wrapper around REST API for making data request.
 
 
 
-| name | description | type || --- | --- | --- || config | Query configuration. | [TwitterDataConfig](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterDataConfig.md) || maxRecords | Upper limit for records returned. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || parser | IParser implementation for interpreting results. | Microsoft.Toolkit.Uwp.Services.IParser(TT0) || return |Strongly typed list of results. |
+| name | description | type || --- | --- | --- || config | Query configuration. | [TwitterDataConfig](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterDataConfig.htm) || maxRecords | Upper limit for records returned. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || parser | IParser implementation for interpreting results. | Microsoft.Toolkit.Uwp.Services.IParser(TT0) || return |Strongly typed list of results. |
 #### ValidateConfig(Microsoft.Toolkit.Uwp.Services.Twitter.TwitterDataConfig config)
 
 Check validity of configuration.
@@ -157,7 +166,7 @@ Check validity of configuration.
 
 
 
-| name | description | type || --- | --- | --- || config | Query configuration. | [TwitterDataConfig](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterDataConfig.md) |
+| name | description | type || --- | --- | --- || config | Query configuration. | [TwitterDataConfig](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterDataConfig.htm) |
 #### ExtractTokenFromResponse(System.String getResponse,Microsoft.Toolkit.Uwp.Services.Twitter.TwitterOAuthTokenType tokenType)
 
 Extract requested token from the REST API response string.
@@ -166,7 +175,7 @@ Extract requested token from the REST API response string.
 
 
 
-| name | description | type || --- | --- | --- || getResponse | REST API response string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || tokenType | Token type to retrieve. | [TwitterOAuthTokenType](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthTokenType.md) || return |Required token. |
+| name | description | type || --- | --- | --- || getResponse | REST API response string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || tokenType | Token type to retrieve. | [TwitterOAuthTokenType](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthTokenType.htm) || return |Required token. |
 #### GetHomeTimeLineAsync``1(System.Int32 maxRecords,Microsoft.Toolkit.Uwp.Services.IParser(TT0) parser)
 
 Get home time line data.

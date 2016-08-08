@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Exceptions_ParserNullException.htm
+title: Microsoft.Toolkit.Uwp.Services.Exceptions.ParserNullException API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Exceptions.ParserNullException
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # ParserNullException class
 
@@ -13,11 +22,11 @@ The **ParserNullException** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [ParserNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ParserNullException.md) class. Default constructor.
+Initializes a new instance of the [ParserNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ParserNullException.htm) class. Default constructor.
 
 #### contructor
 
-Initializes a new instance of the [ParserNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ParserNullException.md) class. Constructor with additional message.
+Initializes a new instance of the [ParserNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ParserNullException.htm) class. Constructor with additional message.
 
 ##### parameters
 
@@ -26,7 +35,7 @@ Initializes a new instance of the [ParserNullException](Microsoft_Toolkit_Uwp_Se
 | name | description | type || --- | --- | --- || message | Additional message | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 #### contructor
 
-Initializes a new instance of the [ParserNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ParserNullException.md) class. Constructor with additional message and inner exception.
+Initializes a new instance of the [ParserNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ParserNullException.htm) class. Constructor with additional message and inner exception.
 
 ##### parameters
 

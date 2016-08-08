@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Core_InternalExtensionMethods.htm
+title: Microsoft.Toolkit.Uwp.Services.Core.InternalExtensionMethods API 
+description: API page for Microsoft.Toolkit.Uwp.Services.Core.InternalExtensionMethods
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # InternalExtensionMethods class
 

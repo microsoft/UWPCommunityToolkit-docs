@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Notifications_TileBinding.htm
+title: Microsoft.Toolkit.Uwp.Notifications.TileBinding API 
+description: API page for Microsoft.Toolkit.Uwp.Notifications.TileBinding
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # TileBinding class
 
@@ -41,4 +50,4 @@ New in Anniversary Update: App-defined data that is passed back to your app via 
 
 #### Content
 
-The actual content to be displayed. One of [TileBindingContentAdaptive](Microsoft_Toolkit_Uwp_Notifications_TileBindingContentAdaptive.md), [TileBindingContentIconic](Microsoft_Toolkit_Uwp_Notifications_TileBindingContentIconic.md), [TileBindingContentContact](Microsoft_Toolkit_Uwp_Notifications_TileBindingContentContact.md), [TileBindingContentPeople](Microsoft_Toolkit_Uwp_Notifications_TileBindingContentPeople.md), or [TileBindingContentPhotos](Microsoft_Toolkit_Uwp_Notifications_TileBindingContentPhotos.md)
+The actual content to be displayed. One of [TileBindingContentAdaptive](Microsoft_Toolkit_Uwp_Notifications_TileBindingContentAdaptive.htm), [TileBindingContentIconic](Microsoft_Toolkit_Uwp_Notifications_TileBindingContentIconic.htm), [TileBindingContentContact](Microsoft_Toolkit_Uwp_Notifications_TileBindingContentContact.htm), [TileBindingContentPeople](Microsoft_Toolkit_Uwp_Notifications_TileBindingContentPeople.htm), or [TileBindingContentPhotos](Microsoft_Toolkit_Uwp_Notifications_TileBindingContentPhotos.htm)

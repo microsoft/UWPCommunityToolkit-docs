@@ -8,7 +8,7 @@ module.exports = function (grunt) {
 					src: ['xml/*.xml'],
 					dest: '../en-us/uwp-community-toolkit/api/'
 				}],
-				linkExtension: '.md',
+				linkExtension: '.htm',
 				localNamespaces: [
 					'Microsoft.Toolkit.Uwp'
 				],

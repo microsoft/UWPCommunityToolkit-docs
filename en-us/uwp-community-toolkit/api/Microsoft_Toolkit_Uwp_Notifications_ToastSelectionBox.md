@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Notifications_ToastSelectionBox.htm
+title: Microsoft.Toolkit.Uwp.Notifications.ToastSelectionBox API 
+description: API page for Microsoft.Toolkit.Uwp.Notifications.ToastSelectionBox
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # ToastSelectionBox class
 
@@ -34,7 +43,7 @@ Title text to display above the SelectionBox.
 
 #### DefaultSelectionBoxItemId
 
-This controls which item is selected by default, and refers to the Id property of [ToastSelectionBoxItem](Microsoft_Toolkit_Uwp_Notifications_ToastSelectionBoxItem.md). If you do not provide this, the default selection will be empty (user sees nothing).
+This controls which item is selected by default, and refers to the Id property of [ToastSelectionBoxItem](Microsoft_Toolkit_Uwp_Notifications_ToastSelectionBoxItem.htm). If you do not provide this, the default selection will be empty (user sees nothing).
 
 #### Items
 

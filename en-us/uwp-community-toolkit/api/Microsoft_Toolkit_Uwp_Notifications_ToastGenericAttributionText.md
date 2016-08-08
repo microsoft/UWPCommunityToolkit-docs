@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Notifications_ToastGenericAttributionText.htm
+title: Microsoft.Toolkit.Uwp.Notifications.ToastGenericAttributionText API 
+description: API page for Microsoft.Toolkit.Uwp.Notifications.ToastGenericAttributionText
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # ToastGenericAttributionText class
 

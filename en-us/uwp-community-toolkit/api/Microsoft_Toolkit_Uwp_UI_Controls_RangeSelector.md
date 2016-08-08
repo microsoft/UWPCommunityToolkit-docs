@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Controls_RangeSelector.htm
+title: Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector API 
+description: API page for Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # RangeSelector class
 
@@ -21,7 +30,7 @@ The **RangeSelector** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [RangeSelector](Microsoft_Toolkit_Uwp_UI_Controls_RangeSelector.md) class. Create a default range selector control.
+Initializes a new instance of the [RangeSelector](Microsoft_Toolkit_Uwp_UI_Controls_RangeSelector.htm) class. Create a default range selector control.
 
 ### methods
 

@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_Notifications_AdaptiveTextStyle.htm
+title: Microsoft.Toolkit.Uwp.Notifications.AdaptiveTextStyle API 
+description: API page for Microsoft.Toolkit.Uwp.Notifications.AdaptiveTextStyle
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # AdaptiveTextStyle class
 

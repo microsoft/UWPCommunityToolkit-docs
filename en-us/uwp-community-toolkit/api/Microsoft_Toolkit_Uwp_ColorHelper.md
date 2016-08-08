@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_ColorHelper.htm
+title: Microsoft.Toolkit.Uwp.ColorHelper API 
+description: API page for Microsoft.Toolkit.Uwp.ColorHelper
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # ColorHelper class
 

@@ -1,3 +1,12 @@
+---
+permalink: /en-US/api/Microsoft_Toolkit_Uwp_WeakEventListener`3.htm
+title: Microsoft.Toolkit.Uwp.WeakEventListener`3 API 
+description: API page for Microsoft.Toolkit.Uwp.WeakEventListener`3
+keywords: windows, app, toolkit, UWP, API
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
+
 
 # WeakEventListener<T1><T2><T3> class
 
@@ -19,7 +28,7 @@ The **WeakEventListener<T1><T2><T3>** class has this types of members
 
 #### contructor
 
-Initializes a new instance of the [WeakEventListener<T1><T2><T3>](Microsoft_Toolkit_Uwp_WeakEventListener`3.md) class.
+Initializes a new instance of the [WeakEventListener<T1><T2><T3>](Microsoft_Toolkit_Uwp_WeakEventListener`3.htm) class.
 
 ##### parameters
 

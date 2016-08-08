@@ -26,7 +26,6 @@
 - [ResponsiveGridView](controls/ResponsiveGridView.md)
 - [RotatorTile](controls/RotatorTile.md)
 - [SlideableListItem](controls/SlideableListItem.md)
-- [VariableSizeGridView](controls/VariableSizeGridView.md)
 
 # [Helpers](helpers/)
 

@@ -20,7 +20,7 @@ The **AdaptiveGridView Control** presents items in a evenly-spaced set of column
 ```
 
 ## Example Image
-![AdaptiveGridView animation](/resources/images/Controls-AdaptiveGridView.gif "AdaptiveGridView")
+![AdaptiveGridView animation](/resources/images/Controls-Adaptive.gif "AdaptiveGridView")
 
 ## Example Code
 [AdaptiveGridView Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/AdaptiveGridView)

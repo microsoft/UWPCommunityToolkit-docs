@@ -6,9 +6,10 @@ keywords: windows, app, toolkit, get started, UWP
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
-# [Get started with the UWP Community Toolkit]({{site.baseurl}}/get-started/get-started.md)
 
-### [Installation Guide]({{site.baseurl}}/get-started/installguide.htm)
+# Getting started 
+
+- [Get started with the UWP Community Toolkit]({{site.baseurl}}/get-started/get-started.htm)
 
 ### [Quick Start]({{site.baseurl}}/get-started/quickstart.htm)
 

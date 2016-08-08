@@ -1,3 +1,11 @@
+---
+permalink: /en-US/TOC.htm
+title: UWP Community Toolkit Table of Contents
+description: Welcome to the UWP Community Toolkit for Windows 10 developers
+keywords: windows, app, toolkit, get started, UWP
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
 # [Get started with the UWP Community Toolkit]({{site.baseurl}}/get-started/get-started.md)
 
 ### [Installation Guide]({{site.baseurl}}/get-started/installguide.htm)

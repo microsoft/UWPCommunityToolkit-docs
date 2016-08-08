@@ -1,3 +1,11 @@
+---
+permalink: /index.htm
+title: Welcome
+description: Welcome to the UWP Community Toolkit for Windows 10 developers
+keywords: windows, app, toolkit, get started, UWP
+layout: default
+search.product: eADQiWindows 10XVcnh
+---
 
 <div class="jumbotron-hero">
     <div class="hero-container container">
@@ -22,12 +30,36 @@
                 The toolkit can be used to build UWP apps for any Windows 10 device, including PC, Mobile, XBOX, IoT and HoloLens. You can also use the toolkit with an existing desktop app converted to UWP using the Desktop Bridge.
             </p>
             <p class="spacer-20-top">
-                <a href="get-started/get-started.htm">UWP Community Toolkit Getting Started Guide</a> is a great place to start learning how to use the toolkit.  The page includes how to use the NuGet packages and get started building your first app in just minutes.
+                <a href="{{site.baseurl}}/get-started/get-started.htm">UWP Community Toolkit Getting Started Guide</a> is a great place to start learning how to use the toolkit.  The page includes how to use the NuGet packages and get started building your first app in just minutes.
             </p>
         </div>
         <div class="background win-color-bg-10"></div>
     </div>
 </div>
+
+<div class="section-body">
+
+        <ul class="iot-getstarted-list">
+
+          <li id="starterPackButton" class="win-color-border-20 win-color-bg-0 iot-getstarted-buttons" onclick="boardButtonClick('starterPack')">
+
+              <img style="max-width:50%;" src="{{site.baseurl}}/resources/images/hamburgermenu.gif">
+
+              <p class="text-caption" style="padding-top:25px">Hamburger Menu</p>
+
+          </li>
+
+          <li id="rpi2Button" class="win-color-border-20 win-color-bg-0 iot-getstarted-buttons" onclick="boardButtonClick('rpi2')">
+
+              <img style="max-width:40%; padding-top:10px" src="{{site.baseurl}}/resources/images/NugetPackages.png">
+
+              <p class="text-caption" style="padding-top:25px">Nuget Packages</p>
+
+          </li>
+
+        </ul>
+
+      </div>
 
 <div class="container">
     <div class="row spacer-84-top spacer-page-bottom">
@@ -41,7 +73,7 @@
                         <section class="section item-section">
                             <header class="section-header">
                                 <h5 class="section-title">
-                                    <a href="//developer.microsoft.com/windows">
+                                    <a href="{{site.baseurl}}/animations/blur.htm">
                                         Animations
                                     </a>
                                 </h5>
@@ -57,7 +89,7 @@
                         <section class="section item-section">
                             <header class="section-header">
                                 <h5 class="section-title">
-                                    <a href="//developer.microsoft.com/windows">
+                                    <a href="{{site.baseurl}}/hamburgerMenu.htm">
                                         Controls
                                     </a>
                                 </h5>
@@ -73,7 +105,7 @@
                         <section class="section item-section">
                             <header class="section-header">
                                 <h5 class="section-title">
-                                    <a href="//developer.microsoft.com/windows">
+                                    <a href="{{site.baseurl}}/helpers/converters.htm">
                                         Code Helpers
                                     </a>
                                 </h5>
@@ -91,7 +123,7 @@
                         <section class="section item-section">
                             <header class="section-header">
                                 <h5 class="section-title">
-                                    <a href="//developer.microsoft.com/windows">
+                                    <a href="{{site.baseurl}}/notifications/notificationsOverview.htm">
                                         Notifications
                                     </a>
                                 </h5>
@@ -107,7 +139,7 @@
                         <section class="section item-section">
                             <header class="section-header">
                                 <h5 class="section-title">
-                                    <a href="//developer.microsoft.com/windows">
+                                    <a href="{{site.baseurl}}/services/facebook.htm">
                                         Services
                                     </a>
                                 </h5>
@@ -121,7 +153,18 @@
                     </div>
                     <div class="col-xs-24 col-sm-8">
                         <section class="section item-section">
-
+                            <header class="section-header">
+                                <h5 class="section-title">
+                                    <a href="{{site.baseurl}}/api/Microsoft_Toolkit_Uwp.htm">
+                                        API Reference
+                                    </a>
+                                </h5>
+                            </header>
+                            <div class="section-body">
+                                <p>
+                                    The complete UWP Toolkit API  is online for you to browse.
+                                </p>
+                            </div>
                         </section>
                     </div>
                 </div>

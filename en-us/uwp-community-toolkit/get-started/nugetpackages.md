@@ -1,13 +1,11 @@
 ---
-permalink: /en-US/nugetpackages.htm
+permalink: /en-US/get-started/nugetpackages.htm
 title: Nuget packages for UWP Community Toolkit
 description: List of NuGet packages included in the UWP Community Toolkit and what controls are included in each of them
 keywords: windows, app, toolkit, get started, nuget, uwp
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
-
-{: .thin-header}
 
 # Nuget Packages
 
@@ -43,4 +41,4 @@ Helpers and services that are built on top of Windows Composition layer to provi
 
 ## NuGet Packages List
 Once you search you should see a list similar to the one below (versions may be different, but names should be the same).
-![nuget packages](../../../resources/images/NugetPackages.png "Nuget Packages")
+![nuget packages]({{site.baseurl}}/resources/images/NugetPackages.png "Nuget Packages")

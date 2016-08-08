@@ -1,8 +1,8 @@
 ---
-permalink: /en-US/getstarted.htm
-title: GetStarted
-description: The Get Started section provides an introduction and overview of the UwP Toolkit and its documentation
-keywords: windows, app, toolkit, get started, menu
+permalink: /en-US/get-started/get-started.htm
+title: Getting Started with the UWP Community Toolkit for Windows 10 Developers
+description: Provides an introduction and overview of the UwP Toolkit and its documentation
+keywords: windows, app, toolkit, get started, UWP toolkit
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---

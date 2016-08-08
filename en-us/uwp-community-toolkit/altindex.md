@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/index.htm
+permalink: /en-US/altindex.htm
 title: UWP Community Toolkit Landing Page
 description: Welcome to the UWP Community Toolkit for Windows 10 developers
 keywords: windows, app, toolkit, get started, UWP

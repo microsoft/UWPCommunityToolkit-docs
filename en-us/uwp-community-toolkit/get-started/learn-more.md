@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/learnmore.htm
+permalink: /en-US/get-started/learnmore.htm
 title: Learn More
 description: The Learn More page, provides additional information to improve and optimize your Windows applications
 keywords: windows, app, toolkit, learn, learn more, menu

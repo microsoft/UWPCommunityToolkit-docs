@@ -10,7 +10,7 @@ search.product: eADQiWindows 10XVcnh
 UWP Community Toolkit API
 =========================
 
-# Getting Started using the toolkit
+## Getting Started using the toolkit
 
 Read the [getting Started with the UWP Toolkit]({{site.baseurl}}/get-started/get-started.htm) for instructions on using these API functions in your own projects. 
 

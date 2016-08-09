@@ -1,5 +1,5 @@
 # Site Settings
-baseurl: "/content"
+baseurl: "/uwpcommunitytoolkit-docs"
 
 # Build settings
 markdown: kramdown

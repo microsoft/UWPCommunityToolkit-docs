@@ -7,7 +7,7 @@ layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-# Getting started 2
+# Getting started
 
 - [Get started with the UWP Community Toolkit]({{site.baseurl}}/get-started/get-started.htm)
 - [Quick Start]({{site.baseurl}}/get-started/quickstart.htm)

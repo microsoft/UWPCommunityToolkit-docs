@@ -1,12 +1,14 @@
 ---
 permalink: /en-US/services/twitter.htm
-title: Twitter Service from UWP Community Toolkit
+title: Twitter Service 
 description: Easy add support for Twitter within your UWP Applications
 keywords: windows, app, toolkit, Twitter, Service, UWP
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
+
 # Twitter Service
+
 The **Twitter Service** allows users to retrieve or publish data to Twitter. 
 
 [Twitter Developer Site](https://dev.twitter.com) is the main content site for all twitter developers.  Visit the [Twitter Apps List](https://apps.twitter.com/) to manage existing apps.
@@ -66,10 +68,10 @@ Windows 10 SDK 10586 or higher
 
 ## API
 * [Twitter Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.Services/Services/Twitter)
-* [Twitter Service API documentation](../api/Microsoft_Toolkit_Uwp_Services_Twitter_TwitterService.htm)
+* [Twitter Service API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_Services_Twitter_TwitterService.htm)
 
 ## NuGet Packages Required
 
 Microsoft.Toolkit.Uwp.Services
 
-See the [NuGet Packages page](../get-started/nugetpackages.md) for complete list.
+See the [NuGet Packages page]({{site.baseurl}}/get-started/nugetpackages.md) for complete list.

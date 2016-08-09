@@ -1,6 +1,6 @@
 ---
 permalink: /en-US/helpers/colors.htm
-title: ColorsHelper utility from UWP Community Toolkit
+title: ColorsHelper utility 
 description: Colors helper does commonly needed conversions of color formats
 keywords: windows, app, toolkit, UWP, helpers, color, html color, hex color, hsv, hsl
 layout: default
@@ -8,6 +8,7 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # Colors Helper
+
 The **Colors Helper** lets users convert colors from text names, HTML hex, HSV, or HSL to Windows UI Colors (and back again of course).
 
 ## Example
@@ -33,9 +34,11 @@ The **Colors Helper** lets users convert colors from text names, HTML hex, HSV, 
 You can find more examples in our [unit tests](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/UnitTests/Helpers/Test_ColorHelper.cs)
 
 ## Platforms
+
 Windows 10 SDK 10586 or higher
 
 ## API
+
 * [Color Helper source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/ColorHelper.cs)
-* [Color Helper API documentation](../api/Microsoft_Toolkit_Uwp_ColorHelper.htm)
+* [Color Helper API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_ColorHelper.htm)
 

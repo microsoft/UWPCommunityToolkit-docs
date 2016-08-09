@@ -1,6 +1,6 @@
 ---
 permalink: /en-US/animations/rotation.htm
-title: Rotation XAML and Code Animation for UWP Community Toolkit
+title: Rotation XAML and Code Animation
 description: The Rotation animation behavior allows users to modify and animate the control's rotation 
 keywords: windows, app, toolkit, Rotation animation, Rotate, XAML, UWP, animate rotation, behavior
 layout: default
@@ -8,9 +8,11 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # Rotate
+
 The **Rotate animation behavior** allows users to modify and animate the control's rotation. Parameters include: angle values, time, pause delay, duration, and diameter.
 
 ## Syntax
+
 ```xaml
    <behaviors:Rotate x:Name="RotateBehavior" 
 				Value="180"
@@ -26,7 +28,7 @@ The **Rotate animation behavior** allows users to modify and animate the control
 or directly from code:
 
 ```C#
-MyRectangle.Rotate(
+    MyRectangle.Rotate(
                 duration: Duration,
                 delay: Delay,
                 value: (float)Value,
@@ -56,13 +58,15 @@ Behavior animations can also be chained and awaited.
 Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for current samples and example code.
 
 ## Example Image
-![Rotate Behavior animation](/resources/images/Animations-Rotate.gif "Rotate Behavior")
+
+![Rotate Behavior animation]({{site.baseurl}}/resources/images/Animations-Rotate.gif "Rotate Behavior")
 
 ## Platforms
 
 Windows 10 SDK 10585 or higher
 
 ## API
+
 * [Rotate source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/Rotate.cs)
-* [Rotate Behavior API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Rotate.htm)
-* [Rotate Code API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#rotatemicrosofttoolkituwpuianimationsanimationset-animationsetsystemdouble-durationsystemdouble-delaysystemsingle-valuesystemsingle-centerxsystemsingle-centerysystemsingle-centerz)
+* [Rotate Behavior API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Rotate.htm)
+* [Rotate Code API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#rotatemicrosofttoolkituwpuianimationsanimationset-animationsetsystemdouble-durationsystemdouble-delaysystemsingle-valuesystemsingle-centerxsystemsingle-centerysystemsingle-centerz)

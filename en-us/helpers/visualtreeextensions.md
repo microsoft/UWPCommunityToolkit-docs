@@ -1,6 +1,6 @@
 ---
 permalink: /en-US/helpers/visualtreeextensions.htm
-title: VisualTreeExtensions utility from UWP Community Toolkit
+title: VisualTreeExtensions utility
 description: VisualTreeExtensions defines a collection of extensions methods for UI
 keywords: windows, app, toolkit, UWP, helpers, visual tree
 layout: default
@@ -32,5 +32,5 @@ Windows 10 SDK 10586 or higher
 
 ## API
 * [VisualTreeExtensions source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI/Extensions/VisualTreeExtensions.cs)
-* [VisualTreeExtensions API documentation](../api/Microsoft_Toolkit_Uwp_UI_VisualTreeExtensions.htm)
+* [VisualTreeExtensions API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_VisualTreeExtensions.htm)
 

@@ -1,16 +1,18 @@
 ---
 permalink: /en-US/services/facebook.htm
-title: Facebook Service from UWP Community Toolkit
-description: Easy add support for Facebook within your UWP Applications
-keywords: windows, app, toolkit, facebook, service, UWP
+title: Facebook Service
+description: Easily add support for Facebook within your Windows 10 UWP Applications
+keywords: windows, app, toolkit, facebook, service, UWP, social, share
 layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
 # Facebook Service 
+
 The **Facebook Service** allows you to retrieve or publish data to the Facebook graph. Examples of the types of objects you can work with are Posts, Tagged Objects, and the primary user feed.
 
 ## Getting Windows Store SID
+
 The Windows Store SID is a unique value per application generated, and it not tied to the actual store publication.  Creating a local application will give you a valid SID that you can use for debugging against Facebook.  
 
 ```C#
@@ -35,6 +37,7 @@ Windows Store SID = ms-app://s-1-15-2-69261451-1486691014-2395677208-255521631-1
 When entering the value into the Facebook Developer site you must strip the ms-app:// and the trailing / off the string.
 
 ## Creating a new Application on Facebook Developer Site
+
 1. To get a **Facebook.WindowsStoreID**, go to: https://developers.facebook.com/apps. 
 2. Select **Create a New App ID**, to start integration Facebook into your app or website. 
 3. Click, **Create a New App**
@@ -84,18 +87,22 @@ await FacebookService.Instance.PostToFeedWithDialogAsync(TitleText.Text, Descrip
 ```
  
 ## Example
+
 [Facebook Service Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Facebook%20Service)
 
 ## Platforms
+
 Windows 10 SDK 10586 or higher
 
 ## API
+
 * [Facebook Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.Services/Services/Facebook)
-* [Facebook Service API documentation](../api/Microsoft_Toolkit_Uwp_Services_Facebook_FacebookService.htm)
+* [Facebook Service API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_Services_Facebook_FacebookService.htm)
 
 
 ## NuGet Packages Required
 
 Microsoft.Toolkit.Uwp.Services
 
-See the [NuGet Packages page](../get-started/nugetpackages.htm) for complete list.
+See the [NuGet Packages page]({{site.baseurl}}/get-started/nugetpackages.htm) for complete list.
+

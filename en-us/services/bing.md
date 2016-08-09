@@ -1,6 +1,6 @@
 ---
 permalink: /en-US/services/bing.htm
-title: Bing Service from UWP Community Toolkit
+title: Bing Service 
 description: Easy add support for Bing within your UWP Applications
 keywords: windows, app, toolkit, Bing, services, UWP
 layout: default
@@ -19,6 +19,7 @@ The **Bing Service** allows you to retrieve Bing results. Bing can return web re
 Choose the *Bing Search - Free* option.  After selecting this and agreeing to the terms of service you will be issued two keys that are limited to 5,000 queries per month.
 
 ## Example Syntax
+
 ```C#
 // using Microsoft.Toolkit.Uwp.Services.Bing;
 
@@ -31,7 +32,8 @@ var searchConfig = new BingSearchConfig
 ListView.ItemsSource = await BingService.Instance.RequestAsync(searchConfig, 50);
 ```
 
-## Example 
+## Example
+
 <p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
 
 [Bing Service Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Bing%20Service)
@@ -41,11 +43,12 @@ ListView.ItemsSource = await BingService.Instance.RequestAsync(searchConfig, 50)
 Windows 10 SDK 10586 or higher
 
 ## API
+
 * [Bing Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.Services/Services/Bing)
-* [Bing Service API documentation](../api/Microsoft_Toolkit_Uwp_Services_Bing_BingService.htm)
+* [Bing Service API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_Services_Bing_BingService.htm)
 
 ## NuGet Packages Required
 
 **Microsoft.Toolkit.Uwp.Services**
 
-See the [NuGet Packages page](../get-started/nugetpackages.md) for complete list.
+See the [NuGet Packages page]({{site.baseurl}}/get-started/nugetpackages.md) for complete list.

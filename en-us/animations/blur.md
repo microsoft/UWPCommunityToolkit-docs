@@ -1,6 +1,6 @@
 ---
 permalink: /en-US/animations/blur.htm
-title: Blur XAML and Code Animation for UWP Community Toolkit
+title: Blur XAML and Code Animation 
 description: The Blur animation behavior allows for blurring of XAML elements using composition
 keywords: windows, app, toolkit, Blur, animation behavior, XAML behavior, image blur, XAML blur, XAML, animation, composition 
 layout: default
@@ -8,11 +8,14 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # Blur
+
 The **Blur animation behavior** selectively blurs a XAML element by increasing or decreasing pixel size.
 Sometimes you want an element to appear slightly out of focus, but to be familiar to the user from other locations within an app.  Rather than having to rasterize the XAML into an image and apply a blur, you can apply a BlurBehavior to the original element at run time. 
 
 ## Syntax
+
 You can either use the blur behavior from your XAML code:
+
 ```xaml
 
     <interactivity:Interaction.Behaviors>
@@ -51,7 +54,8 @@ Behavior animations can also be chained and awaited.
 Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for current samples and example code.
 
 ## Example Image
-![Blur Behavior animation](/resources/images/Animations-Blur.gif "Blur Behavior")
+
+![Blur Behavior animation]({{site.baseurl}}//resources/images/Animations-Blur.gif "Blur Behavior")
 
 ## Platforms
 
@@ -62,6 +66,5 @@ This behavior requires the [visual layer](https://msdn.microsoft.com/en-us/windo
 ## API
 
 * [Blur source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/Blur.cs)
-* [Blur Behavior API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Blur.htm)
-* [Blur Code API documentation](../api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#blurmicrosofttoolkituwpuianimationsanimationset-animationsetsystemdouble-durationsystemdouble-delaysystemdouble-bluramount.htm)
-
+* [Blur Behavior API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Blur.htm)
+* [Blur Code API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#blurmicrosofttoolkituwpuianimationsanimationset-animationsetsystemdouble-durationsystemdouble-delaysystemdouble-bluramount.htm)

@@ -35,7 +35,7 @@ This control can be used as a ListView Data Template root to create effects simi
 ```
 
 ## Example Image
-![SlidableListItem animation](/resources/images/Controls-SlidableListItem.gif "SlidableListItem")
+![SlidableListItem animation]({{site.baseurl}}/resources/images/Controls-SlidableListItem.gif "SlidableListItem")
 
 ## Example Code
 [SlideableListItem Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/SlideableListItem)
@@ -48,4 +48,4 @@ Windows 10 SDK 10586 or higher
 
 ## API
 * [SlidableListItem source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/SlidableListItem)
-* [SlidableListItem API documentation](../api/Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.htm)
+* [SlidableListItem API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.htm)

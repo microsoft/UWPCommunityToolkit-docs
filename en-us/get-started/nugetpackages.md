@@ -1,6 +1,6 @@
 ---
 permalink: /en-US/get-started/nugetpackages.htm
-title: Nuget packages for UWP Community Toolkit
+title: Nuget packages
 description: List of NuGet packages included in the UWP Community Toolkit and what controls are included in each of them
 keywords: windows, app, toolkit, get started, nuget, uwp
 layout: default
@@ -26,11 +26,13 @@ Generate tile, toast, and badge notifications for Windows 10 via code.  Includes
 **Microsoft.Toolkit.Uwp.Notifications.Javascript**
 
 ## Services Package
+
 This NuGet package includes the service helpers for Bing, Facebook, and Twitter.
 
 **Microsoft.Toolkit.Uwp.Services**
 
 ## UI Packages
+
 Helpers and services that are built on top of Windows Composition layer to provide animations and XAML controls.
 
 **Microsoft.Toolkit.Uwp.UI**
@@ -40,6 +42,7 @@ Helpers and services that are built on top of Windows Composition layer to provi
 **Microsoft.Toolkit.Uwp.UI.Controls**
 
 ## NuGet Packages List
+
 Once you search you should see a list similar to the one below (versions may be different, but names should be the same).
 ![nuget packages]({{site.baseurl}}/resources/images/NugetPackages.png "Nuget Packages")
 

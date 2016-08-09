@@ -24,6 +24,10 @@ The **TwitterDataConfig** class has this types of members
 
 Gets or sets twitter query type.
 
+
+
 #### Query
 
 Gets or sets query parameters.
+
+

@@ -23,3 +23,5 @@ The **SchemaBase** class has this types of members
 #### InternalID
 
 Gets or sets identifier for strong typed record.
+
+

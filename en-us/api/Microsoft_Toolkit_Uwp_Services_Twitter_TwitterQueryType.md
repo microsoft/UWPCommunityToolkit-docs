@@ -24,10 +24,16 @@ The **TwitterQueryType** class has this types of members
 
 Home
 
+
+
 #### User
 
 User
 
+
+
 #### Search
 
 Searc
+
+

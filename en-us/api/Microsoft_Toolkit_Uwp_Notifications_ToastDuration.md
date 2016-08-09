@@ -24,6 +24,10 @@ The **ToastDuration** class has this types of members
 
 Default value. Toast appears for a short while and then goes into Action Center.
 
+
+
 #### Long
 
 Toast stays on-screen for longer, and then goes into Action Center.
+
+

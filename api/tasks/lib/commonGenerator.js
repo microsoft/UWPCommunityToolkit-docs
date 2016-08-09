@@ -42,6 +42,7 @@ var generateLink = function (nodeValue) {
 	}
 
 	var link = name.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, '_');
+	link = link.replace(/`/g, '-');
 
 	if (config.linkExtension){
 		link += config.linkExtension;
@@ -56,9 +57,17 @@ var replaceGenericTypes = function (text) {
 		var i = 0;
 		var numberOfTypes = parseInt($1.substring(1));
 
+		result += ' of ('
+
 		for (i = 0; i < numberOfTypes; i++) {
-			result += '<T' + (i + 1) + '>';
+			result += 'T' + (i + 1) + '';
+
+			if (i < numberOfTypes - 1) {
+				result += ", ";
+			}
 		}
+
+		result += ")";
 
 		return result;
 	});
@@ -84,7 +93,10 @@ var Generator = function (options) {
 	this.writeFile = function (path) {
 		return new Promise(function (resolve, reject) {
 
+			path = path.replace(/`/g, "-");
+
 			var theFile = path.match(/\/([^/]*)$/)[1];
+
 			var onlyName = theFile.substr(0, theFile.lastIndexOf('.')) || theFile;
 			var classname = onlyName.replace(/_/g, ".");
 			var header = 
@@ -128,7 +140,7 @@ search.product: eADQiWindows 10XVcnh
 		var isGeneric = text.match(/TT[0-9]/g) || text.match(/T[0-9]/g);
 		if(isGeneric)
 		{
-			return text;
+			return text.replace(/`/g, "");
 		}
 
 		return this.generateLink(text);

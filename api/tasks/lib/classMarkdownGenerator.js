@@ -109,6 +109,8 @@ module.exports = function (context) {
 					member.exceptions.forEach(function (exc) {
 						generator.addContent('| exception type |' + exc.text + ' |\r');
 					});
+
+					generator.addLine('');
 				});
 			});
 

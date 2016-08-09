@@ -24,10 +24,16 @@ The **EffectDirectPropertyChangeDefinition** class has this types of members
 
 Gets or sets [CompositionEffectBrush](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Composition.CompositionEffectBrush) that will be animated
 
+
+
 #### Value
 
 Gets or sets the [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) value for the property
 
+
+
 #### PropertyName
 
 Gets or sets the property name that will be animated on the [CompositionEffectBrush](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Composition.CompositionEffectBrush)
+
+

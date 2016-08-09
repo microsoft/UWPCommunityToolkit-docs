@@ -23,3 +23,5 @@ The **IToastActions** class has this types of members
 #### ContextMenuItems
 
 New in Anniversary Update: Custom context menu items, providing additional actions when the user right clicks the Toast notification.
+
+

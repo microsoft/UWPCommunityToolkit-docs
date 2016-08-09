@@ -28,4 +28,5 @@ Take string data and parse into strong data type.
 
 
 
-| name | description | type || --- | --- | --- || data | String data. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Returns strong type. |
+| name | description | type || --- | --- | --- || data | String data. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Returns strong type. |
+

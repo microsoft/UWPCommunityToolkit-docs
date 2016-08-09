@@ -26,6 +26,8 @@ The **ToastButtonDismiss** class has this types of members
 
 Initializes a system-handled dismiss button that displays localized "Dismiss" text on the button.
 
+
+
 #### contructor
 
 Constructs a system-handled dismiss button that displays your text on the button.
@@ -35,8 +37,12 @@ Constructs a system-handled dismiss button that displays your text on the button
 
 
 | name | description | type || --- | --- | --- || customContent | The text you want displayed on the button. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+
+
 ### properties
 
 #### CustomContent
 
 Custom text displayed on the button that overrides the default localized "Dismiss" text.
+
+

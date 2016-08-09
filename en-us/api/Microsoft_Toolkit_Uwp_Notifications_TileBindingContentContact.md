@@ -24,6 +24,10 @@ The **TileBindingContentContact** class has this types of members
 
 The image to display.
 
+
+
 #### Text
 
 A line of text that is displayed. Not displayed on Small Tile.
+
+

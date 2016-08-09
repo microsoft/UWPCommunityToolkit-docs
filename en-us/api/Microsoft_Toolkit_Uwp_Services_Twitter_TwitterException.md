@@ -23,3 +23,5 @@ The **TwitterException** class has this types of members
 #### Errors
 
 Gets or sets the errors returned by Twitter
+
+

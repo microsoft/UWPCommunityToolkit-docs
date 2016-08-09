@@ -24,18 +24,28 @@ The **TwitterOAuthTokenType** class has this types of members
 
 Request or access token
 
+
+
 #### OAuthRequestOrAccessTokenSecret
 
 Request or access token secret
+
+
 
 #### OAuthVerifier
 
 Verifier
 
+
+
 #### OAuthCallbackConfirmed
 
 Callback confirmed
 
+
+
 #### ScreenName
 
 Screen name
+
+

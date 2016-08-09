@@ -24,6 +24,10 @@ The **BingSearchConfig** class has this types of members
 
 Gets or sets search query country.
 
+
+
 #### Query
 
 Gets or sets search query.
+
+

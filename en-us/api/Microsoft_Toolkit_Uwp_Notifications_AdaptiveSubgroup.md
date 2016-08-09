@@ -24,10 +24,16 @@ The **AdaptiveSubgroup** class has this types of members
 
 [AdaptiveText](Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.htm) and [AdaptiveImage](Microsoft_Toolkit_Uwp_Notifications_AdaptiveImage.htm) are valid children of subgroups.
 
+
+
 #### HintWeight
 
 Control the width of this subgroup column by specifying the weight, relative to the other subgroups.
 
+
+
 #### HintTextStacking
 
 Control the vertical alignment of this subgroup's content.
+
+

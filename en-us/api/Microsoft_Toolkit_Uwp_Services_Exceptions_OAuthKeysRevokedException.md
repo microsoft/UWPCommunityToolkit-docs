@@ -24,6 +24,8 @@ The **OAuthKeysRevokedException** class has this types of members
 
 Initializes a new instance of the [OAuthKeysRevokedException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysRevokedException.htm) class. Default constructor.
 
+
+
 #### contructor
 
 Initializes a new instance of the [OAuthKeysRevokedException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysRevokedException.htm) class. Constructor with additional message.
@@ -33,6 +35,8 @@ Initializes a new instance of the [OAuthKeysRevokedException](Microsoft_Toolkit_
 
 
 | name | description | type || --- | --- | --- || message | Additional message | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+
+
 #### contructor
 
 Initializes a new instance of the [OAuthKeysRevokedException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysRevokedException.htm) class. Constructor with additional message and inner exception.
@@ -41,4 +45,5 @@ Initializes a new instance of the [OAuthKeysRevokedException](Microsoft_Toolkit_
 
 
 
-| name | description | type || --- | --- | --- || message | Additionnal message. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || innerException | Reference to inner exception. | [Exception](https://msdn.microsoft.com/library/windows/apps/System.Exception) |
+| name | description | type || --- | --- | --- || message | Additionnal message. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || innerException | Reference to inner exception. | [Exception](https://msdn.microsoft.com/library/windows/apps/System.Exception) |
+

@@ -26,13 +26,19 @@ The **Parallax** class has this types of members
 
 Gets or sets the scroller.
 
+
+
 #### Multiplier
 
 Gets or sets the multiplier.
 
+
+
 #### IsHorizontalEffect
 
 Gets or sets a value indicating whether this instance is horizontal effect.
+
+
 
 ### fields
 
@@ -40,10 +46,16 @@ Gets or sets a value indicating whether this instance is horizontal effect.
 
 The scroller property
 
+
+
 #### MultiplierProperty
 
 The multiplier property
 
+
+
 #### IsHorizontalEffectProperty
 
 The is horizontal effect property
+
+

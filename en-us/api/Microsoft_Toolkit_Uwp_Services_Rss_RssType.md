@@ -24,10 +24,16 @@ The **RssType** class has this types of members
 
 Atom
 
+
+
 #### Rss
 
 RSS
 
+
+
 #### Unknown
 
 Unknown
+
+

@@ -28,9 +28,13 @@ The **Blur** class has this types of members
 
 Called after the behavior is attached to the AssociatedObject.
 
+
+
 #### StartAnimation()
 
 Starts the animation.
+
+
 
 ### properties
 
@@ -38,12 +42,18 @@ Starts the animation.
 
 Gets or sets the Blur.
 
+
+
 ### fields
 
 #### _frameworkElement
 
 The _framework element
 
+
+
 #### ValueProperty
 
 The Blur value of the associated object
+
+

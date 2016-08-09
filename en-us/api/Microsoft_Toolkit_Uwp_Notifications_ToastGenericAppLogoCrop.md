@@ -24,10 +24,16 @@ The **ToastGenericAppLogoCrop** class has this types of members
 
 Cropping uses the default behavior of the renderer.
 
+
+
 #### None
 
 Image is not cropped.
 
+
+
 #### Circle
 
 Image is cropped to a circle shape.
+
+

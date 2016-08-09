@@ -24,6 +24,8 @@ The **ConfigParameterNullException** class has this types of members
 
 Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigParameterNullException.htm) class. Default constructor.
 
+
+
 #### contructor
 
 Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigParameterNullException.htm) class. Accepts parameter name.
@@ -33,6 +35,8 @@ Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolk
 
 
 | name | description | type || --- | --- | --- || parameter | Name of the parameter. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+
+
 #### contructor
 
 Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigParameterNullException.htm) class. Accepts parameter name and inner exception.
@@ -41,4 +45,5 @@ Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolk
 
 
 
-| name | description | type || --- | --- | --- || message | Name of the parameter. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || innerException | Reference to the inner exception. | [Exception](https://msdn.microsoft.com/library/windows/apps/System.Exception) |
+| name | description | type || --- | --- | --- || message | Name of the parameter. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || innerException | Reference to the inner exception. | [Exception](https://msdn.microsoft.com/library/windows/apps/System.Exception) |
+

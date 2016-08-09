@@ -24,6 +24,10 @@ The **TwitterError** class has this types of members
 
 Gets or sets error code
 
+
+
 #### Message
 
 Gets or sets error message
+
+

@@ -24,10 +24,16 @@ The **EffectAnimationDefinition** class has this types of members
 
 Gets or sets [CompositionEffectBrush](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Composition.CompositionEffectBrush) that will be animated
 
+
+
 #### Animation
 
 Gets or sets the [CompositionAnimation](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Composition.CompositionAnimation)
 
+
+
 #### PropertyName
 
 Gets or sets the property name that will be animated on the [CompositionEffectBrush](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Composition.CompositionEffectBrush)
+
+

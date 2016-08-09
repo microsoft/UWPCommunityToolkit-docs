@@ -24,14 +24,22 @@ The **TwitterUser** class has this types of members
 
 Gets or sets user Id.
 
+
+
 #### Name
 
 Gets or sets user name.
+
+
 
 #### ScreenName
 
 Gets or sets user screen name.
 
+
+
 #### ProfileImageUrl
 
 Gets or sets user profile image Url.
+
+

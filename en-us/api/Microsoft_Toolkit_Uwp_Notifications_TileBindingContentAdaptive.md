@@ -24,14 +24,22 @@ The **TileBindingContentAdaptive** class has this types of members
 
 [AdaptiveText](Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.htm), [AdaptiveImage](Microsoft_Toolkit_Uwp_Notifications_AdaptiveImage.htm), and [AdaptiveGroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveGroup.htm) objects can be added as children. The children are displayed in a vertical StackPanel fashion.
 
+
+
 #### BackgroundImage
 
 An optional background image that gets displayed behind all the Tile content, full bleed.
+
+
 
 #### PeekImage
 
 An optional peek image that animates in from the top of the Tile.
 
+
+
 #### TextStacking
 
 Controls the text stacking (vertical alignment) of the entire binding element.
+
+

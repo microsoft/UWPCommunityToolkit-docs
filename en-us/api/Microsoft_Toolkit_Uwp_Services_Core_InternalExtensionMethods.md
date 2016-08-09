@@ -31,6 +31,8 @@ Truncates the specified string to the specified length.
 
 
 | name | description | type || --- | --- | --- || value | The string to be truncated. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || length | The maximum length. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || return |Truncated string. |
+
+
 #### Truncate(System.String value,System.Int32 length,System.Boolean ellipsis)
 
 Truncates the specified string to the specified length.
@@ -40,6 +42,8 @@ Truncates the specified string to the specified length.
 
 
 | name | description | type || --- | --- | --- || value | The string to be truncated. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || length | The maximum length. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || ellipsis | if set to  add a text ellipsis. | [Boolean](https://msdn.microsoft.com/library/windows/apps/System.Boolean) || return |Truncated string. |
+
+
 #### FixHtml(System.String html)
 
 Applies regular expressions to string of HTML to remove comments, scripts, styles.
@@ -49,16 +53,24 @@ Applies regular expressions to string of HTML to remove comments, scripts, style
 
 
 | name | description | type || --- | --- | --- || html | HTML string to fix | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Fixed HTML string |
+
+
 ### fields
 
 #### RemoveCommentsRegex
 
 Regular expression for removing comments.
 
+
+
 #### RemoveScriptsRegex
 
 Regular expression for removing scripts.
 
+
+
 #### RemoveStylesRegex
 
 Regular expression for removing styles.
+
+

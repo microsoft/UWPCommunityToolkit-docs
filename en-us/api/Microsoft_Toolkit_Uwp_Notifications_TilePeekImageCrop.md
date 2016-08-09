@@ -24,10 +24,16 @@ The **TilePeekImageCrop** class has this types of members
 
 Cropping style automatically determined by renderer.
 
+
+
 #### None
 
 Default value. Image is not cropped.
 
+
+
 #### Circle
 
 Image is cropped to a circle shape.
+
+

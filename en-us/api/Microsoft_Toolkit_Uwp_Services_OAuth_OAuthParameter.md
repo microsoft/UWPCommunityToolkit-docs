@@ -33,6 +33,8 @@ Initializes a new instance of the [OAuthParameter](Microsoft_Toolkit_Uwp_Service
 
 
 | name | description | type || --- | --- | --- || key | Key. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || value | Value. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+
+
 ### methods
 
 #### ToString()
@@ -44,6 +46,8 @@ ToString override.
 
 
 | name | description | type || --- | --- | --- || return |String representation |
+
+
 #### ToString(System.Boolean withQuotes)
 
 Format key / value into string.
@@ -53,12 +57,18 @@ Format key / value into string.
 
 
 | name | description | type || --- | --- | --- || withQuotes | Whether to create quotes in string. | [Boolean](https://msdn.microsoft.com/library/windows/apps/System.Boolean) || return |Formatted string of key / value. |
+
+
 ### properties
 
 #### Key
 
 Gets or sets key property.
 
+
+
 #### Value
 
 Gets or sets value property.
+
+

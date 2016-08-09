@@ -23,3 +23,5 @@ The **RefreshProgressEventArgs** class has this types of members
 #### PullProgress
 
 Gets or sets value from 0.0 to 1.0 where 1.0 is active
+
+

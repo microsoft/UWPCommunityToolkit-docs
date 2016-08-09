@@ -23,3 +23,5 @@ The **TwitterErrors** class has this types of members
 #### Errors
 
 Gets or sets the list of errors
+
+

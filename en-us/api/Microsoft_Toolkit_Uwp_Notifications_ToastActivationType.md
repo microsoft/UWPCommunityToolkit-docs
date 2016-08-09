@@ -24,10 +24,16 @@ The **ToastActivationType** class has this types of members
 
 Default value. Your foreground app is launched.
 
+
+
 #### Background
 
 Your corresponding background task (assuming you set everything up) is triggered, and you can execute code in the background (like sending the user's quick reply message) without interrupting the user.
 
+
+
 #### Protocol
 
 Launch a different app using protocol activation.
+
+

@@ -28,14 +28,20 @@ The **Fade** class has this types of members
 
 Starts the animation.
 
+
+
 ### properties
 
 #### Value
 
 Gets or sets the Opacity.
 
+
+
 ### fields
 
 #### ValueProperty
 
 The Opacity value of the associated object
+
+

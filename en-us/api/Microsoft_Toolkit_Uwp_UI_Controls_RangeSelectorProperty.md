@@ -24,6 +24,10 @@ The **RangeSelectorProperty** class has this types of members
 
 Minimum value was changed
 
+
+
 #### MaximumValue
 
 Maximum value was changed
+
+

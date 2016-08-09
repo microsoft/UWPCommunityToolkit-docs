@@ -29,6 +29,8 @@ Retrieve feed type from XDocument.
 
 
 | name | description | type || --- | --- | --- || doc | XDocument doc. | [XDocument](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XDocument) || return |Return feed type. |
+
+
 #### LoadFeed(System.Xml.Linq.XDocument doc)
 
 Abstract method to be override by specific implementations of the reader.
@@ -38,6 +40,8 @@ Abstract method to be override by specific implementations of the reader.
 
 
 | name | description | type || --- | --- | --- || doc | XDocument doc. | [XDocument](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XDocument) || return |Returns list of strongly typed results. |
+
+
 #### ProcessHtmlContent(System.String htmlContent)
 
 Fix up the HTML content.
@@ -47,6 +51,8 @@ Fix up the HTML content.
 
 
 | name | description | type || --- | --- | --- || htmlContent | Content to be fixed up. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Fixed up content. |
+
+
 #### ProcessHtmlSummary(System.String htmlContent)
 
 Create a summary of the HTML content.
@@ -55,4 +61,5 @@ Create a summary of the HTML content.
 
 
 
-| name | description | type || --- | --- | --- || htmlContent | Content to be processed. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Summary of the content. |
+| name | description | type || --- | --- | --- || htmlContent | Content to be processed. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Summary of the content. |
+

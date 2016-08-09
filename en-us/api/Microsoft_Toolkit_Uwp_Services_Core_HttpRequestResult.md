@@ -26,16 +26,24 @@ The **HttpRequestResult** class has this types of members
 
 Initializes a new instance of the [HttpRequestResult](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestResult.htm) class. Default constructor.
 
+
+
 ### properties
 
 #### StatusCode
 
 Gets or sets holds request StatusCode.
 
+
+
 #### Result
 
 Gets or sets holds request Result.
 
+
+
 #### Success
 
 Gets a value indicating whether holds request Success boolean.
+
+

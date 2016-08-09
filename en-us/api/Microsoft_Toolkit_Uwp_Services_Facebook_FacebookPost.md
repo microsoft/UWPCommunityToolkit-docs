@@ -24,18 +24,28 @@ The **FacebookPost** class has this types of members
 
 Gets or sets id property.
 
+
+
 #### Message
 
 Gets or sets message or post text.
+
+
 
 #### Created_Time
 
 Gets or sets time the entity instance was created.
 
+
+
 #### Link
 
 Gets or sets a link to the entity instance.
 
+
+
 #### Full_Picture
 
 Gets or sets a link to the accompanying image.
+
+

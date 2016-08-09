@@ -28,4 +28,5 @@ Helper method to safely cast an object to a boolean
 
 
 
-| name | description | type || --- | --- | --- || parameter | Parameter to cast to a boolean | [Object](https://msdn.microsoft.com/library/windows/apps/System.Object) || return |Bool value or false if cast failed |
+| name | description | type || --- | --- | --- || parameter | Parameter to cast to a boolean | [Object](https://msdn.microsoft.com/library/windows/apps/System.Object) || return |Bool value or false if cast failed |
+

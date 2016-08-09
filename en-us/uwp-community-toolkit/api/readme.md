@@ -36,3 +36,11 @@ Visit the [NuGet packages]({{site.baseurl}}/get-started/nugetpackages.htm) page 
 - [Microsoft.Toolkit.Uwp.UI.Controls]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Controls.htm)
 - [Microsoft.Toolkit.Uwp.UI.Animations]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Animations.htm)
 
+# Helpers
+
+- [Microsoft.Toolkit.Uwp.ColorHelper]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_ColorHelper.htm)
+- [Microsoft.Toolkit.Uwp.ConnectionHelper]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_ConnectionHelper.htm)
+- [Microsoft.Toolkit.Uwp.ControlHelpers]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_ControlHelpers.htm)
+- [Microsoft.Toolkit.Uwp.HslColor]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_HslColor.htm)
+- [Microsoft.Toolkit.Uwp.HsvColor]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_HsvColor.htm)
+

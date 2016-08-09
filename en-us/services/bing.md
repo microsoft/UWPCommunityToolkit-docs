@@ -8,6 +8,7 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # Bing Service
+
 The **Bing Service** allows you to retrieve Bing results. Bing can return web results, images, and videos for many countries around the world.
 
 ##Set up Bing API
@@ -52,3 +53,4 @@ Windows 10 SDK 10586 or higher
 **Microsoft.Toolkit.Uwp.Services**
 
 See the [NuGet Packages page]({{site.baseurl}}/get-started/nugetpackages.md) for complete list.
+

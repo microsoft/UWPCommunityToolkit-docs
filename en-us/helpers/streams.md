@@ -7,7 +7,6 @@ layout: default
 search.product: eADQiWindows 10XVcnh
 ---
 
-
 # Streams Helper
 
 There are several operations that apps need commonly to do against their APPX, or from the Internet that are not easy.  This helper class wraps up some of the most common operations we need in multiple apps.

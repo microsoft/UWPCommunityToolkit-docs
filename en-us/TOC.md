@@ -1,6 +1,6 @@
 ---
 permalink: /en-US/TOC.htm
-title: UWP Community Toolkit Table of Contents
+title: Table of Contents
 description: Welcome to the UWP Community Toolkit for Windows 10 developers
 keywords: windows, app, toolkit, get started, UWP
 layout: default
@@ -56,4 +56,9 @@ search.product: eADQiWindows 10XVcnh
 - [Facebook]({{site.baseurl}}/services/facebook.htm)
 - [Twitter]({{site.baseurl}}/services/twitter.htm)
 
-# [Index]({{site.baseurl}}/index.htm)
+# API
+
+- [API Generated Docs]{{site.baseurl}}/api.htm)
+
+# [Main Page]({{site.baseurl}}/index.htm)
+

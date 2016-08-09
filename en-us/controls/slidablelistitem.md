@@ -8,11 +8,13 @@ search.product: eADQiWindows 10XVcnh
 ---
 
 # SlidableListItem XAML Control
+
 The **SlideableListItem Control** is a UI control that enables actions to be triggered by sliding the content left or right. This effect can be forced to ignore the mouse if only touch screen interaction is desired.
 
 This control can be used as a ListView Data Template root to create effects similar to those common in mobile email apps like Outlook.  
 
 ## Syntax
+
 ```xaml
 <controls:SlidableListItem
 	LeftIcon="Favorite" 
@@ -35,17 +37,23 @@ This control can be used as a ListView Data Template root to create effects simi
 ```
 
 ## Example Image
+
 ![SlidableListItem animation]({{site.baseurl}}/resources/images/Controls-SlidableListItem.gif "SlidableListItem")
 
 ## Example Code
+
 [SlideableListItem Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/SlideableListItem)
 
 ## Default Template 
+
 [SlideableListItem XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Controls/SlideableListItem/SlideableListItem.xaml) is the XAML template used in the toolkit for the default styling.
 
 ## Platforms 
+
 Windows 10 SDK 10586 or higher
 
 ## API
+
 * [SlidableListItem source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/SlidableListItem)
 * [SlidableListItem API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.htm)
+

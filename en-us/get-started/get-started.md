@@ -1,6 +1,6 @@
 ---
 permalink: /en-US/get-started/get-started.htm
-title: Getting Started with the UWP Community Toolkit for Windows 10 Developers
+title: Getting Started
 description: Provides an introduction and overview of the UwP Toolkit and its documentation
 keywords: windows, app, toolkit, get started, UWP toolkit
 layout: default

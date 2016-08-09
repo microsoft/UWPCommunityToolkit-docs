@@ -1,5 +1,5 @@
 # Site Settings
-baseurl: "/windows/uwp-community-toolkit"
+baseurl: "/UWPCommunityToolkit-docs"
 
 # Build settings
 markdown: kramdown

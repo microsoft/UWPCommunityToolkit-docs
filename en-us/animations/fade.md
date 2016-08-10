@@ -5,6 +5,7 @@ description: The Fade animation behavior fades objects, in and out, over time
 keywords: windows, app, toolkit, Fade, Fade, fades, XAML, UWP, animation behavior
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # Fade
@@ -49,7 +50,7 @@ Please view the [toolkit sample application](https://github.com/Microsoft/UWPCom
  
 ## Example Image
 
-![Fade Behavior animation]({{site.baseurl}}//resources/images/Animations-Fade.gif "Fade Behavior")
+![Fade Behavior animation]({{site.baseurl}}/resources/images/Animations-Fade.gif "Fade Behavior")
 
 ## Platforms
 
@@ -58,5 +59,5 @@ Windows 10 SDK 10585 or higher
 ## API
 
 * [Fade source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/Fade.cs)
-* [Fade Behavior API documentation]({{site.baseurl}}//api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Fade.htm)
-* [Fade Code API documentation]({{site.baseurl}}//api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#fadewindowsuixamluielement-associatedobjectsystemdouble-durationsystemdouble-delaysystemsingle-value)
+* [Fade Behavior API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Fade.htm)
+* [Fade Code API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#fadewindowsuixamluielement-associatedobjectsystemdouble-durationsystemdouble-delaysystemsingle-value)

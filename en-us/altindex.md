@@ -13,7 +13,7 @@ UWP Community Toolkit Documentation
 
 # Getting Started
 
-[Getting Started with the UWP Toolkit](get-started/get-started.htm)
+[Getting Started with the UWP Toolkit]({{site.baseurl}}/{{page.lang}}/get-started/get-started.htm)
 
 ### Windows 10 Store App
 
@@ -25,7 +25,7 @@ We also recommend visiting the [UWP Community Toolkit Github Repository](https:/
 
 # NuGet packages
 
-Visit the [NuGet packages](get-started/nugetpackages.htm) page to see what is included and how to get them into your project.
+Visit the [NuGet packages]({{site.baseurl}}/{{page.lang}}/get-started/nugetpackages.htm) page to see what is included and how to get them into your project.
 
 ## Principles
 

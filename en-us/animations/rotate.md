@@ -5,6 +5,7 @@ description: The Rotation animation behavior allows users to modify and animate 
 keywords: windows, app, toolkit, Rotation animation, Rotate, XAML, UWP, animate rotation, behavior
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # Rotate
@@ -68,5 +69,5 @@ Windows 10 SDK 10585 or higher
 ## API
 
 * [Rotate source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/Rotate.cs)
-* [Rotate Behavior API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Rotate.htm)
-* [Rotate Code API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#rotatemicrosofttoolkituwpuianimationsanimationset-animationsetsystemdouble-durationsystemdouble-delaysystemsingle-valuesystemsingle-centerxsystemsingle-centerysystemsingle-centerz)
+* [Rotate Behavior API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Rotate.htm)
+* [Rotate Code API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#rotatemicrosofttoolkituwpuianimationsanimationset-animationsetsystemdouble-durationsystemdouble-delaysystemsingle-valuesystemsingle-centerxsystemsingle-centerysystemsingle-centerz)

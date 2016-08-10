@@ -5,6 +5,7 @@ description: Parallax animation behavior is the scrolling of a background image 
 keywords: windows, app, toolkit, ParallaxBehavior, XAML behavior, background image, custom scrolling behavior, animation behavior
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # Parallax
@@ -37,6 +38,6 @@ Windows 10 SDK 10585 or higher
 ## API
 
 * [Parallax source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/Parallax.cs)
-* [Parallax Behavior API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Parallax.htm)
-* [Parallax Code API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#parallaxwindowsuixamluielement-elementwindowsuixamlframeworkelement-scrollerelementsystemboolean-ishorizontaleffectsystemsingle-multipliere)
+* [Parallax Behavior API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Parallax.htm)
+* [Parallax Code API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#parallaxwindowsuixamluielement-elementwindowsuixamlframeworkelement-scrollerelementsystemboolean-ishorizontaleffectsystemsingle-multipliere)
 

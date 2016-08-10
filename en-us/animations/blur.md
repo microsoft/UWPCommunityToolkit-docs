@@ -5,6 +5,7 @@ description: The Blur animation behavior allows for blurring of XAML elements us
 keywords: windows, app, toolkit, Blur, animation behavior, XAML behavior, image blur, XAML blur, XAML, animation, composition 
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # Blur
@@ -55,7 +56,7 @@ Please view the [toolkit sample application](https://github.com/Microsoft/UWPCom
 
 ## Example Image
 
-![Blur Behavior animation]({{site.baseurl}}//resources/images/Animations-Blur.gif "Blur Behavior")
+![Blur Behavior animation]({{site.baseurl}}/resources/images/Animations-Blur.gif "Blur Behavior")
 
 ## Platforms
 
@@ -66,5 +67,5 @@ This behavior requires the [visual layer](https://msdn.microsoft.com/en-us/windo
 ## API
 
 * [Blur source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/Blur.cs)
-* [Blur Behavior API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Blur.htm)
-* [Blur Code API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#blurmicrosofttoolkituwpuianimationsanimationset-animationsetsystemdouble-durationsystemdouble-delaysystemdouble-bluramount.htm)
+* [Blur Behavior API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Blur.htm)
+* [Blur Code API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#blurmicrosofttoolkituwpuianimationsanimationset-animationsetsystemdouble-durationsystemdouble-delaysystemdouble-bluramount.htm)

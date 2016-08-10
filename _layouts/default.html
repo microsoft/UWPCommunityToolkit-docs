@@ -3,10 +3,8 @@
     {% include head.html %}
 <body>
 <style>
-body {
+div.content {
     font-size: 11pt;
-    margin: 100px;
-    padding-top: 100px;
     padding-left: 250px;
     padding-right: 250px;
     padding-bottom: 100px;
@@ -105,7 +103,10 @@ a:link {
 
 </style>
     <!-- Body -->
+    <div class="content">
     {{ content }}
+    <div> END OF CONTENT </div>
+    </div>
     <!--<div class="container">
         <div class="row">
             <div class="col-xs-24">
@@ -114,6 +115,6 @@ a:link {
         </div>
     </div>
  </div>-->
- <div>9</div>
+ <div>10</div>
 </body>
 </html>

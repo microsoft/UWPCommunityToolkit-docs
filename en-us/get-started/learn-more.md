@@ -5,6 +5,7 @@ description: The Learn More page, provides additional information to improve and
 keywords: windows, app, toolkit, learn, learn more, menu
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 #UWP Community Toolkit Source Code
@@ -17,8 +18,8 @@ The UWP Community Toolkit does not have a local installer.  If you want to see t
 
 ## Helpful Links 
 
-*  [Windows Dev Center](https://developer.microsoft.com/en-us/windows/getstarted): Read expert tutorials for various development levels, locate open-source code to jump-start app building, and discover featured learning resources.
-* [Stack Overflow](http://stackoverflow.com/): This is a community-developed site, where programmers work together to solve technical problems.
+* [Windows Dev Center](https://developer.microsoft.com/en-us/windows/getstarted): Read expert tutorials for various development levels, locate open-source code to jump-start app building, and discover featured learning resources.
+* [Stack Overflow](http://stackoverflow.com/): This is a community driven site, where programmers work together to solve technical problems.
  
 ## Videos & Templates 
 

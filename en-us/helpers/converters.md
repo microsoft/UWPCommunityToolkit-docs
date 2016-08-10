@@ -5,6 +5,7 @@ description: Commonly used converters that allow the data to be modified as it p
 keywords: windows, app, toolkit, UWP, helpers, xaml
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # Converters
@@ -23,4 +24,4 @@ Windows 10 SDK 10586 or higher
 ## API
 
 * [Converters source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI/Converters)
-* [Converters API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Converters.htm)
+* [Converters API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Converters.htm)

@@ -5,6 +5,7 @@ description: WeakEventListener allows the owner to be garbage collected if its o
 keywords: windows, app, toolkit, UWP, helpers, event, weak event, listener
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # WeakEventListener
@@ -22,5 +23,5 @@ Windows 10 SDK 10586 or higher
 ## API
 
 * [WeakEventListener source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/WeakEventListener.cs)
-* [WeakEventListener API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_ColorHelper.htm)
+* [WeakEventListener API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_ColorHelper.htm)
 

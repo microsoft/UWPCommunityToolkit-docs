@@ -5,6 +5,7 @@ description: Colors helper does commonly needed conversions of color formats
 keywords: windows, app, toolkit, UWP, helpers, color, html color, hex color, hsv, hsl
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # Colors Helper
@@ -40,5 +41,5 @@ Windows 10 SDK 10586 or higher
 ## API
 
 * [Color Helper source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/ColorHelper.cs)
-* [Color Helper API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_ColorHelper.htm)
+* [Color Helper API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_ColorHelper.htm)
 

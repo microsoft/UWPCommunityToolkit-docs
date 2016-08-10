@@ -5,6 +5,7 @@ description: List of NuGet packages included in the UWP Community Toolkit and wh
 keywords: windows, app, toolkit, get started, nuget, uwp
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # Nuget Packages

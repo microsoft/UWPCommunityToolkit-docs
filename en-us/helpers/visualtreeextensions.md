@@ -5,6 +5,7 @@ description: VisualTreeExtensions defines a collection of extensions methods for
 keywords: windows, app, toolkit, UWP, helpers, visual tree
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # VisualTreeExtensions
@@ -35,5 +36,5 @@ Windows 10 SDK 10586 or higher
 ## API
 
 * [VisualTreeExtensions source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI/Extensions/VisualTreeExtensions.cs)
-* [VisualTreeExtensions API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_VisualTreeExtensions.htm)
+* [VisualTreeExtensions API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_VisualTreeExtensions.htm)
 

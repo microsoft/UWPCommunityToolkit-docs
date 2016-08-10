@@ -5,6 +5,7 @@ description: Links and samples of notifications and tiles within Universal Windo
 keywords: windows, app, toolkit, notifications, toast, UWP, tiles
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # Notifications Overview 
@@ -31,3 +32,4 @@ Notifications include: LiveTile, Toast and WeatherLiveTileandToast
 ### Example Image
 
 ![Toast]({{site.baseurl}}/resources/images/Notifications-PopToast.gif "Toast")
+

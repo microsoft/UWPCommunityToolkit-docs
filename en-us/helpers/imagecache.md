@@ -5,6 +5,7 @@ description: ImageCache provides methods and tools to cache images in a temporar
 keywords: windows, app, toolkit, UWP, helpers, image, cache
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # ImageCache
@@ -37,5 +38,5 @@ Windows 10 SDK 10586 or higher
 ## API
 
 * [ImageCache source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI/ImageCache/ImageCache.cs)
-* [ImageCache API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_ImageCache.htm)
+* [ImageCache API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_ImageCache.htm)
 

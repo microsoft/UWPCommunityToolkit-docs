@@ -1,11 +1,13 @@
 ---
-permalink: /en-US/quickstart.htm
+permalink: /en-US/get-started/quickstart.htm
 title: Quick Start guide
 description: Quick Start guide shows how to create your first project in Visual Studio 2015 using the UWP Toolkit
 keywords: windows, app, toolkit, quick start, quickstart, getting started
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
+
 # Quick Start
 
 This page will provides guidance for developers to build a sample project. In the Build the sample section, below, you can use these steps to create *Controls, Animations, and Notifications.* 
@@ -19,7 +21,7 @@ This page will provides guidance for developers to build a sample project. In th
 
 ## Add a reference to NuGet packages
 
-Adding a reference to each of the desired [NuGet packages](nugetpackages.md) (Microsoft.Toolkit.Uwp.Services is the example in the screenshot below) will show a preview of the changes that will be applied to your project. 
+Adding a reference to each of the desired [NuGet packages]({{site.baseurl}}/{{page.lang}}/get-started/nugetpackages.htm) (Microsoft.Toolkit.Uwp.Services is the example in the screenshot below) will show a preview of the changes that will be applied to your project. 
 
 ![Manage NuGet Packages]({{site.baseurl}}/resources/images/AddNugetServices.png)
 

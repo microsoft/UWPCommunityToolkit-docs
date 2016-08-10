@@ -5,6 +5,7 @@ description: Connection Helper for determining if app is on a metered Internet c
 keywords: windows, app, toolkit, UWP, helpers, connection, internet, metered
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 ## ConnectionHelper
@@ -44,4 +45,4 @@ Windows 10 SDK 10586 or higher
 ## API
 
 * [Connection Helper source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/ConnectionHelper.cs)
-* [Connection Helper API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_ConnectionHelper.htm)
+* [Connection Helper API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_ConnectionHelper.htm)

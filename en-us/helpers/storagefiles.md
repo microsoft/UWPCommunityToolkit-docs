@@ -5,6 +5,7 @@ description: Static class of utility functions for reading and writing text of b
 keywords: windows, app, toolkit, UWP, helpers, file, storage, embedded file, read text, read bytes, write bytes, write text
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 ## StorageFileHelper
@@ -43,4 +44,4 @@ Windows 10 SDK 10586 or higher
 
 ## API
 * [Storage File Helper source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/StorageFileHelper.cs)
-* [Storage File Helper API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_StorageFileHelper.htm)
+* [Storage File Helper API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_StorageFileHelper.htm)

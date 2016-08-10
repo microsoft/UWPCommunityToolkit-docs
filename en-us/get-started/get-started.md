@@ -5,6 +5,7 @@ description: Provides an introduction and overview of the UwP Toolkit and its do
 keywords: windows, app, toolkit, get started, UWP toolkit
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # Getting Started
@@ -27,7 +28,7 @@ Create a new *Blank App (Universal Windows)*. The template is located under the 
 
 _Either_
 
-Add desired [NuGet Packages](nugetpackages.htm) to your solution.
+Add desired [NuGet Packages]({{site.baseurl}}/{{page.lang}}/get-started/nugetpackages.htm) to your solution.
 
 _Or_
 

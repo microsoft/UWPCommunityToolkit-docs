@@ -5,6 +5,7 @@ description: Utility class to help with common stream operations needed by UWP a
 keywords: windows, app, toolkit, UWP, helpers, stream, content file, sandbox file, download uri
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # Streams Helper
@@ -49,5 +50,5 @@ Windows 10 SDK 10586 or higher
 ## API
 
 * [Stream Helper source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/StreamHelper.cs)
-* [Stream File Helper API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_StreamHelper.htm)
+* [Stream File Helper API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_StreamHelper.htm)
 

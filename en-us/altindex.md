@@ -5,6 +5,7 @@ description: Welcome to the UWP Community Toolkit for Windows 10 developers
 keywords: windows, app, toolkit, get started, UWP
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 UWP Community Toolkit Documentation

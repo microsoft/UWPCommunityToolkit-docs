@@ -5,6 +5,7 @@ description: API Documentation generated from the source code
 keywords: windows, app, toolkit, UWP, API
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 UWP Community Toolkit API
@@ -12,7 +13,7 @@ UWP Community Toolkit API
 
 ## Getting Started using the toolkit
 
-Read the [getting Started with the UWP Toolkit]({{site.baseurl}}/get-started/get-started.htm) for instructions on using these API functions in your own projects. 
+Read the [getting Started with the UWP Toolkit]({{site.baseurl}}/{{page.lang}}/get-started/get-started.htm) for instructions on using these API functions in your own projects. 
 
 ### Windows 10 Store App
 
@@ -24,26 +25,27 @@ We also recommend visiting the [UWP Community Toolkit Github Repository](https:/
 
 # NuGet packages
 
-Visit the [NuGet packages]({{site.baseurl}}/get-started/nugetpackages.htm) page to see what is included and how to get them into your project.
+Visit the [NuGet packages]({{site.baseurl}}/{{page.lang}}/get-started/nugetpackages.htm) page to see what is included and how to get them into your project.
 
 # Notifications 
 
-- [Microsoft.Toolkit.Uwp.Notifications]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_Notifications.htm)
+- [Microsoft.Toolkit.Uwp.Notifications]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_Notifications.htm)
 
 # Services
 
-- [Microsoft.Toolkit.Uwp.Services]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_Services.htm)
+- [Microsoft.Toolkit.Uwp.Services]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_Services.htm)
 
 # UI
 
-- [Microsoft.Toolkit.Uwp.UI]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI.htm)
-- [Microsoft.Toolkit.Uwp.UI.Controls]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Controls.htm)
-- [Microsoft.Toolkit.Uwp.UI.Animations]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Animations.htm)
+- [Microsoft.Toolkit.Uwp.UI]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI.htm)
+- [Microsoft.Toolkit.Uwp.UI.Controls]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls.htm)
+- [Microsoft.Toolkit.Uwp.UI.Animations]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations.htm)
 
 # Helpers
 
-- [Microsoft.Toolkit.Uwp.ColorHelper]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_ColorHelper.htm)
-- [Microsoft.Toolkit.Uwp.ConnectionHelper]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_ConnectionHelper.htm)
-- [Microsoft.Toolkit.Uwp.ControlHelpers]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_ControlHelpers.htm)
-- [Microsoft.Toolkit.Uwp.HslColor]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_HslColor.htm)
-- [Microsoft.Toolkit.Uwp.HsvColor]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_HsvColor.htm)
+- [Microsoft.Toolkit.Uwp.ColorHelper]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_ColorHelper.htm)
+- [Microsoft.Toolkit.Uwp.ConnectionHelper]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_ConnectionHelper.htm)
+- [Microsoft.Toolkit.Uwp.ControlHelpers]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_ControlHelpers.htm)
+- [Microsoft.Toolkit.Uwp.HslColor]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_HslColor.htm)
+- [Microsoft.Toolkit.Uwp.HsvColor]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_HsvColor.htm)
+

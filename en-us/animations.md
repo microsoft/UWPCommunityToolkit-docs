@@ -5,6 +5,7 @@ description: Animations allow you to implement specific XAML behaviors and apply
 keywords: windows, app, toolkit, animation behavior, XAML behavior, animation, composition 
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # Animations
@@ -15,12 +16,12 @@ You can decide to use behaviors and for isntance setup your animations using Ble
 
 You can find individual documentation here:
 
-* [Blur]({{site.baseurl}}/animations/blur.htm)
-* [Fade]({{site.baseurl}}/animations/fade.htm)
-* [Offset]({{site.baseurl}}/animations/offset.htm)
-* [Parallax]({{site.baseurl}}/animations/parallax.htm)
-* [Rotate]({{site.baseurl}}/animations/rotate.htm)
-* [Scale]({{site.baseurl}}/animations/scale.htm)
+* [Blur]({{site.baseurl}}/{{page.lang}}/animations/blur.htm)
+* [Fade]({{site.baseurl}}/{{page.lang}}/animations/fade.htm)
+* [Offset]({{site.baseurl}}/{{page.lang}}/animations/offset.htm)
+* [Parallax]({{site.baseurl}}/{{page.lang}}/animations/parallax.htm)
+* [Rotate]({{site.baseurl}}/{{page.lang}}/animations/rotate.htm)
+* [Scale]({{site.baseurl}}/{{page.lang}}/animations/scale.htm)
 
 ## Behaviors
 

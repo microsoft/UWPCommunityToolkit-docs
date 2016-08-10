@@ -22,11 +22,19 @@ table {
     width: 90%;
 }
 
-table .thead{
-    background-color: grey;
+thead{
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
 }
 
-table .th {
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+th {
     margin-bottom: 28px;
     margin-top: 36px;
 }
@@ -119,6 +127,6 @@ a:link {
     <div class="content">
     {{ content }}
     </div>
- <div>API: 1</div>
+ <div>API: 2</div>
 </body>
 </html>

@@ -5,8 +5,8 @@
 <style>
 div.content {
     font-size: 11pt;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-bottom: 100px;
     font-weight: 400;
     }
@@ -14,13 +14,14 @@ div.content {
 h1 {
     font-size: 2.87em;
     font-weight: 100;
-    margin-bottom: 28px;
-    margin-top: 36px;
+    margin-bottom: 12px;
+    margin-top: 18px;
 }
 
 h2 {
     font-size: 1.8em;
     font-weight: 100;
+    margin-bottom: 12px;
 }
 
 h2 .step {
@@ -36,32 +37,48 @@ h2 .step {
 
 h3 {
     font-size: 1.5em;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 h4 {
     font-size: 1.17em;
+    margin-bottom: 12px;
 }
 
 p {
     margin-bottom: 20px;
 }
 
+
 table {
     width: 90%;
 }
 
-table .thead{
-    background-color: grey;
+thead{
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
 }
 
-table .th {
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+table > tr {
+    vertical-align: middle;
+}
+
+th, td {
+  padding: 0.25rem;
+  border: 1px solid #ccc;
     margin-bottom: 28px;
     margin-top: 36px;
 }
 
-li {
-    margin-bottom: 20px;
+tbody tr:nth-child(odd) {
+  background: #eee;
 }
 
 .hidden {
@@ -119,6 +136,6 @@ a:link {
     <div class="content">
     {{ content }}
     </div>
- <div>1</div>
+ <div>2</div>
 </body>
 </html>

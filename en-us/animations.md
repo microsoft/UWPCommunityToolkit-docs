@@ -12,16 +12,17 @@ lang: en-us
 
 UWP Community toolkit provides several tools to animate your UIElements.
 
-You can decide to use behaviors and for isntance setup your animations using Blend or you can decide to do it manually using code.
+You can use behaviors from within Blend for an editor experience, or you can decide to do it manually using code.
 
-You can find individual documentation here:
+You can find individual animation detailed documentation here:
 
-* [Blur]({{site.baseurl}}/{{page.lang}}/animations/blur.htm)
-* [Fade]({{site.baseurl}}/{{page.lang}}/animations/fade.htm)
-* [Offset]({{site.baseurl}}/{{page.lang}}/animations/offset.htm)
-* [Parallax]({{site.baseurl}}/{{page.lang}}/animations/parallax.htm)
-* [Rotate]({{site.baseurl}}/{{page.lang}}/animations/rotate.htm)
-* [Scale]({{site.baseurl}}/{{page.lang}}/animations/scale.htm)
+| Animation Type Link |
+| --- |
+| [Blur]({{site.baseurl}}/{{page.lang}}/animations/blur.htm) | 
+| [Fade]({{site.baseurl}}/{{page.lang}}/animations/fade.htm) |
+| [Offset]({{site.baseurl}}/{{page.lang}}/animations/offset.htm) |
+| [Rotate]({{site.baseurl}}/{{page.lang}}/animations/rotate.htm) |
+| [Scale]({{site.baseurl}}/{{page.lang}}/animations/scale.htm) |
 
 ## Behaviors
 

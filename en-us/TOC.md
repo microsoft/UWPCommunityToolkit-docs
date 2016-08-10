@@ -19,7 +19,6 @@ lang: en-us
 - [Blur]({{site.baseurl}}/{{page.lang}}/animations/blur.htm)
 - [Offset]({{site.baseurl}}/{{page.lang}}/animations/offset.htm)
 - [Fade]({{site.baseurl}}/{{page.lang}}/animations/fade.htm)
-- [Parallel]({{site.baseurl}}/{{page.lang}}/animations/parallax.htm)
 - [Rotate]({{site.baseurl}}/{{page.lang}}/animations/rotate.htm)
 - [Scale]({{site.baseurl}}/{{page.lang}}/animations/scale.htm)
 

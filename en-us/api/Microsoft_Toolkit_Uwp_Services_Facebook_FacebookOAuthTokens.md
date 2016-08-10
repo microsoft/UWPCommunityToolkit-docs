@@ -3,7 +3,7 @@ permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Facebook_FacebookOAuthToken
 title: Microsoft.Toolkit.Uwp.Services.Facebook.FacebookOAuthTokens API 
 description: API page for Microsoft.Toolkit.Uwp.Services.Facebook.FacebookOAuthTokens
 keywords: windows, app, toolkit, UWP, API
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 ---
 

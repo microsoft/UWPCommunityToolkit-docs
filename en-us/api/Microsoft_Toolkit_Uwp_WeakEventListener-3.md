@@ -3,7 +3,7 @@ permalink: /en-US/api/Microsoft_Toolkit_Uwp_WeakEventListener-3.htm
 title: Microsoft.Toolkit.Uwp.WeakEventListener-3 API 
 description: API page for Microsoft.Toolkit.Uwp.WeakEventListener-3
 keywords: windows, app, toolkit, UWP, API
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 ---
 

@@ -3,7 +3,7 @@ permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsE
 title: Microsoft.Toolkit.Uwp.Services.Exceptions.TooManyRequestsException API 
 description: API page for Microsoft.Toolkit.Uwp.Services.Exceptions.TooManyRequestsException
 keywords: windows, app, toolkit, UWP, API
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 ---
 

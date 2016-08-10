@@ -34,7 +34,5 @@ Gets a value indicating whether internet is available across all connections.
 
 
 
-| name | description | type |
-| --- | --- | --- |
-| return |True if internet can be reached. |
+| name | description | type || --- | --- | --- || return |True if internet can be reached. |
 

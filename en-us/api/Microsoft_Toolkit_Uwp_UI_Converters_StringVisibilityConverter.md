@@ -3,7 +3,7 @@ permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Converters_StringVisibilityConver
 title: Microsoft.Toolkit.Uwp.UI.Converters.StringVisibilityConverter API 
 description: API page for Microsoft.Toolkit.Uwp.UI.Converters.StringVisibilityConverter
 keywords: windows, app, toolkit, UWP, API
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 ---
 

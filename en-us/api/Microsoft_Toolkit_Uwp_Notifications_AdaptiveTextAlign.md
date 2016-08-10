@@ -3,7 +3,7 @@ permalink: /en-US/api/Microsoft_Toolkit_Uwp_Notifications_AdaptiveTextAlign.htm
 title: Microsoft.Toolkit.Uwp.Notifications.AdaptiveTextAlign API 
 description: API page for Microsoft.Toolkit.Uwp.Notifications.AdaptiveTextAlign
 keywords: windows, app, toolkit, UWP, API
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 ---
 

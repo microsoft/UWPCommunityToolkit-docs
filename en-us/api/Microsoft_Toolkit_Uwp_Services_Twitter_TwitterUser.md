@@ -3,7 +3,7 @@ permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Twitter_TwitterUser.htm
 title: Microsoft.Toolkit.Uwp.Services.Twitter.TwitterUser API 
 description: API page for Microsoft.Toolkit.Uwp.Services.Twitter.TwitterUser
 keywords: windows, app, toolkit, UWP, API
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 ---
 

@@ -3,7 +3,7 @@ permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Facebook_FacebookService.ht
 title: Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService API 
 description: API page for Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService
 keywords: windows, app, toolkit, UWP, API
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 ---
 

@@ -3,7 +3,7 @@ permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Exceptions_UserNotFoundExce
 title: Microsoft.Toolkit.Uwp.Services.Exceptions.UserNotFoundException API 
 description: API page for Microsoft.Toolkit.Uwp.Services.Exceptions.UserNotFoundException
 keywords: windows, app, toolkit, UWP, API
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 ---
 

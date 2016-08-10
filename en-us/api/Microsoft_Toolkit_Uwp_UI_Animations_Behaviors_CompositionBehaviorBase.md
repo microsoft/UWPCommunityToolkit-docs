@@ -3,7 +3,7 @@ permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_CompositionB
 title: Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.CompositionBehaviorBase API 
 description: API page for Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.CompositionBehaviorBase
 keywords: windows, app, toolkit, UWP, API
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 ---
 

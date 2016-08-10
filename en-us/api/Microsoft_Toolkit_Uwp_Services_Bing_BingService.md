@@ -3,7 +3,7 @@ permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Bing_BingService.htm
 title: Microsoft.Toolkit.Uwp.Services.Bing.BingService API 
 description: API page for Microsoft.Toolkit.Uwp.Services.Bing.BingService
 keywords: windows, app, toolkit, UWP, API
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 ---
 

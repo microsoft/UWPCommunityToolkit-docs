@@ -3,7 +3,7 @@ permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_IParser-1.htm
 title: Microsoft.Toolkit.Uwp.Services.IParser-1 API 
 description: API page for Microsoft.Toolkit.Uwp.Services.IParser-1
 keywords: windows, app, toolkit, UWP, API
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 ---
 

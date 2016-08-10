@@ -3,7 +3,7 @@ permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Core_ExtensionMethods.htm
 title: Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods API 
 description: API page for Microsoft.Toolkit.Uwp.Services.Core.ExtensionMethods
 keywords: windows, app, toolkit, UWP, API
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 ---
 

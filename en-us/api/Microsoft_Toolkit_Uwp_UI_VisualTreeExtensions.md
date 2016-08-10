@@ -3,7 +3,7 @@ permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_VisualTreeExtensions.htm
 title: Microsoft.Toolkit.Uwp.UI.VisualTreeExtensions API 
 description: API page for Microsoft.Toolkit.Uwp.UI.VisualTreeExtensions
 keywords: windows, app, toolkit, UWP, API
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 ---
 

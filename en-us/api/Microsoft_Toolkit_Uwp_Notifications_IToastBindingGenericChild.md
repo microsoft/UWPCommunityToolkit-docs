@@ -3,7 +3,7 @@ permalink: /en-US/api/Microsoft_Toolkit_Uwp_Notifications_IToastBindingGenericCh
 title: Microsoft.Toolkit.Uwp.Notifications.IToastBindingGenericChild API 
 description: API page for Microsoft.Toolkit.Uwp.Notifications.IToastBindingGenericChild
 keywords: windows, app, toolkit, UWP, API
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 ---
 

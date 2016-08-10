@@ -3,7 +3,7 @@ permalink: /en-US/api/Microsoft_Toolkit_Uwp_Services_Core_HttpRequestSettings.ht
 title: Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings API 
 description: API page for Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings
 keywords: windows, app, toolkit, UWP, API
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 ---
 

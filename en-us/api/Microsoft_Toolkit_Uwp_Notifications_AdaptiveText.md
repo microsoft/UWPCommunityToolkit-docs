@@ -3,7 +3,7 @@ permalink: /en-US/api/Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.htm
 title: Microsoft.Toolkit.Uwp.Notifications.AdaptiveText API 
 description: API page for Microsoft.Toolkit.Uwp.Notifications.AdaptiveText
 keywords: windows, app, toolkit, UWP, API
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 ---
 

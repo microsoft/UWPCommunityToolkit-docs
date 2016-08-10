@@ -3,7 +3,7 @@ permalink: /en-US/api/Microsoft_Toolkit_Uwp_UI_Animations.htm
 title: Microsoft.Toolkit.Uwp.UI.Animations API 
 description: API page for Microsoft.Toolkit.Uwp.UI.Animations
 keywords: windows, app, toolkit, UWP, API
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 ---
 

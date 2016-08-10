@@ -105,7 +105,7 @@ permalink: /en-US/api/` + onlyName + `.htm
 title: ` + classname + ` API 
 description: API page for ` + classname + `
 keywords: windows, app, toolkit, UWP, API
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 ---
 

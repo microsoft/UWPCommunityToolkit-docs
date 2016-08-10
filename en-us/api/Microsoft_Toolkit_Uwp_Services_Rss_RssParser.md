@@ -14,19 +14,19 @@ RssParser.
 
 ## Members
 
-The **RssParser** class has this types of members
+The **RssParser** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-### methods
+### Methods
 
 #### Parse(System.String data)
 
 Parse string to strong type.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || data | Input string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Strong type. |
+| Name | Description | Type || --- | --- | --- || data | Input string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Strong type. |
 

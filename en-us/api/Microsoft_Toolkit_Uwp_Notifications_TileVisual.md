@@ -14,26 +14,26 @@ Contains multiple binding child elements, each of which defines a Tile.
 
 ## Members
 
-The **TileVisual** class has this types of members
+The **TileVisual** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### methods
+### Methods
 
 #### TryReuseTextElementForLockDetailedText(System.Int32 lineNumber,System.String lockText,Microsoft.Toolkit.Uwp.Notifications.Element_TileBinding binding)
 
 Attempts to find and re-use an existing text element inside the binding. Returns true if it could. Otherwise returns false, and the caller will have to specify the detailed status using the lock hint attribute.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || lineNumber | The lock screen line number. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || lockText | The lock screen line text. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || binding | The binding to look in for matches. | [Element_TileBinding](Microsoft_Toolkit_Uwp_Notifications_Element_TileBinding.htm) || return |True if could re-use existing text element, otherwise false. |
+| Name | Description | Type || --- | --- | --- || lineNumber | The lock screen line number. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || lockText | The lock screen line text. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || binding | The binding to look in for matches. | [Element_TileBinding](Microsoft_Toolkit_Uwp_Notifications_Element_TileBinding.htm) || return |True if could re-use existing text element, otherwise false. |
 
 
-### properties
+### Properties
 
 #### Language
 

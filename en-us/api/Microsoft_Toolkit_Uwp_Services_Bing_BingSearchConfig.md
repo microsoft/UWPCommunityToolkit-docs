@@ -14,11 +14,11 @@ Search query configuration.
 
 ## Members
 
-The **BingSearchConfig** class has this types of members
+The **BingSearchConfig** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Country
 

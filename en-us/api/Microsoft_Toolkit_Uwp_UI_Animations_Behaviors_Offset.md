@@ -14,15 +14,15 @@ Performs an offset animation using composition.
 
 ## Members
 
-The **Offset** class has this types of members
+The **Offset** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### methods
+### Methods
 
 #### StartAnimation()
 
@@ -30,7 +30,7 @@ Starts the animation.
 
 
 
-### properties
+### Properties
 
 #### OffsetX
 
@@ -50,7 +50,7 @@ Gets or sets the Offset z.
 
 
 
-### fields
+### Fields
 
 #### OffsetXProperty
 

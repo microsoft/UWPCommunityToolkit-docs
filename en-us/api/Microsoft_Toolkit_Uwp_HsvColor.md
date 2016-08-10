@@ -14,11 +14,11 @@ Defines a color in Hue/Saturation/Value (HSV) space.
 
 ## Members
 
-The **HsvColor** class has this types of members
+The **HsvColor** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### H
 

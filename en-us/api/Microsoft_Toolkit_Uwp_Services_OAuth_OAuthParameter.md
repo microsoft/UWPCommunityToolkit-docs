@@ -14,52 +14,52 @@ OAuth parameter.
 
 ## Members
 
-The **OAuthParameter** class has this types of members
+The **OAuthParameter** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### constructors
+### Constructors
 
 #### contructor
 
 Initializes a new instance of the [OAuthParameter](Microsoft_Toolkit_Uwp_Services_OAuth_OAuthParameter.htm) class. Constructor accepting key and value.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || key | Key. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || value | Value. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+| Name | Description | Type || --- | --- | --- || key | Key. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || value | Value. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
-### methods
+### Methods
 
 #### ToString()
 
 ToString override.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |String representation |
+| Name | Description | Type || --- | --- | --- || return |String representation |
 
 
 #### ToString(System.Boolean withQuotes)
 
 Format key / value into string.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || withQuotes | Whether to create quotes in string. | [Boolean](https://msdn.microsoft.com/library/windows/apps/System.Boolean) || return |Formatted string of key / value. |
+| Name | Description | Type || --- | --- | --- || withQuotes | Whether to create quotes in string. | [Boolean](https://msdn.microsoft.com/library/windows/apps/System.Boolean) || return |Formatted string of key / value. |
 
 
-### properties
+### Properties
 
 #### Key
 

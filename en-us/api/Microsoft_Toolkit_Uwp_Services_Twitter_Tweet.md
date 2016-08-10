@@ -14,11 +14,11 @@ Twitter Timeline item.
 
 ## Members
 
-The **Tweet** class has this types of members
+The **Tweet** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### CreatedAt
 

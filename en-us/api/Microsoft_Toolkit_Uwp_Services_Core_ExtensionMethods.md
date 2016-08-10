@@ -14,48 +14,48 @@ This class offers general purpose methods.
 
 ## Members
 
-The **ExtensionMethods** class has this types of members
+The **ExtensionMethods** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### methods
+### Methods
 
 #### ToSafeString(System.Object value)
 
 Converts object into string.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || value | Object value. | [Object](https://msdn.microsoft.com/library/windows/apps/System.Object) || return |Returns string value. |
+| Name | Description | Type || --- | --- | --- || value | Object value. | [Object](https://msdn.microsoft.com/library/windows/apps/System.Object) || return |Returns string value. |
 
 
 #### DecodeHtml(System.String htmlText)
 
 Decode HTML string.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || htmlText | HTML string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Returns decoded HTML string. |
+| Name | Description | Type || --- | --- | --- || htmlText | HTML string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Returns decoded HTML string. |
 
 
 #### GetStringValue(Microsoft.Toolkit.Uwp.Services.Bing.BingCountry value)
 
 Converts between country code and country name.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || value | BingCountry enumeration. | [BingCountry](Microsoft_Toolkit_Uwp_Services_Bing_BingCountry.htm) || return |Returns country code. |
+| Name | Description | Type || --- | --- | --- || value | BingCountry enumeration. | [BingCountry](Microsoft_Toolkit_Uwp_Services_Bing_BingCountry.htm) || return |Returns country code. |
 
 
-### fields
+### Fields
 
 #### RemoveHtmlTagsRegex
 

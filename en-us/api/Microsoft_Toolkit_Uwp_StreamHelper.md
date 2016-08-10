@@ -14,140 +14,140 @@ This class provides static helper methods for streams.
 
 ## Members
 
-The **StreamHelper** class has this types of members
+The **StreamHelper** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-### methods
+### Methods
 
 #### IsPackagedFileExistsAsync(System.String fileName)
 
 Test if a file exists in the application installation folder.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |True if file exists. |
+| Name | Description | Type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |True if file exists. |
 
 
 #### GetHttpStreamAsync(System.Uri uri)
 
 Get the response stream returned by a HTTP get request.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || uri | Uri to request. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || return |Response stream |
+| Name | Description | Type || --- | --- | --- || uri | Uri to request. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || return |Response stream |
 
 
 #### GetPackagedFileStreamAsync(System.String fileName,Windows.Storage.FileAccessMode accessMode)
 
 Return a stream to a specified file from the installation folder.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || accessMode | File access mode. Default is read. | [FileAccessMode](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.FileAccessMode) || return |File stream |
+| Name | Description | Type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || accessMode | File access mode. Default is read. | [FileAccessMode](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.FileAccessMode) || return |File stream |
 
 
 #### GetLocalFileStreamAsync(System.String fileName,Windows.Storage.FileAccessMode accessMode)
 
 Return a stream to a specified file from the application local folder.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || accessMode | File access mode. Default is read. | [FileAccessMode](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.FileAccessMode) || return |File stream |
+| Name | Description | Type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || accessMode | File access mode. Default is read. | [FileAccessMode](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.FileAccessMode) || return |File stream |
 
 
 #### GetLocalCacheFileStreamAsync(System.String fileName,Windows.Storage.FileAccessMode accessMode)
 
 Return a stream to a specified file from the application local cache folder.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || accessMode | File access mode. Default is read. | [FileAccessMode](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.FileAccessMode) || return |File stream |
+| Name | Description | Type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || accessMode | File access mode. Default is read. | [FileAccessMode](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.FileAccessMode) || return |File stream |
 
 
 #### GetKnowFoldersFileStreamAsync(Windows.Storage.KnownFolderId knownFolderId,System.String fileName,Windows.Storage.FileAccessMode accessMode)
 
 Return a stream to a specified file from the application local cache folder.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || knownFolderId | The well known folder ID to use | [KnownFolderId](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.KnownFolderId) || fileName | Relative name of the file to open. Can contains subfolders. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || accessMode | File access mode. Default is read. | [FileAccessMode](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.FileAccessMode) || return |File stream |
+| Name | Description | Type || --- | --- | --- || knownFolderId | The well known folder ID to use | [KnownFolderId](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.KnownFolderId) || fileName | Relative name of the file to open. Can contains subfolders. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || accessMode | File access mode. Default is read. | [FileAccessMode](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.FileAccessMode) || return |File stream |
 
 
 #### GetHttpStreamToStorageFileAsync(System.Uri uri,Windows.Storage.StorageFile targetFile)
 
 Get the response stream returned by a HTTP get request and save it to a local file.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || uri | Uri to request. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || targetFile | StorageFile to save the stream to. | [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) || return |True if success. |
+| Name | Description | Type || --- | --- | --- || uri | Uri to request. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || targetFile | StorageFile to save the stream to. | [StorageFile](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFile) || return |True if success. |
 
 
 #### IsLocalFileExistsAsync(System.String fileName)
 
 Test if a file exists in the application local folder.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |True if file exists. |
+| Name | Description | Type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |True if file exists. |
 
 
 #### IsLocalCacheFileExistsAsync(System.String fileName)
 
 Test if a file exists in the application local cache folder.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |True if file exists. |
+| Name | Description | Type || --- | --- | --- || fileName | Relative name of the file to open. Can contains subfolders. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |True if file exists. |
 
 
 #### IsKnownFolderFileExistsAsync(Windows.Storage.KnownFolderId knownFolderId,System.String fileName)
 
 Test if a file exists in the application local cache folder.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || knownFolderId | The well known folder ID to use | [KnownFolderId](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.KnownFolderId) || fileName | Relative name of the file to open. Can contains subfolders. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |True if file exists. |
+| Name | Description | Type || --- | --- | --- || knownFolderId | The well known folder ID to use | [KnownFolderId](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.KnownFolderId) || fileName | Relative name of the file to open. Can contains subfolders. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |True if file exists. |
 
 
 #### IsFileExistsAsync(Windows.Storage.StorageFolder workingFolder,System.String fileName)
 
 Test if a file exists in the application local folder.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || workingFolder | Folder to use. | [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) || fileName | Relative name of the file to open. Can contains subfolders. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |True if file exists. |
+| Name | Description | Type || --- | --- | --- || workingFolder | Folder to use. | [StorageFolder](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.StorageFolder) || fileName | Relative name of the file to open. Can contains subfolders. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |True if file exists. |
 
 
 #### ReadTextAsync(Windows.Storage.Streams.IRandomAccessStream stream,System.Text.Encoding encoding)
 
 Read stream content as a string.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || stream | Stream to read from. | [IRandomAccessStream](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.Streams.IRandomAccessStream) || encoding | Encoding to use. Can be set to null (ASCII will be used in this case). | [Encoding](https://msdn.microsoft.com/library/windows/apps/System.Text.Encoding) || return |Stream content. |
+| Name | Description | Type || --- | --- | --- || stream | Stream to read from. | [IRandomAccessStream](https://msdn.microsoft.com/library/windows/apps/Windows.Storage.Streams.IRandomAccessStream) || encoding | Encoding to use. Can be set to null (ASCII will be used in this case). | [Encoding](https://msdn.microsoft.com/library/windows/apps/System.Text.Encoding) || return |Stream content. |
 

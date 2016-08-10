@@ -14,11 +14,11 @@ Country filter for search query.
 
 ## Members
 
-The **BingCountry** class has this types of members
+The **BingCountry** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### Lebanon
 

@@ -14,15 +14,15 @@ A base class for all behaviors using composition.It contains some of the common 
 
 ## Members
 
-The **CompositionBehaviorBase** class has this types of members
+The **CompositionBehaviorBase** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### methods
+### Methods
 
 #### OnAttached()
 
@@ -40,14 +40,14 @@ Starts the animation.
 
 If any of the properties are changed then the animation is automatically started depending on the AutomaticallyStart property.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || dependencyObject | The dependency object. | [DependencyObject](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.DependencyObject) || dependencyPropertyChangedEventArgs | The [DependencyPropertyChangedEventArgs](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.DependencyPropertyChangedEventArgs) instance containing the event data. | [DependencyPropertyChangedEventArgs](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.DependencyPropertyChangedEventArgs) |
+| Name | Description | Type || --- | --- | --- || dependencyObject | The dependency object. | [DependencyObject](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.DependencyObject) || dependencyPropertyChangedEventArgs | The [DependencyPropertyChangedEventArgs](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.DependencyPropertyChangedEventArgs) instance containing the event data. | [DependencyPropertyChangedEventArgs](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.DependencyPropertyChangedEventArgs) |
 
 
-### properties
+### Properties
 
 #### AutomaticallyStart
 
@@ -67,7 +67,7 @@ Gets or sets the duration.
 
 
 
-### fields
+### Fields
 
 #### DurationProperty
 

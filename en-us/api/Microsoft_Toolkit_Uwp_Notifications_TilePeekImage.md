@@ -14,11 +14,11 @@ A peek image that animates in from the top of the Tile.
 
 ## Members
 
-The **TilePeekImage** class has this types of members
+The **TilePeekImage** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Source
 

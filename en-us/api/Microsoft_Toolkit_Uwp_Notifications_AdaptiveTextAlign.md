@@ -14,11 +14,11 @@ Controls the horizontal alignment of text.
 
 ## Members
 
-The **AdaptiveTextAlign** class has this types of members
+The **AdaptiveTextAlign** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### Default
 

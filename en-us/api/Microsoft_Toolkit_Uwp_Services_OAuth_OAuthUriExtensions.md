@@ -14,41 +14,41 @@ OAuth Uri extensions.
 
 ## Members
 
-The **OAuthUriExtensions** class has this types of members
+The **OAuthUriExtensions** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-### methods
+### Methods
 
 #### GetQueryParams(System.Uri uri)
 
 Get query parameters from Uri.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || uri | Uri to process. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || return |Dictionary of query parameters. |
+| Name | Description | Type || --- | --- | --- || uri | Uri to process. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || return |Dictionary of query parameters. |
 
 
 #### AbsoluteWithoutQuery(System.Uri uri)
 
 Get absolute Uri.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || uri | Uri to process. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || return |Uri without query string. |
+| Name | Description | Type || --- | --- | --- || uri | Uri to process. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || return |Uri without query string. |
 
 
 #### Normalize(System.Uri uri)
 
 Normalize the Uri into string.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || uri | Uri to process. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || return |Normalized string. |
+| Name | Description | Type || --- | --- | --- || uri | Uri to process. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || return |Normalized string. |
 

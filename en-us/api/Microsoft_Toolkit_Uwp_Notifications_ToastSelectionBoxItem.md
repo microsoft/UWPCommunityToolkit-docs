@@ -14,26 +14,26 @@ A selection box item (an item that the user can select from the drop down list).
 
 ## Members
 
-The **ToastSelectionBoxItem** class has this types of members
+The **ToastSelectionBoxItem** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### constructors
+### Constructors
 
 #### contructor
 
 Constructs a new Toast SelectionBoxItem with the required elements.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || id | Developer-provided ID that the developer uses later to retrieve input when the Toast is interacted with. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || content | String that is displayed on the selection item. This is what the user sees. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+| Name | Description | Type || --- | --- | --- || id | Developer-provided ID that the developer uses later to retrieve input when the Toast is interacted with. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || content | String that is displayed on the selection item. This is what the user sees. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
-### properties
+### Properties
 
 #### Id
 

@@ -14,11 +14,11 @@ Supported on Small and Medium. Enables an iconic Tile template, where you can ha
 
 ## Members
 
-The **TileBindingContentIconic** class has this types of members
+The **TileBindingContentIconic** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Icon
 

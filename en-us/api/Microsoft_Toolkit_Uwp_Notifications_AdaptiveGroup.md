@@ -14,11 +14,11 @@ Groups semantically identify that the content in the group must either be displa
 
 ## Members
 
-The **AdaptiveGroup** class has this types of members
+The **AdaptiveGroup** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Children
 

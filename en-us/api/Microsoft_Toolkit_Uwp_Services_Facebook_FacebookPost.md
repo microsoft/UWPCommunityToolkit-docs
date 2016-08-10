@@ -14,11 +14,11 @@ Strongly typed object for presenting post data returned from service provider.
 
 ## Members
 
-The **FacebookPost** class has this types of members
+The **FacebookPost** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Id
 

@@ -14,15 +14,15 @@ Notification content object to display a glyph on a Tile's badge.
 
 ## Members
 
-The **BadgeGlyphContent** class has this types of members
+The **BadgeGlyphContent** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### constructors
+### Constructors
 
 #### contructor
 
@@ -34,49 +34,49 @@ Default constructor to create a glyph badge content object.
 
 Constructor to create a glyph badge content object with a glyph.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || glyph | The glyph to be displayed on the badge. | [BadgeGlyphValue](Microsoft_Toolkit_Uwp_Notifications_BadgeGlyphValue.htm) |
+| Name | Description | Type || --- | --- | --- || glyph | The glyph to be displayed on the badge. | [BadgeGlyphValue](Microsoft_Toolkit_Uwp_Notifications_BadgeGlyphValue.htm) |
 
 
-### methods
+### Methods
 
 #### GetContent()
 
 Retrieves the notification Xml content as a string.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |The notification Xml content as a string. |
+| Name | Description | Type || --- | --- | --- || return |The notification Xml content as a string. |
 
 
 #### ToString()
 
 Retrieves the notification XML content as a string.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |The notification XML content as a string. |
+| Name | Description | Type || --- | --- | --- || return |The notification XML content as a string. |
 
 
 #### GetXml()
 
 Retrieves the notification XML content as a WinRT Xml document.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |The notification XML content as a WinRT Xml document. |
+| Name | Description | Type || --- | --- | --- || return |The notification XML content as a WinRT Xml document. |
 
 
-### properties
+### Properties
 
 #### Glyph
 

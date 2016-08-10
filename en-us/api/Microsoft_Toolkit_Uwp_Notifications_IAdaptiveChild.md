@@ -14,4 +14,4 @@ Elements that can be direct children of adaptive content, including ([AdaptiveTe
 
 ## Members
 
-The **IAdaptiveChild** class has this types of members
+The **IAdaptiveChild** class has the following types of members:

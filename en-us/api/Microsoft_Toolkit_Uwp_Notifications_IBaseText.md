@@ -14,11 +14,11 @@ Defines the basic properties of a text element.
 
 ## Members
 
-The **IBaseText** class has this types of members
+The **IBaseText** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Text
 

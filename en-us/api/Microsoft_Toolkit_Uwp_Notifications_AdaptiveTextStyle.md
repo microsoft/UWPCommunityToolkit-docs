@@ -14,11 +14,11 @@ Text style controls font size, weight, and opacity.
 
 ## Members
 
-The **AdaptiveTextStyle** class has this types of members
+The **AdaptiveTextStyle** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### Title
 

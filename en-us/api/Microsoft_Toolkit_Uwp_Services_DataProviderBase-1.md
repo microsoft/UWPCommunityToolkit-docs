@@ -14,41 +14,41 @@ Base class for data providers in this library.
 
 ## Members
 
-The **DataProviderBase of (T1)** class has this types of members
+The **DataProviderBase of (T1)** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-### methods
+### Methods
 
 #### LoadDataAsync``1(T0 config,System.Int32 maxRecords,Microsoft.Toolkit.Uwp.Services.IParser(TT0) parser)
 
 Load data from provider endpoint.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || config | Query configuration. | T0 || maxRecords | Upper record limit. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || parser | Parser to use for results. | Microsoft.Toolkit.Uwp.Services.IParser(TT0) || return |Strong typed list of results. |
+| Name | Description | Type || --- | --- | --- || config | Query configuration. | T0 || maxRecords | Upper record limit. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || parser | Parser to use for results. | Microsoft.Toolkit.Uwp.Services.IParser(TT0) || return |Strong typed list of results. |
 
 
 #### GetDataAsync``1(T0 config,System.Int32 maxRecords,Microsoft.Toolkit.Uwp.Services.IParser(TT0) parser)
 
 Derived classes will have to implement this method to return provider data
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || config | Configuration to use | T0 || maxRecords | Maximum number of records to return | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || parser | Parser to use | Microsoft.Toolkit.Uwp.Services.IParser(TT0) || return |List of data |
+| Name | Description | Type || --- | --- | --- || config | Configuration to use | T0 || maxRecords | Maximum number of records to return | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || parser | Parser to use | Microsoft.Toolkit.Uwp.Services.IParser(TT0) || return |List of data |
 
 
 #### ValidateConfig(T0 config)
 
 Method provided by derived class to validate specified configuration
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || config | Configuration to validate | T0 |
+| Name | Description | Type || --- | --- | --- || config | Configuration to validate | T0 |
 

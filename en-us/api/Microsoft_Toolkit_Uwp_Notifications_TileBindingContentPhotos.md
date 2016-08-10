@@ -14,11 +14,11 @@ Animates through a slideshow of photos. Supported on all sizes.
 
 ## Members
 
-The **TileBindingContentPhotos** class has this types of members
+The **TileBindingContentPhotos** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Images
 

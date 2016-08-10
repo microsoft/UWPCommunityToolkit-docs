@@ -14,19 +14,19 @@ The ImageEx control extends the default Image platform control improving the per
 
 ## Members
 
-The **ImageEx** class has this types of members
+The **ImageEx** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-* [events](#events)
+* [Events](#Events)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### constructors
+### Constructors
 
 #### contructor
 
@@ -34,28 +34,28 @@ Initializes a new instance of the [ImageEx](Microsoft_Toolkit_Uwp_UI_Controls_Im
 
 
 
-### methods
+### Methods
 
 #### GetAsCastingSource()
 
 Returns the image as a [CastingSource](https://msdn.microsoft.com/library/windows/apps/Windows.Media.Casting.CastingSource).
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |The image as a [CastingSource](https://msdn.microsoft.com/library/windows/apps/Windows.Media.Casting.CastingSource). |
+| Name | Description | Type || --- | --- | --- || return |The image as a [CastingSource](https://msdn.microsoft.com/library/windows/apps/Windows.Media.Casting.CastingSource). |
 
 
 #### MeasureOverride(Windows.Foundation.Size availableSize)
 
 Measures the size in layout required for child elements and determines a size for the control.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || availableSize | The available size that this element can give to child elements. Infinity can be specified as a value to indicate that the element will size to whatever content is available. | [Size](https://msdn.microsoft.com/library/windows/apps/Windows.Foundation.Size) || return |The size that this element determines it needs during layout, based on its calculations of child element sizes. |
+| Name | Description | Type || --- | --- | --- || availableSize | The available size that this element can give to child elements. Infinity can be specified as a value to indicate that the element will size to whatever content is available. | [Size](https://msdn.microsoft.com/library/windows/apps/Windows.Foundation.Size) || return |The size that this element determines it needs during layout, based on its calculations of child element sizes. |
 
 
 #### OnApplyTemplate()
@@ -64,7 +64,7 @@ Update the visual state of the control when its template is changed.
 
 
 
-### properties
+### Properties
 
 #### Source
 
@@ -108,7 +108,7 @@ Gets or sets the placeholder animation duration.
 
 
 
-### events
+### Events
 
 #### ImageOpened
 
@@ -122,7 +122,7 @@ Event raised if the image failed loading.
 
 
 
-### fields
+### Fields
 
 #### PlaceholderAnimationDurationProperty
 

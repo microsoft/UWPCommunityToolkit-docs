@@ -14,15 +14,15 @@ Performs an fade animation using composition.
 
 ## Members
 
-The **Fade** class has this types of members
+The **Fade** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### methods
+### Methods
 
 #### StartAnimation()
 
@@ -30,7 +30,7 @@ Starts the animation.
 
 
 
-### properties
+### Properties
 
 #### Value
 
@@ -38,7 +38,7 @@ Gets or sets the Opacity.
 
 
 
-### fields
+### Fields
 
 #### ValueProperty
 

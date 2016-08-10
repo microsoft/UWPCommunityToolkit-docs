@@ -14,13 +14,13 @@ HttpRequestSettings for holding request settings.
 
 ## Members
 
-The **HttpRequestSettings** class has this types of members
+The **HttpRequestSettings** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### constructors
+### Constructors
 
 #### contructor
 
@@ -28,7 +28,7 @@ Initializes a new instance of the [HttpRequestSettings](Microsoft_Toolkit_Uwp_Se
 
 
 
-### properties
+### Properties
 
 #### RequestedUri
 

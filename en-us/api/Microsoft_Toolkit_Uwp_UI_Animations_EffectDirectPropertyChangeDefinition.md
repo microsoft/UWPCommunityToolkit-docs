@@ -14,11 +14,11 @@ Defines an [EffectDirectPropertyChangeDefinition](Microsoft_Toolkit_Uwp_UI_Anima
 
 ## Members
 
-The **EffectDirectPropertyChangeDefinition** class has this types of members
+The **EffectDirectPropertyChangeDefinition** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### EffectBrush
 

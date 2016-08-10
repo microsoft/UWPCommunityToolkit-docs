@@ -14,26 +14,26 @@ A text element on the Tile.
 
 ## Members
 
-The **TileBasicText** class has this types of members
+The **TileBasicText** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### methods
+### Methods
 
 #### ToString()
 
 Returns the Text property's value.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |The Text property's value. |
+| Name | Description | Type || --- | --- | --- || return |The Text property's value. |
 
 
-### properties
+### Properties
 
 #### Text
 

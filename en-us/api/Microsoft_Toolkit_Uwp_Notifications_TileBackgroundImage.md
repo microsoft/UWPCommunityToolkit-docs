@@ -14,11 +14,11 @@ A full-bleed background image that appears beneath the Tile content.
 
 ## Members
 
-The **TileBackgroundImage** class has this types of members
+The **TileBackgroundImage** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Source
 

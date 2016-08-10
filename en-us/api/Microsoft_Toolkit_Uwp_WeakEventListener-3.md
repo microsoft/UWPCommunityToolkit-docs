@@ -14,40 +14,40 @@ Implements a weak event listener that allows the owner to be garbage collected i
 
 ## Members
 
-The **WeakEventListener of (T1, T2, T3)** class has this types of members
+The **WeakEventListener of (T1, T2, T3)** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### constructors
+### Constructors
 
 #### contructor
 
 Initializes a new instance of the [WeakEventListener of (T1, T2, T3)](Microsoft_Toolkit_Uwp_WeakEventListener-3.htm) class.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || instance | Instance subscribing to the event. | T0 |
+| Name | Description | Type || --- | --- | --- || instance | Instance subscribing to the event. | T0 |
 
 
-### methods
+### Methods
 
 #### OnEvent(T1 source,T2 eventArgs)
 
 Handler for the subscribed event calls OnEventAction to handle it.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || source | Event source. | T1 || eventArgs | Event arguments. | T2 |
+| Name | Description | Type || --- | --- | --- || source | Event source. | T1 || eventArgs | Event arguments. | T2 |
 
 
 #### Detach()
@@ -56,7 +56,7 @@ Detaches from the subscribed event.
 
 
 
-### properties
+### Properties
 
 #### OnEventAction
 
@@ -70,7 +70,7 @@ Gets or sets the method to call when detaching from the event.
 
 
 
-### fields
+### Fields
 
 #### weakInstance
 

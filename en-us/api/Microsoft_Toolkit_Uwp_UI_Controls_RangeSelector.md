@@ -14,19 +14,19 @@ RangeSelector is a "double slider" control for range values.
 
 ## Members
 
-The **RangeSelector** class has this types of members
+The **RangeSelector** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-* [events](#events)
+* [Events](#Events)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### constructors
+### Constructors
 
 #### contructor
 
@@ -34,7 +34,7 @@ Initializes a new instance of the [RangeSelector](Microsoft_Toolkit_Uwp_UI_Contr
 
 
 
-### methods
+### Methods
 
 #### OnApplyTemplate()
 
@@ -42,7 +42,7 @@ Update the visual state of the control when its template is changed.
 
 
 
-### properties
+### Properties
 
 #### RangeMin
 
@@ -68,7 +68,7 @@ Gets or sets the current upper limit value of the range.
 
 
 
-### events
+### Events
 
 #### ValueChanged
 
@@ -76,7 +76,7 @@ Event raised when lower or upper range values are changed.
 
 
 
-### fields
+### Fields
 
 #### MaximumProperty
 

@@ -14,11 +14,11 @@ The binding element contains the visual content for a specific Tile size.
 
 ## Members
 
-The **TileBinding** class has this types of members
+The **TileBinding** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Language
 

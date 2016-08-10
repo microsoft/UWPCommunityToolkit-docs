@@ -14,11 +14,11 @@ Implementation of the Bing result class.
 
 ## Members
 
-The **BingResult** class has this types of members
+The **BingResult** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Title
 

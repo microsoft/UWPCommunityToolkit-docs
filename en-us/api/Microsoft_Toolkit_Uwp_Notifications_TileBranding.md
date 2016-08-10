@@ -14,11 +14,11 @@ The form that the Tile should use to display the app's brand.
 
 ## Members
 
-The **TileBranding** class has this types of members
+The **TileBranding** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### Auto
 

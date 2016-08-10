@@ -14,4 +14,4 @@ An input element on a Toast notification. One of [ToastTextBox](Microsoft_Toolki
 
 ## Members
 
-The **IToastInput** class has this types of members
+The **IToastInput** class has the following types of members:

@@ -14,11 +14,11 @@ Specify audio to be played when the Toast notification is received.
 
 ## Members
 
-The **ToastAudio** class has this types of members
+The **ToastAudio** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Src
 

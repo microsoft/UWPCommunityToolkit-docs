@@ -14,17 +14,17 @@ An items control that presents enumerable content similar to the live tiles on t
 
 ## Members
 
-The **RotatorTile** class has this types of members
+The **RotatorTile** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### constructors
+### Constructors
 
 #### contructor
 
@@ -32,7 +32,7 @@ Initializes a new instance of the [RotatorTile](Microsoft_Toolkit_Uwp_UI_Control
 
 
 
-### methods
+### Methods
 
 #### OnApplyTemplate()
 
@@ -46,7 +46,7 @@ Triggered when it's time to flip to the next live tile.
 
 
 
-### properties
+### Properties
 
 #### CurrentItem
 
@@ -72,7 +72,7 @@ Gets or sets the item template
 
 
 
-### fields
+### Fields
 
 #### ItemTemplateProperty
 

@@ -14,15 +14,15 @@ Performs a rotation animation using composition.
 
 ## Members
 
-The **Rotate** class has this types of members
+The **Rotate** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### methods
+### Methods
 
 #### StartAnimation()
 
@@ -30,7 +30,7 @@ Starts the animation.
 
 
 
-### properties
+### Properties
 
 #### CenterX
 
@@ -56,7 +56,7 @@ Gets or sets the Rotation in degrees.
 
 
 
-### fields
+### Fields
 
 #### ValueProperty
 

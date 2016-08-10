@@ -14,13 +14,13 @@ A button that, when clicked, is interpreted as a "dismiss" by the system, and th
 
 ## Members
 
-The **ToastButtonDismiss** class has this types of members
+The **ToastButtonDismiss** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### constructors
+### Constructors
 
 #### contructor
 
@@ -32,14 +32,14 @@ Initializes a system-handled dismiss button that displays localized "Dismiss" te
 
 Constructs a system-handled dismiss button that displays your text on the button.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || customContent | The text you want displayed on the button. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+| Name | Description | Type || --- | --- | --- || customContent | The text you want displayed on the button. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
-### properties
+### Properties
 
 #### CustomContent
 

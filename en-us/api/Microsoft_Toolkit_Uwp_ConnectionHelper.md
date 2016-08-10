@@ -14,11 +14,11 @@ This class provides static helper methods for connections.
 
 ## Members
 
-The **ConnectionHelper** class has this types of members
+The **ConnectionHelper** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### IsInternetOnMeteredConnection
 
@@ -30,9 +30,9 @@ Gets a value indicating whether if the current internet connection is metered.
 
 Gets a value indicating whether internet is available across all connections.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |True if internet can be reached. |
+| Name | Description | Type || --- | --- | --- || return |True if internet can be reached. |
 

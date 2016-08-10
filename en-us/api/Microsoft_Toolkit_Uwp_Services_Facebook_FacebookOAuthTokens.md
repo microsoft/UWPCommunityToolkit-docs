@@ -14,11 +14,11 @@ Facebook OAuth tokens.
 
 ## Members
 
-The **FacebookOAuthTokens** class has this types of members
+The **FacebookOAuthTokens** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### AppId
 

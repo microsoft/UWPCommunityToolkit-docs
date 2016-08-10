@@ -14,48 +14,48 @@ Provides methods and tools to cache images in a temporary local folder
 
 ## Members
 
-The **ImageCache** class has this types of members
+The **ImageCache** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### methods
+### Methods
 
 #### ClearAsync(System.Nullable(System.TimeSpan) duration)
 
 call this method to clear the entire cache.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || duration | Use this parameter to define a timespan from now to select cache entries to delete. | System.Nullable(System.TimeSpan) || return |Task |
+| Name | Description | Type || --- | --- | --- || duration | Use this parameter to define a timespan from now to select cache entries to delete. | System.Nullable(System.TimeSpan) || return |Task |
 
 
 #### GetFromCacheAsync(System.Uri uri)
 
 Load a specific image from the cache. If the image is not in the cache, ImageCache will try to download and store it.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || uri | Uri of the image. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || return |a BitmapImage |
+| Name | Description | Type || --- | --- | --- || uri | Uri of the image. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || return |a BitmapImage |
 
 
 #### GetCacheFileName(System.Uri uri)
 
 Gets the local cache file name associated with a specified Uri.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || uri | Uri of the resource. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || return |Filename associated with the Uri. |
+| Name | Description | Type || --- | --- | --- || uri | Uri of the resource. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || return |Filename associated with the Uri. |
 
 
-### properties
+### Properties
 
 #### CacheDuration
 

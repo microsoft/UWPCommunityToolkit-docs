@@ -14,13 +14,13 @@ Defines an attribution text element to be displayed on the Toast notification.
 
 ## Members
 
-The **ToastGenericAttributionText** class has this types of members
+The **ToastGenericAttributionText** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### constructors
+### Constructors
 
 #### contructor
 
@@ -28,7 +28,7 @@ Initializes an attribution text element to be displayed on the Toast notificatio
 
 
 
-### properties
+### Properties
 
 #### Text
 

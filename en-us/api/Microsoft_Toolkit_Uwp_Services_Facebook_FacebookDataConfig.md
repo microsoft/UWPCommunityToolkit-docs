@@ -14,11 +14,11 @@ Configuration object for specifying richer query information.
 
 ## Members
 
-The **FacebookDataConfig** class has this types of members
+The **FacebookDataConfig** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### MyFeed
 

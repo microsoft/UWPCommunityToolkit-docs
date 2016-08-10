@@ -14,11 +14,11 @@ Contains the base properties that an image needs.
 
 ## Members
 
-The **IBaseImage** class has this types of members
+The **IBaseImage** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Source
 

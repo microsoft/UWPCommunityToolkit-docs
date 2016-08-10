@@ -14,13 +14,13 @@ Specify the desired cropping of the image.
 
 ## Members
 
-The **ToastImageCrop** class has this types of members
+The **ToastImageCrop** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### properties
+### Properties
 
 #### Id
 
@@ -58,7 +58,7 @@ The text to display for this selection element.
 
 
 
-### fields
+### Fields
 
 #### None
 

@@ -14,4 +14,4 @@ Exception returned when invalid notification content is provided.
 
 ## Members
 
-The **NotificationContentValidationException** class has this types of members
+The **NotificationContentValidationException** class has the following types of members:

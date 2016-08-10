@@ -14,11 +14,11 @@ New in 1511: Supported on Medium, Wide, and Large (Desktop and Mobile). Previous
 
 ## Members
 
-The **TileBindingContentPeople** class has this types of members
+The **TileBindingContentPeople** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Images
 

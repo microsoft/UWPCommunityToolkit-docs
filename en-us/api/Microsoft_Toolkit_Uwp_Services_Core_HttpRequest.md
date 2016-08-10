@@ -14,41 +14,41 @@ Core HttpRequest class.
 
 ## Members
 
-The **HttpRequest** class has this types of members
+The **HttpRequest** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-### methods
+### Methods
 
 #### DownloadAsync(Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings settings)
 
 Downloads data with specified settings.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || settings | HttpRequestSettings instance. | [HttpRequestSettings](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestSettings.htm) || return |Returns HttpRequestResult instance. |
+| Name | Description | Type || --- | --- | --- || settings | HttpRequestSettings instance. | [HttpRequestSettings](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestSettings.htm) || return |Returns HttpRequestResult instance. |
 
 
 #### AddRequestHeaders(Windows.Web.Http.HttpClient httpClient,Microsoft.Toolkit.Uwp.Services.Core.HttpRequestSettings settings)
 
 Add default request headers to HttpClient object.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || httpClient | HttpClient instance. | [HttpClient](https://msdn.microsoft.com/library/windows/apps/Windows.Web.Http.HttpClient) || settings | HttpRequestSettings instance. | [HttpRequestSettings](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestSettings.htm) |
+| Name | Description | Type || --- | --- | --- || httpClient | HttpClient instance. | [HttpClient](https://msdn.microsoft.com/library/windows/apps/Windows.Web.Http.HttpClient) || settings | HttpRequestSettings instance. | [HttpRequestSettings](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestSettings.htm) |
 
 
 #### FixInvalidCharset(Windows.Web.Http.HttpResponseMessage response)
 
 Fix invalid charset returned by some web sites.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || response | HttpResponseMessage instance. | [HttpResponseMessage](https://msdn.microsoft.com/library/windows/apps/Windows.Web.Http.HttpResponseMessage) |
+| Name | Description | Type || --- | --- | --- || response | HttpResponseMessage instance. | [HttpResponseMessage](https://msdn.microsoft.com/library/windows/apps/Windows.Web.Http.HttpResponseMessage) |
 

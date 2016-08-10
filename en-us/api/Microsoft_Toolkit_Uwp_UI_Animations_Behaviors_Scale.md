@@ -14,15 +14,15 @@ Performs a scale animation using composition.
 
 ## Members
 
-The **Scale** class has this types of members
+The **Scale** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### methods
+### Methods
 
 #### StartAnimation()
 
@@ -30,7 +30,7 @@ Starts the animation.
 
 
 
-### properties
+### Properties
 
 #### ScaleX
 
@@ -68,7 +68,7 @@ Gets or sets the scale on the y axis.
 
 
 
-### fields
+### Fields
 
 #### ScaleYProperty
 

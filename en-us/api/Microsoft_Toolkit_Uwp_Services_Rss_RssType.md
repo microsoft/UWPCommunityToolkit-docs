@@ -14,11 +14,11 @@ Type of Rss.
 
 ## Members
 
-The **RssType** class has this types of members
+The **RssType** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### Atom
 

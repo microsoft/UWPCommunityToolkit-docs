@@ -14,11 +14,11 @@ The amount of time the Toast should display.
 
 ## Members
 
-The **ToastDuration** class has this types of members
+The **ToastDuration** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### Short
 

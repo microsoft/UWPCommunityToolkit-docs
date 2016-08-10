@@ -14,11 +14,11 @@ Generic Toast binding, where you provide text, images, and other visual elements
 
 ## Members
 
-The **ToastBindingGeneric** class has this types of members
+The **ToastBindingGeneric** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Children
 

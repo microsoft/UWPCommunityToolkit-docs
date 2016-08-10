@@ -14,11 +14,11 @@ Defines an [EffectAnimationDefinition](Microsoft_Toolkit_Uwp_UI_Animations_Effec
 
 ## Members
 
-The **EffectAnimationDefinition** class has this types of members
+The **EffectAnimationDefinition** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### EffectBrush
 

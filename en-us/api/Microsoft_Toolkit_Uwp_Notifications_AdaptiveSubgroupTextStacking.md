@@ -14,11 +14,11 @@ TextStacking specifies the vertical alignment of content.
 
 ## Members
 
-The **AdaptiveSubgroupTextStacking** class has this types of members
+The **AdaptiveSubgroupTextStacking** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### Default
 

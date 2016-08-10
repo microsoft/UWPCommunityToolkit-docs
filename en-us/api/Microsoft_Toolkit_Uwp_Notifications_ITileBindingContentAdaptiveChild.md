@@ -14,4 +14,4 @@ Elements that can be direct children of [TileBindingContentAdaptive](Microsoft_T
 
 ## Members
 
-The **ITileBindingContentAdaptiveChild** class has this types of members
+The **ITileBindingContentAdaptiveChild** class has the following types of members:

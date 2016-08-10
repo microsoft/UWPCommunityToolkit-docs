@@ -14,11 +14,11 @@ Actions to display on a Toast notification. One of [ToastActionsCustom](Microsof
 
 ## Members
 
-The **IToastActions** class has this types of members
+The **IToastActions** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### ContextMenuItems
 

@@ -14,26 +14,26 @@ A Toast context menu item.
 
 ## Members
 
-The **ToastContextMenuItem** class has this types of members
+The **ToastContextMenuItem** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### constructors
+### Constructors
 
 #### contructor
 
 Initializes a Toast context menu item with the required properties.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || content | The text to display on the menu item. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || arguments | App-defined string of arguments that the app can later retrieve once it is activated when the user clicks the menu item. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+| Name | Description | Type || --- | --- | --- || content | The text to display on the menu item. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || arguments | App-defined string of arguments that the app can later retrieve once it is activated when the user clicks the menu item. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
-### properties
+### Properties
 
 #### Content
 

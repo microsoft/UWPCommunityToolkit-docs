@@ -14,11 +14,11 @@ Decides the type of activation that will be used when the user interacts with th
 
 ## Members
 
-The **ToastActivationType** class has this types of members
+The **ToastActivationType** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### Foreground
 

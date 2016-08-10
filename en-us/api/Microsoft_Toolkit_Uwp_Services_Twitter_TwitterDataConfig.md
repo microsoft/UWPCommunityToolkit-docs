@@ -14,11 +14,11 @@ Query string configuration.
 
 ## Members
 
-The **TwitterDataConfig** class has this types of members
+The **TwitterDataConfig** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### QueryType
 

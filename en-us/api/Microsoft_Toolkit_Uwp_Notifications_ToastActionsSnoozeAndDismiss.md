@@ -14,11 +14,11 @@ Automatically constructs a selection box for snooze intervals, and snooze/dismis
 
 ## Members
 
-The **ToastActionsSnoozeAndDismiss** class has this types of members
+The **ToastActionsSnoozeAndDismiss** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### ContextMenuItems
 

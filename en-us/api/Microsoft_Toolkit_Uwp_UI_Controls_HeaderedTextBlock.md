@@ -14,17 +14,17 @@ Defines a control for providing a header for read-only text.
 
 ## Members
 
-The **HeaderedTextBlock** class has this types of members
+The **HeaderedTextBlock** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### constructors
+### Constructors
 
 #### contructor
 
@@ -32,7 +32,7 @@ Initializes a new instance of the [HeaderedTextBlock](Microsoft_Toolkit_Uwp_UI_C
 
 
 
-### methods
+### Methods
 
 #### OnApplyTemplate()
 
@@ -40,7 +40,7 @@ Called when applying the control template.
 
 
 
-### properties
+### Properties
 
 #### Text
 
@@ -72,7 +72,7 @@ Gets or sets the orientation.
 
 
 
-### fields
+### Fields
 
 #### TextProperty
 

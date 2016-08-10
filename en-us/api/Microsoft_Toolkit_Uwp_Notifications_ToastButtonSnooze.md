@@ -14,13 +14,13 @@ A system-handled snooze button that automatically handles snoozing of a Toast no
 
 ## Members
 
-The **ToastButtonSnooze** class has this types of members
+The **ToastButtonSnooze** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### constructors
+### Constructors
 
 #### contructor
 
@@ -32,14 +32,14 @@ Initializes a system-handled snooze button that displays localized "Snooze" text
 
 Initializes a system-handled snooze button that displays your text on the button and automatically handles snoozing.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || customContent | The text you want displayed on the button. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+| Name | Description | Type || --- | --- | --- || customContent | The text you want displayed on the button. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
-### properties
+### Properties
 
 #### CustomContent
 

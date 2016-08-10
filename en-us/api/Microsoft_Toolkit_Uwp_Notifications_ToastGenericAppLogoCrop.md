@@ -14,11 +14,11 @@ Specify the desired cropping of the image.
 
 ## Members
 
-The **ToastGenericAppLogoCrop** class has this types of members
+The **ToastGenericAppLogoCrop** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### Default
 

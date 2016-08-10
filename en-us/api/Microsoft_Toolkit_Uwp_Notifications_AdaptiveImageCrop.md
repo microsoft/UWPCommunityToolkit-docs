@@ -14,11 +14,11 @@ Specify the desired cropping of the image.
 
 ## Members
 
-The **AdaptiveImageCrop** class has this types of members
+The **AdaptiveImageCrop** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### Default
 

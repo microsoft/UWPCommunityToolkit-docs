@@ -14,30 +14,30 @@ Base class for data providers in this library.
 
 ## Members
 
-The **DataProviderBase of (T1, T2)** class has this types of members
+The **DataProviderBase of (T1, T2)** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-### methods
+### Methods
 
 #### LoadDataAsync(T0 config,System.Int32 maxRecords)
 
 Load data from provider endpoint.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || config | Query configuration. | T0 || maxRecords | Upper record limit. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || return |List of strong typed objects. |
+| Name | Description | Type || --- | --- | --- || config | Query configuration. | T0 || maxRecords | Upper record limit. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || return |List of strong typed objects. |
 
 
 #### GetDefaultParser(T0 config)
 
 Default parser abstract method.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || config | Query configuration object. | T0 || return |Strong typed default parser. |
+| Name | Description | Type || --- | --- | --- || config | Query configuration object. | T0 || return |Strong typed default parser. |
 

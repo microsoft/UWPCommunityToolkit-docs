@@ -14,13 +14,13 @@ The logo that is displayed on your Toast notification.
 
 ## Members
 
-The **ToastGenericAppLogo** class has this types of members
+The **ToastGenericAppLogo** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### constructors
+### Constructors
 
 #### contructor
 
@@ -28,7 +28,7 @@ Initializes a logo that is displayed on your Toast notification.
 
 
 
-### properties
+### Properties
 
 #### Source
 

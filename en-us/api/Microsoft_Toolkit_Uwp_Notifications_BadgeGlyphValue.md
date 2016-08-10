@@ -14,11 +14,11 @@ The types of glyphs that can be placed on a badge.
 
 ## Members
 
-The **BadgeGlyphValue** class has this types of members
+The **BadgeGlyphValue** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### Busy
 

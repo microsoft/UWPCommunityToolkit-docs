@@ -14,11 +14,11 @@ Exception for revoked OAuth keys.
 
 ## Members
 
-The **OAuthKeysRevokedException** class has this types of members
+The **OAuthKeysRevokedException** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-### constructors
+### Constructors
 
 #### contructor
 
@@ -30,20 +30,20 @@ Initializes a new instance of the [OAuthKeysRevokedException](Microsoft_Toolkit_
 
 Initializes a new instance of the [OAuthKeysRevokedException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysRevokedException.htm) class. Constructor with additional message.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || message | Additional message | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+| Name | Description | Type || --- | --- | --- || message | Additional message | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
 #### contructor
 
 Initializes a new instance of the [OAuthKeysRevokedException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysRevokedException.htm) class. Constructor with additional message and inner exception.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || message | Additionnal message. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || innerException | Reference to inner exception. | [Exception](https://msdn.microsoft.com/library/windows/apps/System.Exception) |
+| Name | Description | Type || --- | --- | --- || message | Additionnal message. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || innerException | Reference to inner exception. | [Exception](https://msdn.microsoft.com/library/windows/apps/System.Exception) |
 

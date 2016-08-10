@@ -14,19 +14,19 @@ The AdaptiveGridView control allows to present information within a Grid View pe
 
 ## Members
 
-The **AdaptiveGridView** class has this types of members
+The **AdaptiveGridView** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-* [events](#events)
+* [Events](#Events)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### constructors
+### Constructors
 
 #### contructor
 
@@ -34,7 +34,7 @@ Initializes a new instance of the [AdaptiveGridView](Microsoft_Toolkit_Uwp_UI_Co
 
 
 
-### methods
+### Methods
 
 #### GetXmlnsDefinitions()
 
@@ -60,7 +60,7 @@ Invoked whenever application code or internal processes (such as a rebuilding la
 
 
 
-### properties
+### Properties
 
 #### ItemHeight
 
@@ -98,7 +98,7 @@ Gets or sets an object source used to generate the content of the grid.
 
 
 
-### events
+### Events
 
 #### ItemClick
 
@@ -106,7 +106,7 @@ Event raised when an item is clicked
 
 
 
-### fields
+### Fields
 
 #### ItemsSourceProperty
 

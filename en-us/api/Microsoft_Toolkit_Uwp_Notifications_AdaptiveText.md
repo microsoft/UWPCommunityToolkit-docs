@@ -14,26 +14,26 @@ An adaptive text element.
 
 ## Members
 
-The **AdaptiveText** class has this types of members
+The **AdaptiveText** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### methods
+### Methods
 
 #### ToString()
 
 Returns the value of the Text property.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |The value of the Text property. |
+| Name | Description | Type || --- | --- | --- || return |The value of the Text property. |
 
 
-### properties
+### Properties
 
 #### Text
 

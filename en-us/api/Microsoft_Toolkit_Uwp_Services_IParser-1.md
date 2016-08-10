@@ -14,19 +14,19 @@ Parser interface.
 
 ## Members
 
-The **IParser of (T1)** class has this types of members
+The **IParser of (T1)** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-### methods
+### Methods
 
 #### Parse(System.String data)
 
 Parse method which all classes must implement.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || data | Data to parse. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Strong typed parsed data. |
+| Name | Description | Type || --- | --- | --- || data | Data to parse. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Strong typed parsed data. |
 

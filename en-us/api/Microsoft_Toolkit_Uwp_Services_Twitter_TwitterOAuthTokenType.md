@@ -14,11 +14,11 @@ OAuth token types
 
 ## Members
 
-The **TwitterOAuthTokenType** class has this types of members
+The **TwitterOAuthTokenType** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### OAuthRequestOrAccessToken
 

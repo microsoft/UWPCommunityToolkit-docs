@@ -14,11 +14,11 @@ Tile Slide Direction
 
 ## Members
 
-The **RotateDirection** class has this types of members
+The **RotateDirection** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### Up
 

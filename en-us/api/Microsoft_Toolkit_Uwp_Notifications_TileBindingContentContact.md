@@ -14,11 +14,11 @@ Phone-only. Supported on Small, Medium, and Wide.
 
 ## Members
 
-The **TileBindingContentContact** class has this types of members
+The **TileBindingContentContact** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Image
 

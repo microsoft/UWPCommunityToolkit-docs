@@ -14,37 +14,37 @@ An image used on various special templates for the Tile.
 
 ## Members
 
-The **TileBasicImage** class has this types of members
+The **TileBasicImage** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### methods
+### Methods
 
 #### Descendants()
 
 Generates an enumerable collection of children and all those children's children
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |Enumerable collection of children and all those children's children. |
+| Name | Description | Type || --- | --- | --- || return |Enumerable collection of children and all those children's children. |
 
 
 #### CheckOverlayValue(System.Int32 value)
 
 Throws exception if value is invalid
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || value | Overlay value (0-100) | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) |
+| Name | Description | Type || --- | --- | --- || value | Overlay value (0-100) | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) |
 
 
-### properties
+### Properties
 
 #### AddImageQuery
 

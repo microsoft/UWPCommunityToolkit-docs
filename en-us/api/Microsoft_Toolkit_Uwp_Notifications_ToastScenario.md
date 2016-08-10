@@ -14,13 +14,13 @@ Specifies the scenario, controlling behaviors about the Toast.
 
 ## Members
 
-The **ToastScenario** class has this types of members
+The **ToastScenario** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### properties
+### Properties
 
 #### Language
 
@@ -76,7 +76,7 @@ A default base URI that is combined with relative URIs in image source attribute
 
 
 
-### fields
+### Fields
 
 #### Background
 

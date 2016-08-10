@@ -14,63 +14,63 @@ Parser for Atom endpoints.
 
 ## Members
 
-The **AtomParser** class has this types of members
+The **AtomParser** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-### methods
+### Methods
 
 #### LoadFeed(System.Xml.Linq.XDocument doc)
 
 Atom reader implementation to parse Atom content.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || doc | XDocument to parse. | [XDocument](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XDocument) || return |Strong typed response. |
+| Name | Description | Type || --- | --- | --- || doc | XDocument to parse. | [XDocument](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XDocument) || return |Strong typed response. |
 
 
 #### GetRssSchema(System.Xml.Linq.XElement item)
 
 Retieves strong type for passed item.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || item | XElement to parse. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || return |Strong typed object. |
+| Name | Description | Type || --- | --- | --- || item | XElement to parse. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || return |Strong typed object. |
 
 
 #### GetItemAuthor(System.Xml.Linq.XElement item)
 
 Retrieves item author from XElement.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || item | XElement item. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || return |String of Item Author. |
+| Name | Description | Type || --- | --- | --- || item | XElement item. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || return |String of Item Author. |
 
 
 #### GetItemImage(System.Xml.Linq.XElement item)
 
 Returns item image from XElement item.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || item | XElement item. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || return |String pointing to item image. |
+| Name | Description | Type || --- | --- | --- || item | XElement item. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || return |String pointing to item image. |
 
 
 #### GetItemContent(System.Xml.Linq.XElement item)
 
 Returns item content from XElement item.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || item | XElement item. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || return |String of item content. |
+| Name | Description | Type || --- | --- | --- || item | XElement item. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || return |String of item content. |
 

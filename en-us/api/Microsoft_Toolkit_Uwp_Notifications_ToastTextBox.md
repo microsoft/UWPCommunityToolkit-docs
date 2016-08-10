@@ -14,26 +14,26 @@ A text box control on the Toast that a user can type text into.
 
 ## Members
 
-The **ToastTextBox** class has this types of members
+The **ToastTextBox** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### constructors
+### Constructors
 
 #### contructor
 
 Initializes a new Toast TextBox input control with the required elements.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || id | Developer-provided ID that the developer uses later to retrieve input when the Toast is interacted with. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+| Name | Description | Type || --- | --- | --- || id | Developer-provided ID that the developer uses later to retrieve input when the Toast is interacted with. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
-### properties
+### Properties
 
 #### Id
 

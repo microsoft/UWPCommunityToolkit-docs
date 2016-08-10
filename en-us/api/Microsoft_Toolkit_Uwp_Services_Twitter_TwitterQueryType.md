@@ -14,11 +14,11 @@ Type of Twitter Query.
 
 ## Members
 
-The **TwitterQueryType** class has this types of members
+The **TwitterQueryType** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### Home
 

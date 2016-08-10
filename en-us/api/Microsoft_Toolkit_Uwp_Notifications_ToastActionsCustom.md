@@ -14,11 +14,11 @@ Create your own custom actions, using controls like [ToastButton](Microsoft_Tool
 
 ## Members
 
-The **ToastActionsCustom** class has this types of members
+The **ToastActionsCustom** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Inputs
 

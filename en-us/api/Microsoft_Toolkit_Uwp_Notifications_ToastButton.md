@@ -14,26 +14,26 @@ A button that the user can click on a Toast notification.
 
 ## Members
 
-The **ToastButton** class has this types of members
+The **ToastButton** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### constructors
+### Constructors
 
 #### contructor
 
 Initializes a Toast button with the required properties.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || content | The text to display on the button. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || arguments | App-defined string of arguments that the app can later retrieve once it is activated when the user clicks the button. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+| Name | Description | Type || --- | --- | --- || content | The text to display on the button. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || arguments | App-defined string of arguments that the app can later retrieve once it is activated when the user clicks the button. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
-### properties
+### Properties
 
 #### Content
 

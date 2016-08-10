@@ -16,14 +16,14 @@ var readFile = function (path) {
 
 /* eslint-disable quote-props */
 var types = {
-	'namespace': {id: 1, name: 'namespace', plural: 'namespaces'},
-	'class': {id: 2, name: 'class', plural: 'classes'},
-	'ctor': {id: 3, name: 'constructor', plural: 'constructors'},
-	'special': {id: 4, name: 'Special!?', plural: 'Speciasl!!!?'},
-	'method': {id: 5, name: 'method', plural: 'methods'},
-	'property': {id: 6, name: 'property', plural: 'properties'},
-	'event': {id: 7, name: 'event', plural: 'events'},
-	'field': {id: 8, name: 'field', plural: 'fields'}
+	'namespace': {id: 1, name: 'namespace', plural: 'Namespaces'},
+	'class': {id: 2, name: 'class', plural: 'Classes'},
+	'ctor': {id: 3, name: 'constructor', plural: 'Constructors'},
+	'special': {id: 4, name: 'Special!?', plural: 'Specials!!!?'},
+	'method': {id: 5, name: 'method', plural: 'Methods'},
+	'property': {id: 6, name: 'property', plural: 'Properties'},
+	'event': {id: 7, name: 'event', plural: 'Events'},
+	'field': {id: 8, name: 'field', plural: 'Fields'}
 };
 /* eslint-enable quote-props */
 

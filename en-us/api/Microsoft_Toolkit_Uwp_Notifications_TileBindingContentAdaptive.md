@@ -14,11 +14,11 @@ Supported on all sizes. This is the recommended way of specifying your Tile cont
 
 ## Members
 
-The **TileBindingContentAdaptive** class has this types of members
+The **TileBindingContentAdaptive** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Children
 

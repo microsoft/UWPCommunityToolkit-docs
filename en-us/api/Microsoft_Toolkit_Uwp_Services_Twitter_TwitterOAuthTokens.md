@@ -14,11 +14,11 @@ Twitter OAuth tokens.
 
 ## Members
 
-The **TwitterOAuthTokens** class has this types of members
+The **TwitterOAuthTokens** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### ConsumerKey
 

@@ -47,7 +47,7 @@ module.exports = function (context) {
 
 			//members index
 			generator.addLine('## Members');
-			generator.addLine('The **' + generator.replaceGenericTypes(model.name) + '** class has this types of members');
+			generator.addLine('The **' + generator.replaceGenericTypes(model.name) + '** class has the following types of members:');
 
 			var members = model.members.sort(function (a, b) {
 				if (a.type.id > b.type.id) {
@@ -84,9 +84,9 @@ module.exports = function (context) {
 					generator.addLine(generator.treatText(member.summary));
 
 					if (member.params.length || member.returns.length) {
-						generator.addLine('##### parameters');
+						generator.addLine('##### Parameters');
 						generator.addContent('\n\n\n');
-						generator.addContent('| name | description | type |\r');
+						generator.addContent('| Name | Description | Type |\r');
 						generator.addContent('| --- | --- | --- |\r');
 					}
 
@@ -100,9 +100,9 @@ module.exports = function (context) {
 					});
 
 					if (member.exceptions.length) {
-						generator.addLine('##### exceptions');
+						generator.addLine('##### Exceptions');
 						generator.addLine('');
-						generator.addContent('| type | description |\r');
+						generator.addContent('| Type | Description |\r');
 						generator.addContent('| --- | --- |\r');
 					}
 

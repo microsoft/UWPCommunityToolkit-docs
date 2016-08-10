@@ -14,4 +14,4 @@ Visual Tile content. One of [TileBindingContentAdaptive](Microsoft_Toolkit_Uwp_N
 
 ## Members
 
-The **ITileBindingContent** class has this types of members
+The **ITileBindingContent** class has the following types of members:

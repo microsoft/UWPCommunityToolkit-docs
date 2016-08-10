@@ -14,19 +14,19 @@ Twitter Search Parser.
 
 ## Members
 
-The **TwitterSearchParser** class has this types of members
+The **TwitterSearchParser** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-### methods
+### Methods
 
 #### Parse(System.String data)
 
 Parse string into strong typed list.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || data | Input string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Strong typed list. |
+| Name | Description | Type || --- | --- | --- || data | Input string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Strong typed list. |
 

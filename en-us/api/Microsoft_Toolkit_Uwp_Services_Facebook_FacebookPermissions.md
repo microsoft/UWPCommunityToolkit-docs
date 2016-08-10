@@ -14,11 +14,11 @@ List of user related data permissions
 
 ## Members
 
-The **FacebookPermissions** class has this types of members
+The **FacebookPermissions** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### UserLocation
 

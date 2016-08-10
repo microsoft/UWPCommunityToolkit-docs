@@ -14,11 +14,11 @@ Event args for Refresh Progress changed event
 
 ## Members
 
-The **RefreshProgressEventArgs** class has this types of members
+The **RefreshProgressEventArgs** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### PullProgress
 

@@ -14,11 +14,11 @@ Twitter error type
 
 ## Members
 
-The **TwitterError** class has this types of members
+The **TwitterError** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Code
 

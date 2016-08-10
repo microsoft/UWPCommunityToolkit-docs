@@ -10,11 +10,11 @@ module.exports = function (context) {
 
 			generator.addLine('# ' + model.name + ' namespace');
 			generator.addLine('## Classes');
-			generator.addLine('The **' + model.name + '** namespace has this types');
+			generator.addLine('The **' + model.name + '** namespace has the following types:');
 
 			if (model.classes.length) {
 				generator.addLine('');
-				generator.addContent('| class | description |\r');
+				generator.addContent('| Class | Description |\r');
 				generator.addContent('| --- | --- |\r');
 
 				model.classes.forEach(function (c) {

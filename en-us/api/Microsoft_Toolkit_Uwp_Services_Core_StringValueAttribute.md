@@ -14,26 +14,26 @@ StringValue attribute.
 
 ## Members
 
-The **StringValueAttribute** class has this types of members
+The **StringValueAttribute** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### constructors
+### Constructors
 
 #### contructor
 
 Initializes a new instance of the [StringValueAttribute](Microsoft_Toolkit_Uwp_Services_Core_StringValueAttribute.htm) class. Constructor accepting string value.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || value | String value | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+| Name | Description | Type || --- | --- | --- || value | String value | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
-### properties
+### Properties
 
 #### Value
 

@@ -14,26 +14,26 @@ An inline image.
 
 ## Members
 
-The **AdaptiveImage** class has this types of members
+The **AdaptiveImage** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### methods
+### Methods
 
 #### ToString()
 
 Returns the image's source string.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |The image's source string. |
+| Name | Description | Type || --- | --- | --- || return |The image's source string. |
 
 
-### properties
+### Properties
 
 #### HintCrop
 

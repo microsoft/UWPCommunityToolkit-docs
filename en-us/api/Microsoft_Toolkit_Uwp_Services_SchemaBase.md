@@ -14,11 +14,11 @@ Strong typed schema base class.
 
 ## Members
 
-The **SchemaBase** class has this types of members
+The **SchemaBase** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### InternalID
 

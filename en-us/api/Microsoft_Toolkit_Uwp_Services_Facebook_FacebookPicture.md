@@ -14,11 +14,11 @@ Strongly typed object for presenting picture data returned from service provider
 
 ## Members
 
-The **FacebookPicture** class has this types of members
+The **FacebookPicture** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Is_Silhouette
 

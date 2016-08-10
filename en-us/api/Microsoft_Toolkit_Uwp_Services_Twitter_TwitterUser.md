@@ -14,11 +14,11 @@ Twitter User type.
 
 ## Members
 
-The **TwitterUser** class has this types of members
+The **TwitterUser** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Id
 

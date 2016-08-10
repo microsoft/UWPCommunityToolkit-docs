@@ -14,11 +14,11 @@ Defines the visual aspects of a Toast notification.
 
 ## Members
 
-The **ToastVisual** class has this types of members
+The **ToastVisual** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Language
 

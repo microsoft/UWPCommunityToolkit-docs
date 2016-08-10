@@ -14,109 +14,109 @@ OAuth request builder.
 
 ## Members
 
-The **TwitterOAuthRequestBuilder** class has this types of members
+The **TwitterOAuthRequestBuilder** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### constructors
+### Constructors
 
 #### contructor
 
 Initializes a new instance of the [TwitterOAuthRequestBuilder](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthRequestBuilder.htm) class. Authorization request builder.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || requestUri | Request Uri. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || tokens | Tokens to form request. | [TwitterOAuthTokens](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthTokens.htm) || method | Method to use with request. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+| Name | Description | Type || --- | --- | --- || requestUri | Request Uri. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || tokens | Tokens to form request. | [TwitterOAuthTokens](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthTokens.htm) || method | Method to use with request. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
-### methods
+### Methods
 
 #### GetAuthHeaderParameters()
 
 Get list of auth header parameters.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |List of auth header paramters. |
+| Name | Description | Type || --- | --- | --- || return |List of auth header paramters. |
 
 
 #### GetEncodedUri(System.Uri requestUri,System.Collections.Generic.IEnumerable(Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter) parameters)
 
 Get encoded Uri.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || requestUri | Request uri. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || parameters | List of parameters. | System.Collections.Generic.IEnumerable(Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter) || return |Encoded Uri. |
+| Name | Description | Type || --- | --- | --- || requestUri | Request uri. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || parameters | List of parameters. | System.Collections.Generic.IEnumerable(Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter) || return |Encoded Uri. |
 
 
 #### GenerateNonce()
 
 Generate nonce.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |String nonce. |
+| Name | Description | Type || --- | --- | --- || return |String nonce. |
 
 
 #### GenerateTimeStamp()
 
 Generate timestamp string.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |Timestamp string. |
+| Name | Description | Type || --- | --- | --- || return |Timestamp string. |
 
 
 #### GenerateSignature()
 
 Generate signature.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |Generated signature string. |
+| Name | Description | Type || --- | --- | --- || return |Generated signature string. |
 
 
 #### GenerateAuthorizationHeader()
 
 Generate authorization header.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |Generated authorizatin header string. |
+| Name | Description | Type || --- | --- | --- || return |Generated authorizatin header string. |
 
 
 #### GetSignParameters()
 
 Get list of sign parameters.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |List of sign parameters. |
+| Name | Description | Type || --- | --- | --- || return |List of sign parameters. |
 
 
-### properties
+### Properties
 
 #### SignatureMethod
 
@@ -202,7 +202,7 @@ Gets timestamp.
 
 
 
-### fields
+### Fields
 
 #### Realm
 

@@ -14,17 +14,17 @@ A Modern UI Radial Gauge using XAML and Composition API.
 
 ## Members
 
-The **RadialGauge** class has this types of members
+The **RadialGauge** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### constructors
+### Constructors
 
 #### contructor
 
@@ -32,7 +32,7 @@ Initializes a new instance of the [RadialGauge](Microsoft_Toolkit_Uwp_UI_Control
 
 
 
-### methods
+### Methods
 
 #### OnApplyTemplate()
 
@@ -40,7 +40,7 @@ Update the visual state of the control when its template is changed.
 
 
 
-### properties
+### Properties
 
 #### ValueAngle
 
@@ -180,7 +180,7 @@ Gets or sets the maximum on the scale.
 
 
 
-### fields
+### Fields
 
 #### ValueStringFormatProperty
 

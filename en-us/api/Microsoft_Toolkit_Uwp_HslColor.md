@@ -14,11 +14,11 @@ Defines a color in Hue/Saturation/Lightness (HSL) space.
 
 ## Members
 
-The **HslColor** class has this types of members
+The **HslColor** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### H
 

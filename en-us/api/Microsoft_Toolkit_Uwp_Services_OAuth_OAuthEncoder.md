@@ -14,41 +14,41 @@ OAuth Encoder.
 
 ## Members
 
-The **OAuthEncoder** class has this types of members
+The **OAuthEncoder** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-### methods
+### Methods
 
 #### UrlEncode(System.String value)
 
 Url encode input string.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || value | Input string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Encoded string. |
+| Name | Description | Type || --- | --- | --- || value | Input string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Encoded string. |
 
 
 #### UrlEncode(System.Collections.Generic.IEnumerable(Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter) parameters)
 
 Encode list of parameters.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || parameters | List of parameters. | System.Collections.Generic.IEnumerable(Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter) || return |Encoded string of parameters. |
+| Name | Description | Type || --- | --- | --- || parameters | List of parameters. | System.Collections.Generic.IEnumerable(Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter) || return |Encoded string of parameters. |
 
 
 #### GenerateHash(System.String input,System.String key)
 
 Generate hash from input string and key.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || input | Input string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || key | Key string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Hash string. |
+| Name | Description | Type || --- | --- | --- || input | Input string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || key | Key string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Hash string. |
 

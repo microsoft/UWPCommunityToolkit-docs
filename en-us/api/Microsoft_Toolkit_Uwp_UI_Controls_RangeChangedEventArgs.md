@@ -14,26 +14,26 @@ Event args for a value changing event
 
 ## Members
 
-The **RangeChangedEventArgs** class has this types of members
+The **RangeChangedEventArgs** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### constructors
+### Constructors
 
 #### contructor
 
 Initializes a new instance of the [RangeChangedEventArgs](Microsoft_Toolkit_Uwp_UI_Controls_RangeChangedEventArgs.htm) class.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || oldValue | The old value | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || newValue | The new value | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || changedRangeProperty | The changed range property | [RangeSelectorProperty](Microsoft_Toolkit_Uwp_UI_Controls_RangeSelectorProperty.htm) |
+| Name | Description | Type || --- | --- | --- || oldValue | The old value | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || newValue | The new value | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || changedRangeProperty | The changed range property | [RangeSelectorProperty](Microsoft_Toolkit_Uwp_UI_Controls_RangeSelectorProperty.htm) |
 
 
-### properties
+### Properties
 
 #### OldValue
 

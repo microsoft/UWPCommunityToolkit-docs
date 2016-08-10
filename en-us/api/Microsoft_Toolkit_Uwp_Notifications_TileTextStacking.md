@@ -14,11 +14,11 @@ TextStacking specifies the vertical alignment of content.
 
 ## Members
 
-The **TileTextStacking** class has this types of members
+The **TileTextStacking** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### Top
 

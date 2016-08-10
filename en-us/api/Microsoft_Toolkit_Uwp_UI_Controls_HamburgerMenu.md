@@ -14,19 +14,19 @@ The HamburgerMenu is based on a SplitView control. By default it contains a Hamb
 
 ## Members
 
-The **HamburgerMenu** class has this types of members
+The **HamburgerMenu** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-* [events](#events)
+* [Events](#Events)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### constructors
+### Constructors
 
 #### contructor
 
@@ -34,7 +34,7 @@ Initializes a new instance of the [HamburgerMenu](Microsoft_Toolkit_Uwp_UI_Contr
 
 
 
-### methods
+### Methods
 
 #### OnApplyTemplate()
 
@@ -42,7 +42,7 @@ Override default OnApplyTemplate to capture children controls
 
 
 
-### properties
+### Properties
 
 #### DisplayMode
 
@@ -134,7 +134,7 @@ Gets or sets a value that specifies whether the pane is shown on the right or le
 
 
 
-### events
+### Events
 
 #### ItemClick
 
@@ -148,7 +148,7 @@ Event raised when an options' item is clicked
 
 
 
-### fields
+### Fields
 
 #### IsPaneOpenProperty
 

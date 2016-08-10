@@ -14,11 +14,11 @@ Specifies the horizontal alignment for an image.
 
 ## Members
 
-The **AdaptiveImageAlign** class has this types of members
+The **AdaptiveImageAlign** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### Default
 

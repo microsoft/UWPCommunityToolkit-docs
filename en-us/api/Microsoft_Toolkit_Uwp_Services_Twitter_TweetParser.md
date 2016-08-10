@@ -14,19 +14,19 @@ Twitter Timeline Parser.
 
 ## Members
 
-The **TweetParser** class has this types of members
+The **TweetParser** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-### methods
+### Methods
 
 #### Parse(System.String data)
 
 Parse string data into strongly typed list.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || data | Input string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |List of strongly typed objects. |
+| Name | Description | Type || --- | --- | --- || data | Input string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |List of strongly typed objects. |
 

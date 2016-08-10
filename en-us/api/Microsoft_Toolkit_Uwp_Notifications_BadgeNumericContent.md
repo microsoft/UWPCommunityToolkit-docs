@@ -14,15 +14,15 @@ Notification content object to display a number on a Tile's badge.
 
 ## Members
 
-The **BadgeNumericContent** class has this types of members
+The **BadgeNumericContent** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### constructors
+### Constructors
 
 #### contructor
 
@@ -34,71 +34,71 @@ Default constructor to create a numeric badge content object.
 
 Constructor to create a numeric badge content object with a number.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || number | The number that will appear on the badge.  If the number is 0, the badge will be removed. | [UInt32](https://msdn.microsoft.com/library/windows/apps/System.UInt32) |
+| Name | Description | Type || --- | --- | --- || number | The number that will appear on the badge.  If the number is 0, the badge will be removed. | [UInt32](https://msdn.microsoft.com/library/windows/apps/System.UInt32) |
 
 
-### methods
+### Methods
 
 #### GetContent()
 
 Retrieves the notification Xml content as a string.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |The notification Xml content as a string. |
+| Name | Description | Type || --- | --- | --- || return |The notification Xml content as a string. |
 
 
 #### ToString()
 
 Retrieves the notification Xml content as a string.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |The notification Xml content as a string. |
+| Name | Description | Type || --- | --- | --- || return |The notification Xml content as a string. |
 
 
 #### GetXml()
 
 Retrieves the notification Xml content as a WinRT Xml document.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |The notification Xml content as a WinRT Xml document. |
+| Name | Description | Type || --- | --- | --- || return |The notification Xml content as a WinRT Xml document. |
 
 
 #### GetContent()
 
 Retrieves the notification XML content as a string.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |The notification XML content as a string. |
+| Name | Description | Type || --- | --- | --- || return |The notification XML content as a string. |
 
 
 #### GetXml()
 
 Retrieves the notification XML content as a WinRT XML document.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |The notification XML content as a WinRT XML document. |
+| Name | Description | Type || --- | --- | --- || return |The notification XML content as a WinRT XML document. |
 
 
-### properties
+### Properties
 
 #### Number
 

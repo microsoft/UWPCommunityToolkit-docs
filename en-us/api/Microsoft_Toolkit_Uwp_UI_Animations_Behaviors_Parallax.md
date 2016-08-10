@@ -14,13 +14,13 @@ Behavior to give a parallax effect when scrolling
 
 ## Members
 
-The **Parallax** class has this types of members
+The **Parallax** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### properties
+### Properties
 
 #### Scroller
 
@@ -40,7 +40,7 @@ Gets or sets a value indicating whether this instance is horizontal effect.
 
 
 
-### fields
+### Fields
 
 #### ScrollerProperty
 

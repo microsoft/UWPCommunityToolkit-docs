@@ -14,13 +14,13 @@ A hero image for the Toast notification.
 
 ## Members
 
-The **ToastGenericHeroImage** class has this types of members
+The **ToastGenericHeroImage** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### constructors
+### Constructors
 
 #### contructor
 
@@ -28,7 +28,7 @@ Initializes a hero image for the Toast notification.
 
 
 
-### properties
+### Properties
 
 #### Source
 

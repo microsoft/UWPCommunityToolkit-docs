@@ -14,19 +14,19 @@ Extension of ListView that allows "Pull To Refresh" on touch devices
 
 ## Members
 
-The **PullToRefreshListView** class has this types of members
+The **PullToRefreshListView** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-* [events](#events)
+* [Events](#Events)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### constructors
+### Constructors
 
 #### contructor
 
@@ -34,7 +34,7 @@ Initializes a new instance of the [PullToRefreshListView](Microsoft_Toolkit_Uwp_
 
 
 
-### methods
+### Methods
 
 #### OnApplyTemplate()
 
@@ -48,7 +48,7 @@ Handler for SizeChanged event, handles cliping
 
 
 
-### properties
+### Properties
 
 #### PullThreshold
 
@@ -74,7 +74,7 @@ Gets or sets the Command that will be invoked when Refresh is requested
 
 
 
-### events
+### Events
 
 #### PullProgressChanged
 
@@ -88,7 +88,7 @@ Occurs when the user has requested content to be refreshed
 
 
 
-### fields
+### Fields
 
 #### PullThresholdProperty
 

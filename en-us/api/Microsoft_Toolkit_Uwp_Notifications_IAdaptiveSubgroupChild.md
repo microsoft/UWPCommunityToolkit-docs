@@ -14,4 +14,4 @@ Elements that can be direct children of an [AdaptiveSubgroup](Microsoft_Toolkit_
 
 ## Members
 
-The **IAdaptiveSubgroupChild** class has this types of members
+The **IAdaptiveSubgroupChild** class has the following types of members:

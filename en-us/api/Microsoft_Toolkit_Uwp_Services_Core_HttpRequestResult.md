@@ -14,13 +14,13 @@ HttpRequestResult type for hold request results.
 
 ## Members
 
-The **HttpRequestResult** class has this types of members
+The **HttpRequestResult** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### constructors
+### Constructors
 
 #### contructor
 
@@ -28,7 +28,7 @@ Initializes a new instance of the [HttpRequestResult](Microsoft_Toolkit_Uwp_Serv
 
 
 
-### properties
+### Properties
 
 #### StatusCode
 

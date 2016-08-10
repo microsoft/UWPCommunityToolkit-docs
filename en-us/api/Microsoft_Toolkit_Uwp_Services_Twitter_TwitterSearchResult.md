@@ -14,11 +14,11 @@ Twitter Search Results.
 
 ## Members
 
-The **TwitterSearchResult** class has this types of members
+The **TwitterSearchResult** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Statuses
 

@@ -14,26 +14,26 @@ A selection box control, which lets users pick from a dropdown list of options.
 
 ## Members
 
-The **ToastSelectionBox** class has this types of members
+The **ToastSelectionBox** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### constructors
+### Constructors
 
 #### contructor
 
 Initializes a new Toast SelectionBox input control with the required elements.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || id | Developer-provided ID that the developer uses later to retrieve input when the Toast is interacted with. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+| Name | Description | Type || --- | --- | --- || id | Developer-provided ID that the developer uses later to retrieve input when the Toast is interacted with. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
-### properties
+### Properties
 
 #### Id
 

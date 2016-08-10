@@ -14,11 +14,11 @@ Twitter specific exception.
 
 ## Members
 
-The **TwitterException** class has this types of members
+The **TwitterException** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Errors
 

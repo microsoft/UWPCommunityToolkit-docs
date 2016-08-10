@@ -14,19 +14,19 @@ ContentControl providing functionality for sliding left or right to expose funct
 
 ## Members
 
-The **SlidableListItem** class has this types of members
+The **SlidableListItem** class has the following types of members:
 
-* [constructors](#constructors)
+* [Constructors](#Constructors)
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-* [events](#events)
+* [Events](#Events)
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### constructors
+### Constructors
 
 #### contructor
 
@@ -34,7 +34,7 @@ Initializes a new instance of the [SlidableListItem](Microsoft_Toolkit_Uwp_UI_Co
 
 
 
-### methods
+### Methods
 
 #### OnApplyTemplate()
 
@@ -54,7 +54,7 @@ Handler for when slide manipulation is complete
 
 
 
-### properties
+### Properties
 
 #### RightBackground
 
@@ -128,7 +128,7 @@ Gets or sets a value indicating whether it has the ability to slide the control 
 
 
 
-### events
+### Events
 
 #### RightCommandRequested
 
@@ -142,7 +142,7 @@ Occurs when the user swipes to the right to activate the left action
 
 
 
-### fields
+### Fields
 
 #### LeftBackgroundProperty
 

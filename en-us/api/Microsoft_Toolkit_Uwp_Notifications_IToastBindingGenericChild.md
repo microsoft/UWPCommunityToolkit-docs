@@ -14,4 +14,4 @@ Elements that can be direct children of [ToastBindingGeneric](Microsoft_Toolkit_
 
 ## Members
 
-The **IToastBindingGenericChild** class has this types of members
+The **IToastBindingGenericChild** class has the following types of members:

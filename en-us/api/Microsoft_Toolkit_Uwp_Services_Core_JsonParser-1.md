@@ -14,19 +14,19 @@ JsonParser type.
 
 ## Members
 
-The **JsonParser of (T1)** class has this types of members
+The **JsonParser of (T1)** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-### methods
+### Methods
 
 #### Parse(System.String data)
 
 Takes string data and parses to strong type.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || data | String data. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Strong type deserialized from string data. |
+| Name | Description | Type || --- | --- | --- || data | String data. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Strong type deserialized from string data. |
 

@@ -14,4 +14,4 @@ One of [ToastButton](Microsoft_Toolkit_Uwp_Notifications_ToastButton.htm), [Toas
 
 ## Members
 
-The **IToastButton** class has this types of members
+The **IToastButton** class has the following types of members:

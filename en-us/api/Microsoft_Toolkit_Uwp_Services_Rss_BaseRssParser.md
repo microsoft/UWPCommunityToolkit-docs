@@ -14,52 +14,52 @@ Base class for Rss Parser(s).
 
 ## Members
 
-The **BaseRssParser** class has this types of members
+The **BaseRssParser** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-### methods
+### Methods
 
 #### GetFeedType(System.Xml.Linq.XDocument doc)
 
 Retrieve feed type from XDocument.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || doc | XDocument doc. | [XDocument](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XDocument) || return |Return feed type. |
+| Name | Description | Type || --- | --- | --- || doc | XDocument doc. | [XDocument](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XDocument) || return |Return feed type. |
 
 
 #### LoadFeed(System.Xml.Linq.XDocument doc)
 
 Abstract method to be override by specific implementations of the reader.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || doc | XDocument doc. | [XDocument](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XDocument) || return |Returns list of strongly typed results. |
+| Name | Description | Type || --- | --- | --- || doc | XDocument doc. | [XDocument](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XDocument) || return |Returns list of strongly typed results. |
 
 
 #### ProcessHtmlContent(System.String htmlContent)
 
 Fix up the HTML content.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || htmlContent | Content to be fixed up. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Fixed up content. |
+| Name | Description | Type || --- | --- | --- || htmlContent | Content to be fixed up. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Fixed up content. |
 
 
 #### ProcessHtmlSummary(System.String htmlContent)
 
 Create a summary of the HTML content.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || htmlContent | Content to be processed. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Summary of the content. |
+| Name | Description | Type || --- | --- | --- || htmlContent | Content to be processed. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Summary of the content. |
 

@@ -14,4 +14,4 @@ This attribute should be specified at most one time on an Element class. The pro
 
 ## Members
 
-The **NotificationXmlContentAttribute** class has this types of members
+The **NotificationXmlContentAttribute** class has the following types of members:

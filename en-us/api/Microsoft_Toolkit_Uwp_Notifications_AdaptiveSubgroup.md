@@ -14,11 +14,11 @@ Subgroups are vertical columns that can contain text and images. Supported on Ti
 
 ## Members
 
-The **AdaptiveSubgroup** class has this types of members
+The **AdaptiveSubgroup** class has the following types of members:
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### properties
+### Properties
 
 #### Children
 

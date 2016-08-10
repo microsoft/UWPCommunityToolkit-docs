@@ -14,11 +14,11 @@ Enumeration used to determine what value triggered ValueChanged event on the Ran
 
 ## Members
 
-The **RangeSelectorProperty** class has this types of members
+The **RangeSelectorProperty** class has the following types of members:
 
-* [fields](#fields)
+* [Fields](#Fields)
 
-### fields
+### Fields
 
 #### MinimumValue
 

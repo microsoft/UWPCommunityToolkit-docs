@@ -14,37 +14,37 @@ Base Toast element, which contains at least a visual element.
 
 ## Members
 
-The **ToastContent** class has this types of members
+The **ToastContent** class has the following types of members:
 
-* [methods](#methods)
+* [Methods](#Methods)
 
-* [properties](#properties)
+* [Properties](#Properties)
 
-### methods
+### Methods
 
 #### GetContent()
 
 Retrieves the notification XML content as a string, so that it can be sent with a HTTP POST in a push notification.
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |The notification XML content as a string. |
+| Name | Description | Type || --- | --- | --- || return |The notification XML content as a string. |
 
 
 #### GetXml()
 
 Retrieves the notification XML content as a WinRT XmlDocument, so that it can be used with a local Toast notification's constructor on either [ToastNotification](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Notifications.ToastNotification) or [ScheduledToastNotification](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Notifications.ScheduledToastNotification).
 
-##### parameters
+##### Parameters
 
 
 
-| name | description | type || --- | --- | --- || return |The notification XML content as a WinRT XmlDocument. |
+| Name | Description | Type || --- | --- | --- || return |The notification XML content as a WinRT XmlDocument. |
 
 
-### properties
+### Properties
 
 #### Visual
 

@@ -22,7 +22,8 @@ NuGet is a standard package manager for .Net applications that is built into Vis
 | [Microsoft.Toolkit.Uwp.UI.Animations]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations.htm) | Animations and Composition behaviors such as Blur, Fade, Rotate, etc. |
 | [Microsoft.Toolkit.Uwp.UI.Controls]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls.htm) | XAML Controls such as RadialGauge, RangeSelector, etc. | 
 
-## Search in Visual Studio
+
+# Search in Visual Studio
 
 Searching in Visual Studio package manager you should see a list similar to the one below (version numbers may be different, but names should be the same).
 

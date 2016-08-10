@@ -5,6 +5,7 @@ description: Easy add support for Twitter within your UWP Applications
 keywords: windows, app, toolkit, Twitter, Service, UWP
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # Twitter Service
@@ -27,6 +28,7 @@ Copy this from the *Keys and Access Tokens* tab on your application page.
 *Example*: http://myapp.company.com - (this does not have to be a working URL)
 
 ## Syntax
+
 ```C#
 // Initialize service
 TwitterService.Instance.Initialize(ConsumerKey.Text, ConsumerSecret.Text, CallbackUri.Text);
@@ -55,9 +57,11 @@ ListView.ItemsSource = await TwitterService.Instance.SearchAsync(TagText.Text, 5
 ```
 
 ## Example
+
 [Twitter Service Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Twitter%20Service)
 
 ## Posting to timeline fails to appear
+
 Twitter app models allows for read only applications.  If the app is tagged as Readonly, but attempts to post there is *no error returned*.  The post is just eaten by the service.
 
 If you are posting from your app and never seeing them show up in the timeline check the *Permissions* tab on the app page.  You want to ensure that you have *Read and Write* checked on that tab.
@@ -67,11 +71,12 @@ If you are posting from your app and never seeing them show up in the timeline c
 Windows 10 SDK 10586 or higher
 
 ## API
+
 * [Twitter Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.Services/Services/Twitter)
-* [Twitter Service API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_Services_Twitter_TwitterService.htm)
+* [Twitter Service API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_Services_Twitter_TwitterService.htm)
 
 ## NuGet Packages Required
 
 Microsoft.Toolkit.Uwp.Services
 
-See the [NuGet Packages page]({{site.baseurl}}/get-started/nugetpackages.md) for complete list.
+See the [NuGet Packages page]({{site.baseurl}}/{{page.lang}}/get-started/nugetpackages.htm) for complete list.

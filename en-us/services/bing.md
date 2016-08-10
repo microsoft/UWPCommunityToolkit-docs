@@ -5,6 +5,7 @@ description: Easy add support for Bing within your UWP Applications
 keywords: windows, app, toolkit, Bing, services, UWP
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # Bing Service
@@ -46,11 +47,11 @@ Windows 10 SDK 10586 or higher
 ## API
 
 * [Bing Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.Services/Services/Bing)
-* [Bing Service API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_Services_Bing_BingService.htm)
+* [Bing Service API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_Services_Bing_BingService.htm)
 
 ## NuGet Packages Required
 
 **Microsoft.Toolkit.Uwp.Services**
 
-See the [NuGet Packages page]({{site.baseurl}}/get-started/nugetpackages.md) for complete list.
+See the [NuGet Packages page]({{site.baseurl}}/{{page.lang}}/get-started/nugetpackages.md) for complete list.
 

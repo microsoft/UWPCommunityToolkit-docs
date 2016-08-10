@@ -5,6 +5,7 @@ description: Easily add support for Facebook within your Windows 10 UWP Applicat
 keywords: windows, app, toolkit, facebook, service, UWP, social, share
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # Facebook Service 
@@ -97,12 +98,12 @@ Windows 10 SDK 10586 or higher
 ## API
 
 * [Facebook Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.Services/Services/Facebook)
-* [Facebook Service API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_Services_Facebook_FacebookService.htm)
+* [Facebook Service API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_Services_Facebook_FacebookService.htm)
 
 
 ## NuGet Packages Required
 
 Microsoft.Toolkit.Uwp.Services
 
-See the [NuGet Packages page]({{site.baseurl}}/get-started/nugetpackages.htm) for complete list.
+See the [NuGet Packages page]({{site.baseurl}}/{{page.lang}}/get-started/nugetpackages.htm) for complete list.
 

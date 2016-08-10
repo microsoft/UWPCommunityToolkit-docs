@@ -59,7 +59,7 @@ lang: en-us
 
 # API
 
-- [API Generated Docs]{{site.baseurl}}/{{page.lang}}/api.htm)
+- [API Generated Docs]({{site.baseurl}}/{{page.lang}}/api.htm)
 
-# [Main Page]({{site.baseurl}}/{{page.lang}}/index.htm)
+[UWP Community Toolkit Main Page]({{site.baseurl}}/{{page.lang}}/index.htm)
 

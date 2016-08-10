@@ -5,6 +5,7 @@ description:  The Hamburger Menu Control displays a sidebar that is displayed by
 keywords: windows, app, toolkit, hamburger, menu, hamburgermenu, XAML, control, sidebar
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # HamburgerMenu XAML Control
@@ -145,5 +146,5 @@ Windows 10 SDK 10586 or higher
 ## API
 
 * [HamburgerMenu source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/HamburgerMenu)
-* [HamburgerMenu API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu.htm)
+* [HamburgerMenu API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu.htm)
 

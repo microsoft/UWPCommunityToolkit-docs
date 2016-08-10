@@ -1,7 +1,7 @@
 ---
-permalink: /en-US/animations/rotation.htm
-title: Rotation XAML and Code Animation
-description: The Rotation animation behavior allows users to modify and animate the control's rotation 
+permalink: /en-US/animations/rotate.htm
+title: Rotate XAML and Code Animation
+description: The Rotate animation behavior allows users to modify and animate the control's rotation 
 keywords: windows, app, toolkit, Rotation animation, Rotate, XAML, UWP, animate rotation, behavior
 layout: default
 search.product: eADQiWindows 10XVcnh

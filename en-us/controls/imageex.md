@@ -5,6 +5,7 @@ description: The ImageEx Control downloads images asynchronously while showing a
 keywords: windows, app, toolkit, ImageEx, loading indicator, ImageExControl, UWP
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # ImageEx XAML Control
@@ -40,4 +41,5 @@ Windows 10 SDK 10586 or higher
 ## API
 
 * [ImageEx source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/ImageEx)
-* [ImageEx API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Controls_ImageEx.htm)
+* [ImageEx API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_ImageEx.htm)
+

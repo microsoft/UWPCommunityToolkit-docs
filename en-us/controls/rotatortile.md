@@ -5,6 +5,7 @@ description: The RotatorTile Control is an ItemsControl that rotates through a s
 keywords: windows, app, toolkit, RotatorTile, rotator tile control, XAML, UWP, Rotator, tile
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # RotatorTile XAML Control
@@ -41,4 +42,5 @@ Windows 10 SDK 10586 or higher
 ## API
 
 * [RotatorTile source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/RotatorTile)
-* [RotatorTile API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Controls_RotatorTile.htm)
+* [RotatorTile API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_RotatorTile.htm)
+

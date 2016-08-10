@@ -5,6 +5,7 @@ description: The RadialGauge Control displays a value in a certain range using a
 keywords: windows, app, toolkit, RadialGauge, gauge control, XAML, UWP, Radial, circular
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # RadialGauge XAML Control
@@ -55,5 +56,5 @@ Windows 10 SDK 10586 or higher
 ## API
 
 * [RadialGauge source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/RadialGauge)
-* [RadialGauge API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Controls_RadialGauge.htm)
+* [RadialGauge API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_RadialGauge.htm)
 

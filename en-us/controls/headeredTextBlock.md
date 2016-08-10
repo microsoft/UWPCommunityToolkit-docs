@@ -5,6 +5,7 @@ description: The HeaderedTextBlock Control provides a header for read-only text,
 keywords: windows, app, toolkit, HeaderedTextBlock, text block, headered, XAML, XAML Control, HeaderedText, UWP
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # HeaderedTextBlock XAML Control
@@ -41,4 +42,5 @@ Windows 10 SDK 10586 or higher
 ## API
 
 * [HeaderedTextBlock source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/HeaderedTextBlock)
-* [HeaderedTextBlock API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Controls_HeaderedTextBlock.htm)
+* [HeaderedTextBlock API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_HeaderedTextBlock.htm)
+

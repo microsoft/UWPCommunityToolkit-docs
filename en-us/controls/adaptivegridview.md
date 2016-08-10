@@ -5,6 +5,7 @@ description: The AdaptiveGridView Control presents content in a Grid View to fil
 keywords: windows, app, toolkit, AdaptiveGridView, grid layout, UWP, XAML, Adaptive Grid View, Control, grid control, form factors 
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # AdaptiveGridView XAML Control 
@@ -40,4 +41,5 @@ Windows 10 SDK 10586 or higher
 ## API
 
 * [AdaptiveGridView source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/AdaptiveGridView)
-* [AdaptiveGridView API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Controls_AdaptiveGridView.htm)
+* [AdaptiveGridView API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_AdaptiveGridView.htm)
+

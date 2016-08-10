@@ -5,6 +5,7 @@ description: The SlidableListItem Control is a UI that triggers actions by slidi
 keywords: windows, app, toolkit, SlidableListItem, custom list item, List View, XAML, UWP, Slideable
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # SlidableListItem XAML Control
@@ -55,5 +56,5 @@ Windows 10 SDK 10586 or higher
 ## API
 
 * [SlidableListItem source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/SlidableListItem)
-* [SlidableListItem API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.htm)
+* [SlidableListItem API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.htm)
 

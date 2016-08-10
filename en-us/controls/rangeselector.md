@@ -5,6 +5,7 @@ description: The RangeSelector Control is a Double Slider control used to select
 keywords: windows, app, toolkit, RangeSelector, range control, UWP, XAML, double slider, sub range
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # RangeSelector XAML Control
@@ -39,4 +40,4 @@ Windows 10 SDK 10586 or higher
 ## API
 
 * [RangeSelector source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/RangeSelector)
-* [RangeSelector API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Controls_RangeSelector.htm)
+* [RangeSelector API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_RangeSelector.htm)

@@ -5,6 +5,7 @@ description: PullToRefreshListView Control pulls the listview to to trigger a re
 keywords: windows, app, PulltoRefresh, ListView, toolkit, pull to refresh, XAML, UWP 
 layout: default
 search.product: eADQiWindows 10XVcnh
+lang: en-us
 ---
 
 # PullToRefreshListView XAML Control
@@ -44,4 +45,4 @@ Windows 10 SDK 10586 or higher
 ## API
 
 * [PullToRefreshListView source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/PullToRefreshListView)
-* [PullToRefreshListView API documentation]({{site.baseurl}}/api/Microsoft_Toolkit_Uwp_UI_Controls_PullToRefreshListView.htm)
+* [PullToRefreshListView API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_PullToRefreshListView.htm)

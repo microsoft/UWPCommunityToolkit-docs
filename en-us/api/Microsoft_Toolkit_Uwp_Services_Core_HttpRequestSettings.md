@@ -28,11 +28,15 @@ Initializes a new instance of the [HttpRequestSettings](Microsoft_Toolkit_Uwp_Se
 
 
 
+
+
 ### Properties
 
 #### RequestedUri
 
 Gets or sets request Uri.
+
+
 
 
 
@@ -42,8 +46,12 @@ Gets or sets user Agent to pass to request.
 
 
 
+
+
 #### Headers
 
 Gets collection of headers to pass with request.
+
+
 
 

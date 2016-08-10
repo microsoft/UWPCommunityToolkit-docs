@@ -26,6 +26,8 @@ Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_U
 
 
 
+
+
 #### contructor
 
 Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException.htm) class. Constructor with additional message.
@@ -37,6 +39,8 @@ Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_U
 | Name | Description | Type || --- | --- | --- || message | Additional message. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
+
+
 #### contructor
 
 Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_Uwp_Services_Exceptions_TooManyRequestsException.htm) class. Constructor with additional message and reference to inner exception.
@@ -46,4 +50,6 @@ Initializes a new instance of the [TooManyRequestsException](Microsoft_Toolkit_U
 
 
 | Name | Description | Type || --- | --- | --- || message | Additional message. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || innerException | Reference to inner exception. | [Exception](https://msdn.microsoft.com/library/windows/apps/System.Exception) |
+
+
 

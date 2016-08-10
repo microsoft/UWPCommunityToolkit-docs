@@ -26,9 +26,13 @@ Gets or sets time item was created.
 
 
 
+
+
 #### Id
 
 Gets or sets item Id.
+
+
 
 
 
@@ -38,14 +42,20 @@ Gets or sets text of the status.
 
 
 
+
+
 #### User
 
 Gets or sets user who posted the status.
 
 
 
+
+
 #### CreationDate
 
 Gets the creation date
+
+
 
 

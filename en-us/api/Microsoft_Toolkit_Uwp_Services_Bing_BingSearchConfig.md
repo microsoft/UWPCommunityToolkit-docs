@@ -26,8 +26,12 @@ Gets or sets search query country.
 
 
 
+
+
 #### Query
 
 Gets or sets search query.
+
+
 
 

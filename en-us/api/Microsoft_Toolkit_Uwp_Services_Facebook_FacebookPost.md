@@ -26,9 +26,13 @@ Gets or sets id property.
 
 
 
+
+
 #### Message
 
 Gets or sets message or post text.
+
+
 
 
 
@@ -38,14 +42,20 @@ Gets or sets time the entity instance was created.
 
 
 
+
+
 #### Link
 
 Gets or sets a link to the entity instance.
 
 
 
+
+
 #### Full_Picture
 
 Gets or sets a link to the accompanying image.
+
+
 
 

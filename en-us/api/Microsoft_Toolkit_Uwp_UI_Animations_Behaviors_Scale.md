@@ -30,11 +30,15 @@ Starts the animation.
 
 
 
+
+
 ### Properties
 
 #### ScaleX
 
 Gets or sets the scale on the x axis.
+
+
 
 
 
@@ -44,9 +48,13 @@ Gets or sets the scale (z axis) of the associated object.
 
 
 
+
+
 #### CenterY
 
 Gets or sets the scale (y axis) of the associated object.
+
+
 
 
 
@@ -56,15 +64,21 @@ Gets or sets the scale (x axis) of the associated object.
 
 
 
+
+
 #### ScaleZ
 
 Gets or sets the scale on the z axis.
 
 
 
+
+
 #### ScaleY
 
 Gets or sets the scale on the y axis.
+
+
 
 
 
@@ -76,9 +90,13 @@ The scale (y axis) of the associated object
 
 
 
+
+
 #### CenterZProperty
 
 The center (z axis) of scale for associated object
+
+
 
 
 
@@ -88,9 +106,13 @@ The center (y axis) of scale for associated object
 
 
 
+
+
 #### CenterXProperty
 
 The center (x axis) of scale for associated object
+
+
 
 
 
@@ -100,8 +122,12 @@ The scale (z axis) of the associated object
 
 
 
+
+
 #### ScaleXProperty
 
 The scale (x axis) of the associated object
+
+
 
 

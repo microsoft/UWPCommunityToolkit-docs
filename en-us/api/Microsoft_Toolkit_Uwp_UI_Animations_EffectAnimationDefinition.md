@@ -26,14 +26,20 @@ Gets or sets [CompositionEffectBrush](https://msdn.microsoft.com/library/windows
 
 
 
+
+
 #### Animation
 
 Gets or sets the [CompositionAnimation](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Composition.CompositionAnimation)
 
 
 
+
+
 #### PropertyName
 
 Gets or sets the property name that will be animated on the [CompositionEffectBrush](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Composition.CompositionEffectBrush)
+
+
 
 

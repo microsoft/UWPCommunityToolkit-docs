@@ -33,10 +33,14 @@ Makes a request for a list of data from the given service provider.
 | Name | Description | Type || --- | --- | --- || config | Describes the query on the list data request. | T2 || maxRecords | Specifies an upper limit to the number of records returned. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || return |Returns a strongly typed list of results from the service. |
 
 
+
+
 ### Properties
 
 #### Provider
 
 Gets the underlying data service provider.
+
+
 
 

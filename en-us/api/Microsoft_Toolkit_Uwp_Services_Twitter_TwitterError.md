@@ -26,8 +26,12 @@ Gets or sets error code
 
 
 
+
+
 #### Message
 
 Gets or sets error message
+
+
 
 

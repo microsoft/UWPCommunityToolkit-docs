@@ -34,6 +34,8 @@ Initializes a new instance of the [PullToRefreshListView](Microsoft_Toolkit_Uwp_
 
 
 
+
+
 ### Methods
 
 #### OnApplyTemplate()
@@ -42,9 +44,13 @@ Invoked whenever application code or internal processes (such as a rebuilding la
 
 
 
+
+
 #### RefreshableListView_SizeChanged()
 
 Handler for SizeChanged event, handles cliping
+
+
 
 
 
@@ -56,9 +62,13 @@ Gets or sets the PullThreshold in pixels for when Refresh should be Requested. D
 
 
 
+
+
 #### OverscrollLimit
 
 Gets or sets the Overscroll Limit. Value between 0 and 1 where 1 is the height of the control. Default is 0.3
+
+
 
 
 
@@ -68,9 +78,13 @@ Gets or sets the Content of the Refresh Indicator
 
 
 
+
+
 #### RefreshCommand
 
 Gets or sets the Command that will be invoked when Refresh is requested
+
+
 
 
 
@@ -82,9 +96,13 @@ Occurs when listview overscroll distance is changed
 
 
 
+
+
 #### RefreshRequested
 
 Occurs when the user has requested content to be refreshed
+
+
 
 
 
@@ -96,9 +114,13 @@ Identifies the PullThreshold property.
 
 
 
+
+
 #### RefreshIndicatorContentProperty
 
 Identifies the RefreshIndicatorContent property.
+
+
 
 
 
@@ -108,8 +130,12 @@ Identifies the RefreshCommand property.
 
 
 
+
+
 #### OverscrollLimitProperty
 
 Identifies the OverscrollLimit property.
+
+
 
 

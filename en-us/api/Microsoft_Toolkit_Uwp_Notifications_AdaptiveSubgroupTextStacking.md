@@ -26,9 +26,13 @@ Renderer automatically selects the default vertical alignment.
 
 
 
+
+
 #### Top
 
 Vertical align to the top.
+
+
 
 
 
@@ -38,8 +42,12 @@ Vertical align to the center.
 
 
 
+
+
 #### Bottom
 
 Vertical align to the bottom.
+
+
 
 

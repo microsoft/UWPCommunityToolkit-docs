@@ -25,3 +25,5 @@ The **TwitterSearchResult** class has the following types of members:
 Gets or sets array of timeline statuses.
 
 
+
+

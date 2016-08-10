@@ -31,6 +31,8 @@ Find descendant control using its name.
 | Name | Description | Type || --- | --- | --- || element | Parent element. | [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) || name | Name of the control to find | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Descendant control or null if not found. |
 
 
+
+
 #### FindDescendant``1(Windows.UI.Xaml.DependencyObject element)
 
 Find first descendant control of a specified type.
@@ -40,6 +42,8 @@ Find first descendant control of a specified type.
 
 
 | Name | Description | Type || --- | --- | --- || element | Parent element. | [DependencyObject](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.DependencyObject) || return |Descendant control or null if not found. |
+
+
 
 
 #### FindAscendant``1(Windows.UI.Xaml.FrameworkElement element)
@@ -53,6 +57,8 @@ Find first ascendant control of a specified type.
 | Name | Description | Type || --- | --- | --- || element | Child element. | [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) || return |Ascendant control or null if not found. |
 
 
+
+
 #### FindVisualAscendant``1(Windows.UI.Xaml.FrameworkElement element)
 
 Find first visual ascendant control of a specified type.
@@ -62,4 +68,6 @@ Find first visual ascendant control of a specified type.
 
 
 | Name | Description | Type || --- | --- | --- || element | Child element. | [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.FrameworkElement) || return |Ascendant control or null if not found. |
+
+
 

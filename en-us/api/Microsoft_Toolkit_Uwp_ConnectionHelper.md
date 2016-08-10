@@ -26,6 +26,8 @@ Gets a value indicating whether if the current internet connection is metered.
 
 
 
+
+
 #### IsInternetAvailable
 
 Gets a value indicating whether internet is available across all connections.
@@ -35,4 +37,6 @@ Gets a value indicating whether internet is available across all connections.
 
 
 | Name | Description | Type || --- | --- | --- || return |True if internet can be reached. |
+
+
 

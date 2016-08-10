@@ -26,6 +26,8 @@ Initializes a new instance of the [ConfigNullException](Microsoft_Toolkit_Uwp_Se
 
 
 
+
+
 #### contructor
 
 Initializes a new instance of the [ConfigNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigNullException.htm) class. Constructor accepting additional message string.
@@ -37,6 +39,8 @@ Initializes a new instance of the [ConfigNullException](Microsoft_Toolkit_Uwp_Se
 | Name | Description | Type || --- | --- | --- || message | Additional error information. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
+
+
 #### contructor
 
 Initializes a new instance of the [ConfigNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigNullException.htm) class. Constructor accepting additonal message string and inner exception
@@ -46,4 +50,6 @@ Initializes a new instance of the [ConfigNullException](Microsoft_Toolkit_Uwp_Se
 
 
 | Name | Description | Type || --- | --- | --- || message | Additional error information. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || innerException | Reference to inner exception. | [Exception](https://msdn.microsoft.com/library/windows/apps/System.Exception) |
+
+
 

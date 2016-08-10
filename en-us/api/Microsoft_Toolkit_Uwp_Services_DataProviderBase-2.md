@@ -31,6 +31,8 @@ Load data from provider endpoint.
 | Name | Description | Type || --- | --- | --- || config | Query configuration. | T0 || maxRecords | Upper record limit. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || return |List of strong typed objects. |
 
 
+
+
 #### GetDefaultParser(T0 config)
 
 Default parser abstract method.
@@ -40,4 +42,6 @@ Default parser abstract method.
 
 
 | Name | Description | Type || --- | --- | --- || config | Query configuration object. | T0 || return |Strong typed default parser. |
+
+
 

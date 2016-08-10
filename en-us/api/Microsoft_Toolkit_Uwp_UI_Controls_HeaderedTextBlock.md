@@ -32,11 +32,15 @@ Initializes a new instance of the [HeaderedTextBlock](Microsoft_Toolkit_Uwp_UI_C
 
 
 
+
+
 ### Methods
 
 #### OnApplyTemplate()
 
 Called when applying the control template.
+
+
 
 
 
@@ -48,9 +52,13 @@ Gets or sets the text.
 
 
 
+
+
 #### Header
 
 Gets or sets the header.
+
+
 
 
 
@@ -60,15 +68,21 @@ Gets or sets the text style.
 
 
 
+
+
 #### HeaderStyle
 
 Gets or sets the header style.
 
 
 
+
+
 #### Orientation
 
 Gets or sets the orientation.
+
+
 
 
 
@@ -80,9 +94,13 @@ Defines the Text dependency property.
 
 
 
+
+
 #### HeaderProperty
 
 Defines the Header dependency property.
+
+
 
 
 
@@ -92,14 +110,20 @@ Defines the TextStyle dependency property.
 
 
 
+
+
 #### HeaderStyleProperty
 
 Defines the HeaderStyle dependency property.
 
 
 
+
+
 #### OrientationProperty
 
 Defines the Orientation dependency property.
+
+
 
 

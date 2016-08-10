@@ -33,10 +33,14 @@ Initializes a new instance of the [StringValueAttribute](Microsoft_Toolkit_Uwp_S
 | Name | Description | Type || --- | --- | --- || value | String value | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
+
+
 ### Properties
 
 #### Value
 
 Gets property for string value.
+
+
 
 

@@ -30,3 +30,5 @@ Takes string data and parses to strong type.
 
 | Name | Description | Type || --- | --- | --- || data | String data. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Strong type deserialized from string data. |
 
+
+

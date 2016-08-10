@@ -26,6 +26,8 @@ Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp
 
 
 
+
+
 #### contructor
 
 Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp_Services_Exceptions_RequestFailedException.htm) class. Constructor with additional message.
@@ -35,6 +37,8 @@ Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp
 
 
 | Name | Description | Type || --- | --- | --- || message | Additional messsage. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+
+
 
 
 #### contructor
@@ -48,6 +52,8 @@ Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp
 | Name | Description | Type || --- | --- | --- || statusCode | Failure status code. | [HttpStatusCode](https://msdn.microsoft.com/library/windows/apps/Windows.Web.Http.HttpStatusCode) || reason | Failure reason. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
+
+
 #### contructor
 
 Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp_Services_Exceptions_RequestFailedException.htm) class. Constructor with additional message and inner exception.
@@ -57,4 +63,6 @@ Initializes a new instance of the [RequestFailedException](Microsoft_Toolkit_Uwp
 
 
 | Name | Description | Type || --- | --- | --- || message | Additional message. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || innerException | Reference to inner exception. | [Exception](https://msdn.microsoft.com/library/windows/apps/System.Exception) |
+
+
 

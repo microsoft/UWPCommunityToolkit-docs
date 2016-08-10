@@ -30,6 +30,8 @@ Starts the animation.
 
 
 
+
+
 ### Properties
 
 #### Value
@@ -38,10 +40,14 @@ Gets or sets the Opacity.
 
 
 
+
+
 ### Fields
 
 #### ValueProperty
 
 The Opacity value of the associated object
+
+
 
 

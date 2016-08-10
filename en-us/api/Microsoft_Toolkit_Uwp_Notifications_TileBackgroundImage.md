@@ -26,9 +26,13 @@ The URI of the image. Can be from your application package, application data, or
 
 
 
+
+
 #### AlternateText
 
 A description of the image, for users of assistive technologies.
+
+
 
 
 
@@ -38,14 +42,20 @@ Set to true to allow Windows to append a query string to the image URI supplied 
 
 
 
+
+
 #### HintOverlay
 
 A black overlay on the background image. This value controls the opacity of the black overlay, with 0 being no overlay and 100 being completely black. Defaults to 20.
 
 
 
+
+
 #### HintCrop
 
 New in 1511: Control the desired cropping of the image. Previously for RTM: Did not exist, value will be ignored and background image will be displayed without any cropping.
+
+
 
 

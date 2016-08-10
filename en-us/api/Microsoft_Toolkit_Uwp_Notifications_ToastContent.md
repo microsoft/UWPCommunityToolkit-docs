@@ -33,6 +33,8 @@ Retrieves the notification XML content as a string, so that it can be sent with 
 | Name | Description | Type || --- | --- | --- || return |The notification XML content as a string. |
 
 
+
+
 #### GetXml()
 
 Retrieves the notification XML content as a WinRT XmlDocument, so that it can be used with a local Toast notification's constructor on either [ToastNotification](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Notifications.ToastNotification) or [ScheduledToastNotification](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Notifications.ScheduledToastNotification).
@@ -44,11 +46,15 @@ Retrieves the notification XML content as a WinRT XmlDocument, so that it can be
 | Name | Description | Type || --- | --- | --- || return |The notification XML content as a WinRT XmlDocument. |
 
 
+
+
 ### Properties
 
 #### Visual
 
 The visual element is required.
+
+
 
 
 
@@ -58,9 +64,13 @@ Specify custom audio options.
 
 
 
+
+
 #### Actions
 
 Optionally create custom actions with buttons and inputs (using [ToastActionsCustom](Microsoft_Toolkit_Uwp_Notifications_ToastActionsCustom.htm)) or optionally use the system-default snooze/dismiss controls (with [ToastActionsSnoozeAndDismiss](Microsoft_Toolkit_Uwp_Notifications_ToastActionsSnoozeAndDismiss.htm)).
+
+
 
 
 
@@ -70,9 +80,13 @@ Specify the scenario, to make the Toast behave like an alarm, reminder, or more.
 
 
 
+
+
 #### Duration
 
 The amount of time the Toast should display. You typically should use the Scenario attribute instead, which impacts how long a Toast stays on screen.
+
+
 
 
 
@@ -82,8 +96,12 @@ A string that is passed to the application when it is activated by the Toast. Th
 
 
 
+
+
 #### ActivationType
 
 Specifies what activation type will be used when the user clicks the body of this Toast.
+
+
 
 

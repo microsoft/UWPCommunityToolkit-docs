@@ -33,6 +33,8 @@ Converts object into string.
 | Name | Description | Type || --- | --- | --- || value | Object value. | [Object](https://msdn.microsoft.com/library/windows/apps/System.Object) || return |Returns string value. |
 
 
+
+
 #### DecodeHtml(System.String htmlText)
 
 Decode HTML string.
@@ -42,6 +44,8 @@ Decode HTML string.
 
 
 | Name | Description | Type || --- | --- | --- || htmlText | HTML string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Returns decoded HTML string. |
+
+
 
 
 #### GetStringValue(Microsoft.Toolkit.Uwp.Services.Bing.BingCountry value)
@@ -55,10 +59,14 @@ Converts between country code and country name.
 | Name | Description | Type || --- | --- | --- || value | BingCountry enumeration. | [BingCountry](Microsoft_Toolkit_Uwp_Services_Bing_BingCountry.htm) || return |Returns country code. |
 
 
+
+
 ### Fields
 
 #### RemoveHtmlTagsRegex
 
 Regular expression of HTML tags to remove.
+
+
 
 

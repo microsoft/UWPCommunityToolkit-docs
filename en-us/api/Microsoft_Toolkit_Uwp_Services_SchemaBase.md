@@ -25,3 +25,5 @@ The **SchemaBase** class has the following types of members:
 Gets or sets identifier for strong typed record.
 
 
+
+

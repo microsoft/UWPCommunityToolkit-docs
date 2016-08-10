@@ -26,14 +26,20 @@ Vertical align to the top.
 
 
 
+
+
 #### Center
 
 Vertical align to the center.
 
 
 
+
+
 #### Bottom
 
 Vertical align to the bottom.
+
+
 
 

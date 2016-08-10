@@ -26,9 +26,13 @@ Alignment is automatically determined by
 
 
 
+
+
 #### Auto
 
 The system automatically decides the alignment based on the language and culture.
+
+
 
 
 
@@ -38,9 +42,13 @@ Horizontally align the text to the left.
 
 
 
+
+
 #### Center
 
 Horizontally align the text in the center.
+
+
 
 
 
@@ -50,8 +58,12 @@ Horizontally align the text to the right.
 
 
 
+
+
 #### Inline
 
 Default value
+
+
 
 

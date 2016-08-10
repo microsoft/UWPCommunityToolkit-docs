@@ -25,3 +25,5 @@ The **RefreshProgressEventArgs** class has the following types of members:
 Gets or sets value from 0.0 to 1.0 where 1.0 is active
 
 
+
+

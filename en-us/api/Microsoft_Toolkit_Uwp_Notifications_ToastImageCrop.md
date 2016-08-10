@@ -28,9 +28,13 @@ The id attribute is required and is for developers to retrieve user inputs once 
 
 
 
+
+
 #### Title
 
 The title attribute is optional and is for developers to specify a title for the input for shells to render when there is affordance.
+
+
 
 
 
@@ -40,9 +44,13 @@ The placeholderContent attribute is optional and is the grey-out hint text for t
 
 
 
+
+
 #### DefaultInput
 
 The defaultInput attribute is optional and it allows developer to provide a default input value.
+
+
 
 
 
@@ -52,9 +60,13 @@ The id attribute is required and it is for apps to retrieve back the user select
 
 
 
+
+
 #### Content
 
 The text to display for this selection element.
+
+
 
 
 
@@ -66,8 +78,12 @@ Default value. Image is not cropped.
 
 
 
+
+
 #### Circle
 
 Image is cropped to a circle shape.
+
+
 
 

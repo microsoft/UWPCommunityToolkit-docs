@@ -33,11 +33,15 @@ Returns the image's source string.
 | Name | Description | Type || --- | --- | --- || return |The image's source string. |
 
 
+
+
 ### Properties
 
 #### HintCrop
 
 Control the desired cropping of the image. Supported on Tiles since RTM. Supported on Toast since Anniversary Update.
+
+
 
 
 
@@ -47,9 +51,13 @@ By default, images have an 8px margin around them. You can remove this margin by
 
 
 
+
+
 #### HintAlign
 
 The horizontal alignment of the image. For Toast, this is only supported when inside an [AdaptiveSubgroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.htm).
+
+
 
 
 
@@ -59,14 +67,20 @@ Required. The URI of the image. Can be from your application package, applicatio
 
 
 
+
+
 #### AlternateText
 
 A description of the image, for users of assistive technologies.
 
 
 
+
+
 #### AddImageQuery
 
 Set to true to allow Windows to append a query string to the image URI supplied in the Tile notification. Use this attribute if your server hosts images and can handle query strings, either by retrieving an image variant based on the query strings or by ignoring the query string and returning the image as specified without the query string. This query string specifies scale, contrast setting, and language.
+
+
 
 

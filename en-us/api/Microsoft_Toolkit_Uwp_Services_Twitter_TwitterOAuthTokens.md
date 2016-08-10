@@ -26,9 +26,13 @@ Gets or sets consumer Key.
 
 
 
+
+
 #### ConsumerSecret
 
 Gets or sets consumer Secret.
+
+
 
 
 
@@ -38,9 +42,13 @@ Gets or sets access Token.
 
 
 
+
+
 #### AccessTokenSecret
 
 Gets or sets access Token Secret.
+
+
 
 
 
@@ -50,14 +58,20 @@ Gets or sets access Request Token.
 
 
 
+
+
 #### RequestTokenSecret
 
 Gets or sets access Request Token Secret.
 
 
 
+
+
 #### CallbackUri
 
 Gets or sets callback Uri.
+
+
 
 

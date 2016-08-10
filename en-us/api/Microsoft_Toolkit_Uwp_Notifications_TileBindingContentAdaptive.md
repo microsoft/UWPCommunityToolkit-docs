@@ -26,9 +26,13 @@ The **TileBindingContentAdaptive** class has the following types of members:
 
 
 
+
+
 #### BackgroundImage
 
 An optional background image that gets displayed behind all the Tile content, full bleed.
+
+
 
 
 
@@ -38,8 +42,12 @@ An optional peek image that animates in from the top of the Tile.
 
 
 
+
+
 #### TextStacking
 
 Controls the text stacking (vertical alignment) of the entire binding element.
+
+
 
 

@@ -30,9 +30,13 @@ Called after the behavior is attached to the AssociatedObject.
 
 
 
+
+
 #### StartAnimation()
 
 Starts the animation.
+
+
 
 
 
@@ -44,6 +48,8 @@ Gets or sets the Blur.
 
 
 
+
+
 ### Fields
 
 #### _frameworkElement
@@ -52,8 +58,12 @@ The _framework element
 
 
 
+
+
 #### ValueProperty
 
 The Blur value of the associated object
+
+
 
 

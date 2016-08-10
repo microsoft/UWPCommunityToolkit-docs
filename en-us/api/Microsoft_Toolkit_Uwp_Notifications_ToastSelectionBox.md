@@ -33,11 +33,15 @@ Initializes a new Toast SelectionBox input control with the required elements.
 | Name | Description | Type || --- | --- | --- || id | Developer-provided ID that the developer uses later to retrieve input when the Toast is interacted with. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
+
+
 ### Properties
 
 #### Id
 
 The ID property is required, and is used so that developers can retrieve user input once the app is activated.
+
+
 
 
 
@@ -47,14 +51,20 @@ Title text to display above the SelectionBox.
 
 
 
+
+
 #### DefaultSelectionBoxItemId
 
 This controls which item is selected by default, and refers to the Id property of [ToastSelectionBoxItem](Microsoft_Toolkit_Uwp_Notifications_ToastSelectionBoxItem.htm). If you do not provide this, the default selection will be empty (user sees nothing).
 
 
 
+
+
 #### Items
 
 The selection items that the user can pick from in this SelectionBox. Only 5 items can be added.
+
+
 
 

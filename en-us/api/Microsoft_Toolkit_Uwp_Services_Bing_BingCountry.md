@@ -26,9 +26,13 @@ Lebanon
 
 
 
+
+
 #### None
 
 None
+
+
 
 
 
@@ -38,9 +42,13 @@ Albania
 
 
 
+
+
 #### Armenia
 
 Armenia
+
+
 
 
 
@@ -50,9 +58,13 @@ Argentina
 
 
 
+
+
 #### Austria
 
 Austria
+
+
 
 
 
@@ -62,9 +74,13 @@ Australia
 
 
 
+
+
 #### Azerbaijan
 
 Azerbaijan
+
+
 
 
 
@@ -74,9 +90,13 @@ Bosnia Herzegovina
 
 
 
+
+
 #### Belgium
 
 Belgium
+
+
 
 
 
@@ -86,9 +106,13 @@ Bulgaria
 
 
 
+
+
 #### Bahrain
 
 Bahrain
+
+
 
 
 
@@ -98,9 +122,13 @@ Bolivia
 
 
 
+
+
 #### Brazil
 
 Brazil
+
+
 
 
 
@@ -110,9 +138,13 @@ Canada
 
 
 
+
+
 #### Switzerland
 
 Switzerland
+
+
 
 
 
@@ -122,9 +154,13 @@ Chile
 
 
 
+
+
 #### China
 
 China
+
+
 
 
 
@@ -134,9 +170,13 @@ Costa Rica
 
 
 
+
+
 #### Germany
 
 Germany
+
+
 
 
 
@@ -146,9 +186,13 @@ Dominican Republic
 
 
 
+
+
 #### Ecuador
 
 Ecuador
+
+
 
 
 
@@ -158,9 +202,13 @@ France
 
 
 
+
+
 #### UnitedKingdom
 
 United Kingdom
+
+
 
 
 
@@ -170,9 +218,13 @@ Georgia
 
 
 
+
+
 #### Greece
 
 Greece
+
+
 
 
 
@@ -182,9 +234,13 @@ Guatemala
 
 
 
+
+
 #### HongKong
 
 Hong Kong
+
+
 
 
 
@@ -194,9 +250,13 @@ Honduras
 
 
 
+
+
 #### Croatia
 
 Croatia
+
+
 
 
 
@@ -206,9 +266,13 @@ Hungary
 
 
 
+
+
 #### Indonesia
 
 Indonesia
+
+
 
 
 
@@ -218,9 +282,13 @@ Ireland
 
 
 
+
+
 #### Israel
 
 Israel
+
+
 
 
 
@@ -230,9 +298,13 @@ India
 
 
 
+
+
 #### Iraq
 
 Iraq
+
+
 
 
 
@@ -242,9 +314,13 @@ Iran
 
 
 
+
+
 #### Iceland
 
 Iceland
+
+
 
 
 
@@ -254,9 +330,13 @@ Italy
 
 
 
+
+
 #### Jordan
 
 Jordan
+
+
 
 
 
@@ -266,9 +346,13 @@ Japan
 
 
 
+
+
 #### Kenya
 
 Kenya
+
+
 
 
 
@@ -278,9 +362,13 @@ Korea
 
 
 
+
+
 #### Kuwait
 
 Kuwait
+
+
 
 
 
@@ -290,9 +378,13 @@ United Arab Emirates
 
 
 
+
+
 #### Lithuania
 
 Lithuania
+
+
 
 
 
@@ -302,9 +394,13 @@ Latvia
 
 
 
+
+
 #### Luxembourg
 
 Luxembourg
+
+
 
 
 
@@ -314,9 +410,13 @@ Libya
 
 
 
+
+
 #### Morocco
 
 Morocco
+
+
 
 
 
@@ -326,9 +426,13 @@ Macedonia
 
 
 
+
+
 #### Malta
 
 Malta
+
+
 
 
 
@@ -338,9 +442,13 @@ Malaysia
 
 
 
+
+
 #### Mexico
 
 Mexico
+
+
 
 
 
@@ -350,9 +458,13 @@ Nicaragua
 
 
 
+
+
 #### Netherlands
 
 Netherlands
+
+
 
 
 
@@ -362,9 +474,13 @@ New Zealand
 
 
 
+
+
 #### Norway
 
 Norway
+
+
 
 
 
@@ -374,9 +490,13 @@ Oman
 
 
 
+
+
 #### Panama
 
 Panama
+
+
 
 
 
@@ -386,9 +506,13 @@ Peru
 
 
 
+
+
 #### Philippines
 
 Philippines
+
+
 
 
 
@@ -398,9 +522,13 @@ Poland
 
 
 
+
+
 #### Pakistan
 
 Pakistan
+
+
 
 
 
@@ -410,9 +538,13 @@ PuertoRico
 
 
 
+
+
 #### Portugal
 
 Portugal
+
+
 
 
 
@@ -422,9 +554,13 @@ Paraguay
 
 
 
+
+
 #### Qatar
 
 Qatar
+
+
 
 
 
@@ -434,9 +570,13 @@ Romania
 
 
 
+
+
 #### Russia
 
 Russia
+
+
 
 
 
@@ -446,9 +586,13 @@ Sweden
 
 
 
+
+
 #### SaudiArabia
 
 Saudi Arabia
+
+
 
 
 
@@ -458,9 +602,13 @@ Singapore
 
 
 
+
+
 #### Slovakia
 
 Slovakia
+
+
 
 
 
@@ -470,9 +618,13 @@ Slovenia
 
 
 
+
+
 #### Spain
 
 Spain
+
+
 
 
 
@@ -482,9 +634,13 @@ Serbia
 
 
 
+
+
 #### ElSalvador
 
 El Salvador
+
+
 
 
 
@@ -494,9 +650,13 @@ Syria
 
 
 
+
+
 #### Taiwan
 
 Taiwan
+
+
 
 
 
@@ -506,9 +666,13 @@ Thailand
 
 
 
+
+
 #### Tunisia
 
 Tunisia
+
+
 
 
 
@@ -518,9 +682,13 @@ Turkey
 
 
 
+
+
 #### Ukraine
 
 Ukraine
+
+
 
 
 
@@ -530,9 +698,13 @@ United States
 
 
 
+
+
 #### Vietnam
 
 Vietnam
+
+
 
 
 
@@ -542,8 +714,12 @@ Yemen
 
 
 
+
+
 #### SouthAfrica
 
 South Africa
+
+
 
 

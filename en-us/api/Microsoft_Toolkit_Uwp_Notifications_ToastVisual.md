@@ -26,9 +26,13 @@ The target locale of the XML payload, specified as BCP-47 language tags such as 
 
 
 
+
+
 #### BaseUri
 
 A default base URI that is combined with relative URIs in image source attributes.
+
+
 
 
 
@@ -38,8 +42,12 @@ Set to "true" to allow Windows to append a query string to the image URI supplie
 
 
 
+
+
 #### BindingGeneric
 
 The generic Toast binding, which can be rendered on all devices. This binding is required and cannot be null.
+
+
 
 

@@ -26,9 +26,13 @@ A glyph representing busy status.
 
 
 
+
+
 #### None
 
 No glyph.  If there is a numeric badge, or a glyph currently on the badge, it will be removed.
+
+
 
 
 
@@ -38,9 +42,13 @@ A glyph representing an alert.
 
 
 
+
+
 #### Alarm
 
 A glyph representing an alarm.
+
+
 
 
 
@@ -50,9 +58,13 @@ A glyph representing availability status.
 
 
 
+
+
 #### Away
 
 A glyph representing away status
+
+
 
 
 
@@ -62,9 +74,13 @@ A glyph representing application activity.
 
 
 
+
+
 #### NewMessage
 
 A glyph representing that a new message is available.
+
+
 
 
 
@@ -74,9 +90,13 @@ A glyph representing that media is paused.
 
 
 
+
+
 #### Playing
 
 A glyph representing that media is playing.
+
+
 
 
 
@@ -86,14 +106,20 @@ A glyph representing unavailable status.
 
 
 
+
+
 #### Error
 
 A glyph representing an error.
 
 
 
+
+
 #### Attention
 
 A glyph representing attention status.
+
+
 
 

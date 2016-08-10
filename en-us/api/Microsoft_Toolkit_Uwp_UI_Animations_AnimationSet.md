@@ -37,6 +37,8 @@ Initializes a new instance of the [AnimationSet](Microsoft_Toolkit_Uwp_UI_Animat
 | Name | Description | Type || --- | --- | --- || element | The associated element | [UIElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.UIElement) |
 
 
+
+
 ### Methods
 
 #### SetDelayForAll(System.Double delayTime)
@@ -50,6 +52,8 @@ Ovewrites the delay time on all animations to the specified value
 | Name | Description | Type || --- | --- | --- || delayTime | The delay time in seconds | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || return |AnimationSet to allow chaining |
 
 
+
+
 #### AddEffectDirectPropertyChange(Windows.UI.Composition.CompositionEffectBrush effectBrush,System.Single value,System.String propertyName)
 
 Adds an effect propety change to be run on StartAsync
@@ -59,6 +63,8 @@ Adds an effect propety change to be run on StartAsync
 
 
 | Name | Description | Type || --- | --- | --- || effectBrush | The [CompositionEffectBrush](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Composition.CompositionEffectBrush) that will have a property changed | [CompositionEffectBrush](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Composition.CompositionEffectBrush) || value | The value to be applied | [Single](https://msdn.microsoft.com/library/windows/apps/System.Single) || propertyName | The property of the effect to be animated | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+
+
 
 
 #### Then()
@@ -72,6 +78,8 @@ Wait for existing animations to complete before running any others
 | Name | Description | Type || --- | --- | --- || return |AnimationSet to allow chaining |
 
 
+
+
 #### StartAsync()
 
 Starts all animations on the backing Visual.
@@ -83,9 +91,13 @@ Starts all animations on the backing Visual.
 | Name | Description | Type || --- | --- | --- || return |A [Task](https://msdn.microsoft.com/library/windows/apps/System.Threading.Tasks.Task) that can be awaited until all animations have completed |
 
 
+
+
 #### Stop()
 
 Stops all animations on the backing Visual.
+
+
 
 
 
@@ -100,6 +112,8 @@ Ovewrites the duration on all animations to the specified value
 | Name | Description | Type || --- | --- | --- || duration | The duration in seconds | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || return |AnimationSet to allow chaining |
 
 
+
+
 #### RemoveDirectPropertyChange(System.String propertyName)
 
 Removes a property change from being run on StartAsync
@@ -109,6 +123,8 @@ Removes a property change from being run on StartAsync
 
 
 | Name | Description | Type || --- | --- | --- || propertyName | The property that no longer needs to be changed | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+
+
 
 
 #### AddAnimation(System.String propertyName,Windows.UI.Composition.CompositionAnimation animation)
@@ -122,6 +138,8 @@ Adds an animation to be run on StartAsync
 | Name | Description | Type || --- | --- | --- || propertyName | The property to be animated on the backing Visual | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || animation | The animation to be applied | [CompositionAnimation](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Composition.CompositionAnimation) |
 
 
+
+
 #### RemoveAnimation(System.String propertyName)
 
 Removes an animation from being run on StartAsync
@@ -131,6 +149,8 @@ Removes an animation from being run on StartAsync
 
 
 | Name | Description | Type || --- | --- | --- || propertyName | The property that no longer needs to be animated | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
+
+
 
 
 #### AddEffectAnimation(Windows.UI.Composition.CompositionEffectBrush effectBrush,Windows.UI.Composition.CompositionAnimation animation,System.String propertyName)
@@ -144,6 +164,8 @@ Adds an effect animation to be run on StartAsync
 | Name | Description | Type || --- | --- | --- || effectBrush | The [CompositionEffectBrush](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Composition.CompositionEffectBrush) that will have a property animated | [CompositionEffectBrush](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Composition.CompositionEffectBrush) || animation | The animation to be applied | [CompositionAnimation](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Composition.CompositionAnimation) || propertyName | The property of the effect to be animated | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
+
+
 #### AddDirectPropertyChange(System.String propertyName,System.Object value)
 
 Adds a propertyChange to be run on StartAsync
@@ -155,11 +177,15 @@ Adds a propertyChange to be run on StartAsync
 | Name | Description | Type || --- | --- | --- || propertyName | The property to be animated on the backing Visual | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || value | The value to be applied | [Object](https://msdn.microsoft.com/library/windows/apps/System.Object) |
 
 
+
+
 ### Properties
 
 #### Element
 
 Gets the [UIElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.UIElement)
+
+
 
 
 
@@ -169,10 +195,14 @@ Gets the Visual object that backs the XAML element
 
 
 
+
+
 ### Events
 
 #### Completed
 
 Occurs when all animations have completed
+
+
 
 

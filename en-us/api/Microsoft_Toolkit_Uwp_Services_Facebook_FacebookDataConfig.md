@@ -26,9 +26,13 @@ Gets a predefined config to get user feed. The feed of posts (including status u
 
 
 
+
+
 #### MyPosts
 
 Gets a predefined config to show only the posts that were published by this person
+
+
 
 
 
@@ -38,8 +42,12 @@ Gets a predefined config to show only the posts that this person was tagged in
 
 
 
+
+
 #### Query
 
 Gets or sets the query string for filtering service results.
+
+
 
 

@@ -31,6 +31,8 @@ Url encode input string.
 | Name | Description | Type || --- | --- | --- || value | Input string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Encoded string. |
 
 
+
+
 #### UrlEncode(System.Collections.Generic.IEnumerable(Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter) parameters)
 
 Encode list of parameters.
@@ -42,6 +44,8 @@ Encode list of parameters.
 | Name | Description | Type || --- | --- | --- || parameters | List of parameters. | System.Collections.Generic.IEnumerable(Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter) || return |Encoded string of parameters. |
 
 
+
+
 #### GenerateHash(System.String input,System.String key)
 
 Generate hash from input string and key.
@@ -51,4 +55,6 @@ Generate hash from input string and key.
 
 
 | Name | Description | Type || --- | --- | --- || input | Input string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || key | Key string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Hash string. |
+
+
 

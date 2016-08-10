@@ -26,9 +26,13 @@ H3 font size.
 
 
 
+
+
 #### Default
 
 Style is determined by the renderer.
+
+
 
 
 
@@ -38,9 +42,13 @@ Same as Caption but with subtle opacity.
 
 
 
+
+
 #### Body
 
 H5 font size.
+
+
 
 
 
@@ -50,9 +58,13 @@ Same as Body but with subtle opacity.
 
 
 
+
+
 #### Base
 
 H5 font size, bold weight. Essentially the bold version of Body.
+
+
 
 
 
@@ -62,9 +74,13 @@ Same as Base but with subtle opacity.
 
 
 
+
+
 #### Subtitle
 
 H4 font size.
+
+
 
 
 
@@ -74,9 +90,13 @@ Same as Subtitle but with subtle opacity.
 
 
 
+
+
 #### Caption
 
 Default value. Paragraph font size, normal weight and opacity.
+
+
 
 
 
@@ -86,9 +106,13 @@ Same as Title but with subtle opacity.
 
 
 
+
+
 #### TitleNumeral
 
 Same as Title but with top/bottom padding removed.
+
+
 
 
 
@@ -98,9 +122,13 @@ H2 font size.
 
 
 
+
+
 #### SubheaderSubtle
 
 Same as Subheader but with subtle opacity.
+
+
 
 
 
@@ -110,9 +138,13 @@ Same as Subheader but with top/bottom padding removed.
 
 
 
+
+
 #### Header
 
 H1 font size.
+
+
 
 
 
@@ -122,8 +154,12 @@ Same as Header but with subtle opacity.
 
 
 
+
+
 #### HeaderNumeral
 
 Same as Header but with top/bottom padding removed.
+
+
 
 

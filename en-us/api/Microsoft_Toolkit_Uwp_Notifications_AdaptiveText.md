@@ -33,11 +33,15 @@ Returns the value of the Text property.
 | Name | Description | Type || --- | --- | --- || return |The value of the Text property. |
 
 
+
+
 ### Properties
 
 #### Text
 
 The text to display.
+
+
 
 
 
@@ -47,9 +51,13 @@ The target locale of the XML payload, specified as a BCP-47 language tags such a
 
 
 
+
+
 #### HintStyle
 
 The style controls the text's font size, weight, and opacity. Note that for Toast, the style will only take effect if the text is inside an [AdaptiveSubgroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.htm).
+
+
 
 
 
@@ -59,9 +67,13 @@ Set this to true to enable text wrapping. For Tiles, this is false by default. F
 
 
 
+
+
 #### HintMaxLines
 
 The maximum number of lines the text element is allowed to display. For Tiles, this is infinity by default. For Toasts, top-level text elements will have varying max line amounts (and in the Anniversary Update you can change the max lines). Text on a Toast inside an [AdaptiveSubgroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.htm) will behave identically to Tiles (default to infinity).
+
+
 
 
 
@@ -71,8 +83,12 @@ The minimum number of lines the text element must display. Note that for Toast, 
 
 
 
+
+
 #### HintAlign
 
 The horizontal alignment of the text. Note that for Toast, this property will only take effect if the text is inside an [AdaptiveSubgroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.htm).
+
+
 
 

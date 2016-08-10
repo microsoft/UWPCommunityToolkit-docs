@@ -30,11 +30,15 @@ Starts the animation.
 
 
 
+
+
 ### Properties
 
 #### OffsetX
 
 Gets or sets the Offset x.
+
+
 
 
 
@@ -44,9 +48,13 @@ Gets or sets the Offset y.
 
 
 
+
+
 #### OffsetZ
 
 Gets or sets the Offset z.
+
+
 
 
 
@@ -58,14 +66,20 @@ The Offset on the x axis of the associated object
 
 
 
+
+
 #### OffsetYProperty
 
 The Offset on the y axis of the associated object
 
 
 
+
+
 #### OffsetZProperty
 
 The Offset on the z axis of the associated object
+
+
 
 

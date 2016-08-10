@@ -26,9 +26,13 @@ Gets or sets user Id.
 
 
 
+
+
 #### Name
 
 Gets or sets user name.
+
+
 
 
 
@@ -38,8 +42,12 @@ Gets or sets user screen name.
 
 
 
+
+
 #### ProfileImageUrl
 
 Gets or sets user profile image Url.
+
+
 
 

@@ -25,3 +25,5 @@ The **ToastActionsSnoozeAndDismiss** class has the following types of members:
 New in Anniversary Update: Custom context menu items, providing additional actions when the user right clicks the Toast notification. You can only have up to 5 items.
 
 
+
+

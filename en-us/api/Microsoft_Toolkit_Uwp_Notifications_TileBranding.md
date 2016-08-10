@@ -26,9 +26,13 @@ The default choice. If ShowNameOn___ is true for the Tile size being displayed, 
 
 
 
+
+
 #### None
 
 No branding will be displayed.
+
+
 
 
 
@@ -38,14 +42,20 @@ The DisplayName will be shown.
 
 
 
+
+
 #### Logo
 
 Desktop-only. The Square44x44Logo will be shown. On Mobile, this will fallback to Name.
 
 
 
+
+
 #### NameAndLogo
 
 Desktop-only. Both the DisplayName and Square44x44Logo will be shown. On Mobile, this will fallback to Name.
+
+
 
 

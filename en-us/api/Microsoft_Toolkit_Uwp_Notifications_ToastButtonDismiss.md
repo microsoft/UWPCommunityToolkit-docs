@@ -28,6 +28,8 @@ Initializes a system-handled dismiss button that displays localized "Dismiss" te
 
 
 
+
+
 #### contructor
 
 Constructs a system-handled dismiss button that displays your text on the button.
@@ -39,10 +41,14 @@ Constructs a system-handled dismiss button that displays your text on the button
 | Name | Description | Type || --- | --- | --- || customContent | The text you want displayed on the button. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
+
+
 ### Properties
 
 #### CustomContent
 
 Custom text displayed on the button that overrides the default localized "Dismiss" text.
+
+
 
 

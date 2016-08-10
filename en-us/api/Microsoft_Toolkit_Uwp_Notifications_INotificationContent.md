@@ -31,6 +31,8 @@ Retrieves the notification Xml content as a string.
 | Name | Description | Type || --- | --- | --- || return |The notification Xml content as a string. |
 
 
+
+
 #### GetXml()
 
 Retrieves the notification Xml content as a WinRT Xml document.
@@ -40,4 +42,6 @@ Retrieves the notification Xml content as a WinRT Xml document.
 
 
 | Name | Description | Type || --- | --- | --- || return |The notification Xml content as a WinRT Xml document. |
+
+
 

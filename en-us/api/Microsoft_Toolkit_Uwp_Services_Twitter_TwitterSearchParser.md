@@ -30,3 +30,5 @@ Parse string into strong typed list.
 
 | Name | Description | Type || --- | --- | --- || data | Input string. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Strong typed list. |
 
+
+

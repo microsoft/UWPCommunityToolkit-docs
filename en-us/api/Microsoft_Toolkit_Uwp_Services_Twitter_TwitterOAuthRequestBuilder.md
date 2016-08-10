@@ -37,6 +37,8 @@ Initializes a new instance of the [TwitterOAuthRequestBuilder](Microsoft_Toolkit
 | Name | Description | Type || --- | --- | --- || requestUri | Request Uri. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || tokens | Tokens to form request. | [TwitterOAuthTokens](Microsoft_Toolkit_Uwp_Services_Twitter_TwitterOAuthTokens.htm) || method | Method to use with request. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
+
+
 ### Methods
 
 #### GetAuthHeaderParameters()
@@ -50,6 +52,8 @@ Get list of auth header parameters.
 | Name | Description | Type || --- | --- | --- || return |List of auth header paramters. |
 
 
+
+
 #### GetEncodedUri(System.Uri requestUri,System.Collections.Generic.IEnumerable(Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter) parameters)
 
 Get encoded Uri.
@@ -59,6 +63,8 @@ Get encoded Uri.
 
 
 | Name | Description | Type || --- | --- | --- || requestUri | Request uri. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || parameters | List of parameters. | System.Collections.Generic.IEnumerable(Microsoft.Toolkit.Uwp.Services.OAuth.OAuthParameter) || return |Encoded Uri. |
+
+
 
 
 #### GenerateNonce()
@@ -72,6 +78,8 @@ Generate nonce.
 | Name | Description | Type || --- | --- | --- || return |String nonce. |
 
 
+
+
 #### GenerateTimeStamp()
 
 Generate timestamp string.
@@ -81,6 +89,8 @@ Generate timestamp string.
 
 
 | Name | Description | Type || --- | --- | --- || return |Timestamp string. |
+
+
 
 
 #### GenerateSignature()
@@ -94,6 +104,8 @@ Generate signature.
 | Name | Description | Type || --- | --- | --- || return |Generated signature string. |
 
 
+
+
 #### GenerateAuthorizationHeader()
 
 Generate authorization header.
@@ -103,6 +115,8 @@ Generate authorization header.
 
 
 | Name | Description | Type || --- | --- | --- || return |Generated authorizatin header string. |
+
+
 
 
 #### GetSignParameters()
@@ -116,11 +130,15 @@ Get list of sign parameters.
 | Name | Description | Type || --- | --- | --- || return |List of sign parameters. |
 
 
+
+
 ### Properties
 
 #### SignatureMethod
 
 Gets signature method.
+
+
 
 
 
@@ -130,9 +148,13 @@ Gets consumer key.
 
 
 
+
+
 #### ConsumerSecret
 
 Gets consumer secret.
+
+
 
 
 
@@ -142,9 +164,13 @@ Gets or sets HTTP verb for request.
 
 
 
+
+
 #### TokenSecret
 
 Gets access token secret.
+
+
 
 
 
@@ -154,9 +180,13 @@ Gets signature getter.
 
 
 
+
+
 #### AuthorizationHeader
 
 Gets authorization header getter.
+
+
 
 
 
@@ -166,9 +196,13 @@ Gets access token.
 
 
 
+
+
 #### EncodedRequestUri
 
 Gets encoded Request Uri.
+
+
 
 
 
@@ -178,9 +212,13 @@ Gets request Uri without query.
 
 
 
+
+
 #### QueryParams
 
 Gets list of query parameters.
+
+
 
 
 
@@ -190,9 +228,13 @@ Gets version.
 
 
 
+
+
 #### Nonce
 
 Gets nonce.
+
+
 
 
 
@@ -202,10 +244,14 @@ Gets timestamp.
 
 
 
+
+
 ### Fields
 
 #### Realm
 
 Realm for request.
+
+
 
 

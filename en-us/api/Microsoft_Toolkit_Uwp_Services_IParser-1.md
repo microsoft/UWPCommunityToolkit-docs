@@ -30,3 +30,5 @@ Parse method which all classes must implement.
 
 | Name | Description | Type || --- | --- | --- || data | Data to parse. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Strong typed parsed data. |
 
+
+

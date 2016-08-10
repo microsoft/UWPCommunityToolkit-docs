@@ -26,9 +26,13 @@ The contents of the body of the Toast, which can include [AdaptiveText](Microsof
 
 
 
+
+
 #### AppLogoOverride
 
 An optional override of the logo displayed on the Toast notification.
+
+
 
 
 
@@ -38,9 +42,13 @@ New in Anniversary Update: An optional hero image (a visually impactful image di
 
 
 
+
+
 #### Attribution
 
 New in Anniversary Update: An optional text element that is displayed as attribution text. On devices without the Anniversary Update, this text will appear as if it's another [AdaptiveText](Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.htm) element at the end of your Children list.
+
+
 
 
 
@@ -50,14 +58,20 @@ The target locale of the XML payload, specified as BCP-47 language tags such as 
 
 
 
+
+
 #### BaseUri
 
 A default base URI that is combined with relative URIs in image source attributes.
 
 
 
+
+
 #### AddImageQuery
 
 Set to "true" to allow Windows to append a query string to the image URI supplied in the Toast notification. Use this attribute if your server hosts images and can handle query strings, either by retrieving an image variant based on the query strings or by ignoring the query string and returning the image as specified without the query string. This query string specifies scale, contrast setting, and language.
+
+
 
 

@@ -99,6 +99,8 @@ module.exports = function (context) {
 						generator.addContent('| return |' + generator.treatText(ret.text) + ' |\r');
 					});
 
+					generator.addLine('');
+
 					if (member.exceptions.length) {
 						generator.addLine('##### Exceptions');
 						generator.addLine('');

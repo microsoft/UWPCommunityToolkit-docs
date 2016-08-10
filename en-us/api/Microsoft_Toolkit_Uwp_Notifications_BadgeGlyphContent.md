@@ -30,6 +30,8 @@ Default constructor to create a glyph badge content object.
 
 
 
+
+
 #### contructor
 
 Constructor to create a glyph badge content object with a glyph.
@@ -39,6 +41,8 @@ Constructor to create a glyph badge content object with a glyph.
 
 
 | Name | Description | Type || --- | --- | --- || glyph | The glyph to be displayed on the badge. | [BadgeGlyphValue](Microsoft_Toolkit_Uwp_Notifications_BadgeGlyphValue.htm) |
+
+
 
 
 ### Methods
@@ -54,6 +58,8 @@ Retrieves the notification Xml content as a string.
 | Name | Description | Type || --- | --- | --- || return |The notification Xml content as a string. |
 
 
+
+
 #### ToString()
 
 Retrieves the notification XML content as a string.
@@ -63,6 +69,8 @@ Retrieves the notification XML content as a string.
 
 
 | Name | Description | Type || --- | --- | --- || return |The notification XML content as a string. |
+
+
 
 
 #### GetXml()
@@ -76,10 +84,14 @@ Retrieves the notification XML content as a WinRT Xml document.
 | Name | Description | Type || --- | --- | --- || return |The notification XML content as a WinRT Xml document. |
 
 
+
+
 ### Properties
 
 #### Glyph
 
 The glyph to be displayed on the badge.
+
+
 
 

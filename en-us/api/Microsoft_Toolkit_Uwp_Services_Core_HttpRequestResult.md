@@ -28,11 +28,15 @@ Initializes a new instance of the [HttpRequestResult](Microsoft_Toolkit_Uwp_Serv
 
 
 
+
+
 ### Properties
 
 #### StatusCode
 
 Gets or sets holds request StatusCode.
+
+
 
 
 
@@ -42,8 +46,12 @@ Gets or sets holds request Result.
 
 
 
+
+
 #### Success
 
 Gets a value indicating whether holds request Success boolean.
+
+
 
 

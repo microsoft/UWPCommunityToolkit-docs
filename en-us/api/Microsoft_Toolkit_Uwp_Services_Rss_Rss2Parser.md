@@ -33,6 +33,8 @@ This override load and parses the document and return a list of RssSchema values
 | Name | Description | Type || --- | --- | --- || doc | XDocument to be loaded. | [XDocument](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XDocument) || return |Strongly typed list of feeds. |
 
 
+
+
 #### ParseItem(System.Xml.Linq.XElement item)
 
 Parses XElement item into strong typed object.
@@ -42,6 +44,8 @@ Parses XElement item into strong typed object.
 
 
 | Name | Description | Type || --- | --- | --- || item | XElement item to parse. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || return |Strong typed object. |
+
+
 
 
 #### ParseRDFItem(System.Xml.Linq.XElement item)
@@ -55,6 +59,8 @@ Parses RSS version 1.0 objects.
 | Name | Description | Type || --- | --- | --- || item | XElement item. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || return |Strong typed object. |
 
 
+
+
 #### ParseRssItem(System.Xml.Linq.XElement item)
 
 Parses RSS version 2.0 objects.
@@ -64,6 +70,8 @@ Parses RSS version 2.0 objects.
 
 
 | Name | Description | Type || --- | --- | --- || item | XElement item. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || return |Strong typed object. |
+
+
 
 
 #### GetItemAuthor(System.Xml.Linq.XElement item)
@@ -77,11 +85,15 @@ Retrieve item author from item.
 | Name | Description | Type || --- | --- | --- || item | XElement item. | [XElement](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XElement) || return |String of item author. |
 
 
+
+
 ### Fields
 
 #### NsRdfNamespaceUri
 
 RDF Namespace Uri.
+
+
 
 
 
@@ -91,8 +103,12 @@ RDF Elements Namespace Uri.
 
 
 
+
+
 #### NsRdfContentNamespaceUri
 
 RDF Content Namespace Uri.
+
+
 
 

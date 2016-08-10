@@ -26,14 +26,20 @@ The **AdaptiveSubgroup** class has the following types of members:
 
 
 
+
+
 #### HintWeight
 
 Control the width of this subgroup column by specifying the weight, relative to the other subgroups.
 
 
 
+
+
 #### HintTextStacking
 
 Control the vertical alignment of this subgroup's content.
+
+
 
 

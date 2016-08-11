@@ -16,13 +16,15 @@ Read the [getting Started with the UWP Toolkit]({{site.baseurl}}/{{page.lang}}/g
 
 Want to see the controls and animations in action before jumping into the code?  We have published the [UWP Toolkit Sample Application](https://www.microsoft.com/store/apps/9nblggh4tlcq) to the Windows 10 store.  Download the app and play with the controls live to see what they do before ever writing a line of code.
 
-### Namespace Documentation
+### GitHub Repository
 
 Visit the [UWP Community Toolkit Github Repository](https://github.com/Microsoft/UWPCommunityToolkit) to see the current source code, what is coming next, and to clone the repository.  Community contributions are welcome!
 
+### Documentation
+
 Click the links below to go directly to that namespace in the online API.
 
-| Documentation Link | description |
+| API Link | description |
 | --- | --- |
 | [Microsoft.Toolkit.Uwp]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp.htm) | Main NuGet package includes code only helpers for Colors, Internet Connection detection, Storage file handling, and a Stream helper class. |
 | [Microsoft.Toolkit.Uwp.Notifications]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_Notifications.htm) | Notifications Package - Generate tile, toast, and badge notifications for Windows 10 via code.  Includes intellisense support to avoid having to use the XML syntax. |

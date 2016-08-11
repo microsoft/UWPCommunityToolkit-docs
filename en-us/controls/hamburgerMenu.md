@@ -20,7 +20,8 @@ Developers can place menu specific content, navigation, images, text or custom c
 
 ## Syntax
 
-```xaml
+{% highlight xaml %}
+
 <controls:HamburgerMenu PaneBackground="@[PaneBackground:Brush:Black]" x:Name="HamburgerMenuControl"
 	Foreground="White"
 	ItemTemplate="{StaticResource ButtonTemplate}"
@@ -33,7 +34,8 @@ Developers can place menu specific content, navigation, images, text or custom c
 	HamburgerHeight="48"
 	IsPaneOpen="False"/>
 </controls:HamburgerMenu>
-```
+{% endhighlight %}
+
 
 ## Example Image
 

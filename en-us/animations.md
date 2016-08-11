@@ -16,13 +16,14 @@ You can use behaviors from within Blend for an editor experience, or you can dec
 
 You can find individual animation detailed documentation here:
 
-| Animation Type Link |
-| --- |
-| [Blur]({{site.baseurl}}/{{page.lang}}/animations/blur.htm) | 
-| [Fade]({{site.baseurl}}/{{page.lang}}/animations/fade.htm) |
-| [Offset]({{site.baseurl}}/{{page.lang}}/animations/offset.htm) |
-| [Rotate]({{site.baseurl}}/{{page.lang}}/animations/rotate.htm) |
-| [Scale]({{site.baseurl}}/{{page.lang}}/animations/scale.htm) |
+| Animation Type Link | API Documentation |
+| --- | --- |
+| [Blur]({{site.baseurl}}/{{page.lang}}/animations/blur.htm) | [Blur Code API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#blurmicrosofttoolkituwpuianimationsanimationset-animationsetsystemdouble-durationsystemdouble-delaysystemdouble-bluramount.htm) |
+| [Fade]({{site.baseurl}}/{{page.lang}}/animations/fade.htm) | [Fade Code API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#fadewindowsuixamluielement-associatedobjectsystemdouble-durationsystemdouble-delaysystemsingle-value) |
+| [Offset]({{site.baseurl}}/{{page.lang}}/animations/offset.htm) | [Offset Code API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#offsetwindowsuixamluielement-associatedobjectsystemdouble-durationsystemdouble-delaysystemsingle-offsetxsystemsingle-offsetysystemsingle-offsetz) |
+| [Rotate]({{site.baseurl}}/{{page.lang}}/animations/rotate.htm) | [Rotate Code API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#rotatemicrosofttoolkituwpuianimationsanimationset-animationsetsystemdouble-durationsystemdouble-delaysystemsingle-valuesystemsingle-centerxsystemsingle-centerysystemsingle-centerz) |
+| [Scale]({{site.baseurl}}/{{page.lang}}/animations/scale.htm) | [Scale Code API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.md#scalemicrosofttoolkituwpuianimationsanimationset-animationsetsystemdouble-durationsystemdouble-delaysystemsingle-centerxsystemsingle-centerysystemsingle-centerzsystemsingle-scalexsystemsingle-scaleysystemsingle-scalez) |
+
 
 ## Behaviors
 

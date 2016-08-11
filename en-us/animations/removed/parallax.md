@@ -3,7 +3,7 @@ permalink: /en-US/animations/parallax.htm
 title: Parallax XAML and Code Animation
 description: Parallax animation behavior is the scrolling of a background image behind a scrollview at a different rate than the list itself scrolls
 keywords: windows, app, toolkit, ParallaxBehavior, XAML behavior, background image, custom scrolling behavior, animation behavior
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---

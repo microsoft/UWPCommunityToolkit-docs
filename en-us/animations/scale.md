@@ -14,7 +14,7 @@ The **Scale animation behavior** allows you to change a controls' scale by incre
 
 ## Syntax
 
-```xaml
+{% highlight xml %}
 
 <interactivity:Interaction.Behaviors>
     <behaviors:Scale x:Name="Scale" 
@@ -29,10 +29,12 @@ The **Scale animation behavior** allows you to change a controls' scale by incre
                      AutomaticallyStart="True"/>
 </interactivity:Interaction.Behaviors>
 
-```
+{% endhighlight %}
+
 or directly from code:
 
-```C#
+{% highlight csharp %}
+
 MyRectangle.Scale(
                 duration: Duration,
                 delay: Delay,
@@ -42,11 +44,13 @@ MyRectangle.Scale(
                 scaleX: (float)ScaleX,
                 scaleY: (float)ScaleY,
                 scaleZ: (float)ScaleZ);                
-```
+
+{% endhighlight %}
 
 Behaviors can also be chained and awaited.
 
-```C#
+{% highlight csharp %}
+
     Element.Rotate(duration: 0.3, value: 30f).StartAsync();
 
     await Element.Rotate(duration: 0.3, value: 30f).StartAsync();
@@ -57,7 +61,8 @@ Behaviors can also be chained and awaited.
     anim.StartAsync();
 
     anim.Stop();
-```
+
+{% endhighlight %}
 
 
 [Scale Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Scale)

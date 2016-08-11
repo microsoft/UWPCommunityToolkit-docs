@@ -17,7 +17,7 @@ Sometimes you want an element to appear slightly out of focus, but to be familia
 
 You can either use the blur behavior from your XAML code:
 
-```xaml
+{% highlight xml %}
 
     <interactivity:Interaction.Behaviors>
     <behaviors:Blur x:Name="BlurBehavior" 
@@ -27,17 +27,20 @@ You can either use the blur behavior from your XAML code:
            AutomaticallyStart="True"/>
     </interactivity:Interaction.Behaviors>
 
-```
+{% endhighlight %}
 
 or directly from code:
 
-```C#
+{% highlight csharp %}
+
 ToolkitLogo.Blur(duration: 10, delay: 0, value: 10);       
-```
+
+{% endhighlight %}
 
 Behavior animations can also be chained and awaited.
 
-```C#
+{% highlight csharp %}
+
     Element.Rotate(duration: 0.3, value: 30f).StartAsync();
 
     await Element.Rotate(duration: 0.3, value: 30f).StartAsync();
@@ -48,7 +51,8 @@ Behavior animations can also be chained and awaited.
     anim.StartAsync();
 
     anim.Stop();
-```
+
+{% endhighlight %}
 
 [Blur Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Blur)
 

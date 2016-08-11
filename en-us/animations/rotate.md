@@ -14,7 +14,8 @@ The **Rotate animation behavior** allows users to modify and animate the control
 
 ## Syntax
 
-```xaml
+{% highlight xml %}
+
    <behaviors:Rotate x:Name="RotateBehavior" 
 				Value="180"
 				CenterX="0.0" 
@@ -24,11 +25,13 @@ The **Rotate animation behavior** allows users to modify and animate the control
 				Delay="0.5" 
 				AutomaticallyStart="True"/>
   </behaviors:Rotate>
-```
+
+{% endhighlight %}
 
 or directly from code:
 
-```C#
+{% highlight csharp %}
+
     MyRectangle.Rotate(
                 duration: Duration,
                 delay: Delay,
@@ -36,12 +39,13 @@ or directly from code:
                 centerX: (float)CenterX,
                 centerY: (float)CenterY,
                 centerZ: (float)CenterZ);
-    
-```
+
+{% endhighlight %}
 
 Behavior animations can also be chained and awaited.
 
-```C#
+{% highlight csharp %}
+
     Element.Rotate(duration: 0.3, value: 30f).StartAsync();
 
     await Element.Rotate(duration: 0.3, value: 30f).StartAsync();
@@ -52,7 +56,8 @@ Behavior animations can also be chained and awaited.
     anim.StartAsync();
 
     anim.Stop();
-```
+
+{% endhighlight %}
 
 [Rotate Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Rotate)
 
@@ -71,3 +76,4 @@ Windows 10 SDK 10585 or higher
 * [Rotate source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/Rotate.cs)
 * [Rotate Behavior API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Rotate.htm)
 * [Rotate Code API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#rotatemicrosofttoolkituwpuianimationsanimationset-animationsetsystemdouble-durationsystemdouble-delaysystemsingle-valuesystemsingle-centerxsystemsingle-centerysystemsingle-centerz)
+

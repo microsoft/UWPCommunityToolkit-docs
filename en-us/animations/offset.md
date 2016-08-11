@@ -14,7 +14,8 @@ The **Offset animation behavior** gets the number of pixels, from the origin of 
 
 ## Syntax
 
-```xaml
+{% highlight xml %}
+
 <behaviors:Offset x:Name="OffsetBehavior" 
 	OffsetX="25.0" 
 	OffsetY="25.0" 
@@ -23,21 +24,25 @@ The **Offset animation behavior** gets the number of pixels, from the origin of 
 	Delay="0.5" 
 	AutomaticallyStart="True"/>
 </behaviors:Offset>
-```
+{% endhighlight %}
+
 or directly from code:
 
-```C#
+{% highlight csharp %}
+
 MyRectangle.Offset(
                 duration: Duration,
                 delay: Delay,
                 offsetX: (float)OffsetX,
                 offsetY: (float)OffsetY,
-                offsetZ: (float)OffsetZ);;
-```
+                offsetZ: (float)OffsetZ);
+
+{% endhighlight %}
 
 Behavior animations can also be chained and awaited.
 
-```C#
+{% highlight csharp %}
+
     Element.Rotate(duration: 0.3, value: 30f).StartAsync();
 
     await Element.Rotate(duration: 0.3, value: 30f).StartAsync();
@@ -48,7 +53,9 @@ Behavior animations can also be chained and awaited.
     anim.StartAsync();
 
     anim.Stop();
-```
+
+{% endhighlight %}
+
 [Offset Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Offset)
 
 Please view the [toolkit sample application](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp) for the UWP Community Toolkit for current samples and example code.

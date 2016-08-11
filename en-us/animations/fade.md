@@ -14,24 +14,29 @@ The **Fade animation behavior** fades objects, in and out, over time.
 
 ## Syntax
 
-```xaml
+{% highlight xml %}
+
     <behaviors:Fade x:Name="FadeBehavior>" 
                 Value="10.0" 
                 Duration="1.5" 
                 Delay="0.5" 
                 AutomaticallyStart="True">
     </behaviors:Fade>
-```
+
+{% endhighlight %}
 
 or directly from code:
 
-```C#
+{% highlight csharp %}
+
     MyRectangle.Fade(Duration, Delay, (float)Value);
-```
+
+{% endhighlight %}
 
 Behavior animations can also be chained and awaited.
 
-```C#
+{% highlight csharp %}
+
     Element.Rotate(duration: 0.3, value: 30f).StartAsync();
 
     await Element.Rotate(duration: 0.3, value: 30f).StartAsync();
@@ -42,7 +47,8 @@ Behavior animations can also be chained and awaited.
     anim.StartAsync();
 
     anim.Stop();
-```
+
+{% endhighlight %}
 
 [Fade Behavior Sample Page Source](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Fade)
 
@@ -61,3 +67,4 @@ Windows 10 SDK 10585 or higher
 * [Fade source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/Fade.cs)
 * [Fade Behavior API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Fade.htm)
 * [Fade Code API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.htm#fadewindowsuixamluielement-associatedobjectsystemdouble-durationsystemdouble-delaysystemsingle-value)
+

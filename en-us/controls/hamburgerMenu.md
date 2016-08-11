@@ -20,7 +20,7 @@ Developers can place menu specific content, navigation, images, text or custom c
 
 ## Syntax
 
-{% highlight xaml %}
+{% highlight xml %}
 
 <controls:HamburgerMenu PaneBackground="@[PaneBackground:Brush:Black]" x:Name="HamburgerMenuControl"
 	Foreground="White"
@@ -34,6 +34,7 @@ Developers can place menu specific content, navigation, images, text or custom c
 	HamburgerHeight="48"
 	IsPaneOpen="False"/>
 </controls:HamburgerMenu>
+
 {% endhighlight %}
 
 
@@ -48,7 +49,7 @@ Developers can place menu specific content, navigation, images, text or custom c
 The following sample demonstrates how to add menu items to the HamburgerMenu control.
 If you want to enable navigation to specific pages from the hamburger menu, we recommend to declare a Frame in the Xaml content of the HamburgerMenu control.
 
-{% highlight xaml %}
+{% highlight xml %}
 
 <Page
     x:Class="HamburgerSample.MainPage"

@@ -26,6 +26,7 @@ The Windows Store SID is a unique value per application generated, and it not ti
 
 ```
 
+
 **NOTE:** You may have to turn on the Output window in Visual Studio to see this debug writeline.
 
 The above code will output something like this: 
@@ -34,6 +35,7 @@ The above code will output something like this:
 // EXAMPLE ONLY DO NOT USE THIS!
 Windows Store SID = ms-app://s-1-15-2-69261451-1486691014-2395677208-255521631-1892998043-4997490472-675352499/
 ```
+
 
 When entering the value into the Facebook Developer site you must strip the ms-app:// and the trailing / off the string.
 
@@ -47,6 +49,7 @@ When entering the value into the Facebook Developer site you must strip the ms-a
 6. Enter the **Windows Store SID** from within your app (see *Getting Windows Store SID* section)
 7. From left side menu choose **+Add Product** Click to add *Facebook Login*.  Ensure you set the following options in the UI: 
 
+
 |Setting|Value|
 |----------|:-------------:|------:|
 |Client OAuth Login|Yes|
@@ -55,6 +58,7 @@ When entering the value into the Facebook Developer site you must strip the ms-a
 |Force Web OAuth Redirection|No|
 |Login from Devices|No|
 |Valid OAuth redirect URIs|Blank|
+
 
 ## Syntax
 

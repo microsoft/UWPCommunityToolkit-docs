@@ -46,7 +46,8 @@ Developers can place menu specific content, navigation, images, text or custom c
 The following sample demonstrates how to add menu items to the HamburgerMenu control.
 If you want to enable navigation to specific pages from the hamburger menu, we recommend to declare a Frame in the Xaml content of the HamburgerMenu control.
 
-```xaml
+{% highlight xaml %}
+
 <Page
     x:Class="HamburgerSample.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -82,11 +83,13 @@ If you want to enable navigation to specific pages from the hamburger menu, we r
         </controls:HamburgerMenu>
     </Grid>
 </Page>
-```
+
+{% endhighlight %}
 
 You can then navigate to the pages by using the following code.
 
-```code
+{% highlight csharp %}
+
 using System;
 using System.Collections.Generic;
 using Windows.UI.Xaml.Controls;
@@ -133,7 +136,8 @@ namespace HamburgerSample
         }
     }
 }
-```
+
+{% endhighlight %}
 
 ## Default Template 
 

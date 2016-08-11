@@ -19,7 +19,7 @@ A metered connection is an Internet connection that has a data limit or cost ass
 
 **NOTE:** There is no UI for this helper.  It is a C# helper without a visual component.
 
-```C#
+{% highlight csharp %}
 
 	// Metered connections are determined by the OS
     if( ConnectionHelper.IsInternetOnMeteredConnection )
@@ -34,7 +34,8 @@ A metered connection is an Internet connection that has a data limit or cost ass
 	// Test if there is any network available
     if (ConnectionHelper.IsInternetAvailable == false)
         return;
-```
+
+{% endhighlight %}
 
 You can find more examples in our [unit tests](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/UnitTests/Helpers/Test_ConnectionHelper.cs)
 

@@ -16,8 +16,7 @@ The **Colors Helper** lets users convert colors from text names, HTML hex, HSV, 
 
 **NOTE:** There is no UI for this helper. It is a C# helper without a visual component.
 
-```C#
-
+{% highlight csharp %}
 	// Be sure to include the using at the top of the file:
 	//using Microsoft.Toolkit.Uwp;
 
@@ -29,8 +28,7 @@ The **Colors Helper** lets users convert colors from text names, HTML hex, HSV, 
 
 	// Given a color name, lets convert it to a Windows Color
 	Windows.UI.Color redColor = "Red".ToColor();
-
-```
+{% endhighlight %}
 
 You can find more examples in our [unit tests](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/UnitTests/Helpers/Test_ColorHelper.cs)
 

@@ -14,7 +14,7 @@ UWP Community toolkit provides several tools to animate your UIElements.
 
 You can use behaviors from within Blend for an editor experience, or you can decide to do it manually using code.
 
-You can find individual animation detailed documentation here:
+## Animation Styles and Documentation
 
 | Animation Type Link | API Documentation |
 | --- | --- |
@@ -41,7 +41,7 @@ Behaviors are powerful tools for designers that can be defined in Blend:
 
 ```
 
-You can specify to start animation automatically upon loading (with `AutomaticallyStart="True") or you can use code to do it manually.
+You can specify to start animation automatically upon loading (with AutomaticallyStart="True") or you can use code to do it manually.
 
 ## Animations using code only
 
@@ -55,9 +55,7 @@ await ToolkitLogo.Blur(duration: 10, delay: 0, value: 10).StartAsync();
 
 ### Async/await
 
-Animations are asynchronous by essence.
-
-You can then await an animation if you start it with `StartAsync()` but there is also a non-awaitable (but still asynchronous) version if you start it with `Start()`:
+Animations are asynchronous by essence.  You can await an animation if you start it with `StartAsync()`, but there is also a non-awaitable (but still asynchronous) version if you start it with `Start()`:
 
 ```C#
 await ToolkitLogo.Blur(duration: 10, delay: 0, value: 10).StartAsync();       

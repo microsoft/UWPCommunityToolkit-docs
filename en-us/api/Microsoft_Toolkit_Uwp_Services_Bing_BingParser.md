@@ -16,8 +16,6 @@ Parse Bing results into strong type.
 
 The **BingParser** class has the following types of members:
 
-* [Methods](#Methods)
-
 ### Methods
 
 #### Parse(System.String data)
@@ -29,6 +27,4 @@ Take string data and parse into strong data type.
 
 
 | Name | Description | Type || --- | --- | --- || data | String data. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Returns strong type. |
-
-
 

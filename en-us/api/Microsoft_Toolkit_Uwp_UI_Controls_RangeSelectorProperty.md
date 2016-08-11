@@ -16,8 +16,6 @@ Enumeration used to determine what value triggered ValueChanged event on the Ran
 
 The **RangeSelectorProperty** class has the following types of members:
 
-* [Fields](#Fields)
-
 ### Fields
 
 #### MinimumValue
@@ -26,12 +24,8 @@ Minimum value was changed
 
 
 
-
-
 #### MaximumValue
 
 Maximum value was changed
-
-
 
 

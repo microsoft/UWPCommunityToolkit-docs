@@ -16,19 +16,11 @@ Performs a rotation animation using composition.
 
 The **Rotate** class has the following types of members:
 
-* [Methods](#Methods)
-
-* [Properties](#Properties)
-
-* [Fields](#Fields)
-
 ### Methods
 
 #### StartAnimation()
 
 Starts the animation.
-
-
 
 
 
@@ -40,21 +32,15 @@ Gets or sets the center point (x axis) of the associated object.
 
 
 
-
-
 #### CenterY
 
 Gets or sets the center point (y axis) of the associated object.
 
 
 
-
-
 #### Value
 
 Gets or sets the Rotation in degrees.
-
-
 
 
 
@@ -66,20 +52,14 @@ The rotation of the associated object in degrees
 
 
 
-
-
 #### CenterXProperty
 
 The center (x axis) of rotation for associated object
 
 
 
-
-
 #### CenterYProperty
 
 The center (y axis) of rotation for associated object
-
-
 
 

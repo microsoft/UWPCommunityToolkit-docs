@@ -16,15 +16,11 @@ The binding element contains the visual content for a specific Tile size.
 
 The **TileBinding** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### Language
 
 The target locale of the XML payload, specified as a BCP-47 language tags such as "en-US" or "fr-FR". The locale specified here overrides that in visual, but can be overriden by that in text. If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string. See Remarks for when this value isn't specified.
-
-
 
 
 
@@ -34,13 +30,9 @@ A default base URI that is combined with relative URIs in image source attribute
 
 
 
-
-
 #### Branding
 
 The form that the Tile should use to display the app's brand..
-
-
 
 
 
@@ -50,13 +42,9 @@ Defaults to false. Set to true to allow Windows to append a query string to the 
 
 
 
-
-
 #### ContentId
 
 Set to a sender-defined string that uniquely identifies the content of the notification. This prevents duplicates in the situation where a large Tile template is displaying the last three wide Tile notifications.
-
-
 
 
 
@@ -66,20 +54,14 @@ An optional string to override the Tile's display name while showing this notifi
 
 
 
-
-
 #### Arguments
 
 New in Anniversary Update: App-defined data that is passed back to your app via the TileActivatedInfo property on LaunchActivatedEventArgs when the user launches your app from the Live Tile. This allows you to know which Tile notifications your user saw when they tapped your Live Tile. On devices without the Anniversary Update, this will simply be ignored.
 
 
 
-
-
 #### Content
 
 The actual content to be displayed. One of [TileBindingContentAdaptive](Microsoft_Toolkit_Uwp_Notifications_TileBindingContentAdaptive.htm), [TileBindingContentIconic](Microsoft_Toolkit_Uwp_Notifications_TileBindingContentIconic.htm), [TileBindingContentContact](Microsoft_Toolkit_Uwp_Notifications_TileBindingContentContact.htm), [TileBindingContentPeople](Microsoft_Toolkit_Uwp_Notifications_TileBindingContentPeople.htm), or [TileBindingContentPhotos](Microsoft_Toolkit_Uwp_Notifications_TileBindingContentPhotos.htm)
-
-
 
 

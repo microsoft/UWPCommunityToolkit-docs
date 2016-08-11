@@ -16,14 +16,10 @@ Event args for Refresh Progress changed event
 
 The **RefreshProgressEventArgs** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### PullProgress
 
 Gets or sets value from 0.0 to 1.0 where 1.0 is active
-
-
 
 

@@ -16,23 +16,11 @@ RangeSelector is a "double slider" control for range values.
 
 The **RangeSelector** class has the following types of members:
 
-* [Constructors](#Constructors)
-
-* [Methods](#Methods)
-
-* [Properties](#Properties)
-
-* [Events](#Events)
-
-* [Fields](#Fields)
-
 ### Constructors
 
 #### contructor
 
 Initializes a new instance of the [RangeSelector](Microsoft_Toolkit_Uwp_UI_Controls_RangeSelector.htm) class. Create a default range selector control.
-
-
 
 
 
@@ -44,15 +32,11 @@ Update the visual state of the control when its template is changed.
 
 
 
-
-
 ### Properties
 
 #### RangeMax
 
 Gets or sets the current upper limit value of the range.
-
-
 
 
 
@@ -62,21 +46,15 @@ Gets or sets the current lower limit value of the range.
 
 
 
-
-
 #### Maximum
 
 Gets or sets the maximum value of the range.
 
 
 
-
-
 #### Minimum
 
 Gets or sets the minimum value of the range.
-
-
 
 
 
@@ -88,21 +66,15 @@ Event raised when lower or upper range thumbs end being dragged.
 
 
 
-
-
 #### ValueChanged
 
 Event raised when lower or upper range values are changed.
 
 
 
-
-
 #### ThumbDragStarted
 
 Event raised when lower or upper range thumbs start being dragged.
-
-
 
 
 
@@ -114,13 +86,9 @@ Identifies the Maximum dependency property.
 
 
 
-
-
 #### RangeMaxProperty
 
 Identifies the RangeMax dependency property.
-
-
 
 
 
@@ -130,12 +98,8 @@ Identifies the RangeMin dependency property.
 
 
 
-
-
 #### MinimumProperty
 
 Identifies the Minimum dependency property.
-
-
 
 

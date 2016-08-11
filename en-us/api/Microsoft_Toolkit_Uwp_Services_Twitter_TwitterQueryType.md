@@ -16,15 +16,11 @@ Type of Twitter Query.
 
 The **TwitterQueryType** class has the following types of members:
 
-* [Fields](#Fields)
-
 ### Fields
 
 #### Home
 
 Home
-
-
 
 
 
@@ -34,12 +30,8 @@ User
 
 
 
-
-
 #### Search
 
 Searc
-
-
 
 

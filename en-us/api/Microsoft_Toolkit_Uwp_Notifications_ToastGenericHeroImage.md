@@ -16,17 +16,11 @@ A hero image for the Toast notification.
 
 The **ToastGenericHeroImage** class has the following types of members:
 
-* [Constructors](#Constructors)
-
-* [Properties](#Properties)
-
 ### Constructors
 
 #### contructor
 
 Initializes a hero image for the Toast notification.
-
-
 
 
 
@@ -38,20 +32,14 @@ The URI of the image. Can be from your application package, application data, or
 
 
 
-
-
 #### AlternateText
 
 A description of the image, for users of assistive technologies.
 
 
 
-
-
 #### AddImageQuery
 
 Set to true to allow Windows to append a query string to the image URI supplied in the Tile notification. Use this attribute if your server hosts images and can handle query strings, either by retrieving an image variant based on the query strings or by ignoring the query string and returning the image as specified without the query string. This query string specifies scale, contrast setting, and language.
-
-
 
 

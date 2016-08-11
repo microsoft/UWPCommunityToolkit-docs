@@ -16,8 +16,6 @@ The amount of time the Toast should display.
 
 The **ToastDuration** class has the following types of members:
 
-* [Fields](#Fields)
-
 ### Fields
 
 #### Short
@@ -26,12 +24,8 @@ Default value. Toast appears for a short while and then goes into Action Center.
 
 
 
-
-
 #### Long
 
 Toast stays on-screen for longer, and then goes into Action Center.
-
-
 
 

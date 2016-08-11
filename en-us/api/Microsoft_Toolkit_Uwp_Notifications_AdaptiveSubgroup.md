@@ -16,15 +16,11 @@ Subgroups are vertical columns that can contain text and images. Supported on Ti
 
 The **AdaptiveSubgroup** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### Children
 
 [AdaptiveText](Microsoft_Toolkit_Uwp_Notifications_AdaptiveText.htm) and [AdaptiveImage](Microsoft_Toolkit_Uwp_Notifications_AdaptiveImage.htm) are valid children of subgroups.
-
-
 
 
 
@@ -34,12 +30,8 @@ Control the width of this subgroup column by specifying the weight, relative to 
 
 
 
-
-
 #### HintTextStacking
 
 Control the vertical alignment of this subgroup's content.
-
-
 
 

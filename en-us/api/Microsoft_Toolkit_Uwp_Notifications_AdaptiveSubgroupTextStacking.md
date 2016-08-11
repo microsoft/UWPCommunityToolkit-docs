@@ -16,15 +16,11 @@ TextStacking specifies the vertical alignment of content.
 
 The **AdaptiveSubgroupTextStacking** class has the following types of members:
 
-* [Fields](#Fields)
-
 ### Fields
 
 #### Default
 
 Renderer automatically selects the default vertical alignment.
-
-
 
 
 
@@ -34,20 +30,14 @@ Vertical align to the top.
 
 
 
-
-
 #### Center
 
 Vertical align to the center.
 
 
 
-
-
 #### Bottom
 
 Vertical align to the bottom.
-
-
 
 

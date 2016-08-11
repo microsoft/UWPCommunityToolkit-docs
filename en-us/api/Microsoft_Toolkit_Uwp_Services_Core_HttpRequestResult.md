@@ -16,17 +16,11 @@ HttpRequestResult type for hold request results.
 
 The **HttpRequestResult** class has the following types of members:
 
-* [Constructors](#Constructors)
-
-* [Properties](#Properties)
-
 ### Constructors
 
 #### contructor
 
 Initializes a new instance of the [HttpRequestResult](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestResult.htm) class. Default constructor.
-
-
 
 
 
@@ -38,20 +32,14 @@ Gets or sets holds request StatusCode.
 
 
 
-
-
 #### Result
 
 Gets or sets holds request Result.
 
 
 
-
-
 #### Success
 
 Gets a value indicating whether holds request Success boolean.
-
-
 
 

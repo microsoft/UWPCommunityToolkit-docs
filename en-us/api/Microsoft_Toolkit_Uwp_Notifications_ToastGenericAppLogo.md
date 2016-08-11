@@ -16,17 +16,11 @@ The logo that is displayed on your Toast notification.
 
 The **ToastGenericAppLogo** class has the following types of members:
 
-* [Constructors](#Constructors)
-
-* [Properties](#Properties)
-
 ### Constructors
 
 #### contructor
 
 Initializes a logo that is displayed on your Toast notification.
-
-
 
 
 
@@ -38,13 +32,9 @@ The URI of the image. Can be from your application package, application data, or
 
 
 
-
-
 #### AlternateText
 
 A description of the image, for users of assistive technologies.
-
-
 
 
 
@@ -54,12 +44,8 @@ Set to true to allow Windows to append a query string to the image URI supplied 
 
 
 
-
-
 #### HintCrop
 
 Specify how you would like the image to be cropped.
-
-
 
 

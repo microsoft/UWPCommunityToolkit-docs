@@ -16,15 +16,11 @@ Strongly typed object for presenting picture data returned from service provider
 
 The **FacebookPicture** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### Is_Silhouette
 
 Gets or sets a value indicating whether the picture is a silhouette or not.
-
-
 
 
 
@@ -34,20 +30,14 @@ Gets or sets an url to the picture.
 
 
 
-
-
 #### Id
 
 Gets or sets the ID of the picture.
 
 
 
-
-
 #### Link
 
 Gets or sets the url of the page with the picture.
-
-
 
 

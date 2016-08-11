@@ -16,15 +16,11 @@ Implementation of the RssSchema class.
 
 The **RssSchema** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### Title
 
 Gets or sets title.
-
-
 
 
 
@@ -34,13 +30,9 @@ Gets or sets summary.
 
 
 
-
-
 #### Content
 
 Gets or sets content.
-
-
 
 
 
@@ -50,13 +42,9 @@ Gets or sets image Url.
 
 
 
-
-
 #### ExtraImageUrl
 
 Gets or sets extra Image Url.
-
-
 
 
 
@@ -66,13 +54,9 @@ Gets or sets media Url.
 
 
 
-
-
 #### FeedUrl
 
 Gets or sets feed Url.
-
-
 
 
 
@@ -82,12 +66,8 @@ Gets or sets author.
 
 
 
-
-
 #### PublishDate
 
 Gets or sets publish Date.
-
-
 
 

@@ -68,10 +68,6 @@ module.exports = function (context) {
 				}
 			}
 
-			types.forEach(function (type) {
-				generator.addLine('* [' + type.plural + ']' + '(#' + type.plural + ')');
-			});
-
 			//members details
 			types.forEach(function (type) {
 				var typeMembers = membersByType[type.id].members;
@@ -101,18 +97,18 @@ module.exports = function (context) {
 
 					generator.addLine('');
 
-					if (member.exceptions.length) {
-						generator.addLine('##### Exceptions');
-						generator.addLine('');
-						generator.addContent('| Type | Description |\r');
-						generator.addContent('| --- | --- |\r');
-					}
+					// if (member.exceptions.length) {
+					// 	generator.addLine('##### Exceptions');
+					// 	generator.addLine('');
+					// 	generator.addContent('| Type | Description |\r');
+					// 	generator.addContent('| --- | --- |\r');
+					// }
 
-					member.exceptions.forEach(function (exc) {
-						generator.addContent('| exception type |' + exc.text + ' |\r');
-					});
+					// member.exceptions.forEach(function (exc) {
+					// 	generator.addContent('| exception type |' + exc.text + ' |\r');
+					// });
 
-					generator.addLine('');
+					// generator.addLine('');
 				});
 			});
 

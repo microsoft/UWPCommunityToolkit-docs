@@ -16,17 +16,11 @@ Specify the desired cropping of the image.
 
 The **ToastImageCrop** class has the following types of members:
 
-* [Properties](#Properties)
-
-* [Fields](#Fields)
-
 ### Properties
 
 #### Id
 
 The id attribute is required and is for developers to retrieve user inputs once the app is activated (in the foreground or background).
-
-
 
 
 
@@ -36,13 +30,9 @@ The title attribute is optional and is for developers to specify a title for the
 
 
 
-
-
 #### PlaceholderContent
 
 The placeholderContent attribute is optional and is the grey-out hint text for text input type. This attribute is ignored when the input type is not “text”.
-
-
 
 
 
@@ -52,21 +42,15 @@ The defaultInput attribute is optional and it allows developer to provide a defa
 
 
 
-
-
 #### Id
 
 The id attribute is required and it is for apps to retrieve back the user selected input after the app is activated.
 
 
 
-
-
 #### Content
 
 The text to display for this selection element.
-
-
 
 
 
@@ -78,12 +62,8 @@ Default value. Image is not cropped.
 
 
 
-
-
 #### Circle
 
 Image is cropped to a circle shape.
-
-
 
 

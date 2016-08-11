@@ -16,15 +16,11 @@ The types of glyphs that can be placed on a badge.
 
 The **BadgeGlyphValue** class has the following types of members:
 
-* [Fields](#Fields)
-
 ### Fields
 
 #### Busy
 
 A glyph representing busy status.
-
-
 
 
 
@@ -34,13 +30,9 @@ No glyph.  If there is a numeric badge, or a glyph currently on the badge, it wi
 
 
 
-
-
 #### Alert
 
 A glyph representing an alert.
-
-
 
 
 
@@ -50,13 +42,9 @@ A glyph representing an alarm.
 
 
 
-
-
 #### Available
 
 A glyph representing availability status.
-
-
 
 
 
@@ -66,13 +54,9 @@ A glyph representing away status
 
 
 
-
-
 #### Activity
 
 A glyph representing application activity.
-
-
 
 
 
@@ -82,13 +66,9 @@ A glyph representing that a new message is available.
 
 
 
-
-
 #### Paused
 
 A glyph representing that media is paused.
-
-
 
 
 
@@ -98,13 +78,9 @@ A glyph representing that media is playing.
 
 
 
-
-
 #### Unavailable
 
 A glyph representing unavailable status.
-
-
 
 
 
@@ -114,12 +90,8 @@ A glyph representing an error.
 
 
 
-
-
 #### Attention
 
 A glyph representing attention status.
-
-
 
 

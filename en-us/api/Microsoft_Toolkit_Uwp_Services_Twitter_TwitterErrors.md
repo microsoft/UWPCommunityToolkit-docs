@@ -16,14 +16,10 @@ Twitter errors type.
 
 The **TwitterErrors** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### Errors
 
 Gets or sets the list of errors
-
-
 
 

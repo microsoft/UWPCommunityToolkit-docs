@@ -16,19 +16,11 @@ Notification content object to display a number on a Tile's badge.
 
 The **BadgeNumericContent** class has the following types of members:
 
-* [Constructors](#Constructors)
-
-* [Methods](#Methods)
-
-* [Properties](#Properties)
-
 ### Constructors
 
 #### contructor
 
 Default constructor to create a numeric badge content object.
-
-
 
 
 
@@ -41,8 +33,6 @@ Constructor to create a numeric badge content object with a number.
 
 
 | Name | Description | Type || --- | --- | --- || number | The number that will appear on the badge.  If the number is 0, the badge will be removed. | [UInt32](https://msdn.microsoft.com/library/windows/apps/System.UInt32) |
-
-
 
 
 ### Methods
@@ -58,8 +48,6 @@ Retrieves the notification Xml content as a string.
 | Name | Description | Type || --- | --- | --- || return |The notification Xml content as a string. |
 
 
-
-
 #### ToString()
 
 Retrieves the notification Xml content as a string.
@@ -69,8 +57,6 @@ Retrieves the notification Xml content as a string.
 
 
 | Name | Description | Type || --- | --- | --- || return |The notification Xml content as a string. |
-
-
 
 
 #### GetXml()
@@ -84,8 +70,6 @@ Retrieves the notification Xml content as a WinRT Xml document.
 | Name | Description | Type || --- | --- | --- || return |The notification Xml content as a WinRT Xml document. |
 
 
-
-
 #### GetContent()
 
 Retrieves the notification XML content as a string.
@@ -95,8 +79,6 @@ Retrieves the notification XML content as a string.
 
 
 | Name | Description | Type || --- | --- | --- || return |The notification XML content as a string. |
-
-
 
 
 #### GetXml()
@@ -110,14 +92,10 @@ Retrieves the notification XML content as a WinRT XML document.
 | Name | Description | Type || --- | --- | --- || return |The notification XML content as a WinRT XML document. |
 
 
-
-
 ### Properties
 
 #### Number
 
 The number that will appear on the badge.  If the number is 0, the badge will be removed.
-
-
 
 

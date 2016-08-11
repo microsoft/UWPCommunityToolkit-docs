@@ -16,10 +16,6 @@ Base Tile element, which contains a single visual element.
 
 The **TileContent** class has the following types of members:
 
-* [Methods](#Methods)
-
-* [Properties](#Properties)
-
 ### Methods
 
 #### GetContent()
@@ -33,8 +29,6 @@ Retrieves the notification XML content as a string, so that it can be sent with 
 | Name | Description | Type || --- | --- | --- || return |The notification XML content as a string. |
 
 
-
-
 #### GetXml()
 
 Retrieves the notification XML content as a WinRT XmlDocument, so that it can be used with a local Tile notification's constructor on either [TileNotification](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Notifications.TileNotification) or [ScheduledTileNotification](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Notifications.ScheduledTileNotification).
@@ -46,14 +40,10 @@ Retrieves the notification XML content as a WinRT XmlDocument, so that it can be
 | Name | Description | Type || --- | --- | --- || return |The notification XML content as a WinRT XmlDocument. |
 
 
-
-
 ### Properties
 
 #### Visual
 
 The visual element is required.
-
-
 
 

@@ -16,14 +16,10 @@ Groups semantically identify that the content in the group must either be displa
 
 The **AdaptiveGroup** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### Children
 
 The only valid children of groups are [AdaptiveSubgroup](Microsoft_Toolkit_Uwp_Notifications_AdaptiveSubgroup.htm). Each subgroup is displayed as a separate vertical column. Note that you must include at least one subgroup in your group, otherwise an [InvalidOperationException](https://msdn.microsoft.com/library/windows/apps/System.InvalidOperationException) will be thrown when you try to retrieve the XML for the notification.
-
-
 
 

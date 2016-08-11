@@ -16,8 +16,6 @@ Search query configuration.
 
 The **BingSearchConfig** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### Country
@@ -26,12 +24,8 @@ Gets or sets search query country.
 
 
 
-
-
 #### Query
 
 Gets or sets search query.
-
-
 
 

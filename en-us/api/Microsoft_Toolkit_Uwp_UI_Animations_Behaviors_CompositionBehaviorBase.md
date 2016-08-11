@@ -16,12 +16,6 @@ A base class for all behaviors using composition.It contains some of the common 
 
 The **CompositionBehaviorBase** class has the following types of members:
 
-* [Methods](#Methods)
-
-* [Properties](#Properties)
-
-* [Fields](#Fields)
-
 ### Methods
 
 #### OnAttached()
@@ -30,13 +24,9 @@ Called after the behavior is attached to the AssociatedObject.
 
 
 
-
-
 #### StartAnimation()
 
 Starts the animation.
-
-
 
 
 
@@ -51,15 +41,11 @@ If any of the properties are changed then the animation is automatically started
 | Name | Description | Type || --- | --- | --- || dependencyObject | The dependency object. | [DependencyObject](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.DependencyObject) || dependencyPropertyChangedEventArgs | The [DependencyPropertyChangedEventArgs](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.DependencyPropertyChangedEventArgs) instance containing the event data. | [DependencyPropertyChangedEventArgs](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.DependencyPropertyChangedEventArgs) |
 
 
-
-
 ### Properties
 
 #### AutomaticallyStart
 
 Gets or sets a value indicating whether [automatically start] on the animation is set.
-
-
 
 
 
@@ -69,13 +55,9 @@ Gets or sets the delay.
 
 
 
-
-
 #### Duration
 
 Gets or sets the duration.
-
-
 
 
 
@@ -87,20 +69,14 @@ The duration of the animation.
 
 
 
-
-
 #### DelayProperty
 
 The delay of the animation.
 
 
 
-
-
 #### AutomaticallyStartProperty
 
 The property sets if the animation should automatically start.
-
-
 
 

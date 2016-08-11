@@ -16,15 +16,11 @@ Text style controls font size, weight, and opacity.
 
 The **AdaptiveTextStyle** class has the following types of members:
 
-* [Fields](#Fields)
-
 ### Fields
 
 #### Title
 
 H3 font size.
-
-
 
 
 
@@ -34,13 +30,9 @@ Style is determined by the renderer.
 
 
 
-
-
 #### CaptionSubtle
 
 Same as Caption but with subtle opacity.
-
-
 
 
 
@@ -50,13 +42,9 @@ H5 font size.
 
 
 
-
-
 #### BodySubtle
 
 Same as Body but with subtle opacity.
-
-
 
 
 
@@ -66,13 +54,9 @@ H5 font size, bold weight. Essentially the bold version of Body.
 
 
 
-
-
 #### BaseSubtle
 
 Same as Base but with subtle opacity.
-
-
 
 
 
@@ -82,13 +66,9 @@ H4 font size.
 
 
 
-
-
 #### SubtitleSubtle
 
 Same as Subtitle but with subtle opacity.
-
-
 
 
 
@@ -98,13 +78,9 @@ Default value. Paragraph font size, normal weight and opacity.
 
 
 
-
-
 #### TitleSubtle
 
 Same as Title but with subtle opacity.
-
-
 
 
 
@@ -114,13 +90,9 @@ Same as Title but with top/bottom padding removed.
 
 
 
-
-
 #### Subheader
 
 H2 font size.
-
-
 
 
 
@@ -130,13 +102,9 @@ Same as Subheader but with subtle opacity.
 
 
 
-
-
 #### SubheaderNumeral
 
 Same as Subheader but with top/bottom padding removed.
-
-
 
 
 
@@ -146,20 +114,14 @@ H1 font size.
 
 
 
-
-
 #### HeaderSubtle
 
 Same as Header but with subtle opacity.
 
 
 
-
-
 #### HeaderNumeral
 
 Same as Header but with top/bottom padding removed.
-
-
 
 

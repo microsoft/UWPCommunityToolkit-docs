@@ -16,14 +16,10 @@ Twitter Search Results.
 
 The **TwitterSearchResult** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### Statuses
 
 Gets or sets array of timeline statuses.
-
-
 
 

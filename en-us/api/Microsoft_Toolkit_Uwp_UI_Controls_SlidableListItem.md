@@ -16,23 +16,11 @@ ContentControl providing functionality for sliding left or right to expose funct
 
 The **SlidableListItem** class has the following types of members:
 
-* [Constructors](#Constructors)
-
-* [Methods](#Methods)
-
-* [Properties](#Properties)
-
-* [Events](#Events)
-
-* [Fields](#Fields)
-
 ### Constructors
 
 #### contructor
 
 Initializes a new instance of the [SlidableListItem](Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.htm) class. Creates a new instance of [SlidableListItem](Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.htm)
-
-
 
 
 
@@ -44,21 +32,15 @@ Invoked whenever application code or internal processes (such as a rebuilding la
 
 
 
-
-
 #### ContentGrid_ManipulationDelta()
 
 Handler for when slide manipulation is underway
 
 
 
-
-
 #### ContentGrid_ManipulationCompleted()
 
 Handler for when slide manipulation is complete
-
-
 
 
 
@@ -70,13 +52,9 @@ Gets or sets the right background color
 
 
 
-
-
 #### LeftBackground
 
 Gets or sets the left background color
-
-
 
 
 
@@ -86,13 +64,9 @@ Gets or sets the right foreground color
 
 
 
-
-
 #### LeftForeground
 
 Gets or sets the left foreground color
-
-
 
 
 
@@ -102,13 +76,9 @@ Gets or sets the right label
 
 
 
-
-
 #### LeftLabel
 
 Gets or sets the left label
-
-
 
 
 
@@ -118,13 +88,9 @@ Gets or sets the right icon symbol
 
 
 
-
-
 #### LeftIcon
 
 Gets or sets the left icon symbol
-
-
 
 
 
@@ -134,13 +100,9 @@ Gets or sets the ICommand for right command request
 
 
 
-
-
 #### ActivationWidth
 
 Gets or sets the amount of pixels the content needs to be swiped for an action to be requested
-
-
 
 
 
@@ -150,13 +112,9 @@ Gets or sets the ICommand for left command request
 
 
 
-
-
 #### MouseSlidingEnabled
 
 Gets or sets a value indicating whether it has the ability to slide the control with the mouse. False by default
-
-
 
 
 
@@ -168,13 +126,9 @@ Occurs when the user swipes to the left to activate the right action
 
 
 
-
-
 #### LeftCommandRequested
 
 Occurs when the user swipes to the right to activate the left action
-
-
 
 
 
@@ -186,13 +140,9 @@ Indetifies the LeftBackground property
 
 
 
-
-
 #### RightCommandProperty
 
 Identifies the RightCommand property
-
-
 
 
 
@@ -202,13 +152,9 @@ Identifies the LeftCommand property
 
 
 
-
-
 #### MouseSlidingEnabledProperty
 
 Identifies the MouseSlidingEnabled property
-
-
 
 
 
@@ -218,13 +164,9 @@ Identifies the RightBackground property
 
 
 
-
-
 #### LeftIconProperty
 
 Indeifies the LeftIcon property
-
-
 
 
 
@@ -234,13 +176,9 @@ Indetifies the RightForeground property
 
 
 
-
-
 #### LeftForegroundProperty
 
 Indetifies the LeftForeground property
-
-
 
 
 
@@ -250,13 +188,9 @@ Indetifies the RightLabel property
 
 
 
-
-
 #### LeftLabelProperty
 
 Indetifies the LeftLabel property
-
-
 
 
 
@@ -266,12 +200,8 @@ Indetifies the RightIcon property
 
 
 
-
-
 #### ActivationWidthProperty
 
 Indetifies the ActivationWidth property
-
-
 
 

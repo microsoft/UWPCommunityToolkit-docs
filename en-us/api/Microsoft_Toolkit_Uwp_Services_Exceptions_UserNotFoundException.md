@@ -16,15 +16,11 @@ Exception for user not found.
 
 The **UserNotFoundException** class has the following types of members:
 
-* [Constructors](#Constructors)
-
 ### Constructors
 
 #### contructor
 
 Initializes a new instance of the [UserNotFoundException](Microsoft_Toolkit_Uwp_Services_Exceptions_UserNotFoundException.htm) class. Default constructor.
-
-
 
 
 
@@ -39,8 +35,6 @@ Initializes a new instance of the [UserNotFoundException](Microsoft_Toolkit_Uwp_
 | Name | Description | Type || --- | --- | --- || screenName | Name of user not found. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
-
-
 #### contructor
 
 Initializes a new instance of the [UserNotFoundException](Microsoft_Toolkit_Uwp_Services_Exceptions_UserNotFoundException.htm) class. Constructor with screen/user name information and inner exception.
@@ -50,6 +44,4 @@ Initializes a new instance of the [UserNotFoundException](Microsoft_Toolkit_Uwp_
 
 
 | Name | Description | Type || --- | --- | --- || screenName | Name of user not found. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || innerException | Reference to inner exception. | [Exception](https://msdn.microsoft.com/library/windows/apps/System.Exception) |
-
-
 

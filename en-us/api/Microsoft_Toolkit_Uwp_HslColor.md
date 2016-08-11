@@ -16,15 +16,11 @@ Defines a color in Hue/Saturation/Lightness (HSL) space.
 
 The **HslColor** class has the following types of members:
 
-* [Fields](#Fields)
-
 ### Fields
 
 #### H
 
 The Hue in 0..360 range.
-
-
 
 
 
@@ -34,20 +30,14 @@ The Saturation in 0..1 range.
 
 
 
-
-
 #### L
 
 The Lightness in 0..1 range.
 
 
 
-
-
 #### A
 
 The Alpha/opacity in 0..1 range.
-
-
 
 

@@ -16,8 +16,6 @@ Query string configuration.
 
 The **TwitterDataConfig** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### QueryType
@@ -26,12 +24,8 @@ Gets or sets twitter query type.
 
 
 
-
-
 #### Query
 
 Gets or sets query parameters.
-
-
 
 

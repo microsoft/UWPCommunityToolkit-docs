@@ -16,8 +16,6 @@ Phone-only. Supported on Small, Medium, and Wide.
 
 The **TileBindingContentContact** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### Image
@@ -26,12 +24,8 @@ The image to display.
 
 
 
-
-
 #### Text
 
 A line of text that is displayed. Not displayed on Small Tile.
-
-
 
 

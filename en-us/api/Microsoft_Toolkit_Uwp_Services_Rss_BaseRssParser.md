@@ -16,8 +16,6 @@ Base class for Rss Parser(s).
 
 The **BaseRssParser** class has the following types of members:
 
-* [Methods](#Methods)
-
 ### Methods
 
 #### GetFeedType(System.Xml.Linq.XDocument doc)
@@ -31,8 +29,6 @@ Retrieve feed type from XDocument.
 | Name | Description | Type || --- | --- | --- || doc | XDocument doc. | [XDocument](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XDocument) || return |Return feed type. |
 
 
-
-
 #### LoadFeed(System.Xml.Linq.XDocument doc)
 
 Abstract method to be override by specific implementations of the reader.
@@ -42,8 +38,6 @@ Abstract method to be override by specific implementations of the reader.
 
 
 | Name | Description | Type || --- | --- | --- || doc | XDocument doc. | [XDocument](https://msdn.microsoft.com/library/windows/apps/System.Xml.Linq.XDocument) || return |Returns list of strongly typed results. |
-
-
 
 
 #### ProcessHtmlContent(System.String htmlContent)
@@ -57,8 +51,6 @@ Fix up the HTML content.
 | Name | Description | Type || --- | --- | --- || htmlContent | Content to be fixed up. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Fixed up content. |
 
 
-
-
 #### ProcessHtmlSummary(System.String htmlContent)
 
 Create a summary of the HTML content.
@@ -68,6 +60,4 @@ Create a summary of the HTML content.
 
 
 | Name | Description | Type || --- | --- | --- || htmlContent | Content to be processed. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || return |Summary of the content. |
-
-
 

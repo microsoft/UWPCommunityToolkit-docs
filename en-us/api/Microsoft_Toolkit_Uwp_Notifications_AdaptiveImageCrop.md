@@ -16,15 +16,11 @@ Specify the desired cropping of the image.
 
 The **AdaptiveImageCrop** class has the following types of members:
 
-* [Fields](#Fields)
-
 ### Fields
 
 #### Default
 
 Default value, cropping behavior determined by renderer.
-
-
 
 
 
@@ -34,12 +30,8 @@ Image is not cropped.
 
 
 
-
-
 #### Circle
 
 Image is cropped to a circle shape.
-
-
 
 

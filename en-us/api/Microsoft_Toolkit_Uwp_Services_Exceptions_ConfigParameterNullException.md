@@ -16,15 +16,11 @@ Exception for config parameter being null.
 
 The **ConfigParameterNullException** class has the following types of members:
 
-* [Constructors](#Constructors)
-
 ### Constructors
 
 #### contructor
 
 Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigParameterNullException.htm) class. Default constructor.
-
-
 
 
 
@@ -39,8 +35,6 @@ Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolk
 | Name | Description | Type || --- | --- | --- || parameter | Name of the parameter. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
-
-
 #### contructor
 
 Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigParameterNullException.htm) class. Accepts parameter name and inner exception.
@@ -50,6 +44,4 @@ Initializes a new instance of the [ConfigParameterNullException](Microsoft_Toolk
 
 
 | Name | Description | Type || --- | --- | --- || message | Name of the parameter. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || innerException | Reference to the inner exception. | [Exception](https://msdn.microsoft.com/library/windows/apps/System.Exception) |
-
-
 

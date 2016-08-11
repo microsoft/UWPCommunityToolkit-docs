@@ -16,8 +16,6 @@ Facebook OAuth tokens.
 
 The **FacebookOAuthTokens** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### AppId
@@ -26,12 +24,8 @@ Gets or sets facebook AppId.
 
 
 
-
-
 #### WindowsStoreId
 
 Gets or sets Windows Store ID.
-
-
 
 

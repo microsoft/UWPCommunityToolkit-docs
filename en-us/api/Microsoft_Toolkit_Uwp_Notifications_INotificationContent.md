@@ -16,8 +16,6 @@ Base notification content interface to retrieve notification Xml as a string.
 
 The **INotificationContent** class has the following types of members:
 
-* [Methods](#Methods)
-
 ### Methods
 
 #### GetContent()
@@ -31,8 +29,6 @@ Retrieves the notification Xml content as a string.
 | Name | Description | Type || --- | --- | --- || return |The notification Xml content as a string. |
 
 
-
-
 #### GetXml()
 
 Retrieves the notification Xml content as a WinRT Xml document.
@@ -42,6 +38,4 @@ Retrieves the notification Xml content as a WinRT Xml document.
 
 
 | Name | Description | Type || --- | --- | --- || return |The notification Xml content as a WinRT Xml document. |
-
-
 

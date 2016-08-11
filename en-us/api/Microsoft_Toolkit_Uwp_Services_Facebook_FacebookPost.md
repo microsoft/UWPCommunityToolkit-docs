@@ -16,15 +16,11 @@ Strongly typed object for presenting post data returned from service provider.
 
 The **FacebookPost** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### Id
 
 Gets or sets id property.
-
-
 
 
 
@@ -34,13 +30,9 @@ Gets or sets message or post text.
 
 
 
-
-
 #### Created_Time
 
 Gets or sets time the entity instance was created.
-
-
 
 
 
@@ -50,12 +42,8 @@ Gets or sets a link to the entity instance.
 
 
 
-
-
 #### Full_Picture
 
 Gets or sets a link to the accompanying image.
-
-
 
 

@@ -16,15 +16,11 @@ OAuth token types
 
 The **TwitterOAuthTokenType** class has the following types of members:
 
-* [Fields](#Fields)
-
 ### Fields
 
 #### OAuthRequestOrAccessToken
 
 Request or access token
-
-
 
 
 
@@ -34,13 +30,9 @@ Request or access token secret
 
 
 
-
-
 #### OAuthVerifier
 
 Verifier
-
-
 
 
 
@@ -50,12 +42,8 @@ Callback confirmed
 
 
 
-
-
 #### ScreenName
 
 Screen name
-
-
 
 

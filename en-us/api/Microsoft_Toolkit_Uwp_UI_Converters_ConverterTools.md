@@ -16,8 +16,6 @@ Static class used to provide internal tools
 
 The **ConverterTools** class has the following types of members:
 
-* [Methods](#Methods)
-
 ### Methods
 
 #### TryParseBool(System.Object parameter)
@@ -29,6 +27,4 @@ Helper method to safely cast an object to a boolean
 
 
 | Name | Description | Type || --- | --- | --- || parameter | Parameter to cast to a boolean | [Object](https://msdn.microsoft.com/library/windows/apps/System.Object) || return |Bool value or false if cast failed |
-
-
 

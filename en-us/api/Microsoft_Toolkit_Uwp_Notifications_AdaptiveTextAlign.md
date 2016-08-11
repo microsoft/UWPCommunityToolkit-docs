@@ -16,15 +16,11 @@ Controls the horizontal alignment of text.
 
 The **AdaptiveTextAlign** class has the following types of members:
 
-* [Fields](#Fields)
-
 ### Fields
 
 #### Default
 
 Alignment is automatically determined by
-
-
 
 
 
@@ -34,13 +30,9 @@ The system automatically decides the alignment based on the language and culture
 
 
 
-
-
 #### Left
 
 Horizontally align the text to the left.
-
-
 
 
 
@@ -50,20 +42,14 @@ Horizontally align the text in the center.
 
 
 
-
-
 #### Right
 
 Horizontally align the text to the right.
 
 
 
-
-
 #### Inline
 
 Default value
-
-
 
 

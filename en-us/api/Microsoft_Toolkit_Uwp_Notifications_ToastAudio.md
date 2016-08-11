@@ -16,15 +16,11 @@ Specify audio to be played when the Toast notification is received.
 
 The **ToastAudio** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### Src
 
 The media file to play in place of the default sound.
-
-
 
 
 
@@ -34,12 +30,8 @@ Set to true if the sound should repeat as long as the Toast is shown; false to p
 
 
 
-
-
 #### Silent
 
 True to mute the sound; false to allow the Toast notification sound to play (default).
-
-
 
 

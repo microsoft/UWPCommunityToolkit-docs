@@ -16,10 +16,6 @@ A button that the user can click on a Toast notification.
 
 The **ToastButton** class has the following types of members:
 
-* [Constructors](#Constructors)
-
-* [Properties](#Properties)
-
 ### Constructors
 
 #### contructor
@@ -33,15 +29,11 @@ Initializes a Toast button with the required properties.
 | Name | Description | Type || --- | --- | --- || content | The text to display on the button. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || arguments | App-defined string of arguments that the app can later retrieve once it is activated when the user clicks the button. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
-
-
 ### Properties
 
 #### Content
 
 Required. The text to display on the button.
-
-
 
 
 
@@ -51,13 +43,9 @@ Required. App-defined string of arguments that the app can later retrieve once i
 
 
 
-
-
 #### ActivationType
 
 Controls what type of activation this button will use when clicked. Defaults to Foreground.
-
-
 
 
 
@@ -67,12 +55,8 @@ An optional image icon for the button to display (required for buttons adjacent 
 
 
 
-
-
 #### TextBoxId
 
 Specify the ID of an existing [ToastTextBox](Microsoft_Toolkit_Uwp_Notifications_ToastTextBox.htm) in order to have this button display to the right of the input, achieving a quick reply scenario.
-
-
 
 

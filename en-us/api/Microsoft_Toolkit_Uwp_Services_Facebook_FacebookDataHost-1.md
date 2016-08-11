@@ -16,14 +16,10 @@ Class used to store JSON data response from Facebook
 
 The **FacebookDataHost of (T1)** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### Data
 
 Gets or sets internal data.
-
-
 
 

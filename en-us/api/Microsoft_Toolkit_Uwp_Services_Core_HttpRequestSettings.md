@@ -16,17 +16,11 @@ HttpRequestSettings for holding request settings.
 
 The **HttpRequestSettings** class has the following types of members:
 
-* [Constructors](#Constructors)
-
-* [Properties](#Properties)
-
 ### Constructors
 
 #### contructor
 
 Initializes a new instance of the [HttpRequestSettings](Microsoft_Toolkit_Uwp_Services_Core_HttpRequestSettings.htm) class. Default constructor.
-
-
 
 
 
@@ -38,20 +32,14 @@ Gets or sets request Uri.
 
 
 
-
-
 #### UserAgent
 
 Gets or sets user Agent to pass to request.
 
 
 
-
-
 #### Headers
 
 Gets collection of headers to pass with request.
-
-
 
 

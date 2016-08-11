@@ -165,7 +165,7 @@ var parseMember = function (node) {
 
 	var exceptions = (node.exception || []).map(function (exceptionNode) {
 		return {
-			text: getText(exceptionNode, '-')
+			text: getText(exceptionNode, "_"),
 		};
 	});
 

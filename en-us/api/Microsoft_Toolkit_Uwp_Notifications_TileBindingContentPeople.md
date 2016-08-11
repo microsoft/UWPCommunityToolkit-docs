@@ -16,14 +16,10 @@ New in 1511: Supported on Medium, Wide, and Large (Desktop and Mobile). Previous
 
 The **TileBindingContentPeople** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### Images
 
 Images that will roll around as circles.
-
-
 
 

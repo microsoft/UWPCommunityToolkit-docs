@@ -16,15 +16,11 @@ Twitter Timeline item.
 
 The **Tweet** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### CreatedAt
 
 Gets or sets time item was created.
-
-
 
 
 
@@ -34,13 +30,9 @@ Gets or sets item Id.
 
 
 
-
-
 #### Text
 
 Gets or sets text of the status.
-
-
 
 
 
@@ -50,12 +42,8 @@ Gets or sets user who posted the status.
 
 
 
-
-
 #### CreationDate
 
 Gets the creation date
-
-
 
 

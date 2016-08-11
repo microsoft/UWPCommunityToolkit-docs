@@ -16,15 +16,11 @@ Implementation of the Bing result class.
 
 The **BingResult** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### Title
 
 Gets or sets title of the search result.
-
-
 
 
 
@@ -34,20 +30,14 @@ Gets or sets summary of the search result.
 
 
 
-
-
 #### Link
 
 Gets or sets link to the Search result.
 
 
 
-
-
 #### Published
 
 Gets or sets date of publication.
-
-
 
 

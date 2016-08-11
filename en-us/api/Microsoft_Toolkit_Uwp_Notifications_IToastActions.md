@@ -16,14 +16,10 @@ Actions to display on a Toast notification. One of [ToastActionsCustom](Microsof
 
 The **IToastActions** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### ContextMenuItems
 
 New in Anniversary Update: Custom context menu items, providing additional actions when the user right clicks the Toast notification.
-
-
 
 

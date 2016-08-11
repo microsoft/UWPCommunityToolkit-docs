@@ -16,15 +16,11 @@ Specify the desired cropping of the image.
 
 The **TilePeekImageCrop** class has the following types of members:
 
-* [Fields](#Fields)
-
 ### Fields
 
 #### Default
 
 Cropping style automatically determined by renderer.
-
-
 
 
 
@@ -34,12 +30,8 @@ Default value. Image is not cropped.
 
 
 
-
-
 #### Circle
 
 Image is cropped to a circle shape.
-
-
 
 

@@ -16,8 +16,6 @@ Twitter error type
 
 The **TwitterError** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### Code
@@ -26,12 +24,8 @@ Gets or sets error code
 
 
 
-
-
 #### Message
 
 Gets or sets error message
-
-
 
 

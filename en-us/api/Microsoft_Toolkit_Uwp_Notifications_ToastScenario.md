@@ -16,17 +16,11 @@ Specifies the scenario, controlling behaviors about the Toast.
 
 The **ToastScenario** class has the following types of members:
 
-* [Properties](#Properties)
-
-* [Fields](#Fields)
-
 ### Properties
 
 #### Language
 
 The target locale of the XML payload, specified as a BCP-47 language tags such as "en-US" or "fr-FR". The locale specified here overrides that in visual, but can be overriden by that in text. If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string. See Remarks for when this value isn't specified.
-
-
 
 
 
@@ -36,13 +30,9 @@ The text to be displayed on the button.
 
 
 
-
-
 #### Arguments
 
 The arguments attribute describes the app-defined data that the app can later retrieve once it is activated from user taking this action.
-
-
 
 
 
@@ -52,13 +42,9 @@ imageUri is optional and is used to provide an image icon for this action to dis
 
 
 
-
-
 #### InputId
 
 This is specifically used for the quick reply scenario.
-
-
 
 
 
@@ -68,13 +54,9 @@ The media file to play in place of the default sound. This can either be a ms-wi
 
 
 
-
-
 #### Silent
 
 True to mute the sound; false to allow the Toast notification sound to play.
-
-
 
 
 
@@ -84,13 +66,9 @@ Set to true to allow Windows to append a query string to the image URI supplied 
 
 
 
-
-
 #### BaseUri
 
 A default base URI that is combined with relative URIs in image source attributes.
-
-
 
 
 
@@ -102,13 +80,9 @@ Your corresponding background task (assuming you set everything up) is triggered
 
 
 
-
-
 #### Protocol
 
 Launch a different app using protocol activation.
-
-
 
 
 
@@ -118,13 +92,9 @@ System handles the activation.
 
 
 
-
-
 #### Reminder
 
 Causes the Toast to stay on-screen and expanded until the user takes action.
-
-
 
 
 
@@ -134,13 +104,9 @@ Causes the Toast to stay on-screen and expanded until the user takes action (on 
 
 
 
-
-
 #### Default
 
 The normal Toast behavior. The Toast appears for a short duration, and then automatically dismisses into Action Center.
-
-
 
 
 
@@ -150,12 +116,8 @@ Causes the Toast to stay on-screen and expanded until the user takes action. Als
 
 
 
-
-
 #### Foreground
 
 Default value. Your foreground app is launched.
-
-
 
 

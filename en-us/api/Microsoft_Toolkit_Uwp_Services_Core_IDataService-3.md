@@ -16,10 +16,6 @@ Generic interface that all deployed service providers implement.
 
 The **IDataService of (T1, T2, T3)** class has the following types of members:
 
-* [Methods](#Methods)
-
-* [Properties](#Properties)
-
 ### Methods
 
 #### RequestAsync(T2 config,System.Int32 maxRecords)
@@ -33,14 +29,10 @@ Makes a request for a list of data from the given service provider.
 | Name | Description | Type || --- | --- | --- || config | Describes the query on the list data request. | T2 || maxRecords | Specifies an upper limit to the number of records returned. | [Int32](https://msdn.microsoft.com/library/windows/apps/System.Int32) || return |Returns a strongly typed list of results from the service. |
 
 
-
-
 ### Properties
 
 #### Provider
 
 Gets the underlying data service provider.
-
-
 
 

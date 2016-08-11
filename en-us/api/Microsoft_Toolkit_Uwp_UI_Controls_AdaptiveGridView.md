@@ -16,23 +16,11 @@ The AdaptiveGridView control allows to present information within a Grid View pe
 
 The **AdaptiveGridView** class has the following types of members:
 
-* [Constructors](#Constructors)
-
-* [Methods](#Methods)
-
-* [Properties](#Properties)
-
-* [Events](#Events)
-
-* [Fields](#Fields)
-
 ### Constructors
 
 #### contructor
 
 Initializes a new instance of the [AdaptiveGridView](Microsoft_Toolkit_Uwp_UI_Controls_AdaptiveGridView.htm) class.
-
-
 
 
 
@@ -44,13 +32,9 @@ GetXmlnsDefinitions()
 
 
 
-
-
 #### GetXamlType()
 
 GetXamlType(String)
-
-
 
 
 
@@ -60,13 +44,9 @@ GetXamlType(Type)
 
 
 
-
-
 #### OnApplyTemplate()
 
 Invoked whenever application code or internal processes (such as a rebuilding layout pass) call ApplyTemplate. In simplest terms, this means the method is called just before a UI element displays in your app. Override this method to influence the default post-template logic of a class.
-
-
 
 
 
@@ -78,13 +58,9 @@ Gets or sets the height of each item in the grid.
 
 
 
-
-
 #### OneRowModeEnabled
 
 Gets or sets a value indicating whether only one row should be displayed.
-
-
 
 
 
@@ -94,13 +70,9 @@ Gets or sets the DataTemplate used to display each item.
 
 
 
-
-
 #### DesiredWidth
 
 Gets or sets the desired width of each item
-
-
 
 
 
@@ -110,13 +82,9 @@ Gets or sets the command to execute when an item is clicked.
 
 
 
-
-
 #### ItemsSource
 
 Gets or sets an object source used to generate the content of the grid.
-
-
 
 
 
@@ -128,15 +96,11 @@ Event raised when an item is clicked
 
 
 
-
-
 ### Fields
 
 #### ItemsSourceProperty
 
 Identifies the ItemsSource dependency property.
-
-
 
 
 
@@ -146,13 +110,9 @@ Identifies the DesiredWidth dependency property.
 
 
 
-
-
 #### ItemWidthProperty
 
 Identifies the ItemWidth dependency property.
-
-
 
 
 
@@ -162,13 +122,9 @@ Identifies the VerticalScroll dependency property.
 
 
 
-
-
 #### OneRowModeEnabledProperty
 
 Identifies the OneRowModeEnabled dependency property.
-
-
 
 
 
@@ -178,20 +134,14 @@ Identifies the ItemHeight dependency property.
 
 
 
-
-
 #### ItemTemplateProperty
 
 Identifies the ItemTemplate dependency property.
 
 
 
-
-
 #### ItemClickCommandProperty
 
 Identifies the ItemClickCommand dependency property.
-
-
 
 

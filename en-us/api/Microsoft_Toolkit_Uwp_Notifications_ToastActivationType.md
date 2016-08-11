@@ -16,15 +16,11 @@ Decides the type of activation that will be used when the user interacts with th
 
 The **ToastActivationType** class has the following types of members:
 
-* [Fields](#Fields)
-
 ### Fields
 
 #### Foreground
 
 Default value. Your foreground app is launched.
-
-
 
 
 
@@ -34,12 +30,8 @@ Your corresponding background task (assuming you set everything up) is triggered
 
 
 
-
-
 #### Protocol
 
 Launch a different app using protocol activation.
-
-
 
 

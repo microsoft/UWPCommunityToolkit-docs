@@ -16,8 +16,6 @@ Tile Slide Direction
 
 The **RotateDirection** class has the following types of members:
 
-* [Fields](#Fields)
-
 ### Fields
 
 #### Up
@@ -26,12 +24,8 @@ Up
 
 
 
-
-
 #### Left
 
 Left
-
-
 
 

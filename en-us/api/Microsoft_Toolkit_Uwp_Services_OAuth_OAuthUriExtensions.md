@@ -16,8 +16,6 @@ OAuth Uri extensions.
 
 The **OAuthUriExtensions** class has the following types of members:
 
-* [Methods](#Methods)
-
 ### Methods
 
 #### GetQueryParams(System.Uri uri)
@@ -31,8 +29,6 @@ Get query parameters from Uri.
 | Name | Description | Type || --- | --- | --- || uri | Uri to process. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || return |Dictionary of query parameters. |
 
 
-
-
 #### AbsoluteWithoutQuery(System.Uri uri)
 
 Get absolute Uri.
@@ -44,8 +40,6 @@ Get absolute Uri.
 | Name | Description | Type || --- | --- | --- || uri | Uri to process. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || return |Uri without query string. |
 
 
-
-
 #### Normalize(System.Uri uri)
 
 Normalize the Uri into string.
@@ -55,6 +49,4 @@ Normalize the Uri into string.
 
 
 | Name | Description | Type || --- | --- | --- || uri | Uri to process. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || return |Normalized string. |
-
-
 

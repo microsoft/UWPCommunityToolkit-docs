@@ -16,15 +16,11 @@ Exception for null Config.
 
 The **ConfigNullException** class has the following types of members:
 
-* [Constructors](#Constructors)
-
 ### Constructors
 
 #### contructor
 
 Initializes a new instance of the [ConfigNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigNullException.htm) class. Default constructor.
-
-
 
 
 
@@ -39,8 +35,6 @@ Initializes a new instance of the [ConfigNullException](Microsoft_Toolkit_Uwp_Se
 | Name | Description | Type || --- | --- | --- || message | Additional error information. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
-
-
 #### contructor
 
 Initializes a new instance of the [ConfigNullException](Microsoft_Toolkit_Uwp_Services_Exceptions_ConfigNullException.htm) class. Constructor accepting additonal message string and inner exception
@@ -50,6 +44,4 @@ Initializes a new instance of the [ConfigNullException](Microsoft_Toolkit_Uwp_Se
 
 
 | Name | Description | Type || --- | --- | --- || message | Additional error information. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || innerException | Reference to inner exception. | [Exception](https://msdn.microsoft.com/library/windows/apps/System.Exception) |
-
-
 

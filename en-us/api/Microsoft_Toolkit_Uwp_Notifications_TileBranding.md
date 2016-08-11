@@ -16,15 +16,11 @@ The form that the Tile should use to display the app's brand.
 
 The **TileBranding** class has the following types of members:
 
-* [Fields](#Fields)
-
 ### Fields
 
 #### Auto
 
 The default choice. If ShowNameOn___ is true for the Tile size being displayed, then branding will be "Name". Otherwise it will be "None".
-
-
 
 
 
@@ -34,13 +30,9 @@ No branding will be displayed.
 
 
 
-
-
 #### Name
 
 The DisplayName will be shown.
-
-
 
 
 
@@ -50,12 +42,8 @@ Desktop-only. The Square44x44Logo will be shown. On Mobile, this will fallback t
 
 
 
-
-
 #### NameAndLogo
 
 Desktop-only. Both the DisplayName and Square44x44Logo will be shown. On Mobile, this will fallback to Name.
-
-
 
 

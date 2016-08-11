@@ -16,15 +16,11 @@ Specifies the horizontal alignment for an image.
 
 The **AdaptiveImageAlign** class has the following types of members:
 
-* [Fields](#Fields)
-
 ### Fields
 
 #### Default
 
 Default value, alignment behavior determined by renderer.
-
-
 
 
 
@@ -34,13 +30,9 @@ Image stretches to fill available width (and potentially available height too, d
 
 
 
-
-
 #### Left
 
 Align the image to the left, displaying the image at its native resolution.
-
-
 
 
 
@@ -50,12 +42,8 @@ Align the image in the center horizontally, displaying the image at its native r
 
 
 
-
-
 #### Right
 
 Align the image to the right, displaying the image at its native resolution.
-
-
 
 

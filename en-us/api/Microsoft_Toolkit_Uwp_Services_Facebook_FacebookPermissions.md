@@ -16,15 +16,11 @@ List of user related data permissions
 
 The **FacebookPermissions** class has the following types of members:
 
-* [Fields](#Fields)
-
 ### Fields
 
 #### UserLocation
 
 Location
-
-
 
 
 
@@ -34,13 +30,9 @@ Public profile
 
 
 
-
-
 #### PublishActions
 
 Publish actions
-
-
 
 
 
@@ -50,13 +42,9 @@ About me
 
 
 
-
-
 #### UserBirthday
 
 Birthday
-
-
 
 
 
@@ -66,13 +54,9 @@ Education history
 
 
 
-
-
 #### UserFriends
 
 Friends
-
-
 
 
 
@@ -82,13 +66,9 @@ Games activity
 
 
 
-
-
 #### UserHometown
 
 Hometown
-
-
 
 
 
@@ -98,13 +78,9 @@ Likes
 
 
 
-
-
 #### Email
 
 Email
-
-
 
 
 
@@ -114,13 +90,9 @@ Photos
 
 
 
-
-
 #### UserPosts
 
 Posts
-
-
 
 
 
@@ -130,13 +102,9 @@ Relationship details
 
 
 
-
-
 #### UserRelationships
 
 Relationships
-
-
 
 
 
@@ -146,13 +114,9 @@ Religion and politics
 
 
 
-
-
 #### UserStatus
 
 Status
-
-
 
 
 
@@ -162,13 +126,9 @@ Tagged places
 
 
 
-
-
 #### UserVideos
 
 Videos
-
-
 
 
 
@@ -178,12 +138,8 @@ Website
 
 
 
-
-
 #### UserWorkHistory
 
 WorkHistory
-
-
 
 

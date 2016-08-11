@@ -16,15 +16,11 @@ Country filter for search query.
 
 The **BingCountry** class has the following types of members:
 
-* [Fields](#Fields)
-
 ### Fields
 
 #### Lebanon
 
 Lebanon
-
-
 
 
 
@@ -34,13 +30,9 @@ None
 
 
 
-
-
 #### Albania
 
 Albania
-
-
 
 
 
@@ -50,13 +42,9 @@ Armenia
 
 
 
-
-
 #### Argentina
 
 Argentina
-
-
 
 
 
@@ -66,13 +54,9 @@ Austria
 
 
 
-
-
 #### Australia
 
 Australia
-
-
 
 
 
@@ -82,13 +66,9 @@ Azerbaijan
 
 
 
-
-
 #### BosniaHerzegovina
 
 Bosnia Herzegovina
-
-
 
 
 
@@ -98,13 +78,9 @@ Belgium
 
 
 
-
-
 #### Bulgaria
 
 Bulgaria
-
-
 
 
 
@@ -114,13 +90,9 @@ Bahrain
 
 
 
-
-
 #### Bolivia
 
 Bolivia
-
-
 
 
 
@@ -130,13 +102,9 @@ Brazil
 
 
 
-
-
 #### Canada
 
 Canada
-
-
 
 
 
@@ -146,13 +114,9 @@ Switzerland
 
 
 
-
-
 #### Chile
 
 Chile
-
-
 
 
 
@@ -162,13 +126,9 @@ China
 
 
 
-
-
 #### CostaRica
 
 Costa Rica
-
-
 
 
 
@@ -178,13 +138,9 @@ Germany
 
 
 
-
-
 #### DominicanRepublic
 
 Dominican Republic
-
-
 
 
 
@@ -194,13 +150,9 @@ Ecuador
 
 
 
-
-
 #### France
 
 France
-
-
 
 
 
@@ -210,13 +162,9 @@ United Kingdom
 
 
 
-
-
 #### Georgia
 
 Georgia
-
-
 
 
 
@@ -226,13 +174,9 @@ Greece
 
 
 
-
-
 #### Guatemala
 
 Guatemala
-
-
 
 
 
@@ -242,13 +186,9 @@ Hong Kong
 
 
 
-
-
 #### Honduras
 
 Honduras
-
-
 
 
 
@@ -258,13 +198,9 @@ Croatia
 
 
 
-
-
 #### Hungary
 
 Hungary
-
-
 
 
 
@@ -274,13 +210,9 @@ Indonesia
 
 
 
-
-
 #### Ireland
 
 Ireland
-
-
 
 
 
@@ -290,13 +222,9 @@ Israel
 
 
 
-
-
 #### India
 
 India
-
-
 
 
 
@@ -306,13 +234,9 @@ Iraq
 
 
 
-
-
 #### Iran
 
 Iran
-
-
 
 
 
@@ -322,13 +246,9 @@ Iceland
 
 
 
-
-
 #### Italy
 
 Italy
-
-
 
 
 
@@ -338,13 +258,9 @@ Jordan
 
 
 
-
-
 #### Japan
 
 Japan
-
-
 
 
 
@@ -354,13 +270,9 @@ Kenya
 
 
 
-
-
 #### Korea
 
 Korea
-
-
 
 
 
@@ -370,13 +282,9 @@ Kuwait
 
 
 
-
-
 #### UnitedArabEmirates
 
 United Arab Emirates
-
-
 
 
 
@@ -386,13 +294,9 @@ Lithuania
 
 
 
-
-
 #### Latvia
 
 Latvia
-
-
 
 
 
@@ -402,13 +306,9 @@ Luxembourg
 
 
 
-
-
 #### Libya
 
 Libya
-
-
 
 
 
@@ -418,13 +318,9 @@ Morocco
 
 
 
-
-
 #### Macedonia
 
 Macedonia
-
-
 
 
 
@@ -434,13 +330,9 @@ Malta
 
 
 
-
-
 #### Malaysia
 
 Malaysia
-
-
 
 
 
@@ -450,13 +342,9 @@ Mexico
 
 
 
-
-
 #### Nicaragua
 
 Nicaragua
-
-
 
 
 
@@ -466,13 +354,9 @@ Netherlands
 
 
 
-
-
 #### NewZealand
 
 New Zealand
-
-
 
 
 
@@ -482,13 +366,9 @@ Norway
 
 
 
-
-
 #### Oman
 
 Oman
-
-
 
 
 
@@ -498,13 +378,9 @@ Panama
 
 
 
-
-
 #### Peru
 
 Peru
-
-
 
 
 
@@ -514,13 +390,9 @@ Philippines
 
 
 
-
-
 #### Poland
 
 Poland
-
-
 
 
 
@@ -530,13 +402,9 @@ Pakistan
 
 
 
-
-
 #### PuertoRico
 
 PuertoRico
-
-
 
 
 
@@ -546,13 +414,9 @@ Portugal
 
 
 
-
-
 #### Paraguay
 
 Paraguay
-
-
 
 
 
@@ -562,13 +426,9 @@ Qatar
 
 
 
-
-
 #### Romania
 
 Romania
-
-
 
 
 
@@ -578,13 +438,9 @@ Russia
 
 
 
-
-
 #### Sweden
 
 Sweden
-
-
 
 
 
@@ -594,13 +450,9 @@ Saudi Arabia
 
 
 
-
-
 #### Singapore
 
 Singapore
-
-
 
 
 
@@ -610,13 +462,9 @@ Slovakia
 
 
 
-
-
 #### Slovenia
 
 Slovenia
-
-
 
 
 
@@ -626,13 +474,9 @@ Spain
 
 
 
-
-
 #### Serbia
 
 Serbia
-
-
 
 
 
@@ -642,13 +486,9 @@ El Salvador
 
 
 
-
-
 #### Syria
 
 Syria
-
-
 
 
 
@@ -658,13 +498,9 @@ Taiwan
 
 
 
-
-
 #### Thailand
 
 Thailand
-
-
 
 
 
@@ -674,13 +510,9 @@ Tunisia
 
 
 
-
-
 #### Turkey
 
 Turkey
-
-
 
 
 
@@ -690,13 +522,9 @@ Ukraine
 
 
 
-
-
 #### UnitedStates
 
 United States
-
-
 
 
 
@@ -706,20 +534,14 @@ Vietnam
 
 
 
-
-
 #### Yemen
 
 Yemen
 
 
 
-
-
 #### SouthAfrica
 
 South Africa
-
-
 
 

@@ -16,15 +16,11 @@ Defines an [EffectDirectPropertyChangeDefinition](Microsoft_Toolkit_Uwp_UI_Anima
 
 The **EffectDirectPropertyChangeDefinition** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### EffectBrush
 
 Gets or sets [CompositionEffectBrush](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Composition.CompositionEffectBrush) that will be animated
-
-
 
 
 
@@ -34,12 +30,8 @@ Gets or sets the [Single](https://msdn.microsoft.com/library/windows/apps/System
 
 
 
-
-
 #### PropertyName
 
 Gets or sets the property name that will be animated on the [CompositionEffectBrush](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Composition.CompositionEffectBrush)
-
-
 
 

@@ -16,15 +16,11 @@ Specify the desired cropping of the image.
 
 The **ToastGenericAppLogoCrop** class has the following types of members:
 
-* [Fields](#Fields)
-
 ### Fields
 
 #### Default
 
 Cropping uses the default behavior of the renderer.
-
-
 
 
 
@@ -34,12 +30,8 @@ Image is not cropped.
 
 
 
-
-
 #### Circle
 
 Image is cropped to a circle shape.
-
-
 
 

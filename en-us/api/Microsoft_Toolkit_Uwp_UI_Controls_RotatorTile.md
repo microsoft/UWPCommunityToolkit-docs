@@ -16,21 +16,11 @@ An items control that presents enumerable content similar to the live tiles on t
 
 The **RotatorTile** class has the following types of members:
 
-* [Constructors](#Constructors)
-
-* [Methods](#Methods)
-
-* [Properties](#Properties)
-
-* [Fields](#Fields)
-
 ### Constructors
 
 #### contructor
 
 Initializes a new instance of the [RotatorTile](Microsoft_Toolkit_Uwp_UI_Controls_RotatorTile.htm) class.
-
-
 
 
 
@@ -42,13 +32,9 @@ Initializes a new instance of the [RotatorTile](Microsoft_Toolkit_Uwp_UI_Control
 
 
 
-
-
 #### Timer_Tick()
 
 Triggered when it's time to flip to the next live tile.
-
-
 
 
 
@@ -60,13 +46,9 @@ Gets or sets the currently selected visible item
 
 
 
-
-
 #### Direction
 
 Gets or sets the direction the tile slides in.
-
-
 
 
 
@@ -76,13 +58,9 @@ Gets or sets the ItemsSource
 
 
 
-
-
 #### ItemTemplate
 
 Gets or sets the item template
-
-
 
 
 
@@ -94,13 +72,9 @@ Identifies the ItemTemplate property.
 
 
 
-
-
 #### CurrentItemProperty
 
 Identifies the CurrentItem property.
-
-
 
 
 
@@ -110,12 +84,8 @@ Identifies the [RotateDirection](Microsoft_Toolkit_Uwp_UI_Controls_RotatorTile_R
 
 
 
-
-
 #### ItemsSourceProperty
 
 Identifies the ItemsSource property.
-
-
 
 

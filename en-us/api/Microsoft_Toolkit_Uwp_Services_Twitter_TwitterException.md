@@ -16,14 +16,10 @@ Twitter specific exception.
 
 The **TwitterException** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### Errors
 
 Gets or sets the errors returned by Twitter
-
-
 
 

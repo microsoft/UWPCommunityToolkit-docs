@@ -16,15 +16,11 @@ Exception for no OAuth keys being present.
 
 The **OAuthKeysNotPresentException** class has the following types of members:
 
-* [Constructors](#Constructors)
-
 ### Constructors
 
 #### contructor
 
 Initializes a new instance of the [OAuthKeysNotPresentException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysNotPresentException.htm) class. Default constructor.
-
-
 
 
 
@@ -39,8 +35,6 @@ Initializes a new instance of the [OAuthKeysNotPresentException](Microsoft_Toolk
 | Name | Description | Type || --- | --- | --- || key | Name of the missing key. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) |
 
 
-
-
 #### contructor
 
 Initializes a new instance of the [OAuthKeysNotPresentException](Microsoft_Toolkit_Uwp_Services_Exceptions_OAuthKeysNotPresentException.htm) class. Constructor with additional message and inner exception.
@@ -50,6 +44,4 @@ Initializes a new instance of the [OAuthKeysNotPresentException](Microsoft_Toolk
 
 
 | Name | Description | Type || --- | --- | --- || message | Additional exception message. | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || innerException | Reference to inner exception. | [Exception](https://msdn.microsoft.com/library/windows/apps/System.Exception) |
-
-
 

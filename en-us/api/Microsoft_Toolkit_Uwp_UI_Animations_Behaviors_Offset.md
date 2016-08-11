@@ -16,19 +16,11 @@ Performs an offset animation using composition.
 
 The **Offset** class has the following types of members:
 
-* [Methods](#Methods)
-
-* [Properties](#Properties)
-
-* [Fields](#Fields)
-
 ### Methods
 
 #### StartAnimation()
 
 Starts the animation.
-
-
 
 
 
@@ -40,13 +32,9 @@ Gets or sets the Offset x.
 
 
 
-
-
 #### OffsetY
 
 Gets or sets the Offset y.
-
-
 
 
 
@@ -58,12 +46,8 @@ The Offset on the x axis of the associated object
 
 
 
-
-
 #### OffsetYProperty
 
 The Offset on the y axis of the associated object
-
-
 
 

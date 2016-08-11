@@ -16,15 +16,11 @@ Twitter User type.
 
 The **TwitterUser** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### Id
 
 Gets or sets user Id.
-
-
 
 
 
@@ -34,20 +30,14 @@ Gets or sets user name.
 
 
 
-
-
 #### ScreenName
 
 Gets or sets user screen name.
 
 
 
-
-
 #### ProfileImageUrl
 
 Gets or sets user profile image Url.
-
-
 
 

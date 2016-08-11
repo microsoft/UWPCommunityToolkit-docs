@@ -16,15 +16,11 @@ Create your own custom actions, using controls like [ToastButton](Microsoft_Tool
 
 The **ToastActionsCustom** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### Inputs
 
 Inputs like [ToastTextBox](Microsoft_Toolkit_Uwp_Notifications_ToastTextBox.htm) and [ToastSelectionBox](Microsoft_Toolkit_Uwp_Notifications_ToastSelectionBox.htm) can be added to the Toast. Only up to 5 inputs can be added; after that, an exception is thrown.
-
-
 
 
 
@@ -34,12 +30,8 @@ Buttons are displayed after all the inputs (or adjacent to inputs if used as qui
 
 
 
-
-
 #### ContextMenuItems
 
 New in Anniversary Update: Custom context menu items, providing additional actions when the user right clicks the Toast notification. You can only have up to 5 buttons and context menu items *combined*. Thus, if you have one context menu item, you can only have four buttons, etc.
-
-
 
 

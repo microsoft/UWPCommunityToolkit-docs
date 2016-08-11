@@ -16,12 +16,6 @@ Performs an blur animation using composition.
 
 The **Blur** class has the following types of members:
 
-* [Methods](#Methods)
-
-* [Properties](#Properties)
-
-* [Fields](#Fields)
-
 ### Methods
 
 #### OnAttached()
@@ -30,13 +24,9 @@ Called after the behavior is attached to the AssociatedObject.
 
 
 
-
-
 #### StartAnimation()
 
 Starts the animation.
-
-
 
 
 
@@ -48,8 +38,6 @@ Gets or sets the Blur.
 
 
 
-
-
 ### Fields
 
 #### _frameworkElement
@@ -58,12 +46,8 @@ The _framework element
 
 
 
-
-
 #### ValueProperty
 
 The Blur value of the associated object
-
-
 
 

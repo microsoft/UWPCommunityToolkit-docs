@@ -16,14 +16,10 @@ Strong typed schema base class.
 
 The **SchemaBase** class has the following types of members:
 
-* [Properties](#Properties)
-
 ### Properties
 
 #### InternalID
 
 Gets or sets identifier for strong typed record.
-
-
 
 

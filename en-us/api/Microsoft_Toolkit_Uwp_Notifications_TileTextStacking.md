@@ -16,15 +16,11 @@ TextStacking specifies the vertical alignment of content.
 
 The **TileTextStacking** class has the following types of members:
 
-* [Fields](#Fields)
-
 ### Fields
 
 #### Top
 
 Vertical align to the top.
-
-
 
 
 
@@ -34,12 +30,8 @@ Vertical align to the center.
 
 
 
-
-
 #### Bottom
 
 Vertical align to the bottom.
-
-
 
 

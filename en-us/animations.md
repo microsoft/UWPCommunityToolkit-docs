@@ -3,7 +3,7 @@ permalink: /en-US/animations.htm
 title: Animations using visual composition  
 description: Animations allow you to implement specific XAML behaviors and apply visual composition to your application, such as Blur and Fade. You can also use code to chain animations together without using XAML.
 keywords: windows, app, toolkit, animation behavior, XAML behavior, animation, composition 
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
@@ -30,7 +30,7 @@ You can use behaviors from within Blend for an editor experience, or you can dec
 
 Behaviors are powerful tools for designers that can be defined in Blend:
 
-```xaml
+{% highlight xml %}
 
     <interactivity:Interaction.Behaviors>
         <behaviors:Blur x:Name="BlurBehavior" 
@@ -40,7 +40,7 @@ Behaviors are powerful tools for designers that can be defined in Blend:
            AutomaticallyStart="True"/>
     </interactivity:Interaction.Behaviors>
 
-```
+{% endhighlight %}
 
 You can specify to start animation automatically upon loading (with AutomaticallyStart="True") or you can use code to do it manually.
 
@@ -50,62 +50,76 @@ For developers, the toolkit provides extensions for UIElement to match what can 
 
 So for instance if you want to blur an element, you only need to call this code:
 
-```C#
+{% highlight csharp %}
+
 await ToolkitLogo.Blur(duration: 10, delay: 0, value: 10).StartAsync();       
-```
+
+{% endhighlight %}
 
 ### Async/await
 
 Animations are asynchronous by essence.  You can await an animation if you start it with `StartAsync()`, but there is also a non-awaitable (but still asynchronous) version if you start it with `Start()`:
 
-```C#
+{% highlight csharp %}
+
 await ToolkitLogo.Blur(duration: 10, delay: 0, value: 10).StartAsync();       
 ToolkitLogo.Blur(duration: 10, delay: 0, value: 10).Start();
-```
+
+{% endhighlight %}
 
 ### Chaining animations
 
 You can also chain animations thanks to the toolkit fluid API:
 
-```C#
+{% highlight csharp %}
+
 await element.Rotate(value: 30f).Fade(value: 0.5).Blur(value: 2).StartAsync();
-```
+
+{% endhighlight %}
 
 In this case the toolkit will trigger a rotation, a fade and a blur simultaneously.
 
 If you want to start animations in a serial way, you can use `Then()`:
 
-```C#
+{% highlight csharp %}
+
 await element.Rotate(value: 30f).Then().Fade(value: 0.5).Then().Blur(value: 2).StartAsync();
-```
+
+{% endhighlight %}
 
 Every animation can have its own duration but there is a way to set it up for all animations at once:
 
-```C#
+{% highlight csharp %}
+
     var anim = element.Rotate(value: 30f).Fade(value: 0.5).Blur(value: 5);
     anim.SetDurationForAll(2);
     anim.StartAsync();
-```
+
+{% endhighlight %}
 
 As animations are awaitable, it is easy to execute code after animations are completed.
 If you do not want to await your animations, you can then use the Completed event:
 
-```C#
+{% highlight csharp %}
+
     var anim = element.Rotate(value: 30f).Fade(value: 0.5).Blur(value: 5);
 
     anim.Completed += animation_completed;
 
     anim.Start();
-```
+
+{% endhighlight %}
 
 And if you want to stop an animation before it ends, jsut call `Stop()`:
 
-```C#
+{% highlight csharp %}
+
     var anim = element.Rotate(value: 30f).Fade(value: 0.5).Blur(value: 5);
     anim.Start();
 
     anim.Stop();
-```
+
+{% endhighlight %}
 
 ## How does it work under the hood?
 

@@ -3,7 +3,7 @@ permalink: /en-US/controls/rotatortile.htm
 title: RotatorTile XAML Control
 description: The RotatorTile Control is an ItemsControl that rotates through a set of items one-by-one
 keywords: windows, app, toolkit, RotatorTile, rotator tile control, XAML, UWP, Rotator, tile
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
@@ -14,14 +14,16 @@ The **Rotator Tile Control** is an ItemsControl that rotates through a set of it
 
 ## Syntax
 
-```xaml
+{% highlight xml %}
+
 <controls:RotatorTile x:Name="Tile1"
 	Background="LightGray"
 	Direction="Up" 
 	Width="400"
 	Height="200"
 	Margin="20"/>
-```
+
+{% endhighlight %}
 
 ## Example Image
 

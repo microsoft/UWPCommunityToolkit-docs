@@ -3,7 +3,7 @@ permalink: /en-US/controls/pulltorefreshlistview.htm
 title: PullToRefreshListView XAML Control
 description: PullToRefreshListView Control pulls the listview to to trigger a refresh in content
 keywords: windows, app, PulltoRefresh, ListView, toolkit, pull to refresh, XAML, UWP 
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
@@ -16,7 +16,8 @@ This Control is very common on mobile devices, where the user can pull from the 
 
 ## Syntax
 
-```xaml
+{% highlight xml %}
+
 <controls:PullToRefreshListView Name="PullToRefreshListViewControl"
 	ItemsSource="{x:Bind _items}"	
 	OverscrollLimit="0.4"
@@ -24,7 +25,8 @@ This Control is very common on mobile devices, where the user can pull from the 
 	RefreshRequested="ListView_RefreshCommand" 
 	PullProgressChanged="ListView_PullProgressChanged">
 </controls:PullToRefreshListView.ItemTemplate>
-```
+
+{% endhighlight %}
 
 ## Example Image
 

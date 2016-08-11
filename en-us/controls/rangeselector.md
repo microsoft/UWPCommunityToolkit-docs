@@ -3,7 +3,7 @@ permalink: /en-US/controls/rangeselector.htm
 title: RangeSelector XAML Control
 description: The RangeSelector Control is a Double Slider control used to select a sub-range of values from a larger range of possible values
 keywords: windows, app, toolkit, RangeSelector, range control, UWP, XAML, double slider, sub range
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
@@ -14,11 +14,14 @@ The **RangeSelector Control** is a *Double Slider* control that allows the user 
 
 Please note that if you are using a RangeSelector within a ScrollViewer you'll need to add the following code:
 
-```xaml
-<controls:RangeSelector x:Name="Selector" ThumbDragStarted="Selector_OnDragStarted" ThumbDragCompleted="Selector_OnDragCompleted"></controls:RangeSelector>
-```
+{% highlight xml %}
 
-```C#
+<controls:RangeSelector x:Name="Selector" ThumbDragStarted="Selector_OnDragStarted" ThumbDragCompleted="Selector_OnDragCompleted"></controls:RangeSelector>
+
+{% endhighlight %}
+
+{% highlight csharp %}
+
 private void Selector_OnDragStarted(object sender, DragStartedEventArgs e)
 {
 	ScrollViewer.HorizontalScrollMode = ScrollMode.Disabled;
@@ -30,18 +33,22 @@ private void Selector_OnDragCompleted(object sender, DragCompletedEventArgs e)
 	ScrollViewer.HorizontalScrollMode = ScrollMode.Auto;
 	ScrollViewer.VerticalScrollMode = ScrollMode.Auto;
 }
-```
+
+{% endhighlight %}
+
 
 This is because by default, the ScrollViewer will block the thumbs of the RangeSelector to capture the pointer.
 
 ## Syntax
 
-```xaml
+{% highlight xml %}
+
 <controls:RangeSelector x:Name="RangeSelectorControl" 
 	Minimum="10" 
 	Maximum="100">
 </controls:RangeSelector>       
-```
+
+{% endhighlight %}
 
 ## Example Image
 

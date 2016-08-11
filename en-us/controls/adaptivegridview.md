@@ -3,7 +3,7 @@ permalink: /en-US/controls/adaptivegridview.htm
 title: AdaptiveGridView XAML Control
 description: The AdaptiveGridView Control presents content in a Grid View to fill available display space 
 keywords: windows, app, toolkit, AdaptiveGridView, grid layout, UWP, XAML, Adaptive Grid View, Control, grid control, form factors 
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
@@ -14,13 +14,15 @@ The **AdaptiveGridView Control** presents items in a evenly-spaced set of column
 
 ## Syntax
 
-```xaml
+{% highlight xml %}
+
 <controls:AdaptiveGridView  Name="AdaptiveGridViewControl"
           ItemHeight="200"
           DesiredWidth="300"
           ItemTemplate="{StaticResource PhotosTemplate}">
 </controls:AdaptiveGridView>
-```
+
+{% endhighlight %}
 
 ## Example Image
 

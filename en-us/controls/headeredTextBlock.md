@@ -3,7 +3,7 @@ permalink: /en-US/controls/headeredtextblock.htm
 title: HeaderedTextBlock XAML Control
 description: The HeaderedTextBlock Control provides a header for read-only text, displays forms, content and various item collections
 keywords: windows, app, toolkit, HeaderedTextBlock, text block, headered, XAML, XAML Control, HeaderedText, UWP
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
@@ -14,12 +14,14 @@ The **HeaderedTextBlock Control** provides a header for read-only text. This con
 
 ## Syntax
 
-```xaml
+{% highlight xml %}
+
 <controls:HeaderedTextBlock Header="HeaderedTextBlockControl" 
            Text="UWP Toolkit" 
            Orientation="Vertical"
 		   Margin="20,10,0,0" />  
-```
+
+{% endhighlight %}
 
 ## Example Image
 

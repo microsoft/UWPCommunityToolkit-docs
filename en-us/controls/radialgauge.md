@@ -3,7 +3,7 @@ permalink: /en-US/controls/radialgauge.htm
 title: RadialGauge XAML Control
 description: The RadialGauge Control displays a value in a certain range using a needle on a circular face
 keywords: windows, app, toolkit, RadialGauge, gauge control, XAML, UWP, Radial, circular
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
@@ -19,7 +19,8 @@ The Radial Gauge supports animated transitions between configuration states. The
 
 ## Syntax
 
-```xaml
+{% highlight xml %}
+
 <controls:RadialGauge x:Name="RadialGaugeControl"
 	Column="1"
 	Value="70"
@@ -35,7 +36,8 @@ The Radial Gauge supports animated transitions between configuration states. The
 	NeedleWidth="5" 
 	TickLength="18">
 </controls:RadialGauge>
-```
+
+{% endhighlight %}
 
 ## Example Image
 

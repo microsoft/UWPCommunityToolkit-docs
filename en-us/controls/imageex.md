@@ -3,7 +3,7 @@ permalink: /en-US/controls/imageex.htm
 title: ImageEx XAML Control
 description: The ImageEx Control downloads images asynchronously while showing a loading indicator
 keywords: windows, app, toolkit, ImageEx, loading indicator, ImageExControl, UWP
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
@@ -14,13 +14,15 @@ The **ImageEx Control** downloads images asynchronously, while showing a loading
  
 ## Syntax
 
-```xaml
+{% highlight xml %}
+
 <controls:ImageEx Name="ImageExControl"
 	IsCacheEnabled="True"
 	PlaceholderSource="/assets/thumbnails/thumbnails.png"
 	Source="/assets/bigPicture.png"
 /> 
-```
+
+{% endhighlight %}
 
 ## Example Image
 

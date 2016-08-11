@@ -3,7 +3,7 @@ permalink: /en-US/controls/hamburgermenu.htm
 title: HamburgerMenu XAML Control
 description:  The Hamburger Menu Control displays a sidebar that is displayed by the Hamburger button       
 keywords: windows, app, toolkit, hamburger, menu, hamburgermenu, XAML, control, sidebar
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---

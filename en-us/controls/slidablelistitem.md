@@ -3,7 +3,7 @@ permalink: /en-US/controls/slidablelistitem.htm
 title: SlidableListItem XAML Control
 description: The SlidableListItem Control is a UI that triggers actions by sliding content left or right
 keywords: windows, app, toolkit, SlidableListItem, custom list item, List View, XAML, UWP, Slideable
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
@@ -16,7 +16,8 @@ This control can be used as a ListView Data Template root to create effects simi
 
 ## Syntax
 
-```xaml
+{% highlight xml %}
+
 <controls:SlidableListItem
 	LeftIcon="Favorite" 
 	RightIcon="Delete" 
@@ -35,7 +36,8 @@ This control can be used as a ListView Data Template root to create effects simi
 		<CheckBox IsChecked="False"></CheckBox>
 		<TextBlock Text="My Great Text" TextWrapping="NoWrap"/>            
 </controls:SlidableListItem> 
-```
+
+{% endhighlight %}
 
 ## Example Image
 

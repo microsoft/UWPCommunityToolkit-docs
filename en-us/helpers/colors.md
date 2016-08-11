@@ -3,7 +3,7 @@ permalink: /en-US/helpers/colors.htm
 title: ColorsHelper utility 
 description: Colors helper does commonly needed conversions of color formats
 keywords: windows, app, toolkit, UWP, helpers, color, html color, hex color, hsv, hsl
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---

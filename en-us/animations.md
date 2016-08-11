@@ -130,7 +130,9 @@ By default the toolkit will use XAML storyboards unless you set `AnimationSet.Us
 
 While Windows Composition is faster and more efficient than XAML storyboards, it is important to understand several drawbacks that you may face when using it.
 
+
 If you are using SDK 10586, Windows Composition and XAML storyboards behave exactly in the same way.
+
 
 If you are using SDK 14393, the interoperabilty between XAML and Windows Composition changed (as stated by this [article](https://github.com/Microsoft/WindowsUIDevLabs/wiki/XAML-Composition-Interop-Behavior-Changes)).
 In a nutshell, animating Offset and opacity with Windows Composition is only recommended if you do not change these states on XAML side. 
@@ -138,7 +140,7 @@ If you want to use Windows Composition and animate offset, then the safest way i
 same for opacity where it is recommended to not define it in XAML.
 
 
-### Offset, Scale and rotate
+### Offset, Scale and Rotate
 
 When using storyboards for offset, scale and rotate, the toolkit will generate a CompositeTransform for you and will merge it with the current UIElement.RenderTransform (using a TransformGroup).
 This means that you do not have to worry about the current state of your UIElement because the toolkit will take care of keeping it unchanged.

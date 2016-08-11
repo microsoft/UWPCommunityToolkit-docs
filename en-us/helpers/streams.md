@@ -24,7 +24,7 @@ There are several operations that apps need commonly to do against their APPX, o
 
 **NOTE:** There is no UI for this helper.  It is a C# helper without a visual component.
 
-```C#
+{% highlight csharp %}
 
     // Get access to a text file that was included in solution as Content | do not copy local
     using (var stream = await StreamHelper.GetPackagedFileStreamAsync("Assets/Sub/test.txt"))
@@ -39,7 +39,7 @@ There are several operations that apps need commonly to do against their APPX, o
         ...
     }
 
-```
+{% endhighlight %}
 
 You can find more examples in our [unit tests](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/UnitTests/Helpers/Test_StreamHelper.cs)
 

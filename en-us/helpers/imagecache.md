@@ -14,7 +14,8 @@ The **ImageCache** provides methods and tools to cache images in a temporary loc
 
 ## Example
 
-```C#
+{% highlight csharp %}
+
 	var distantUri = new Uri("http://www.myserver.com/image.jpg");
 
 	// Load a specific image from the cache. If the image is not in the cache, ImageCache will try to download and store it
@@ -29,7 +30,7 @@ The **ImageCache** provides methods and tools to cache images in a temporary loc
 	// Set cache duration
 	ImageCache.CacheDuration = TimeSpan.FromHours(24);
 
-```
+{% endhighlight %}
 
 ## Platforms
 

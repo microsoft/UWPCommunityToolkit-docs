@@ -14,7 +14,8 @@ The **VisualTreeExtensions** provides a collection of extensions methods for UI.
 
 ## Example
 
-```C#
+{% highlight csharp %}
+
 	// Find descendant control using its name
 	var control = uiElement.FindDescendantByName("mytextbox");
 
@@ -27,7 +28,7 @@ The **VisualTreeExtensions** provides a collection of extensions methods for UI.
 	// Find first visual ascendant control of a specified type
 	control = uiElement.FindVisualAscendant<ScrollViewer>();
 
-```
+{% endhighlight %}
 
 ## Platforms
 

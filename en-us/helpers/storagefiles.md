@@ -17,7 +17,7 @@ The StorageFileHelper is a static utility class that provides functions to help 
 
 **NOTE:** There is no UI for this helper.  It is a C# helper without a visual component.
 
-```C#
+{% highlight csharp %}
 
 	// NOTE This must be used from an async function
 	string myText = "Great information that the users wants to keep";
@@ -34,7 +34,7 @@ The StorageFileHelper is a static utility class that provides functions to help 
 	// Load some text from a file named appFilename.txt in the local folder	
 	loadedText = await StorageFileHelper.ReadTextFromLocalFileAsync("appFilename.txt");
 
-```
+{% endhighlight %}
 
 You can find more examples in our [unit tests](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/UnitTests/Helpers/Test_StorageFileHelper.cs)
 

@@ -29,7 +29,7 @@ The **HeaderedTextBlock Control** provides a header for read-only text. This con
 
 ## Example Code
 
-<p> **Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.<p>
+**Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.
 
 [HeaderedTextBlock Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/HeaderedTextBlock)
 

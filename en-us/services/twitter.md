@@ -3,7 +3,7 @@ permalink: /en-US/services/twitter.htm
 title: Twitter Service 
 description: Easy add support for Twitter within your UWP Applications
 keywords: windows, app, toolkit, Twitter, Service, UWP
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
@@ -29,7 +29,8 @@ Copy this from the *Keys and Access Tokens* tab on your application page.
 
 ## Syntax
 
-```C#
+{% highlight csharp %}
+
 // Initialize service
 TwitterService.Instance.Initialize(ConsumerKey.Text, ConsumerSecret.Text, CallbackUri.Text);
 
@@ -54,7 +55,8 @@ await TwitterService.Instance.TweetStatusAsync(TweetText.Text, stream);
 
 // Search for a specific tag
 ListView.ItemsSource = await TwitterService.Instance.SearchAsync(TagText.Text, 50);
-```
+
+{% endhighlight %}
 
 ## Example
 
@@ -80,3 +82,4 @@ Windows 10 SDK 10586 or higher
 Microsoft.Toolkit.Uwp.Services
 
 See the [NuGet Packages page]({{site.baseurl}}/{{page.lang}}/get-started/nugetpackages.htm) for complete list.
+

@@ -3,7 +3,7 @@ permalink: /en-US/services/facebook.htm
 title: Facebook Service
 description: Easily add support for Facebook within your Windows 10 UWP Applications
 keywords: windows, app, toolkit, facebook, service, UWP, social, share
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
@@ -16,7 +16,8 @@ The **Facebook Service** allows you to retrieve or publish data to the Facebook 
 
 The Windows Store SID is a unique value per application generated, and it not tied to the actual store publication.  Creating a local application will give you a valid SID that you can use for debugging against Facebook.  
 
-```C#
+{% highlight csharp %}
+
 
 	// Put the following code in your mainform loaded event
 	// Note that this will not work in the App.xaml.cs Loaded
@@ -24,17 +25,20 @@ The Windows Store SID is a unique value per application generated, and it not ti
 	System.Diagnostics.Debug.WriteLine("Windows Store SID = " + Microsoft.Toolkit.Uwp.Services.Facebook.FacebookService.Instance.WindowsStoreId);
 #endif
 
-```
+
+{% endhighlight %}
 
 
 **NOTE:** You may have to turn on the Output window in Visual Studio to see this debug writeline.
 
 The above code will output something like this: 
 
-```text
+{% highlight csharp %}
+
 // EXAMPLE ONLY DO NOT USE THIS!
 Windows Store SID = ms-app://s-1-15-2-69261451-1486691014-2395677208-255521631-1892998043-4997490472-675352499/
-```
+
+{% endhighlight %}
 
 
 When entering the value into the Facebook Developer site you must strip the ms-app:// and the trailing / off the string.
@@ -62,7 +66,8 @@ When entering the value into the Facebook Developer site you must strip the ms-a
 
 ## Syntax
 
-```C#
+{% highlight csharp %}
+
 // Initialize service
 FacebookService.Instance.Initialize(AppIDText.Text);
 
@@ -89,7 +94,8 @@ await FacebookService.Instance.PostToFeedAsync(TitleText.Text, MessageText.Text,
 
 // Post a message with a picture on your wall using Facebook Dialog
 await FacebookService.Instance.PostToFeedWithDialogAsync(TitleText.Text, DescriptionText.Text, picture.Name, stream);
-```
+
+{% endhighlight %}
  
 ## Example
 

@@ -41,15 +41,23 @@ Initializes a new instance of the [AnimationSet](Microsoft_Toolkit_Uwp_UI_Animat
 
 ### Methods
 
-#### SetDelayForAll(System.Double delayTime)
+#### SetDurationForAll(System.TimeSpan duration)
 
-Ovewrites the delay time on all animations to the specified value
+Ovewrites the duration on all animations to the specified value
 
 ##### Parameters
 
 
 
-| Name | Description | Type || --- | --- | --- || delayTime | The delay time in seconds | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || return |AnimationSet to allow chaining |
+| Name | Description | Type || --- | --- | --- || duration | [TimeSpan](https://msdn.microsoft.com/library/windows/apps/System.TimeSpan) for the duration | [TimeSpan](https://msdn.microsoft.com/library/windows/apps/System.TimeSpan) || return |AnimationSet to allow chaining |
+
+
+
+
+#### Dispose()
+
+Dispose resources.
+
 
 
 
@@ -67,22 +75,30 @@ Adds an effect propety change to be run on StartAsync
 
 
 
-#### Then()
+#### AddStoryboardAnimation(System.String propertyPath,Windows.UI.Xaml.Media.Animation.Timeline timeline)
 
-Wait for existing animations to complete before running any others
+Adds a storyboard animation to be run
 
 ##### Parameters
 
 
 
-| Name | Description | Type || --- | --- | --- || return |AnimationSet to allow chaining |
+| Name | Description | Type || --- | --- | --- || propertyPath | The property to be animated with Storyboards | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || timeline | The timeline object to be added to storyboard | [Timeline](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.Media.Animation.Timeline) |
+
+
+
+
+#### Start()
+
+Stats all animations. This method is not awaitable.
+
 
 
 
 
 #### StartAsync()
 
-Starts all animations on the backing Visual.
+Starts all animations and returns an awaitable task.
 
 ##### Parameters
 
@@ -95,8 +111,47 @@ Starts all animations on the backing Visual.
 
 #### Stop()
 
-Stops all animations on the backing Visual.
+Stops all animations.
 
+
+
+
+
+#### Then()
+
+Wait for existing animations to complete before running new animations
+
+##### Parameters
+
+
+
+| Name | Description | Type || --- | --- | --- || return |AnimationSet to allow chaining |
+
+
+
+
+#### SetDuration(System.Double duration)
+
+Ovewrites the duration on all animations after last Then() to the specified value
+
+##### Parameters
+
+
+
+| Name | Description | Type || --- | --- | --- || duration | The duration in milliseconds | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || return |AnimationSet to allow chaining |
+
+
+
+
+#### SetDuration(System.TimeSpan duration)
+
+Ovewrites the duration on all animations after last Then() to the specified value
+
+##### Parameters
+
+
+
+| Name | Description | Type || --- | --- | --- || duration | [TimeSpan](https://msdn.microsoft.com/library/windows/apps/System.TimeSpan) for the duration | [TimeSpan](https://msdn.microsoft.com/library/windows/apps/System.TimeSpan) || return |AnimationSet to allow chaining |
 
 
 
@@ -109,14 +164,14 @@ Ovewrites the duration on all animations to the specified value
 
 
 
-| Name | Description | Type || --- | --- | --- || duration | The duration in seconds | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || return |AnimationSet to allow chaining |
+| Name | Description | Type || --- | --- | --- || duration | The duration in milliseconds | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || return |AnimationSet to allow chaining |
 
 
 
 
-#### RemoveDirectPropertyChange(System.String propertyName)
+#### RemoveCompositionDirectPropertyChange(System.String propertyName)
 
-Removes a property change from being run on StartAsync
+Removes a composition property change
 
 ##### Parameters
 
@@ -127,22 +182,74 @@ Removes a property change from being run on StartAsync
 
 
 
-#### AddAnimation(System.String propertyName,Windows.UI.Composition.CompositionAnimation animation)
+#### SetDelay(System.Double delayTime)
 
-Adds an animation to be run on StartAsync
+Ovewrites the delay time on all animations after last Then() to the specified value
 
 ##### Parameters
 
 
 
-| Name | Description | Type || --- | --- | --- || propertyName | The property to be animated on the backing Visual | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || animation | The animation to be applied | [CompositionAnimation](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Composition.CompositionAnimation) |
+| Name | Description | Type || --- | --- | --- || delayTime | The delay time in milliseconds | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || return |AnimationSet to allow chaining |
 
 
 
 
-#### RemoveAnimation(System.String propertyName)
+#### SetDelay(System.TimeSpan delayTime)
 
-Removes an animation from being run on StartAsync
+Ovewrites the delay time on all animations after last Then() to the specified value
+
+##### Parameters
+
+
+
+| Name | Description | Type || --- | --- | --- || delayTime | [TimeSpan](https://msdn.microsoft.com/library/windows/apps/System.TimeSpan) for how much to delay | [TimeSpan](https://msdn.microsoft.com/library/windows/apps/System.TimeSpan) || return |AnimationSet to allow chaining |
+
+
+
+
+#### SetDelayForAll(System.Double delayTime)
+
+Ovewrites the delay time on all animations to the specified value
+
+##### Parameters
+
+
+
+| Name | Description | Type || --- | --- | --- || delayTime | The delay time in milliseconds | [Double](https://msdn.microsoft.com/library/windows/apps/System.Double) || return |AnimationSet to allow chaining |
+
+
+
+
+#### SetDelayForAll(System.TimeSpan delayTime)
+
+Ovewrites the delay time on all animations to the specified value
+
+##### Parameters
+
+
+
+| Name | Description | Type || --- | --- | --- || delayTime | [TimeSpan](https://msdn.microsoft.com/library/windows/apps/System.TimeSpan) for how much to delay | [TimeSpan](https://msdn.microsoft.com/library/windows/apps/System.TimeSpan) || return |AnimationSet to allow chaining |
+
+
+
+
+#### AddCompositionAnimation(System.String propertyName,Windows.UI.Composition.CompositionAnimation animation)
+
+Adds a composition animation to be run on StartAsync
+
+##### Parameters
+
+
+
+| Name | Description | Type || --- | --- | --- || propertyName | The property to be animated on the backing Visual | [String](https://msdn.microsoft.com/library/windows/apps/System.String) || animation | The [CompositionAnimation](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Composition.CompositionAnimation) to be applied | [CompositionAnimation](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Composition.CompositionAnimation) |
+
+
+
+
+#### RemoveCompositionAnimation(System.String propertyName)
+
+Removes a composition animation from being run on Visual property
 
 ##### Parameters
 
@@ -153,9 +260,9 @@ Removes an animation from being run on StartAsync
 
 
 
-#### AddEffectAnimation(Windows.UI.Composition.CompositionEffectBrush effectBrush,Windows.UI.Composition.CompositionAnimation animation,System.String propertyName)
+#### AddCompositionEffectAnimation(Windows.UI.Composition.CompositionEffectBrush effectBrush,Windows.UI.Composition.CompositionAnimation animation,System.String propertyName)
 
-Adds an effect animation to be run on StartAsync
+Adds a composition effect animation to be run on backing Visual
 
 ##### Parameters
 
@@ -166,9 +273,9 @@ Adds an effect animation to be run on StartAsync
 
 
 
-#### AddDirectPropertyChange(System.String propertyName,System.Object value)
+#### AddCompositionDirectPropertyChange(System.String propertyName,System.Object value)
 
-Adds a propertyChange to be run on StartAsync
+Adds a composition property that will change instantaneously
 
 ##### Parameters
 
@@ -181,6 +288,14 @@ Adds a propertyChange to be run on StartAsync
 
 ### Properties
 
+#### Visual
+
+Gets the Visual object that backs the XAML element
+
+
+
+
+
 #### Element
 
 Gets the [UIElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.Xaml.UIElement)
@@ -189,9 +304,9 @@ Gets the [UIElement](https://msdn.microsoft.com/library/windows/apps/Windows.UI.
 
 
 
-#### Visual
+#### UseComposition
 
-Gets the Visual object that backs the XAML element
+Gets or sets a value indicating whether composition must be use even on SDK > 10586
 
 
 

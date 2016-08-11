@@ -48,6 +48,14 @@ Update the visual state of the control when its template is changed.
 
 ### Properties
 
+#### RangeMax
+
+Gets or sets the current upper limit value of the range.
+
+
+
+
+
 #### RangeMin
 
 Gets or sets the current lower limit value of the range.
@@ -72,19 +80,27 @@ Gets or sets the minimum value of the range.
 
 
 
-#### RangeMax
-
-Gets or sets the current upper limit value of the range.
-
-
-
-
-
 ### Events
+
+#### ThumbDragCompleted
+
+Event raised when lower or upper range thumbs end being dragged.
+
+
+
+
 
 #### ValueChanged
 
 Event raised when lower or upper range values are changed.
+
+
+
+
+
+#### ThumbDragStarted
+
+Event raised when lower or upper range thumbs start being dragged.
 
 
 

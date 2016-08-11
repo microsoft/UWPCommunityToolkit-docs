@@ -50,14 +50,6 @@ Gets or sets the Offset y.
 
 
 
-#### OffsetZ
-
-Gets or sets the Offset z.
-
-
-
-
-
 ### Fields
 
 #### OffsetXProperty
@@ -71,14 +63,6 @@ The Offset on the x axis of the associated object
 #### OffsetYProperty
 
 The Offset on the y axis of the associated object
-
-
-
-
-
-#### OffsetZProperty
-
-The Offset on the z axis of the associated object
 
 
 

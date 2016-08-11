@@ -50,14 +50,6 @@ Gets or sets the center point (y axis) of the associated object.
 
 
 
-#### CenterZ
-
-Gets or sets the center point (z axis) of the associated object.
-
-
-
-
-
 #### Value
 
 Gets or sets the Rotation in degrees.
@@ -87,14 +79,6 @@ The center (x axis) of rotation for associated object
 #### CenterYProperty
 
 The center (y axis) of rotation for associated object
-
-
-
-
-
-#### CenterZProperty
-
-The center (z axis) of rotation for associated object
 
 
 

@@ -863,6 +863,16 @@
             Event raised when lower or upper range values are changed.
             </summary>
         </member>
+        <member name="E:Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector.ThumbDragStarted">
+            <summary>
+            Event raised when lower or upper range thumbs start being dragged.
+            </summary>
+        </member>
+        <member name="E:Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector.ThumbDragCompleted">
+            <summary>
+            Event raised when lower or upper range thumbs end being dragged.
+            </summary>
+        </member>
         <member name="M:Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector.#ctor">
             <summary>
             Initializes a new instance of the <see cref="T:Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector"/> class.

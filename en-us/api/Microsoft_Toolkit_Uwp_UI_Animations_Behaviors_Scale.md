@@ -42,17 +42,9 @@ Gets or sets the scale on the x axis.
 
 
 
-#### CenterZ
+#### ScaleY
 
-Gets or sets the scale (z axis) of the associated object.
-
-
-
-
-
-#### CenterY
-
-Gets or sets the scale (y axis) of the associated object.
+Gets or sets the scale on the y axis.
 
 
 
@@ -66,17 +58,9 @@ Gets or sets the scale (x axis) of the associated object.
 
 
 
-#### ScaleZ
+#### CenterY
 
-Gets or sets the scale on the z axis.
-
-
-
-
-
-#### ScaleY
-
-Gets or sets the scale on the y axis.
+Gets or sets the scale (y axis) of the associated object.
 
 
 
@@ -84,25 +68,17 @@ Gets or sets the scale on the y axis.
 
 ### Fields
 
+#### ScaleXProperty
+
+The scale (x axis) of the associated object
+
+
+
+
+
 #### ScaleYProperty
 
 The scale (y axis) of the associated object
-
-
-
-
-
-#### CenterZProperty
-
-The center (z axis) of scale for associated object
-
-
-
-
-
-#### CenterYProperty
-
-The center (y axis) of scale for associated object
 
 
 
@@ -116,17 +92,9 @@ The center (x axis) of scale for associated object
 
 
 
-#### ScaleZProperty
+#### CenterYProperty
 
-The scale (z axis) of the associated object
-
-
-
-
-
-#### ScaleXProperty
-
-The scale (x axis) of the associated object
+The center (y axis) of scale for associated object
 
 
 

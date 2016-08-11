@@ -25,6 +25,7 @@ You can use behaviors from within Blend for an editor experience, or you can dec
 | [Scale]({{site.baseurl}}/{{page.lang}}/animations/scale.htm) | [Scale Code API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Composition.md#scalemicrosofttoolkituwpuianimationsanimationset-animationsetsystemdouble-durationsystemdouble-delaysystemsingle-centerxsystemsingle-centerysystemsingle-centerzsystemsingle-scalexsystemsingle-scaleysystemsingle-scalez) |
 
 
+
 ## Behaviors
 
 Behaviors are powerful tools for designers that can be defined in Blend:

@@ -10,10 +10,9 @@ lang: en-us
 
 # Notifications Overview 
 
-Notifications help design adaptive live tiles and interactive toasts for users who are developing Windows Applications. 
-Notifications include: LiveTile, Toast and WeatherLiveTileandToast
+Adaptive live tiles and interactive toasts are key engagement components of a UWP Application on Windows 10.  
 
-## For more information
+Notifications included in the toolkit: LiveTile, Toast and WeatherLiveTileandToast
 
 ### Tiles
 
@@ -32,4 +31,6 @@ Notifications include: LiveTile, Toast and WeatherLiveTileandToast
 ### Example Image
 
 ![Toast]({{site.baseurl}}/resources/images/Notifications-PopToast.gif "Toast")
+
+
 

@@ -3,7 +3,7 @@ permalink: /en-US/animations/scale.htm
 title: Scale XAML and Code Animation
 description: The Scale animation behavior lets users change a scale by increasing or decreasing through animation 
 keywords: windows, app, toolkit, Scale, scale behavior, scale, XAML, UWP, animation
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---

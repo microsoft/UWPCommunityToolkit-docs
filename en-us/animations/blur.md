@@ -3,7 +3,7 @@ permalink: /en-US/animations/blur.htm
 title: Blur XAML and Code Animation 
 description: The Blur animation behavior allows for blurring of XAML elements using composition
 keywords: windows, app, toolkit, Blur, animation behavior, XAML behavior, image blur, XAML blur, XAML, animation, composition 
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---

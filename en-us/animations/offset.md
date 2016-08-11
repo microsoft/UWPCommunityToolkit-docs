@@ -3,7 +3,7 @@ permalink: /en-US/animations/offset.htm
 title: Offset XAML and Code Animation
 description: The Offset animation behavior gets the number of pixels, from the origin of the associated control, then offsets the control 
 keywords: windows, app, toolkit, Offset, behavior, animation behavior, offset, XAML, UWP, snapline
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---

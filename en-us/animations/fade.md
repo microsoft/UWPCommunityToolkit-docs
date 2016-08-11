@@ -3,7 +3,7 @@ permalink: /en-US/animations/fade.htm
 title: Fade XAML and Code Animation
 description: The Fade animation behavior fades objects, in and out, over time 
 keywords: windows, app, toolkit, Fade, Fade, fades, XAML, UWP, animation behavior
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---

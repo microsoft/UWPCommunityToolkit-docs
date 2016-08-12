@@ -66,7 +66,7 @@ Please view the [toolkit sample application](https://github.com/Microsoft/UWPCom
 
 ## Platforms
 
-Windows 10 SDK 10585 or higher
+Windows 10 SDK 10586 or higher
 
 ## API
 

@@ -32,9 +32,10 @@ This control can be used as a ListView Data Template root to create effects simi
 	LeftCommand="ToggleFavorite"
 	RightCommandRequested="SlidableListItem_RightCommandActivated">
 	
-	<StackPanel Column="1" Margin="10"
+	<StackPanel Column="1" Margin="10">
 		<CheckBox IsChecked="False"></CheckBox>
 		<TextBlock Text="My Great Text" TextWrapping="NoWrap"/>            
+	</StackPanel>
 </controls:SlidableListItem> 
 
 {% endhighlight %}

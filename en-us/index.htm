@@ -155,37 +155,57 @@ search.product: eADQiWindows 10XVcnh
                 <header class="section-header">
                     <h2 class="section-title">Getting Started</h2>
                 </header>
-                <div class="row">
+                <div class="row" style="max-width:90%;">
 
+                    <h4> Building a new project </h4> 
+                    <ul>
+                    <li>
+                    1)	Download Visual Studio 2015 with Update 3 and the Windows 10 SDK
+                    </li>
+                    <li> 
+                    2)	Create a new UWP project (or open an existing one)
+                    </li>
+                    <li> 
+                    3)	Launch Visual Studio 2015
+                    </li>
+                    <li> 
+                    4)	Create a new project using the Blank App template under Visual C#  Windows  Universal and call it “MyApp”
+                    </li>
+                    <li> 
+                    5)	Add the UWP Community Toolkit to your project
+                    </li>
+                    <li> 
+                    6)	Add a reference to each of the desired [NuGet packages]({{site.baseurl}}/{{page.lang}}/get-started/nugetpackages.htm) (Microsoft.Toolkit.Uwp.Services is the example in the screenshot below) will show a preview of the changes that will be applied to your project. 
+<img style="max-width:90%;" src="{{site.baseurl}}/resources/images/AddNugetServices.png">
+                    </li>
+                    <li>  
+7)	Search for “Microsoft.Toolkit.UWP”
+                    </li>
+                    <li> 
+8)	Select desired packages and install them
+                    </li>
+                    <li>   
+9)	Add a reference to the toolkit in your XAML pages or C#
 <p>
-This page will provides guidance for developers to build a sample project. In the Build the sample section, below, you can use these steps to create <strong>Controls, Animations, and Notifications</strong>. 
+a.	In your XAML page, add a reference at the top of your page
 </p>
-
-<h4> Build a sample project </h4> 
-
-<ul>
-    <li>
-1. If you download the samples ZIP, be sure to unzip the entire archive, not just the folder with the sample you want to build.
-</li>
-<li> 
-2. Start Microsoft Visual Studio 2015 and select **File > Open > Project/Solution.**
-</li>
-<li> 
-3. Starting in the folder where you unzipped the samples, go to the Samples subfolder, then the subfolder for this specific sample, then the subfolder.  Double-click the Visual Studio 2015 Solution (.sln) file.
-</li>
-<li> 
-4. Select **Build > Build Solution.**
-</li>
-
-</ul>
-<h4>Add a reference to NuGet packages</h4>
+<code>
+<Page  x:Class="MainPage"
+       	xmlns:controls="using:Microsoft.Windows.Toolkit.UI.Controls"
+</code>
 <p>
-Adding a reference to each of the desired [NuGet packages]({{site.baseurl}}/{{page.lang}}/get-started/nugetpackages.htm) (Microsoft.Toolkit.Uwp.Services is the example in the screenshot below) will show a preview of the changes that will be applied to your project. 
+b.	In your C# page, add the namespaces to the toolkit
 </p>
-
-<p class="spacer-20-top">
-    <img style="max-width:90%;" src="{{site.baseurl}}/resources/images/AddNugetServices.png">
-</p>
+<code>
+using Microsoft.Windows.Toolkit;
+namespace MyApp
+{
+</code>
+                    </li>
+                    <li> 
+10)	You can copy & paste code snippets for each feature from the Sample App, or find more details in the documentation. 
+                    </li>
+                    </ul>
 
                 </div>
 

@@ -3,7 +3,7 @@ permalink: /en-US/index.htm
 title: Build Windows 10 UWP Apps faster and easier than ever before
 description: Welcome to the UWP Community Toolkit for Windows 10 developers, the fastest way to build Windows 10 apps.
 keywords: windows, app, toolkit, get started, UWP
-layout: default
+layout: api
 lang: en-us
 search.product: eADQiWindows 10XVcnh
 ---
@@ -148,13 +148,12 @@ search.product: eADQiWindows 10XVcnh
 
 <div class="container">
     <div class="row spacer-20-top spacer-page-bottom">
-        <div class="col-xs-24" style="max-width:90%;">
+        <div class="col-xs-24">
             <section class="section">
                 <header class="section-header">
                     <h2 class="section-title">Getting Started</h2>
                 </header>
-                <div class="row">
-
+                <div class="row" style="margin-left:5px">
                     <h4> Building a new project </h4> 
                     <ul>
                     <li>
@@ -190,18 +189,22 @@ search.product: eADQiWindows 10XVcnh
 a.	In your XAML page, add a reference at the top of your page
 </p>
 <p>
-<code>
+{% highlight csharp %}
+
        	xmlns:controls="using:Microsoft.Windows.Toolkit.UI.Controls"
-</code>
+
+{% endhighlight %}
 </p>
 
 <p>
 b.	In your C# page, add the namespaces to the toolkit
 </p>
 <p>
-<code>
+{% highlight csharp %}
+
 using Microsoft.Windows.Toolkit;
-</code>
+
+{% endhighlight %}
 </p>
                     </li>
                     <li> 

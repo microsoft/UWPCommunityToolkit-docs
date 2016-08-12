@@ -20,9 +20,6 @@ search.product: eADQiWindows 10XVcnh
             <p class="spacer-20-top">
                  We have published the <a href="https://www.microsoft.com/store/apps/9nblggh4tlcq">UWP Toolkit Sample Application</a>" to the Windows store.  Download the app and play with the controls live on your own devices. 
             </p>
-            <p class="spacer-20-top">
-                The <a href="{{site.baseurl}}/{{page.lang}}/get-started/get-started.htm">UWP Community Toolkit Getting Started Guide</a> is a great place to start learning how to use the toolkit.  The page includes how to use the NuGet packages and get started building your first app in just minutes.
-            </p>
         </div>
         <div class="text-content-col second">
             <p class="spacer-20-top">
@@ -86,7 +83,7 @@ search.product: eADQiWindows 10XVcnh
                             </header>
                             <div class="section-body">
                                 <p>
-                                    Code only helpers are classes that help you build modern applications quickly.  These include Color conversion, Internet connection detection, StorageFile helpers, and more.
+                                    Code helpers are classes that help you build modern applications quickly.  These include Color conversion, Internet connection detection, StorageFile helpers, and more.
                                 </p>
                             </div>
                         </section>
@@ -150,8 +147,8 @@ search.product: eADQiWindows 10XVcnh
 
 <div class="container">
     <div class="row spacer-20-top spacer-page-bottom">
-        <div class="col-xs-24">
-            <section class="section" style="max-width:90%;">
+        <div class="col-xs-24" style="max-width:90%;>
+            <section class="section"">
                 <header class="section-header">
                     <h2 class="section-title">Getting Started</h2>
                 </header>
@@ -169,14 +166,16 @@ search.product: eADQiWindows 10XVcnh
                     3)	Launch Visual Studio 2015
                     </li>
                     <li> 
-                    4)	Create a new project using the Blank App template under Visual C#  Windows  Universal and call it “MyApp”
+                    4)	Create a new project using the Blank App template under Visual C# -> Windows -> Universal.  If you don't have a the templates, you need to re-run Visual Studio setup and install the <strong>Universal Windows App Development Tools</strong>.
                     </li>
                     <li> 
                     5)	Add the UWP Community Toolkit to your project
                     </li>
                     <li> 
-                    6)	Add a reference to each of the desired [NuGet packages]({{site.baseurl}}/{{page.lang}}/get-started/nugetpackages.htm) (Microsoft.Toolkit.Uwp.Services is the example in the screenshot below) will show a preview of the changes that will be applied to your project. 
-<img style="max-width:75%;" src="{{site.baseurl}}/resources/images/AddNugetServices.png">
+                    6)	Add a reference to each of the desired <a href="{{site.baseurl}}/{{page.lang}}/get-started/nugetpackages.htm">NuGet packages</a> (Microsoft.Toolkit.Uwp.Services is the example in the screenshot below) will show a preview of the changes that will be applied to your project.
+                        <p> 
+                            <img style="max-width:75%;" src="{{site.baseurl}}/resources/images/AddNugetServices.png">
+                        </p>
                     </li>
                     <li>  
 7)	Search for “Microsoft.Toolkit.UWP”
@@ -213,7 +212,7 @@ using Microsoft.Windows.Toolkit;
 
 
 
-                <div class="row spacer-20-top">
+                <div class="row spacer-20-top" style="margin-top:20px" >
                     <div class="col-xs-24 col-sm-8">
                         <section class="section item-section">
                             <header class="section-header">
@@ -234,10 +233,9 @@ using Microsoft.Windows.Toolkit;
                         <section class="section item-section">
                             <header class="section-header">
                                 <h5 class="section-title">
-                                    <p> </p>
-                                    <!--<a href="{{site.baseurl}}/{{page.lang}}/services.htm">
-                                        Services
-                                    </a>-->
+                                    <a href="https://github.com/Microsoft/UWPCommunityToolkit">
+                                        UWP Community Toolkit GitHub Repo
+                                    </a>
                                 </h5>
                             </header>
                             <!--<div class="section-body">

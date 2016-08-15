@@ -38,8 +38,6 @@ ListView.ItemsSource = await BingService.Instance.RequestAsync(searchConfig, 50)
 
 ## Example
 
-**Note:** Refer to the following project for example code that must be used when creating a using this toolkit for Universal Windows application development.
-
 [Bing Service Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Bing%20Service)
 
 ## Platforms 

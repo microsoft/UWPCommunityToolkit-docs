@@ -64,13 +64,13 @@ b.	In your C# page, add the namespaces to the toolkit
 
 NuGet packages cannot automatically add themselves to the Visual Studio toolbox.  If you want to get the UWP UI Controls into your Visual Studio toolbox follow these steps.
 
-1) Add the *Microsoft.Toolkit.Uwp.UI.Controls* NuGet package to your application like normal. 
+1) Add the *Microsoft.Toolkit.Uwp.UI.Controls* NuGet package to your application like above. 
 
-2) Open the MainPage.xaml and select the Toolbox on the left side of Visual Studio.
+2) Open any xaml page and select the Toolbox on the left side of Visual Studio.
 
 3) Right click in a blank area and select *Add Tab*.  Name the tab *UWP Toolkit Controls*.
 
-4) Right click in the tab you just created and select *Choose Items...*.  Select *Browse* from the dialog and navigate to the folder on your machine:
+4) Right click in the tab you just created and select *Choose Items...*.  Then select *Browse* from the *Choose Toolbox Items* dialog and navigate to the folder on your machine:
 
     c:\Users\%USERNAME%\.nuget\packages\Microsoft.Toolkit.Uwp.UI.Controls\
 

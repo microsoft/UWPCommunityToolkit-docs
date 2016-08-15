@@ -25,7 +25,7 @@ To develop Windows UWP Applications you need the current version of Windows 10, 
 
 1)	Download Visual Studio 2015 with Update 3 and the Windows 10 SDK.  **Important**: Ensure you choose the custom install option and select the *Universal Windows App Development Tools*.  
 
-2)	Create a new project using the Blank App template under Visual C# -> Windows -> Universal. 
+2)	Create a new project using the Blank App template under Visual C# -> Windows -> Universal.  Be sure you target the SDK *Version 10.0; Build 10586* as the minimum version for your application.   
 
 3)	Add the UWP Community Toolkit to your project by choosing each of the desired [NuGet Packages]({{site.baseurl}}/{{page.lang}}/nugetpackages.htm), Visual Studio will show a preview of the changes that will be applied to your project. Search for *Microsoft.Toolkit.UWP*.
 

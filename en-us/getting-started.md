@@ -3,7 +3,7 @@ permalink: /en-US/getting-started.htm
 title: Getting Started
 description: Introduction and overview of the UwP Toolkit and its documentation
 keywords: windows, app, toolkit, get started, UWP toolkit
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
@@ -22,18 +22,27 @@ To develop Windows UWP Applications you need the current version of Windows 10, 
 ## Getting Started
 
 ### Building a new project 
+
 1)	Download Visual Studio 2015 with Update 3 and the Windows 10 SDK
+
 2)	Create a new UWP project (or open an existing one)
+
 3)	Launch Visual Studio 2015
+
 4)	Create a new project using the Blank App template under Visual C# -> Windows -> Universal.  If you don't have a the templates, you need to re-run Visual Studio setup and install the <strong>Universal Windows App Development Tools</strong>.
+
 5)	Add the UWP Community Toolkit to your project
+
 6)	Add a reference to each of the desired [NuGet Packages]({{site.baseurl}}/{{page.lang}}/nugetpackages.htm) (Microsoft.Toolkit.Uwp.Services is the example in the screenshot below) will show a preview of the changes that will be applied to your project.
 
 ![NuGet Packages]({{site.baseurl}}/resources/images/AddNugetServices.png "NuGet Packages Image")
 
 7)	Search for “Microsoft.Toolkit.UWP”
+
 8)	Select desired packages and install them
+
 9)	Add a reference to the toolkit in your XAML pages or C#
+
     a.	In your XAML page, add a reference at the top of your page
 
 {% highlight csharp %}
@@ -50,11 +59,7 @@ using Microsoft.Windows.Toolkit;
 
 {% endhighlight %}
 
-10)	You can copy & paste code snippets for each feature from the Sample App, or find more details in the documentation. 
-
-# Toolkit Source Code
-
-If you would like to work with the source code rather than the NuGet packages, you can clone the [UWP Community Toolkit GitHub repository](https://github.com/Microsoft/UWPCommunityToolkit). Add the controls to your pages as you would any other control.
+10)	You can copy and paste code snippets for each feature from the Sample App, or find more details in the documentation. 
 
 ## Helpful Links 
 
@@ -67,10 +72,11 @@ If you would like to work with the source code rather than the NuGet packages, y
 * [Windows 10 development for absolute beginners](https://channel9.msdn.com/Series/Windows-10-development-for-absolute-beginners): Channel 9 series devoted to teaching new developers how to build for Windows 10.
 * [Design Guidelines](https://developer.microsoft.com/en-us/windows/design): Get templates and design guidance for making great apps for Windows 10.
 
-### Windows 10 Store App
+## Windows 10 Store App
 
 Want to see the controls and animations in action before jumping into the code?  We have published the [UWP Toolkit Sample Application](https://www.microsoft.com/store/apps/9nblggh4tlcq) to the Windows 10 store.  Download the app and play with the controls live to see what they do before ever writing a line of code.
 
-### GitHub Repository
+## GitHub Repository
 
 Visit the [UWP Community Toolkit Github Repository](https://github.com/Microsoft/UWPCommunityToolkit) to see the current source code, what is coming next, and to clone the repository.  Community contributions are welcome!
+

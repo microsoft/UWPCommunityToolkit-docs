@@ -3,7 +3,7 @@ permalink: /en-US/api.htm
 title: API Documentation 
 description: API Documentation generated from the source code
 keywords: windows, app, toolkit, UWP, API
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---

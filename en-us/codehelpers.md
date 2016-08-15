@@ -3,7 +3,7 @@ permalink: /en-US/codehelpers.htm
 title: Code Helpers Documentation 
 description: List of code only helpers 
 keywords: windows, app, toolkit, UWP, API, code helpers, stream, internet detection
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
@@ -23,7 +23,7 @@ Click the links below to go directly to that namespace in the online API.
 | [VisualTreeExtensions]({{site.baseurl}}/{{page.lang}}/helpers/visualtreeextensions.htm) | Provides a collection of extensions methods for UI |
 | [WeakEventListener]({{site.baseurl}}/{{page.lang}}/helpers/weakeventlistener.htm) | Allows the owner to be garbage collected if its only remaining link is an event handler |
 
- 
+
 ## Getting Started
 
 Read the [getting Started with the UWP Toolkit]({{site.baseurl}}/{{page.lang}}/getting-started.htm) for instructions on using these functions in your own projects. 

@@ -3,7 +3,7 @@ permalink: /en-US/services.htm
 title: List of services 
 description: List of services included in the UWP Community toolkit
 keywords: windows, app, toolkit, template, service, social, facebook api, twitter api, bing api 
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---

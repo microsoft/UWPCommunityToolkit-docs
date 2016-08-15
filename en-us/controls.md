@@ -3,7 +3,7 @@ permalink: /en-US/controls.htm
 title: List of controls  
 description: List of controls included in the UWP Community toolkit
 keywords: windows, app, toolkit, template, XAML control, animation, control 
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---

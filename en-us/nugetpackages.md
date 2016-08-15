@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/get-started/nugetpackages.htm
+permalink: /en-US/nugetpackages.htm
 title: Nuget packages
 description: List of NuGet packages included in the UWP Community Toolkit and what controls are included in each of them
 keywords: windows, app, toolkit, get started, nuget, uwp
@@ -27,5 +27,16 @@ NuGet is a standard package manager for .Net applications that is built into Vis
 
 Searching in Visual Studio package manager you should see a list similar to the one below (version numbers may be different, but names should be the same).
 
-![nuget packages]({{site.baseurl}}/resources/images/NugetPackages.png "Nuget Packages")
+![NuGet packages]({{site.baseurl}}/resources/images/NugetPackages.png "Nuget Packages")
 
+## Getting Started
+
+Read the [getting Started with the UWP Toolkit]({{site.baseurl}}/{{page.lang}}/getting-started.htm) for more instructions on using these NuGet Packages in your own projects. 
+
+### Windows 10 Store App
+
+Want to see the controls and animations in action before jumping into the code?  We have published the [UWP Toolkit Sample Application](https://www.microsoft.com/store/apps/9nblggh4tlcq) to the Windows 10 store.  Download the app and play with the controls live to see what they do before ever writing a line of code.
+
+### GitHub Repository
+
+Visit the [UWP Community Toolkit Github Repository](https://github.com/Microsoft/UWPCommunityToolkit) to see the current source code, what is coming next, and to clone the repository.  Community contributions are welcome!

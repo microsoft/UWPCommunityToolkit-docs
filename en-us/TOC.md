@@ -10,9 +10,8 @@ lang: en-us
 
 # Getting started
 
-- [Get started with the UWP Community Toolkit]({{site.baseurl}}/{{page.lang}}/get-started/get-started.htm)
-- [Quick Start]({{site.baseurl}}/{{page.lang}}/get-started/quickstart.htm)
-- [What's next?]({{site.baseurl}}/{{page.lang}}/get-started/learn-more.htm)
+- [Get started with the UWP Community Toolkit]({{site.baseurl}}/{{page.lang}}/getting-started.htm)
+- [NuGet Packages]({{site.baseurl}}/{{page.lang}}/nugetpackages.htm)
 
 # Animations
 

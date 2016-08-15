@@ -145,3 +145,14 @@ same for opacity where it is recommended to not define it in XAML.
 When using storyboards for offset, scale and rotate, the toolkit will generate a CompositeTransform for you and will merge it with the current UIElement.RenderTransform (using a TransformGroup).
 This means that you do not have to worry about the current state of your UIElement because the toolkit will take care of keeping it unchanged.
 
+## Getting Started
+
+Read the [getting Started with the UWP Toolkit]({{site.baseurl}}/{{page.lang}}/getting-started.htm) for instructions on using these API functions in your own projects. 
+
+### Windows 10 Store App
+
+Want to see the controls and animations in action before jumping into the code?  We have published the [UWP Toolkit Sample Application](https://www.microsoft.com/store/apps/9nblggh4tlcq) to the Windows 10 store.  Download the app and play with the controls live to see what they do before ever writing a line of code.
+
+### GitHub Repository
+
+Visit the [UWP Community Toolkit Github Repository](https://github.com/Microsoft/UWPCommunityToolkit) to see the current source code, what is coming next, and to clone the repository.  Community contributions are welcome!

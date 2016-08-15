@@ -77,7 +77,7 @@ search.product: eADQiWindows 10XVcnh
                         <section class="section item-section">
                             <header class="section-header">
                                 <h5 class="section-title">
-                                    <a href="{{site.baseurl}}/{{page.lang}}/helpers/converters.htm">
+                                    <a href="{{site.baseurl}}/{{page.lang}}/codehelpers.htm">
                                         Code Helpers
                                     </a>
                                 </h5>
@@ -144,77 +144,6 @@ search.product: eADQiWindows 10XVcnh
         </div>
     </div>
 </div>
-
-
-<div class="container">
-    <div class="row spacer-20-top spacer-page-bottom">
-        <div class="col-xs-24">
-            <section class="section">
-                <header class="section-header">
-                    <h2 class="section-title">Getting Started</h2>
-                </header>
-                <div class="row" style="margin-left:5px">
-                    <h4> Building a new project </h4> 
-                    <ul>
-                    <li>
-                    1)	Download Visual Studio 2015 with Update 3 and the Windows 10 SDK
-                    </li>
-                    <li> 
-                    2)	Create a new UWP project (or open an existing one)
-                    </li>
-                    <li> 
-                    3)	Launch Visual Studio 2015
-                    </li>
-                    <li> 
-                    4)	Create a new project using the Blank App template under Visual C# -> Windows -> Universal.  If you don't have a the templates, you need to re-run Visual Studio setup and install the <strong>Universal Windows App Development Tools</strong>.
-                    </li>
-                    <li> 
-                    5)	Add the UWP Community Toolkit to your project
-                    </li>
-                    <li> 
-                    6)	Add a reference to each of the desired <a href="{{site.baseurl}}/{{page.lang}}/get-started/nugetpackages.htm">NuGet packages</a> (Microsoft.Toolkit.Uwp.Services is the example in the screenshot below) will show a preview of the changes that will be applied to your project.
-                        <p> 
-                            <img style="max-width:75%;" src="{{site.baseurl}}/resources/images/AddNugetServices.png">
-                        </p>
-                    </li>
-                    <li>  
-7)	Search for “Microsoft.Toolkit.UWP”
-                    </li>
-                    <li> 
-8)	Select desired packages and install them
-                    </li>
-                    <li>   
-9)	Add a reference to the toolkit in your XAML pages or C#
-<p>
-a.	In your XAML page, add a reference at the top of your page
-</p>
-<p>
-{% highlight csharp %}
-
-       	xmlns:controls="using:Microsoft.Windows.Toolkit.UI.Controls"
-
-{% endhighlight %}
-</p>
-
-<p>
-b.	In your C# page, add the namespaces to the toolkit
-</p>
-<p>
-{% highlight csharp %}
-
-using Microsoft.Windows.Toolkit;
-
-{% endhighlight %}
-</p>
-                    </li>
-                    <li> 
-10)	You can copy & paste code snippets for each feature from the Sample App, or find more details in the documentation. 
-                    </li>
-                    </ul>
-
-                </div>
-
-
 
                 <div class="row spacer-20-top" style="margin-top:20px" >
                     <div class="col-xs-24 col-sm-8">

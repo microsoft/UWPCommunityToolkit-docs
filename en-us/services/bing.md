@@ -55,5 +55,5 @@ Windows 10 SDK 10586 or higher
 
 **Microsoft.Toolkit.Uwp.Services**
 
-See the [NuGet Packages page]({{site.baseurl}}/{{page.lang}}/get-started/nugetpackages.md) for complete list.
+See the [NuGet Packages page]({{site.baseurl}}/{{page.lang}}/nugetpackages.md) for complete list.
 

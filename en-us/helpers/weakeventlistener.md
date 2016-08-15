@@ -3,7 +3,7 @@ permalink: /en-US/helpers/weakeventlistener.htm
 title: WeakEventListener utility
 description: WeakEventListener allows the owner to be garbage collected if its only remaining link is an event handler
 keywords: windows, app, toolkit, UWP, helpers, event, weak event, listener
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---

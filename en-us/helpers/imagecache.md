@@ -3,7 +3,7 @@ permalink: /en-US/helpers/imagecache.htm
 title: ImageCache utility
 description: ImageCache provides methods and tools to cache images in a temporary local folder
 keywords: windows, app, toolkit, UWP, helpers, image, cache
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---

@@ -23,7 +23,7 @@ Click the links below to go directly to that namespace in the online API.
 | [VisualTreeExtensions]({{site.baseurl}}/{{page.lang}}/helpers/visualtreeextensions.htm) | Provides a collection of extensions methods for UI |
 | [WeakEventListener]({{site.baseurl}}/{{page.lang}}/helpers/weakeventlistener.htm) | Allows the owner to be garbage collected if its only remaining link is an event handler |
 
-
+ 
 
 ### Getting Started
 

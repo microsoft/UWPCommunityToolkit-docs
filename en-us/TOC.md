@@ -23,13 +23,13 @@ lang: en-us
 
 # Controls
 
+- [AdaptiveGridView]({{site.baseurl}}/{{page.lang}}/controls/AdaptiveGridView.htm)
 - [HamburgerMenu]({{site.baseurl}}/{{page.lang}}/controls/hamburgerMenu.htm)
 - [HeaderedTextBlock]({{site.baseurl}}/{{page.lang}}/controls/headeredTextBlock.htm)
 - [ImageEX]({{site.baseurl}}/{{page.lang}}/controls/ImageEx.htm)
 - [PullToRefreshListView]({{site.baseurl}}/{{page.lang}}/controls/PullToRefreshListView.htm)
 - [RadialGauge]({{site.baseurl}}/{{page.lang}}/controls/RadialGauge.htm)
 - [RangeSelecter]({{site.baseurl}}/{{page.lang}}/controls/RangeSelector.htm)
-- [AdaptiveGridView]({{site.baseurl}}/{{page.lang}}/controls/AdaptiveGridView.htm)
 - [RotatorTile]({{site.baseurl}}/{{page.lang}}/controls/RotatorTile.htm)
 - [SlideableListItem]({{site.baseurl}}/{{page.lang}}/controls/SlideableListItem.htm)
 

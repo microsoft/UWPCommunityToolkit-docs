@@ -3,7 +3,7 @@ permalink: /en-US/helpers/storagefiles.htm
 title: StorageFilesHelper utility 
 description: Static class of utility functions for reading and writing text of bytes from files within UWP applications
 keywords: windows, app, toolkit, UWP, helpers, file, storage, embedded file, read text, read bytes, write bytes, write text
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---

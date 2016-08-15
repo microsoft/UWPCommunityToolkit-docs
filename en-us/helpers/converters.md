@@ -3,7 +3,7 @@ permalink: /en-US/helpers/converters.htm
 title: Code Helper Converters 
 description: Commonly used converters that allow the data to be modified as it passes through the binding engine.
 keywords: windows, app, toolkit, UWP, helpers, xaml
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---

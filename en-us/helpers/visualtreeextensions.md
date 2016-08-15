@@ -3,7 +3,7 @@ permalink: /en-US/helpers/visualtreeextensions.htm
 title: VisualTreeExtensions utility
 description: VisualTreeExtensions defines a collection of extensions methods for UI
 keywords: windows, app, toolkit, UWP, helpers, visual tree
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---

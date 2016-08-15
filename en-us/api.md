@@ -22,7 +22,7 @@ Click the links below to go directly to that namespace in the online API.
 | [Microsoft.Toolkit.Uwp.UI.Animations]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations.htm) | Animations and Composition behaviors such as Blur, Fade, Rotate, etc. |
 | [Microsoft.Toolkit.Uwp.UI.Controls]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls.htm) | XAML Controls such as RadialGauge, RangeSelector, etc. | 
 
-
+ 
 
 ### Getting Started
 

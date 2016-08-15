@@ -3,7 +3,7 @@ permalink: /en-US/helpers/streams.htm
 title: StreamsHelper utility
 description: Utility class to help with common stream operations needed by UWP applications
 keywords: windows, app, toolkit, UWP, helpers, stream, content file, sandbox file, download uri
-layout: default
+layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
@@ -12,11 +12,11 @@ lang: en-us
 
 There are several operations that apps need commonly to do against their APPX, or from the Internet that are not easy.  This helper class wraps up some of the most common operations we need in multiple apps.
 
-##Some common scenarios
+## Some common scenarios
 
 * Get a stream from a URI using an in memory stream (rather than needing to download it first).
 * Download a URI and write it to a local storage file.
-* Get a packaged file stream (files included in the APPX as Content | do not copy).
+* Get a packaged file stream (files included in the APPX as *Content - do not copy*).
 * Does a file exist local folder?
 * Read text from a file using ASCII or specified encoding.
 

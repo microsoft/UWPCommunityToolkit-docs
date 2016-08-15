@@ -11,6 +11,7 @@ lang: en-us
 # ImageEx XAML Control
 
 The **ImageEx Control** downloads images asynchronously, while showing a loading indicator. Source images are then stored in the application's local cache to preserve resources and load time. ImageEx also extends the default *Image* Platform control to improve performance through caching. 
+You can also use a placeholder image that will be displayed will loading the main image.
  
 ## Syntax
 

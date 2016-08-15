@@ -48,7 +48,8 @@ using Microsoft.Windows.Toolkit;
 
 {% endhighlight %}
 
-5)	You can copy and paste code snippets for each feature from the Sample App, or find more details in the documentation. 
+5)	You can copy and paste code snippets for each feature from the [Sample Application](https://www.microsoft.com/store/apps/9nblggh4tlcq), or find more details in the documentation. 
+
 
 ## Helpful Links 
 

@@ -11,8 +11,7 @@ lang: en-us
 # Notifications Overview 
 
 Adaptive live tiles and interactive toasts are key engagement components of a UWP Application on Windows 10.  
-
-Notifications included in the toolkit: LiveTile, Toast and WeatherLiveTileandToast
+Instead of having to deal with XML, you can now use UWP Community toolkit and its notification extensions to work with tiles and notifications using a complete object model.
 
 ### Tiles
 

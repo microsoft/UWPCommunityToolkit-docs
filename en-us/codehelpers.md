@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
 
-### Documentation
+# Code Helpers
 
 Click the links below to go directly to that namespace in the online API.
 
@@ -24,7 +24,8 @@ Click the links below to go directly to that namespace in the online API.
 | [WeakEventListener]({{site.baseurl}}/{{page.lang}}/helpers/weakeventlistener.htm) | Allows the owner to be garbage collected if its only remaining link is an event handler |
 
 
-## Getting Started
+
+### Getting Started
 
 Read the [getting Started with the UWP Toolkit]({{site.baseurl}}/{{page.lang}}/getting-started.htm) for instructions on using these functions in your own projects. 
 

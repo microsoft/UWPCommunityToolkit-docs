@@ -145,7 +145,7 @@ same for opacity where it is recommended to not define it in XAML.
 When using storyboards for offset, scale and rotate, the toolkit will generate a CompositeTransform for you and will merge it with the current UIElement.RenderTransform (using a TransformGroup).
 This means that you do not have to worry about the current state of your UIElement because the toolkit will take care of keeping it unchanged.
 
-## Getting Started
+### Getting Started
 
 Read the [getting Started with the UWP Toolkit]({{site.baseurl}}/{{page.lang}}/getting-started.htm) for instructions on using these API functions in your own projects. 
 

@@ -28,7 +28,9 @@ All of the controls also include templates so you can customize the look of them
 | [SlideableListItem Overview]({{site.baseurl}}/{{page.lang}}/controls/slidablelistitem.htm) | [SlidableListItem]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.htm) | ContentControl providing functionality for sliding left or right to expose functions |
 | [AdaptiveGridView Overview]({{site.baseurl}}/{{page.lang}}/controls/AdaptiveGridView.htm) | [AdaptiveGridView]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_AdaptiveGridView.htm) | The AdaptiveGridView control allows to present information within a Grid View perfectly adjusting the total display available space. It reacts to changes in the layout as well as the content so it can adapt to different form factors automatically. |
 
-## Getting Started
+
+
+### Getting Started
 
 Read the [getting Started with the UWP Toolkit]({{site.baseurl}}/{{page.lang}}/getting-started.htm) for instructions on using these controls in your own projects. 
 

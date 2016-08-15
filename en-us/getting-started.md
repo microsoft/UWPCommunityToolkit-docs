@@ -12,16 +12,15 @@ lang: en-us
 
 If you want to see the controls and animations in an actual app, download the [UWP Toolkit Sample Application](https://www.microsoft.com/store/apps/9nblggh4tlcq) from the Windows store.  
 
-# Developer Requirements
+## Developer Requirements
 
 To develop Windows UWP Applications you need the current version of Windows 10, along with Visual Studio 2015 with Update 3 (Any Edition).
 
 * Download [Visual Studio 2015 Update 3 with Windows developer tools](https://developer.microsoft.com/en-us/windows/downloads). During install, choose custom option to make sure UWP tools are selected. 
 * Enable developer mode for your device, [here](https://msdn.microsoft.com/windows/uwp/get-started/enable-your-device-for-development). This is an _optional step_ that must be completed before submitting to the Windows App Store.  You do not have to do this in order to build and test locally on your machine. Register as an app developer [Windows Dev Center sign up page](https://msdn.microsoft.com/windows/uwp/get-started/sign-up). 
 
-## Getting Started
 
-### Building a new project 
+## Building a new project 
 
 1)	Download Visual Studio 2015 with Update 3 and the Windows 10 SDK.  **Important**: Ensure you choose the custom install option and select the *Universal Windows App Development Tools*.  
 

@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
 
-### Documentation
+# API Documentation
 
 Click the links below to go directly to that namespace in the online API.
 
@@ -23,7 +23,8 @@ Click the links below to go directly to that namespace in the online API.
 | [Microsoft.Toolkit.Uwp.UI.Controls]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls.htm) | XAML Controls such as RadialGauge, RangeSelector, etc. | 
 
 
-## Getting Started
+
+### Getting Started
 
 Read the [getting Started with the UWP Toolkit]({{site.baseurl}}/{{page.lang}}/getting-started.htm) for instructions on using these API functions in your own projects. 
 

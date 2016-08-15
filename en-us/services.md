@@ -20,7 +20,7 @@ The UWP Community toolkit provides several services to help you add social compo
 | [Facebook]({{site.baseurl}}/{{page.lang}}/services/facebook.htm) | Very easy Facebook integration for UWP |
 | [Twitter]({{site.baseurl}}/{{page.lang}}/services/twitter.htm) | Twitter Service with minimal code in your app |
 
-## Getting Started
+### Getting Started
 
 Read the [getting Started with the UWP Toolkit]({{site.baseurl}}/{{page.lang}}/getting-started.htm) for instructions on using this toolkit in your own projects. 
 

@@ -23,13 +23,13 @@ NuGet is a standard package manager for .Net applications that is built into Vis
 | [Microsoft.Toolkit.Uwp.UI.Controls]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls.htm) | XAML Controls such as RadialGauge, RangeSelector, etc. | 
 
 
-# Search in Visual Studio
+## Search in Visual Studio
 
 Searching in Visual Studio package manager you should see a list similar to the one below (version numbers may be different, but names should be the same).
 
 ![NuGet packages]({{site.baseurl}}/resources/images/NugetPackages.png "Nuget Packages")
 
-## Getting Started
+### Getting Started
 
 Read the [getting Started with the UWP Toolkit]({{site.baseurl}}/{{page.lang}}/getting-started.htm) for more instructions on using these NuGet Packages in your own projects. 
 

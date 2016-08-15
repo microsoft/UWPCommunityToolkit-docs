@@ -29,17 +29,14 @@ All of the controls also include templates so you can customize the look of them
 | [SlideableListItem Overview]({{site.baseurl}}/{{page.lang}}/controls/slidablelistitem.htm) | [SlidableListItem]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.htm) | ContentControl providing functionality for sliding left or right to expose functions |
 
 
- 
-
-### Getting Started
+## Getting Started
 
 Read the [getting Started with the UWP Toolkit]({{site.baseurl}}/{{page.lang}}/getting-started.htm) for instructions on using these controls in your own projects. 
 
-### Windows 10 Store App
+## Windows 10 Store App
 
 Want to see the controls and animations in action before jumping into the code?  We have published the [UWP Toolkit Sample Application](https://www.microsoft.com/store/apps/9nblggh4tlcq) to the Windows 10 store.  Download the app and play with the controls live to see what they do before ever writing a line of code.
 
-### GitHub Repository
+## GitHub Repository
 
 Visit the [UWP Community Toolkit Github Repository](https://github.com/Microsoft/UWPCommunityToolkit) to see the current source code, what is coming next, and to clone the repository.  Community contributions are welcome!
-

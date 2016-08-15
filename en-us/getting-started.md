@@ -23,27 +23,17 @@ To develop Windows UWP Applications you need the current version of Windows 10, 
 
 ### Building a new project 
 
-1)	Download Visual Studio 2015 with Update 3 and the Windows 10 SDK
+1)	Download Visual Studio 2015 with Update 3 and the Windows 10 SDK.  **Important**: Ensure you choose the custom install option and select the *Universal Windows App Development Tools*.  
 
-2)	Create a new UWP project (or open an existing one)
+2)	Create a new project using the Blank App template under Visual C# -> Windows -> Universal. 
 
-3)	Launch Visual Studio 2015
+3)	Add the UWP Community Toolkit to your project by choosing each of the desired [NuGet Packages]({{site.baseurl}}/{{page.lang}}/nugetpackages.htm), Visual Studio will show a preview of the changes that will be applied to your project. Search for *Microsoft.Toolkit.UWP*.
 
-4)	Create a new project using the Blank App template under Visual C# -> Windows -> Universal.  If you don't have a the templates, you need to re-run Visual Studio setup and install the <strong>Universal Windows App Development Tools</strong>.
+![NuGet Packages]({{site.baseurl}}/resources/images/ManageNugetPackages.png "Manage NuGet Packages Image")
 
-5)	Add the UWP Community Toolkit to your project
+4)	Add a reference to the toolkit in your XAML pages or C#
 
-6)	Add a reference to each of the desired [NuGet Packages]({{site.baseurl}}/{{page.lang}}/nugetpackages.htm) (Microsoft.Toolkit.Uwp.Services is the example in the screenshot below) will show a preview of the changes that will be applied to your project.
-
-![NuGet Packages]({{site.baseurl}}/resources/images/AddNugetServices.png "NuGet Packages Image")
-
-7)	Search for “Microsoft.Toolkit.UWP”
-
-8)	Select desired packages and install them
-
-9)	Add a reference to the toolkit in your XAML pages or C#
-
-    a.	In your XAML page, add a reference at the top of your page
+a.	In your XAML page, add a reference at the top of your page
 
 {% highlight csharp %}
 
@@ -59,7 +49,7 @@ using Microsoft.Windows.Toolkit;
 
 {% endhighlight %}
 
-10)	You can copy and paste code snippets for each feature from the Sample App, or find more details in the documentation. 
+5)	You can copy and paste code snippets for each feature from the Sample App, or find more details in the documentation. 
 
 ## Helpful Links 
 

@@ -10,7 +10,10 @@ lang: en-us
 
 # Getting Started
 
-If you want to see the controls and animations in an actual app, download the [UWP Toolkit Sample Application](https://www.microsoft.com/store/apps/9nblggh4tlcq) from the Windows store.  
+If you want to see the controls and animations in an actual app, download the [UWP Toolkit Sample Application](https://www.microsoft.com/store/apps/9nblggh4tlcq) from the Windows store.
+
+If you are new to UWP Development we recommend you visit the [Getting Started with UWP Development](https://developer.microsoft.com/en-us/windows/getstarted) pages on the Developer portal. 
+  
 
 ## Developer Requirements
 
@@ -56,6 +59,28 @@ b.	In your C# page, add the namespaces to the toolkit
 
 7)	You can copy and paste code snippets for each feature from the [Sample Application](https://www.microsoft.com/store/apps/9nblggh4tlcq), or find more details in the documentation. 
 
+
+## Adding the UWP Toolkit to your Visual Studio Toolbox
+
+NuGet packages cannot automatically add themselves to the Visual Studio toolbox.  If you want to get the UWP UI Controls into your Visual Studio toolbox follow these steps.
+
+1) Add the *Microsoft.Toolkit.Uwp.UI.Controls* NuGet package to your application like normal. 
+
+2) Open the MainPage.xaml and select the Toolbox on the left side of Visual Studio.
+
+3) Right click in a blank area and select *Add Tab*.  Name the tab *UWP Toolkit Controls*.
+
+4) Right click in the tab you just created and select *Choose Items...*.  Select *Browse* from the dialog and navigate to the folder on your machine:
+
+    c:\Users\%USERNAME%\.nuget\packages\Microsoft.Toolkit.Uwp.UI.Controls\
+
+a.  Choose the folder name matching the version you have installed, then continue to the *lib\uap10.0* folder and select the *Microsoft.Toolkit.Uwp.UI.Controls.dll* file.  You should end up with a dialog similar to the one shown below.
+
+![UI Toolbox Items]({{site.baseurl}}/resources/images/choosetoolboxitems.png "Choose Toolbox Image")
+
+5) Your toolbox should now have a list of UI Controls from the toolkit that you can drag and drop onto your XAML surfaces.
+
+![Completed Toolbox Items]({{site.baseurl}}/resources/images/toolboxfinal.png "Toolbox Final Image")
 
 
 ## Helpful Links 

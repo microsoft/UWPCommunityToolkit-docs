@@ -10,7 +10,7 @@ lang: en-us
 
 # Scale
 
-The **Scale animation behavior** allows you to change a controls' scale by increasing or decreasing the control through animation. For example, perhaps you want an entry field to change size when the user taps it.
+The **Scale animation behavior** allows you to change a control's scale by increasing or decreasing the control through animation. For example, perhaps you want an entry field to change size when the user taps it.
 
 ## Syntax
 

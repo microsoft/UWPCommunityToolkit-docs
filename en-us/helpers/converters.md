@@ -19,6 +19,7 @@ Commonly used **converters** that allow the data to be modified as it passes thr
 |StringFormatConverter | Converts a source object to the formatted string version |
 |StringVisibilityConverter | Converts a string value into a Visibility enumeration (if the value is null or empty returns a collapsed value) |
 
+
 ## Platforms
 
 Windows 10 SDK 10586 or higher
@@ -26,5 +27,5 @@ Windows 10 SDK 10586 or higher
 ## API
 
 * [Converters source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI/Converters)
-* [Converters API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Converters.htm)
+* [Converters API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Converters_ConverterTools.htm)
 

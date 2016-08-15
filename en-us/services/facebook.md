@@ -92,9 +92,6 @@ await FacebookService.Instance.PostToFeedWithDialogAsync(TitleText.Text, Descrip
 // Post a message with a picture on your wall
 await FacebookService.Instance.PostToFeedAsync(TitleText.Text, MessageText.Text, DescriptionText.Text, picture.Name, stream);
 
-// Post a message with a picture on your wall using Facebook Dialog
-await FacebookService.Instance.PostToFeedWithDialogAsync(TitleText.Text, DescriptionText.Text, picture.Name, stream);
-
 {% endhighlight %}
  
 ## Example

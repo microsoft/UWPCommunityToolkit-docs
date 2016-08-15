@@ -36,7 +36,7 @@ a.	In your XAML page, add a reference at the top of your page
 
 {% highlight csharp %}
 
-       	xmlns:controls="using:Microsoft.Windows.Toolkit.UI.Controls"
+    xmlns:controls="using:Microsoft.Windows.Toolkit.UI.Controls"
 
 {% endhighlight %}
 
@@ -44,7 +44,7 @@ b.	In your C# page, add the namespaces to the toolkit
 
 {% highlight csharp %}
 
-using Microsoft.Windows.Toolkit;
+    using Microsoft.Windows.Toolkit;
 
 {% endhighlight %}
 
@@ -69,4 +69,8 @@ Want to see the controls and animations in action before jumping into the code? 
 ## GitHub Repository
 
 Visit the [UWP Community Toolkit Github Repository](https://github.com/Microsoft/UWPCommunityToolkit) to see the current source code, what is coming next, and to clone the repository.  Community contributions are welcome!
+
+## Feedback / Suggestions
+
+User suggestions are tracked using the Microsoft [User Voice page](https://aka.ms/uwpcommunitytoolkituservoice).  Of course you are also always welcome to contribute to the code directly!
 

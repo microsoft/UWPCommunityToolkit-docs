@@ -54,4 +54,4 @@ ListView.ItemsSource = await BingService.Instance.RequestAsync(searchConfig, 50)
 
 **Microsoft.Toolkit.Uwp.Services**
 
-See the [NuGet Packages page]({{site.baseurl}}/{{page.lang}}/nugetpackages.md) for complete list.
+See the [NuGet Packages page]({{site.baseurl}}/{{page.lang}}/nugetpackages.htm) for complete list.

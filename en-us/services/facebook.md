@@ -98,9 +98,10 @@ await FacebookService.Instance.PostToFeedAsync(TitleText.Text, MessageText.Text,
 
 [Facebook Service Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/Facebook%20Service)
 
-## Platforms
+## Requirements (Windows 10 Device Family)
 
-Windows 10 SDK 10586 or higher
+| [Device family]("http://go.microsoft.com/fwlink/p/?LinkID=526370) | Universal, 10.0.10586.0 or higher |
+| Namespace | Microsoft.Toolkit.Uwp.Services |
 
 ## API
 
@@ -113,9 +114,4 @@ Windows 10 SDK 10586 or higher
 Microsoft.Toolkit.Uwp.Services
 
 See the [NuGet Packages page]({{site.baseurl}}/{{page.lang}}/nugetpackages.htm) for complete list.
-
-## Requirements (Windows 10 Device Family)
-
-| [Device family]("http://go.microsoft.com/fwlink/p/?LinkID=526370) | Universal, 10.0.10586.0 or higher |
-| Namespace | Microsoft.Toolkit.Uwp.Services |
 

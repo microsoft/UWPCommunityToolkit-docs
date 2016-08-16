@@ -68,9 +68,10 @@ Twitter app models allows for read only applications.  If the app is tagged as R
 
 If you are posting from your app and never seeing them show up in the timeline check the *Permissions* tab on the app page.  You want to ensure that you have *Read and Write* checked on that tab.
 
-## Platforms
+## Requirements (Windows 10 Device Family)
 
-Windows 10 SDK 10586 or higher
+| [Device family]("http://go.microsoft.com/fwlink/p/?LinkID=526370) | Universal, 10.0.10586.0 or higher |
+| Namespace | Microsoft.Toolkit.Uwp.Services |
 
 ## API
 
@@ -82,9 +83,4 @@ Windows 10 SDK 10586 or higher
 Microsoft.Toolkit.Uwp.Services
 
 See the [NuGet Packages page]({{site.baseurl}}/{{page.lang}}/nugetpackages.htm) for complete list.
-
-## Requirements (Windows 10 Device Family)
-
-| [Device family]("http://go.microsoft.com/fwlink/p/?LinkID=526370) | Universal, 10.0.10586.0 or higher |
-| Namespace | Microsoft.Toolkit.Uwp.Services |
 

@@ -16,15 +16,14 @@ You can use behaviors from within Blend for an editor experience, or you can dec
 
 ## Animation Styles and Documentation
 
-| Animation Details Link | Animation API Documentation |
-| --- | --- |
-| [Blur]({{site.baseurl}}/{{page.lang}}/animations/blur.htm) | [Blur Code API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Blur.htm) |
-| [Fade]({{site.baseurl}}/{{page.lang}}/animations/fade.htm) | [Fade Code API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Fade.htm) |
-| [Offset]({{site.baseurl}}/{{page.lang}}/animations/offset.htm) | [Offset Code API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Offset.htm) |
-| [Rotate]({{site.baseurl}}/{{page.lang}}/animations/rotate.htm) | [Rotate Code API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Rotate.htm) |
-| [Scale]({{site.baseurl}}/{{page.lang}}/animations/scale.htm) | [Scale Code API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Scale.htm) |
+| Link | 
+| --- |
+| [Blur]({{site.baseurl}}/{{page.lang}}/animations/blur.htm) | 
+| [Fade]({{site.baseurl}}/{{page.lang}}/animations/fade.htm) | 
+| [Offset]({{site.baseurl}}/{{page.lang}}/animations/offset.htm) |
+| [Rotate]({{site.baseurl}}/{{page.lang}}/animations/rotate.htm) | 
+| [Scale]({{site.baseurl}}/{{page.lang}}/animations/scale.htm) | 
 
- 
 
 ## Behaviors
 

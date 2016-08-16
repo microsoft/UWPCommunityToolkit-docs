@@ -14,7 +14,7 @@ The UWP Community toolkit provides several services to help you add social compo
 
 ## Service Links
 
-| Service Overview | Description |
+| Link | Description |
 | --- | --- |
 | [Bing]({{site.baseurl}}/{{page.lang}}/services/bing.htm) | Query Bing for web results |
 | [Facebook]({{site.baseurl}}/{{page.lang}}/services/facebook.htm) | Very easy Facebook integration for UWP |

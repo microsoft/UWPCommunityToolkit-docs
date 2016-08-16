@@ -12,7 +12,7 @@ lang: en-us
 
 Click the links below to go directly to that namespace in the online API.
 
-| API Link | description |
+| Link | Description |
 | --- | --- |
 | [Colors]({{site.baseurl}}/{{page.lang}}/helpers/colors.htm) | Color conversion and utilities for handling colors |
 | [Connection]({{site.baseurl}}/{{page.lang}}/helpers/connectionHelper.htm) | Detection of Internet connectivity helper |

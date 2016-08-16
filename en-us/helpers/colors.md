@@ -14,8 +14,6 @@ The **Colors Helper** lets users convert colors from text names, HTML hex, HSV, 
 
 ## Example
 
-**NOTE:** There is no UI for this helper. It is a C# helper without a visual component.
-
 {% highlight csharp %}
 	// Be sure to include the using at the top of the file:
 	//using Microsoft.Toolkit.Uwp;

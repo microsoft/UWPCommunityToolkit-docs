@@ -17,8 +17,6 @@ A metered connection is an Internet connection that has a data limit or cost ass
 
 ## Example
 
-**NOTE:** There is no UI for this helper.  It is a C# helper without a visual component.
-
 {% highlight csharp %}
 
 	// Metered connections are determined by the OS

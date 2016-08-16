@@ -15,8 +15,6 @@ The StorageFileHelper is a static utility class that provides functions to help 
 
 ## Example
 
-**NOTE:** There is no UI for this helper.  It is a C# helper without a visual component.
-
 {% highlight csharp %}
 
 	// NOTE This must be used from an async function

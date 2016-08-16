@@ -22,8 +22,6 @@ There are several operations that apps need commonly to do against their APPX, o
 
 ## Example
 
-**NOTE:** There is no UI for this helper.  It is a C# helper without a visual component.
-
 {% highlight csharp %}
 
     // Get access to a text file that was included in solution as Content | do not copy local

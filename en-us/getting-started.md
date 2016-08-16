@@ -10,22 +10,13 @@ lang: en-us
 
 # Getting Started
 
-## Developer Requirements
-
-To develop Windows UWP Applications you need the current version of Windows 10, along with Visual Studio 2015 with Update 3 (Any Edition).
-
-## Building a new project 
+The toolkit is available as NuGet packages that can be added to any existing or new project using Visual Studio.
 
 1)	Download [Visual Studio 2015 Update 3 with Windows developer tools](https://developer.microsoft.com/en-us/windows/downloads) and the Windows 10 SDK.  **Important**: Ensure you choose the custom install option and select the *Universal Windows App Development Tools*.  
 
+3)	Open an existing project, or create a new project using the Blank App template under Visual C# -> Windows -> Universal.  **Important**:  Build 10586 or higher is supported by current version of the Toolkit.   
 
-2)  Enable developer mode for your device, [here](https://msdn.microsoft.com/windows/uwp/get-started/enable-your-device-for-development). 
-
-
-3)	Create a new project using the Blank App template under Visual C# -> Windows -> Universal.  Target the SDK *Version 10.0; Build 10586* as the minimum version for your application.   
-
-
-4)	Add the UWP Community Toolkit to your project by choosing each of the desired [NuGet Packages]({{site.baseurl}}/{{page.lang}}/nugetpackages.htm), Visual Studio will show a preview of the changes that will be applied to your project. Search for *Microsoft.Toolkit.UWP*.
+4)	In Solution Explorer panel, right click on your project name and select **Manage NuGet Packages**. Search for **Microsoft.Toolkit.UWP**, and choose your desired [NuGet Packages]({{site.baseurl}}/{{page.lang}}/nugetpackages.htm) from the list.
 
 ![NuGet Packages]({{site.baseurl}}/resources/images/ManageNugetPackages.png "Manage NuGet Packages Image")
 
@@ -49,39 +40,15 @@ b.	In your C# page, add the namespaces to the toolkit
 {% endhighlight %}
 
 
-6)	You can copy and paste code snippets for each feature from the [UWP Community Toolkit Sample App](http://aka.ms/uwptoolkitapp), or find more details in the documentation. 
-
-
-## Adding the UWP Community Toolkit to your Visual Studio Toolbox
-
-You can add the UWP Community Toolkit Controls into the Visual Studio toolbox follow these steps:
-
-1) Add the *Microsoft.Toolkit.Uwp.UI.Controls* NuGet package to your application like above. 
-
-2) Open any xaml page and select the Toolbox on the left side of Visual Studio.
-
-3) Right click in a blank area and select *Add Tab*.  Name the tab *UWP Community Toolkit Controls*.
-
-4) Right click in the tab you just created and select *Choose Items...*.  Then select *Browse* from the *Choose Toolbox Items* dialog and navigate to the folder on your machine:
-
-    c:\Users\%USERNAME%\.nuget\packages\Microsoft.Toolkit.Uwp.UI.Controls\
-
-a.  Choose the folder name matching the version you have installed, then continue to the *lib\uap10.0* folder and select the *Microsoft.Toolkit.Uwp.UI.Controls.dll* file.  You should end up with a dialog similar to the one shown below.
-
-![UI Toolbox Items]({{site.baseurl}}/resources/images/choosetoolboxitems.png "Choose Toolbox Image")
-
-5) Your toolbox should now have a list of UI Controls from the toolkit that you can drag and drop onto your XAML surfaces.
-
-![Completed Toolbox Items]({{site.baseurl}}/resources/images/toolboxfinal.png "Toolbox Final Image")
-
+6)	You can copy and paste code snippets for each feature from the [UWP Community Toolkit Sample App](http://aka.ms/uwptoolkitapp). 
 
 ## Other Resources 
 
-If you want to see the controls and animations in an actual app, download the [UWP Community Toolkit Sample App](http://aka.ms/uwptoolkitapp) from the Windows store.
+Read adding the [UI controls to the Visual Studio Toolbox]({{site.baseurl}}/{{page.lang}}/toolbox.htm) for instructions on integrating within Visual Studio. 
 
-If you are new to UWP Development we recommend you visit the [Getting Started with UWP Development](https://developer.microsoft.com/en-us/windows/getstarted) pages on the Developer portal. 
+Download the [UWP Community Toolkit Sample App](http://aka.ms/uwptoolkitapp) from the Windows store to see the controls in an actual app.
 
-## Open Source
+We recommend developers new to UWP visit the [Getting Started with UWP Development](https://developer.microsoft.com/en-us/windows/getstarted) pages on the Developer portal. 
 
 Visit the [UWP Community Toolkit Github Repository](http://aka.ms/uwptoolkit) to see the current source code, what is coming next, and to clone the repository.  Community contributions are welcome!
 

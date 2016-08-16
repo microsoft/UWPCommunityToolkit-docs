@@ -52,5 +52,4 @@ We recommend developers new to UWP visit the [Getting Started with UWP Developme
 
 Visit the [UWP Community Toolkit Github Repository](http://aka.ms/uwptoolkit) to see the current source code, what is coming next, and to clone the repository.  Community contributions are welcome!
 
-User suggestions are tracked using the Microsoft [User Voice page](https://aka.ms/uwpcommunitytoolkituservoice).  Of course you are also always welcome to contribute to the code directly!
 

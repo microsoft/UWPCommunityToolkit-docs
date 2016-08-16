@@ -44,7 +44,7 @@ a.	In your XAML page, add a reference at the top of your page
 
 {% highlight csharp %}
 
-    xmlns:controls="using:Microsoft.Windows.Toolkit.UI.Controls"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
 
 {% endhighlight %}
 
@@ -52,7 +52,7 @@ b.	In your C# page, add the namespaces to the toolkit
 
 {% highlight csharp %}
 
-    using Microsoft.Windows.Toolkit;
+    using Microsoft.Toolkit.Uwp;
 
 {% endhighlight %}
 

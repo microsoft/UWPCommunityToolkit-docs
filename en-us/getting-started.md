@@ -44,7 +44,7 @@ b.	In your C# page, add the namespaces to the toolkit
 
 ## Other Resources 
 
-Read adding the [UI controls to the Visual Studio Toolbox]({{site.baseurl}}/{{page.lang}}/toolbox.htm) for instructions on integrating within Visual Studio. 
+Adding the [UI controls to the Visual Studio Toolbox]({{site.baseurl}}/{{page.lang}}/toolbox.htm) explains deeper integration with Visual Studio. 
 
 Download the [UWP Community Toolkit Sample App](http://aka.ms/uwptoolkitapp) from the Windows store to see the controls in an actual app.
 

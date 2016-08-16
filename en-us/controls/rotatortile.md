@@ -37,9 +37,10 @@ The **Rotator Tile Control** is an ItemsControl that rotates through a set of it
 
 [RotatorTile XAML File](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Controls/RotatorTile/RotatorTile.xaml) is the XAML template used in the toolkit for the default styling.
 
-## Platforms 
+## Requirements (Windows 10 Device Family)
 
-Windows 10 SDK 10586 or higher
+| [Device family]("http://go.microsoft.com/fwlink/p/?LinkID=526370) | Universal, 10.0.10586.0 or higher |
+| Namespace | Microsoft.Toolkit.Uwp.UI.Controls |
 
 ## API
 

@@ -20,9 +20,10 @@ Commonly used **converters** that allow the data to be modified as it passes thr
 |StringVisibilityConverter | Converts a string value into a Visibility enumeration (if the value is null or empty returns a collapsed value) |
 
 
-## Platforms
+## Requirements (Windows 10 Device Family)
 
-Windows 10 SDK 10586 or higher
+| [Device family]("http://go.microsoft.com/fwlink/p/?LinkID=526370) | Universal, 10.0.10586.0 or higher |
+| Namespace | Microsoft.Toolkit.Uwp |
 
 ## API
 

@@ -10,7 +10,7 @@ lang: en-us
 
 # Getting Started
 
-If you want to see the controls and animations in an actual app, download the [UWP Community Toolkit Sample App](https://www.microsoft.com/store/apps/9nblggh4tlcq) from the Windows store.
+If you want to see the controls and animations in an actual app, download the [UWP Community Toolkit Sample App](http://aka.ms/uwptoolkitapp) from the Windows store.
 
 If you are new to UWP Development we recommend you visit the [Getting Started with UWP Development](https://developer.microsoft.com/en-us/windows/getstarted) pages on the Developer portal. 
   
@@ -57,7 +57,7 @@ b.	In your C# page, add the namespaces to the toolkit
 {% endhighlight %}
 
 
-7)	You can copy and paste code snippets for each feature from the [Sample Application](https://www.microsoft.com/store/apps/9nblggh4tlcq), or find more details in the documentation. 
+7)	You can copy and paste code snippets for each feature from the [UWP Community Toolkit Sample App](http://aka.ms/uwptoolkitapp), or find more details in the documentation. 
 
 
 ## Adding the UWP Community Toolkit to your Visual Studio Toolbox
@@ -96,11 +96,11 @@ a.  Choose the folder name matching the version you have installed, then continu
 
 ## Windows 10 Store App
 
-Want to see the controls and animations in action before jumping into the code?  We have published the [UWP Community Toolkit Sample App](https://www.microsoft.com/store/apps/9nblggh4tlcq) to the Windows 10 store.  Download the app and play with the controls live to see what they do before ever writing a line of code.
+Want to see the controls and animations in action before jumping into the code?  We have published the [UWP Community Toolkit Sample App](http://aka.ms/uwptoolkitapp) to the Windows 10 store.  Download the app and play with the controls live to see what they do before ever writing a line of code.
 
 ## GitHub Repository
 
-Visit the [UWP Community Toolkit Github Repository](https://github.com/Microsoft/UWPCommunityToolkit) to see the current source code, what is coming next, and to clone the repository.  Community contributions are welcome!
+Visit the [UWP Community Toolkit Github Repository](http://aka.ms/uwptoolkit) to see the current source code, what is coming next, and to clone the repository.  Community contributions are welcome!
 
 ## Feedback / Suggestions
 

@@ -62,10 +62,9 @@ Please view the [toolkit sample application](https://github.com/Microsoft/UWPCom
 
 ![Blur Behavior animation]({{site.baseurl}}/resources/images/Animations-Blur.gif "Blur Behavior")
 
-## Platforms
+## Requirements (Windows 10 Device Family)
 
-[Windows 10 Anniversary SDK 14393](https://blogs.windows.com/windowsexperience/2016/07/18/build14393/) or higher.
-
+| [Device family]("http://go.microsoft.com/fwlink/p/?LinkID=526370) | [Windows 10 Anniversary SDK 14393](https://blogs.windows.com/windowsexperience/2016/07/18/build14393/) 10.0.14393.0 |
 
 ## API
 

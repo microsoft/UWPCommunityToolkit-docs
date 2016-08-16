@@ -10,13 +10,17 @@ lang: en-us
 
 # Notifications Overview 
 
-Adaptive live tiles and interactive toasts are key engagement components of a UWP Application on Windows 10.  
-Instead of having to deal with XML, you can now use UWP Community toolkit and its notification extensions to work with tiles and notifications using a complete object model.
+Adaptive Live Tiles and interactive Toasts are key engagement components of a UWP Application on Windows 10.  
+Instead of having to deal with XML, you can now use UWP Community toolkit and its notification extensions to work with Tiles and notifications using a complete object model.
 
 ### Tiles
 
-[Adaptive Tile Notifications Documentation](https://blogs.msdn.microsoft.com/tiles_and_toasts/2015/06/30/adaptive-tile-templates-schema-and-documentation/)
-[Quickstart: Sending a local tile notification](https://blogs.msdn.microsoft.com/tiles_and_toasts/2015/10/05/quickstart-sending-a-local-tile-notification-in-windows-10/)
+| Documentation |
+| --- |
+| [Adaptive Tile Notifications](https://blogs.msdn.microsoft.com/tiles_and_toasts/2015/06/30/adaptive-tile-templates-schema-and-documentation/) |
+| [Quickstart: Sending a local Tile notification](https://blogs.msdn.microsoft.com/tiles_and_toasts/2015/10/05/quickstart-sending-a-local-tile-notification-in-windows-10/) |
+
+
 
 ### Example Image
 
@@ -24,8 +28,10 @@ Instead of having to deal with XML, you can now use UWP Community toolkit and it
 
 ### Toasts
 
-[Interactive Toast Notifications Documentation](https://blogs.msdn.microsoft.com/tiles_and_toasts/2015/07/02/adaptive-and-interactive-toast-notifications-for-windows-10/)
-[Quickstart: Sending a local toast notification](https://blogs.msdn.microsoft.com/tiles_and_toasts/2015/07/08/quickstart-sending-a-local-toast-notification-and-handling-activations-from-it-windows-10/)
+| Documentation |
+| --- |
+| [Interactive Toast Notifications](https://blogs.msdn.microsoft.com/tiles_and_toasts/2015/07/02/adaptive-and-interactive-toast-notifications-for-windows-10/) |
+| [Quickstart: Sending a local Toast notification](https://blogs.msdn.microsoft.com/tiles_and_toasts/2015/07/08/quickstart-sending-a-local-toast-notification-and-handling-activations-from-it-windows-10/) |
 
 ### Example Image
 

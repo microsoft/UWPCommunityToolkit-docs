@@ -17,7 +17,7 @@ The **HeaderedTextBlock Control** provides a header for read-only text. This con
 {% highlight xml %}
 
 <controls:HeaderedTextBlock Header="HeaderedTextBlockControl" 
-           Text="UWP Toolkit" 
+           Text="UWP Community Toolkit" 
            Orientation="Vertical"
 		   Margin="20,10,0,0" />  
 

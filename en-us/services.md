@@ -23,11 +23,11 @@ The UWP Community toolkit provides several services to help you add social compo
 
 ## Getting Started
 
-Read the [getting Started with the UWP Toolkit]({{site.baseurl}}/{{page.lang}}/getting-started.htm) for instructions on using this toolkit in your own projects. 
+Read the [getting Started with the UWP Community Toolkit]({{site.baseurl}}/{{page.lang}}/getting-started.htm) for instructions on using this toolkit in your own projects. 
 
 ## Windows 10 Store App
 
-Want to see the controls and animations in action before jumping into the code?  We have published the [UWP Toolkit Sample Application](https://www.microsoft.com/store/apps/9nblggh4tlcq) to the Windows 10 store.  Download the app and play with the controls live to see what they do before ever writing a line of code.
+Want to see the controls and animations in action before jumping into the code?  We have published the [UWP Community Toolkit Sample App](https://www.microsoft.com/store/apps/9nblggh4tlcq) to the Windows 10 store.  Download the app and play with the controls live to see what they do before ever writing a line of code.
 
 ## GitHub Repository
 

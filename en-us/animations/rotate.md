@@ -20,7 +20,6 @@ The **Rotate animation behavior** allows users to modify and animate the control
 				Value="180"
 				CenterX="0.0" 
 				CenterY="0.0" 
-				CenterZ="0.0" 
 				Duration="1.5" 
 				Delay="0.5" 
 				AutomaticallyStart="True"/>
@@ -33,12 +32,11 @@ or directly from code:
 {% highlight csharp %}
 
     MyRectangle.Rotate(
-                duration: Duration,
-                delay: Delay,
                 value: (float)Value,
                 centerX: (float)CenterX,
                 centerY: (float)CenterY,
-                centerZ: (float)CenterZ);
+                duration: Duration,
+                delay: Delay);
 
 {% endhighlight %}
 
@@ -46,11 +44,11 @@ Behavior animations can also be chained and awaited.
 
 {% highlight csharp %}
 
-    Element.Rotate(duration: 0.3, value: 30f).StartAsync();
+    Element.Rotate(value: 30f, duration: 0.3).StartAsync();
 
-    await Element.Rotate(duration: 0.3, value: 30f).StartAsync();
+    await Element.Rotate(value: 30f, duration: 0.3).StartAsync();
 
-    var anim = element.Rotate(value: 30f).Fade(value: 0.5).Blur(value: 5);
+    var anim = element.Rotate(30f).Fade(0.5).Blur(5);
     anim.SetDurationForAll(2);
     anim.Completed += animation_completed;
     anim.StartAsync();

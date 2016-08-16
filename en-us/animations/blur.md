@@ -33,7 +33,7 @@ or directly from code:
 
 {% highlight csharp %}
 
-ToolkitLogo.Blur(duration: 10, delay: 0, value: 10);       
+ToolkitLogo.Blur(value: 10, duration: 10, delay: 0);       
 
 {% endhighlight %}
 
@@ -41,11 +41,11 @@ Behavior animations can also be chained and awaited.
 
 {% highlight csharp %}
 
-    Element.Rotate(duration: 0.3, value: 30f).StartAsync();
+    Element.Rotate(value: 30f, duration: 0.3).StartAsync();
 
-    await Element.Rotate(duration: 0.3, value: 30f).StartAsync();
+    await Element.Rotate(value: 30f, duration: 0.3).StartAsync();
 
-    var anim = element.Rotate(value: 30f).Fade(value: 0.5).Blur(value: 5);
+    var anim = element.Rotate(30f).Fade(0.5).Blur(5);
     anim.SetDurationForAll(2);
     anim.Completed += animation_completed;
     anim.StartAsync();

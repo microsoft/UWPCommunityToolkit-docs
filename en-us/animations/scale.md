@@ -20,10 +20,8 @@ The **Scale animation behavior** allows you to change a control's scale by incre
     <behaviors:Scale x:Name="Scale" 
                      ScaleX="2.0"
                      ScaleY="2.0"
-                     ScaleZ="1.0"
                      CenterX="0.0"
                      CenterY="0.0" 
-                     CenterZ="0.0" 
                      Duration="1.0" 
                      Delay="0.5" 
                      AutomaticallyStart="True"/>
@@ -36,14 +34,12 @@ or directly from code:
 {% highlight csharp %}
 
 MyRectangle.Scale(
-                duration: Duration,
-                delay: Delay,
-                centerX: (float)CenterX,
-                centerY: (float)CenterY,
-                centerZ: (float)CenterZ,
                 scaleX: (float)ScaleX,
                 scaleY: (float)ScaleY,
-                scaleZ: (float)ScaleZ);                
+                centerX: (float)CenterX,
+                centerY: (float)CenterY,
+                duration: Duration,
+                delay: Delay);                
 
 {% endhighlight %}
 
@@ -51,11 +47,11 @@ Behaviors can also be chained and awaited.
 
 {% highlight csharp %}
 
-    Element.Rotate(duration: 0.3, value: 30f).StartAsync();
+    Element.Rotate(value: 30f, duration: 0.3).StartAsync();
 
-    await Element.Rotate(duration: 0.3, value: 30f).StartAsync();
+    await Element.Rotate(value: 30f, duration: 0.3).StartAsync();
 
-    var anim = element.Rotate(value: 30f).Fade(value: 0.5).Blur(value: 5);
+    var anim = element.Rotate(30f).Fade(0.5).Blur(5);
     anim.SetDurationForAll(2);
     anim.Completed += animation_completed;
     anim.StartAsync();

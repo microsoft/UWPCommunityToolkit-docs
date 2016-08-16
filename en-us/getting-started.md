@@ -1,8 +1,8 @@
 ---
 permalink: /en-US/getting-started.htm
 title: Getting Started
-description: Introduction and overview of the UwP Toolkit and its documentation
-keywords: windows, app, toolkit, get started, UWP toolkit
+description: Introduction and overview of the UWP Community Toolkit and its documentation
+keywords: windows, app, toolkit, get started, UWP Community Toolkit
 layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
@@ -10,7 +10,7 @@ lang: en-us
 
 # Getting Started
 
-If you want to see the controls and animations in an actual app, download the [UWP Toolkit Sample Application](https://www.microsoft.com/store/apps/9nblggh4tlcq) from the Windows store.
+If you want to see the controls and animations in an actual app, download the [UWP Community Toolkit Sample App](https://www.microsoft.com/store/apps/9nblggh4tlcq) from the Windows store.
 
 If you are new to UWP Development we recommend you visit the [Getting Started with UWP Development](https://developer.microsoft.com/en-us/windows/getstarted) pages on the Developer portal. 
   
@@ -60,7 +60,7 @@ b.	In your C# page, add the namespaces to the toolkit
 7)	You can copy and paste code snippets for each feature from the [Sample Application](https://www.microsoft.com/store/apps/9nblggh4tlcq), or find more details in the documentation. 
 
 
-## Adding the UWP Toolkit to your Visual Studio Toolbox
+## Adding the UWP Community Toolkit to your Visual Studio Toolbox
 
 NuGet packages cannot automatically add themselves to the Visual Studio toolbox.  If you want to get the UWP UI Controls into your Visual Studio toolbox follow these steps.
 
@@ -68,7 +68,7 @@ NuGet packages cannot automatically add themselves to the Visual Studio toolbox.
 
 2) Open any xaml page and select the Toolbox on the left side of Visual Studio.
 
-3) Right click in a blank area and select *Add Tab*.  Name the tab *UWP Toolkit Controls*.
+3) Right click in a blank area and select *Add Tab*.  Name the tab *UWP Community Toolkit Controls*.
 
 4) Right click in the tab you just created and select *Choose Items...*.  Then select *Browse* from the *Choose Toolbox Items* dialog and navigate to the folder on your machine:
 
@@ -96,7 +96,7 @@ a.  Choose the folder name matching the version you have installed, then continu
 
 ## Windows 10 Store App
 
-Want to see the controls and animations in action before jumping into the code?  We have published the [UWP Toolkit Sample Application](https://www.microsoft.com/store/apps/9nblggh4tlcq) to the Windows 10 store.  Download the app and play with the controls live to see what they do before ever writing a line of code.
+Want to see the controls and animations in action before jumping into the code?  We have published the [UWP Community Toolkit Sample App](https://www.microsoft.com/store/apps/9nblggh4tlcq) to the Windows 10 store.  Download the app and play with the controls live to see what they do before ever writing a line of code.
 
 ## GitHub Repository
 

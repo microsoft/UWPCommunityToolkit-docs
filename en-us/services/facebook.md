@@ -36,7 +36,7 @@ The above code will output something like this:
 {% highlight csharp %}
 
 // EXAMPLE ONLY DO NOT USE THIS!
-Windows Store SID = ms-app://s-1-15-2-69261451-1486691014-2395677208-255521631-1892998043-4997490472-675352499/
+Windows Store SID = ms-app://s-1-15-2-12341451-1486691014-2395677208-123421631-1234998043-1234490472-123452499/
 
 {% endhighlight %}
 

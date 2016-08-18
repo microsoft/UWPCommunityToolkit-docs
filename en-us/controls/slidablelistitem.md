@@ -46,7 +46,7 @@ This control can be used as a ListView Data Template root to create effects simi
 
 ## Example Code
 
-[SlideableListItem Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/SlideableListItem)
+[SlideableListItem Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/SlidableListItem)
 
 ## Default Template 
 

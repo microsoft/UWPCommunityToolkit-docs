@@ -27,6 +27,7 @@ All of the controls also include templates so you can customize the look of them
 | [RadialGauge Overview]({{site.baseurl}}/{{page.lang}}/controls/RadialGauge.htm) | A Modern UI Radial Gauge using XAML and Composition API. |
 | [RangeSelecter Overview]({{site.baseurl}}/{{page.lang}}/controls/RangeSelector.htm) | RangeSelector is a "double slider" control for range values. |
 | [SlideableListItem Overview]({{site.baseurl}}/{{page.lang}}/controls/slidablelistitem.htm) | ContentControl providing functionality for sliding left or right to expose functions |
+| [BladeControl Overview]({{site.baseurl}}/{{page.lang}}/controls/BladeControl.htm) | Control that can split content in different panes, similar to Azure Portal |
 
 
 ## Getting Started

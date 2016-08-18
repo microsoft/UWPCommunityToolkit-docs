@@ -48,7 +48,7 @@ The BladeControl provides a container to host blades as extra detail pages in, f
 
 ## Example Image
 
-![BladeControl animation]({{site.baseurl}}/resources/images/Controls-BladeControl.gif "AdaptiveGridView")
+![BladeControl animation]({{site.baseurl}}/resources/images/Controls-BladeControl.gif "BladeControl")
 
 ## Example Code
 

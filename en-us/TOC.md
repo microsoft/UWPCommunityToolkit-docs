@@ -25,6 +25,7 @@ lang: en-us
 # Controls
 
 - [AdaptiveGridView]({{site.baseurl}}/{{page.lang}}/controls/AdaptiveGridView.htm)
+- [BladeControl]({{site.baseurl}}/{{page.lang}}/controls/bladecontrol.htm)
 - [HamburgerMenu]({{site.baseurl}}/{{page.lang}}/controls/hamburgerMenu.htm)
 - [HeaderedTextBlock]({{site.baseurl}}/{{page.lang}}/controls/headeredTextBlock.htm)
 - [ImageEX]({{site.baseurl}}/{{page.lang}}/controls/ImageEx.htm)

@@ -19,6 +19,7 @@ All of the controls also include templates so you can customize the look of them
 | Link | Description |
 | --- | --- |
 | [AdaptiveGridView Overview]({{site.baseurl}}/{{page.lang}}/controls/AdaptiveGridView.htm) | The AdaptiveGridView control allows to present information within a Grid View perfectly adjusting the total display available space. It reacts to changes in the layout as well as the content so it can adapt to different form factors automatically. | 
+| [BladeControl]({{site.baseurl}}/{{page.lang}}/controls/bladecontrol.htm) | Provides a container to host blades as extra detail pages in, for example, a master-detail scenario. |
 | [HeaderedTextBlock Overview]({{site.baseurl}}/{{page.lang}}/controls/headeredTextBlock.htm) | Defines a control for providing a header for read-only text. |
 | [HamburgerMenu Overview]({{site.baseurl}}/{{page.lang}}/controls/hamburgerMenu.htm) | The HamburgerMenu is based on a SplitView control. By default it contains a HamburgerButton and a ListView to display menu items. |
 | [ImageEX Overview]({{site.baseurl}}/{{page.lang}}/controls/ImageEx.htm) | The ImageEx control extends the default Image platform control improving the performance and responsiveness of your Apps. Source images are downloaded asynchronously showing a load indicator while in progress. Once downloaded, the source image is stored in the App local cache to preserve resources and load time next time the image needs to be displayed. |

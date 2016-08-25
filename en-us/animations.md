@@ -23,6 +23,7 @@ You can use behaviors from within Blend for an editor experience, or you can dec
 | [Offset]({{site.baseurl}}/{{page.lang}}/animations/offset.htm) |
 | [Rotate]({{site.baseurl}}/{{page.lang}}/animations/rotate.htm) | 
 | [Scale]({{site.baseurl}}/{{page.lang}}/animations/scale.htm) | 
+| [FadeHeader]({{site.baseurl}}/{{page.lang}}/animations/fadeHeader.htm) | 
 
 
 ## Behaviors
@@ -42,6 +43,24 @@ Behaviors are powerful tools for designers that can be defined in Blend:
 {% endhighlight %}
 
 You can specify to start animation automatically upon loading (with AutomaticallyStart="True") or you can use code to do it manually.
+
+
+**FadeHeader**
+
+The FadeHeader animation behavior is a little different than the other animations as it uses a ListViewBase's ScrollViewer Y offset to animate the fading of the Header UIElement. You only need to place it in the ListView or GridView, see the [FadeHeader]({{site.baseurl}}/{{page.lang}}/animations/fadeHeader.htm) documentation to learn more
+
+{% highlight xml %}
+
+    <ListView>
+        <interactivity:Interaction.Behaviors>
+            <behaviors:FadeHeaderBehavior />
+        </interactivity:Interaction.Behaviors>
+    </ListView>
+
+
+{% endhighlight %}
+
+
 
 ## Animations using code only
 

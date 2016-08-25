@@ -26,7 +26,10 @@ call this method to clear the entire cache.
 
 
 
-| Name | Description | Type || --- | --- | --- || duration | Use this parameter to define a timespan from now to select cache entries to delete. | System.Nullable(System.TimeSpan) || return |Task |
+| Name | Description | Type |
+| --- | --- | --- |
+| duration | Use this parameter to define a timespan from now to select cache entries to delete. | System.Nullable(System.TimeSpan) |
+| return |Task |
 
 
 #### GetFromCacheAsync(System.Uri uri)
@@ -37,7 +40,10 @@ Load a specific image from the cache. If the image is not in the cache, ImageCac
 
 
 
-| Name | Description | Type || --- | --- | --- || uri | Uri of the image. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || return |a BitmapImage |
+| Name | Description | Type |
+| --- | --- | --- |
+| uri | Uri of the image. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) |
+| return |a BitmapImage |
 
 
 #### GetCacheFileName(System.Uri uri)
@@ -48,7 +54,10 @@ Gets the local cache file name associated with a specified Uri.
 
 
 
-| Name | Description | Type || --- | --- | --- || uri | Uri of the resource. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) || return |Filename associated with the Uri. |
+| Name | Description | Type |
+| --- | --- | --- |
+| uri | Uri of the resource. | [Uri](https://msdn.microsoft.com/library/windows/apps/System.Uri) |
+| return |Filename associated with the Uri. |
 
 
 ### Properties
@@ -56,5 +65,9 @@ Gets the local cache file name associated with a specified Uri.
 #### CacheDuration
 
 Gets or sets the life duration of every cache entry.
+
+#### MaxMemoryCacheSize
+
+Gets or sets the size of in-memory cache, which serves as an additional layer of chaching, providing better performance when same images are requested multiple times (like in long virtualized lists of images). It is set to 0 by default, which means in-memory caching is disabled by default. 
 
 

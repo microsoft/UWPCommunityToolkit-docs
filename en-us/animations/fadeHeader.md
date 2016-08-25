@@ -1,5 +1,5 @@
 ---
-permalink: /en-US/animations/fade.htm
+permalink: /en-US/animations/fadeHeader.htm
 title: FadeHeader XAML and Code Animation
 description: The FadeHeader behavior fades a ListView or GridView Header element
 keywords: windows, app, toolkit, FadeHeader, Fade, fades, XAML, UWP, animation behavior, behavior, ListView, GridView, Header, ListViewHeader, GridViewHeader
@@ -111,5 +111,5 @@ Please view the [toolkit sample application](https://github.com/Microsoft/UWPCom
 ## API
 
 * [FadeHeader source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/FadeHeader.cs)
-* [FadeHeader Behavior API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_Fade.htm)
+* [FadeHeader Behavior API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_FadeHeader.htm)
 

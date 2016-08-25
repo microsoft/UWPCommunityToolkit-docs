@@ -47,7 +47,7 @@ You can specify to start animation automatically upon loading (with Automaticall
 
 **FadeHeader**
 
-The FadeHeader animation behavior is a little different than the first four as it uses a ScrollViewer's Y offset to animate the fading of the Header UIElement. You only need to place it in the ListView or GridView, see the [FadeHeader]({{site.baseurl}}/{{page.lang}}/animations/fadeHeader.htm) documentation to learn more
+The FadeHeader animation behavior is a little different than the other animations as it uses a ListViewBase's ScrollViewer Y offset to animate the fading of the Header UIElement. You only need to place it in the ListView or GridView, see the [FadeHeader]({{site.baseurl}}/{{page.lang}}/animations/fadeHeader.htm) documentation to learn more
 
 {% highlight xml %}
 

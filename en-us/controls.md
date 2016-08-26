@@ -30,7 +30,6 @@ All of the controls also include templates so you can customize the look of them
 | [SlideableListItem Overview]({{site.baseurl}}/{{page.lang}}/controls/slidablelistitem.htm) | ContentControl providing functionality for sliding left or right to expose functions |
 | [BladeControl Overview]({{site.baseurl}}/{{page.lang}}/controls/BladeControl.htm) | Control that can split content in different panes, similar to Azure Portal |
 
-
 ## Getting Started
 
 Read the [getting Started with the UWP Community Toolkit]({{site.baseurl}}/{{page.lang}}/getting-started.htm) for instructions on using these controls in your own projects. 

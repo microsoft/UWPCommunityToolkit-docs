@@ -10,7 +10,7 @@ lang: en-us
 
 # ImageCache
 
-The **ImageCache** provides methods and tools to cache images in a temporary local folder.
+The **ImageCache** provides methods and tools to cache images in a temporary local folder. ImageCache also supports optional in-memory layer of caching, that provides better performance when same images are requested multiple times (like in long virtualized lists of images). This type of caching is disabled by default, but can be enabled by setting MaxMemoryCacheSize to desired size. For example: setting MaxMemoryCacheSize to 100 means that 100 last requested images will be held in memory to be instantly available, without disk reads.
 
 ## Example
 
@@ -29,6 +29,10 @@ The **ImageCache** provides methods and tools to cache images in a temporary loc
 
 	// Set cache duration
 	ImageCache.CacheDuration = TimeSpan.FromHours(24);
+	
+	// Enable in-memory caching
+	ImageCache.MaxMemoryCacheSize = 100;
+	
 
 {% endhighlight %}
 

@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
 
-## ConnectionHelper
+# ConnectionHelper
 
 The ConnectionHelper class is used to determine whether the app has Internet, and if it is on a metered Internet connection.
 

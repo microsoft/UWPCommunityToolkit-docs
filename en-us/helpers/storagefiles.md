@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
 
-## StorageFileHelper
+# StorageFileHelper
 
 The StorageFileHelper is a static utility class that provides functions to help with reading and writing of text and bytes to the disk.  These functions are all wrapped into Async tasks.
 

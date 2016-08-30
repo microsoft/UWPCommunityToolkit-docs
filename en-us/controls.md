@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
 
-# Controls
+# UWP Community toolkit list of Controls
 
 The UWP Community toolkit provides several full controls that you can add easily to your UWP application.
 

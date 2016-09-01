@@ -19,6 +19,7 @@ The UWP Community toolkit provides several services to help you add social compo
 | [Bing]({{site.baseurl}}/{{page.lang}}/services/bing.htm) | Query Bing for web results |
 | [Facebook]({{site.baseurl}}/{{page.lang}}/services/facebook.htm) | Very easy Facebook integration for UWP |
 | [Twitter]({{site.baseurl}}/{{page.lang}}/services/twitter.htm) | Twitter Service with minimal code in your app |
+| [MicrosoftGraph]({{site.baseurl}}/{{page.lang}}/services/MicrosoftGraph.htm) | MicrosoftGraph Service with minimal code in your app |
 
 
 ## Getting Started

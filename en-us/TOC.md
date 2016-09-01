@@ -57,6 +57,7 @@ lang: en-us
 
 - [Bing]({{site.baseurl}}/{{page.lang}}/services/bing.htm)
 - [Facebook]({{site.baseurl}}/{{page.lang}}/services/facebook.htm)
+- [Microsoft Graph]({{site.baseurl}}/{{page.lang}}/services/microsoftgraph.htm)
 - [Twitter]({{site.baseurl}}/{{page.lang}}/services/twitter.htm)
 
 ## API

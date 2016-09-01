@@ -1,8 +1,8 @@
 ---
-permalink: /en-US/Services/MicrosoftGraph.htm
+permalink: /en-US/services/microsoftgraph.htm
 title: MicrosoftGraph Service
-description: Easy add support for Office 365 Microsoft Graph API within your UWP Applications
-keywords: windows, app, toolkit, Microsoft Graph, Azure Active Directory, ADAL.NET, UWP 
+description: Easily add support for Office 365 Microsoft Graph API within your UWP Applications
+keywords: windows, Microsoft Graph, Azure Active Directory, ADAL.NET, UWP, O365  
 layout: api
 search.product: eADQiWindows 10XVcnh
 lang: en-us
@@ -10,10 +10,9 @@ lang: en-us
 
 # MicrosoftGraph Service
 
-
 The **MicrosoftGraph** Service aim to easily logon to Office 365 Service in order to: 
 
-* Retrieve User's Information
+* Retrieve User Information
 * Retrieve and Send emails
 
 ## Prerequisites
@@ -22,8 +21,8 @@ If you don't have one, you need to create an Office 365 Developer Site. There ar
 
 * [An MSDN subscription](https://msdn.microsoft.com/subscriptions/manage/default.aspx) - This is available to MSDN subscribers with Visual Studio Ultimate and Visual Studio Premium.
 * [An existing Office 365 subscription](https://msdn.microsoft.com/library/2ec857d5-dc6f-4cf6-ba45-adc845ef2a25%28Office.15%29.aspx) - You can use an existing Office 365 subscription, which can be any of the following: Office 365 Midsize Business, Office 365 Enterprise, Office 365 Education, Office 365 Government.
-* [Free trial](https://portal.office.com/Signup?OfferId=6881A1CB-F4EB-4db3-9F18-388898DAF510&DL=DEVELOPERPACK&ali=1) - You can start with a free 30-day trial, or buy an Office 365 developer subscription.
-* [Free Developper](http://dev.office.com/devprogram) - Or Get a One year free Office 365 Developer account
+* [Free O365 trial](https://portal.office.com/Signup?OfferId=6881A1CB-F4EB-4db3-9F18-388898DAF510&DL=DEVELOPERPACK&ali=1) - You can start with a free 30-day trial, or buy an Office 365 developer subscription.
+* [Free O365 Developer](http://dev.office.com/devprogram) - Or Get a One year free Office 365 Developer account
  
 ### 2. Register you application in Azure Active Directory
 
@@ -54,13 +53,11 @@ When you register your app in the [Azure Management Portal](manage.windowsazure.
 |Delegate Permissions |Sign in and read user profile, Read user mail and Send mail|
 
 
-
 ## Syntax
 
 ### Sign in with an Office 365 account
 
 {% highlight csharp %}
-
 
 // Initialize the service
 if (!MicrosoftGraphService.Instance.Initialize(ClientId.Text))

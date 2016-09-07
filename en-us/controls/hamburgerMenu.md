@@ -44,10 +44,13 @@ Developers can place menu specific content, navigation, images, text or custom c
 
 ## Example Code
 
+The following example shows you how to simply setup a HamburgerMemu using HamburgerMenuGlyphItem directly in your XAML code:
+
 [HamburgerMenu Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/HamburgerMenu)
 
-The following sample demonstrates how to add menu items to the HamburgerMenu control.
-If you want to enable navigation to specific pages from the hamburger menu, we recommend to declare a Frame in the Xaml content of the HamburgerMenu control.
+You can also create HamburgerMenuGlyphItem (or HamburgerMenuImageItem) directly from your code.
+
+The next sample demonstrates how to add custom menu items to the HamburgerMenu control.
 
 {% highlight xml %}
 
@@ -89,7 +92,7 @@ If you want to enable navigation to specific pages from the hamburger menu, we r
 
 {% endhighlight %}
 
-You can then navigate to the pages by using the following code.
+As you can see below, we declared a Frame inside the HamburgerMenu control. thanks to it, ou can navigate to your pages by using the following code.
 
 {% highlight csharp %}
 

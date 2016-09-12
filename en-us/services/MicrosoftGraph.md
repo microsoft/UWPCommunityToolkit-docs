@@ -16,7 +16,9 @@ The **MicrosoftGraph** Service aim to easily logon to Office 365 Service in orde
 * Retrieve and Send emails
 
 ## Prerequisites
+
 ### 1. Get and Office 365 Subscription
+
 If you don't have one, you need to create an Office 365 Developer Site. There are several ways to create one:
 
 * [An MSDN subscription](https://msdn.microsoft.com/subscriptions/manage/default.aspx) - This is available to MSDN subscribers with Visual Studio Ultimate and Visual Studio Premium.
@@ -156,7 +158,9 @@ await MicrosoftGraphService.Instance.UseR.Message.SendEmailAsync(subject, conten
 [MicrosoftGraph Service Sample Page](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.SampleApp/SamplePages/MicrosoftGraph%20Service)
 
 ### Requirements (Windows 10 Device Family)
-| [Device family](https://msdn.microsoft.com/windows/uwp/get-started/universal-application-platform-guide) | Universal, 10.0.10586.0 or higher | | Namespace | Microsoft.Toolkit.Uwp.Services |
+
+| [Device family](https://msdn.microsoft.com/windows/uwp/get-started/universal-application-platform-guide) | Universal, 10.0.10586.0 or higher |
+| Namespace | Microsoft.Toolkit.Uwp.Services |
 
 ### API
 * [MicrosoftGraph Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.Services/Services/MicrosoftGraph)

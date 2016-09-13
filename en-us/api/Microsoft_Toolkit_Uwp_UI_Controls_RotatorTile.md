@@ -62,6 +62,18 @@ Gets or sets the ItemsSource
 
 Gets or sets the item template
 
+#### RotationDelay
+
+Gets or sets the duration for tile rotation.
+
+
+
+#### ExtraRandomDuration
+
+Gets or sets the extra randomized duration to be added to the RotationDelay property.
+
+
+
 
 
 ### Fields

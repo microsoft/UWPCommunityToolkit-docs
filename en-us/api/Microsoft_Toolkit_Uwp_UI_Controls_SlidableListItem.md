@@ -118,6 +118,30 @@ Gets or sets a value indicating whether it has the ability to slide the control 
 
 
 
+#### IsLeftSwipeEnabled
+
+Gets or sets a value indicating whether swiping left is enabled or not.
+
+
+
+#### IsRightSwipeEnabled
+
+Gets or sets a value indicating whether swiping right is enabled or not.
+
+
+
+#### IsOffsetLimited
+
+Gets or sets a value indicating whether maximum swipe offset is limited or not.
+
+
+
+#### ExtraSwipeThreshold
+
+Gets or sets the amount of extra pixels for swipe threshold when IsOffsetLimited is enabled.
+
+
+
 ### Events
 
 #### RightCommandRequested

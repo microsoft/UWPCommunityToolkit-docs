@@ -8,13 +8,15 @@ search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
 
-# Getting started
+# UWP Community Toolkit Table of Contents
+
+## Getting started
 
 - [Get started with the UWP Community Toolkit]({{site.baseurl}}/{{page.lang}}/getting-started.htm)
 - [Add UI Controls to Visual Studio Toolbox]({{site.baseurl}}/{{page.lang}}/toolbox.htm)
 - [NuGet Packages]({{site.baseurl}}/{{page.lang}}/nugetpackages.htm)
 
-# Animations
+## Animations
 
 - [Blur]({{site.baseurl}}/{{page.lang}}/animations/blur.htm)
 - [Offset]({{site.baseurl}}/{{page.lang}}/animations/offset.htm)
@@ -22,7 +24,7 @@ lang: en-us
 - [Rotate]({{site.baseurl}}/{{page.lang}}/animations/rotate.htm)
 - [Scale]({{site.baseurl}}/{{page.lang}}/animations/scale.htm)
 
-# Controls
+## Controls
 
 - [AdaptiveGridView]({{site.baseurl}}/{{page.lang}}/controls/AdaptiveGridView.htm)
 - [BladeControl]({{site.baseurl}}/{{page.lang}}/controls/bladecontrol.htm)
@@ -35,7 +37,7 @@ lang: en-us
 - [RotatorTile]({{site.baseurl}}/{{page.lang}}/controls/RotatorTile.htm)
 - [SlideableListItem]({{site.baseurl}}/{{page.lang}}/controls/SlideableListItem.htm)
 
-# Helpers
+## Helpers
 
 - [Colors]({{site.baseurl}}/{{page.lang}}/helpers/colors.htm)
 - [Connection]({{site.baseurl}}/{{page.lang}}/helpers/connectionHelper.htm)
@@ -47,17 +49,18 @@ lang: en-us
 - [WeakEventListener]({{site.baseurl}}/{{page.lang}}/helpers/weakeventlistener.htm)
 
 
-# Notifications 
+## Notifications 
 
 - [Notifications Overview]({{site.baseurl}}/{{page.lang}}/notifications/notificationsOverview.htm)
 
-# Services
+## Services
 
 - [Bing]({{site.baseurl}}/{{page.lang}}/services/bing.htm)
 - [Facebook]({{site.baseurl}}/{{page.lang}}/services/facebook.htm)
+- [Microsoft Graph]({{site.baseurl}}/{{page.lang}}/services/microsoftgraph.htm)
 - [Twitter]({{site.baseurl}}/{{page.lang}}/services/twitter.htm)
 
-# API
+## API
 
 - [API Generated Docs]({{site.baseurl}}/{{page.lang}}/api.htm)
 

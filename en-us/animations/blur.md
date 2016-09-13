@@ -13,6 +13,8 @@ lang: en-us
 The **Blur animation behavior** selectively blurs a XAML element by increasing or decreasing pixel size.
 Sometimes you want an element to appear slightly out of focus, but to be familiar to the user from other locations within an app.  Rather than having to rasterize the XAML into an image and apply a blur, you can apply a BlurBehavior to the original element at run time. 
 
+**NOTE**:  This animation REQUIRES the [Windows 10 Anniversary SDK 14393](https://blogs.windows.com/windowsexperience/2016/07/18/build14393/) 10.0.14393.0 in order for it to work.  Also see the [AnimationExtensions.IsBlurSupported]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_AnimationExtensions.htm) property to detect if you are running on a machine tha supports the Blur animation.
+
 ## Syntax
 
 You can either use the blur behavior from your XAML code:

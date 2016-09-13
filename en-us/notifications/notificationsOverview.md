@@ -13,7 +13,7 @@ lang: en-us
 Adaptive Live Tiles and interactive Toasts are key engagement components of a UWP Application on Windows 10.  
 Instead of having to deal with XML, you can now use UWP Community toolkit and its notification extensions to work with Tiles and notifications using a complete object model.
 
-### Tiles
+## Tiles
 
 | Documentation |
 | --- |
@@ -22,18 +22,18 @@ Instead of having to deal with XML, you can now use UWP Community toolkit and it
 
 
 
-### Example Image
+## Example Image
 
 ![LiveTile]({{site.baseurl}}/resources/images/Notifications-LiveTile.gif "LiveTile")
 
-### Toasts
+## Toasts
 
 | Documentation |
 | --- |
 | [Interactive Toast Notifications](https://blogs.msdn.microsoft.com/tiles_and_toasts/2015/07/02/adaptive-and-interactive-toast-notifications-for-windows-10/) |
 | [Quickstart: Sending a local Toast notification](https://blogs.msdn.microsoft.com/tiles_and_toasts/2015/07/08/quickstart-sending-a-local-toast-notification-and-handling-activations-from-it-windows-10/) |
 
-### Example Image
+## Example Image
 
 ![Toast]({{site.baseurl}}/resources/images/Notifications-PopToast.gif "Toast")
 

@@ -8,7 +8,7 @@ search.product: eADQiWindows 10XVcnh
 lang: en-us
 ---
 
-# Getting Started
+# Getting Started with the UWP Community Toolkit
 
 The toolkit is available as NuGet packages that can be added to any existing or new project using Visual Studio.
 

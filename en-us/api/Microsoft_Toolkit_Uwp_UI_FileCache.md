@@ -11,6 +11,8 @@ search.product: eADQiWindows 10XVcnh
 # FileCache class
 
 Represents a cache of StorageFile objects that can be added to and removed as desired.
+The cache also provides in-memory storage of files to reduce reading from disc. The size of this in-memory storage is controlled by setting the ***MaxMemoryCacheCount*** property.
+The in-memory storage follows FIFO (first in first out) and the caller can pass optional parameter when calling ***PreCacheAsync*** to inform cache to use in-memory storage.
 
 ## Members
 

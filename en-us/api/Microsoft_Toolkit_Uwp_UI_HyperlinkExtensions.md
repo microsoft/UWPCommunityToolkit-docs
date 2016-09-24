@@ -12,7 +12,7 @@ search.product: eADQiWindows 10XVcnh
 
 [Hyperlink](https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.documents.hyperlink.aspx) instances are used with Textblock or RichTextblock.
 At present there is no way to bind the Hyperlink instance to an ICommand defined in ViewModel. 
-HyperlinkExtensions provides extension method that allows attaching a Command that is executed when the [Click](https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.documents.hyperlink.click.aspx) event occurs.
+HyperlinkExtensions provides an attached property that allows binding a Command that is executed when the [Click](https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.documents.hyperlink.click.aspx) event occurs.
 
 ## Members
 

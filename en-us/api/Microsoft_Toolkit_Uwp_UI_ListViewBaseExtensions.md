@@ -10,8 +10,8 @@ search.product: eADQiWindows 10XVcnh
 
 # ListViewBaseExtensions class
 
-At present there is no way to use ListViewBase's [ItemClick](https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.controls.listviewbase.itemclick.aspx) with MVVM.
-ListViewBaseExtensions provides extension method that allow attaching ICommand to handle ListViewBase Item interaction using ICommand
+At present there is no way to use [ItemClick](https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.controls.listviewbase.itemclick.aspx) event of ListViewBase with MVVM.
+ListViewBaseExtensions provides extension method that allow attaching ICommand to handle ListViewBase Item interaction using ICommand when ListViewBase [IsItemClickEnabled](https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.controls.listviewbase.isitemclickenabled.aspx) is set to true
 
 ## Members
 
@@ -21,8 +21,5 @@ The **ListViewBaseExtensions** class has the following types of members:
 
 #### Command
 
-Gets or sets ICommand instance. The command is executed when ListViewBase Item receives interaction.
-
-#### CommandParameter
-
-Gets or sets the parameter to pass to the Command property.
+Gets or sets ICommand instance. The command is executed when ListViewBase Item receives interaction provided ListViewBase IsItemClickEnabled is set to true.
+The ICommand is passed the Item that received the interaction.

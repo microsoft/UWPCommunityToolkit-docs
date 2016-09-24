@@ -12,7 +12,36 @@ lang: en-us
 
 The **SlideableListItem Control** is a UI control that enables actions to be triggered by sliding the content left or right. This effect can be forced to ignore the mouse if only touch screen interaction is desired.
 
-This control can be used as a ListView Data Template root to create effects similar to those common in mobile email apps like Outlook.  
+This control can be used as a ListView Data Template root to create effects similar to those common in mobile email apps like Outlook.
+
+The **LeftCommand** and the **LeftCommandRequested** event is executed when the control has been swiped to the right, and **RightCommand** and the **RightCommandRequested** event is executed when the control has been swiped to the left. If you need more detailed control you can subscribe to the **SwipeStatusChanged** event. This is triggered when swiping starts, stops, swiping below and above **ActivationWidth** and some other cases. The following code shows how to detect some important events:
+
+{% highlight csharp %}
+
+    private void SlidableListItem_SwipeStatusChanged(SlidableListItem sender, SwipeStatusChangedEventArgs args)
+    {
+        if (args.NewValue == SwipeStatus.Starting)
+        {
+            // Swiping starting
+        }
+        else if (args.NewValue == SwipeStatus.Idle)
+        {
+            if (args.OldValue == SwipeStatus.SwipingPassedLeftThreshold)
+            {
+                // Swiping to the left completed
+            }
+            else if (args.OldValue == SwipeStatus.SwipingPassedRightThreshold)
+            {
+                // Swiping to the right completed
+            }
+            else
+            {
+                // Swiping cancelled
+            }
+        }
+    }
+
+{% endhighlight %}
 
 ## Syntax
 

@@ -10,7 +10,7 @@ search.product: eADQiWindows 10XVcnh
 
 # InMemoryStorageItem<T> class
 
-Represents a strongly typed object that stored in InMemoryStorage<T>
+Represents a strongly typed object that is stored in instance of InMemoryStorage<T> class.
 
 ## Members
 
@@ -33,6 +33,6 @@ Gets the DateTime set when the item was created.
 
 #### Item
 
-Strongly typed instance of <T>
+Strongly typed instance of type <T>
 
 

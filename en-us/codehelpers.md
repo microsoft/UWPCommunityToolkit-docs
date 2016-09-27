@@ -19,11 +19,11 @@ Click the links below to go directly to that namespace in the online API.
 | [Colors]({{site.baseurl}}/{{page.lang}}/helpers/colors.htm) | Color conversion and utilities for handling colors |
 | [Connection]({{site.baseurl}}/{{page.lang}}/helpers/connectionHelper.htm) | Detection of Internet connectivity helper |
 | [Converters]({{site.baseurl}}/{{page.lang}}/helpers/converters.htm) | Helpers for conversion of binding data |
+| [Hyperlink]({{site.baseurl}}/{{page.lang}}/helpers/hyperlinkextensions.htm) | Allows for a Hyperlink element to invoke a bound ICommand instance |
 | [ImageCache]({{site.baseurl}}/{{page.lang}}/helpers/imagecache.htm) | Functions to help  cache of images to temp storage |
 | [StorageFiles]({{site.baseurl}}/{{page.lang}}/helpers/storagefiles.htm) | Helpers to work with files inside APPX or local storage |
 | [Streams]({{site.baseurl}}/{{page.lang}}/helpers/streams.htm) | Helpers for processing stream data from APPX or Internet |
 | [VisualTreeExtensions]({{site.baseurl}}/{{page.lang}}/helpers/visualtreeextensions.htm) | Provides a collection of extensions methods for UI |
-| [HyperlinkExtensions]({{site.baseurl}}/{{page.lang}}/helpers/hyperlinkextensions.htm) | Allows for a Hyperlink element to invoke a bound ICommand instance |
 | [WeakEventListener]({{site.baseurl}}/{{page.lang}}/helpers/weakeventlistener.htm) | Allows the owner to be garbage collected if its only remaining link is an event handler |
 
 

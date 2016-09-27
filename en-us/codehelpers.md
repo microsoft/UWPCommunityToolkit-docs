@@ -14,7 +14,6 @@ Click the links below to go directly to that namespace in the online API.
 
 | Link | Description |
 | --- | --- |
-
 | [Background Task]({{site.baseurl}}/{{page.lang}}/helpers/backgroundtask.htm) | Conditional background task helper |
 | [Colors]({{site.baseurl}}/{{page.lang}}/helpers/colors.htm) | Color conversion and utilities for handling colors |
 | [Connection]({{site.baseurl}}/{{page.lang}}/helpers/connectionHelper.htm) | Detection of Internet connectivity helper |

@@ -7,6 +7,7 @@ layout: api
 search.product: eADQiWindows 10XVcnh
 ---
 
+NOTE: This will be removed in next release
 
 # FadeHeader class
 
@@ -15,9 +16,6 @@ Performs an fade animation using composition.
 ## Members
 
 The **FadeHeader** class has the following types of members:
-
-
-
 
 ### Properties
 

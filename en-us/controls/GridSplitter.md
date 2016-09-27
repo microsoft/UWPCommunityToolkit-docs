@@ -142,5 +142,5 @@ The following sample demonstrates how to add Grid Splitter Control.
 ## API
 
 * [GridSplitter source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/GridSplitter)
-* [GridSplitter API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_GridSplitter.htm)
+
 

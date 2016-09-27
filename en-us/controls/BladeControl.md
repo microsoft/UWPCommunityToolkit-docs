@@ -66,5 +66,5 @@ The BladeControl provides a container to host blades as extra detail pages in, f
 ## API
 
 * [BladeControl source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/BladeControl)
-* [BladeControl API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_BladeControl.htm)
+
 

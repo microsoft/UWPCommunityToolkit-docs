@@ -17,6 +17,8 @@ The **MicrosoftGraph** Service aim to easily logon to Office 365 Service in orde
 
 ## Prerequisites
 
+NOTE: This API will not work on an XBOX UWP Application
+
 ### 1. Get and Office 365 Subscription
 
 If you don't have one, you need to create an Office 365 Developer Site. There are several ways to create one:

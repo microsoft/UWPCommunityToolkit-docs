@@ -39,6 +39,7 @@ lang: en-us
 
 ## Helpers
 
+- [Background Task]({{site.baseurl}}/{{page.lang}}/helpers/backgroundtask.htm)
 - [Colors]({{site.baseurl}}/{{page.lang}}/helpers/colors.htm)
 - [Connection]({{site.baseurl}}/{{page.lang}}/helpers/connectionHelper.htm)
 - [Converters]({{site.baseurl}}/{{page.lang}}/helpers/converters.htm)

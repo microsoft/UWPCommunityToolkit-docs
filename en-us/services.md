@@ -23,7 +23,7 @@ The UWP Community toolkit provides several services to help you add social compo
 | [MicrosoftGraph]({{site.baseurl}}/{{page.lang}}/services/MicrosoftGraph.htm) | MicrosoftGraph Service with minimal code in your app |
 
 
-## Getting Started
+## Getting Started with the UWP Community Toolkit
 
 Read the [getting Started with the UWP Community Toolkit]({{site.baseurl}}/{{page.lang}}/getting-started.htm) for instructions on using this toolkit in your own projects. 
 

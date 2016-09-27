@@ -43,11 +43,11 @@ lang: en-us
 - [Colors]({{site.baseurl}}/{{page.lang}}/helpers/colors.htm)
 - [Connection]({{site.baseurl}}/{{page.lang}}/helpers/connectionHelper.htm)
 - [Converters]({{site.baseurl}}/{{page.lang}}/helpers/converters.htm)
+- [HyperlinkExtensions]({{site.baseurl}}/{{page.lang}}/helpers/hyperlinkextensions.htm)
 - [ImageCache]({{site.baseurl}}/{{page.lang}}/helpers/imagecache.htm)
 - [StorageFiles]({{site.baseurl}}/{{page.lang}}/helpers/storagefiles.htm)
 - [Streams]({{site.baseurl}}/{{page.lang}}/helpers/streams.htm)
 - [VisualTreeExtensions]({{site.baseurl}}/{{page.lang}}/helpers/visualtreeextensions.htm)
-- [HyperlinkExtensions]({{site.baseurl}}/{{page.lang}}/helpers/hyperlinkextensions.htm)
 - [WeakEventListener]({{site.baseurl}}/{{page.lang}}/helpers/weakeventlistener.htm)
 
 

@@ -111,5 +111,5 @@ Please view the [toolkit sample application](https://github.com/Microsoft/UWPCom
 ## API
 
 * [FadeHeader source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/FadeHeader.cs)
-* [FadeHeader Behavior API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Animations_Behaviors_FadeHeader.htm)
+
 

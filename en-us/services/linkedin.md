@@ -55,8 +55,6 @@ await LinkedInService.Instance.ShareActivityAsync(ShareText.Text);
 ## API
 
 * [LinkedIn Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.Services/Services/LinkedIn)
-* [LinkedIn Service API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_Services_LinkedIn_LinkedInService.htm)
-
 
 ## NuGet Packages Required
 

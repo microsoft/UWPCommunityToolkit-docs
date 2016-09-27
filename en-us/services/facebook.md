@@ -112,7 +112,6 @@ await FacebookService.Instance.GetUserPhotosByAlbumIdAsync(album.Id);
 ## API
 
 * [Facebook Service source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.Services/Services/Facebook)
-* [Facebook Service API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_Services_Facebook_FacebookService.htm)
 
 
 ## NuGet Packages Required

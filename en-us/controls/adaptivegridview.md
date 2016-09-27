@@ -44,5 +44,5 @@ The **AdaptiveGridView Control** presents items in a evenly-spaced set of column
 ## API
 
 * [AdaptiveGridView source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/AdaptiveGridView)
-* [AdaptiveGridView API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_AdaptiveGridView.htm)
+
 

@@ -84,5 +84,5 @@ and using it like that :
 ## API
 
 * [Converters source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI/Converters)
-* [Converters API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Converters_ConverterTools.htm)
+
 

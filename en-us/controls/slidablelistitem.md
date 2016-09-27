@@ -89,5 +89,4 @@ The **LeftCommand** and the **LeftCommandRequested** event is executed when the 
 ## API
 
 * [SlidableListItem source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/SlidableListItem)
-* [SlidableListItem API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_SlidableListItem.htm)
 

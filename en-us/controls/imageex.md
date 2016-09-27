@@ -45,5 +45,4 @@ You can also use a placeholder image that will be displayed will loading the mai
 ## API
 
 * [ImageEx source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/ImageEx)
-* [ImageEx API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_ImageEx.htm)
 

@@ -33,4 +33,4 @@ The **HyperlinkExtensions** allows for a Hyperlink element to invoke the execute
 ## API
 
 * [HyperlinkExtensions source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/dev/Microsoft.Toolkit.Uwp.UI/Extensions/HyperlinkExtensions.cs)
-* [HyperlinkExtensions API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_HyperlinkExtensions.htm)
+

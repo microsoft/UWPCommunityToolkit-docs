@@ -157,5 +157,5 @@ namespace HamburgerSample
 ## API
 
 * [HamburgerMenu source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/HamburgerMenu)
-* [HamburgerMenu API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_HamburgerMenu.htm)
+
 

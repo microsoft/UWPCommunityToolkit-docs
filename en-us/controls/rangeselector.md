@@ -70,4 +70,3 @@ This is because by default, the ScrollViewer will block the thumbs of the RangeS
 ## API
 
 * [RangeSelector source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/RangeSelector)
-* [RangeSelector API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_RangeSelector.htm)

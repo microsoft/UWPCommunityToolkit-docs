@@ -59,5 +59,4 @@ The Radial Gauge supports animated transitions between configuration states. The
 ## API
 
 * [RadialGauge source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/RadialGauge)
-* [RadialGauge API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_RadialGauge.htm)
 

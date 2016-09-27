@@ -49,5 +49,4 @@ You can find more examples in our [unit tests](https://github.com/Microsoft/UWPC
 ## API
 
 * [Stream Helper source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/StreamHelper.cs)
-* [Stream File Helper API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_StreamHelper.htm)
 

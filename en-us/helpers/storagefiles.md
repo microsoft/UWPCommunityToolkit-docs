@@ -43,4 +43,4 @@ You can find more examples in our [unit tests](https://github.com/Microsoft/UWPC
 
 ## API
 * [Storage File Helper source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/StorageFileHelper.cs)
-* [Storage File Helper API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_StorageFileHelper.htm)
+

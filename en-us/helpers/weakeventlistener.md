@@ -24,5 +24,5 @@ You can find examples of WeakEventListener in our [unit tests](https://github.co
 ## API
 
 * [WeakEventListener source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp/Helpers/WeakEventListener.cs)
-* [WeakEventListener API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_ColorHelper.htm)
+
 

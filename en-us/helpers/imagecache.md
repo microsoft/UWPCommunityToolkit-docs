@@ -45,5 +45,5 @@ The **ImageCache** provides methods and tools to cache images in a temporary loc
 ## API
 
 * [ImageCache source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI/ImageCache/ImageCache.cs)
-* [ImageCache API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_ImageCache.htm)
+
 

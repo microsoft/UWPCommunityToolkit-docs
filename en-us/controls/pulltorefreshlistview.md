@@ -48,4 +48,3 @@ This control is very common on mobile devices, where the user can pull from the 
 ## API
 
 * [PullToRefreshListView source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/PullToRefreshListView)
-* [PullToRefreshListView API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_PullToRefreshListView.htm)

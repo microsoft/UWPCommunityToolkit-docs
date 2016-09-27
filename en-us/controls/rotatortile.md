@@ -45,5 +45,4 @@ The **Rotator Tile Control** is an ItemsControl that rotates through a set of it
 ## API
 
 * [RotatorTile source code](https://github.com/Microsoft/UWPCommunityToolkit/tree/master/Microsoft.Toolkit.Uwp.UI.Controls/RotatorTile)
-* [RotatorTile API documentation]({{site.baseurl}}/{{page.lang}}/api/Microsoft_Toolkit_Uwp_UI_Controls_RotatorTile.htm)
 

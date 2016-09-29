@@ -14,6 +14,8 @@ The **PullToRefreshListView Control**, is derived from the built-in List View in
 
 This control is very common on mobile devices, where the user can pull from the top to force a content refresh in applications like Twitter. 
 
+By default, the control uses the properties *PullToRefreshLabel* and *ReleaseToRefreshLabel* to provide a visual indication to the user. The *RefreshIndicatorContent* can be used with the *PullProgressChanged* event to provide a custom visual for the user.
+
 ## Syntax
 
 {% highlight xml %}

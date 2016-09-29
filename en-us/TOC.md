@@ -45,7 +45,7 @@ lang: en-us
 - [Streams]({{site.baseurl}}/{{page.lang}}/helpers/streams.htm)
 - [VisualTreeExtensions]({{site.baseurl}}/{{page.lang}}/helpers/visualtreeextensions.htm)
 - [WeakEventListener]({{site.baseurl}}/{{page.lang}}/helpers/weakeventlistener.htm)
-
+- [Storage]({{site.baseurl}}/{{page.lang}}/helpers/storage.htm)
 
 # Notifications 
 

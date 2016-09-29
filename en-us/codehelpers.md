@@ -22,7 +22,7 @@ Click the links below to go directly to that namespace in the online API.
 | [Streams]({{site.baseurl}}/{{page.lang}}/helpers/streams.htm) | Helpers for processing stream data from APPX or Internet |
 | [VisualTreeExtensions]({{site.baseurl}}/{{page.lang}}/helpers/visualtreeextensions.htm) | Provides a collection of extensions methods for UI |
 | [WeakEventListener]({{site.baseurl}}/{{page.lang}}/helpers/weakeventlistener.htm) | Allows the owner to be garbage collected if its only remaining link is an event handler |
-
+| [Storage]({{site.baseurl}}/{{page.lang}}/helpers/storage.htm) | Helpers to save and retrieve generic objects easily, supports both local and roaming storage |
 
 ## Getting Started
 

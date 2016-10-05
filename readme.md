@@ -5,8 +5,9 @@ UWP Community Toolkit Documentation
 
 This is the **OLD** repository is for the UWP Community Toolkit documentation. Look in the main repository and you will see a \docs\ directory.  Those are the new docs.
 
-You can find a live version of the current docs [here](https://www.uwpcommunitytoolkit.com).  
+You can find a live version of the current docs [here](http://www.uwpcommunitytoolkit.com).  
 
+All docs are in the [main repository](https://github.com/Microsoft/UWPCommunityToolkit).
 
 PLEASE MAKE NO CHANGES IN THIS REPO
 

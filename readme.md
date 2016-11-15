@@ -9,9 +9,7 @@ You can find a live version of the current docs [here](http://www.uwpcommunityto
 
 All docs are in the [main repository](https://github.com/Microsoft/UWPCommunityToolkit).
 
-PLEASE MAKE NO CHANGES IN THIS REPO
-
-
+**PLEASE MAKE NO CHANGES IN THIS REPOSITORY**
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments. 
 

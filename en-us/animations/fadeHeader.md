@@ -110,6 +110,6 @@ Please view the [toolkit sample application](https://github.com/Microsoft/UWPCom
 
 ## API
 
-* [FadeHeader source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/FadeHeader.cs)
+* [FadeHeader source code](https://github.com/Microsoft/UWPCommunityToolkit/blob/master/Microsoft.Toolkit.Uwp.UI.Animations/Behaviors/FadeHeaderBehavior.cs)
 
 
